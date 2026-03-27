@@ -1,0 +1,136 @@
+From 3b9366cacdf206a2fb961aabd9a58c8613c875a9 Mon Sep 17 00:00:00 2001
+From: Alicia Codex <alicia@schlaile.de>
+Date: Fri, 27 Mar 2026 18:11:08 +0100
+Subject: [PATCH] Add project calendar profile menu item
+
+---
+ src/__phutil_library_map__.php                |  2 +
+ .../PhabricatorProjectProfileMenuEngine.php   |  4 ++
+ ...bricatorProjectCalendarProfileMenuItem.php | 67 +++++++++++++++++++
+ .../project/storage/PhabricatorProject.php    |  1 +
+ 4 files changed, 74 insertions(+)
+ create mode 100644 src/applications/project/menuitem/PhabricatorProjectCalendarProfileMenuItem.php
+
+diff --git a/src/__phutil_library_map__.php b/src/__phutil_library_map__.php
+index c84f8155b9..5fcd8a25d1 100644
+--- a/src/__phutil_library_map__.php
++++ b/src/__phutil_library_map__.php
+@@ -4380,6 +4380,7 @@ phutil_register_library_map(array(
+     'PhabricatorProjectBoardViewController' => 'applications/project/controller/PhabricatorProjectBoardViewController.php',
+     'PhabricatorProjectBuiltinsExample' => 'applications/uiexample/examples/PhabricatorProjectBuiltinsExample.php',
+     'PhabricatorProjectBurndownChartEngine' => 'applications/project/chart/PhabricatorProjectBurndownChartEngine.php',
++    'PhabricatorProjectCalendarProfileMenuItem' => 'applications/project/menuitem/PhabricatorProjectCalendarProfileMenuItem.php',
+     'PhabricatorProjectCardView' => 'applications/project/view/PhabricatorProjectCardView.php',
+     'PhabricatorProjectColorTransaction' => 'applications/project/xaction/PhabricatorProjectColorTransaction.php',
+     'PhabricatorProjectColorsConfigType' => 'applications/project/config/PhabricatorProjectColorsConfigType.php',
+@@ -11077,6 +11078,7 @@ phutil_register_library_map(array(
+     'PhabricatorProjectBoardViewController' => 'PhabricatorProjectBoardController',
+     'PhabricatorProjectBuiltinsExample' => 'PhabricatorUIExample',
+     'PhabricatorProjectBurndownChartEngine' => 'PhabricatorChartEngine',
++    'PhabricatorProjectCalendarProfileMenuItem' => 'PhabricatorProfileMenuItem',
+     'PhabricatorProjectCardView' => 'AphrontTagView',
+     'PhabricatorProjectColorTransaction' => 'PhabricatorProjectTransactionType',
+     'PhabricatorProjectColorsConfigType' => 'PhabricatorJSONConfigType',
+diff --git a/src/applications/project/engine/PhabricatorProjectProfileMenuEngine.php b/src/applications/project/engine/PhabricatorProjectProfileMenuEngine.php
+index 5ce4a3001b..682a88c823 100644
+--- a/src/applications/project/engine/PhabricatorProjectProfileMenuEngine.php
++++ b/src/applications/project/engine/PhabricatorProjectProfileMenuEngine.php
+@@ -37,6 +37,10 @@ final class PhabricatorProjectProfileMenuEngine
+       ->setBuiltinKey(PhabricatorProject::ITEM_WORKBOARD)
+       ->setMenuItemKey(PhabricatorProjectWorkboardProfileMenuItem::MENUITEMKEY);
+ 
++    $items[] = $this->newItem()
++      ->setBuiltinKey(PhabricatorProject::ITEM_CALENDAR)
++      ->setMenuItemKey(PhabricatorProjectCalendarProfileMenuItem::MENUITEMKEY);
++
+     $items[] = $this->newItem()
+       ->setBuiltinKey(PhabricatorProject::ITEM_REPORTS)
+       ->setMenuItemKey(PhabricatorProjectReportsProfileMenuItem::MENUITEMKEY);
+diff --git a/src/applications/project/menuitem/PhabricatorProjectCalendarProfileMenuItem.php b/src/applications/project/menuitem/PhabricatorProjectCalendarProfileMenuItem.php
+new file mode 100644
+index 0000000000..28bbe0d698
+--- /dev/null
++++ b/src/applications/project/menuitem/PhabricatorProjectCalendarProfileMenuItem.php
+@@ -0,0 +1,67 @@
++<?php
++
++final class PhabricatorProjectCalendarProfileMenuItem
++  extends PhabricatorProfileMenuItem {
++
++  const MENUITEMKEY = 'project.calendar';
++
++  public function getMenuItemTypeName() {
++    return pht('Project Calendar');
++  }
++
++  private function getDefaultName() {
++    return pht('Calendar');
++  }
++
++  public function getMenuItemTypeIcon() {
++    return 'fa-calendar';
++  }
++
++  public function shouldEnableForObject($object) {
++    $viewer = $this->getViewer();
++
++    $class = PhabricatorCalendarApplication::class;
++    return PhabricatorApplication::isClassInstalledForViewer($class, $viewer);
++  }
++
++  public function getDisplayName(
++    PhabricatorProfileMenuItemConfiguration $config) {
++    $name = $config->getMenuItemProperty('name');
++
++    if (phutil_nonempty_string($name)) {
++      return $name;
++    }
++
++    return $this->getDefaultName();
++  }
++
++  public function buildEditEngineFields(
++    PhabricatorProfileMenuItemConfiguration $config) {
++    return array(
++      id(new PhabricatorTextEditField())
++        ->setKey('name')
++        ->setLabel(pht('Name'))
++        ->setPlaceholder($this->getDefaultName())
++        ->setValue($config->getMenuItemProperty('name')),
++    );
++  }
++
++  protected function newMenuItemViewList(
++    PhabricatorProfileMenuItemConfiguration $config) {
++    $project = $config->getProfileObject();
++
++    $uri = urisprintf(
++      '/calendar/?isCancelled=active&projects=%s#R',
++      $project->getPHID());
++
++    $item = $this->newItemView()
++      ->setURI($uri)
++      ->setName($this->getDisplayName($config))
++      ->setIcon('fa-calendar');
++
++    return array(
++      $item,
++    );
++  }
++
++}
+diff --git a/src/applications/project/storage/PhabricatorProject.php b/src/applications/project/storage/PhabricatorProject.php
+index c84e709e07..6aed16817d 100644
+--- a/src/applications/project/storage/PhabricatorProject.php
++++ b/src/applications/project/storage/PhabricatorProject.php
+@@ -59,6 +59,7 @@ final class PhabricatorProject extends PhabricatorProjectDAO
+   const ITEM_PROFILE = 'project.profile';
+   const ITEM_POINTS = 'project.points';
+   const ITEM_WORKBOARD = 'project.workboard';
++  const ITEM_CALENDAR = 'project.calendar';
+   const ITEM_REPORTS = 'project.reports';
+   const ITEM_MEMBERS = 'project.members';
+   const ITEM_MANAGE = 'project.manage';
+-- 
+2.47.3
+
