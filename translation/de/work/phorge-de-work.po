@@ -7500,9 +7500,9 @@ msgstr "Schon unterschrieben"
 msgid "This badge does not have any recipients."
 msgstr "Dieses Projekt hat keine Mitglieder."
 
-#, fuzzy, php-format
+#, php-format
 msgid "Awarded by %s on %s"
-msgstr "Hochgeladen von %s am %s."
+msgstr "Verliehen von %s am %s"
 
 msgid "Remove"
 msgstr "Entfernen"
@@ -8141,9 +8141,9 @@ msgstr "Termine"
 msgid "This event instance has not been created yet. Log in to create it."
 msgstr ""
 
-#, fuzzy, php-format
+#, php-format
 msgid "Hosted by %s on %s."
-msgstr "Hochgeladen von %s am %s."
+msgstr "Veranstaltet von %s am %s."
 
 msgid "Accept"
 msgstr "Annehmen"
@@ -16377,9 +16377,9 @@ msgstr "Anwendungsstarter"
 msgid "Edit Countdown"
 msgstr "Countdown ändern"
 
-#, fuzzy, php-format
+#, php-format
 msgid "Authored by %s on %s."
-msgstr "Erstellt von %s"
+msgstr "Verfasst von %s am %s."
 
 msgid "Countdowns"
 msgstr "Countdowns"
@@ -30992,7 +30992,7 @@ msgstr "Hochgeladen von %s am %s."
 
 #, php-format
 msgid "Uploaded on %s"
-msgstr "Hochgeladen von %s"
+msgstr "Hochgeladen am %s"
 
 #, fuzzy
 msgid "Upload a File"
@@ -37439,9 +37439,9 @@ msgstr ""
 msgid "Masterfully imagined by %s in ages long past."
 msgstr ""
 
-#, fuzzy, php-format
+#, php-format
 msgid "Masterfully imagined by %s on %s."
-msgstr "Hochgeladen von %s am %s."
+msgstr "Meisterhaft ersonnen von %s am %s."
 
 msgid "Loop"
 msgstr ""
@@ -43805,9 +43805,9 @@ msgstr ""
 msgid "Show Secret"
 msgstr ""
 
-#, fuzzy, php-format
+#, php-format
 msgid "Created by %s on %s."
-msgstr "Erstellt von %s"
+msgstr "Erstellt von %s am %s."
 
 msgid "Locked Permanently"
 msgstr ""
@@ -47109,7 +47109,7 @@ msgstr "Alle Entwürfe"
 
 #, php-format
 msgid "By %s on %s"
-msgstr "Von %s über %s"
+msgstr "Von %s am %s"
 
 #, fuzzy
 msgid "Create a Mock"
