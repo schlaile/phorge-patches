@@ -7116,18 +7116,16 @@ msgid "Badges"
 msgstr "Auszeichnungen"
 
 msgid "Achievements and Notoriety"
-msgstr ""
+msgstr "Erfolge und Ruhm"
 
 msgid "Build self esteem through gamification."
-msgstr ""
+msgstr "Poliere Dein Selbstwertgefühl mit einer Prise Gamification auf."
 
-#, fuzzy
 msgid "Default create policy for badges."
-msgstr "Vorgabe Anzeige-Benutzerrichtlinie für neue Umfragen."
+msgstr "Standard-Erstellungsrichtlinie für Auszeichnungen."
 
-#, fuzzy
 msgid "Default edit policy for badges."
-msgstr "Standard Editier-Richtline für neu erzeugte Zonen."
+msgstr "Standard-Bearbeitungsrichtlinie für Auszeichnungen."
 
 msgid "Can Create Badges"
 msgstr "Darf Auszeichnungen erstellen"
@@ -7139,20 +7137,20 @@ msgid "Default Edit Badges"
 msgstr "Auszeichnungen standardmäßig bearbeiten"
 
 msgid "Apply transactions to create a new badge or edit an existing one."
-msgstr ""
+msgstr "Transaktionen anwenden, um eine neue Auszeichnung zu erstellen oder eine bestehende zu bearbeiten."
 
 msgid "Read information about badges."
-msgstr ""
+msgstr "Informationen über Auszeichnungen abrufen."
 
-#, fuzzy, php-format
+#, php-format
 msgid "Unknown Quality (\"%s\")"
-msgstr "Unbekannte Aktion \"%s\""
+msgstr "Unbekannte Qualität (\"%s\")"
 
 msgid "Poor"
 msgstr "Bescheiden"
 
 msgid "Common"
-msgstr ""
+msgstr "Gewöhnlich"
 
 msgid "Uncommon"
 msgstr "Ungewöhnlich"
@@ -7167,29 +7165,28 @@ msgid "Legendary"
 msgstr "Legendär"
 
 msgid "Heirloom"
-msgstr ""
+msgstr "Erbstück"
 
-#, fuzzy
 msgid "Activate Badge"
-msgstr "Panel aktivieren"
+msgstr "Auszeichnung aktivieren"
 
-#, fuzzy
 msgid "This badge will be re-commissioned into service."
-msgstr "Dieses Bild wird vom Entwurf entfernt."
+msgstr "Diese Auszeichnung wird wieder in den Dienst gestellt."
 
-#, fuzzy
 msgid "Archive Badge"
-msgstr "Panel archivieren"
+msgstr "Auszeichnung archivieren"
 
 msgid ""
 "This dedicated badge, once a distinguish icon of this install, shall be "
 "immediately retired from service, but will never far from our hearts. "
 "Godspeed."
 msgstr ""
+"Diese treue Auszeichnung, einst ein markantes Wahrzeichen dieser "
+"Installation, wird hiermit mit sofortiger Wirkung in den Ruhestand "
+"verabschiedet, bleibt unseren Herzen aber für immer erhalten. Mach's gut."
 
-#, fuzzy
 msgid "Badge name is required."
-msgstr "Benötige einen Dateinamen."
+msgstr "Der Name der Auszeichnung ist erforderlich."
 
 msgid "Badge"
 msgstr "Auszeichnung"
@@ -7200,9 +7197,8 @@ msgstr "Auszeichnung verleihen"
 msgid "Award"
 msgstr "Verleihen"
 
-#, fuzzy
 msgid "Recipient name is required."
-msgstr "Der Termin braucht einen Namen."
+msgstr "Ein Trägername ist erforderlich."
 
 msgid "Recipients"
 msgstr "Träger"
@@ -7216,13 +7212,12 @@ msgstr "Auszeichnung anzeigen"
 msgid "View Recipients"
 msgstr "Träger anzeigen"
 
-#, fuzzy
 msgid "Really Revoke Badge?"
-msgstr "Wirklich Mitglied entfernen?"
+msgstr "Auszeichnung wirklich entziehen?"
 
-#, fuzzy, php-format
+#, php-format
 msgid "Really revoke the badge \"%s\" from %s?"
-msgstr "Den Branch \"%s\" wirklich wieder öffnen?"
+msgstr "%2$s die Auszeichnung \"%1$s\" wirklich entziehen?"
 
 msgid "Revoke Badge"
 msgstr "Auszeichnung entziehen"
@@ -7230,12 +7225,11 @@ msgstr "Auszeichnung entziehen"
 msgid "Edit Badge"
 msgstr "Auszeichnung bearbeiten"
 
-#, fuzzy
 msgid "Configure Badges Forms"
-msgstr "Editor konfigurieren"
+msgstr "Formulare für Auszeichnungen konfigurieren"
 
 msgid "Configure creation and editing forms in Badges."
-msgstr ""
+msgstr "Formulare zum Erstellen und Bearbeiten von Auszeichnungen konfigurieren."
 
 msgid "Create New Badge"
 msgstr "Neue Auszeichnung erstellen"
@@ -7247,197 +7241,178 @@ msgstr "Auszeichnung bearbeiten: %s"
 msgid "Create Badge"
 msgstr "Auszeichnung erstellen"
 
-#, fuzzy
 msgid "Render Honors"
-msgstr "Spalten neu anordnen"
+msgstr "Ehrerbietung erweisen"
 
 msgid "Salute"
-msgstr ""
+msgstr "Salutieren"
 
 msgid "Badge name."
 msgstr "Name der Auszeichnung."
 
-#, fuzzy
 msgid "New badge name."
-msgstr "Neuer Benutzername"
+msgstr "Neuer Name der Auszeichnung."
 
-#, fuzzy
 msgid "Flavor Text"
-msgstr "Unformatierter Text"
+msgstr "Flavortext"
 
-#, fuzzy
 msgid "Short description of the badge."
-msgstr "Projekt Kurzbeschreibung."
+msgstr "Kurze Beschreibung der Auszeichnung."
 
-#, fuzzy
 msgid "New badge flavor."
-msgstr "Neue Regel für"
+msgstr "Neuer Flavortext der Auszeichnung."
 
 msgid "Icon"
-msgstr ""
+msgstr "Symbol"
 
-#, fuzzy
 msgid "Change the badge icon."
-msgstr "Ändere den Status einer Aufgabe."
+msgstr "Das Symbol der Auszeichnung ändern."
 
 msgid "New badge icon."
-msgstr ""
+msgstr "Neues Symbol der Auszeichnung."
 
 msgid "Quality"
-msgstr ""
+msgstr "Qualität"
 
 msgid "Color and rarity of the badge."
-msgstr ""
+msgstr "Farbe und Seltenheit der Auszeichnung."
 
 msgid "New badge quality."
-msgstr ""
+msgstr "Neue Qualität der Auszeichnung."
 
-#, fuzzy
 msgid "Badge long description."
-msgstr "%s hat die Entwurfsbeschreibung geändert."
+msgstr "Ausführliche Beschreibung der Auszeichnung."
 
-#, fuzzy
 msgid "New badge description."
-msgstr "Beschreibung der Regel"
+msgstr "Neue Beschreibung der Auszeichnung."
 
 msgid "New badge award recipients."
-msgstr ""
+msgstr "Neue Träger dieser Auszeichnung."
 
 msgid "Award Recipients"
 msgstr "Träger auszeichnen"
 
 msgid "Revoke badge award recipients."
-msgstr ""
+msgstr "Träger, denen diese Auszeichnung entzogen werden soll."
 
 msgid "Revoke Recipients"
 msgstr "Trägern Auszeichnung entziehen"
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s created this badge."
-msgstr "%s hat dieses Panel erzeugt."
+msgstr "%s hat diese Auszeichnung erstellt."
 
-#, fuzzy
 msgid "Someone changes the badge's details."
-msgstr "Jemand hat eine Aufgabe kommentiert."
+msgstr "Jemand ändert die Details der Auszeichnung."
 
-#, fuzzy
 msgid "Someone comments on a badge."
-msgstr "Jemand hat eine Aufgabe kommentiert."
+msgstr "Jemand kommentiert eine Auszeichnung."
 
 msgid "Other badge activity not listed above occurs."
-msgstr ""
+msgstr "Andere oben nicht aufgeführte Aktivitäten an Auszeichnungen treten auf."
 
-#, fuzzy, php-format
+#, php-format
 msgid "Badge %d: %s"
-msgstr "Bild %d: %s"
+msgstr "Auszeichnung %d: %s"
 
-#, fuzzy
 msgid "BADGE DETAIL"
-msgstr "ANTWORT DETAILS"
+msgstr "AUSZEICHNUNGSDETAIL"
 
 msgid "[Badge]"
-msgstr ""
+msgstr "[Auszeichnung]"
 
-#, fuzzy
 msgid "Choose Badge Icon"
-msgstr "Icon auswählen"
+msgstr "Symbol für Auszeichnung wählen"
 
 msgid "Superstar"
-msgstr ""
+msgstr "Superstar"
 
 msgid "Average Person"
-msgstr ""
+msgstr "Durchschnittsmensch"
 
 msgid "Ladybug"
-msgstr ""
+msgstr "Marienkaefer"
 
 msgid "Triplets"
-msgstr ""
+msgstr "Drillinge"
 
 msgid "Nominomicon"
-msgstr ""
+msgstr "Nominomicon"
 
 msgid "Escape Route"
-msgstr ""
+msgstr "Fluchtweg"
 
 msgid "Foam Circle"
-msgstr ""
+msgstr "Schaumring"
 
-#, fuzzy
 msgid "Cake Day"
-msgstr "Nächster Tag"
+msgstr "Kuchentag"
 
 msgid "Leica Enthusiast"
-msgstr ""
+msgstr "Leica-Enthusiast"
 
 msgid "Liquid Lunch"
-msgstr ""
+msgstr "Fluessiges Mittagessen"
 
-#, fuzzy
 msgid "Free Stuff"
-msgstr "Dinge Kaufen"
+msgstr "Gratiszeug"
 
 msgid "Eye See You"
-msgstr ""
+msgstr "Ich seh Dich"
 
 msgid "Love is Love"
-msgstr ""
+msgstr "Liebe ist Liebe"
 
 msgid "Winner at Things"
-msgstr ""
+msgstr "Gewinnt bei Dingen"
 
 msgid "Rain Defender"
-msgstr ""
+msgstr "Regenabwehr"
 
 msgid "In Debt"
-msgstr ""
+msgstr "Verschuldet"
 
 msgid "The Empire"
-msgstr ""
+msgstr "Das Imperium"
 
-#, fuzzy
 msgid "First Order"
-msgstr "Aufträge zeigen"
+msgstr "Erste Ordnung"
 
 msgid "Rebel"
-msgstr ""
+msgstr "Rebell"
 
-#, fuzzy
 msgid "Star Ship"
-msgstr "Anfangszeit"
+msgstr "Sternenschiff"
 
-#, fuzzy
 msgid "Anchors Away"
-msgstr "Frage abfeuern!"
+msgstr "Anker lichten"
 
-#, fuzzy
 msgid "Coder"
-msgstr "Code"
+msgstr "Coder"
 
 msgid "Serious Business"
 msgstr "Total Ernsthafte Geschichte(tm)"
 
 msgid "International"
-msgstr ""
+msgstr "International"
 
 msgid "Glowing Rectangle"
-msgstr ""
+msgstr "Leuchtendes Rechteck"
 
 msgid "Badges Award"
-msgstr ""
+msgstr "Auszeichnungsverleihung"
 
-#, fuzzy
 msgid "Rarity (Rarest First)"
-msgstr "Erstellungsdatum (Neueste zuerst)"
+msgstr "Seltenheit (seltenste zuerst)"
 
 msgid "Rarity (Most Common First)"
-msgstr ""
+msgstr "Seltenheit (gewöhnlichste zuerst)"
 
 msgid "Search for badges by name substring."
-msgstr ""
+msgstr "Nach Auszeichnungen anhand eines Namensbestandteils suchen."
 
 msgid "Search for active or archived badges."
-msgstr ""
+msgstr "Nach aktiven oder archivierten Auszeichnungen suchen."
 
 msgid "Active Badges"
 msgstr "Aktive Auszeichnungen"
@@ -7458,15 +7433,14 @@ msgid ""
 "Badges let you award and distinguish special users throughout your install."
 msgstr "Mit Auszeichnungen kannst Du in Deiner Installation besondere Benutzer hervorheben und ehren."
 
-#, fuzzy
 msgid "The name of the badge."
-msgstr "Der neue Pfad des Dokuments."
+msgstr "Der Name der Auszeichnung."
 
 msgid "User PHID of the creator."
-msgstr ""
+msgstr "Benutzer-PHID des Erstellers."
 
 msgid "Active or archived status of the badge."
-msgstr ""
+msgstr "Aktiver oder archivierter Status der Auszeichnung."
 
 msgid "Browse Badges"
 msgstr "Auszeichnungen durchsuchen"
@@ -7487,91 +7461,89 @@ msgstr "Verliehen von %s am %s"
 msgid "Remove"
 msgstr "Entfernen"
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s awarded this badge to %s recipient(s): %s."
-msgstr "%s hat %s Projekt(e) hinzugefügt: %s."
+msgstr "%s hat diese Auszeichnung an %s Träger vergeben: %s."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s awarded %s to %s recipient(s): %s."
-msgstr "%s hat %s Projekt(e) hinzugefügt: %s."
+msgstr "%s hat %s an %s Träger vergeben: %s."
 
-#, fuzzy
 msgid "Recipient is required."
-msgstr "Ein Titel ist Voraussetzung"
+msgstr "Ein Träger ist erforderlich."
 
-#, fuzzy, php-format
+#, php-format
 msgid "Recipient PHID \"%s\" is not a valid user PHID."
-msgstr "PID '%s' ist keine gültige PID."
+msgstr "Träger-PHID \"%s\" ist keine gültige Benutzer-PHID."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s has already been awarded this badge."
-msgstr "Dieser Benutzer hat das Dokument bereits gezeichnet."
+msgstr "%s wurde diese Auszeichnung bereits verliehen."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s updated the flavor from %s to %s."
-msgstr "%s hat den Namen von %s von %s auf %s geändert."
+msgstr "%s hat den Flavortext von %s auf %s geändert."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s updated %s flavor text from %s to %s."
-msgstr "%s hat %s von %s nach %s geändert."
+msgstr "%s hat den Flavortext von %s von %s auf %s geändert."
 
 #, php-format
 msgid "The flavor text can be no longer than %s characters."
-msgstr ""
+msgstr "Der Flavortext darf nicht länger als %s Zeichen sein."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s changed the badge icon from %s to %s."
-msgstr "%s hat den Namen von %s von %s auf %s geändert."
+msgstr "%s hat das Symbol der Auszeichnung von %s auf %s geändert."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s changed the badge icon for %s from %s to %s."
-msgstr "%s hat den Namen von %s von %s auf %s geändert."
+msgstr "%s hat das Symbol der Auszeichnung für %s von %s auf %s geändert."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s updated the quality from %s to %s."
-msgstr "%s hat den Titel dieser Frage von \"%s\" nach \"%s\" geändert."
+msgstr "%s hat die Qualität von %s auf %s geändert."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s updated the quality of %s from %s to %s."
-msgstr "%s hat das Enddatum von %s von %s nach %s geändert."
+msgstr "%s hat die Qualität von %s von %s auf %s geändert."
 
-#, fuzzy
 msgid "Badge quality must be set."
-msgstr "Phame-Titel darf nicht leer sein."
+msgstr "Die Qualität der Auszeichnung muss gesetzt sein."
 
 msgid "Badge quality is not valid."
-msgstr ""
+msgstr "Die Qualität der Auszeichnung ist ungültig."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s revoked this badge from %s recipient(s): %s."
-msgstr "%s hat diese Zone von \"%s\" nach \"%s\" umbenannt."
+msgstr "%s hat diese Auszeichnung %s Trägern entzogen: %s."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s revoked %s from %s recipient(s): %s."
-msgstr "%s hat %s Projekt(e) hinzugefügt: %s."
+msgstr "%s hat %s %s Trägern entzogen: %s."
 
 #, php-format
 msgid "Recipient PHID \"%s\" has not been awarded."
-msgstr ""
+msgstr "Träger-PHID \"%s\" wurde nicht ausgezeichnet."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s disabled this badge."
-msgstr "%s hat diese Regel deaktiviert."
+msgstr "%s hat diese Auszeichnung deaktiviert."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s enabled this badge."
-msgstr "%s hat diese Regel aktiviert."
+msgstr "%s hat diese Auszeichnung aktiviert."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s disabled the badge %s."
-msgstr "%s hat diese Regel deaktiviert."
+msgstr "%s hat die Auszeichnung %s deaktiviert."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s enabled the badge %s."
-msgstr "%s hat diese Regel aktiviert."
+msgstr "%s hat die Auszeichnung %s aktiviert."
 
 msgid "badge"
-msgstr ""
+msgstr "auszeichnung"
 
 msgid "Core Applications"
 msgstr "Kern-Anwendungen"
