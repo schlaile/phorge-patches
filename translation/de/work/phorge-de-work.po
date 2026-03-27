@@ -43631,7 +43631,7 @@ msgid ""
 msgstr ""
 
 msgid "Prevent Conduit Access"
-msgstr ""
+msgstr "Conduit-Zugriff verhindern"
 
 msgid "Allow Conduit access?"
 msgstr ""
@@ -43644,7 +43644,7 @@ msgid ""
 msgstr ""
 
 msgid "Allow Conduit Access"
-msgstr ""
+msgstr "Conduit-Zugriff erlauben"
 
 msgid "You must choose a credential type."
 msgstr "Du musst eine Art von Zugangsdaten auswählen."
@@ -43678,10 +43678,10 @@ msgid "Login/Username"
 msgstr "Login/Benutzername"
 
 msgid "Lock Permanently:"
-msgstr ""
+msgstr "Dauerhaft sperren:"
 
 msgid "Prevent the secret from being revealed or changed."
-msgstr ""
+msgstr "Verhindern, dass das Geheimnis angezeigt oder geändert werden kann."
 
 #, php-format
 msgid "New Credential: %s"
@@ -43718,7 +43718,7 @@ msgid "Credential is locked"
 msgstr ""
 
 msgid "This credential can not be shown, because it is locked."
-msgstr ""
+msgstr "Diese Zugangsdaten können nicht angezeigt werden, weil sie gesperrt sind."
 
 msgid "This credential has no associated secret."
 msgstr "Zu diesen Zugangsdaten gehört kein Geheimnis."
@@ -43788,10 +43788,10 @@ msgid "SSH Private Key File"
 msgstr "SSH-Private-Key-Datei"
 
 msgid "Store the path on disk to an SSH private key."
-msgstr ""
+msgstr "Den Pfad auf der Festplatte zu einem privaten SSH-Schlüssel speichern."
 
 msgid "Path On Disk"
-msgstr ""
+msgstr "Pfad auf der Festplatte"
 
 msgid "SSH Private Key"
 msgstr "Privater SSH-Schlüssel"
@@ -43810,7 +43810,7 @@ msgid "Store an API token."
 msgstr "Eine Trophäe verleihen oder ändern."
 
 msgid "Passphrase Credentials"
-msgstr ""
+msgstr "Passphrase-Zugangsdaten"
 
 #, php-format
 msgid "%s created this credential."
@@ -43838,7 +43838,7 @@ msgid ""
 msgstr ""
 
 msgid "Passphrase Credential"
-msgstr ""
+msgstr "Passphrase-Zugangsdaten"
 
 msgid "Credential Author"
 msgstr ""
@@ -43892,9 +43892,8 @@ msgstr ""
 msgid "(No Existing Credentials)"
 msgstr ""
 
-#, fuzzy
 msgid "Add New Credential"
-msgstr "Neues Panel"
+msgstr "Neue Zugangsdaten hinzufügen"
 
 #, php-format
 msgid "%s allowed Conduit API access to this credential."
