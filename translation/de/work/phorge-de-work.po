@@ -7213,14 +7213,14 @@ msgid "View Recipients"
 msgstr "Träger anzeigen"
 
 msgid "Really Revoke Badge?"
-msgstr "Trophäe wirklich entziehen?"
+msgstr "Trophäe wirklich wegnehmen?"
 
 #, php-format
 msgid "Really revoke the badge \"%s\" from %s?"
-msgstr "%2$s die Trophäe \"%1$s\" wirklich entziehen?"
+msgstr "%2$s die Trophäe \"%1$s\" wirklich wegnehmen?"
 
 msgid "Revoke Badge"
-msgstr "Trophäe entziehen"
+msgstr "Trophäe wegnehmen"
 
 msgid "Edit Badge"
 msgstr "Trophäe bearbeiten"
@@ -7293,10 +7293,10 @@ msgid "Award Recipients"
 msgstr "Träger auszeichnen"
 
 msgid "Revoke badge award recipients."
-msgstr "Träger, denen diese Trophäe entzogen werden soll."
+msgstr "Träger, denen diese Trophäe weggenommen werden soll."
 
 msgid "Revoke Recipients"
-msgstr "Trägern Trophäe entziehen"
+msgstr "Trägern Trophäe wegnehmen"
 
 #, php-format
 msgid "%s created this badge."
@@ -7516,11 +7516,11 @@ msgstr "Die Qualität der Trophäe ist ungültig."
 
 #, php-format
 msgid "%s revoked this badge from %s recipient(s): %s."
-msgstr "%s hat diese Trophäe %s Trägern entzogen: %s."
+msgstr "%s hat diese Trophäe %s Trägern weggenommen: %s."
 
 #, php-format
 msgid "%s revoked %s from %s recipient(s): %s."
-msgstr "%s hat %s %s Trägern als Trophäe entzogen: %s."
+msgstr "%s hat %s %s Trägern als Trophäe weggenommen: %s."
 
 #, php-format
 msgid "Recipient PHID \"%s\" has not been awarded."
