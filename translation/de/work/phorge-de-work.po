@@ -7370,7 +7370,7 @@ msgid "Rain Defender"
 msgstr "Regenabwehr"
 
 msgid "In Debt"
-msgstr "Verschuldet"
+msgstr "Knietief im Dispo"
 
 msgid "The Empire"
 msgstr "Das Imperium"
