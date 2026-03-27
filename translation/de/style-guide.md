@@ -98,6 +98,25 @@ Always preserve:
 - HTML/remarkup expectations
 - plurality and variant structure
 
+### Always translate with module context
+
+Do not translate Phorge strings from the PO file alone when the semantics are
+ambiguous.
+
+Many strings only become clear when viewed in the current module or call site,
+for example:
+
+- Files versus Audit versus Herald activity text
+- user-facing UI text versus admin/setup text
+- generic verbs such as "Create", "Open", "Host", "Edit", or "View"
+- placeholder-driven sentences where grammar depends on what `%s` represents
+
+For review and new translation work:
+
+- inspect the current module or call site in `phorge`
+- verify tone and semantics before accepting a fuzzy match
+- prefer slower, context-correct translation over fast blind reuse
+
 ## Avoid
 
 - flattening humorous text into sterile corporate German
@@ -121,9 +140,11 @@ When the original is:
 For new translation batches:
 
 1. classify strings by tone: neutral, technical, playful, humorous, email
-2. translate in batches by context, not random order
-3. review for tone consistency after literal correctness
-4. prefer consistency with existing German wording where it is already good
+2. group them by module or feature area
+3. inspect the current code context before translating ambiguous strings
+4. translate in batches by context, not random order
+5. review for tone consistency after literal correctness
+6. prefer consistency with existing German wording where it is already good
 
 ## Open Editorial Rule
 

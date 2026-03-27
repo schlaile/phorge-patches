@@ -52,9 +52,25 @@ This means:
 - fuzzy entries must be reviewed aggressively before translating new strings on
   top of them
 
+## Context Rule
+
+Translation review must use the current `phorge` module context for ambiguous
+strings.
+
+The PO file alone is not sufficient for many entries because the same English
+text may mean different things in different applications or UI flows.
+
+This is especially important for:
+
+- short generic UI verbs
+- activity/feed text
+- placeholder-heavy sentences
+- strings shared across Files, Audit, Herald, Calendar, and setup/admin flows
+
 ## Next Steps
 
 1. review and prune bad fuzzy matches in `work/phorge-de-work.po`
-2. derive a cleaner consolidated German translation corpus from the legacy data
-3. separate pure content from old `gettext` runtime assumptions
-4. evaluate import/build integration against `wikimedia/phabricator-translations`
+2. review strings in the current module context before accepting translations
+3. derive a cleaner consolidated German translation corpus from the legacy data
+4. separate pure content from old `gettext` runtime assumptions
+5. evaluate import/build integration against `wikimedia/phabricator-translations`
