@@ -7488,17 +7488,14 @@ msgstr ""
 msgid "Browse Badges"
 msgstr "Zonen durchsuchen"
 
-#, fuzzy
 msgid "Type a badge name..."
-msgstr "Paketnamen eintippen..."
+msgstr "Abzeichenname eingeben..."
 
-#, fuzzy
 msgid "Already awarded"
-msgstr "Schon unterschrieben"
+msgstr "Bereits verliehen"
 
-#, fuzzy
 msgid "This badge does not have any recipients."
-msgstr "Dieses Projekt hat keine Mitglieder."
+msgstr "Dieses Abzeichen hat keine Empfänger."
 
 #, php-format
 msgid "Awarded by %s on %s"
@@ -8139,7 +8136,7 @@ msgid "Event Series"
 msgstr "Termine"
 
 msgid "This event instance has not been created yet. Log in to create it."
-msgstr ""
+msgstr "Diese Termininstanz wurde noch nicht erstellt. Melde Dich an, um sie zu erstellen."
 
 #, php-format
 msgid "Hosted by %s on %s."
@@ -16370,9 +16367,8 @@ msgstr ""
 msgid "Running"
 msgstr ""
 
-#, fuzzy
 msgid "Launched"
-msgstr "Anwendungsstarter"
+msgstr "Gestartet"
 
 msgid "Edit Countdown"
 msgstr "Countdown ändern"
@@ -16384,27 +16380,24 @@ msgstr "Verfasst von %s am %s."
 msgid "Countdowns"
 msgstr "Countdowns"
 
-#, fuzzy
 msgid "Edit Countdowns"
-msgstr "Countdown ändern"
+msgstr "Countdowns bearbeiten"
 
-#, fuzzy
 msgid "Creates and edits countdowns."
-msgstr "Neuer Countdown"
+msgstr "Erstellt und bearbeitet Countdowns."
 
 msgid "Create Countdown"
 msgstr "Neuer Countdown"
 
-#, fuzzy, php-format
+#, php-format
 msgid "Edit Countdown: %s"
-msgstr "Countdown ändern"
+msgstr "Countdown bearbeiten: %s"
 
-#, fuzzy
 msgid "Last Words"
-msgstr "Enthält die Wörter"
+msgstr "Letzte Worte"
 
 msgid "Contemplate Infinity"
-msgstr ""
+msgstr "Über die Unendlichkeit sinnieren"
 
 #, fuzzy
 msgid "The countdown name."
@@ -30994,7 +30987,6 @@ msgstr "Hochgeladen von %s am %s."
 msgid "Uploaded on %s"
 msgstr "Hochgeladen am %s"
 
-#, fuzzy
 msgid "Upload a File"
 msgstr "Datei hochladen"
 
@@ -37446,35 +37438,30 @@ msgstr "Meisterhaft erschaffen von %s am %s."
 msgid "Loop"
 msgstr ""
 
-#, fuzzy
 msgid "Macro Image"
-msgstr "Bild beschneiden"
+msgstr "Makrobild"
 
-#, fuzzy
 msgid "Configure Macro Image Forms"
-msgstr "Macro einrichten."
+msgstr "Formulare für Makrobilder konfigurieren"
 
 msgid "Configure creation and editing of Macro images."
 msgstr ""
 
-#, fuzzy
 msgid "Create New Macro"
-msgstr "Neue Aufgabe"
+msgstr "Neues Makro erstellen"
 
-#, fuzzy, php-format
+#, php-format
 msgid "Edit Macro %s"
-msgstr "Branch %s ändern"
+msgstr "Makro %s bearbeiten"
 
-#, fuzzy
 msgid "Macro name."
-msgstr "Einen Makro-Namen eintippen..."
+msgstr "Makroname."
 
 msgid "Name of the macro."
-msgstr ""
+msgstr "Name des Makros."
 
-#, fuzzy
 msgid "New macro name."
-msgstr "Einen Makro-Namen eintippen..."
+msgstr "Neuer Makroname."
 
 #, fuzzy
 msgid "Image File"
@@ -43800,20 +43787,20 @@ msgid ""
 msgstr ""
 
 msgid "Really show secret?"
-msgstr ""
+msgstr "Geheimnis wirklich anzeigen?"
 
 msgid "Show Secret"
-msgstr ""
+msgstr "Geheimnis anzeigen"
 
 #, php-format
 msgid "Created by %s on %s."
 msgstr "Erstellt von %s am %s."
 
 msgid "Locked Permanently"
-msgstr ""
+msgstr "Dauerhaft gesperrt"
 
 msgid "Lock Permanently"
-msgstr ""
+msgstr "Dauerhaft sperren"
 
 msgid "Edit Credential"
 msgstr ""
@@ -47111,17 +47098,15 @@ msgstr "Alle Entwürfe"
 msgid "By %s on %s"
 msgstr "Von %s am %s"
 
-#, fuzzy
 msgid "Create a Mock"
-msgstr "Neuer Entwurf"
+msgstr "Mock erstellen"
 
 msgid ""
 "Upload sets of images for review with revision history and inline comments."
 msgstr ""
 
-#, fuzzy
 msgid "The author of a mock can always view and edit it."
-msgstr "Der Autor eines Countdowns darf ihn sowohl ansehen als auch verändern."
+msgstr "Der Autor eines Mocks kann es immer anzeigen und bearbeiten."
 
 msgid "Current Revision"
 msgstr ""
