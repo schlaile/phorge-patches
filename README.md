@@ -41,8 +41,8 @@ Maintain local changes in a way that keeps them:
 
 ## Commit Message Rule
 
-- Internal task references like `T1369` are acceptable in private or internal repositories.
-- Public repositories should avoid internal task references in commit messages whenever a change may later be proposed upstream.
+- Internal task references like `T1369` are acceptable in this repository.
+- Target repositories that may later be proposed upstream, such as `phorge` or `phorge-arcanist`, should avoid internal task references in commit messages.
 - For upstream submission branches, use neutral commit messages without internal ticket IDs.
 
 ## Relationship To Other Repositories
