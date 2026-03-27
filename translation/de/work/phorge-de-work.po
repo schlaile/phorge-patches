@@ -7113,7 +7113,7 @@ msgid "%s upgraded the hash algorithm for this password from \"%s\" to \"%s\"."
 msgstr "%s hat die Priorität dieser Aufgabe von \"%s\" auf \"%s\" erhöht."
 
 msgid "Badges"
-msgstr "Auszeichnungen"
+msgstr "Trophäen"
 
 msgid "Achievements and Notoriety"
 msgstr "Erfolge und Ruhm"
@@ -7122,25 +7122,25 @@ msgid "Build self esteem through gamification."
 msgstr "Poliere Dein Selbstwertgefühl mit einer Prise Gamification auf."
 
 msgid "Default create policy for badges."
-msgstr "Standard-Erstellungsrichtlinie für Auszeichnungen."
+msgstr "Standard-Erstellungsrichtlinie für Trophäen."
 
 msgid "Default edit policy for badges."
-msgstr "Standard-Bearbeitungsrichtlinie für Auszeichnungen."
+msgstr "Standard-Bearbeitungsrichtlinie für Trophäen."
 
 msgid "Can Create Badges"
-msgstr "Darf Auszeichnungen erstellen"
+msgstr "Darf Trophäen erstellen"
 
 msgid "You do not have permission to create badges."
-msgstr "Du hast keine Berechtigung, um Auszeichnungen zu erstellen."
+msgstr "Du hast keine Berechtigung, um Trophäen zu erstellen."
 
 msgid "Default Edit Badges"
-msgstr "Auszeichnungen standardmäßig bearbeiten"
+msgstr "Trophäen standardmäßig bearbeiten"
 
 msgid "Apply transactions to create a new badge or edit an existing one."
-msgstr "Transaktionen anwenden, um eine neue Auszeichnung zu erstellen oder eine bestehende zu bearbeiten."
+msgstr "Transaktionen anwenden, um eine neue Trophäe zu erstellen oder eine bestehende zu bearbeiten."
 
 msgid "Read information about badges."
-msgstr "Informationen über Auszeichnungen abrufen."
+msgstr "Informationen über Trophäen abrufen."
 
 #, php-format
 msgid "Unknown Quality (\"%s\")"
@@ -7168,31 +7168,31 @@ msgid "Heirloom"
 msgstr "Erbstück"
 
 msgid "Activate Badge"
-msgstr "Auszeichnung aktivieren"
+msgstr "Trophäe aktivieren"
 
 msgid "This badge will be re-commissioned into service."
-msgstr "Diese Auszeichnung wird wieder in den Dienst gestellt."
+msgstr "Diese Trophäe wird wieder in den Dienst gestellt."
 
 msgid "Archive Badge"
-msgstr "Auszeichnung archivieren"
+msgstr "Trophäe archivieren"
 
 msgid ""
 "This dedicated badge, once a distinguish icon of this install, shall be "
 "immediately retired from service, but will never far from our hearts. "
 "Godspeed."
 msgstr ""
-"Diese treue Auszeichnung, einst ein markantes Wahrzeichen dieser "
+"Diese treue Trophäe, einst ein markantes Wahrzeichen dieser "
 "Installation, wird hiermit mit sofortiger Wirkung in den Ruhestand "
 "verabschiedet, bleibt unseren Herzen aber für immer erhalten. Mach's gut."
 
 msgid "Badge name is required."
-msgstr "Der Name der Auszeichnung ist erforderlich."
+msgstr "Der Name der Trophäe ist erforderlich."
 
 msgid "Badge"
-msgstr "Auszeichnung"
+msgstr "Trophäe"
 
 msgid "Award Badge"
-msgstr "Auszeichnung verleihen"
+msgstr "Trophäe verleihen"
 
 msgid "Award"
 msgstr "Verleihen"
@@ -7207,39 +7207,39 @@ msgid "Add Recipients"
 msgstr "Träger hinzufügen"
 
 msgid "View Badge"
-msgstr "Auszeichnung anzeigen"
+msgstr "Trophäe anzeigen"
 
 msgid "View Recipients"
 msgstr "Träger anzeigen"
 
 msgid "Really Revoke Badge?"
-msgstr "Auszeichnung wirklich entziehen?"
+msgstr "Trophäe wirklich entziehen?"
 
 #, php-format
 msgid "Really revoke the badge \"%s\" from %s?"
-msgstr "%2$s die Auszeichnung \"%1$s\" wirklich entziehen?"
+msgstr "%2$s die Trophäe \"%1$s\" wirklich entziehen?"
 
 msgid "Revoke Badge"
-msgstr "Auszeichnung entziehen"
+msgstr "Trophäe entziehen"
 
 msgid "Edit Badge"
-msgstr "Auszeichnung bearbeiten"
+msgstr "Trophäe bearbeiten"
 
 msgid "Configure Badges Forms"
-msgstr "Formulare für Auszeichnungen konfigurieren"
+msgstr "Formulare für Trophäen konfigurieren"
 
 msgid "Configure creation and editing forms in Badges."
-msgstr "Formulare zum Erstellen und Bearbeiten von Auszeichnungen konfigurieren."
+msgstr "Formulare zum Erstellen und Bearbeiten von Trophäen konfigurieren."
 
 msgid "Create New Badge"
-msgstr "Neue Auszeichnung erstellen"
+msgstr "Neue Trophäe erstellen"
 
 #, php-format
 msgid "Edit Badge: %s"
-msgstr "Auszeichnung bearbeiten: %s"
+msgstr "Trophäe bearbeiten: %s"
 
 msgid "Create Badge"
-msgstr "Auszeichnung erstellen"
+msgstr "Trophäe erstellen"
 
 msgid "Render Honors"
 msgstr "Ehrerbietung erweisen"
@@ -7248,81 +7248,81 @@ msgid "Salute"
 msgstr "Salutieren"
 
 msgid "Badge name."
-msgstr "Name der Auszeichnung."
+msgstr "Name der Trophäe."
 
 msgid "New badge name."
-msgstr "Neuer Name der Auszeichnung."
+msgstr "Neuer Name der Trophäe."
 
 msgid "Flavor Text"
 msgstr "Flavortext"
 
 msgid "Short description of the badge."
-msgstr "Kurze Beschreibung der Auszeichnung."
+msgstr "Kurze Beschreibung der Trophäe."
 
 msgid "New badge flavor."
-msgstr "Neuer Flavortext der Auszeichnung."
+msgstr "Neuer Flavortext der Trophäe."
 
 msgid "Icon"
 msgstr "Symbol"
 
 msgid "Change the badge icon."
-msgstr "Das Symbol der Auszeichnung ändern."
+msgstr "Das Symbol der Trophäe ändern."
 
 msgid "New badge icon."
-msgstr "Neues Symbol der Auszeichnung."
+msgstr "Neues Symbol der Trophäe."
 
 msgid "Quality"
 msgstr "Qualität"
 
 msgid "Color and rarity of the badge."
-msgstr "Farbe und Seltenheit der Auszeichnung."
+msgstr "Farbe und Seltenheit der Trophäe."
 
 msgid "New badge quality."
-msgstr "Neue Qualität der Auszeichnung."
+msgstr "Neue Qualität der Trophäe."
 
 msgid "Badge long description."
-msgstr "Ausführliche Beschreibung der Auszeichnung."
+msgstr "Ausführliche Beschreibung der Trophäe."
 
 msgid "New badge description."
-msgstr "Neue Beschreibung der Auszeichnung."
+msgstr "Neue Beschreibung der Trophäe."
 
 msgid "New badge award recipients."
-msgstr "Neue Träger dieser Auszeichnung."
+msgstr "Neue Träger dieser Trophäe."
 
 msgid "Award Recipients"
 msgstr "Träger auszeichnen"
 
 msgid "Revoke badge award recipients."
-msgstr "Träger, denen diese Auszeichnung entzogen werden soll."
+msgstr "Träger, denen diese Trophäe entzogen werden soll."
 
 msgid "Revoke Recipients"
-msgstr "Trägern Auszeichnung entziehen"
+msgstr "Trägern Trophäe entziehen"
 
 #, php-format
 msgid "%s created this badge."
-msgstr "%s hat diese Auszeichnung erstellt."
+msgstr "%s hat diese Trophäe erstellt."
 
 msgid "Someone changes the badge's details."
-msgstr "Jemand ändert die Details der Auszeichnung."
+msgstr "Jemand ändert die Details der Trophäe."
 
 msgid "Someone comments on a badge."
-msgstr "Jemand kommentiert eine Auszeichnung."
+msgstr "Jemand kommentiert eine Trophäe."
 
 msgid "Other badge activity not listed above occurs."
-msgstr "Andere oben nicht aufgeführte Aktivitäten an Auszeichnungen treten auf."
+msgstr "Andere oben nicht aufgeführte Aktivitäten an Trophäen treten auf."
 
 #, php-format
 msgid "Badge %d: %s"
-msgstr "Auszeichnung %d: %s"
+msgstr "Trophäe %d: %s"
 
 msgid "BADGE DETAIL"
-msgstr "AUSZEICHNUNGSDETAIL"
+msgstr "TROPHÄENDETAIL"
 
 msgid "[Badge]"
-msgstr "[Auszeichnung]"
+msgstr "[Trophäe]"
 
 msgid "Choose Badge Icon"
-msgstr "Symbol für Auszeichnung wählen"
+msgstr "Symbol für Trophäe wählen"
 
 msgid "Superstar"
 msgstr "Superstar"
@@ -7400,7 +7400,7 @@ msgid "Glowing Rectangle"
 msgstr "Leuchtendes Rechteck"
 
 msgid "Badges Award"
-msgstr "Auszeichnungsverleihung"
+msgstr "Trophäenverleihung"
 
 msgid "Rarity (Rarest First)"
 msgstr "Seltenheit (seltenste zuerst)"
@@ -7409,50 +7409,50 @@ msgid "Rarity (Most Common First)"
 msgstr "Seltenheit (gewöhnlichste zuerst)"
 
 msgid "Search for badges by name substring."
-msgstr "Nach Auszeichnungen anhand eines Namensbestandteils suchen."
+msgstr "Nach Trophäen anhand eines Namensbestandteils suchen."
 
 msgid "Search for active or archived badges."
-msgstr "Nach aktiven oder archivierten Auszeichnungen suchen."
+msgstr "Nach aktiven oder archivierten Trophäen suchen."
 
 msgid "Active Badges"
-msgstr "Aktive Auszeichnungen"
+msgstr "Aktive Trophäen"
 
 msgid "All Badges"
-msgstr "Alle Auszeichnungen"
+msgstr "Alle Trophäen"
 
 msgid "Archived"
 msgstr "Archiviert"
 
 msgid "No badges found."
-msgstr "Keine Auszeichnungen gefunden."
+msgstr "Keine Trophäen gefunden."
 
 msgid "Create a Badge"
-msgstr "Auszeichnung erstellen"
+msgstr "Trophäe erstellen"
 
 msgid ""
 "Badges let you award and distinguish special users throughout your install."
-msgstr "Mit Auszeichnungen kannst Du in Deiner Installation besondere Benutzer hervorheben und ehren."
+msgstr "Mit Trophäen kannst Du in Deiner Installation besondere Benutzer hervorheben und ehren."
 
 msgid "The name of the badge."
-msgstr "Der Name der Auszeichnung."
+msgstr "Der Name der Trophäe."
 
 msgid "User PHID of the creator."
 msgstr "Benutzer-PHID des Erstellers."
 
 msgid "Active or archived status of the badge."
-msgstr "Aktiver oder archivierter Status der Auszeichnung."
+msgstr "Aktiver oder archivierter Status der Trophäe."
 
 msgid "Browse Badges"
-msgstr "Auszeichnungen durchsuchen"
+msgstr "Trophäen durchsuchen"
 
 msgid "Type a badge name..."
-msgstr "Namen einer Auszeichnung eingeben..."
+msgstr "Namen einer Trophäe eingeben..."
 
 msgid "Already awarded"
 msgstr "Bereits verliehen"
 
 msgid "This badge does not have any recipients."
-msgstr "Diese Auszeichnung hat noch keine Träger."
+msgstr "Diese Trophäe hat noch keine Träger."
 
 #, php-format
 msgid "Awarded by %s on %s"
@@ -7463,11 +7463,11 @@ msgstr "Entfernen"
 
 #, php-format
 msgid "%s awarded this badge to %s recipient(s): %s."
-msgstr "%s hat diese Auszeichnung an %s Träger vergeben: %s."
+msgstr "%s hat diese Trophäe an %s Träger vergeben: %s."
 
 #, php-format
 msgid "%s awarded %s to %s recipient(s): %s."
-msgstr "%s hat %s an %s Träger vergeben: %s."
+msgstr "%s hat %s als Trophäe an %s Träger vergeben: %s."
 
 msgid "Recipient is required."
 msgstr "Ein Träger ist erforderlich."
@@ -7478,7 +7478,7 @@ msgstr "Träger-PHID \"%s\" ist keine gültige Benutzer-PHID."
 
 #, php-format
 msgid "%s has already been awarded this badge."
-msgstr "%s wurde diese Auszeichnung bereits verliehen."
+msgstr "%s wurde diese Trophäe bereits verliehen."
 
 #, php-format
 msgid "%s updated the flavor from %s to %s."
@@ -7494,11 +7494,11 @@ msgstr "Der Flavortext darf nicht länger als %s Zeichen sein."
 
 #, php-format
 msgid "%s changed the badge icon from %s to %s."
-msgstr "%s hat das Symbol der Auszeichnung von %s auf %s geändert."
+msgstr "%s hat das Symbol der Trophäe von %s auf %s geändert."
 
 #, php-format
 msgid "%s changed the badge icon for %s from %s to %s."
-msgstr "%s hat das Symbol der Auszeichnung für %s von %s auf %s geändert."
+msgstr "%s hat das Symbol der Trophäe für %s von %s auf %s geändert."
 
 #, php-format
 msgid "%s updated the quality from %s to %s."
@@ -7509,18 +7509,18 @@ msgid "%s updated the quality of %s from %s to %s."
 msgstr "%s hat die Qualität von %s von %s auf %s geändert."
 
 msgid "Badge quality must be set."
-msgstr "Die Qualität der Auszeichnung muss gesetzt sein."
+msgstr "Die Qualität der Trophäe muss gesetzt sein."
 
 msgid "Badge quality is not valid."
-msgstr "Die Qualität der Auszeichnung ist ungültig."
+msgstr "Die Qualität der Trophäe ist ungültig."
 
 #, php-format
 msgid "%s revoked this badge from %s recipient(s): %s."
-msgstr "%s hat diese Auszeichnung %s Trägern entzogen: %s."
+msgstr "%s hat diese Trophäe %s Trägern entzogen: %s."
 
 #, php-format
 msgid "%s revoked %s from %s recipient(s): %s."
-msgstr "%s hat %s %s Trägern entzogen: %s."
+msgstr "%s hat %s %s Trägern als Trophäe entzogen: %s."
 
 #, php-format
 msgid "Recipient PHID \"%s\" has not been awarded."
@@ -7528,22 +7528,22 @@ msgstr "Träger-PHID \"%s\" wurde nicht ausgezeichnet."
 
 #, php-format
 msgid "%s disabled this badge."
-msgstr "%s hat diese Auszeichnung deaktiviert."
+msgstr "%s hat diese Trophäe deaktiviert."
 
 #, php-format
 msgid "%s enabled this badge."
-msgstr "%s hat diese Auszeichnung aktiviert."
+msgstr "%s hat diese Trophäe aktiviert."
 
 #, php-format
 msgid "%s disabled the badge %s."
-msgstr "%s hat die Auszeichnung %s deaktiviert."
+msgstr "%s hat die Trophäe %s deaktiviert."
 
 #, php-format
 msgid "%s enabled the badge %s."
-msgstr "%s hat die Auszeichnung %s aktiviert."
+msgstr "%s hat die Trophäe %s aktiviert."
 
 msgid "badge"
-msgstr "auszeichnung"
+msgstr "trophäe"
 
 msgid "Core Applications"
 msgstr "Kern-Anwendungen"
