@@ -1,0 +1,51 @@
+From e31964c8b009bf5a7d94c073ba57731304c1ae06 Mon Sep 17 00:00:00 2001
+From: Alicia Codex <alicia@schlaile.de>
+Date: Fri, 27 Mar 2026 17:50:54 +0100
+Subject: [PATCH] Ref T1369 Add file share link and fix relative date
+ translation markers
+
+---
+ .../files/controller/PhabricatorFileViewController.php      | 4 ++++
+ src/view/viewutils.php                                      | 6 +++---
+ 2 files changed, 7 insertions(+), 3 deletions(-)
+
+diff --git a/src/applications/files/controller/PhabricatorFileViewController.php b/src/applications/files/controller/PhabricatorFileViewController.php
+index f91adc408a..d5fbb33f43 100644
+--- a/src/applications/files/controller/PhabricatorFileViewController.php
++++ b/src/applications/files/controller/PhabricatorFileViewController.php
+@@ -233,6 +233,10 @@ final class PhabricatorFileViewController extends PhabricatorFileController {
+         ->setKey('details')
+         ->appendChild($finfo));
+ 
++    $finfo->addProperty(
++      pht('File Link'),
++      $file->getViewURI());
++
+     $finfo->addProperty(
+       pht('Mime Type'),
+       $file->getMimeType());
+diff --git a/src/view/viewutils.php b/src/view/viewutils.php
+index 5abf0d19a2..8433f0752c 100644
+--- a/src/view/viewutils.php
++++ b/src/view/viewutils.php
+@@ -20,14 +20,14 @@ function phabricator_relative_date($epoch, $user, $on = false) {
+   $date = phabricator_date($epoch, $user);
+ 
+   if ($date === $today) {
+-    return 'today';
++    return pht('today');
+   }
+ 
+   if ($date === $yesterday) {
+-    return 'yesterday';
++    return pht('yesterday');
+   }
+ 
+-  return (($on ? 'on ' : '').$date);
++  return ($on ? pht('on %s', $date) : $date);
+ }
+ 
+ function phabricator_time($epoch, $user) {
+-- 
+2.47.3
+
