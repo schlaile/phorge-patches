@@ -37441,7 +37441,7 @@ msgstr ""
 
 #, php-format
 msgid "Masterfully imagined by %s on %s."
-msgstr "Meisterhaft ersonnen von %s am %s."
+msgstr "Meisterhaft erschaffen von %s am %s."
 
 msgid "Loop"
 msgstr ""
