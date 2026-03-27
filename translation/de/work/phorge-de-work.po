@@ -7489,13 +7489,13 @@ msgid "Browse Badges"
 msgstr "Zonen durchsuchen"
 
 msgid "Type a badge name..."
-msgstr "Abzeichenname eingeben..."
+msgstr "Namen einer Auszeichnung eingeben..."
 
 msgid "Already awarded"
 msgstr "Bereits verliehen"
 
 msgid "This badge does not have any recipients."
-msgstr "Dieses Abzeichen hat keine Empfänger."
+msgstr "Diese Auszeichnung hat noch keine Träger."
 
 #, php-format
 msgid "Awarded by %s on %s"
