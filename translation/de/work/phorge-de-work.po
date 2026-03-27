@@ -43583,7 +43583,7 @@ msgid ""
 msgstr ""
 
 msgid "Passphrase"
-msgstr ""
+msgstr "Passphrase"
 
 msgid "Credential Store"
 msgstr ""
@@ -43608,7 +43608,7 @@ msgid ""
 msgstr ""
 
 msgid "Create Credential"
-msgstr ""
+msgstr "Zugangsdaten anlegen"
 
 #, php-format
 msgid "Credential has invalid type \"%s\"!"
@@ -43647,13 +43647,13 @@ msgid "Allow Conduit Access"
 msgstr ""
 
 msgid "You must choose a credential type."
-msgstr ""
+msgstr "Du musst eine Art von Zugangsdaten auswählen."
 
 msgid "Credential Type"
-msgstr ""
+msgstr "Art der Zugangsdaten"
 
 msgid "New Credential"
-msgstr ""
+msgstr "Neue Zugangsdaten"
 
 msgid "Really destroy credential?"
 msgstr ""
@@ -43665,7 +43665,7 @@ msgid ""
 msgstr ""
 
 msgid "Destroy Credential"
-msgstr ""
+msgstr "Zugangsdaten vernichten"
 
 #, php-format
 msgid "Credential has noncreateable type \"%s\"!"
@@ -43721,25 +43721,31 @@ msgid "This credential can not be shown, because it is locked."
 msgstr ""
 
 msgid "This credential has no associated secret."
-msgstr ""
+msgstr "Zu diesen Zugangsdaten gehört kein Geheimnis."
 
 msgid "This credential has an empty secret."
-msgstr ""
+msgstr "Diese Zugangsdaten haben ein leeres Geheimnis."
 
 #, php-format
 msgid "Credential Secret (%s)"
-msgstr ""
+msgstr "Geheimnis der Zugangsdaten (%s)"
 
 msgid ""
 "The secret associated with this credential will be shown in plain text on "
 "your screen."
 msgstr ""
+"Das zu diesen Zugangsdaten gehörende Geheimnis wird im Klartext auf Deinem "
+"Bildschirm angezeigt."
 
 msgid ""
 "The secret associated with this credential will be shown in plain text on "
 "your screen. Before continuing, wrap your arms around your monitor to create "
 "a human shield, keeping it safe from prying eyes. Protect company secrets!"
 msgstr ""
+"Das zu diesen Zugangsdaten gehörende Geheimnis wird im Klartext auf Deinem "
+"Bildschirm angezeigt. Bevor Du fortfährst, schlinge Deine Arme um Deinen "
+"Monitor und bilde einen menschlichen Schutzschild, damit neugierige Blicke "
+"keine Chance haben. Beschütze Firmengeheimnisse!"
 
 msgid "Really show secret?"
 msgstr "Geheimnis wirklich anzeigen?"
@@ -43758,28 +43764,28 @@ msgid "Lock Permanently"
 msgstr "Dauerhaft sperren"
 
 msgid "Edit Credential"
-msgstr ""
+msgstr "Zugangsdaten bearbeiten"
 
 msgid "Show Public Key"
-msgstr ""
+msgstr "Öffentlichen Schlüssel anzeigen"
 
 msgid "Store a plaintext note."
-msgstr ""
+msgstr "Eine Klartextnotiz speichern."
 
 msgid "Store a plaintext password."
-msgstr ""
+msgstr "Ein Klartextpasswort speichern."
 
 msgid "SSH Private Key (Generated)"
-msgstr ""
+msgstr "SSH-Private-Key (erzeugt)"
 
 msgid "Generate an SSH keypair."
-msgstr ""
+msgstr "Ein SSH-Schlüsselpaar erzeugen."
 
 msgid "Generated Key"
-msgstr ""
+msgstr "Erzeugter Schlüssel"
 
 msgid "SSH Private Key File"
-msgstr ""
+msgstr "SSH-Private-Key-Datei"
 
 msgid "Store the path on disk to an SSH private key."
 msgstr ""
