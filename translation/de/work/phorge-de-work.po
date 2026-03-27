@@ -7113,7 +7113,7 @@ msgid "%s upgraded the hash algorithm for this password from \"%s\" to \"%s\"."
 msgstr "%s hat die Priorität dieser Aufgabe von \"%s\" auf \"%s\" erhöht."
 
 msgid "Badges"
-msgstr ""
+msgstr "Auszeichnungen"
 
 msgid "Achievements and Notoriety"
 msgstr ""
@@ -7129,17 +7129,14 @@ msgstr "Vorgabe Anzeige-Benutzerrichtlinie für neue Umfragen."
 msgid "Default edit policy for badges."
 msgstr "Standard Editier-Richtline für neu erzeugte Zonen."
 
-#, fuzzy
 msgid "Can Create Badges"
-msgstr "Darf Zonen erzeugen"
+msgstr "Darf Auszeichnungen erstellen"
 
-#, fuzzy
 msgid "You do not have permission to create badges."
-msgstr "Du hast keine Berechtigung, um Zonen zu erzeugen."
+msgstr "Du hast keine Berechtigung, um Auszeichnungen zu erstellen."
 
-#, fuzzy
 msgid "Default Edit Badges"
-msgstr "Vorgabebild"
+msgstr "Auszeichnungen standardmäßig bearbeiten"
 
 msgid "Apply transactions to create a new badge or edit an existing one."
 msgstr ""
@@ -7195,34 +7192,29 @@ msgid "Badge name is required."
 msgstr "Benötige einen Dateinamen."
 
 msgid "Badge"
-msgstr ""
+msgstr "Auszeichnung"
 
-#, fuzzy
 msgid "Award Badge"
-msgstr "Preistrophäe"
+msgstr "Auszeichnung verleihen"
 
-#, fuzzy
 msgid "Award"
-msgstr "Preistrophäe"
+msgstr "Verleihen"
 
 #, fuzzy
 msgid "Recipient name is required."
 msgstr "Der Termin braucht einen Namen."
 
 msgid "Recipients"
-msgstr ""
+msgstr "Träger"
 
-#, fuzzy
 msgid "Add Recipients"
-msgstr "Neuer Reviewer"
+msgstr "Träger hinzufügen"
 
-#, fuzzy
 msgid "View Badge"
-msgstr "Aufträge zeigen"
+msgstr "Auszeichnung anzeigen"
 
-#, fuzzy
 msgid "View Recipients"
-msgstr "Versionen anzeigen"
+msgstr "Träger anzeigen"
 
 #, fuzzy
 msgid "Really Revoke Badge?"
@@ -7233,11 +7225,10 @@ msgid "Really revoke the badge \"%s\" from %s?"
 msgstr "Den Branch \"%s\" wirklich wieder öffnen?"
 
 msgid "Revoke Badge"
-msgstr ""
+msgstr "Auszeichnung entziehen"
 
-#, fuzzy
 msgid "Edit Badge"
-msgstr "Blog ändern"
+msgstr "Auszeichnung bearbeiten"
 
 #, fuzzy
 msgid "Configure Badges Forms"
@@ -7246,17 +7237,15 @@ msgstr "Editor konfigurieren"
 msgid "Configure creation and editing forms in Badges."
 msgstr ""
 
-#, fuzzy
 msgid "Create New Badge"
-msgstr "Neues Panel erzeugen"
+msgstr "Neue Auszeichnung erstellen"
 
-#, fuzzy, php-format
+#, php-format
 msgid "Edit Badge: %s"
-msgstr "Branch %s ändern"
+msgstr "Auszeichnung bearbeiten: %s"
 
-#, fuzzy
 msgid "Create Badge"
-msgstr "Neuer Blog"
+msgstr "Auszeichnung erstellen"
 
 #, fuzzy
 msgid "Render Honors"
@@ -7265,9 +7254,8 @@ msgstr "Spalten neu anordnen"
 msgid "Salute"
 msgstr ""
 
-#, fuzzy
 msgid "Badge name."
-msgstr "Benutzername ändern"
+msgstr "Name der Auszeichnung."
 
 #, fuzzy
 msgid "New badge name."
@@ -7316,13 +7304,13 @@ msgid "New badge award recipients."
 msgstr ""
 
 msgid "Award Recipients"
-msgstr ""
+msgstr "Träger auszeichnen"
 
 msgid "Revoke badge award recipients."
 msgstr ""
 
 msgid "Revoke Recipients"
-msgstr ""
+msgstr "Trägern Auszeichnung entziehen"
 
 #, fuzzy, php-format
 msgid "%s created this badge."
@@ -7451,28 +7439,24 @@ msgstr ""
 msgid "Search for active or archived badges."
 msgstr ""
 
-#, fuzzy
 msgid "Active Badges"
-msgstr "Aktive Panele"
+msgstr "Aktive Auszeichnungen"
 
-#, fuzzy
 msgid "All Badges"
-msgstr "Alle Blogs"
+msgstr "Alle Auszeichnungen"
 
 msgid "Archived"
 msgstr "Archiviert"
 
-#, fuzzy
 msgid "No badges found."
-msgstr "Keine Zonen gefunden."
+msgstr "Keine Auszeichnungen gefunden."
 
-#, fuzzy
 msgid "Create a Badge"
-msgstr "Wir machen das mit den Fähnchen"
+msgstr "Auszeichnung erstellen"
 
 msgid ""
 "Badges let you award and distinguish special users throughout your install."
-msgstr ""
+msgstr "Mit Auszeichnungen kannst Du in Deiner Installation besondere Benutzer hervorheben und ehren."
 
 #, fuzzy
 msgid "The name of the badge."
@@ -7484,9 +7468,8 @@ msgstr ""
 msgid "Active or archived status of the badge."
 msgstr ""
 
-#, fuzzy
 msgid "Browse Badges"
-msgstr "Zonen durchsuchen"
+msgstr "Auszeichnungen durchsuchen"
 
 msgid "Type a badge name..."
 msgstr "Namen einer Auszeichnung eingeben..."
