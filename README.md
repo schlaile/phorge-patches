@@ -39,6 +39,12 @@ Maintain local changes in a way that keeps them:
 4. Document upstream-friendly changes separately.
 5. Keep deployment and environment knowledge in `phorge-intern` only.
 
+## Commit Message Rule
+
+- Internal task references like `T1369` are acceptable in private or internal repositories.
+- Public repositories should avoid internal task references in commit messages whenever a change may later be proposed upstream.
+- For upstream submission branches, use neutral commit messages without internal ticket IDs.
+
 ## Relationship To Other Repositories
 
 - `phorge`: target fork for server/core work
