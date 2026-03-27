@@ -1,39 +1,39 @@
 # Inventory
 
-Arbeitsdokument fuer die Inventarisierung historischer lokaler Aenderungen.
+Working document for inventorying historic local changes.
 
 ## Tracks
 
-- `feature`: funktionale lokale Produktverbesserungen
-- `i18n-content`: Uebersetzungsinhalte, fehlende `pht()`-Markierungen
-- `i18n-infra`: technische Uebersetzungsinfrastruktur, Import-/Build-Pfade
-- `branding`: internes "Phabricator"-Branding
+- `feature`: functional local product improvements
+- `i18n-content`: translation content and missing `pht()` markers
+- `i18n-infra`: translation infrastructure and import/build paths
+- `branding`: internal "Phabricator" branding
 
-## Historische Quellen
+## Historic Sources
 
 - `~/phabricator`
 - `~/libphutil`
 - `~/arcanist`
 
-## Exportstand
+## Export Status
 
-- `phabricator`: 74 Patches seit letztem `upstream/master`-Merge exportiert nach `patches/phabricator-legacy/`
-- `libphutil`: 2 Patches seit letztem `upstream/master`-Merge exportiert nach `patches/libphutil-legacy/`
-- `arcanist`: aktuell keine gesonderten historischen lokalen Patches isoliert
+- `phabricator`: 74 patches exported since the last `upstream/master` merge into `patches/phabricator-legacy/`
+- `libphutil`: 2 patches exported since the last `upstream/master` merge into `patches/libphutil-legacy/`
+- `arcanist`: no isolated historic local patch set identified yet
 
-## Bereits identifizierte lokale Nicht-Standard-Aenderungen
+## Already Identified Local Non-Standard Changes
 
 ### feature
 
-- Files: Dateilink im Detaildialog anzeigen
-- Kalender: konfigurierbare Default-Edit-Policy
-- Kalender: Projekt-Navigation um Kalendereinstieg erweitern
-- Kalender: Tooltip-/Zeit-/Wochentagsdarstellung verbessern
-- Kalender: Hervorhebung des aktuellen Tages pruefen
+- Files: show a shareable file link in the detail dialog
+- Calendar: configurable default edit policy
+- Calendar: add calendar entry point to project navigation
+- Calendar: improve tooltip, time, and weekday display
+- Calendar: review current-day highlighting
 
-## Bereits klar identifizierte Patchdateien
+## Already Identified Patch Files
 
-### feature / upstream-pruefen
+### feature / check against upstream
 
 - `patches/phabricator-legacy/0033-Make-calendar-day-view-honor-user-preferences-for-ho.patch`
 - `patches/phabricator-legacy/0034-Show-translated-weekdays-in-calendar-day-view.patch`
@@ -43,13 +43,13 @@ Arbeitsdokument fuer die Inventarisierung historischer lokaler Aenderungen.
 - `patches/phabricator-legacy/0054-Ref-T788-enhance-the-visibility-of-the-current-day-i.patch`
 - `patches/phabricator-legacy/0072-Files-show-file-location-in-file-detail-dialog-for-l.patch`
 
-### i18n-content / upstream-pruefen
+### i18n-content / check against upstream
 
 - `patches/phabricator-legacy/0036-src-view-viewutils.php-some-calls-to-pht-were-missin.patch`
 - `patches/phabricator-legacy/0057-made-string-Created-a-subtask-of.-translatable.patch`
-- zahlreiche `Additional-german-translations*.patch`
+- many `Additional-german-translations*.patch`
 
-### i18n-infra / intern oder neu aufsetzen
+### i18n-infra / internal or redesign
 
 - `patches/phabricator-legacy/0002-Empty-string-translation-is-harmful-for-gettext.patch`
 - `patches/phabricator-legacy/0004-Made-translation-engine-work-again-with-german-trans.patch`
@@ -77,8 +77,8 @@ Arbeitsdokument fuer die Inventarisierung historischer lokaler Aenderungen.
 
 - noch zu inventarisieren
 
-## Naechste Schritte
+## Next Steps
 
-1. Historische Commits gegen den letzten Phacility-Upstream-Stand exportieren.
-2. Patches den Tracks zuordnen.
-3. Upstream-Kandidaten markieren.
+1. Export historic commits against the last Phacility upstream state.
+2. Assign patches to tracks.
+3. Mark upstream candidates.

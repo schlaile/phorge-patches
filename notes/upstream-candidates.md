@@ -1,16 +1,16 @@
 # Upstream Candidates
 
-Hier werden Aenderungen gesammelt, die wahrscheinlich allgemein nuetzlich und upstream-faehig sind.
+Collect changes here that are probably generally useful and upstream-friendly.
 
-## Kandidaten
+## Candidates
 
-- fehlende `pht()`-Markierungen
-- kleine generische Kalender-Verbesserungen
-- generische Files-/UI-Verbesserungen
-- bereinigte deutsche Uebersetzungsbeitraege
+- missing `pht()` markers
+- small generic calendar improvements
+- generic Files/UI improvements
+- cleaned-up German translation contributions
 
-## Ausschlusskandidaten
+## Likely Non-Candidates
 
-- internes Branding
-- firmeninterne Policy-Defaults
-- betriebs- oder integrationsspezifische Alicia-Erweiterungen
+- internal branding
+- company-specific policy defaults
+- deployment- or Alicia-specific integration changes

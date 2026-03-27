@@ -1,9 +1,9 @@
 # Wikimedia Path
 
-Notizen zum Repository `wikimedia/phabricator-translations`.
+Notes about the `wikimedia/phabricator-translations` repository.
 
-Ziel:
+Goals:
 
-- verstehen, wie Uebersetzungen zwischen Translatewiki und Phabricator-/Phorge-kompatiblen Datenstrukturen ueberfuehrt werden
-- pruefen, ob die vorhandene deutsche Uebersetzung als zusaetzliche Quelle eingespeist werden kann
-- mittelfristig Rueckweg nach Translatewiki offenhalten
+- understand how translations are transformed between Translatewiki and Phabricator/Phorge-compatible data structures
+- evaluate whether the existing German translation can be injected as an additional source
+- keep a future path back to Translatewiki open

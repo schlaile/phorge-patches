@@ -1,8 +1,8 @@
 # Phorge Patches
 
-Kuratierte Patchserien gegen das Repository `phorge`.
+Curated patch series against the `phorge` repository.
 
-Empfehlung:
+Recommendation:
 
-- kleine thematische Patches
-- Dateiname mit Reihenfolge und Thema, zum Beispiel `001-files-share-link.patch`
+- keep patches small and thematic
+- use filenames with sequence and topic, for example `001-files-share-link.patch`

@@ -1,5 +1,5 @@
 # Legacy libphutil Patches
 
-Historische Patches aus dem separaten `libphutil`-Repository.
+Historic patches from the former standalone `libphutil` repository.
 
-Dieser Bereich dient nur als Migrationszwischenstufe, bis klar ist, an welche Stellen dieselbe Funktionalitaet im neueren `arcanist`-Baum portiert werden muss.
+This area only exists as a migration staging point until it is clear where the same functionality needs to be ported into the newer Arcanist tree.

@@ -1,14 +1,14 @@
 # Curation: i18n Infrastructure
 
-Arbeitsliste fuer technische Uebersetzungsinfrastruktur aus den historischen Forks.
+Working list for technical translation infrastructure from the historic forks.
 
-## Ziel
+## Goal
 
-- alte `gettext`- und Locale-Sonderwege verstehen
-- entscheiden, was fuer aktuelle Phorge-/Arcanist-Staende noch gebraucht wird
-- moeglichst auf nativen oder build-basierten Importpfad umstellen
+- understand the old `gettext` and locale-specific paths
+- decide what is still needed for current Phorge and Arcanist states
+- move, if possible, to a native or build-based import path
 
-## Historische Patches
+## Historic Patches
 
 ### phabricator
 
@@ -23,17 +23,17 @@ Arbeitsliste fuer technische Uebersetzungsinfrastruktur aus den historischen For
 - `patches/libphutil-legacy/0001-German-locale.patch`
 - `patches/libphutil-legacy/0002-Made-translation-engine-work-again-with-german-trans.patch`
 
-## Betroffene Kernstellen
+## Affected Core Areas
 
 - `PhabricatorGermanTranslation`
 - `PhabricatorGettextTranslator`
 - `PhutilGermanLocale`
-- Erweiterung von `PhutilTranslation`
-- Build-Skripte fuer `.po`/`.mo`
+- extension of `PhutilTranslation`
+- build scripts for `.po` and `.mo`
 
-## Vorlaeufige Bewertung
+## Preliminary Assessment
 
-- die historische `gettext`-Runtime sollte eher nicht das Zielmodell bleiben
-- die eigentliche deutsche Locale bleibt wertvoll
-- Build-/Importpfad ist wahrscheinlicher als eigener Runtime-Hack
-- `wikimedia/phabricator-translations` ist der wichtigste Referenzpfad fuer die Neubewertung
+- the historic `gettext` runtime should probably not remain the target model
+- the actual German locale support remains valuable
+- a build/import path is more likely than a custom runtime hack
+- `wikimedia/phabricator-translations` is the main reference path for reevaluation

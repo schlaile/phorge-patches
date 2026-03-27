@@ -1,9 +1,9 @@
 # Phabricator Branding Overlay
 
-Dieser Bereich ist fuer ein internes Branding-Overlay vorgesehen, damit in der Benutzeroberflaeche bei Bedarf weiterhin "Phabricator" sichtbar bleiben kann, obwohl die Codebasis auf Phorge laeuft.
+This area is reserved for an internal branding overlay so the UI can continue to show "Phabricator" where desired, even though the codebase runs on Phorge.
 
-Leitlinie:
+Guidelines:
 
-- zentrale Override-Punkte bevorzugen
-- keine breit gestreuten Textaenderungen ohne Not
-- technische generische Patches von Branding sauber trennen
+- prefer central override points
+- avoid broad scattered text changes unless necessary
+- keep generic technical patches clearly separate from branding

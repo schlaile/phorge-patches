@@ -1,44 +1,44 @@
 # Curation: Files and Calendar
 
-Arbeitsliste fuer funktionale Produktpatches aus dem historischen `phabricator`-Fork.
+Working list for functional product patches from the historic `phabricator` fork.
 
-## Ziel
+## Goal
 
-- kleine funktionale Patches isolieren
-- gegen aktuellen Phorge-Stand pruefen
-- entscheiden: `upstream vorhanden`, `neu portieren`, `verwerfen`
+- isolate small functional patches
+- compare them against current Phorge
+- decide: `already upstream`, `re-port`, or `drop`
 
-## Kandidaten
+## Candidates
 
 ### Files
 
 - `patches/phabricator-legacy/0072-Files-show-file-location-in-file-detail-dialog-for-l.patch`
-  Zeigt im Dateidetaildialog einen direkt teilbaren Dateilink an.
+  Shows a directly shareable file link in the file detail dialog.
 
 ### Calendar
 
 - `patches/phabricator-legacy/0033-Make-calendar-day-view-honor-user-preferences-for-ho.patch`
-  Nutzt Benutzerpraeferenz fuer Zeitanzeige in der Tagesansicht.
+  Uses user time-format preferences in day view.
 
 - `patches/phabricator-legacy/0034-Show-translated-weekdays-in-calendar-day-view.patch`
-  Uebersetzt Wochentage in der Kalender-Tagesansicht.
+  Translates weekdays in calendar day view.
 
 - `patches/phabricator-legacy/0037-Added-event-description-to-event-tooltip-in-month-an.patch`
-  Ergaenzt Tooltip-/Listendarstellung um Event-Beschreibung.
+  Adds event description to tooltip and list rendering.
 
 - `patches/phabricator-legacy/0041-Made-default-event-edit-policy-configurable.patch`
-  Macht die Default-Edit-Policy fuer neue Events konfigurierbar.
+  Makes the default edit policy for new events configurable.
 
 - `patches/phabricator-legacy/0042-Add-calendar-icon-to-project-navigation-view.patch`
-  Fuegt Kalendereinstieg in der Projekt-Navigation hinzu.
+  Adds a calendar entry point to project navigation.
 
 - `patches/phabricator-legacy/0054-Ref-T788-enhance-the-visibility-of-the-current-day-i.patch`
-  Verbessert die Sichtbarkeit des aktuellen Tages.
+  Improves visibility of the current day.
 
-## Vorlaeufige Bewertung
+## Preliminary Assessment
 
-- `0072` ist wahrscheinlich weiterhin nuetzlich und upstream-faehig.
-- `0033`, `0034`, `0037` sind kleine UX-/i18n-nahe Patches und gute Pruefkandidaten.
-- `0041` ist eher lokal/organisatorisch motiviert und wahrscheinlich weniger upstream-faehig.
-- `0042` ist nuetzlich, aber stark von der heutigen Projekt-/Kalendernavigation abhaengig.
-- `0054` muss gegen den heutigen CSS-/UI-Stand geprueft werden.
+- `0072` is probably still useful and upstream-friendly.
+- `0033`, `0034`, and `0037` are small UX/i18n-adjacent patches and good review candidates.
+- `0041` looks more local or organizational and is probably less upstream-friendly.
+- `0042` may still be useful, but depends heavily on current project/calendar navigation.
+- `0054` needs to be checked against the current CSS/UI state.

@@ -1,5 +1,5 @@
 # Arcanist Patches
 
-Kuratierte Patchserien gegen `phorge-arcanist`.
+Curated patch series against `phorge-arcanist`.
 
-Hier landen auch spaeter portierte historische `libphutil`-Anpassungen, soweit sie in der neuen Struktur zu `arcanist` gehoeren.
+Later ports of historic `libphutil` changes belong here as well, where they map into the newer integrated Arcanist structure.

@@ -1,46 +1,46 @@
 # phorge-patches
 
-Kuratiertes Arbeitsrepo fuer lokale Phorge-/Arcanist-Anpassungen.
+Curated working repository for local Phorge and Arcanist changes.
 
-Dieses Repo enthaelt keine kompletten Fremd-Repositories, sondern nur:
+This repository does not contain full upstream trees. It only contains:
 
-- Patchserien gegen `phorge` und `phorge-arcanist`
-- Migrationshilfen fuer historische `phabricator`-/`libphutil`-Aenderungen
-- Uebersetzungsdaten und Import-/Build-Notizen
-- Branding-Overlays
-- technische Inventare und Upstream-Kandidaten
+- patch series against `phorge` and `phorge-arcanist`
+- migration helpers for historic `phabricator` and `libphutil` changes
+- translation data and import/build notes
+- branding overlays
+- technical inventories and upstream candidates
 
-## Ziel
+## Goal
 
-Lokale Anpassungen so pflegen, dass sie:
+Maintain local changes in a way that keeps them:
 
-- moeglichst klein und wartbar bleiben
-- soweit sinnvoll upstream-faehig sind
-- nicht unnoetig mit Betriebswissen oder Deployment vermischt werden
+- small and maintainable
+- upstream-friendly where practical
+- separate from deployment and internal operations knowledge
 
-## Struktur
+## Structure
 
-- `patches/phorge/`: kuratierte Patches gegen `phorge`
-- `patches/arcanist/`: kuratierte Patches gegen `phorge-arcanist`
-- `patches/libphutil-legacy/`: historische Patches aus dem alten `libphutil`
-- `translation/de/`: deutsche Uebersetzungsdaten
-- `translation/import/`: Notizen und Hilfen fuer Import-/Build-Pfade
-- `translation/wikimedia/`: Auswertung des Wikimedia-Importpfads
-- `branding/phabricator/`: internes Branding-Overlay fuer weiter sichtbares "Phabricator"
-- `branding/assets/`: nicht-sensitive Branding-Artefakte
-- `notes/`: Inventare, Upgrade-Plan, Upstream-Kandidaten
-- `scripts/`: Hilfsskripte fuer Export, Anwendung und Build
+- `patches/phorge/`: curated patches against `phorge`
+- `patches/arcanist/`: curated patches against `phorge-arcanist`
+- `patches/libphutil-legacy/`: historic patches from the old `libphutil`
+- `translation/de/`: German translation data
+- `translation/import/`: notes and helpers for import/build paths
+- `translation/wikimedia/`: evaluation of the Wikimedia import path
+- `branding/phabricator/`: internal branding overlay for keeping visible "Phabricator" naming
+- `branding/assets/`: non-sensitive branding artifacts
+- `notes/`: inventories, upgrade plan, upstream candidates
+- `scripts/`: helper scripts for export, apply, and build steps
 
-## Arbeitsweise
+## Workflow
 
-1. Historische Aenderungen aus den alten Repositories inventarisieren.
-2. Aenderungen in Tracks aufteilen: `feature`, `i18n-content`, `i18n-infra`, `branding`.
-3. Patches thematisch klein halten.
-4. Upstream-faehige Aenderungen separat dokumentieren.
-5. Betriebs- und Umgebungswissen ausschliesslich in `phorge-intern` pflegen.
+1. Inventory historic changes from the old repositories.
+2. Split changes into tracks: `feature`, `i18n-content`, `i18n-infra`, `branding`.
+3. Keep patches small and thematic.
+4. Document upstream-friendly changes separately.
+5. Keep deployment and environment knowledge in `phorge-intern` only.
 
-## Bezug zu den anderen Repositories
+## Relationship To Other Repositories
 
-- `phorge`: Ziel-Fork fuer Server/Kern
-- `phorge-arcanist`: Ziel-Fork fuer Arcanist inklusive integrierter ehemaliger `libphutil`-Anteile
-- `phorge-intern`: private Betriebs-, Migrations- und Rollout-Dokumentation
+- `phorge`: target fork for server/core work
+- `phorge-arcanist`: target fork for Arcanist, including later ports of former `libphutil` functionality
+- `phorge-intern`: private operations, migration, and rollout documentation

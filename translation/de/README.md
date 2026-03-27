@@ -1,10 +1,10 @@
 # German Translation
 
-Sammlung und spaetere Bereinigung der deutschen Uebersetzungsdaten.
+Collection and later cleanup area for German translation data.
 
-Geplante Inhalte:
+Planned contents:
 
-- historische `de.po` aus `phabricator`
-- historische `de.po` aus `libphutil`
-- Mapping auf aktuellen Phorge-/Arcanist-Stand
-- spaetere Bereinigung fuer moegliche Upstream-Beitraege
+- historic `de.po` from `phabricator`
+- historic `de.po` from `libphutil`
+- mapping to current Phorge and Arcanist state
+- later cleanup for possible upstream contributions

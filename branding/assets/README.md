@@ -1,5 +1,5 @@
 # Branding Assets
 
-Nur nicht-sensitive oder spaeter oeffentlich vertretbare Branding-Artefakte ablegen.
+Only store non-sensitive or later publicly shareable branding artifacts here.
 
-Interne Logos, sensible Screenshots oder betriebliche Materialien gehoeren nach `phorge-intern`.
+Internal logos, sensitive screenshots, or operational materials belong in `phorge-intern`.

@@ -1,40 +1,40 @@
 # Curation: i18n Content
 
-Arbeitsliste fuer inhaltliche Uebersetzungsarbeit.
+Working list for translation content work.
 
-## Ziel
+## Goal
 
-- deutsche Uebersetzungsinhalte von Infrastruktur trennen
-- fehlende `pht()`-Markierungen isolieren
-- moegliche Upstream-Beitraege markieren
+- separate German translation content from infrastructure
+- isolate missing `pht()` markers
+- mark possible upstream contributions
 
-## Kandidaten
+## Candidates
 
-### Fehlende oder verbesserte Translatability
+### Missing or Improved Translatability
 
 - `patches/phabricator-legacy/0036-src-view-viewutils.php-some-calls-to-pht-were-missin.patch`
-  Markiert `today`, `yesterday` und `on %s` korrekt fuer Uebersetzung.
+  Marks `today`, `yesterday`, and `on %s` properly for translation.
 
 - `patches/phabricator-legacy/0057-made-string-Created-a-subtask-of.-translatable.patch`
-  Macht die Meldung "Created a subtask of ..." ueber `pht()` uebersetzbar.
+  Makes the "Created a subtask of ..." message translatable via `pht()`.
 
-### Deutsche Inhalts-Patches
+### German Content Patches
 
 - `patches/phabricator-legacy/0003-German-translation-update.patch`
 - `patches/phabricator-legacy/0005-Additional-german-translations-mostly-calendar-app.patch`
 - `patches/phabricator-legacy/0006-Additional-german-translations.patch`
 - `patches/phabricator-legacy/0008-additional-german-translations-small-cosmetic-change.patch`
-- weitere `Additional-german-translations*.patch`
+- further `Additional-german-translations*.patch`
 - `patches/phabricator-legacy/0074-Additional-german-translations-password-reset-email.patch`
 
 ### Legacy libphutil Translation Content
 
-- `translation/de/` soll spaeter die konsolidierten deutschen Daten aufnehmen
+- `translation/de/` will later hold the consolidated German data
 - `patches/libphutil-legacy/0001-German-locale.patch`
-  enthaelt neben Infrastruktur auch die Einfuehrung der deutschen Locale
+  contains locale introduction in addition to infrastructure
 
-## Vorlaeufige Bewertung
+## Preliminary Assessment
 
-- `0036` und `0057` sind gute Upstream-Kandidaten.
-- der eigentliche deutsche Uebersetzungsinhalt ist fachlich wertvoll, sollte aber bereinigt und auf aktuellen Stringbestand gemappt werden.
-- die vielen kleinteiligen `Additional-german-translations*.patch` sollten nicht einzeln neu portiert, sondern in konsolidierte Datenbasis ueberfuehrt werden.
+- `0036` and `0057` are good upstream candidates.
+- the actual German translation content is valuable, but should be cleaned up and mapped to the current string set.
+- the many small `Additional-german-translations*.patch` should not be re-ported one by one, but consolidated into a single maintained data base.

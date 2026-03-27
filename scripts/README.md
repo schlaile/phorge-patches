@@ -1,7 +1,7 @@
 # Scripts
 
-Platz fuer Hilfsskripte, zum Beispiel:
+Place for helper scripts, for example:
 
-- Export historischer Patchserien
-- Anwenden kuratierter Patches auf Ziel-Repositories
-- Build-/Import-Hilfen fuer Uebersetzungen
+- export of historic patch series
+- application of curated patches to target repositories
+- translation build/import helpers

@@ -1,10 +1,10 @@
 # Translation Import
 
-Arbeitsbereich fuer den Uebersetzungs-Importpfad.
+Working area for the translation import path.
 
-Aktuelle Arbeitshypothese:
+Current working hypothesis:
 
-- deutsche Uebersetzungsinhalte aus den historischen `.po`-Dateien retten
-- alten `gettext`-Runtime-Pfad nach Moeglichkeit nicht als Zielarchitektur weiterfuehren
-- stattdessen nativen oder build-basierten Importpfad evaluieren
-- `wikimedia/phabricator-translations` als Referenz fuer Import/Export gegen Translatewiki auswerten
+- preserve German translation content from the historic `.po` files
+- avoid keeping the old `gettext` runtime path as the target architecture if possible
+- evaluate a native or build-based import path instead
+- use `wikimedia/phabricator-translations` as the main reference for Translatewiki import/export

@@ -2,19 +2,19 @@
 
 ## 2026-03-27
 
-Historische Patchserien aus den Alt-Repositories exportiert:
+Historic patch series exported from the old repositories:
 
 - `~/phabricator` -> `patches/phabricator-legacy/`
 - `~/libphutil` -> `patches/libphutil-legacy/`
 
-Patchzahlen:
+Patch counts:
 
 - `phabricator`: 74
 - `libphutil`: 2
 - `arcanist`: 0
 
-Ziel dieser Exportstufe:
+Goal of this export step:
 
-- lokale Historie von den alten Forks entkoppeln
-- thematische Portierung gegen neue Ziel-Repositories vorbereiten
-- spaeter kleine, kuratierte Patchsets aus den exportierten Altpatches ableiten
+- decouple local history from the old forks
+- prepare thematic porting against the new target repositories
+- derive smaller curated patch sets from the exported legacy patches later
