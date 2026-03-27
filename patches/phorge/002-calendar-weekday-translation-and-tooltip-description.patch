@@ -1,0 +1,42 @@
+From 9870b26a7fce1674a016a46297d7af156cf5a5eb Mon Sep 17 00:00:00 2001
+From: Alicia Codex <alicia@schlaile.de>
+Date: Fri, 27 Mar 2026 18:00:38 +0100
+Subject: [PATCH] Improve calendar weekday translation and tooltip descriptions
+
+---
+ src/view/phui/calendar/PHUICalendarListView.php | 5 +++++
+ src/view/phui/calendar/PHUICalendarWeekView.php | 2 +-
+ 2 files changed, 6 insertions(+), 1 deletion(-)
+
+diff --git a/src/view/phui/calendar/PHUICalendarListView.php b/src/view/phui/calendar/PHUICalendarListView.php
+index 89fadee6d4..dde73d5cb7 100644
+--- a/src/view/phui/calendar/PHUICalendarListView.php
++++ b/src/view/phui/calendar/PHUICalendarListView.php
+@@ -102,6 +102,11 @@ final class PHUICalendarListView extends AphrontTagView {
+       }
+ 
+       $tip = $event->getDateTimeSummary();
++      $description = trim((string)$event->getDescription());
++      if (phutil_nonempty_string($description)) {
++        $tip = $tip.', '.$description;
++      }
++
+       if ($this->getView() == 'day') {
+         $tip_align = 'E';
+       } else if ($this->getView() == 'month') {
+diff --git a/src/view/phui/calendar/PHUICalendarWeekView.php b/src/view/phui/calendar/PHUICalendarWeekView.php
+index 3878d4bc8d..94fd33d6e0 100644
+--- a/src/view/phui/calendar/PHUICalendarWeekView.php
++++ b/src/view/phui/calendar/PHUICalendarWeekView.php
+@@ -117,7 +117,7 @@ final class PHUICalendarWeekView extends AphrontView {
+       } else if ($box_start_time == $tomorrow_time) {
+         $title = pht('Tomorrow');
+       } else {
+-        $title = $box_start_time->format('l');
++        $title = pht($box_start_time->format('l'));
+       }
+ 
+       $day_boxes[] = array(
+-- 
+2.47.3
+
