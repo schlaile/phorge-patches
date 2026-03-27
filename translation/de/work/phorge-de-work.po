@@ -7370,7 +7370,7 @@ msgid "Rain Defender"
 msgstr "Regenabwehr"
 
 msgid "In Debt"
-msgstr "Knietief im Dispo"
+msgstr "Knietief in Deiner Schuld"
 
 msgid "The Empire"
 msgstr "Das Imperium"
@@ -43745,7 +43745,7 @@ msgstr ""
 "Das zu diesen Zugangsdaten gehörende Geheimnis wird im Klartext auf Deinem "
 "Bildschirm angezeigt. Bevor Du fortfährst, schlinge Deine Arme um Deinen "
 "Monitor und bilde einen menschlichen Schutzschild, damit neugierige Blicke "
-"keine Chance haben. Beschütze Firmengeheimnisse!"
+"keine Chance haben. Schütze Firmengeheimnisse!"
 
 msgid "Really show secret?"
 msgstr "Geheimnis wirklich anzeigen?"
