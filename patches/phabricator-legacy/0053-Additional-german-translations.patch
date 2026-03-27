@@ -1,0 +1,45 @@
+From dc0fc0ad89f584af4dd27b797c0f8d991d012947 Mon Sep 17 00:00:00 2001
+From: Peter Schlaile <peter@schlaile.de>
+Date: Mon, 5 Oct 2015 16:33:46 +0200
+Subject: [PATCH 53/74] Additional german translations
+
+
+diff --git a/resources/internationalization/po/de.po b/resources/internationalization/po/de.po
+index 5dd2460fc12f15252266cf83565b9d0274f41f55..a774e4656fab34b990c57ec40f13e5d93eed0009 100644
+--- a/resources/internationalization/po/de.po
++++ b/resources/internationalization/po/de.po
+@@ -8,7 +8,7 @@ msgstr ""
+ "Project-Id-Version: Phabricator\n"
+ "Report-Msgid-Bugs-To: \n"
+ "POT-Creation-Date: 2015-08-17 12:58+0200\n"
+-"PO-Revision-Date: 2015-09-21 18:15+0100\n"
++"PO-Revision-Date: 2015-10-05 16:33+0100\n"
+ "Last-Translator: Peter Schlaile <peter@schlaile.de>\n"
+ "Language-Team: GERMAN <peter@schlaile.de>\n"
+ "Language: \n"
+@@ -18646,11 +18646,11 @@ msgstr ""
+ 
+ #: applications/settings/panel/PhabricatorDateTimeSettingsPanel.php:68
+ msgid "Time-of-Day Format"
+-msgstr ""
++msgstr "Zeitdarstellung"
+ 
+ #: applications/settings/panel/PhabricatorDateTimeSettingsPanel.php:75
+ msgid "Format used when rendering a time of day."
+-msgstr ""
++msgstr "Art der Darstellung einer Tageszeit"
+ 
+ #: applications/settings/panel/PhabricatorAccountSettingsPanel.php:98
+ #: applications/settings/panel/PhabricatorDateTimeSettingsPanel.php:99
+@@ -52424,7 +52424,7 @@ msgstr "Europäisch (28-02-2000)"
+ 
+ #: applications/settings/panel/PhabricatorDateTimeSettingsPanel.php:87
+ msgid "Format used when rendering a date."
+-msgstr ""
++msgstr "Art der Darstellung eines Datums"
+ 
+ #: applications/settings/panel/PhabricatorDateTimeSettingsPanel.php:91
+ msgid "Week Starts On"
+-- 
+2.47.3
+

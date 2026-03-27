@@ -1,0 +1,40 @@
+From 93c9886972c130039f6c56b18de9e6de8e05aa00 Mon Sep 17 00:00:00 2001
+From: Peter Schlaile <peter@schlaile.de>
+Date: Fri, 24 Jul 2015 11:17:28 +0200
+Subject: [PATCH 12/74] Bugfix : german translation of "Edit Details" was wrong
+
+
+diff --git a/resources/internationalization/po/de.po b/resources/internationalization/po/de.po
+index 64bdad82741c167407e064b0302930f0d515e7f7..752e9440c22646dfc4911ce779ca548585e34308 100644
+--- a/resources/internationalization/po/de.po
++++ b/resources/internationalization/po/de.po
+@@ -7,7 +7,7 @@ msgid ""
+ msgstr ""
+ "Project-Id-Version: Phabricator\n"
+ "POT-Creation-Date: 2014-05-18 07:31+0200\n"
+-"PO-Revision-Date: 2015-07-23 17:06+0100\n"
++"PO-Revision-Date: 2015-07-24 11:17+0100\n"
+ "Last-Translator: Peter Schlaile <peter@schlaile.de>\n"
+ "Language-Team: German <peter@schlaile.de>\n"
+ "Language: \n"
+@@ -23451,7 +23451,7 @@ msgstr "Diesen Kommentar wirklich entfernen?"
+ #: applications/diffusion/herald/DiffusionChangeHeraldFieldGroup.php:8
+ #: applications/transactions/controller/PhabricatorApplicationTransactionDetailController.php:33
+ msgid "Change Details"
+-msgstr "Änderungen im Detail"
++msgstr "Details ändern"
+ 
+ #: applications/transactions/controller/PhabricatorApplicationTransactionValueController.php:102
+ msgid "These rules are processed in order:"
+@@ -29312,7 +29312,7 @@ msgstr "Projekt archivieren"
+ #: applications/project/controller/PhabricatorProjectController.php:86
+ #: applications/project/controller/PhabricatorProjectProfileController.php:92
+ msgid "Edit Details"
+-msgstr "Änderungen im Detail"
++msgstr "Details ändern"
+ 
+ #: applications/project/config/PhabricatorProjectConfigOptions.php:11
+ msgid "Configure Projects."
+-- 
+2.47.3
+

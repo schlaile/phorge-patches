@@ -1,0 +1,70 @@
+From a96fc26f3aa0959fab373e785a707300095388bf Mon Sep 17 00:00:00 2001
+From: Peter Schlaile <peter@schlaile.de>
+Date: Fri, 9 Oct 2015 12:58:15 +0000
+Subject: [PATCH 54/74] Ref T788 : enhance the visibility of the current day in
+ phabricator calendar app
+
+
+diff --git a/resources/celerity/map.php b/resources/celerity/map.php
+index 472ebbf92a47578d3d51e445f34048f922d60b6d..161bcf477b309de4633e9d1cb285093d7b60f267 100644
+--- a/resources/celerity/map.php
++++ b/resources/celerity/map.php
+@@ -122,7 +122,7 @@ return array(
+     'rsrc/css/layout/phabricator-source-code-view.css' => '5e0178de',
+     'rsrc/css/phui/calendar/phui-calendar-day.css' => 'd1cf6f93',
+     'rsrc/css/phui/calendar/phui-calendar-list.css' => 'c1c7f338',
+-    'rsrc/css/phui/calendar/phui-calendar-month.css' => '476be7e0',
++    'rsrc/css/phui/calendar/phui-calendar-month.css' => '424b7cb0',
+     'rsrc/css/phui/calendar/phui-calendar.css' => 'ccabe893',
+     'rsrc/css/phui/phui-action-list.css' => 'c5eba19d',
+     'rsrc/css/phui/phui-action-panel.css' => '3ee9afd5',
+@@ -781,7 +781,7 @@ return array(
+     'phui-calendar-css' => 'ccabe893',
+     'phui-calendar-day-css' => 'd1cf6f93',
+     'phui-calendar-list-css' => 'c1c7f338',
+-    'phui-calendar-month-css' => '476be7e0',
++    'phui-calendar-month-css' => '424b7cb0',
+     'phui-crumbs-view-css' => 'd842f867',
+     'phui-document-view-css' => '0267054b',
+     'phui-feed-story-css' => 'c7d8113a',
+diff --git a/src/view/phui/calendar/PHUICalendarMonthView.php b/src/view/phui/calendar/PHUICalendarMonthView.php
+index 06d15bbcc98ae62514f5b2ad4d96a2033f184414..9e874f51b99f3392905a9395b499c13dd0a52ab0 100644
+--- a/src/view/phui/calendar/PHUICalendarMonthView.php
++++ b/src/view/phui/calendar/PHUICalendarMonthView.php
+@@ -240,12 +240,14 @@ final class PHUICalendarMonthView extends AphrontView {
+     if ($date && $date->format('j') == $this->day &&
+       $date->format('m') == $this->month) {
+       $today_class = 'phui-calendar-today-slot phui-calendar-today';
++      $class .= ' phui-calendar-today';
+     } else {
+       $today_class = 'phui-calendar-today-slot';
+     }
+ 
+     if ($this->isDateInCurrentWeek($date)) {
+       $today_class .= ' phui-calendar-this-week';
++      $class .= ' phui-calendar-this-week';
+     }
+ 
+     $last_week_day = 6;
+diff --git a/webroot/rsrc/css/phui/calendar/phui-calendar-month.css b/webroot/rsrc/css/phui/calendar/phui-calendar-month.css
+index a219e49cf7550bffb081f17bfe6bfe86fb90bcc1..afbe0c6d6491627fbe53dc9d45b54b783733279f 100644
+--- a/webroot/rsrc/css/phui/calendar/phui-calendar-month.css
++++ b/webroot/rsrc/css/phui/calendar/phui-calendar-month.css
+@@ -141,6 +141,14 @@ table.phui-calendar-view td.phui-calendar-date-number-container {
+   background-color: {$lightblueborder};
+ }
+ 
++td.phui-calendar-today {
++  background-color: {$lightblueborder};
++}
++
++.phui-calendar-today a.phui-calendar-date-number {
++  color: {$darkbluetext} !important;
++}
++
+ .phui-calendar-event-empty {
+   border-color: transparent;
+   background: transparent;
+-- 
+2.47.3
+

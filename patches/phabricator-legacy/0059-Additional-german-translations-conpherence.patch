@@ -1,0 +1,115 @@
+From 7c56bb492ac7223dcbff04be55ebed9f6dc45f47 Mon Sep 17 00:00:00 2001
+From: Peter Schlaile <peter@schlaile.de>
+Date: Tue, 17 Nov 2015 18:52:28 +0100
+Subject: [PATCH 59/74] Additional german translations (conpherence)
+
+
+diff --git a/resources/internationalization/po/de.po b/resources/internationalization/po/de.po
+index b3877f9c59de7805aa50f523a839c322c743f07d..10fc92c34eeba954739b86b5ed2a8c852385d3ae 100644
+--- a/resources/internationalization/po/de.po
++++ b/resources/internationalization/po/de.po
+@@ -8,7 +8,7 @@ msgstr ""
+ "Project-Id-Version: Phabricator\n"
+ "Report-Msgid-Bugs-To: \n"
+ "POT-Creation-Date: 2015-10-15 11:07+0200\n"
+-"PO-Revision-Date: 2015-10-15 11:43+0100\n"
++"PO-Revision-Date: 2015-11-17 13:16+0100\n"
+ "Last-Translator: Peter Schlaile <peter@schlaile.de>\n"
+ "Language-Team: GERMAN <peter@schlaile.de>\n"
+ "Language: \n"
+@@ -42312,7 +42312,7 @@ msgstr "Mit anderen Benutzern chatten"
+ #: applications/conpherence/application/PhabricatorConpherenceApplication.php:61
+ #: applications/conpherence/phid/PhabricatorConpherenceThreadPHIDType.php:8
+ msgid "Conpherence Room"
+-msgstr ""
++msgstr "Conpherence Chat"
+ 
+ #: applications/conpherence/conduit/ConpherenceQueryThreadConduitAPIMethod.php:12
+ msgid "Query for Conpherence threads for the logged in user. You can query by IDs or PHIDs for specific Conpherence threads. Otherwise, specify limit and offset to query the most recently updated Conpherences for the logged in user."
+@@ -42328,7 +42328,7 @@ msgstr ""
+ 
+ #: applications/conpherence/conduit/ConpherenceUpdateThreadConduitAPIMethod.php:11
+ msgid "Update an existing conpherence room."
+-msgstr ""
++msgstr "Einen bestehenden Conpherence-Chat ändern."
+ 
+ #: applications/conpherence/conduit/ConpherenceUpdateThreadConduitAPIMethod.php:32
+ msgid "You must specify a room id or room phid to query transactions from."
+@@ -42449,7 +42449,7 @@ msgstr "Chat Teilnehmer"
+ 
+ #: applications/conpherence/policyrule/ConpherenceThreadMembersPolicyRule.php:15
+ msgid "Participants in this room can take this action."
+-msgstr ""
++msgstr "Teilnehmer dieses Chats können diese Aktion ausführen."
+ 
+ #: applications/conpherence/policyrule/ConpherenceThreadMembersPolicyRule.php:19
+ msgid "room participants"
+@@ -42488,47 +42488,47 @@ msgstr "Privater Chat"
+ 
+ #: applications/conpherence/storage/ConpherenceThread.php:398
+ msgid "Participants in a room can always view it."
+-msgstr ""
++msgstr "Teilnehmer eines Chats können ihn grundsätzlich sehen."
+ 
+ #: applications/conpherence/storage/ConpherenceTransaction.php:133
+ #, php-format
+ msgid "%s renamed this room from \"%s\" to \"%s\"."
+-msgstr ""
++msgstr "%s hat diesen Chat von \"%s\" in \"%s\" umbenannt."
+ 
+ #: applications/conpherence/storage/ConpherenceTransaction.php:139
+ #, php-format
+ msgid "%s deleted the room name \"%s\"."
+-msgstr ""
++msgstr "%s hat den Chat-Namen \"%s\" entfernt."
+ 
+ #: applications/conpherence/storage/ConpherenceTransaction.php:144
+ #, php-format
+ msgid "%s named this room \"%s\"."
+-msgstr ""
++msgstr "%s hat diesen Chat \"%s\" genannt."
+ 
+ #: applications/conpherence/storage/ConpherenceTransaction.php:152
+ #, php-format
+ msgid "%s updated the room image."
+-msgstr ""
++msgstr "%s hat das Bild für den Chat geändert."
+ 
+ #: applications/conpherence/storage/ConpherenceTransaction.php:157
+ #, php-format
+ msgid "%s changed the visibility of this room from \"%s\" to \"%s\"."
+-msgstr ""
++msgstr "%s hat die Sichtbarkeit dieses Chats von \"%s\" auf \"%s\" geändert."
+ 
+ #: applications/conpherence/storage/ConpherenceTransaction.php:164
+ #, php-format
+ msgid "%s changed the edit policy of this room from \"%s\" to \"%s\"."
+-msgstr ""
++msgstr "%s hat die Editier-Berechtigung dieses Chats von \"%s\" auf \"%s\" geändert."
+ 
+ #: applications/conpherence/storage/ConpherenceTransaction.php:171
+ #, php-format
+ msgid "%s changed the join policy of this room from \"%s\" to \"%s\"."
+-msgstr ""
++msgstr "%s hat die Teilnahme-Berechtigung dieses Chats von \"%s\" auf \"%s\" geändert."
+ 
+ #: applications/conpherence/view/ConpherenceDurableColumnView.php:335
+ #: applications/conpherence/view/ConpherenceDurableColumnView.php:341
+ msgid "Room Actions"
+-msgstr ""
++msgstr "Chat Aktionen"
+ 
+ #: applications/conpherence/view/ConpherenceDurableColumnView.php:399
+ msgid "View in Conpherence"
+@@ -42537,7 +42537,7 @@ msgstr ""
+ #: applications/conpherence/view/ConpherenceDurableColumnView.php:427
+ #: applications/conpherence/view/ConpherenceLayoutView.php:140
+ msgid "You are not in any rooms yet."
+-msgstr ""
++msgstr "Du nimmst noch an keinem Chat teil."
+ 
+ #: applications/conpherence/view/ConpherenceDurableColumnView.php:435
+ #: applications/conpherence/view/ConpherenceLayoutView.php:148
+-- 
+2.47.3
+

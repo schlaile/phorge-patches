@@ -1,0 +1,31 @@
+From 354ceed72d24216ddc3948e061ed8c06f97d8e96 Mon Sep 17 00:00:00 2001
+From: Peter Schlaile <peter@schlaile.de>
+Date: Mon, 20 Jul 2015 19:23:15 +0200
+Subject: [PATCH 1/2] German locale
+
+
+diff --git a/src/internationalization/locales/PhutilGermanLocale.php b/src/internationalization/locales/PhutilGermanLocale.php
+new file mode 100644
+index 0000000000000000000000000000000000000000..65a8d95f06bae8b624096f1285c862a2628a4c4b
+--- /dev/null
++++ b/src/internationalization/locales/PhutilGermanLocale.php
+@@ -0,0 +1,16 @@
++<?php
++
++/**
++ * The german locale.
++ */
++final class PhutilUSEnglishLocale extends PhutilLocale {
++
++  public function getLocaleCode() {
++    return 'de_DE';
++  }
++
++  public function getLocaleName() {
++    return pht('German (DE)');
++  }
++
++}
+-- 
+2.47.3
+

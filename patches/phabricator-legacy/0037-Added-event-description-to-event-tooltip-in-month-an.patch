@@ -1,0 +1,23 @@
+From 96fbb24d0df9643eaca6bf495272a833c884f6e0 Mon Sep 17 00:00:00 2001
+From: Peter Schlaile <peter@schlaile.de>
+Date: Mon, 17 Aug 2015 18:42:14 +0200
+Subject: [PATCH 37/74] Added event description to event tooltip in month (and
+ other calendar list views)
+
+
+diff --git a/src/view/phui/calendar/PHUICalendarListView.php b/src/view/phui/calendar/PHUICalendarListView.php
+index 4de84ce3fd0810ecc1811664db5a76d892fa8185..8c6d6749546ac3502a92ac1f603cd094ea2d5a10 100644
+--- a/src/view/phui/calendar/PHUICalendarListView.php
++++ b/src/view/phui/calendar/PHUICalendarListView.php
+@@ -178,7 +178,7 @@ final class PHUICalendarListView extends AphrontTagView {
+           $end->getValueAsFormat('M j, Y, '.$time_pref));
+       }
+     }
+-    return $tip;
++    return $tip . ", " . $event->getDescription();
+   }
+ 
+   public function getIsViewerInvitedOnList() {
+-- 
+2.47.3
+

@@ -1,0 +1,31 @@
+From bb82cfb91968002db5a7fa3f2dfefb3dce9a22be Mon Sep 17 00:00:00 2001
+From: Peter Schlaile <peter@schlaile.de>
+Date: Sun, 11 Oct 2015 13:29:01 +0200
+Subject: [PATCH 56/74] Additional german translations
+
+
+diff --git a/resources/internationalization/po/de.po b/resources/internationalization/po/de.po
+index 437e5a02368a0f508c15b90f2f92405b8b67f1f0..a44bfd0d4d296355ec43e65bc9f6102256e66c71 100644
+--- a/resources/internationalization/po/de.po
++++ b/resources/internationalization/po/de.po
+@@ -8,7 +8,7 @@ msgstr ""
+ "Project-Id-Version: Phabricator\n"
+ "Report-Msgid-Bugs-To: \n"
+ "POT-Creation-Date: 2015-08-17 12:58+0200\n"
+-"PO-Revision-Date: 2015-10-11 13:25+0100\n"
++"PO-Revision-Date: 2015-10-11 13:28+0100\n"
+ "Last-Translator: Peter Schlaile <peter@schlaile.de>\n"
+ "Language-Team: GERMAN <peter@schlaile.de>\n"
+ "Language: \n"
+@@ -16104,7 +16104,7 @@ msgstr "Commit ändern"
+ 
+ #: applications/maniphest/query/ManiphestTaskSearchEngine.php:231
+ msgid "Subscribed"
+-msgstr ""
++msgstr "Ich lese mit bei"
+ 
+ msgid "Repository Browser"
+ msgstr ""
+-- 
+2.47.3
+

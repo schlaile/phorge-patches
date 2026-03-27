@@ -1,0 +1,87 @@
+From 19cd837a0a56baf06c0be8c520567ab96c19d8c9 Mon Sep 17 00:00:00 2001
+From: Peter Schlaile <peter@schlaile.de>
+Date: Sat, 22 Aug 2015 15:39:03 +0200
+Subject: [PATCH 41/74] Made default event edit policy configurable
+
+
+diff --git a/src/__phutil_library_map__.php b/src/__phutil_library_map__.php
+index ee6d9ca7c7dbb2334c40174a900e9a671da27111..39ae3f8c91aec74241e22d3b78da2ac9d4747b1b 100644
+--- a/src/__phutil_library_map__.php
++++ b/src/__phutil_library_map__.php
+@@ -178,6 +178,7 @@ phutil_register_library_map(array(
+     'AuthManageProvidersCapability' => 'applications/auth/capability/AuthManageProvidersCapability.php',
+     'CalendarTimeUtil' => 'applications/calendar/util/CalendarTimeUtil.php',
+     'CalendarTimeUtilTestCase' => 'applications/calendar/__tests__/CalendarTimeUtilTestCase.php',
++    'CalendarDefaultEditCapability' => 'applications/calendar/capability/CalendarDefaultEditCapability.php',
+     'CelerityAPI' => 'applications/celerity/CelerityAPI.php',
+     'CelerityDefaultPostprocessor' => 'applications/celerity/postprocessor/CelerityDefaultPostprocessor.php',
+     'CelerityHighContrastPostprocessor' => 'applications/celerity/postprocessor/CelerityHighContrastPostprocessor.php',
+@@ -3680,6 +3681,7 @@ phutil_register_library_map(array(
+     'AuthManageProvidersCapability' => 'PhabricatorPolicyCapability',
+     'CalendarTimeUtil' => 'Phobject',
+     'CalendarTimeUtilTestCase' => 'PhabricatorTestCase',
++    'CalendarDefaultEditCapability' => 'PhabricatorPolicyCapability',
+     'CelerityAPI' => 'Phobject',
+     'CelerityDefaultPostprocessor' => 'CelerityPostprocessor',
+     'CelerityHighContrastPostprocessor' => 'CelerityPostprocessor',
+diff --git a/src/applications/calendar/application/PhabricatorCalendarApplication.php b/src/applications/calendar/application/PhabricatorCalendarApplication.php
+index b5bdfaa1eb5437e7ce3c19d951fce694cde7bd7a..7bff4df1af397e6e3776814bbaa2522b3609ce96 100644
+--- a/src/applications/calendar/application/PhabricatorCalendarApplication.php
++++ b/src/applications/calendar/application/PhabricatorCalendarApplication.php
+@@ -80,6 +80,14 @@ final class PhabricatorCalendarApplication extends PhabricatorApplication {
+     return $items;
+   }
+ 
++  protected function getCustomCapabilities() {
++    return array(
++      CalendarDefaultEditCapability::CAPABILITY => array(
++	  'caption' => pht('Default edit policy for newly created events.')
++         )
++     );
++  }
++
+   public function getMailCommandObjects() {
+     return array(
+       'event' => array(
+diff --git a/src/applications/calendar/capability/CalendarDefaultEditCapability.php b/src/applications/calendar/capability/CalendarDefaultEditCapability.php
+new file mode 100644
+index 0000000000000000000000000000000000000000..37dfb034eebe6bb03bebd58f1786a590058f6547
+--- /dev/null
++++ b/src/applications/calendar/capability/CalendarDefaultEditCapability.php
+@@ -0,0 +1,11 @@
++<?php
++
++final class CalendarDefaultEditCapability extends PhabricatorPolicyCapability {
++
++  const CAPABILITY = 'calendar.default.edit';
++
++  public function getCapabilityName() {
++    return pht('Default Edit Policy');
++  }
++
++}
+diff --git a/src/applications/calendar/storage/PhabricatorCalendarEvent.php b/src/applications/calendar/storage/PhabricatorCalendarEvent.php
+index 6f0ff98b3cdb21c90dd0c0fa90985b93a21fcd38..79658c2b6b625f449936ab039a96cc79c0146b95 100644
+--- a/src/applications/calendar/storage/PhabricatorCalendarEvent.php
++++ b/src/applications/calendar/storage/PhabricatorCalendarEvent.php
+@@ -66,6 +66,8 @@ final class PhabricatorCalendarEvent extends PhabricatorCalendarDAO
+       $is_recurring = true;
+     }
+ 
++    $edit_policy = $app->getPolicy(CalendarDefaultEditCapability::CAPABILITY);
++
+     return id(new PhabricatorCalendarEvent())
+       ->setUserPHID($actor->getPHID())
+       ->setIsCancelled(0)
+@@ -73,7 +75,7 @@ final class PhabricatorCalendarEvent extends PhabricatorCalendarDAO
+       ->setIsRecurring($is_recurring)
+       ->setIcon(self::DEFAULT_ICON)
+       ->setViewPolicy($view_policy)
+-      ->setEditPolicy($actor->getPHID())
++      ->setEditPolicy($edit_policy)
+       ->setSpacePHID($actor->getDefaultSpacePHID())
+       ->attachInvitees(array())
+       ->applyViewerTimezone($actor);
+-- 
+2.47.3
+

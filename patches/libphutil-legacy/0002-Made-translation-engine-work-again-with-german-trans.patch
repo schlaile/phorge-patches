@@ -1,0 +1,61 @@
+From cc376f757a02aa22ad3a6cf8ed375076a2a9fd48 Mon Sep 17 00:00:00 2001
+From: Peter Schlaile <peter@schlaile.de>
+Date: Tue, 21 Jul 2015 11:05:55 +0200
+Subject: [PATCH 2/2] Made translation engine work again with german translator
+
+
+diff --git a/src/__phutil_library_map__.php b/src/__phutil_library_map__.php
+index 79216f831c9085c496ae5b371ddb0f428c054ea0..6851265524fa2a8569d46bfc717b3f9e04e47d82 100644
+--- a/src/__phutil_library_map__.php
++++ b/src/__phutil_library_map__.php
+@@ -687,6 +687,7 @@ phutil_register_library_map(array(
+     'PhutilFileLock' => 'PhutilLock',
+     'PhutilFileLockTestCase' => 'PhutilTestCase',
+     'PhutilFileTree' => 'Phobject',
++    'PhutilGermanLocale' => 'PhutilLocale',
+     'PhutilGitHubAuthAdapter' => 'PhutilOAuthAuthAdapter',
+     'PhutilGitURI' => 'Phobject',
+     'PhutilGitURITestCase' => 'PhutilTestCase',
+diff --git a/src/internationalization/PhutilTranslation.php b/src/internationalization/PhutilTranslation.php
+index 623e8733da383057e998ad9d52573524499210f5..4584223d86e7bf5ca1a94024e6b346e36e5b5bb8 100644
+--- a/src/internationalization/PhutilTranslation.php
++++ b/src/internationalization/PhutilTranslation.php
+@@ -82,6 +82,22 @@ abstract class PhutilTranslation extends Phobject {
+     return $results;
+   }
+ 
++  public static function getTranslatorForLocale($locale_code) {
++    $locale = PhutilLocale::loadLocale($locale_code);
++
++    $translations = self::loadAllTranslations();
++
++    $results = array();
++    foreach ($translations as $translation) {
++	    if ($translation->getLocaleCode() == $locale_code) {
++		    if ($translation->getTranslator() !== false) {
++			    return $translation->getTranslator();
++		    }
++	    }
++    }
++    return false;
++  }
++
+   public function getTranslator() {
+     return false;
+   }
+diff --git a/src/internationalization/locales/PhutilGermanLocale.php b/src/internationalization/locales/PhutilGermanLocale.php
+index 65a8d95f06bae8b624096f1285c862a2628a4c4b..75837fd9181ae5d37a7879f5ff3db789647137c0 100644
+--- a/src/internationalization/locales/PhutilGermanLocale.php
++++ b/src/internationalization/locales/PhutilGermanLocale.php
+@@ -3,7 +3,7 @@
+ /**
+  * The german locale.
+  */
+-final class PhutilUSEnglishLocale extends PhutilLocale {
++final class PhutilGermanLocale extends PhutilLocale {
+ 
+   public function getLocaleCode() {
+     return 'de_DE';
+-- 
+2.47.3
+

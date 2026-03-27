@@ -1,0 +1,31 @@
+From 4d54b12a142b239bb91c37f547633e7f61d1d17e Mon Sep 17 00:00:00 2001
+From: Peter Schlaile <peter@schlaile.de>
+Date: Tue, 25 Aug 2015 17:46:22 +0200
+Subject: [PATCH 47/74] Small german translation fix
+
+
+diff --git a/resources/internationalization/po/de.po b/resources/internationalization/po/de.po
+index 19e010717b77462c88df0711554e512854e8fec3..dace4a4704bc46d5ef74ffad4f401819b50aa000 100644
+--- a/resources/internationalization/po/de.po
++++ b/resources/internationalization/po/de.po
+@@ -8,7 +8,7 @@ msgstr ""
+ "Project-Id-Version: Phabricator\n"
+ "Report-Msgid-Bugs-To: \n"
+ "POT-Creation-Date: 2015-08-17 12:58+0200\n"
+-"PO-Revision-Date: 2015-08-24 17:24+0100\n"
++"PO-Revision-Date: 2015-08-25 17:46+0100\n"
+ "Last-Translator: Peter Schlaile <peter@schlaile.de>\n"
+ "Language-Team: GERMAN <peter@schlaile.de>\n"
+ "Language: \n"
+@@ -4987,7 +4987,7 @@ msgstr "Neuer Termin"
+ 
+ #: applications/calendar/controller/PhabricatorCalendarEventEditController.php:125
+ msgid "Update"
+-msgstr "Editieren"
++msgstr "Änderung übernehmen"
+ 
+ #: applications/phortune/controller/PhortuneCartViewController.php:99
+ #: applications/phortune/controller/PhortuneCartViewController.php:306
+-- 
+2.47.3
+

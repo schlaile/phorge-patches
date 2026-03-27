@@ -1,0 +1,49 @@
+From a43c4be1fe81ff7683dca30eb9ce023da533e1b5 Mon Sep 17 00:00:00 2001
+From: Peter Schlaile <peter@schlaile.de>
+Date: Sat, 23 Jan 2016 14:08:43 +0100
+Subject: [PATCH 71/74] Additional german translations (policy)
+
+
+diff --git a/resources/internationalization/po/de.po b/resources/internationalization/po/de.po
+index 14fda21bcc46bf58df3bcc2718196cf0d0aec9b8..a3475612561a7d1c1df55dd9b22e179899827b38 100644
+--- a/resources/internationalization/po/de.po
++++ b/resources/internationalization/po/de.po
+@@ -8,7 +8,7 @@ msgstr ""
+ "Project-Id-Version: Phabricator\n"
+ "Report-Msgid-Bugs-To: \n"
+ "POT-Creation-Date: 2015-10-15 11:07+0200\n"
+-"PO-Revision-Date: 2016-01-19 13:32+0100\n"
++"PO-Revision-Date: 2016-01-23 14:08+0100\n"
+ "Last-Translator: Peter Schlaile <peter@schlaile.de>\n"
+ "Language-Team: GERMAN <peter@schlaile.de>\n"
+ "Language: \n"
+@@ -7508,7 +7508,7 @@ msgstr ""
+ #: applications/phid/PhabricatorObjectHandle.php:133
+ #, php-format
+ msgid "Restricted %s"
+-msgstr ""
++msgstr "Geschlossene Gesellschaft %s"
+ 
+ #: applications/phid/PhabricatorObjectHandle.php:135
+ #, php-format
+@@ -10349,7 +10349,7 @@ msgstr "Zugriff verweigert: %s"
+ #: applications/policy/filter/PhabricatorPolicyFilter.php:772
+ #, php-format
+ msgid "You Shall Not Pass: %s"
+-msgstr ""
++msgstr "Typen wie Du müssen leider draußen bleiben: %s"
+ 
+ #: applications/policy/filter/PhabricatorPolicyFilter.php:584
+ #, php-format
+@@ -10418,7 +10418,7 @@ msgstr "Richtlinie speichern"
+ #: aphront/configuration/AphrontDefaultApplicationConfiguration.php:188
+ #, php-format
+ msgid "Users with the \"%s\" capability:"
+-msgstr ""
++msgstr "Benutzer mit der \"%s\" Berechtigung:"
+ 
+ #: applications/policy/controller/PhabricatorPolicyExplainController.php:72
+ #, php-format
+-- 
+2.47.3
+

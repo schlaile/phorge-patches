@@ -1,0 +1,31 @@
+From 91405b2b44ccec253ba586cedf9c400f33d512f5 Mon Sep 17 00:00:00 2001
+From: Peter Schlaile <peter@schlaile.de>
+Date: Sat, 22 Aug 2015 17:28:30 +0200
+Subject: [PATCH 42/74] Add calendar icon to project navigation view
+
+
+diff --git a/src/applications/project/controller/PhabricatorProjectController.php b/src/applications/project/controller/PhabricatorProjectController.php
+index a6901a7222c6b89a67c2f04d823ab2dcb58fc23b..7de9439e1c69e6ef57655bb3917b7635819fd99c 100644
+--- a/src/applications/project/controller/PhabricatorProjectController.php
++++ b/src/applications/project/controller/PhabricatorProjectController.php
+@@ -81,6 +81,17 @@ abstract class PhabricatorProjectController extends PhabricatorController {
+       $nav->addIcon(null, pht('Open Tasks'), 'fa-anchor', null, $query_uri);
+     }
+ 
++    $class = 'PhabricatorCalendarApplication';
++    if (PhabricatorApplication::isClassInstalledForViewer($class, $viewer)) {
++      $phid = $project->getPHID();
++
++      $query_uri = urisprintf(
++	      '/calendar/?isCancelled=active&projects=%s#R',
++	      $phid);
++
++      $nav->addIcon('calendar', pht('Calendar'), 'fa-calendar', null, $query_uri);
++    }
++
+     $nav->addIcon("feed/{$id}/", pht('Feed'), 'fa-newspaper-o');
+     $nav->addIcon("members/{$id}/", pht('Members'), 'fa-group');
+     $nav->addIcon("details/{$id}/", pht('Edit Details'), 'fa-pencil');
+-- 
+2.47.3
+

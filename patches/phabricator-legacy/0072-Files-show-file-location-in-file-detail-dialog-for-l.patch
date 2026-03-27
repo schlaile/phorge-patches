@@ -1,0 +1,35 @@
+From a9d9ec46beb42ba5986f4ab831df514d499e848c Mon Sep 17 00:00:00 2001
+From: Peter Schlaile <peter@schlaile.de>
+Date: Mon, 14 Mar 2016 14:08:49 +0000
+Subject: [PATCH 72/74] Files : show file location in file detail dialog for
+ link sharing
+
+
+diff --git a/src/applications/files/controller/PhabricatorFileInfoController.php b/src/applications/files/controller/PhabricatorFileInfoController.php
+index 0e3d041eacee6b4f616758e098b08e92070625cb..2ce5a9bd6039d768e7e04f9251a3166f5a5f14dd 100644
+--- a/src/applications/files/controller/PhabricatorFileInfoController.php
++++ b/src/applications/files/controller/PhabricatorFileInfoController.php
+@@ -200,6 +200,9 @@ final class PhabricatorFileInfoController extends PhabricatorFileController {
+       pht('Created'),
+       phabricator_datetime($file->getDateCreated(), $user));
+ 
++    $properties->addProperty(
++      pht('File Link'),
++      $file->getViewURI());
+ 
+     $finfo = id(new PHUIPropertyListView());
+     $box->addPropertyList($finfo, pht('File Info'));
+@@ -267,7 +270,9 @@ final class PhabricatorFileInfoController extends PhabricatorFileController {
+     $storage_properties->addProperty(
+       pht('Handle'),
+       $file->getStorageHandle());
+-
++    $storage_properties->addProperty(
++      pht('File Link'),
++      $file->getViewURI());
+ 
+     $phids = $file->getObjectPHIDs();
+     if ($phids) {
+-- 
+2.47.3
+

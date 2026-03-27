@@ -1,0 +1,31 @@
+From 73103c4481b08f403d94ea5d2760c3b1b61c740b Mon Sep 17 00:00:00 2001
+From: Peter Schlaile <peter@schlaile.de>
+Date: Wed, 9 Sep 2015 14:19:40 +0200
+Subject: [PATCH 49/74] German translation fix
+
+
+diff --git a/resources/internationalization/po/de.po b/resources/internationalization/po/de.po
+index a65910e21ddeddacea3288796a428f3eed3b76e7..a3eba98ca02d31ab55ca59ded7b65cb070318e23 100644
+--- a/resources/internationalization/po/de.po
++++ b/resources/internationalization/po/de.po
+@@ -8,7 +8,7 @@ msgstr ""
+ "Project-Id-Version: Phabricator\n"
+ "Report-Msgid-Bugs-To: \n"
+ "POT-Creation-Date: 2015-08-17 12:58+0200\n"
+-"PO-Revision-Date: 2015-08-29 10:53+0100\n"
++"PO-Revision-Date: 2015-09-09 14:19+0100\n"
+ "Last-Translator: Peter Schlaile <peter@schlaile.de>\n"
+ "Language-Team: GERMAN <peter@schlaile.de>\n"
+ "Language: \n"
+@@ -23459,7 +23459,7 @@ msgstr "Diesen Kommentar wirklich entfernen?"
+ #: applications/diffusion/herald/DiffusionChangeHeraldFieldGroup.php:8
+ #: applications/transactions/controller/PhabricatorApplicationTransactionDetailController.php:33
+ msgid "Change Details"
+-msgstr "Details ändern"
++msgstr "Änderungen im Detail"
+ 
+ #: applications/transactions/controller/PhabricatorApplicationTransactionValueController.php:102
+ msgid "These rules are processed in order:"
+-- 
+2.47.3
+

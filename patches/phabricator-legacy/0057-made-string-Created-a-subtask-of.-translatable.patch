@@ -1,0 +1,27 @@
+From 4e8cc77b3415bc75b286c2cd0d931af43d4a7f35 Mon Sep 17 00:00:00 2001
+From: Peter Schlaile <peter@schlaile.de>
+Date: Thu, 15 Oct 2015 11:07:03 +0200
+Subject: [PATCH 57/74] made string 'Created a subtask of...' translatable
+
+
+diff --git a/src/applications/maniphest/controller/ManiphestTaskDetailController.php b/src/applications/maniphest/controller/ManiphestTaskDetailController.php
+index 0d4fa74398fdcb8edaddd1a909ab92f513a2531d..424b254e7380c4ff2cfe8ba58e7d657daeefa0a4 100644
+--- a/src/applications/maniphest/controller/ManiphestTaskDetailController.php
++++ b/src/applications/maniphest/controller/ManiphestTaskDetailController.php
+@@ -95,9 +95,10 @@ final class ManiphestTaskDetailController extends ManiphestController {
+           ->setHref('/maniphest/task/create/?parent='.$parent_task->getID())
+           ->setText(pht('Create Another Subtask')));
+ 
+-      $info_view->appendChild(hsprintf(
+-        'Created a subtask of <strong>%s</strong>.',
+-        $handles->renderHandle($parent_task->getPHID())));
++      $info_view->appendChild(
++	      pht('Created a subtask of %s.',
++		  hsprintf('<strong>%s</strong>',
++			   $handles->renderHandle($parent_task->getPHID()))));
+     } else if ($workflow == 'create') {
+       $info_view = new PHUIInfoView();
+       $info_view->setSeverity(PHUIInfoView::SEVERITY_NOTICE);
+-- 
+2.47.3
+

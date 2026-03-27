@@ -1,0 +1,24 @@
+From 3eb6d15cd329e1d7dc7dca51192170b573e48846 Mon Sep 17 00:00:00 2001
+From: Peter Schlaile <peter@schlaile.de>
+Date: Sun, 16 Nov 2014 11:39:56 +0100
+Subject: [PATCH 01/74] translated getName() was already there...?
+
+
+diff --git a/src/applications/feed/application/PhabricatorFeedApplication.php b/src/applications/feed/application/PhabricatorFeedApplication.php
+index cf7303e8fe28e213d5a7ab06a4b45eaecf882486..80ecf08a8545ce373eb412720a1574bdcb2a5763 100644
+--- a/src/applications/feed/application/PhabricatorFeedApplication.php
++++ b/src/applications/feed/application/PhabricatorFeedApplication.php
+@@ -2,10 +2,6 @@
+ 
+ final class PhabricatorFeedApplication extends PhabricatorApplication {
+ 
+-  public function getName() {
+-    return pht('Feed');
+-  }
+-
+   public function getBaseURI() {
+     return '/feed/';
+   }
+-- 
+2.47.3
+

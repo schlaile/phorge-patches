@@ -1,0 +1,48 @@
+From f525b62cd4c97260a32ea9b3ba56ac617623d0d0 Mon Sep 17 00:00:00 2001
+From: Peter Schlaile <peter@schlaile.de>
+Date: Mon, 20 Jul 2015 20:19:45 +0200
+Subject: [PATCH 02/74] Empty string translation is harmful for gettext
+
+
+diff --git a/src/applications/diffusion/view/DiffusionBranchTableView.php b/src/applications/diffusion/view/DiffusionBranchTableView.php
+index b1e14688f199c73f9cd33bfa369f7c236476da62..ad4c44dd15fd643449e59c36c889e3457094415c 100644
+--- a/src/applications/diffusion/view/DiffusionBranchTableView.php
++++ b/src/applications/diffusion/view/DiffusionBranchTableView.php
+@@ -116,7 +116,7 @@ final class DiffusionBranchTableView extends DiffusionView {
+         pht('History'),
+         pht('Branch'),
+         pht('Head'),
+-        pht(''),
++        '',
+         pht('Modified'),
+         pht('Details'),
+       ));
+diff --git a/src/applications/settings/panel/PhabricatorSettingsPanelSessions.php b/src/applications/settings/panel/PhabricatorSettingsPanelSessions.php
+index 2d3780107fb3294ef3883147dd32175b7cb50416..28502a72f9dfb210901642cf08bcb5012dce30f9 100644
+--- a/src/applications/settings/panel/PhabricatorSettingsPanelSessions.php
++++ b/src/applications/settings/panel/PhabricatorSettingsPanelSessions.php
+@@ -97,7 +97,7 @@ final class PhabricatorSettingsPanelSessions
+         pht('HiSec'),
+         pht('Created'),
+         pht('Expires'),
+-        pht(''),
++        '',
+       ));
+     $table->setColumnClasses(
+       array(
+diff --git a/src/applications/settings/panel/PhabricatorSettingsPanelTokens.php b/src/applications/settings/panel/PhabricatorSettingsPanelTokens.php
+index 7aa7aaaed429368885161cf24b03fea1ef8e8b49..8a689549e4c63462026b576c96895d0d03a2b2e3 100644
+--- a/src/applications/settings/panel/PhabricatorSettingsPanelTokens.php
++++ b/src/applications/settings/panel/PhabricatorSettingsPanelTokens.php
+@@ -67,7 +67,7 @@ final class PhabricatorSettingsPanelTokens
+       array(
+         pht('Type'),
+         pht('Expires'),
+-        pht(''),
++        '',
+       ));
+     $table->setColumnClasses(
+       array(
+-- 
+2.47.3
+

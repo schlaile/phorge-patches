@@ -1,0 +1,22 @@
+From 10551e3eae874f84e8030b37bf3834de067bdc18 Mon Sep 17 00:00:00 2001
+From: Peter Schlaile <peter@schlaile.de>
+Date: Mon, 17 Aug 2015 12:41:45 +0200
+Subject: [PATCH 34/74] Show translated weekdays in calendar day view
+
+
+diff --git a/src/view/phui/calendar/PHUICalendarDayView.php b/src/view/phui/calendar/PHUICalendarDayView.php
+index 8b6fbb3c2d151e1b38ed86e26cfb672474eed496..532ab803befb06fe6ec0a9460c6497ffb3587847 100644
+--- a/src/view/phui/calendar/PHUICalendarDayView.php
++++ b/src/view/phui/calendar/PHUICalendarDayView.php
+@@ -314,7 +314,7 @@ final class PHUICalendarDayView extends AphrontView {
+       } else if ($box_start_time == $tomorrow_time) {
+         $title = pht('Tomorrow');
+       } else {
+-        $title = $box_start_time->format('l');
++	$title = pht($box_start_time->format('l'));
+       }
+ 
+       $sidebar_day_boxes[] = array(
+-- 
+2.47.3
+

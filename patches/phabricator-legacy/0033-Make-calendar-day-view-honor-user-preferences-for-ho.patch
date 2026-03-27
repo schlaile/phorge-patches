@@ -1,0 +1,23 @@
+From 96979efd2794e9edd1a1790bad53d634fdd3e50b Mon Sep 17 00:00:00 2001
+From: Peter Schlaile <peter@schlaile.de>
+Date: Mon, 17 Aug 2015 12:18:48 +0200
+Subject: [PATCH 33/74] Make calendar day view honor user preferences for hour
+ display
+
+
+diff --git a/src/view/phui/calendar/PHUICalendarDayView.php b/src/view/phui/calendar/PHUICalendarDayView.php
+index dd8e5f3fb29d6dea3d58e9f87732370c7f0989f1..8b6fbb3c2d151e1b38ed86e26cfb672474eed496 100644
+--- a/src/view/phui/calendar/PHUICalendarDayView.php
++++ b/src/view/phui/calendar/PHUICalendarDayView.php
+@@ -61,7 +61,7 @@ final class PHUICalendarDayView extends AphrontView {
+     foreach ($hours as $hour) {
+       $js_hours[] = array(
+         'hour' => $hour->format('G'),
+-        'hour_meridian' => $hour->format('g A'),
++        'hour_meridian' => phabricator_time($hour->getTimestamp(), $viewer),
+       );
+     }
+ 
+-- 
+2.47.3
+

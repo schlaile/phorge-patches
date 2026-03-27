@@ -1,0 +1,31 @@
+From 694c18393c2658b38ba62a6a60dae7f19d2f3495 Mon Sep 17 00:00:00 2001
+From: Peter Schlaile <peter@schlaile.de>
+Date: Mon, 17 Aug 2015 13:06:21 +0200
+Subject: [PATCH 36/74] src/view/viewutils.php some calls to pht were missing
+
+
+diff --git a/src/view/viewutils.php b/src/view/viewutils.php
+index 8d57cd02d028558228c15ac1fd0c292b338b1fd6..38979db46dcf382a3c9e743b8eaeeac89ac0885b 100644
+--- a/src/view/viewutils.php
++++ b/src/view/viewutils.php
+@@ -20,14 +20,14 @@ function phabricator_relative_date($epoch, $user, $on = false) {
+   $date = phabricator_date($epoch, $user);
+ 
+   if ($date === $today) {
+-    return 'today';
++    return pht('today');
+   }
+ 
+   if ($date === $yesterday) {
+-    return 'yesterday';
++    return pht('yesterday');
+   }
+ 
+-  return (($on ? 'on ' : '').$date);
++  return ($on ? pht('on %s', $date) : $date);
+ }
+ 
+ function phabricator_time($epoch, $user) {
+-- 
+2.47.3
+

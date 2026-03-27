@@ -1,0 +1,22 @@
+From fa125519ad206e29ff84f482a2a6a2f07f682b35 Mon Sep 17 00:00:00 2001
+From: Peter Schlaile <peter@schlaile.de>
+Date: Wed, 22 Jul 2015 16:21:31 +0000
+Subject: [PATCH 07/74] Small mistake in merge, didn't remove
+ GarbageCollectorDaemon properly
+
+
+diff --git a/src/__phutil_library_map__.php b/src/__phutil_library_map__.php
+index 67b2bc66fdac8feb36eeef702bead7d7c6013909..ee6d9ca7c7dbb2334c40174a900e9a671da27111 100644
+--- a/src/__phutil_library_map__.php
++++ b/src/__phutil_library_map__.php
+@@ -2081,7 +2081,6 @@ phutil_register_library_map(array(
+     'PhabricatorGarbageCollector' => 'infrastructure/daemon/garbagecollector/PhabricatorGarbageCollector.php',
+     'PhabricatorGarbageCollectorConfigOptions' => 'applications/config/option/PhabricatorGarbageCollectorConfigOptions.php',
+     'PhabricatorGermanTranslation' => 'infrastructure/internationalization/translation/PhabricatorGermanTranslation.php',
+-    'PhabricatorGarbageCollectorDaemon' => 'infrastructure/daemon/garbagecollector/PhabricatorGarbageCollectorDaemon.php',
+     'PhabricatorGestureUIExample' => 'applications/uiexample/examples/PhabricatorGestureUIExample.php',
+     'PhabricatorGettextTranslator' => 'infrastructure/internationalization/translation/PhabricatorGettextTranslator.php',
+     'PhabricatorGitGraphStream' => 'applications/repository/daemon/PhabricatorGitGraphStream.php',
+-- 
+2.47.3
+

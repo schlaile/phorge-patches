@@ -1,0 +1,35 @@
+From 370e382a27b09db9c5e4a89f578ddc9bb1dd312a Mon Sep 17 00:00:00 2001
+From: Peter Schlaile <peter@schlaile.de>
+Date: Wed, 29 Jul 2015 12:57:36 +0000
+Subject: [PATCH 26/74] Create mo-directory in compile_mo_files, dirty hack in
+ PhabricatorEnv: set default env to German
+
+
+diff --git a/scripts/internationalization/compile_mo_files.sh b/scripts/internationalization/compile_mo_files.sh
+index ba8bb850cf30ad35918acc46c04e32eb39101c84..b5bd835d38849a1aadc661768239ed36da4620f3 100755
+--- a/scripts/internationalization/compile_mo_files.sh
++++ b/scripts/internationalization/compile_mo_files.sh
+@@ -16,6 +16,7 @@ cd $RESDIR/po
+ 
+ for i in *.po ; do
+     base=${i/.*/}
++    mkdir -p ../mo/${base}/LC_MESSAGES
+     rm -f ../mo/${base}/LC_MESSAGES/phabricator.mo
+     msgfmt $i -o ../mo/${base}/LC_MESSAGES/phabricator.mo
+ done
+diff --git a/src/infrastructure/env/PhabricatorEnv.php b/src/infrastructure/env/PhabricatorEnv.php
+index 15c3345380571cc83d43f9da5fed467e46fd5593..0123dc19590f922b0e681335cd8cd86cfcd24738 100644
+--- a/src/infrastructure/env/PhabricatorEnv.php
++++ b/src/infrastructure/env/PhabricatorEnv.php
+@@ -126,7 +126,7 @@ final class PhabricatorEnv extends Phobject {
+ 
+     // TODO: Add a "locale.default" config option once we have some reasonable
+     // defaults which aren't silly nonsense.
+-    self::setLocaleCode('en_US');
++    self::setLocaleCode('de_DE');
+   }
+ 
+   public static function beginScopedLocale($locale_code) {
+-- 
+2.47.3
+

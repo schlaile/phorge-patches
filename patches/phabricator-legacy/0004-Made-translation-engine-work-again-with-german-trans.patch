@@ -1,0 +1,44 @@
+From 84834b475e917275b0c9a121194ed66d4cba6c5d Mon Sep 17 00:00:00 2001
+From: Peter Schlaile <peter@schlaile.de>
+Date: Tue, 21 Jul 2015 11:05:31 +0200
+Subject: [PATCH 04/74] Made translation engine work again with german
+ translator
+
+
+diff --git a/src/__phutil_library_map__.php b/src/__phutil_library_map__.php
+index f9dcb6ca1bec55158049cc1329efd2f2e3985851..67b2bc66fdac8feb36eeef702bead7d7c6013909 100644
+--- a/src/__phutil_library_map__.php
++++ b/src/__phutil_library_map__.php
+@@ -5880,7 +5880,7 @@ phutil_register_library_map(array(
+     'PhabricatorGarbageCollector' => 'Phobject',
+     'PhabricatorGarbageCollectorConfigOptions' => 'PhabricatorApplicationConfigOptions',
+     'PhabricatorGarbageCollectorDaemon' => 'PhabricatorDaemon',
+-    'PhabricatorGermanTranslation' => 'PhabricatorBaseEnglishTranslation',
++    'PhabricatorGermanTranslation' => 'PhutilTranslation',
+     'PhabricatorGestureUIExample' => 'PhabricatorUIExample',
+     'PhabricatorGettextTranslator' => 'PhutilCustomTranslator',
+     'PhabricatorGitGraphStream' => 'PhabricatorRepositoryGraphStream',
+diff --git a/src/infrastructure/env/PhabricatorEnv.php b/src/infrastructure/env/PhabricatorEnv.php
+index eca51f805b8be6721cea85b0128589c2abb0ebc2..15c3345380571cc83d43f9da5fed467e46fd5593 100644
+--- a/src/infrastructure/env/PhabricatorEnv.php
++++ b/src/infrastructure/env/PhabricatorEnv.php
+@@ -150,6 +150,7 @@ final class PhabricatorEnv extends Phobject {
+       $locale = PhutilLocale::loadLocale($locale_code);
+       $translations = PhutilTranslation::getTranslationMapForLocale(
+         $locale_code);
++      $translator = PhutilTranslation::getTranslatorForLocale($locale_code);
+ 
+       $override = self::getEnvConfig('translation.override');
+       if (!is_array($override)) {
+@@ -159,7 +160,7 @@ final class PhabricatorEnv extends Phobject {
+       PhutilTranslator::getInstance()
+         ->setLocale($locale)
+         ->setTranslations($override + $translations)
+-	->setCustomTranslator($translation->getTranslator());
++	->setCustomTranslator($translator);
+ 
+       self::$localeCode = $locale_code;
+     } catch (Exception $ex) {
+-- 
+2.47.3
+

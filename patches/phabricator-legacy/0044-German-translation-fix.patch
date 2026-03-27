@@ -1,0 +1,31 @@
+From 1b2d61a131a4e95ba998fe71dee6b5c20a2b1f22 Mon Sep 17 00:00:00 2001
+From: Peter Schlaile <peter@schlaile.de>
+Date: Mon, 24 Aug 2015 12:15:00 +0200
+Subject: [PATCH 44/74] German translation fix
+
+
+diff --git a/resources/internationalization/po/de.po b/resources/internationalization/po/de.po
+index 574cccc985c611fb20871ac3bd872c416da0e4c6..d6350ede3e416c64a74b831f733454e110dbfdc8 100644
+--- a/resources/internationalization/po/de.po
++++ b/resources/internationalization/po/de.po
+@@ -8,7 +8,7 @@ msgstr ""
+ "Project-Id-Version: Phabricator\n"
+ "Report-Msgid-Bugs-To: \n"
+ "POT-Creation-Date: 2015-08-17 12:58+0200\n"
+-"PO-Revision-Date: 2015-08-22 22:05+0100\n"
++"PO-Revision-Date: 2015-08-24 12:14+0100\n"
+ "Last-Translator: Peter Schlaile <peter@schlaile.de>\n"
+ "Language-Team: GERMAN <peter@schlaile.de>\n"
+ "Language: \n"
+@@ -19181,7 +19181,7 @@ msgstr "Dateien, die an bestimmte Objekte gebunden sind, sind sichtbar für die
+ #: applications/files/query/PhabricatorFileSearchEngine.php:142
+ #, php-format
+ msgid "Uploaded by %s on %s"
+-msgstr "Hochgeladen von %s auf %s."
++msgstr "Hochgeladen von %s am %s."
+ 
+ #: applications/files/query/PhabricatorFileSearchEngine.php:144
+ #, php-format
+-- 
+2.47.3
+
