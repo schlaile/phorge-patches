@@ -37935,17 +37935,14 @@ msgstr ""
 msgid "Estimated number of hours this will take."
 msgstr ""
 
-#, fuzzy
 msgid "Story Points"
-msgstr "Schnittpunkt"
+msgstr "Story Points"
 
-#, fuzzy
 msgid "Change Story Points"
-msgstr "Status ändern"
+msgstr "Story Points ändern"
 
-#, fuzzy
 msgid "Change Estimate"
-msgstr "Status ändern"
+msgstr "Schätzung ändern"
 
 msgid ""
 "Activates a points field on tasks. You can use points for estimation or\n"
@@ -37968,9 +37965,8 @@ msgstr ""
 msgid "Task"
 msgstr "Aufgabe"
 
-#, fuzzy
 msgid "Feature Request"
-msgstr "Neue Anfrage"
+msgstr "Funktionswunsch"
 
 #, php-format
 msgid ""
@@ -38150,9 +38146,8 @@ msgid ""
 "EOTEXT"
 msgstr ""
 
-#, fuzzy
 msgid "Configuring Custom Fields"
-msgstr "Konfiguration gesperrt"
+msgstr "Benutzerdefinierte Felder konfigurieren"
 
 #, php-format
 msgid ""
@@ -38164,17 +38159,16 @@ msgid ""
 msgstr ""
 
 msgid "Custom Maniphest fields."
-msgstr ""
+msgstr "Benutzerdefinierte Maniphest-Felder."
 
-#, fuzzy
 msgid "Valid setting"
 msgstr "Gültiger Wert"
 
 msgid "Select and reorder task fields."
-msgstr ""
+msgstr "Aufgabenfelder auswählen und sortieren."
 
 msgid "Configure Maniphest priority names."
-msgstr ""
+msgstr "Maniphest-Prioritätsnamen konfigurieren."
 
 msgid "Configure Maniphest task statuses."
 msgstr "Konfiguration des Maniphest-Aufgaben-Status-Feldes."
@@ -38183,7 +38177,7 @@ msgid "Minimal Valid Config"
 msgstr "Minimale, gültige Konfiguration"
 
 msgid "Default task priority for create flows."
-msgstr ""
+msgstr "Standard-Priorität für neue Aufgaben."
 
 #, php-format
 msgid ""
@@ -38192,31 +38186,26 @@ msgid ""
 "(`90`) corresponds to the default \"Needs Triage\" priority."
 msgstr ""
 
-#, fuzzy
 msgid "Configure point values for tasks."
-msgstr "Konfiguration des Maniphest-Aufgaben-Status-Feldes."
+msgstr "Punktewerte für Aufgaben konfigurieren."
 
-#, fuzzy
 msgid "Points Config"
-msgstr "Lokale Konfiguration"
+msgstr "Punkte-Konfiguration"
 
-#, fuzzy
 msgid "Hours Config"
-msgstr "Lokale Konfiguration"
+msgstr "Stunden-Konfiguration"
 
 msgid "Define task subtypes."
-msgstr ""
+msgstr "Aufgabentypen definieren."
 
 msgid "Simple Subtypes"
-msgstr ""
+msgstr "Einfache Aufgabentypen"
 
-#, fuzzy
 msgid "Points"
-msgstr "Schnittpunkt"
+msgstr "Punkte"
 
-#, fuzzy
 msgid "Change Points"
-msgstr "Priorität ändern"
+msgstr "Punkte ändern"
 
 msgid ""
 "Configuration is not valid. Maniphest points configuration must be a "
@@ -38342,19 +38331,15 @@ msgstr ""
 msgid "Reports"
 msgstr ""
 
-#, fuzzy
 msgid "Search Parent Tasks"
-msgstr "Offene Aufgaben durchsuchen"
+msgstr "Übergeordnete Aufgaben durchsuchen"
 
-#, fuzzy
 msgid "Search Subtasks"
-msgstr "Neue Unteraufgabe"
+msgstr "Unteraufgaben durchsuchen"
 
-#, fuzzy
 msgid "View Standalone Graph"
-msgstr "Einzeln zeigen"
+msgstr "Vollständigen Graphen anzeigen"
 
-#, fuzzy
 msgid "Search..."
 msgstr "Suchen"
 
@@ -38383,7 +38368,7 @@ msgid "Filter By Project"
 msgstr "Nach Projekt filtern"
 
 msgid "(Up For Grabs)"
-msgstr ""
+msgstr "(Zu vergeben)"
 
 #, php-format
 msgid "Open Tasks by User and Priority (%s)"
@@ -38437,9 +38422,8 @@ msgstr ""
 msgid "Task Graph"
 msgstr ""
 
-#, fuzzy
 msgid "Related Objects"
-msgstr "Kaputtes Objekt"
+msgstr "Verknüpfte Objekte"
 
 msgid "Edit Task"
 msgstr "Aufgabe ändern"
@@ -38447,33 +38431,29 @@ msgstr "Aufgabe ändern"
 msgid "Create Subtask"
 msgstr "Neue Unteraufgabe"
 
-#, fuzzy
 msgid "Edit Related Tasks..."
-msgstr "Neue Aufgabe..."
+msgstr "Verknüpfte Aufgaben bearbeiten..."
 
 msgid "From Email"
 msgstr "Aus Email"
 
 msgid "Mocks"
-msgstr ""
+msgstr "Entwürfe"
 
-#, fuzzy
 msgid "Duplicates Merged Here"
-msgstr "Doppelte Nachricht"
+msgstr "Duplikate zusammengeführt"
 
-#, fuzzy
 msgid "Duplicates"
-msgstr "Duplikat"
+msgstr "Duplikate"
 
 msgid "This task has no related commits or revisions."
-msgstr ""
+msgstr "Diese Aufgabe hat keine verknüpften Versionen oder Commits."
 
-#, fuzzy
 msgid "Revisions and Commits"
-msgstr "Sitzungen und Protokolle"
+msgstr "Versionen und Commits"
 
 msgid "Graph"
-msgstr ""
+msgstr "Graph"
 
 #, php-format
 msgid ""
@@ -38497,81 +38477,76 @@ msgstr ""
 #, fuzzy
 msgid ""
 "You do not have access to any forms which can be used to create a subtask."
-msgstr "Du hast keine Berechtigung, um Zonen zu erzeugen."
+msgstr "Du hast keinen Zugriff auf Formulare zum Erstellen einer Unteraufgabe."
 
 msgid "Choose Subtype"
-msgstr ""
+msgstr "Aufgabentyp wählen"
 
 msgid "Parent Task"
 msgstr "Übergeordnete Aufgabe"
 
 msgid "The source object has the destination object as a parent."
-msgstr ""
+msgstr "Das Quellobjekt hat das Zielobjekt als übergeordnetes Element."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s added %s parent task(s): %s."
-msgstr "%s hat %s Aufgaben hinzugefügt: %s."
+msgstr "%s hat %s übergeordnete Aufgabe(n) hinzugefügt: %s."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s removed %s parent task(s): %s."
-msgstr "%s hat %s Aufgaben entfernt: %s."
+msgstr "%s hat %s übergeordnete Aufgabe(n) entfernt: %s."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s edited parent task(s), added %s: %s; removed %s: %s."
-msgstr "%s hat %s Aufgaben geändert, %s hinzugefügt; %s entfernt: %s."
+msgstr "%s hat übergeordnete Aufgabe(n) geändert, %s hinzugefügt: %s; %s entfernt: %s."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s added %s parent task(s) for %s: %s."
-msgstr "%s hat %s blockierte Aufgabe(n) zu %s hinzugefügt: %s."
+msgstr "%s hat %s übergeordnete Aufgabe(n) zu %s hinzugefügt: %s."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s removed %s parent task(s) for %s: %s."
-msgstr "%s hat %s Aufgaben von %s entfernt: %s."
+msgstr "%s hat %s übergeordnete Aufgabe(n) von %s entfernt: %s."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s edited parent task(s) for %s, added %s: %s; removed %s: %s."
-msgstr ""
-"%s hat %s Aufgaben von %s geändert, %s hinzugefügt: %s; %s entfernt: %s."
+msgstr "%s hat übergeordnete Aufgabe(n) von %s geändert, %s hinzugefügt: %s; %s entfernt: %s."
 
-#, fuzzy
 msgid "Subtask"
-msgstr "Neue Unteraufgabe"
+msgstr "Unteraufgabe"
 
 msgid "The source object has the destination object as a subtask."
-msgstr ""
+msgstr "Das Quellobjekt hat das Zielobjekt als Unteraufgabe."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s added %s subtask(s): %s."
-msgstr "%s hat %s Aufgaben hinzugefügt: %s."
+msgstr "%s hat %s Unteraufgabe(n) hinzugefügt: %s."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s removed %s subtask(s): %s."
-msgstr "%s hat %s Aufgaben entfernt: %s."
+msgstr "%s hat %s Unteraufgabe(n) entfernt: %s."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s edited subtask(s), added %s: %s; removed %s: %s."
-msgstr "%s hat %s Aufgaben geändert, %s hinzugefügt; %s entfernt: %s."
+msgstr "%s hat Unteraufgabe(n) geändert, %s hinzugefügt: %s; %s entfernt: %s."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s added %s subtask(s) for %s: %s."
-msgstr "%s hat %s Aufgaben zu %s hinzugefügt: %s."
+msgstr "%s hat %s Unteraufgabe(n) zu %s hinzugefügt: %s."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s removed %s subtask(s) for %s: %s."
-msgstr "%s hat %s Aufgaben von %s entfernt: %s."
+msgstr "%s hat %s Unteraufgabe(n) von %s entfernt: %s."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s edited subtask(s) for %s, added %s: %s; removed %s: %s."
-msgstr ""
-"%s hat %s Aufgaben von %s geändert, %s hinzugefügt: %s; %s entfernt: %s."
+msgstr "%s hat Unteraufgabe(n) von %s geändert, %s hinzugefügt: %s; %s entfernt: %s."
 
-#, fuzzy
 msgid "Task Has Commit"
-msgstr "Als Kommentar posten"
+msgstr "Aufgabe hat Commit"
 
-#, fuzzy
 msgid "The source task is associated with the destination commit."
-msgstr "Diese Aufgabe ist bereits mit den angegebenen Projekten verbunden."
+msgstr "Diese Aufgabe ist dem angegebenen Commit zugeordnet."
 
 #, php-format
 msgid "%s edited %s commit(s), added %s: %s; removed %s: %s."
@@ -38590,46 +38565,45 @@ msgid "%s edited %s commit(s) for %s, added %s: %s; removed %s: %s."
 msgstr ""
 "%s hat %s Commit(s) für %s geänert, %s hinzugefügt: %s; %s entfernt: %s."
 
-#, fuzzy
 msgid "Merged In"
-msgstr "Zusammengeführt"
+msgstr "Zusammengeführt in"
 
 msgid ""
 "The source task has had the destination task closed as a duplicate and "
 "merged into it."
 msgstr ""
+"Die Zielaufgabe wurde als Duplikat geschlossen und in diese Aufgabe "
+"zusammengeführt."
 
 #, php-format
 msgid "%s added %s mock(s): %s."
-msgstr ""
+msgstr "%s hat %s Entwurf/Entwürfe hinzugefügt: %s."
 
 #, php-format
 msgid "%s removed %s mock(s): %s."
-msgstr ""
+msgstr "%s hat %s Entwurf/Entwürfe entfernt: %s."
 
 #, php-format
 msgid "%s edited mock(s), added %s: %s; removed %s: %s."
-msgstr ""
+msgstr "%s hat Entwürfe bearbeitet, %s hinzugefügt: %s; %s entfernt: %s."
 
 #, php-format
 msgid "%s added %s mock(s) for %s: %s."
-msgstr ""
+msgstr "%s hat %s Entwurf/Entwürfe zu %s hinzugefügt: %s."
 
 #, php-format
 msgid "%s removed %s mock(s) for %s: %s."
-msgstr ""
+msgstr "%s hat %s Entwurf/Entwürfe von %s entfernt: %s."
 
 #, php-format
 msgid "%s edited mock(s) for %s, added %s: %s; removed %s: %s."
-msgstr ""
+msgstr "%s hat Entwürfe von %s bearbeitet, %s hinzugefügt: %s; %s entfernt: %s."
 
-#, fuzzy
 msgid "Task Has Revision"
-msgstr "Schuld für Release zuweisen"
+msgstr "Aufgabe hat Version"
 
-#, fuzzy
 msgid "The source task is associated with the destination revision."
-msgstr "Diese Aufgabe ist bereits mit den angegebenen Projekten verbunden."
+msgstr "Diese Aufgabe ist der angegebenen Version zugeordnet."
 
 #, php-format
 msgid "%s edited %s revision(s), added %s: %s; removed %s: %s."
@@ -38647,26 +38621,24 @@ msgstr ""
 msgid "%s edited %s revision(s) for %s, added %s: %s; removed %s: %s."
 msgstr ""
 
-#, fuzzy
 msgid "Closed as Duplicate"
-msgstr "Abgeschlossen, Duplikat"
+msgstr "Als Duplikat geschlossen"
 
 msgid "The source task has been closed as a duplicate of the destination task."
-msgstr ""
+msgstr "Diese Aufgabe wurde als Duplikat der Zielaufgabe geschlossen."
 
-#, fuzzy
 msgid "Configure Maniphest Task Forms"
-msgstr "Konfiguration des Maniphest-Aufgaben-Status-Feldes."
+msgstr "Maniphest-Aufgabenformulare konfigurieren"
 
 msgid "Configure how users create and edit tasks."
-msgstr ""
+msgstr "Konfiguriere, wie Benutzer Aufgaben erstellen und bearbeiten."
 
 msgid "Create New Task"
 msgstr "Neue Aufgabe"
 
-#, fuzzy, php-format
+#, php-format
 msgid "Edit Task: %s"
-msgstr "Aufgabe ändern"
+msgstr "Aufgabe bearbeiten: %s"
 
 msgid "Create Task"
 msgstr "Neue Aufgabe"
@@ -38675,7 +38647,7 @@ msgid "Weigh In"
 msgstr "Kommentar einwerfen"
 
 msgid "Set Sail for Adventure"
-msgstr ""
+msgstr "Volle Kraft voraus!"
 
 msgid ""
 "This task is closed as a duplicate. Only comment if you think that this task "
@@ -38744,171 +38716,137 @@ msgid ""
 "EODOCS"
 msgstr ""
 
-#, fuzzy
 msgid "Task to make this a subtask of."
-msgstr "Unteraufgabe von %s wurde erzeugt."
+msgstr "Übergeordnete Aufgabe (diese wird zur Unteraufgabe)."
 
-#, fuzzy
 msgid "Create as a subtask of another task."
-msgstr "Unteraufgabe von %s wurde erzeugt."
+msgstr "Als Unteraufgabe einer anderen Aufgabe erstellen."
 
 msgid "PHID of the parent task."
-msgstr ""
+msgstr "PHID der übergeordneten Aufgabe."
 
-#, fuzzy
 msgid "Create a task in a workboard column."
-msgstr "Neues Standard-Benutzer Konto."
+msgstr "Aufgabe in einer Arbeitsflächen-Spalte erstellen."
 
-#, fuzzy
 msgid "Move a task to one or more workboard columns."
-msgstr "%s hat diese Aufgabe nach %s auf der %s Arbeitsfläche verschoben."
+msgstr "Aufgabe in eine oder mehrere Arbeitsflächen-Spalten verschieben."
 
 msgid "List of columns to move the task to."
-msgstr ""
+msgstr "Liste der Zielspalten."
 
-#, fuzzy
 msgid "Move on Workboard"
-msgstr "Arbeitsflächen"
+msgstr "Auf Arbeitsfläche verschieben"
 
-#, fuzzy
 msgid "Set title to"
-msgstr "Neu tituliert"
+msgstr "Titel setzen auf"
 
-#, fuzzy
 msgid "Name of the task."
-msgstr "%s hat diese Aufgabe an sich gerissen."
+msgstr "Name der Aufgabe."
 
-#, fuzzy
 msgid "Rename the task."
-msgstr "%s hat diese Aufgabe erzeugt."
+msgstr "Aufgabe umbenennen."
 
-#, fuzzy
 msgid "New task name."
-msgstr "Neue Aufgabe erstellt"
+msgstr "Neuer Aufgabenname."
 
-#, fuzzy
 msgid "Assign to"
-msgstr "Zugewiesen an"
+msgstr "Zuweisen an"
 
 msgid "User who is responsible for the task."
-msgstr ""
+msgstr "Benutzer, der für die Aufgabe verantwortlich ist."
 
-#, fuzzy
 msgid "Reassign the task."
-msgstr "Zugewiesene Aufgaben"
+msgstr "Aufgabe neu zuweisen."
 
 msgid "New task assignee, or `null` to unassign."
-msgstr ""
+msgstr "Neuer Bearbeiter, oder `null` zum Entfernen."
 
-#, fuzzy
 msgid "Assign / Claim"
 msgstr "Neu zuweisen / an sich reißen"
 
-#, fuzzy
 msgid "Set status to"
-msgstr "Status"
+msgstr "Status setzen auf"
 
-#, fuzzy
 msgid "Status of the task."
-msgstr "Ändere den Status einer Aufgabe."
+msgstr "Status der Aufgabe."
 
-#, fuzzy
 msgid "Change the task status."
-msgstr "Ändere den Status einer Aufgabe."
+msgstr "Aufgabenstatus ändern."
 
-#, fuzzy
 msgid "New task status constant."
-msgstr "Der Status einer Aufgabe wurde verändert."
+msgstr "Neuer Statuswert der Aufgabe."
 
 msgid "Change Status"
 msgstr "Status ändern"
 
-#, fuzzy
 msgid "Set priority to"
-msgstr "Nach Priorität sortieren"
+msgstr "Priorität setzen auf"
 
-#, fuzzy
 msgid "Priority of the task."
-msgstr "Ändere die Priorität einer Aufgabe."
+msgstr "Priorität der Aufgabe."
 
-#, fuzzy
 msgid "Change the priority of the task."
-msgstr "Ändere die Priorität einer Aufgabe."
+msgstr "Priorität der Aufgabe ändern."
 
-#, fuzzy
 msgid "New task priority constant."
-msgstr "Eine Aufgabe hat eine neue Priorität bekommen."
+msgstr "Neuer Prioritätswert der Aufgabe."
 
 msgid "Change Priority"
 msgstr "Priorität ändern"
 
 msgid "Point value of the task."
-msgstr ""
+msgstr "Punktewert der Aufgabe."
 
-#, fuzzy
 msgid "Change the task point value."
-msgstr "Ändere den Status einer Aufgabe."
+msgstr "Punktewert der Aufgabe ändern."
 
-#, fuzzy
 msgid "New task point value."
-msgstr "Neue Aufgabe erstellt"
+msgstr "Neuer Punktewert der Aufgabe."
 
-#, fuzzy
 msgid "Set description to"
-msgstr "Beschreibung der Regel"
+msgstr "Beschreibung setzen auf"
 
-#, fuzzy
 msgid "Task description."
-msgstr "Beschreibung"
+msgstr "Beschreibung der Aufgabe."
 
-#, fuzzy
 msgid "Update the task description."
-msgstr "%s hat die Aufgabenbeschreibung geändert."
+msgstr "Aufgabenbeschreibung aktualisieren."
 
-#, fuzzy
 msgid "New task description."
-msgstr "%s hat die Aufgabenbeschreibung geändert."
+msgstr "Neue Aufgabenbeschreibung."
 
 msgid "Description Preview"
 msgstr "Beschreibungsvorschau"
 
-#, fuzzy
 msgid "Parent tasks."
-msgstr "Übergeordnete Aufgabe"
+msgstr "Übergeordnete Aufgaben."
 
-#, fuzzy
 msgid "Change the parents of this task."
-msgstr "Ändere den Status einer Aufgabe."
+msgstr "Übergeordnete Aufgaben ändern."
 
-#, fuzzy
 msgid "List of parent task PHIDs."
-msgstr "Älteste offene Aufgabe"
+msgstr "Liste der PHIDs übergeordneter Aufgaben."
 
-#, fuzzy
 msgid "Subtasks"
-msgstr "Neue Unteraufgabe"
+msgstr "Unteraufgaben"
 
-#, fuzzy
 msgid "Subtasks."
-msgstr "Keine Aufgaben."
+msgstr "Unteraufgaben."
 
-#, fuzzy
 msgid "Change the subtasks of this task."
-msgstr "Ändere den Status einer Aufgabe."
+msgstr "Unteraufgaben dieser Aufgabe ändern."
 
 msgid "List of subtask PHIDs."
-msgstr ""
+msgstr "Liste der Unteraufgaben-PHIDs."
 
-#, fuzzy
 msgid "Related commits."
-msgstr "Wurde durch Änderung %s geschlossen."
+msgstr "Verknüpfte Commits."
 
-#, fuzzy
 msgid "Change the related commits for this task."
-msgstr "Ändere die Priorität einer Aufgabe."
+msgstr "Verknüpfte Commits dieser Aufgabe ändern."
 
 msgid "List of related commit PHIDs."
-msgstr ""
+msgstr "Liste der verknüpften Commit-PHIDs."
 
 #, php-format
 msgid "● %s"
@@ -38918,63 +38856,57 @@ msgstr ""
 msgid "○ %s"
 msgstr ""
 
-#, fuzzy
 msgid "Edit Locked Task"
-msgstr "Abhängigkeiten ändern"
+msgstr "Gesperrte Aufgabe bearbeiten"
 
 msgid "This task is locked. Edit it anyway?"
-msgstr ""
+msgstr "Diese Aufgabe ist gesperrt. Trotzdem bearbeiten?"
 
 msgid "Override Task Lock"
-msgstr ""
+msgstr "Aufgabensperre übergehen"
 
-#, fuzzy
 msgid "Task Locked"
-msgstr "Gesperrt"
+msgstr "Aufgabe gesperrt"
 
 msgid "You can not interact with this task because it is locked."
-msgstr ""
+msgstr "Du kannst diese Aufgabe nicht bearbeiten, weil sie gesperrt ist."
 
-#, fuzzy
 msgid "This task has been locked."
-msgstr "Dieser Kommentar wurde gelöscht"
+msgstr "Diese Aufgabe wurde gesperrt."
 
 #, php-format
 msgid "%s created this task."
 msgstr "%s hat diese Aufgabe erzeugt."
 
-#, fuzzy
 msgid "[Maniphest]"
-msgstr "Maniphest"
+msgstr "[Maniphest]"
 
 msgid "A task's status changes."
 msgstr "Der Status einer Aufgabe wurde verändert."
 
-#, fuzzy
 msgid "A task's assignee changes."
-msgstr "Der Besitzer einer Aufgabe wurde verändert."
+msgstr "Der Bearbeiter einer Aufgabe hat sich geändert."
 
 msgid "A task's priority changes."
 msgstr "Eine Aufgabe hat eine neue Priorität bekommen."
 
 msgid "A task's subscribers change."
-msgstr ""
+msgstr "Die Mitleser einer Aufgabe haben sich geändert."
 
 msgid "A task's associated projects change."
-msgstr "Die einer Aufgabe zugeordenten Projekte wurden verändert."
+msgstr "Die einer Aufgabe zugeordneten Projekte wurden verändert."
 
-#, fuzzy
 msgid "One of a task's subtasks changes status."
-msgstr "Der Status einer Aufgabe wurde verändert."
+msgstr "Eine Unteraufgabe hat ihren Status geändert."
 
 msgid "A task is moved between columns on a workboard."
-msgstr ""
+msgstr "Eine Aufgabe wurde auf der Arbeitsfläche in eine andere Spalte verschoben."
 
 msgid "Someone comments on a task."
 msgstr "Jemand hat eine Aufgabe kommentiert."
 
 msgid "Other task activity not listed above occurs."
-msgstr ""
+msgstr "Andere Aufgabenaktivität, die oben nicht aufgeführt ist."
 
 msgid "TASK DESCRIPTION"
 msgstr "AUFGABEN-BESCHREIBUNG"
@@ -38983,7 +38915,7 @@ msgid "TASK DETAIL"
 msgstr "AUFGABEN-DETAILS"
 
 msgid "WORKBOARD"
-msgstr ""
+msgstr "ARBEITSFLÄCHE"
 
 msgid ""
 "Transaction specifies both \"afterPHID\" and \"afterPHIDs\". Specify only "
@@ -39026,121 +38958,106 @@ msgid ""
 "removing the assignee."
 msgstr ""
 
-#, fuzzy
 msgid "Lock Error"
-msgstr "Richtlinienverstoß"
+msgstr "Sperr-Fehler"
 
-#, fuzzy
 msgid "Task Owner"
-msgstr "Eigentümer"
+msgstr "Aufgabeninhaber"
 
-#, fuzzy
 msgid "Task Unassigned"
-msgstr "zugewiesen"
+msgstr "Aufgabe nicht zugewiesen"
 
-#, fuzzy
 msgid "Task Priority"
-msgstr "Priorität erhöht"
+msgstr "Aufgaben-Priorität"
 
 msgid "Subtype"
-msgstr ""
+msgstr "Aufgabentyp"
 
 msgid "Maniphest Project Name Cache"
-msgstr ""
+msgstr "Maniphest Projekt-Namens-Cache"
 
 msgid "React to tasks being created or updated."
-msgstr ""
+msgstr "Auf erstellte oder aktualisierte Aufgaben reagieren."
 
 msgid "Test rules which run when a task is created or updated."
-msgstr ""
+msgstr "Regeln testen, die beim Erstellen oder Aktualisieren einer Aufgabe ausgeführt werden."
 
-#, fuzzy
 msgid "Acting user's projects"
-msgstr "Aktive Projekte"
+msgstr "Projekte des handelnden Benutzers"
 
-#, fuzzy
 msgid "Assigned Task"
-msgstr "Zugewiesene Aufgaben"
+msgstr "Zugewiesene Aufgabe"
 
-#, fuzzy
 msgid "Unassigned task."
-msgstr "Zugewiesene Aufgaben"
+msgstr "Aufgabenzuweisung aufheben."
 
-#, fuzzy, php-format
+#, php-format
 msgid "Assigned task to: %s."
-msgstr "Zugewiesene Aufgaben"
+msgstr "Aufgabe zugewiesen an: %s."
 
 msgid "Assign task to"
 msgstr "Aufgabe zuweisen an"
 
-#, fuzzy
 msgid "Unassign task."
-msgstr "Zugewiesene Aufgaben"
+msgstr "Aufgabenzuweisung entfernen."
 
-#, fuzzy, php-format
+#, php-format
 msgid "Assign task to: %s."
-msgstr "Aufgabe zuweisen an"
+msgstr "Aufgabe zuweisen an: %s."
 
 msgid "Assign task to me"
 msgstr "Mir die Aufgabe zuweisen"
 
-#, fuzzy
 msgid "Assign task to rule author."
-msgstr "Mir die Aufgabe zuweisen"
+msgstr "Aufgabe dem Regelersteller zuweisen."
 
 msgid "Assignee"
-msgstr ""
+msgstr "Bearbeiter"
 
 msgid "Task Fields"
-msgstr ""
+msgstr "Aufgabenfelder"
 
-#, fuzzy
 msgid "Change priority to"
-msgstr "Priorität ändern"
+msgstr "Priorität ändern auf"
 
-#, fuzzy, php-format
+#, php-format
 msgid "Change priority to: %s."
-msgstr "Ändere die Priorität einer Aufgabe."
+msgstr "Priorität geändert auf: %s."
 
-#, fuzzy
 msgid "Changed Task Priority"
-msgstr "Priorität ändern"
+msgstr "Aufgabenpriorität geändert"
 
-#, fuzzy, php-format
+#, php-format
 msgid "Changed task priority to \"%s\"."
-msgstr "Ändere die Priorität einer Aufgabe."
+msgstr "Aufgabenpriorität geändert auf \"%s\"."
 
-#, fuzzy
 msgid "Change status to"
-msgstr "Status ändern"
+msgstr "Status ändern auf"
 
-#, fuzzy, php-format
+#, php-format
 msgid "Change status to: %s."
-msgstr "Ändere den Status einer Aufgabe."
+msgstr "Status geändert auf: %s."
 
-#, fuzzy
 msgid "Changed Task Status"
-msgstr "Status verändert"
+msgstr "Aufgabenstatus geändert"
 
-#, fuzzy, php-format
+#, php-format
 msgid "Changed task status to \"%s\"."
-msgstr "%s hat den Aufgaben-Status von \"%s\" auf \"%s\" geändert."
+msgstr "Aufgabenstatus geändert auf \"%s\"."
 
-#, fuzzy
 msgid "Change subtype to"
-msgstr "Status ändern"
+msgstr "Aufgabentyp ändern auf"
 
-#, fuzzy, php-format
+#, php-format
 msgid "Change subtype to \"%s\""
-msgstr "%s hat %s in \"%s\" geändert"
+msgstr "Aufgabentyp ändern auf \"%s\""
 
-#, fuzzy
 msgid "Changed Subtype"
-msgstr "Veränderte Mitleser"
+msgstr "Aufgabentyp geändert"
 
-#, fuzzy, php-format
+#, php-format
 msgid "Change subtype to \"%s.\""
-msgstr "%s hat %s in \"%s\" geändert"
+msgstr "Aufgabentyp ändern auf \"%s.\""
 
 msgid "Comma-separated list of task PHIDs."
 msgstr ""
@@ -39164,21 +39081,19 @@ msgid "Mixture of PHIDs, IDs and monograms."
 msgstr ""
 
 msgid "Untitled Task"
-msgstr ""
+msgstr "Aufgabe ohne Titel"
 
 msgid "Maniphest Task"
 msgstr "Maniphest Aufgabe"
 
-#, fuzzy
 msgid "Edits Locked"
-msgstr "Entwurf ändern"
+msgstr "Bearbeitung gesperrt"
 
-#, fuzzy
 msgid "The assignee of a task can always view and edit it."
-msgstr "Der Ersteller einer Aufgabe kann sie immer ansehen und auch ändern."
+msgstr "Der Bearbeiter einer Aufgabe kann sie immer ansehen und bearbeiten."
 
 msgid "Tasks with edits locked may only be edited by their assignee."
-msgstr ""
+msgstr "Aufgaben mit gesperrter Bearbeitung dürfen nur vom Bearbeiter geändert werden."
 
 msgid "Task Author"
 msgstr ""
@@ -39192,17 +39107,15 @@ msgstr ""
 msgid "Empty withOwners() constraint is not valid."
 msgstr ""
 
-#, fuzzy
 msgid "Task IDs must be integer numbers."
-msgstr "%s muss eine ganze Zahl sein."
+msgstr "Aufgaben-IDs müssen ganzzahlige Zahlen sein."
 
 #, php-format
 msgid "Unknown status query '%s'!"
 msgstr ""
 
-#, fuzzy
 msgid "Date Closed (Latest First)"
-msgstr "Aktualisierungsdatum (Neueste zuerst)"
+msgstr "Abschlussdatum (Neueste zuerst)"
 
 #, php-format
 msgid "Group PHID (\"%s\") component of cursor (\"%s\") is not valid."
@@ -39211,117 +39124,101 @@ msgstr ""
 msgid "Search for tasks owned by a user from a list."
 msgstr ""
 
-#, fuzzy
 msgid "Search for tasks with given authors."
-msgstr "Nur Aufgaben zeigen, die keinem Projekt zugeordnet sind."
+msgstr "Aufgaben nach Autor filtern."
 
-#, fuzzy
 msgid "Search for tasks with given statuses."
-msgstr "Nur Aufgaben zeigen, die keinem Projekt zugeordnet sind."
+msgstr "Aufgaben nach Status filtern."
 
 msgid "Priorities"
 msgstr "Prioritäten"
 
-#, fuzzy
 msgid "Search for tasks with given priorities."
-msgstr "Nur Aufgaben zeigen, die keinem Projekt zugeordnet sind."
+msgstr "Aufgaben nach Priorität filtern."
 
-#, fuzzy
 msgid "Subtypes"
-msgstr "Typen"
+msgstr "Aufgabentypen"
 
-#, fuzzy
 msgid "Search for tasks with given subtypes."
-msgstr "Nur Aufgaben zeigen, die keinem Projekt zugeordnet sind."
+msgstr "Aufgaben nach Aufgabentyp filtern."
 
 msgid "Search for tasks in specific workboard columns."
-msgstr ""
+msgstr "Aufgaben in bestimmten Arbeitsflächen-Spalten suchen."
 
-#, fuzzy
 msgid "Open Parents"
-msgstr "Elternknoten"
+msgstr "Offene übergeordnete Aufgaben"
 
 msgid "Search for tasks which block open parent tasks."
-msgstr ""
+msgstr "Aufgaben suchen, die offene übergeordnete Aufgaben blockieren."
 
-#, fuzzy
 msgid "Show Only Tasks With Open Parents"
-msgstr "Nur Aufgaben zeigen, die keinem Projekt zugeordnet sind."
+msgstr "Nur Aufgaben mit offenen übergeordneten Aufgaben zeigen"
 
-#, fuzzy
 msgid "Show Only Tasks Without Open Parents"
-msgstr "Nur Aufgaben zeigen, die keinem Projekt zugeordnet sind."
+msgstr "Nur Aufgaben ohne offene übergeordnete Aufgaben zeigen"
 
-#, fuzzy
 msgid "Open Subtasks"
-msgstr "Offene Aufgaben"
+msgstr "Offene Unteraufgaben"
 
 msgid "Search for tasks blocked by open subtasks."
-msgstr ""
+msgstr "Aufgaben suchen, die durch offene Unteraufgaben blockiert sind."
 
-#, fuzzy
 msgid "Show Only Tasks With Open Subtasks"
-msgstr "Nur Aufgaben zeigen, die andere Aufgaben blockieren"
+msgstr "Nur Aufgaben mit offenen Unteraufgaben zeigen"
 
-#, fuzzy
 msgid "Show Only Tasks Without Open Subtasks"
-msgstr "Nur Aufgaben zeigen, die andere Aufgaben blockieren"
+msgstr "Nur Aufgaben ohne offene Unteraufgaben zeigen"
 
-#, fuzzy
 msgid "Parent IDs"
-msgstr "Elternknoten"
+msgstr "IDs übergeordneter Aufgaben"
 
 msgid "Search for tasks which have specific parent tasks."
-msgstr ""
+msgstr "Aufgaben mit bestimmten übergeordneten Aufgaben suchen."
 
-#, fuzzy
 msgid "Subtask IDs"
-msgstr "Aufgaben IDs"
+msgstr "Unteraufgaben-IDs"
 
 msgid "Search for tasks which have specific subtasks."
-msgstr ""
+msgstr "Aufgaben mit bestimmten Unteraufgaben suchen."
 
 msgid "Group results by a certain parameter."
-msgstr ""
+msgstr "Ergebnisse nach einem bestimmten Parameter gruppieren."
 
 msgid "Search for tasks created after a certain date."
-msgstr ""
+msgstr "Aufgaben suchen, die nach einem bestimmten Datum erstellt wurden."
 
 msgid "Search for tasks created before a certain date."
-msgstr ""
+msgstr "Aufgaben suchen, die vor einem bestimmten Datum erstellt wurden."
 
 msgid "Updated After"
 msgstr "Geändert nach"
 
 msgid "Search for tasks updated after a certain date."
-msgstr ""
+msgstr "Aufgaben suchen, die nach einem bestimmten Datum geändert wurden."
 
 msgid "Updated Before"
 msgstr "Geändert vor"
 
 msgid "Search for tasks updated before a certain date."
-msgstr ""
+msgstr "Aufgaben suchen, die vor einem bestimmten Datum geändert wurden."
 
-#, fuzzy
 msgid "Closed After"
-msgstr "Abgeschlossen nach %s"
+msgstr "Abgeschlossen nach"
 
 msgid "Search for tasks closed after a certain date."
-msgstr ""
+msgstr "Aufgaben suchen, die nach einem bestimmten Datum abgeschlossen wurden."
 
-#, fuzzy
 msgid "Closed Before"
-msgstr "Registriert vor"
+msgstr "Abgeschlossen vor"
 
 msgid "Search for tasks closed before a certain date."
-msgstr ""
+msgstr "Aufgaben suchen, die vor einem bestimmten Datum abgeschlossen wurden."
 
-#, fuzzy
 msgid "Closed By"
-msgstr "Geschlossen"
+msgstr "Abgeschlossen von"
 
 msgid "Search for tasks closed by certain users."
-msgstr ""
+msgstr "Aufgaben suchen, die von bestimmten Benutzern abgeschlossen wurden."
 
 msgid "Page Size"
 msgstr "Seitenformat"
@@ -39339,153 +39236,131 @@ msgid ""
 "Use Maniphest to track bugs, features, todos, or anything else you need to "
 "get done. Tasks assigned to you will appear here."
 msgstr ""
+"Verwende Maniphest, um Fehler, Features, Todos oder alles andere zu "
+"verfolgen, was erledigt werden muss. Dir zugewiesene Aufgaben erscheinen "
+"hier."
 
-#, fuzzy
 msgid "Owner PHID"
-msgstr "Eigentümer"
+msgstr "PHID des Bearbeiters"
 
-#, fuzzy
 msgid "Date Closed"
-msgstr "Geschlossen"
+msgstr "Datum des Abschlusses"
 
-#, fuzzy
 msgid "Closer PHID"
-msgstr "Abstimmung schließen"
+msgstr "PHID des Abschließenden"
 
-#, fuzzy
 msgid "Closer"
-msgstr "Schließen"
+msgstr "Abgeschlossen von"
 
-#, fuzzy
 msgid "Priority Name"
-msgstr "Priorität"
+msgstr "Prioritätsbezeichnung"
 
-#, fuzzy
 msgid "Close As Duplicate"
-msgstr "Abgeschlossen, Duplikat"
+msgstr "Als Duplikat schließen"
 
-#, fuzzy
 msgid "Close This Task As a Duplicate Of"
-msgstr "%s hat diese Aufgabe geschlossen (war ein Duplikat)."
+msgstr "Diese Aufgabe als Duplikat schließen von"
 
-#, fuzzy
 msgid "Merge Into Selected Task"
-msgstr "Ausgewählte Aufgaben"
+msgstr "In ausgewählte Aufgabe zusammenführen"
 
-#, fuzzy
 msgid "Edit Mocks"
-msgstr "Entwurf ändern"
+msgstr "Entwürfe bearbeiten"
 
-#, fuzzy
 msgid "Edit Related Mocks"
-msgstr "Pholio-Entwürfe ändern"
+msgstr "Verknüpfte Entwürfe bearbeiten"
 
-#, fuzzy
 msgid "Current Mocks"
-msgstr "Neuer Entwurf"
+msgstr "Aktuelle Entwürfe"
 
-#, fuzzy
 msgid "Save Related Mocks"
-msgstr "Neuer Entwurf"
+msgstr "Verknüpfte Entwürfe speichern"
 
-#, fuzzy
 msgid "Edit Parent Tasks"
-msgstr "Übergeordnete Aufgabe"
+msgstr "Übergeordnete Aufgaben bearbeiten"
 
-#, fuzzy
 msgid "Current Parent Tasks"
-msgstr "Aktuelle Hindernisse"
+msgstr "Aktuelle übergeordnete Aufgaben"
 
-#, fuzzy
 msgid "Save Parent Tasks"
-msgstr "Übergeordnete Aufgabe"
+msgstr "Übergeordnete Aufgaben speichern"
 
-#, fuzzy
 msgid "Edit Subtasks"
-msgstr "Termin ändern"
+msgstr "Unteraufgaben bearbeiten"
 
-#, fuzzy
 msgid "Current Subtasks"
-msgstr "Neue Unteraufgabe"
+msgstr "Aktuelle Unteraufgaben"
 
-#, fuzzy
 msgid "Save Subtasks"
-msgstr "Neue Unteraufgabe"
+msgstr "Unteraufgaben speichern"
 
 msgid "Merge Duplicates In"
 msgstr "Duplikate auflösen"
 
-#, fuzzy
 msgid "Merge Duplicates Into This Task"
-msgstr "Aufgaben-Doubletten zusammenführen"
+msgstr "Duplikate in diese Aufgabe zusammenführen"
 
-#, fuzzy
 msgid "Tasks to Close and Merge"
 msgstr "Zusammenzuführende Aufgaben"
 
-#, fuzzy
 msgid "Close and Merge Selected Tasks"
-msgstr "Ausgewählte Aufgaben"
+msgstr "Ausgewählte Aufgaben schließen und zusammenführen"
 
-#, fuzzy
 msgid "The title of the task."
-msgstr "Ändere die Priorität einer Aufgabe."
+msgstr "Titel der Aufgabe."
 
-#, fuzzy
 msgid "The task description."
-msgstr "%s hat die Aufgabenbeschreibung geändert."
+msgstr "Beschreibung der Aufgabe."
 
-#, fuzzy
 msgid "Original task author."
 msgstr "Ursprünglicher Autor"
 
 msgid "Current task assignee, if task is assigned."
-msgstr ""
+msgstr "Aktueller Bearbeiter, sofern die Aufgabe zugewiesen ist."
 
 msgid "Information about task status."
-msgstr ""
+msgstr "Informationen zum Aufgabenstatus."
 
 msgid "Information about task priority."
-msgstr ""
+msgstr "Informationen zur Aufgabenpriorität."
 
 msgid "Subtype of the task."
-msgstr ""
+msgstr "Aufgabentyp."
 
 msgid "User who closed the task, if the task is closed."
-msgstr ""
+msgstr "Benutzer, der die Aufgabe abgeschlossen hat, sofern sie abgeschlossen ist."
 
 msgid "Epoch timestamp when the task was closed."
-msgstr ""
+msgstr "Zeitstempel des Aufgabenabschlusses."
 
 msgid "Changed Project Column"
 msgstr "Projekt-Spalte verändert"
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s changed the subtype of this task from \"%s\" to \"%s\"."
-msgstr "%s hat die Sichtbarkeit des Objekts %s von \"%s\" auf \"%s\" geändert."
+msgstr "%s hat den Aufgabentyp dieser Aufgabe von \"%s\" auf \"%s\" geändert."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s changed the subtype of %s from \"%s\" to \"%s\"."
-msgstr "%s hat den Status von %s von \"%s\" nach \"%s\" geändert."
+msgstr "%s hat den Aufgabentyp von %s von \"%s\" auf \"%s\" geändert."
 
 msgid "The task already has the selected status."
 msgstr "Diese Aufgabe hat bereits den ausgewählten Status."
 
-#, fuzzy
 msgid "The task already has the selected assignee."
-msgstr "Diese Aufgabe hat bereits den ausgewählten Autor."
+msgstr "Diese Aufgabe hat bereits den ausgewählten Bearbeiter."
 
 msgid "The task already has the selected priority."
 msgstr "Die Aufgabe hat bereits die ausgewählte Priorität."
 
 msgid "Browse Assignees"
-msgstr ""
+msgstr "Bearbeiter durchsuchen"
 
 msgid "Type a username or \"none\"..."
 msgstr "Einen Benutzernamen oder \"none\" eintippen..."
 
 msgid "Browse Priorities"
-msgstr ""
+msgstr "Prioritäten durchsuchen"
 
 msgid "Type a task priority name..."
 msgstr "Gib eine Aufgabenpriorität an..."
@@ -39496,13 +39371,11 @@ msgstr "Einen Aufgabenstatus eintippen..."
 msgid "Type a task status name or function..."
 msgstr "Einen Aufgabenstatus oder eine Funktion eintippen..."
 
-#, fuzzy
 msgid "Browse Subtypes"
-msgstr "Zonen durchsuchen"
+msgstr "Aufgabentypen durchsuchen"
 
-#, fuzzy
 msgid "Type a task subtype name..."
-msgstr "Einen Aufgabenstatus eintippen..."
+msgstr "Einen Aufgabentyp eintippen..."
 
 msgid "No tasks."
 msgstr "Keine Aufgaben."
@@ -39511,15 +39384,14 @@ msgstr "Keine Aufgaben."
 msgid "Assigned: %s"
 msgstr "Zugewiesen an: %s"
 
-#, fuzzy
 msgid "No tasks found."
-msgstr "Keine Gesprächsbeiträge gefunden."
+msgstr "Keine Aufgaben gefunden."
 
 msgid "(Not Assigned)"
 msgstr "(Nicht zugewiesen)"
 
 msgid "(Ungrouped)"
-msgstr ""
+msgstr "(Ohne Gruppe)"
 
 msgid "Select All"
 msgstr "Alle auswählen"
@@ -39527,24 +39399,23 @@ msgstr "Alle auswählen"
 msgid "Clear Selection"
 msgstr "Auswahl aufheben"
 
-#, fuzzy
 msgid "Bulk Edit Selected »"
 msgstr "Alle ausgewählten Aufgaben ändern »"
 
 msgid "Batch Task Editor"
-msgstr ""
+msgstr "Stapelverarbeitung für Aufgaben"
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s attached %s file(s): %s."
-msgstr "%s hat %d Datei(en) angehängt: %s."
+msgstr "%s hat %s Datei(en) angehängt: %s."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s detached %s file(s): %s."
-msgstr "%s hat die Verknüpfung von %d Datei(en) gelöst: %s."
+msgstr "%s hat die Verknüpfung von %s Datei(en) gelöst: %s."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s changed file(s), attached %s: %s; detached %s: %s."
-msgstr "%s hat Dateien geändert, %d angehängt: %s; %d entfernt: %s."
+msgstr "%s hat Dateien geändert, %s angehängt: %s; %s entfernt: %s."
 
 #, php-format
 msgid "%s attached %d file(s) of %s: %s"
@@ -39559,26 +39430,26 @@ msgid "%s changed file(s) for %s, attached %d: %s; detached %d: %s"
 msgstr ""
 "%s hat die Datei(en) für %s geändert, %d verknüpft: %s, %d getrennt: %s"
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s set the cover image to %s."
-msgstr "%s hat das Symbol für %s auf %s gesetzt."
+msgstr "%s hat das Titelbild auf %s gesetzt."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s updated the cover image to %s."
-msgstr "%s hat das Bild für %s geändert."
+msgstr "%s hat das Titelbild auf %s aktualisiert."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s added a cover image to %s."
-msgstr "%s hat %s kommentiert."
+msgstr "%s hat %s ein Titelbild hinzugefügt."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s updated the cover image for %s."
-msgstr "%s hat das Bild für %s geändert."
+msgstr "%s hat das Titelbild für %s aktualisiert."
 
-#, fuzzy, php-format
+#, php-format
 msgid ""
 "File PHID (\"%s\") is invalid, or you do not have permission to view it."
-msgstr "%s (Du hast keine Berechtigung, die Richtlinien-Details zu sehen.)"
+msgstr "Die Datei-PHID (\"%s\") ist ungültig oder Du hast keine Berechtigung, sie anzusehen."
 
 #, php-format
 msgid "File (\"%s\", with MIME type \"%s\") is not a viewable image file."
@@ -39594,28 +39465,27 @@ msgstr ""
 msgid "Edited"
 msgstr "Geändert"
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s updated the task description."
-msgstr "%s hat die Aufgabenbeschreibung geändert."
+msgstr "%s hat die Aufgabenbeschreibung aktualisiert."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s updated the task description for %s."
-msgstr "%s hat die Beschreibung von %s verändert."
+msgstr "%s hat die Aufgabenbeschreibung von %s aktualisiert."
 
-#, fuzzy
 msgid "CHANGES TO TASK DESCRIPTION"
-msgstr "AUFGABEN-BESCHREIBUNG"
+msgstr "ÄNDERUNGEN AN DER AUFGABENBESCHREIBUNG"
 
 msgid "Merged"
 msgstr "Zusammengeführt"
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s merged %s task(s): %s."
-msgstr "%s hat %d Aufgabe(n) zusammengeführt: %s."
+msgstr "%s hat %s Aufgabe(n) zusammengeführt: %s."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s merged %s task(s) %s into %s."
-msgstr "%s hat %d Aufgabe(n) %s in die Aufgabe %s zusammengeführt."
+msgstr "%s hat %s Aufgabe(n) %s in die Aufgabe %s zusammengeführt."
 
 #, php-format
 msgid "%s closed this task as a duplicate of %s."
@@ -39635,9 +39505,9 @@ msgstr "Neu zugewiesen"
 msgid "%s claimed this task."
 msgstr "%s hat diese Aufgabe an sich gerissen."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s removed %s as the assignee of this task."
-msgstr "%s hat \"%s\" als Vorgabe-Branch entfernt."
+msgstr "%s hat %s als Bearbeiter dieser Aufgabe entfernt."
 
 #, php-format
 msgid "%s assigned this task to %s."
@@ -39663,9 +39533,9 @@ msgstr "%s hat %s an %s zugewiesen."
 msgid "%s reassigned %s from %s to %s."
 msgstr "%s hat %s von %s an %s übergeben."
 
-#, fuzzy, php-format
+#, php-format
 msgid "User \"%s\" is not a valid user."
-msgstr "Der neue Chat-Teilnehmer \"%s\" ist kein gültiger Benutzer."
+msgstr "Benutzer \"%s\" ist kein gültiger Benutzer."
 
 #, php-format
 msgid "Parent task identifier \"%s\" does not identify a visible task."
@@ -39676,41 +39546,39 @@ msgid ""
 "time."
 msgstr ""
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s set the point value for this task to %s."
-msgstr "%s hat das Symbol für %s auf %s gesetzt."
+msgstr "%s hat den Punktewert dieser Aufgabe auf %s gesetzt."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s removed the point value %s for this task."
-msgstr "%s hat das Dokument %s von %s nach %s verschoben."
+msgstr "%s hat den Punktewert %s dieser Aufgabe entfernt."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s removed the point value for this task."
-msgstr "%s hat den individuellen Namen dieser Spalte entfernt."
+msgstr "%s hat den Punktewert dieser Aufgabe entfernt."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s changed the point value for this task from %s to %s."
-msgstr "%s hat den Namen des Termins von %s auf %s geändert."
+msgstr "%s hat den Punktewert dieser Aufgabe von %s auf %s geändert."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s set the point value for %s to %s."
-msgstr "%s hat das Symbol für %s auf %s gesetzt."
+msgstr "%s hat den Punktewert von %s auf %s gesetzt."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s removed the point value for %s."
-msgstr "%s hat das Bild für %s geändert."
+msgstr "%s hat den Punktewert von %s entfernt."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s changed the point value for %s from %s to %s."
-msgstr "%s hat den Namen von %s von %s auf %s geändert."
+msgstr "%s hat den Punktewert von %s von %s auf %s geändert."
 
-#, fuzzy
 msgid "Points value must be numeric or empty."
-msgstr "Der Titel darf nicht leer sein."
+msgstr "Der Punktewert muss numerisch oder leer sein."
 
-#, fuzzy
 msgid "Points value must be nonnegative."
-msgstr "Der Titel darf nicht leer sein."
+msgstr "Der Punktewert darf nicht negativ sein."
 
 msgid "Triaged"
 msgstr "Priorisiert"
@@ -39721,29 +39589,29 @@ msgstr "Priorität verringert"
 msgid "Raised Priority"
 msgstr "Priorität erhöht"
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s triaged this task as %s priority."
-msgstr "%s hat dieser Aufgabe die Priorität \"%s\" zugewiesen"
+msgstr "%s hat dieser Aufgabe die Priorität %s zugewiesen."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s lowered the priority of this task from %s to %s."
-msgstr "%s hat die Priorität dieser Aufgabe von \"%s\" auf \"%s\" verringert."
+msgstr "%s hat die Priorität dieser Aufgabe von %s auf %s verringert."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s raised the priority of this task from %s to %s."
-msgstr "%s hat die Priorität dieser Aufgabe von \"%s\" auf \"%s\" erhöht."
+msgstr "%s hat die Priorität dieser Aufgabe von %s auf %s erhöht."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s triaged %s as %s priority."
-msgstr "%s hat %s die Priorität \"%s\" zugewiesen."
+msgstr "%s hat %s die Priorität %s zugewiesen."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s lowered the priority of %s from %s to %s."
-msgstr "%s hat die Priorität von %s von \"%s\" auf \"%s\" verringert."
+msgstr "%s hat die Priorität von %s von %s auf %s verringert."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s raised the priority of %s from %s to %s."
-msgstr "%s hat die Priorität von %s von \"%s\" auf \"%s\" erhöht."
+msgstr "%s hat die Priorität von %s von %s auf %s erhöht."
 
 #, php-format
 msgid ""
@@ -39764,33 +39632,29 @@ msgstr ""
 msgid "%s closed this task as a duplicate."
 msgstr "%s hat diese Aufgabe geschlossen (war ein Duplikat)."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s closed this task as %s by committing %s."
-msgstr ""
-"%s hat diese Aufgabe als \"%s\" geschlossen, in dem %s eingepflegt wurde."
+msgstr "%s hat diese Aufgabe als %s geschlossen, indem %s eingepflegt wurde."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s closed this task as %s."
-msgstr "%s hat diese Aufgabe geschlossen: %s."
+msgstr "%s hat diese Aufgabe als %s geschlossen."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s reopened this task as %s by committing %s."
-msgstr ""
-"%s hat diese Aufgabe als \"%s\" wieder geöffnet, in dem %s eingepflegt wurde."
+msgstr "%s hat diese Aufgabe als %s wieder geöffnet, indem %s eingepflegt wurde."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s reopened this task as %s."
-msgstr "%s hat diese Aufgabe als \"%s\" wieder geöffnet."
+msgstr "%s hat diese Aufgabe als %s wieder geöffnet."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s changed the task status from %s to %s by committing %s."
-msgstr ""
-"%s hat den Status der Aufgabe von \"%s\" auf \"%s\" geändert, in dem %s "
-"eingepflegt wurde."
+msgstr "%s hat den Status der Aufgabe von %s auf %s geändert, indem %s eingepflegt wurde."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s changed the task status from %s to %s."
-msgstr "%s hat den Aufgaben-Status von \"%s\" auf \"%s\" geändert."
+msgstr "%s hat den Aufgaben-Status von %s auf %s geändert."
 
 #, php-format
 msgid "%s closed %s as a duplicate by committing %s."
@@ -39800,42 +39664,39 @@ msgstr "%s hat %s als ein Duplicat geschlossen in dem %s eingepflegt wurde."
 msgid "%s closed %s as a duplicate."
 msgstr "%s hat %s abgeschlossen, da es ein Duplikat ist."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s closed %s as %s by committing %s."
-msgstr "%s hat %s als \"%s\" geschlossen, in dem %s eingepflegt wurde."
+msgstr "%s hat %s als %s geschlossen, indem %s eingepflegt wurde."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s closed %s as %s."
-msgstr "%s hat %s abgeschlossen: \"%s\"."
+msgstr "%s hat %s als %s geschlossen."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s reopened %s as %s by committing %s."
-msgstr "%s hat %s als \"%s\" wieder geöffnet, in dem %s eingepflegt wurde."
+msgstr "%s hat %s als %s wieder geöffnet, indem %s eingepflegt wurde."
 
 #, php-format
 msgid "%s reopened %s as \"%s\"."
 msgstr "%s hat %s als \"%s\" wieder geöffnet."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s changed the status of %s from %s to %s by committing %s."
-msgstr ""
-"%s hat den Status von %s von \"%s\" auf \"%s\" geändert, in dem %s "
-"eingepflegt wurde."
+msgstr "%s hat den Status von %s von %s auf %s geändert, indem %s eingepflegt wurde."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s changed the status of %s from %s to %s."
-msgstr "%s hat den Status von %s von \"%s\" nach \"%s\" geändert."
+msgstr "%s hat den Status von %s von %s auf %s geändert."
 
 msgid "Retitled"
 msgstr "Neu tituliert"
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s renamed this task from %s to %s."
-msgstr "%s hat diese Aufgabe %s weggenommen und %s zugeordnet."
+msgstr "%s hat diese Aufgabe von %s in %s umbenannt."
 
-#, fuzzy
 msgid "Tasks must have a title."
-msgstr "Zonen müssen einen Namen haben"
+msgstr "Aufgaben müssen einen Titel haben."
 
 #, php-format
 msgid "Task title cannot exceed %d characters."
@@ -39850,37 +39711,33 @@ msgstr "Hindernis entfernen"
 msgid "Blocker"
 msgstr "Hindernisse"
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s created subtask %s."
-msgstr "%s hat diese Aufgabe erzeugt."
+msgstr "%s hat Unteraufgabe %s erstellt."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s reopened subtask %s as %s."
-msgstr "%s hat das Hindernis %s als \"%s\" wieder geöffnet."
+msgstr "%s hat Unteraufgabe %s als %s wieder geöffnet."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s closed subtask %s as %s."
-msgstr "%s hat das Hindernis %s als \"%s\" gelöst."
+msgstr "%s hat Unteraufgabe %s als %s geschlossen."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s changed the status of subtask %s from %s to %s."
-msgstr "%s hat den Status von %s von \"%s\" nach \"%s\" geändert."
+msgstr "%s hat den Status von Unteraufgabe %s von %s auf %s geändert."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s reopened %s, a subtask of %s, as %s."
-msgstr ""
-"%s hat %s wieder eröffnet, eine Aufgabe, die %s blockiert. Neuer Status: "
-"\"%s\"."
+msgstr "%s hat %s, eine Unteraufgabe von %s, als %s wieder geöffnet."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s closed %s, a subtask of %s, as %s."
-msgstr "%s hat %s, eine blockierende Aufgabe von %s als \"%s\" geschlossen."
+msgstr "%s hat %s, eine Unteraufgabe von %s, als %s geschlossen."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s changed the status of %s, a subtask of %s, from %s to %s."
-msgstr ""
-"%s hat den Status von %s, eine blockierende Aufgabe von %s, von \"%s\" in "
-"\"%s\" geändert."
+msgstr "%s hat den Status von %s, einer Unteraufgabe von %s, von %s auf %s geändert."
 
 msgid "Applications"
 msgstr "Anwendungen"
