@@ -45348,95 +45348,77 @@ msgid "Parent Site"
 msgstr "Elternknoten"
 
 msgid "No parent domain"
-msgstr ""
+msgstr "Keine übergeordnete Domain"
 
-#, fuzzy
 msgid "Parent Domain"
-msgstr "Übergeordnete Aufgabe"
+msgstr "Übergeordnete Domain"
 
 msgid "Atom URI"
-msgstr ""
+msgstr "Atom-URI"
 
 msgid "Atom URI does not support custom domains."
-msgstr ""
+msgstr "Atom-URI unterstützt keine benutzerdefinierten Domains."
 
 msgid "Edit Blog"
 msgstr "Blog ändern"
 
-#, fuzzy
 msgid "Edit Blog Picture"
-msgstr "Bild ändern"
+msgstr "Blog-Bild bearbeiten"
 
-#, fuzzy
 msgid "You must choose a file when uploading a new blog picture."
-msgstr ""
-"Du mußt einen Dateinamen auswählen, wenn Du ein neues Projektbild hochladen "
-"möchtest."
+msgstr "Du musst eine Datei auswählen, wenn Du ein neues Blog-Bild hochlädst."
 
-#, fuzzy
 msgid "Blog Picture"
-msgstr "Bild hochladen"
+msgstr "Blog-Bild"
 
 msgid "This blog has no visible posts."
 msgstr "Dieser Blog hat keine sichtbaren Beiträge."
 
-#, fuzzy
 msgid "Write a Post"
 msgstr "Beitrag schreiben"
 
-#, fuzzy
 msgid "No one has written any blog posts yet."
-msgstr "%s hat noch keine Beiträge geschrieben."
+msgstr "Noch niemand hat Blog-Beiträge geschrieben."
 
-#, fuzzy
 msgid "No description."
-msgstr "Beschreibung"
+msgstr "Keine Beschreibung."
 
 #, php-format
 msgid "About %s"
-msgstr ""
+msgstr "Über %s"
 
 msgid "Write Post"
 msgstr "Beitrag schreiben"
 
-#, fuzzy
 msgid "Search Posts"
-msgstr "Commits durchsuchen"
+msgstr "Beiträge durchsuchen"
 
-#, fuzzy
 msgid "Archive Post"
-msgstr "Projekt archivieren"
+msgstr "Beitrag archivieren"
 
-#, fuzzy, php-format
+#, php-format
 msgid ""
 "If you archive this post, it will only be visible to users who can edit %s."
 msgstr ""
-"Wenn Du diese Zone aktivierst, kannst Du wieder Objekte darin erzeugen."
+"Wenn Du diesen Beitrag archivierst, ist er nur für Benutzer sichtbar, die %s bearbeiten können."
 
-#, fuzzy
 msgid "You must choose a file when uploading a new post header."
-msgstr ""
-"Du mußt einen Dateinamen auswählen, wenn Du ein neues Projektbild hochladen "
-"möchtest."
+msgstr "Du musst eine Datei auswählen, wenn Du einen neuen Beitrags-Header hochlädst."
 
-#, fuzzy
 msgid "Edit Post Header"
-msgstr "Beitrag ändern"
+msgstr "Beitrags-Header bearbeiten"
 
 msgid "Post Header"
-msgstr ""
+msgstr "Beitrags-Header"
 
-#, fuzzy
 msgid "[No Blog]"
-msgstr "Neuer Blog"
+msgstr "[Kein Blog]"
 
-#, fuzzy
 msgid "Post History"
-msgstr "Projekthistorie"
+msgstr "Beitragshistorie"
 
-#, fuzzy
 msgid "Manage Blogs"
-msgstr "Panele Verwalten"
+msgstr "Blogs verwalten"
 
 msgid "Blog"
 msgstr "Blog"
@@ -45447,33 +45429,26 @@ msgstr "Beitrag verschieben"
 msgid "Publish Post"
 msgstr "Beitrag veröffentlichen"
 
-#, fuzzy
 msgid "This post will go live once you publish it."
-msgstr ""
-"Der Beitrag \"%s\" wird nicht länger für andere Benutzer sichtbar sein bis "
-"Du ihn wieder freigibst."
+msgstr "Dieser Beitrag wird veröffentlicht, sobald Du ihn publizierst."
 
-#, fuzzy
 msgid "Publish"
-msgstr "Veröffentlicht"
+msgstr "Veröffentlichen"
 
-#, fuzzy
 msgid "Unpublish Post"
-msgstr "Beitrag depublizieren?"
+msgstr "Beitrag depublizieren"
 
-#, fuzzy
 msgid ""
 "This post will revert to draft status and no longer be visible to other "
 "users."
 msgstr ""
-"Der Beitrag \"%s\" wird nicht länger für andere Benutzer sichtbar sein bis "
-"Du ihn wieder freigibst."
+"Dieser Beitrag kehrt in den Entwurfsstatus zurück und ist nicht mehr für andere Benutzer sichtbar."
 
 msgid "Unpublish"
 msgstr "Depublizieren"
 
 msgid "Post moved successfully."
-msgstr ""
+msgstr "Beitrag erfolgreich verschoben."
 
 msgid "Draft Post"
 msgstr "Beitrags-Entwurf"
@@ -45483,307 +45458,280 @@ msgid ""
 "This is a draft, and is only visible to you and other users who can edit %s. "
 "Use \"Publish\" to publish this post."
 msgstr ""
+"Dies ist ein Entwurf und nur für Dich und andere Benutzer sichtbar, die %s bearbeiten können. "
+"Verwende \"Veröffentlichen\", um diesen Beitrag zu publizieren."
 
-#, fuzzy
 msgid "Archived Post"
-msgstr "Archivierte Panele"
+msgstr "Archivierter Beitrag"
 
 #, php-format
 msgid ""
 "This post has been archived, and is only visible to you and other users who "
 "can edit %s."
 msgstr ""
+"Dieser Beitrag wurde archiviert und ist nur für Dich und andere Benutzer sichtbar, die %s bearbeiten können."
 
 msgid "Not On A Blog"
-msgstr ""
+msgstr "Kein Blog zugewiesen"
 
 msgid ""
 "This post is not associated with a blog (the blog may have been deleted). "
 "Use \"Move Post\" to move it to a new blog."
 msgstr ""
+"Dieser Beitrag ist keinem Blog zugeordnet (der Blog wurde möglicherweise gelöscht). "
+"Verwende \"Beitrag verschieben\", um ihn in einen neuen Blog zu verschieben."
 
-#, fuzzy, php-format
+#, php-format
 msgid "Unpublished draft by %s."
-msgstr "Unveröffentlichte Entwürfe"
+msgstr "Unveröffentlichter Entwurf von %s."
 
-#, fuzzy, php-format
+#, php-format
 msgid "Archived post by %s."
-msgstr "Wurde von %s hinzugefügt."
+msgstr "Archivierter Beitrag von %s."
 
-#, fuzzy, php-format
+#, php-format
 msgid "Written by %s on %s."
-msgstr "Von %s verliehen für %s"
+msgstr "Geschrieben von %s am %s."
 
 msgid "Edit Post"
 msgstr "Beitrag ändern"
 
-#, fuzzy
 msgid "Edit Header Image"
-msgstr "Herald Regel ändern"
+msgstr "Header-Bild bearbeiten"
 
-#, fuzzy
 msgid "Archive"
-msgstr "Archiviert"
+msgstr "Archivieren"
 
-#, fuzzy
 msgid "Configure Phame Blog Forms"
-msgstr "Pholio konfigurieren"
+msgstr "Phame-Blog-Formulare konfigurieren"
 
 msgid "Configure how blogs in Phame are created and edited."
-msgstr ""
+msgstr "Konfiguriere, wie Blogs in Phame erstellt und bearbeitet werden."
 
-#, fuzzy
 msgid "Create New Blog"
-msgstr "Neuer Blog"
+msgstr "Neuen Blog erstellen"
 
 #, php-format
 msgid "Edit %s"
-msgstr ""
+msgstr "%s bearbeiten"
 
 msgid "Create Blog"
 msgstr "Neuer Blog"
 
-#, fuzzy
 msgid "Blog name."
-msgstr "Blog verschoben"
+msgstr "Blog-Name."
 
-#, fuzzy
 msgid "Retitle the blog."
-msgstr "Der Titel ist zu lang."
+msgstr "Den Blog umbenennen."
 
-#, fuzzy
 msgid "New blog title."
-msgstr "Neuer Blog"
+msgstr "Neuer Blog-Titel."
 
-#, fuzzy
 msgid "Subtitle"
-msgstr "Neu tituliert"
+msgstr "Untertitel"
 
 msgid "Blog subtitle."
-msgstr ""
+msgstr "Blog-Untertitel."
 
 msgid "Change the blog subtitle."
-msgstr ""
+msgstr "Den Blog-Untertitel ändern."
 
 msgid "New blog subtitle."
-msgstr ""
+msgstr "Neuer Blog-Untertitel."
 
-#, fuzzy
 msgid "Blog description."
-msgstr "Beschreibung der Regel"
+msgstr "Blog-Beschreibung."
 
-#, fuzzy
 msgid "Change the blog description."
-msgstr "%s hat die Entwurfsbeschreibung geändert."
+msgstr "Die Blog-Beschreibung ändern."
 
-#, fuzzy
 msgid "New blog description."
-msgstr "Beschreibung der Regel"
+msgstr "Neue Blog-Beschreibung."
 
 msgid "Full Domain URI"
-msgstr ""
+msgstr "Vollständige Domain-URI"
 
 msgid ""
 "Set Full Domain URI if you plan to serve this blog on another hosted domain. "
 "Parent Site Name and Parent Site URI are optional but helpful since they "
 "provide a link from the blog back to your parent site."
 msgstr ""
+"Vollständige Domain-URI festlegen, wenn dieser Blog auf einer anderen gehosteten Domain verfügbar sein soll. "
+"Name der übergeordneten Website und URI der übergeordneten Website sind optional, aber hilfreich, da sie "
+"einen Link vom Blog zurück zur übergeordneten Website bereitstellen."
 
 msgid "Blog full domain URI."
-msgstr ""
+msgstr "Vollständige Domain-URI des Blogs."
 
 msgid "Change the blog full domain URI."
-msgstr ""
+msgstr "Die vollständige Domain-URI des Blogs ändern."
 
 msgid "New blog full domain URI."
-msgstr ""
+msgstr "Neue vollständige Domain-URI des Blogs."
 
 msgid "Parent Site Name"
-msgstr ""
+msgstr "Name der übergeordneten Website"
 
 msgid "Blog parent site name."
-msgstr ""
+msgstr "Name der übergeordneten Website des Blogs."
 
-#, fuzzy
 msgid "Change the blog parent site name."
-msgstr "Der Blog braucht einen Namen"
+msgstr "Den Namen der übergeordneten Website des Blogs ändern."
 
 msgid "New blog parent site name."
-msgstr ""
+msgstr "Neuer Name der übergeordneten Website des Blogs."
 
 msgid "Parent Site URI"
-msgstr ""
+msgstr "URI der übergeordneten Website"
 
 msgid "Blog parent domain name."
-msgstr ""
+msgstr "Domain der übergeordneten Website des Blogs."
 
-#, fuzzy
 msgid "Change the blog parent domain."
-msgstr "Ändere die Priorität einer Aufgabe."
+msgstr "Die Domain der übergeordneten Website des Blogs ändern."
 
 msgid "New blog parent domain."
-msgstr ""
+msgstr "Neue Domain der übergeordneten Website des Blogs."
 
 msgid "Active or archive the blog."
-msgstr ""
+msgstr "Blog aktivieren oder archivieren."
 
 msgid "New blog status constant."
-msgstr ""
+msgstr "Neue Blog-Statuskonstante."
 
-#, fuzzy
 msgid "Phame Blogs"
-msgstr "Phame Blog"
+msgstr "Phame-Blogs"
 
 #, php-format
 msgid "%s created this blog."
-msgstr ""
+msgstr "%s hat diesen Blog erstellt."
 
-#, fuzzy
 msgid "BLOG DETAIL"
-msgstr "ENTWURF DETAIL"
+msgstr "BLOG-DETAIL"
 
-#, fuzzy
 msgid "A blog's details change."
-msgstr "Der Status einer Aufgabe wurde verändert."
+msgstr "Die Details eines Blogs ändern sich."
 
-#, fuzzy
 msgid "A blog's subscribers change."
-msgstr "Der Mitleser eines Dokumentes wurde geändert."
+msgstr "Die Abonnenten eines Blogs ändern sich."
 
 msgid "Other blog activity not listed above occurs."
-msgstr ""
+msgstr "Andere Blog-Aktivitäten, die oben nicht aufgeführt sind, treten auf."
 
 msgid "Blog Posts"
-msgstr ""
+msgstr "Blog-Beiträge"
 
-#, fuzzy
 msgid "Configure Blog Post Forms"
-msgstr "Projekte konfigurieren."
+msgstr "Blog-Beitrags-Formulare konfigurieren"
 
 msgid "Configure creation and editing blog posts in Phame."
-msgstr ""
+msgstr "Erstellung und Bearbeitung von Blog-Beiträgen in Phame konfigurieren."
 
-#, fuzzy
 msgid "Create New Post"
-msgstr "Neues Projekt"
+msgstr "Neuen Beitrag erstellen"
 
 msgid "Create Post"
 msgstr "Neuer Beitrag"
 
-#, fuzzy
 msgid "Post"
-msgstr "Beiträge"
+msgstr "Beitrag"
 
 msgid "Blog to publish this post to."
-msgstr ""
+msgstr "Blog, in dem dieser Beitrag veröffentlicht wird."
 
 msgid "Choose a blog to create a post on (or move a post to)."
-msgstr ""
+msgstr "Blog auswählen, in dem ein Beitrag erstellt (oder in den ein Beitrag verschoben) werden soll."
 
 msgid "PHID of the blog."
-msgstr ""
+msgstr "PHID des Blogs."
 
 msgid "Post title."
-msgstr ""
+msgstr "Beiragstitel."
 
 msgid "Retitle the post."
-msgstr ""
+msgstr "Den Beitrag umbenennen."
 
-#, fuzzy
 msgid "New post title."
-msgstr "Neuer Beitrag"
+msgstr "Neuer Beitragstitel."
 
 msgid "Post subtitle."
-msgstr ""
+msgstr "Beitrags-Untertitel."
 
-#, fuzzy
 msgid "Change the post subtitle."
-msgstr "Ändere die Priorität einer Aufgabe."
+msgstr "Den Beitrags-Untertitel ändern."
 
 msgid "New post subtitle."
-msgstr ""
+msgstr "Neuer Beitrags-Untertitel."
 
-#, fuzzy
 msgid "Visibility"
-msgstr "Sichtbar für"
+msgstr "Sichtbarkeit"
 
 msgid "Post visibility."
-msgstr ""
+msgstr "Beitragssichtbarkeit."
 
-#, fuzzy
 msgid "Change post visibility."
-msgstr "%s hat die Sichtbarkeit von %s verändert."
+msgstr "Die Beitragssichtbarkeit ändern."
 
 msgid "New post visibility constant."
-msgstr ""
+msgstr "Neue Beitragssichtbarkeitskonstante."
 
 msgid "Body"
 msgstr "Inhalt"
 
 msgid "Post body."
-msgstr ""
+msgstr "Beitragsinhalt."
 
-#, fuzzy
 msgid "Change post body."
-msgstr "Änderungen gespeichert."
+msgstr "Den Beitragsinhalt ändern."
 
-#, fuzzy
 msgid "New post body."
-msgstr "Neuer Beitrag"
+msgstr "Neuer Beitragsinhalt."
 
-#, fuzzy
 msgid "Blog Post"
-msgstr "Blogs"
+msgstr "Blog-Beitrag"
 
-#, fuzzy
 msgid "Edit Locked Post"
-msgstr "Beitrag ändern"
+msgstr "Gesperrten Beitrag bearbeiten"
 
 msgid "Comments are disabled for this post. Edit it anyway?"
-msgstr ""
+msgstr "Kommentare sind für diesen Beitrag deaktiviert. Trotzdem bearbeiten?"
 
-#, fuzzy
 msgid "Post Locked"
-msgstr "Gesperrt"
+msgstr "Beitrag gesperrt"
 
 msgid "You can not interact with this post because it is locked."
-msgstr ""
+msgstr "Du kannst nicht mit diesem Beitrag interagieren, weil er gesperrt ist."
 
 msgid "Comments have been disabled for this post."
-msgstr ""
+msgstr "Kommentare wurden für diesen Beitrag deaktiviert."
 
-#, fuzzy
 msgid "Phame Posts"
-msgstr "Phame Beitrag"
+msgstr "Phame-Beiträge"
 
 #, php-format
 msgid "%s created this post."
-msgstr ""
+msgstr "%s hat diesen Beitrag erstellt."
 
-#, fuzzy
 msgid "POST DETAIL"
-msgstr "AUFGABEN-DETAILS"
+msgstr "BEITRAGS-DETAIL"
 
-#, fuzzy
 msgid "A post's content changes."
-msgstr "Ein Dokumenteninhalt wurde verändert."
+msgstr "Der Inhalt eines Beitrags ändert sich."
 
-#, fuzzy
 msgid "A post's subscribers change."
-msgstr "Der Mitleser eines Dokumentes wurde geändert."
+msgstr "Die Abonnenten eines Beitrags ändern sich."
 
-#, fuzzy
 msgid "Someone comments on a post."
-msgstr "Jemand hat eine Aufgabe kommentiert."
+msgstr "Jemand kommentiert einen Beitrag."
 
 msgid "Other post activity not listed above occurs."
-msgstr ""
+msgstr "Andere Beitrags-Aktivitäten, die oben nicht aufgeführt sind, treten auf."
 
 msgid "React to Phame Blogs being created or updated."
-msgstr ""
+msgstr "Auf Erstellung oder Aktualisierung von Phame-Blogs reagieren."
 
 msgid "React to Phame Posts being created or updated."
-msgstr ""
+msgstr "Auf Erstellung oder Aktualisierung von Phame-Beiträgen reagieren."
 
 msgid "Phame Blog"
 msgstr "Phame Blog"
@@ -45791,88 +45739,79 @@ msgstr "Phame Blog"
 msgid "Phame Post"
 msgstr "Phame Beitrag"
 
-#, fuzzy
 msgid "Blog Post: "
-msgstr "Blogs"
+msgstr "Blog-Beitrag: "
 
-#, fuzzy
 msgid "Same as Blog"
-msgstr "Phame Blog"
+msgstr "Wie Blog"
 
 msgid "Use the same policy as the parent blog."
-msgstr ""
+msgstr "Die gleiche Richtlinie wie der übergeordnete Blog verwenden."
 
 msgid "inherit from blog"
-msgstr ""
+msgstr "vom Blog erben"
 
 msgid "Search for blogs with given statuses."
-msgstr ""
+msgstr "Nach Blogs mit bestimmten Status suchen."
 
-#, fuzzy
 msgid "Active Blogs"
-msgstr "Aktive Panele"
+msgstr "Aktive Blogs"
 
-#, fuzzy
 msgid "Archived Blogs"
-msgstr "Archivierte Panele"
+msgstr "Archivierte Blogs"
 
 msgid "All Blogs"
 msgstr "Alle Blogs"
 
-#, fuzzy
 msgid "Local Blog"
-msgstr "Lokale Konfiguration"
+msgstr "Lokaler Blog"
 
-#, fuzzy
 msgid "No blogs found."
-msgstr "Keine Regeln gefunden."
+msgstr "Keine Blogs gefunden."
 
-#, fuzzy
 msgid "Publish Date"
-msgstr "Veröffentlicht"
+msgstr "Veröffentlichungsdatum"
 
 msgid "Search for posts with specific visibility."
-msgstr ""
+msgstr "Nach Beiträgen mit bestimmter Sichtbarkeit suchen."
 
 msgid "Search for posts within certain blogs."
-msgstr ""
+msgstr "Nach Beiträgen in bestimmten Blogs suchen."
 
 msgid "All Posts"
 msgstr "Alle Beiträge"
 
-#, fuzzy
 msgid "Published Posts"
-msgstr "Beitrag veröffentlichen"
+msgstr "Veröffentlichte Beiträge"
 
-#, fuzzy
 msgid "Draft Posts"
-msgstr "Beitrags-Entwurf"
+msgstr "Entwurfs-Beiträge"
 
-#, fuzzy
 msgid "Archived Posts"
-msgstr "Archivierte Panele"
+msgstr "Archivierte Beiträge"
 
-#, fuzzy, php-format
+#, php-format
 msgid "Blog: %s"
-msgstr "Blogs"
+msgstr "Blog: %s"
 
-#, fuzzy
 msgid "No blogs posts found."
-msgstr "Eine Umfragen gefunden."
+msgstr "Keine Blog-Beiträge gefunden."
 
 msgid "Wherever you go, there you are."
-msgstr ""
+msgstr "Wohin Du auch gehst, dort bist Du."
 
 msgid "But the page you seek is elsewhere."
-msgstr ""
+msgstr "Aber die Seite, die Du suchst, ist woanders."
 
 msgid "Serves blogs with custom domains."
-msgstr ""
+msgstr "Stellt Blogs mit benutzerdefinierten Domains bereit."
 
 msgid ""
 "This blog is not visible to logged out users, so it can not be visited from "
 "a custom domain."
 msgstr ""
+"Dieser Blog ist für abgemeldete Benutzer nicht sichtbar und kann daher nicht "
+"über eine benutzerdefinierte Domain aufgerufen werden."
 
 #, php-format
 msgid ""
@@ -45905,270 +45844,264 @@ msgid ""
 "has been changed."
 msgstr ""
 
-#, fuzzy
 msgid "Users who can edit a blog can always view it."
-msgstr ""
-"Benutzer, die ein Projekt verändern dürfen, dürfen immer daran teilnehmen."
+msgstr "Benutzer, die einen Blog bearbeiten können, können ihn immer ansehen."
 
 msgid "The name of the blog."
-msgstr ""
+msgstr "Der Name des Blogs."
 
 msgid "Archived or active status."
-msgstr ""
+msgstr "Archivierter oder aktiver Status."
 
 msgid "The author of a blog post can always view and edit it."
-msgstr ""
+msgstr "Der Autor eines Blog-Beitrags kann ihn immer ansehen und bearbeiten."
 
-#, fuzzy
 msgid "Title of the post."
-msgstr "Der Titel darf nicht leer bleiben."
+msgstr "Der Titel des Beitrags."
 
 msgid "Slug for the post."
-msgstr ""
+msgstr "Slug des Beitrags."
 
 msgid "PHID of the blog that the post belongs to."
-msgstr ""
+msgstr "PHID des Blogs, zu dem der Beitrag gehört."
 
 msgid "PHID of the author of the post."
-msgstr ""
+msgstr "PHID des Autors des Beitrags."
 
 msgid "Body of the post."
-msgstr ""
+msgstr "Inhalt des Beitrags."
 
 msgid "Publish date, if the post has been published."
-msgstr ""
+msgstr "Veröffentlichungsdatum, wenn der Beitrag veröffentlicht wurde."
 
-#, fuzzy
 msgid "Browse Blogs"
-msgstr "In Projekten suchen"
+msgstr "Blogs durchsuchen"
 
-#, fuzzy
 msgid "Type a blog name..."
-msgstr "Einen Symbolnamen eintippen..."
+msgstr "Blog-Namen eingeben..."
 
-#, fuzzy
 msgid "You have no draft posts."
-msgstr "Du hast noch keine Beiträge geschrieben."
+msgstr "Du hast keine Entwurfs-Beiträge."
 
-#, fuzzy
 msgid "Previous Post"
-msgstr "Voriger Monat"
+msgstr "Vorheriger Beitrag"
 
-#, fuzzy
 msgid "Next Post"
-msgstr "Neuer Beitrag"
+msgstr "Nächster Beitrag"
 
-#, fuzzy
 msgid "(Empty Post)"
-msgstr "Beitrag ändern"
+msgstr "(Leerer Beitrag)"
 
-#, fuzzy, php-format
+#, php-format
 msgid "Unpublished draft by %s in %s."
-msgstr "Unveröffentlichte Entwürfe"
+msgstr "Unveröffentlichter Entwurf von %s in %s."
 
-#, fuzzy, php-format
+#, php-format
 msgid "Written by %s on %s in %s."
-msgstr "Von %s verliehen für %s"
+msgstr "Geschrieben von %s am %s in %s."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s set this blog's full domain to %s."
-msgstr "%s hat das Icon des Projektes auf %s gesetzt."
+msgstr "%s hat die vollständige Domain dieses Blogs auf %s gesetzt."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s updated the blog's full domain from %s to %s."
-msgstr "%s hat die Abstimmungsfrage von \"%s\" auf \"%s\" geändert."
+msgstr "%s hat die vollständige Domain des Blogs von %s auf %s aktualisiert."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s set %s blog's full domain to %s."
-msgstr "%s hat %s nach %s innerhalb %s geändert."
+msgstr "%s hat die vollständige Domain des Blogs %s auf %s gesetzt."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s updated %s blog's full domain from %s to %s."
-msgstr "%s hat %s von %s nach %s geändert."
+msgstr "%s hat die vollständige Domain des Blogs %s von %s auf %s aktualisiert."
 
 #, php-format
 msgid ""
 "For custom domains to work, the blog must have a view policy of public. This "
 "blog is currently set to \"%s\"."
 msgstr ""
+"Damit benutzerdefinierte Domains funktionieren, muss der Blog eine öffentliche Anzeigerichtlinie haben. "
+"Dieser Blog ist derzeit auf \"%s\" eingestellt."
 
 msgid "Domain must be unique; another blog already has this domain."
-msgstr ""
+msgstr "Die Domain muss eindeutig sein; ein anderer Blog hat diese Domain bereits."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s changed the header image for this blog."
-msgstr "%s hat die Editier-Rechte von %s verändert."
+msgstr "%s hat das Header-Bild dieses Blogs geändert."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s changed the header image for blog %s."
-msgstr "%s hat die Editier-Rechte von %s verändert."
+msgstr "%s hat das Header-Bild des Blogs %s geändert."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s set this blog's parent domain to %s."
-msgstr "%s hat das Icon des Projektes auf %s gesetzt."
+msgstr "%s hat die übergeordnete Domain dieses Blogs auf %s gesetzt."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s updated the blog's parent domain from %s to %s."
-msgstr "%s hat das Enddatum von %s von %s nach %s geändert."
+msgstr "%s hat die übergeordnete Domain des Blogs von %s auf %s aktualisiert."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s set %s blog's parent domain to %s."
-msgstr "%s hat das Icon des Projektes auf %s gesetzt."
+msgstr "%s hat die übergeordnete Domain des Blogs %s auf %s gesetzt."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s updated %s blog's parent domain from %s to %s."
-msgstr "%s hat das Startdatum von %s von %s zu %s geändert."
+msgstr "%s hat die übergeordnete Domain des Blogs %s von %s auf %s aktualisiert."
 
 msgid "Parent Domain must be set to a valid Remote URI."
-msgstr ""
+msgstr "Die übergeordnete Domain muss auf eine gültige Remote-URI gesetzt sein."
 
 #, php-format
 msgid "The parent domain can be no longer than %s characters."
-msgstr ""
+msgstr "Die übergeordnete Domain darf nicht länger als %s Zeichen sein."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s set this blog's parent site to %s."
-msgstr "%s hat das Icon des Projektes auf %s gesetzt."
+msgstr "%s hat die übergeordnete Website dieses Blogs auf %s gesetzt."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s updated the blog's parent site from %s to %s."
-msgstr "%s hat das Dokument %s von %s nach %s verschoben."
+msgstr "%s hat die übergeordnete Website des Blogs von %s auf %s aktualisiert."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s set %s blog's parent site to %s."
-msgstr "%s hat %s nach %s innerhalb %s geändert."
+msgstr "%s hat die übergeordnete Website des Blogs %s auf %s gesetzt."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s updated %s blog's parent site from %s to %s."
-msgstr "%s hat die Mitleser von %s verändert."
+msgstr "%s hat die übergeordnete Website des Blogs %s von %s auf %s aktualisiert."
 
 #, php-format
 msgid "The parent site can be no longer than %s characters."
-msgstr ""
+msgstr "Die übergeordnete Website darf nicht länger als %s Zeichen sein."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s changed the profile image for this blog."
-msgstr "%s hat die Editier-Rechte von %s verändert."
+msgstr "%s hat das Profilbild dieses Blogs geändert."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s changed the profile image for blog %s."
-msgstr "%s hat die Editier-Rechte von %s verändert."
+msgstr "%s hat das Profilbild des Blogs %s geändert."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s published this blog."
-msgstr "%s hat die Abstimmung geschlossen."
+msgstr "%s hat diesen Blog veröffentlicht."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s archived this blog."
-msgstr "%s hat dieses Panel archiviert."
+msgstr "%s hat diesen Blog archiviert."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s published the blog %s."
-msgstr "%s hat die Prüfung von %s geschlossen."
+msgstr "%s hat den Blog %s veröffentlicht."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s archived the blog %s."
-msgstr "%s hat dieses Panel archiviert."
+msgstr "%s hat den Blog %s archiviert."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s set this blog's subtitle to \"%s\"."
-msgstr "%s hat das Icon des Projektes auf %s gesetzt."
+msgstr "%s hat den Untertitel dieses Blogs auf \"%s\" gesetzt."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s updated the blog's subtitle to \"%s\"."
-msgstr "%s hat das Bild für %s geändert."
+msgstr "%s hat den Untertitel des Blogs auf \"%s\" aktualisiert."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s set the subtitle for %s."
-msgstr "%s hat die Prüfung von %s geschlossen."
+msgstr "%s hat den Untertitel für %s gesetzt."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s updated the subtitle for %s."
-msgstr "%s hat das Bild für %s geändert."
+msgstr "%s hat den Untertitel für %s aktualisiert."
 
 #, php-format
 msgid "The subtitle can be no longer than %s characters."
-msgstr ""
+msgstr "Der Untertitel darf nicht länger als %s Zeichen sein."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s changed the blog for this post."
-msgstr "%s hat die Sichtbarkeit von %s verändert."
+msgstr "%s hat den Blog für diesen Beitrag geändert."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s changed the blog for post %s."
-msgstr "%s hat die Sichtbarkeit von %s verändert."
+msgstr "%s hat den Blog für Beitrag %s geändert."
 
 msgid "Posts must be attached to a blog."
-msgstr ""
+msgstr "Beiträge müssen einem Blog zugeordnet sein."
 
 #, php-format
 msgid ""
 "The specified blog PHID (\"%s\") is not valid. You can only create a post on "
 "(or move a post into) a blog which you have permission to see and edit."
 msgstr ""
+"Der angegebene Blog-PHID (\"%s\") ist ungültig. Du kannst nur einen Beitrag in einem Blog erstellen "
+"(oder in einen Blog verschieben), den Du sehen und bearbeiten darfst."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s updated the post content."
-msgstr "%s hat den Inhalt des Dokumentes verändert."
+msgstr "%s hat den Beitragsinhalt aktualisiert."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s updated the post content for %s."
-msgstr "%s hat den Inhalt von %s geändert."
+msgstr "%s hat den Beitragsinhalt für %s aktualisiert."
 
 msgid "CHANGES TO POST CONTENT"
-msgstr ""
+msgstr "ÄNDERUNGEN AM BEITRAGSINHALT"
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s changed the header image for this post."
-msgstr "%s hat die Editier-Rechte von %s verändert."
+msgstr "%s hat das Header-Bild dieses Beitrags geändert."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s changed the header image for post %s."
-msgstr "%s hat die Editier-Rechte von %s verändert."
+msgstr "%s hat das Header-Bild des Beitrags %s geändert."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s set this post's subtitle to \"%s\"."
-msgstr "%s hat das Icon des Projektes auf %s gesetzt."
+msgstr "%s hat den Untertitel dieses Beitrags auf \"%s\" gesetzt."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s updated the post's subtitle to \"%s\"."
-msgstr "%s hat das Bild für %s geändert."
+msgstr "%s hat den Untertitel des Beitrags auf \"%s\" aktualisiert."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s renamed this blog post from %s to %s."
-msgstr "%s hat diesen Chat von \"%s\" in \"%s\" umbenannt."
+msgstr "%s hat diesen Blog-Beitrag von %s nach %s umbenannt."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s renamed %s blog post from %s to %s."
-msgstr "%s hat %s von \"%s\" nach \"%s\" umbenannt."
+msgstr "%s hat den Blog-Beitrag %s von %s nach %s umbenannt."
 
-#, fuzzy
 msgid "Posts must have a title."
-msgstr "Produkte müssen Namen haben"
+msgstr "Beiträge müssen einen Titel haben."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s marked this post as a draft."
-msgstr "%s hat diese Pull Anfrage manuell als %s markiert"
+msgstr "%s hat diesen Beitrag als Entwurf markiert."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s archived this post."
-msgstr "%s hat dieses Panel archiviert."
+msgstr "%s hat diesen Beitrag archiviert."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s published this post."
-msgstr "%s hat die Abstimmung geschlossen."
+msgstr "%s hat diesen Beitrag veröffentlicht."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s marked %s as a draft."
-msgstr "%s hat %s abgeschlossen, da es ein Duplikat ist."
+msgstr "%s hat %s als Entwurf markiert."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s marked %s as archived."
-msgstr "%s hat %s zu einem regelmäßigen Termin gemacht."
+msgstr "%s hat %s als archiviert markiert."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s published %s."
-msgstr "%s hat %s geschlossen."
+msgstr "%s hat %s veröffentlicht."
 
 msgid "Application Email"
 msgstr ""
