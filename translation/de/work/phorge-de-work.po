@@ -32949,57 +32949,56 @@ msgstr "Diese Engine wird zum Bearbeiten von Harbormaster-Buildables verwendet."
 msgid "Create Buildable"
 msgstr "Buildable erstellen"
 
-#, fuzzy, php-format
+#, php-format
 msgid "Edit Buildable: %s"
-msgstr "Regel '%s' verändert."
+msgstr "Buildable bearbeiten: %s"
 
 msgid "Edit Buildable"
-msgstr ""
+msgstr "Buildable bearbeiten"
 
 msgid "Report that the target is complete, and the target has passed."
-msgstr ""
+msgstr "Melden, dass das Ziel abgeschlossen ist und bestanden hat."
 
 msgid "Report that the target is complete, and the target has failed."
-msgstr ""
+msgstr "Melden, dass das Ziel abgeschlossen ist und fehlgeschlagen hat."
 
 msgid ""
 "Report that work on the target is ongoing. This message can be used to "
 "report partial results during a build."
-msgstr ""
+msgstr "Melden, dass die Arbeit am Ziel noch läuft. Diese Nachricht kann verwendet werden, um Zwischenergebnisse während eines Builds zu melden."
 
 #, php-format
 msgid "No build step provides autotarget \"%s\"!"
-msgstr ""
+msgstr "Kein Build-Schritt stellt das Autoziel \"%s\" bereit!"
 
 msgid "Harbormaster Query Builds"
-msgstr ""
+msgstr "Harbormaster-Builds abfragen"
 
 msgid ""
 "This attachment exists solely to provide compatibility with the message "
 "format returned by an outdated API method. It will be taken away at some "
 "point and you should not rely on these fields being available."
-msgstr ""
+msgstr "Dieser Anhang dient ausschließlich der Kompatibilität mit dem Nachrichtenformat einer veralteten API-Methode. Er wird irgendwann entfernt — diese Felder sollten nicht als verlässlich betrachtet werden."
 
-#, fuzzy, php-format
+#, php-format
 msgid "Started %s build(s): %s."
-msgstr "%s hat %s Dateien hinzugefügt: %s."
+msgstr "%s Build(s) gestartet: %s."
 
 msgid "Run build plans"
-msgstr ""
+msgstr "Build-Pläne ausführen"
 
 #, php-format
 msgid "Run build plans: %s."
-msgstr ""
+msgstr "Build-Pläne ausführen: %s."
 
 msgid "Build with Buildkite"
-msgstr ""
+msgstr "Mit Buildkite bauen"
 
-#, fuzzy
 msgid "Trigger a build in Buildkite."
-msgstr "Eine Prüfung ist nun erforderlich."
+msgstr "Einen Build in Buildkite auslösen."
 
 msgid "Run a build in Buildkite."
-msgstr ""
+msgstr "Einen Build in Buildkite ausführen."
 
 #, php-format
 msgid ""
@@ -33044,79 +33043,74 @@ msgid ""
 "EOTEXT"
 msgstr ""
 
-#, fuzzy
 msgid "Buildkite"
-msgstr "Integriert"
+msgstr "Buildkite"
 
-#, fuzzy
 msgid "This object does not support builds with Buildkite."
-msgstr "An diesem Objekt kann niemand teilnehmen."
+msgstr "Dieses Objekt unterstützt keine Builds mit Buildkite."
 
 #, php-format
 msgid "Harbormaster Build %s (\"%s\") for %s"
-msgstr ""
+msgstr "Harbormaster-Build %s (\"%s\") für %s"
 
-#, fuzzy, php-format
+#, php-format
 msgid "Unable to load API token (\"%s\")!"
-msgstr "Kann die Nachricht nicht laden!"
+msgstr "API-Token (\"%s\") konnte nicht geladen werden!"
 
 #, php-format
 msgid "Buildkite did not return a \"%s\"!"
-msgstr ""
+msgstr "Buildkite hat kein \"%s\" zurückgegeben!"
 
-#, fuzzy
 msgid "View in Buildkite"
-msgstr "Zeige Wiki"
+msgstr "In Buildkite anzeigen"
 
 msgid "Organization Name"
-msgstr ""
+msgstr "Organisationsname"
 
-#, fuzzy
 msgid "Pipeline Name"
-msgstr "Name der Regel"
+msgstr "Pipeline-Name"
 
-#, fuzzy
 msgid "Webhook Token"
-msgstr "Trophäe vergeben"
+msgstr "Webhook-Token"
 
 msgid "OK: Ignored event."
-msgstr ""
+msgstr "OK: Ereignis ignoriert."
 
 #, php-format
 msgid "Expected \"%s\" property to contain a dictionary."
-msgstr ""
+msgstr "Eigenschaft \"%s\" sollte ein Dictionary enthalten."
 
 msgid "OK: No Harbormaster target PHID."
-msgstr ""
+msgstr "OK: Keine Harbormaster-Ziel-PHID."
 
-#, fuzzy, php-format
+#, php-format
 msgid "Harbormaster build target \"%s\" does not exist."
-msgstr "Änderung \"%s\" existiert nicht."
+msgstr "Harbormaster-Build-Ziel \"%s\" existiert nicht."
 
 #, php-format
 msgid ""
 "Harbormaster build target \"%s\" is not a Buildkite build step. Only "
 "Buildkite steps may be updated via the Buildkite hook."
-msgstr ""
+msgstr "Harbormaster-Build-Ziel \"%s\" ist kein Buildkite-Build-Schritt. Nur Buildkite-Schritte können über den Buildkite-Hook aktualisiert werden."
 
 #, php-format
 msgid ""
 "Buildkite request to target \"%s\" had the wrong authentication token. The "
 "Buildkite pipeline and Harbormaster build step must be configured with the "
 "same token."
-msgstr ""
+msgstr "Buildkite-Anfrage an Ziel \"%s\" hatte das falsche Authentifizierungstoken. Die Buildkite-Pipeline und der Harbormaster-Build-Schritt müssen mit demselben Token konfiguriert sein."
 
 msgid "OK: Processed event."
-msgstr ""
+msgstr "OK: Ereignis verarbeitet."
 
 msgid "Build with CircleCI"
-msgstr ""
+msgstr "Mit CircleCI bauen"
 
 msgid "Trigger a build in CircleCI."
-msgstr ""
+msgstr "Einen Build in CircleCI auslösen."
 
 msgid "Run a build in CircleCI."
-msgstr ""
+msgstr "Einen Build in CircleCI ausführen."
 
 #, php-format
 msgid ""
@@ -33158,340 +33152,374 @@ msgid ""
 "\n"
 "EOTEXT"
 msgstr ""
+"WARNUNG: Dieser Build-Schritt ist neu und experimentell!\n"
+"\n"
+"Um **Revisionen** mit CircleCI zu bauen, müssen sie:\n"
+"\n"
+"  - zu einem verfolgten Repository gehören;\n"
+"  - das Repository muss eine Staging-Area konfiguriert haben;\n"
+"  - die Staging-Area muss auf GitHub gehostet sein; und\n"
+"  - der unten beschriebene Webhook muss konfiguriert sein.\n"
+"\n"
+"Um **Commits** mit CircleCI zu bauen, müssen sie:\n"
+"\n"
+"  - zu einem Repository gehören, das von GitHub importiert wird; und\n"
+"  - der unten beschriebene Webhook muss konfiguriert sein.\n"
+"\n"
+"Webhook-Konfiguration\n"
+"=====================\n"
+"\n"
+"Diesen Webhook zur `circle.yml`-Datei hinzufügen, damit CircleCI Ergebnisse\n"
+"an Harbormaster meldet. Bis dieser Hook installiert ist, hängen Builds und\n"
+"warten auf eine Antwort von CircleCI.\n"
+"\n"
+"```lang=yml\n"
+"notify:\n"
+"  webhooks:\n"
+"    - url: %s\n"
+"```\n"
+"\n"
+"Umgebung\n"
+"========\n"
+"\n"
+"Diese Variablen stehen in der Build-Umgebung zur Verfügung:\n"
+"\n"
+"| Variable | Beschreibung |\n"
+"|----------|--------------|\n"
+"| `HARBORMASTER_BUILD_TARGET_PHID` | PHID des Build-Ziels.\n"
+"\n"
+"EOTEXT"
 
 msgid "CircleCI"
-msgstr ""
+msgstr "CircleCI"
 
 #, php-format
 msgid ""
 "Object (\"%s\") does not implement interface \"%s\". Only objects which "
 "implement this interface can be built with CircleCI."
-msgstr ""
+msgstr "Objekt (\"%s\") implementiert Interface \"%s\" nicht. Nur Objekte, die dieses Interface implementieren, können mit CircleCI gebaut werden."
 
 #, php-format
 msgid ""
 "Object (\"%s\") claims \"%s\" is a GitHub repository URI, but the domain "
 "does not appear to be GitHub."
-msgstr ""
+msgstr "Objekt (\"%s\") gibt an, \"%s\" sei eine GitHub-Repository-URI, aber die Domain scheint kein GitHub zu sein."
 
 #, php-format
 msgid ""
 "Object (\"%s\") claims \"%s\" is a GitHub repository URI, but the path "
 "(\"%s\") does not have enough components (expected at least two)."
-msgstr ""
+msgstr "Objekt (\"%s\") gibt an, \"%s\" sei eine GitHub-Repository-URI, aber der Pfad (\"%s\") hat zu wenige Bestandteile (mindestens zwei erwartet)."
 
 #, php-format
 msgid "Unknown CircleCI build type \"%s\". Expected \"%s\" or \"%s\"."
-msgstr ""
+msgstr "Unbekannter CircleCI-Build-Typ \"%s\". Erwartet wurde \"%s\" oder \"%s\"."
 
 #, php-format
 msgid "CircleCI did not return a \"%s\"!"
-msgstr ""
+msgstr "CircleCI hat kein \"%s\" zurückgegeben!"
 
-#, fuzzy
 msgid "View in CircleCI"
-msgstr "Datei ansehen"
+msgstr "In CircleCI anzeigen"
 
-#, fuzzy
 msgid "Request OK\n"
-msgstr "Laufende Anfragen"
+msgstr "Anfrage OK\n"
 
 #, php-format
 msgid ""
 "Build target (\"%s\") has the wrong type of build step. Only CircleCI build "
 "steps may be updated via the CircleCI webhook."
-msgstr ""
+msgstr "Build-Ziel (\"%s\") hat den falschen Build-Schritt-Typ. Nur CircleCI-Build-Schritte können über den CircleCI-Webhook aktualisiert werden."
 
 msgid "Compress, decompress, store or destroy build logs."
-msgstr ""
+msgstr "Build-Protokolle komprimieren, dekomprimieren, speichern oder löschen."
 
 msgid "Use \"plain\" to remove encoding, or \"compress\" to compress logs."
-msgstr ""
+msgstr "\"plain\" verwenden, um die Kodierung zu entfernen, oder \"compress\", um Protokolle zu komprimieren."
 
 msgid ""
 "Show more details about operations as they are performed. Slow! But also "
 "very reassuring!"
-msgstr ""
+msgstr "Mehr Details zu Operationen während der Ausführung anzeigen. Langsam! Aber auch sehr beruhigend!"
 
 msgid "Choose an archival mode with --mode."
-msgstr ""
+msgstr "Einen Archivierungsmodus mit --mode auswählen."
 
 #, php-format
 msgid "Unknown mode \"%s\". Valid modes are: %s."
-msgstr ""
+msgstr "Unbekannter Modus \"%s\". Gültige Modi sind: %s."
 
 #, php-format
 msgid "Processing Harbormaster build log #%d..."
-msgstr ""
+msgstr "Harbormaster-Build-Protokoll #%d wird verarbeitet..."
 
 #, php-format
 msgid "Done. Total byte size of affected logs: %s -> %s."
-msgstr ""
+msgstr "Fertig. Gesamtgröße der betroffenen Protokolle: %s -> %s."
 
-#, fuzzy
 msgid "Stored Bytes"
-msgstr "Erstellt von %s"
+msgstr "Gespeicherte Bytes"
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s: %s -> %s"
-msgstr "%s - %s"
+msgstr "%s: %s -> %s"
 
 msgid "Stored Chunks"
-msgstr ""
+msgstr "Gespeicherte Chunks"
 
-#, fuzzy
 msgid "Data Hash"
-msgstr "Datenbank"
+msgstr "Daten-Hash"
 
 msgid "Log data hashes differ! Something is tragically wrong!"
-msgstr ""
+msgstr "Protokolldaten-Hashes stimmen nicht überein! Irgendetwas stimmt leider ganz und gar nicht!"
 
 msgid "Run plan __id__ on __buildable__."
-msgstr ""
+msgstr "Plan __id__ auf __buildable__ ausführen."
 
 msgid "ID of build plan to run."
-msgstr ""
+msgstr "ID des auszuführenden Build-Plans."
 
 msgid ""
 "Submit builds into the build queue normally instead of running them in the "
 "foreground."
-msgstr ""
+msgstr "Builds normal in die Build-Warteschlange einreihen, anstatt sie im Vordergrund auszuführen."
 
 msgid "Specify exactly one buildable object, by object name."
-msgstr ""
+msgstr "Genau ein Buildable-Objekt per Objektname angeben."
 
 #, php-format
 msgid "No such buildable \"%s\"!"
-msgstr ""
+msgstr "Kein solches Buildable \"%s\"!"
 
 #, php-format
 msgid "Object \"%s\" is not a buildable!"
-msgstr ""
+msgstr "Objekt \"%s\" ist kein Buildable!"
 
 #, php-format
 msgid "Use %s to specify a build plan to run."
-msgstr ""
+msgstr "%s verwenden, um einen auszuführenden Build-Plan anzugeben."
 
 #, php-format
 msgid "Build plan \"%s\" does not exist."
-msgstr ""
+msgstr "Build-Plan \"%s\" existiert nicht."
 
 msgid "This build plan can not be run manually."
-msgstr ""
+msgstr "Dieser Build-Plan kann nicht manuell ausgeführt werden."
 
 #, php-format
 msgid "Applying plan %s to new buildable %s..."
-msgstr ""
+msgstr "Plan %s wird auf neues Buildable %s angewendet..."
 
 msgid "**publish** __buildable__ ..."
-msgstr ""
+msgstr "**publish** __buildable__ ..."
 
 msgid ""
 "Publish a buildable. This is primarily useful for developing and debugging "
 "applications which have buildable objects."
-msgstr ""
+msgstr "Ein Buildable veröffentlichen. Dies ist hauptsächlich nützlich für die Entwicklung und das Debuggen von Anwendungen mit Buildable-Objekten."
 
 msgid "Name one or more buildables to publish, like \"B123\"."
-msgstr ""
+msgstr "Ein oder mehrere zu veröffentlichende Buildables angeben, z.B. \"B123\"."
 
 #, php-format
 msgid ""
 "Argument \"%s\" does not name a buildable. Provide one or more valid "
 "buildable monograms or PHIDs."
-msgstr ""
+msgstr "Argument \"%s\" benennt kein Buildable. Ein oder mehrere gültige Buildable-Monogramme oder PHIDs angeben."
 
 #, php-format
 msgid ""
 "Object \"%s\" is not a HarbormasterBuildable (it is a \"%s\"). Name one or "
 "more buildables to publish, like \"B123\"."
-msgstr ""
+msgstr "Objekt \"%s\" ist kein HarbormasterBuildable (es ist ein \"%s\"). Ein oder mehrere zu veröffentlichende Buildables angeben, z.B. \"B123\"."
 
-#, fuzzy, php-format
+#, php-format
 msgid "Publishing \"%s\"..."
-msgstr "Beitrag veröffentlichen"
+msgstr "\"%s\" wird veröffentlicht..."
 
 msgid ""
 "**rebuild-log** --id __id__ [__options__]\n"
 "**rebuild-log** --all"
 msgstr ""
+"**rebuild-log** --id __id__ [__Optionen__]\n"
+"**rebuild-log** --all"
 
 msgid ""
 "Rebuild the file and summary for a log. This is primarily intended to make "
 "it easier to develop new log summarizers."
-msgstr ""
+msgstr "Die Datei und Zusammenfassung eines Protokolls neu aufbauen. Dient hauptsächlich dazu, die Entwicklung neuer Protokoll-Zusammenfasser zu erleichtern."
 
 msgid "Log to rebuild."
-msgstr ""
+msgstr "Neu aufzubauendes Protokoll."
 
-#, fuzzy
 msgid "Rebuild all logs."
-msgstr "Reindexiere alle Dokumente."
+msgstr "Alle Protokolle neu aufbauen."
 
 msgid "Force logs to rebuild even if they appear to be in good shape already."
-msgstr ""
+msgstr "Protokolle auch dann neu aufbauen, wenn sie bereits in Ordnung zu sein scheinen."
 
 msgid ""
 "Choose a build log to rebuild with \"--id\", or rebuild all logs with \"--"
 "all\"."
-msgstr ""
+msgstr "Ein neu aufzubauendes Build-Protokoll mit \"--id\" auswählen oder alle Protokolle mit \"--all\" neu aufbauen."
 
 msgid ""
 "You can not specify both \"--id\" and \"--all\". Choose one or the other."
-msgstr ""
+msgstr "\"--id\" und \"--all\" können nicht zusammen angegeben werden. Eines von beiden wählen."
 
-#, fuzzy, php-format
+#, php-format
 msgid "Unable to load build log \"%s\"."
-msgstr "Konnte Kommentar \"%s\" leider nicht laden."
+msgstr "Build-Protokoll \"%s\" konnte nicht geladen werden."
 
 #, php-format
 msgid "Rebuilding log \"%s\"..."
-msgstr ""
+msgstr "Protokoll \"%s\" wird neu aufgebaut..."
 
 msgid "Restart Harbormaster builds."
-msgstr ""
+msgstr "Harbormaster-Builds neu starten."
 
 msgid "Select one or more builds by ID."
-msgstr ""
+msgstr "Einen oder mehrere Builds per ID auswählen."
 
 msgid "Select all active builds."
-msgstr ""
+msgstr "Alle aktiven Builds auswählen."
 
 msgid "Use \"--id\" or \"--active\" to select builds."
-msgstr ""
+msgstr "\"--id\" oder \"--active\" verwenden, um Builds auszuwählen."
 
 msgid "Use one of \"--id\" or \"--active\" to select builds, but not both."
-msgstr ""
+msgstr "Entweder \"--id\" oder \"--active\" verwenden, um Builds auszuwählen, aber nicht beides."
 
 msgid "No builds to restart."
-msgstr ""
+msgstr "Keine Builds zum Neustarten."
 
 #, php-format
 msgid "Restart %s build(s)?"
-msgstr ""
+msgstr "%s Build(s) neu starten?"
 
 msgid "RESTARTING"
-msgstr ""
+msgstr "NEUSTART"
 
 #, php-format
 msgid "Build %d: %s"
-msgstr ""
+msgstr "Build %d: %s"
 
 msgid "INVALID"
-msgstr ""
+msgstr "UNGÜLTIG"
 
 msgid "QUEUED"
-msgstr ""
+msgstr "IN WARTESCHLANGE"
 
 msgid "Sent a restart message to build."
-msgstr ""
+msgstr "Neustart-Nachricht an Build gesendet."
 
 msgid "Explicitly update the builds for __buildable__."
-msgstr ""
+msgstr "Die Builds für __buildable__ explizit aktualisieren."
 
 msgid "Update only this build."
-msgstr ""
+msgstr "Nur diesen Build aktualisieren."
 
 msgid ""
 "Force the buildable to update even if no build status changes occur during "
 "normal update."
-msgstr ""
+msgstr "Das Buildable zur Aktualisierung zwingen, auch wenn sich beim normalen Update kein Build-Status ändert."
 
 msgid ""
 "If updating generates tasks, queue them for the daemons instead of executing "
 "them in this process."
-msgstr ""
+msgstr "Wenn die Aktualisierung Tasks erzeugt, diese für die Daemons in die Warteschlange stellen, anstatt sie in diesem Prozess auszuführen."
 
 msgid "Specify exactly one buildable, by object name."
-msgstr ""
+msgstr "Genau ein Buildable per Objektname angeben."
 
 #, php-format
 msgid "Object \"%s\" is not a Harbormaster Buildable!"
-msgstr ""
+msgstr "Objekt \"%s\" ist kein Harbormaster-Buildable!"
 
 #, php-format
 msgid "The specified buildable does not have a build with ID \"%s\"."
-msgstr ""
+msgstr "Das angegebene Buildable hat keinen Build mit der ID \"%s\"."
 
 #, php-format
 msgid "Updating build %d of buildable %s..."
-msgstr ""
+msgstr "Build %d von Buildable %s wird aktualisiert..."
 
 msgid ""
 "Write a new Harbormaster build log. This is primarily intended to make "
 "development and testing easier."
-msgstr ""
+msgstr "Ein neues Harbormaster-Build-Protokoll schreiben. Dient hauptsächlich dazu, Entwicklung und Tests zu erleichtern."
 
 msgid "Build Target ID to attach the log to."
-msgstr ""
+msgstr "Build-Ziel-ID, an die das Protokoll angehängt werden soll."
 
 msgid "Limit the rate at which the log is written, to test live log streaming."
-msgstr ""
+msgstr "Die Schreibrate des Protokolls begrenzen, um Live-Log-Streaming zu testen."
 
 msgid "Choose a build target to attach the log to with \"--target\"."
-msgstr ""
+msgstr "Ein Build-Ziel mit \"--target\" auswählen, an das das Protokoll angehängt werden soll."
 
-#, fuzzy, php-format
+#, php-format
 msgid "Unable to load build target \"%s\"."
-msgstr "Kann die Nachricht nicht laden!"
+msgstr "Build-Ziel \"%s\" konnte nicht geladen werden."
 
 msgid "Opened a new build log:"
-msgstr ""
+msgstr "Neues Build-Protokoll geöffnet:"
 
 msgid "Reading log content from stdin..."
-msgstr ""
+msgstr "Protokollinhalt von stdin wird gelesen..."
 
 msgid "Write rate must be more than 0 bytes/sec."
-msgstr ""
+msgstr "Die Schreibrate muss mehr als 0 Bytes/Sek. betragen."
 
 msgid "Writing log, slowly..."
-msgstr ""
+msgstr "Protokoll wird geschrieben, langsam..."
 
 msgid "Write completed. Closing log..."
-msgstr ""
+msgstr "Schreiben abgeschlossen. Protokoll wird geschlossen..."
 
 msgid "Build Artifact"
-msgstr ""
+msgstr "Build-Artefakt"
 
 #, php-format
 msgid "Build Artifact %d"
-msgstr ""
+msgstr "Build-Artefakt %d"
 
 msgid "Build Log"
-msgstr ""
+msgstr "Build-Protokoll"
 
 #, php-format
 msgid "Plan %d %s"
-msgstr ""
+msgstr "Plan %d %s"
 
 msgid "Build Target"
-msgstr ""
+msgstr "Build-Ziel"
 
 #, php-format
 msgid "Build Target %d"
-msgstr ""
+msgstr "Build-Ziel %d"
 
 #, php-format
 msgid ""
 "Multiple behavior options (for behavior \"%s\") have the same key (\"%s\"). "
 "Each option must have a unique key."
-msgstr ""
+msgstr "Mehrere Verhaltensoptionen (für Verhalten \"%s\") haben denselben Schlüssel (\"%s\"). Jede Option muss einen eindeutigen Schlüssel haben."
 
 #, php-format
 msgid ""
 "Multiple behavior options (for behavior \"%s\") are marked as default "
 "options (\"%s\" and \"%s\"). Exactly one option must be marked as the "
 "default option."
-msgstr ""
+msgstr "Mehrere Verhaltensoptionen (für Verhalten \"%s\") sind als Standardoptionen markiert (\"%s\" und \"%s\"). Genau eine Option muss als Standardoption markiert sein."
 
 #, php-format
 msgid ""
 "No behavior option is marked as the default option (for behavior \"%s\"). "
 "Exactly one option must be marked as the default option."
-msgstr ""
+msgstr "Keine Verhaltensoptionen ist als Standardoption markiert (für Verhalten \"%s\"). Genau eine Option muss als Standardoption markiert sein."
 
 #, php-format
 msgid "No build plan behavior with key \"%s\" exists."
-msgstr ""
+msgstr "Kein Build-Plan-Verhalten mit dem Schlüssel \"%s\" vorhanden."
 
 msgid "Always"
 msgstr "Immer"
@@ -33499,81 +33527,74 @@ msgstr "Immer"
 msgid ""
 "Revisions are not sent for review until the build completes, and are "
 "returned to the author for updates if the build fails."
-msgstr ""
+msgstr "Revisionen werden erst nach Abschluss des Builds zur Überprüfung gesendet und bei fehlgeschlagenem Build zur Überarbeitung an den Autor zurückgegeben."
 
-#, fuzzy
 msgid "If Building"
-msgstr "Integriert"
+msgstr "Wenn gebaut wird"
 
 msgid ""
 "Revisions are not sent for review until the build completes, but they will "
 "be sent for review even if it fails."
-msgstr ""
+msgstr "Revisionen werden erst nach Abschluss des Builds zur Überprüfung gesendet, aber auch dann, wenn der Build fehlschlägt."
 
 msgid "Revisions are sent for review regardless of the status of the build."
-msgstr ""
+msgstr "Revisionen werden unabhängig vom Build-Status zur Überprüfung gesendet."
 
 msgid "\"arc land\" warns if the build is still running or has failed."
-msgstr ""
+msgstr "\"arc land\" warnt, wenn der Build noch läuft oder fehlgeschlagen ist."
 
 msgid ""
 "\"arc land\" warns if the build is still running, but ignores the build if "
 "it has failed."
-msgstr ""
+msgstr "\"arc land\" warnt, wenn der Build noch läuft, ignoriert ihn aber, wenn er fehlgeschlagen ist."
 
-#, fuzzy
 msgid "If Complete"
-msgstr "%s abgeschlossen"
+msgstr "Wenn abgeschlossen"
 
 msgid ""
 "\"arc land\" warns if the build has failed, but ignores the build if it is "
 "still running."
-msgstr ""
+msgstr "\"arc land\" warnt, wenn der Build fehlgeschlagen ist, ignoriert ihn aber, wenn er noch läuft."
 
 msgid "\"arc land\" never warns that the build is still running or has failed."
-msgstr ""
+msgstr "\"arc land\" warnt nie, dass der Build noch läuft oder fehlgeschlagen ist."
 
 msgid "The buildable waits for the build, and fails if the build fails."
-msgstr ""
+msgstr "Das Buildable wartet auf den Build und schlägt fehl, wenn der Build fehlschlägt."
 
 msgid ""
 "The buildable waits for the build, but does not fail if the build fails."
-msgstr ""
+msgstr "Das Buildable wartet auf den Build, schlägt aber nicht fehl, wenn der Build fehlschlägt."
 
 msgid "The buildable does not wait for the build."
-msgstr ""
+msgstr "Das Buildable wartet nicht auf den Build."
 
 msgid "The build may be restarted."
-msgstr ""
+msgstr "Der Build kann neu gestartet werden."
 
-#, fuzzy
 msgid "If Failed"
-msgstr "Anmeldung fehlgeschlagen"
+msgstr "Wenn fehlgeschlagen"
 
 msgid "The build may be restarted if it has failed."
-msgstr ""
+msgstr "Der Build kann neu gestartet werden, wenn er fehlgeschlagen ist."
 
-#, fuzzy
 msgid "The build may not be restarted."
-msgstr "Der Dokumententitel darf nicht leer sein."
+msgstr "Der Build kann nicht neu gestartet werden."
 
-#, fuzzy
 msgid "If Editable"
-msgstr "Editierbar von"
+msgstr "Wenn bearbeitbar"
 
 msgid "Only users who can edit the plan can run it manually."
-msgstr ""
+msgstr "Nur Benutzer, die den Plan bearbeiten können, können ihn manuell ausführen."
 
-#, fuzzy
 msgid "If Viewable"
-msgstr "Diff Ansehen"
+msgstr "Wenn sichtbar"
 
 msgid "Any user who can view the plan can run it manually."
-msgstr ""
+msgstr "Jeder Benutzer, der den Plan anzeigen kann, kann ihn manuell ausführen."
 
-#, fuzzy
 msgid "Hold Drafts"
-msgstr "Meine Entwürfe"
+msgstr "Entwürfe zurückhalten"
 
 msgid ""
 "When users create revisions in Differential, the default behavior is to hold "
@@ -33592,9 +33613,27 @@ msgid ""
 "Users may always use \"Request Review\" to promote a \"Draft\" revision, "
 "even if builds have failed or are still in progress."
 msgstr ""
+"Wenn Benutzer Revisionen in Differential erstellen, werden sie standardmäßig "
+"im Zustand „Entwurf" gehalten, bis alle Builds bestehen. Sobald die Builds "
+"bestanden haben, werden die Revisionen weitergeleitet und zur Überprüfung "
+"gesendet, was die Reviewer benachrichtigt.\n"
+"\n"
+"Der allgemeine Zweck dieses Workflows ist sicherzustellen, dass Reviewer "
+"nur dann Zeit in Reviews investieren, wenn Änderungen automatisierte Tests "
+"bestanden haben. Wenn eine Änderung die Tests nicht besteht, ist sie "
+"normalerweise noch nicht reif für ein Review.\n"
+"\n"
+"Um Revisionen vor dem Bestehen der Builds aus dem \"Entwurf\"-Status "
+"herauszuheben oder auch bei fehlgeschlagenen Builds, kann das "
+"Weiterleitungsverhalten geändert werden. Dies kann nützlich sein, wenn sehr "
+"lange Builds vorhanden sind oder manche Builds nicht besonders wichtig sind.\n"
+"\n"
+"Benutzer können jederzeit \"Review anfordern\" verwenden, um eine "
+"\"Entwurf\"-Revision weiterzuleiten, auch wenn Builds fehlgeschlagen sind "
+"oder noch laufen."
 
 msgid "Warn When Landing"
-msgstr ""
+msgstr "Beim Landen warnen"
 
 msgid ""
 "When a user attempts to `arc land` a revision and that revision has ongoing "
@@ -33613,6 +33652,22 @@ msgid ""
 "This setting also affects the warning that is published to revisions when "
 "commits land with ongoing or failed builds."
 msgstr ""
+"Wenn ein Benutzer versucht, eine Revision mit `arc land` zu landen und diese "
+"Revision laufende oder fehlgeschlagene Builds hat, warnt `arc` standardmäßig "
+"darüber und gibt die Möglichkeit, es sich nochmal zu überlegen: vielleicht "
+"soll auf den Abschluss laufender Builds gewartet oder fehlgeschlagene Builds "
+"behoben werden, bevor die Änderung gelandet wird.\n"
+"\n"
+"Wenn keine Warnung über diesen Build gewünscht ist, kann das Warnverhalten "
+"geändert werden. Dies kann nützlich sein, wenn der Build sehr lange läuft "
+"(sodass Benutzer nicht erwartet werden zu warten) oder das Ergebnis nicht "
+"wichtig ist.\n"
+"\n"
+"Diese Warnung ist nur empfehlend. Benutzer können diese Warnung jederzeit "
+"ignorieren und fortfahren, auch wenn Builds fehlgeschlagen sind.\n"
+"\n"
+"Diese Einstellung betrifft auch die Warnung, die an Revisionen veröffentlicht "
+"wird, wenn Commits mit laufenden oder fehlgeschlagenen Builds gelandet werden."
 
 msgid ""
 "The overall state of a buildable (like a commit or revision) is normally the "
@@ -33625,9 +33680,19 @@ msgid ""
 "You can change this behavior if you do not want to wait for this build, or "
 "do not care if it fails."
 msgstr ""
+"Der Gesamtzustand eines Buildables (wie ein Commit oder eine Revision) ist "
+"normalerweise die Zusammenfassung der Einzelzustände aller Builds, die "
+"dagegen gelaufen sind.\n"
+"\n"
+"Buildables befinden sich im Zustand \"wird gebaut\", bis alle Builds "
+"bestanden haben (was sie zu \"bestanden\" macht), oder ein Build "
+"fehlschlägt (was sie zu \"fehlgeschlagen\" macht).\n"
+"\n"
+"Dieses Verhalten kann geändert werden, wenn nicht auf diesen Build gewartet "
+"werden soll oder es egal ist, ob er fehlschlägt."
 
 msgid "Affects Buildable"
-msgstr ""
+msgstr "Beeinflusst Buildable"
 
 msgid ""
 "Usually, builds may be restarted by users who have permission to edit the "
@@ -33643,9 +33708,21 @@ msgid ""
 "accidents where a build with a dangerous side effect (like deployment) is "
 "restarted improperly."
 msgstr ""
+"Normalerweise können Builds von Benutzern neu gestartet werden, die "
+"Bearbeitungsrechte für den zugehörigen Build-Plan haben. (Wer Builds neu "
+"starten darf, lässt sich über das Verhalten \"Ausführbar\" anpassen.)\n"
+"\n"
+"Ein Build neu zu starten kann nützlich sein, wenn er aus Umgebungs- oder "
+"Zufallsgründen fehlgeschlagen ist, die nichts mit dem eigentlichen Code zu "
+"tun haben — und man ihm eine zweite Chance gönnen möchte.\n"
+"\n"
+"Um den Neustart eines Builds zu verhindern, kann der erlaubte Zeitpunkt "
+"durch Anpassen dieses Verhaltens geändert werden. Dies kann helfen, "
+"Unfälle zu vermeiden, bei denen ein Build mit gefährlichen Nebenwirkungen "
+"(wie Deployment) versehentlich neu gestartet wird."
 
 msgid "Restartable"
-msgstr ""
+msgstr "Neustartbar"
 
 msgid ""
 "To run a build manually, you normally must have permission to edit the "
@@ -33668,193 +33745,195 @@ msgid ""
 "deployment of a vulnerable version and then escalate into an attack against "
 "the deployed service."
 msgstr ""
+"Um einen Build manuell auszuführen, sind normalerweise Bearbeitungsrechte "
+"für den zugehörigen Build-Plan erforderlich. Wenn alle Benutzer, die den "
+"Build-Plan sehen können, ihn auch ausführen und neu starten dürfen sollen, "
+"kann das Verhalten hier geändert werden.\n"
+"\n"
+"Hinweis: Dies steuert den Zugang zu allen Build-Verwaltungsaktionen: "
+"\"Plan manuell ausführen\", \"Neustart\", \"Abbrechen\", \"Anhalten\" und "
+"\"Fortsetzen\".\n"
+"\n"
+"WARNUNG: Dies kann unsicher sein, besonders wenn der Build Nebenwirkungen "
+"wie Deployment hat.\n"
+"\n"
+"Wenn diese Richtlinie abgeschwächt wird, kann ein Angreifer mit Kontrolle "
+"über ein Konto mit \"Kann anzeigen\"-, aber ohne \"Kann bearbeiten\"-Recht "
+"diesen Build manuell gegen beliebig alte Code-Versionen ausführen, "
+"einschließlich Versionen mit bekannten Sicherheitsproblemen.\n"
+"\n"
+"Wenn das Ausführen des Builds eine Nebenwirkung wie das Deployen von Code "
+"hat, kann ein solcher Angreifer das Deployment einer angreifbaren Version "
+"erzwingen und dann einen Angriff auf den deployen Dienst eskalieren."
 
-#, fuzzy
 msgid "Runnable"
-msgstr "Aktivieren"
+msgstr "Ausführbar"
 
 msgid "Harbormaster Artifacts"
-msgstr ""
+msgstr "Harbormaster-Artefakte"
 
-#, fuzzy
 msgid "Targets"
-msgstr "Groß"
+msgstr "Ziele"
 
 msgid "Search for artifacts attached to particular build targets."
-msgstr ""
+msgstr "Nach Artefakten suchen, die an bestimmte Build-Ziele angehängt sind."
 
-#, fuzzy
 msgid "All Artifacts"
-msgstr "Alle Benachrichtigungen"
+msgstr "Alle Artefakte"
 
 #, php-format
 msgid "Artifact %d"
-msgstr ""
+msgstr "Artefakt %d"
 
-#, fuzzy
 msgid "No artifacts found."
-msgstr "Keine Ablaufprotokolle gefunden."
+msgstr "Keine Artefakte gefunden."
 
 msgid "Harbormaster Build Logs"
-msgstr ""
+msgstr "Harbormaster-Build-Protokolle"
 
 msgid "Build Targets"
-msgstr ""
+msgstr "Build-Ziele"
 
 msgid "Search for logs that belong to a particular build target."
-msgstr ""
+msgstr "Nach Protokollen suchen, die zu einem bestimmten Build-Ziel gehören."
 
-#, fuzzy
 msgid "All Builds"
-msgstr "Alle Blogs"
+msgstr "Alle Builds"
 
 msgid "Active Plans"
-msgstr ""
+msgstr "Aktive Pläne"
 
 msgid "All Plans"
-msgstr ""
+msgstr "Alle Pläne"
 
 msgid "Autoplan"
-msgstr ""
+msgstr "Autoplan"
 
 msgid "No Projects"
 msgstr "Keine Projekte"
 
 msgid "No build plans found."
-msgstr ""
+msgstr "Keine Build-Pläne gefunden."
 
 msgid "Search for builds running a given build plan."
-msgstr ""
+msgstr "Nach Builds suchen, die einen bestimmten Build-Plan ausführen."
 
-#, fuzzy
 msgid "Buildables"
-msgstr "Verfügbar"
+msgstr "Buildables"
 
 msgid "Search for builds running against particular buildables."
-msgstr ""
+msgstr "Nach Builds suchen, die gegen bestimmte Buildables laufen."
 
 msgid "Search for builds with given statuses."
-msgstr ""
+msgstr "Nach Builds mit bestimmten Status suchen."
 
-#, fuzzy
 msgid "Initiators"
-msgstr "Administratoren"
+msgstr "Auslöser"
 
 msgid "Search for builds started by someone or something in particular."
-msgstr ""
+msgstr "Nach Builds suchen, die von einer bestimmten Person oder Sache gestartet wurden."
 
 msgid "My Builds"
-msgstr ""
+msgstr "Meine Builds"
 
 msgid "Completed"
-msgstr ""
+msgstr "Abgeschlossen"
 
-#, fuzzy
 msgid "No builds found."
-msgstr "Keine Regeln gefunden."
+msgstr "Keine Builds gefunden."
 
-#, fuzzy
 msgid "All Steps"
-msgstr "Alle Neuigkeiten"
+msgstr "Alle Schritte"
 
 msgid "Harbormaster Build Targets"
-msgstr ""
+msgstr "Harbormaster-Build-Ziele"
 
 msgid "Search for targets of a given build."
-msgstr ""
+msgstr "Nach Zielen eines bestimmten Builds suchen."
 
 msgid "Search for targets created on or after a particular date."
-msgstr ""
+msgstr "Nach Zielen suchen, die an oder nach einem bestimmten Datum erstellt wurden."
 
 msgid "Search for targets created on or before a particular date."
-msgstr ""
+msgstr "Nach Zielen suchen, die an oder vor einem bestimmten Datum erstellt wurden."
 
-#, fuzzy
 msgid "Started After"
-msgstr "Erzeugt nach"
+msgstr "Gestartet nach"
 
 msgid "Search for targets started on or after a particular date."
-msgstr ""
+msgstr "Nach Zielen suchen, die an oder nach einem bestimmten Datum gestartet wurden."
 
-#, fuzzy
 msgid "Started Before"
-msgstr "Erzeugt vor"
+msgstr "Gestartet vor"
 
 msgid "Search for targets started on or before a particular date."
-msgstr ""
+msgstr "Nach Zielen suchen, die an oder vor einem bestimmten Datum gestartet wurden."
 
-#, fuzzy
 msgid "Completed After"
-msgstr "Erzeugt nach"
+msgstr "Abgeschlossen nach"
 
 msgid "Search for targets completed on or after a particular date."
-msgstr ""
+msgstr "Nach Zielen suchen, die an oder nach einem bestimmten Datum abgeschlossen wurden."
 
-#, fuzzy
 msgid "Completed Before"
-msgstr "Erzeugt vor"
+msgstr "Abgeschlossen vor"
 
 msgid "Search for targets completed on or before a particular date."
-msgstr ""
+msgstr "Nach Zielen suchen, die an oder vor einem bestimmten Datum abgeschlossen wurden."
 
 msgid "Search for targets with given statuses."
-msgstr ""
+msgstr "Nach Zielen mit bestimmten Status suchen."
 
-#, fuzzy
 msgid "All Targets"
-msgstr "Alle Aufgaben"
+msgstr "Alle Ziele"
 
-#, fuzzy, php-format
+#, php-format
 msgid "Unknown Unit Message (\"%s\")"
-msgstr "Unbekannte Bedingung \"%s\"!"
+msgstr "Unbekannte Unit-Nachricht (\"%s\")"
 
 msgid "rXabcdef, PHID-DIFF-1234, ..."
-msgstr ""
+msgstr "rXabcdef, PHID-DIFF-1234, ..."
 
 msgid "Search for builds of particular objects."
-msgstr ""
+msgstr "Nach Builds bestimmter Objekte suchen."
 
-#, fuzzy
 msgid "Containers"
-msgstr "enthält"
+msgstr "Container"
 
 msgid "rXYZ, R123, D456, ..."
-msgstr ""
+msgstr "rXYZ, R123, D456, ..."
 
 msgid "Search for builds by containing revision or repository."
-msgstr ""
+msgstr "Nach Builds nach enthaltener Revision oder Repository suchen."
 
 msgid "Search for builds by buildable status."
-msgstr ""
+msgstr "Nach Builds nach Buildable-Status suchen."
 
 msgid "Manual"
-msgstr ""
+msgstr "Manuell"
 
-#, fuzzy
 msgid "Search for only manual or automatic buildables."
-msgstr "Zeige nur manuell hochgeladene Dateien."
+msgstr "Nur nach manuellen oder automatischen Buildables suchen."
 
-#, fuzzy
 msgid "Show Only Manual Builds"
-msgstr "Zeige nur aktive Regeln"
+msgstr "Nur manuelle Builds anzeigen"
 
-#, fuzzy
 msgid "Show Only Automated Builds"
-msgstr "Zeige nur aktive Regeln"
+msgstr "Nur automatisierte Builds anzeigen"
 
 msgid "All Buildables"
-msgstr ""
+msgstr "Alle Buildables"
 
 msgid "No buildables found."
-msgstr ""
+msgstr "Keine Buildables gefunden."
 
 msgid "Abort Older Builds"
-msgstr ""
+msgstr "Ältere Builds abbrechen"
 
 msgid ""
 "When building a revision, abort copies of this build plan which are "
 "currently running against older diffs."
-msgstr ""
+msgstr "Beim Bauen einer Revision laufende Kopien dieses Build-Plans, die gegen ältere Diffs laufen, abbrechen."
 
 msgid ""
 "When run against a revision, this build step will abort any older copies of\n"
@@ -33871,344 +33950,341 @@ msgid ""
 "reduce build queue load without any substantial cost.\n"
 "EOTEXT"
 msgstr ""
+"Wenn dieser Build-Schritt gegen eine Revision ausgeführt wird, bricht er\n"
+"ältere Kopien desselben Build-Plans ab, die gerade gegen ältere Diffs laufen.\n"
+"\n"
+"Es gibt einige Feinheiten beim Verhalten:\n"
+"\n"
+"  - wird dieser Build-Schritt manuell ausgelöst, bricht er nichts ab;\n"
+"  - dieser Build-Schritt bricht keine manuellen Builds ab;\n"
+"  - dieser Build-Schritt bricht nichts ab, wenn der gerade gebaute Diff\n"
+"    nicht der aktive Diff ist, wenn er läuft.\n"
+"\n"
+"Build-Ergebnisse zu veralteten Diffs sind oft nicht sehr wichtig, daher\n"
+"kann dies die Build-Warteschlangenlast ohne wesentliche Kosten reduzieren.\n"
+"EOTEXT"
 
 msgid "Arcanist Lint Results"
-msgstr ""
+msgstr "Arcanist-Lint-Ergebnisse"
 
 msgid "Automatic `arc lint` step."
-msgstr ""
+msgstr "Automatischer `arc lint`-Schritt."
 
 msgid "Arcanist Unit Results"
-msgstr ""
+msgstr "Arcanist-Unit-Ergebnisse"
 
 msgid "Automatic `arc unit` step."
-msgstr ""
+msgstr "Automatischer `arc unit`-Schritt."
 
 msgid "No implementation is specified!"
-msgstr ""
+msgstr "Keine Implementierung angegeben!"
 
 #, php-format
 msgid "No such implementation \"%s\" exists!"
-msgstr ""
+msgstr "Implementierung \"%s\" existiert nicht!"
 
 #, php-format
 msgid "No such variable '%s'!"
-msgstr ""
+msgstr "Variable '%s' existiert nicht!"
 
 msgid ""
 "Declining to make service call because `phabricator.silent` is enabled in "
 "configuration."
-msgstr ""
+msgstr "Service-Aufruf wird abgelehnt, weil `phabricator.silent` in der Konfiguration aktiviert ist."
 
 msgid "Drydock: Run Command"
-msgstr ""
+msgstr "Drydock: Befehl ausführen"
 
 msgid "Run a command on Drydock resource."
-msgstr ""
+msgstr "Einen Befehl auf einer Drydock-Ressource ausführen."
 
-#, fuzzy, php-format
+#, php-format
 msgid "Run command %s on %s."
-msgstr "%s hat %s aus %s entfernt."
+msgstr "Befehl %s auf %s ausführen."
 
 msgid "Make HTTP Request"
-msgstr ""
+msgstr "HTTP-Anfrage stellen"
 
 msgid "Make an HTTP request."
-msgstr ""
+msgstr "Eine HTTP-Anfrage stellen."
 
 #, php-format
 msgid "Make an authenticated HTTP %s request to %s."
-msgstr ""
+msgstr "Eine authentifizierte HTTP-%s-Anfrage an %s stellen."
 
 #, php-format
 msgid "Make an HTTP %s request to %s."
-msgstr ""
+msgstr "Eine HTTP-%s-Anfrage an %s stellen."
 
-#, fuzzy
 msgid "HTTP Request"
-msgstr "Neue Anfrage"
+msgstr "HTTP-Anfrage"
 
 msgid "HTTP Method"
-msgstr ""
+msgstr "HTTP-Methode"
 
-#, fuzzy
 msgid "Lease Working Copy"
-msgstr "Arbeitete gerade daran"
+msgstr "Arbeitskopie mieten"
 
 msgid "Build a working copy in Drydock."
-msgstr ""
+msgstr "Eine Arbeitskopie in Drydock erstellen."
 
 msgid "Artifact Name"
-msgstr ""
+msgstr "Artefaktname"
 
 msgid "Also Clone"
-msgstr ""
+msgstr "Auch klonen"
 
 msgid ""
 "Unable to determine how to clone the repository for this buildable: it is "
 "not associated with a tracked repository."
-msgstr ""
+msgstr "Klonmethode für dieses Buildable konnte nicht ermittelt werden: Es ist keinem verfolgten Repository zugeordnet."
 
-#, fuzzy, php-format
+#, php-format
 msgid "Unable to load repository with PHID \"%s\"."
-msgstr "%s hat die Repository-UUID auf \"%s\" gesetzt."
+msgstr "Repository mit PHID \"%s\" konnte nicht geladen werden."
 
 msgid ""
 "Unable to determine how to fetch changes: this buildable does not identify a "
 "commit or a staging ref. You may need to configure a repository staging area."
-msgstr ""
+msgstr "Abrufmethode für Änderungen konnte nicht ermittelt werden: Dieses Buildable benennt weder einen Commit noch eine Staging-Referenz. Möglicherweise muss eine Repository-Staging-Area konfiguriert werden."
 
 msgid "Sleep"
-msgstr ""
+msgstr "Warten"
 
 msgid "Sleep for a specified number of seconds."
-msgstr ""
+msgstr "Eine angegebene Anzahl von Sekunden warten."
 
 #, php-format
 msgid "Sleep for %s seconds."
-msgstr ""
+msgstr "%s Sekunden warten."
 
 msgid "The number of seconds to sleep for."
-msgstr ""
+msgstr "Die Anzahl der Sekunden, die gewartet werden soll."
 
 msgid "Throw Exception"
-msgstr ""
+msgstr "Ausnahme auslösen"
 
 msgid "Throw an exception."
-msgstr ""
+msgstr "Eine Ausnahme auslösen."
 
 msgid "(This is an explicit exception.)"
-msgstr ""
+msgstr "(Dies ist eine explizite Ausnahme.)"
 
-#, fuzzy
 msgid "Upload a file."
-msgstr "Datei hochladen"
+msgstr "Eine Datei hochladen."
 
 #, php-format
 msgid "Upload %s from %s."
-msgstr ""
+msgstr "%s von %s hochladen."
 
 msgid "Upload From Host"
-msgstr ""
+msgstr "Vom Host hochladen"
 
 msgid "Uploaded File"
-msgstr ""
+msgstr "Hochgeladene Datei"
 
 msgid "Local Name"
-msgstr ""
+msgstr "Lokaler Name"
 
 msgid "Host Artifact"
-msgstr ""
+msgstr "Host-Artefakt"
 
 msgid "Wait for Previous Commits to Build"
-msgstr ""
+msgstr "Auf Build vorheriger Commits warten"
 
 msgid ""
 "Wait for previous commits to finish building the current plan before "
 "continuing."
-msgstr ""
+msgstr "Warten, bis vorherige Commits den aktuellen Plan fertig gebaut haben, bevor fortgefahren wird."
 
-#, fuzzy
 msgid "Builtins"
-msgstr "Integriert"
+msgstr "Eingebaut"
 
 msgid "Flow Control"
-msgstr ""
+msgstr "Ablaufsteuerung"
 
-#, fuzzy
 msgid "Interacting with External Build Systems"
-msgstr "Interaktion mit Maniphest Aufgaben"
+msgstr "Interaktion mit externen Build-Systemen"
 
 msgid "Other Build Steps"
-msgstr ""
+msgstr "Weitere Build-Schritte"
 
 msgid "Prototypes"
-msgstr ""
+msgstr "Prototypen"
 
-#, fuzzy
 msgid "Testing Utilities"
-msgstr "Werkzeuge"
+msgstr "Testwerkzeuge"
 
 msgid "Build messages have the same policies as their receivers."
-msgstr ""
+msgstr "Build-Nachrichten haben dieselben Richtlinien wie ihre Empfänger."
 
-#, fuzzy, php-format
+#, php-format
 msgid "Failed to load build plan (\"%s\")."
-msgstr "Konnte Kommentar \"%s\" leider nicht laden."
+msgstr "Build-Plan (\"%s\") konnte nicht geladen werden."
 
 msgid "A buildable inherits policies from the underlying object."
-msgstr ""
+msgstr "Ein Buildable erbt Richtlinien vom zugrundeliegenden Objekt."
 
 msgid "PHID of the object that is built."
-msgstr ""
+msgstr "PHID des Objekts, das gebaut wird."
 
 msgid "PHID of the object containing this buildable."
-msgstr ""
+msgstr "PHID des Objekts, das dieses Buildable enthält."
 
 msgid "The current status of this buildable."
-msgstr ""
+msgstr "Der aktuelle Status dieses Buildables."
 
 msgid "True if this is a manual buildable."
-msgstr ""
+msgstr "Wahr, wenn dies ein manuelles Buildable ist."
 
 msgid "View URI for the buildable."
-msgstr ""
+msgstr "Ansichts-URI für das Buildable."
 
 msgid "The current UNIX timestamp."
-msgstr ""
+msgstr "Der aktuelle UNIX-Zeitstempel."
 
 msgid "The ID of the current build."
-msgstr ""
+msgstr "Die ID des aktuellen Builds."
 
 msgid "The PHID of the current build target."
-msgstr ""
+msgstr "Die PHID des aktuellen Build-Ziels."
 
 msgid "The PHID of the user or Object that initiated the build, if applicable."
-msgstr ""
+msgstr "Die PHID des Benutzers oder Objekts, das den Build gestartet hat, falls zutreffend."
 
 msgid "The object PHID of the Harbormaster Buildable being built."
-msgstr ""
+msgstr "Die Objekt-PHID des Harbormaster-Buildables, das gebaut wird."
 
 msgid "The object PHID of the object (usually a diff or commit) being built."
-msgstr ""
+msgstr "Die Objekt-PHID des Objekts (normalerweise ein Diff oder Commit), das gebaut wird."
 
 msgid ""
 "The object PHID of the container (usually a revision or repository) for the "
 "object being built."
-msgstr ""
+msgstr "Die Objekt-PHID des Containers (normalerweise eine Revision oder ein Repository) für das gebaute Objekt."
 
 msgid "The object PHID of the Harbormaster Build being built."
-msgstr ""
+msgstr "Die Objekt-PHID des Harbormaster-Builds, der gerade gebaut wird."
 
 msgid "A build inherits policies from its buildable."
-msgstr ""
+msgstr "Ein Build erbt Richtlinien von seinem Buildable."
 
 msgid "PHID of the object this build is building."
-msgstr ""
+msgstr "PHID des Objekts, das dieser Build baut."
 
 msgid "PHID of the build plan being run."
-msgstr ""
+msgstr "PHID des ausgeführten Build-Plans."
 
 msgid "The current status of this build."
-msgstr ""
+msgstr "Der aktuelle Status dieses Builds."
 
 msgid "The person (or thing) that started this build."
-msgstr ""
+msgstr "Die Person (oder das Ding), die diesen Build gestartet hat."
 
-#, fuzzy
 msgid "The name of this build."
-msgstr "Benötige einen Dateinamen."
+msgstr "Der Name dieses Builds."
 
-#, fuzzy
 msgid "Users must be able to see a build target to see its artifacts."
-msgstr ""
-"Um das Dashboard des Projektes zu sehen, muß der Benutzer zunächst einmal "
-"das Projekt sehen können."
+msgstr "Benutzer müssen ein Build-Ziel sehen können, um dessen Artefakte zu sehen."
 
 msgid "The build target this artifact is attached to."
-msgstr ""
+msgstr "Das Build-Ziel, an das dieses Artefakt angehängt ist."
 
 msgid "The artifact type."
-msgstr ""
+msgstr "Der Artefakttyp."
 
 msgid "The artifact key."
-msgstr ""
+msgstr "Der Artefaktschlüssel."
 
-#, fuzzy
 msgid "True if this artifact has been released."
-msgstr "Dieser Kommentar wurde gelöscht"
+msgstr "Wahr, wenn dieses Artefakt freigegeben wurde."
 
 msgid "Short message name, like \"Syntax Error\"."
-msgstr ""
+msgstr "Kurzer Nachrichtenname, wie \"Syntaxfehler\"."
 
 msgid "Lint message code identifying the type of message, like \"ERR123\"."
-msgstr ""
+msgstr "Lint-Nachrichtencode, der den Nachrichtentyp kennzeichnet, wie \"ERR123\"."
 
-#, fuzzy
 msgid "Severity of the message."
-msgstr "%s hat Dir eine Nachricht geschickt"
+msgstr "Schweregrad der Nachricht."
 
 msgid "Path to the file containing the lint message, from the project root."
-msgstr ""
+msgstr "Pfad zur Datei mit der Lint-Nachricht, ausgehend vom Projektstamm."
 
 msgid ""
 "Line number in the file where the text which triggered the message first "
 "appears. The first line of the file is line 1, not line 0."
-msgstr ""
+msgstr "Zeilennummer in der Datei, in der der Text, der die Nachricht ausgelöst hat, zuerst erscheint. Die erste Zeile der Datei ist Zeile 1, nicht Zeile 0."
 
 msgid ""
 "Byte position on the line where the text which triggered the message starts. "
 "The first byte on the line is byte 1, not byte 0. This position is byte-"
 "based (not character-based) because not all lintable files have a valid "
 "character encoding."
-msgstr ""
+msgstr "Byte-Position in der Zeile, an der der Text beginnt, der die Nachricht ausgelöst hat. Das erste Byte der Zeile ist Byte 1, nicht Byte 0. Diese Position ist byte-basiert (nicht zeichenbasiert), da nicht alle lintbaren Dateien eine gültige Zeichenkodierung haben."
 
 msgid "Long explanation of the lint message."
-msgstr ""
+msgstr "Ausführliche Erklärung der Lint-Nachricht."
 
-#, fuzzy, php-format
+#, php-format
 msgid "(%d - %d)"
-msgstr "%s - %s"
+msgstr "(%d - %d)"
 
 msgid "<null>"
-msgstr ""
+msgstr "<null>"
 
 #, php-format
 msgid ""
 "Attempt to load log bytes (%d - %d) failed: failed to load a single "
 "contiguous range. Actual ranges: %s."
-msgstr ""
+msgstr "Versuch, Log-Bytes (%d - %d) zu laden, fehlgeschlagen: Es konnte kein zusammenhängender Bereich geladen werden. Tatsächliche Bereiche: %s."
 
 #, php-format
 msgid ""
 "Attempt to load log bytes (%d - %d) failed: the loaded range (%d - %d) does "
 "not span the requested range."
-msgstr ""
+msgstr "Versuch, Log-Bytes (%d - %d) zu laden, fehlgeschlagen: Der geladene Bereich (%d - %d) deckt den angeforderten Bereich nicht ab."
 
 msgid "No line map."
-msgstr ""
+msgstr "Keine Zeilenkarte."
 
 msgid "You can not process build log chunks unless the log lock is held."
-msgstr ""
+msgstr "Build-Protokoll-Chunks können nur verarbeitet werden, wenn die Protokoll-Sperre gehalten wird."
 
 msgid "Failed to gzdeflate() log data!"
-msgstr ""
+msgstr "gzdeflate() der Protokolldaten fehlgeschlagen!"
 
-#, fuzzy, php-format
+#, php-format
 msgid "Unknown chunk encoding \"%s\"!"
-msgstr "Unbekannte Bedingung \"%s\"!"
+msgstr "Unbekannte Chunk-Kodierung \"%s\"!"
 
 msgid "This build log is already open!"
-msgstr ""
+msgstr "Dieses Build-Protokoll ist bereits geöffnet!"
 
 msgid "You must openBuildLog() before you can closeBuildLog()."
-msgstr ""
+msgstr "openBuildLog() muss vor closeBuildLog() aufgerufen werden."
 
 msgid "You must openBuildLog() before you can append() content to the log."
-msgstr ""
+msgstr "openBuildLog() muss aufgerufen werden, bevor Inhalt per append() zum Protokoll hinzugefügt werden kann."
 
-#, fuzzy
 msgid "Users must be able to see a build target to view its build log."
-msgstr ""
-"Um das Dashboard des Projektes zu sehen, muß der Benutzer zunächst einmal "
-"das Projekt sehen können."
+msgstr "Benutzer müssen ein Build-Ziel sehen können, um das Build-Protokoll anzusehen."
 
 msgid "Build target this log is attached to."
-msgstr ""
+msgstr "Das Build-Ziel, an das dieses Protokoll angehängt ist."
 
 msgid "Length of the log in bytes."
-msgstr ""
+msgstr "Länge des Protokolls in Bytes."
 
 msgid "A file containing the log data."
-msgstr ""
+msgstr "Eine Datei mit den Protokolldaten."
 
-#, fuzzy
 msgid "Unable to inflate log chunk!"
-msgstr "Anmeldung fehlgeschlagen"
+msgstr "Log-Chunk konnte nicht entpackt werden!"
 
-#, fuzzy, php-format
+#, php-format
 msgid "Unknown log chunk encoding (\"%s\")!"
-msgstr "Unbekannte Bedingung \"%s\"!"
+msgstr "Unbekannte Log-Chunk-Kodierung (\"%s\")!"
 
 msgid "Waiting for Message"
 msgstr ""
@@ -34217,591 +34293,564 @@ msgstr ""
 msgid "There is no implementation available for artifacts of type \"%s\"."
 msgstr ""
 
-#, fuzzy, php-format
+#, php-format
 msgid "Artifact \"%s\" not found!"
-msgstr "Diff nicht gefunden."
+msgstr "Artefakt \"%s\" nicht gefunden!"
 
-#, fuzzy, php-format
+#, php-format
 msgid "Unknown build step field \"%s\"!"
-msgstr "Unbekannte Bedingung \"%s\"!"
+msgstr "Unbekanntes Build-Schrittfeld \"%s\"!"
 
 msgid "Users must be able to see a build to view its build targets."
-msgstr ""
+msgstr "Benutzer müssen einen Build sehen können, um dessen Build-Ziele zu sehen."
 
 msgid "The name of the build target."
-msgstr ""
+msgstr "Der Name des Build-Ziels."
 
 msgid "The build the target is associated with."
-msgstr ""
+msgstr "Der Build, dem das Ziel zugeordnet ist."
 
 msgid "The build step the target runs."
-msgstr ""
+msgstr "Der Build-Schritt, den das Ziel ausführt."
 
 msgid "Status for the build target."
-msgstr ""
+msgstr "Status des Build-Ziels."
 
 msgid "Epoch timestamp for target start, if the target has started."
-msgstr ""
+msgstr "Epoch-Zeitstempel für den Start des Ziels, falls das Ziel gestartet wurde."
 
 msgid "Epoch timestamp for target completion, if the target has completed."
-msgstr ""
+msgstr "Epoch-Zeitstempel für den Abschluss des Ziels, falls das Ziel abgeschlossen wurde."
 
 msgid ""
 "Build generation this target belongs to. When builds restart, a new "
 "generation with new targets is created."
-msgstr ""
+msgstr "Build-Generation, zu der dieses Ziel gehört. Wenn Builds neu starten, wird eine neue Generation mit neuen Zielen erstellt."
 
 msgid "Short test name, like \"ExampleTest\"."
-msgstr ""
+msgstr "Kurzer Testname, wie \"ExampleTest\"."
 
 msgid "Result of the test."
-msgstr ""
+msgstr "Ergebnis des Tests."
 
 msgid ""
 "Optional namespace for this test. This is organizational and is often a "
 "class or module name, like \"ExampleTestCase\"."
-msgstr ""
+msgstr "Optionaler Namensraum für diesen Test. Dies ist organisatorisch und oft ein Klassen- oder Modulname wie \"ExampleTestCase\"."
 
 msgid ""
 "Test engine running the test, like \"JavascriptTestEngine\". This primarily "
 "prevents collisions between tests with the same name in different test "
 "suites (for example, a Javascript test and a Python test)."
-msgstr ""
+msgstr "Test-Engine, die den Test ausführt, wie \"JavascriptTestEngine\". Dies verhindert hauptsächlich Kollisionen zwischen Tests mit demselben Namen in verschiedenen Test-Suites (z.B. ein JavaScript-Test und ein Python-Test)."
 
 msgid "Runtime duration of the test, in seconds."
-msgstr ""
+msgstr "Laufzeitdauer des Tests in Sekunden."
 
 msgid ""
 "Path to the file where the test is declared, relative to the project root."
-msgstr ""
+msgstr "Pfad zur Datei, in der der Test deklariert ist, relativ zum Projektstamm."
 
 msgid "Coverage information for this test."
-msgstr ""
+msgstr "Abdeckungsinformationen für diesen Test."
 
 msgid "Additional human-readable information about the failure."
-msgstr ""
+msgstr "Zusätzliche lesbare Informationen über den Fehler."
 
 msgid ""
 "Format for the text provided in \"details\". Valid values are \"text\" "
 "(default) or \"remarkup\". This controls how test details are rendered when "
 "shown to users."
-msgstr ""
+msgstr "Format für den in \"details\" angegebenen Text. Gültige Werte sind \"text\" (Standard) oder \"remarkup\". Dies steuert, wie Testdetails angezeigt werden."
 
-#, fuzzy
 msgid "No details provided."
-msgstr "%s hat diesen Dienstleister deaktiviert."
+msgstr "Keine Details angegeben."
 
-#, fuzzy
 msgid "View Details"
-msgstr "(Verstecke Details)"
+msgstr "Details anzeigen"
 
 msgid "This test has too much data to display inline."
-msgstr ""
+msgstr "Dieser Test hat zu viele Daten zur inline-Anzeige."
 
 #, php-format
 msgid ""
 "This test result has %s bytes of Remarkup test details. Remarkup blocks "
 "longer than %s bytes are not rendered inline when showing test summaries."
-msgstr ""
+msgstr "Dieses Testergebnis hat %s Bytes an Remarkup-Testdetails. Remarkup-Blöcke länger als %s Bytes werden in Testzusammenfassungen nicht inline gerendert."
 
-#, fuzzy, php-format
+#, php-format
 msgid "Nameless Test (%d)"
-msgstr "Namenloser Reiter"
+msgstr "Namenloser Test (%d)"
 
 msgid ""
 "This is an autoplan (a builtin plan provided by an application) so it can "
 "not be edited."
-msgstr ""
+msgstr "Dies ist ein Autoplan (ein von einer Anwendung bereitgestellter eingebauter Plan) und kann daher nicht bearbeitet werden."
 
 msgid "The name of this build plan."
-msgstr ""
+msgstr "Der Name dieses Build-Plans."
 
-#, fuzzy
 msgid "The current status of this build plan."
-msgstr "Das Dokument darf nicht leer sein."
+msgstr "Der aktuelle Status dieses Build-Plans."
 
 msgid "Behavior configuration for the build plan."
-msgstr ""
+msgstr "Verhaltenskonfiguration für den Build-Plan."
 
 msgid "A build step has the same policies as its build plan."
-msgstr ""
+msgstr "Ein Build-Schritt hat dieselben Richtlinien wie sein Build-Plan."
 
 msgid "The name of the build step."
-msgstr ""
+msgstr "Der Name des Build-Schritts."
 
-#, fuzzy
 msgid "The build step description."
-msgstr "%s hat die Aufgabenbeschreibung geändert."
+msgstr "Die Build-Schritt-Beschreibung."
 
 msgid "The PHID of the build plan this build step belongs to."
-msgstr ""
+msgstr "Die PHID des Build-Plans, zu dem dieser Build-Schritt gehört."
 
 #, php-format
 msgid "%s created this build step."
 msgstr ""
 
 msgid "Browse Dependencies"
-msgstr ""
+msgstr "Abhängigkeiten durchsuchen"
 
 msgid "Type another build step name..."
-msgstr ""
+msgstr "Einen anderen Build-Schritt-Namen eintippen..."
 
 msgid "Browse Build Initiators"
-msgstr ""
+msgstr "Build-Auslöser durchsuchen"
 
 msgid "Type the name of a user, application or Herald rule..."
-msgstr ""
+msgstr "Den Namen eines Benutzers, einer Anwendung oder einer Herald-Regel eintippen..."
 
 msgid "Browse Build Plans"
-msgstr ""
+msgstr "Build-Pläne durchsuchen"
 
 msgid "Type a build plan name..."
-msgstr ""
+msgstr "Einen Build-Plan-Namen eintippen..."
 
-#, fuzzy
 msgid "Choose Build Statuses"
-msgstr "Status verändert"
+msgstr "Build-Status auswählen"
 
-#, fuzzy
 msgid "Type a build status name..."
-msgstr "Einen Aufgabenstatus eintippen..."
+msgstr "Einen Build-Status-Namen eintippen..."
 
-#, fuzzy
 msgid "Download Log"
-msgstr "Download"
+msgstr "Protokoll herunterladen"
 
 #, php-format
 msgid ""
 "This older log is missing required rendering data. To rebuild rendering "
 "data, run: %s"
-msgstr ""
+msgstr "Diesem älteren Protokoll fehlen erforderliche Rendering-Daten. Um die Rendering-Daten neu aufzubauen, ausführen: %s"
 
 #, php-format
 msgid "%s ms"
-msgstr ""
+msgstr "%s ms"
 
-#, fuzzy, php-format
+#, php-format
 msgid "View Full Test Results (%s)"
-msgstr "Volltext-Ergebnisse"
+msgstr "Vollständige Testergebnisse anzeigen (%s)"
 
 msgid "Time"
 msgstr "Zeit"
 
-#, fuzzy
 msgid "No Unit Tests"
-msgstr "Nicht eindeutig"
+msgstr "Keine Unit-Tests"
 
 msgid "..."
-msgstr ""
+msgstr "..."
 
 #, php-format
 msgid "Invalid build ID \"%s\"."
-msgstr ""
+msgstr "Ungültige Build-ID \"%s\"."
 
 #, php-format
 msgid "Invalid buildable PHID \"%s\"."
-msgstr ""
+msgstr "Ungültige Buildable-PHID \"%s\"."
 
 #, php-format
 msgid "Invalid build log PHID \"%s\"."
-msgstr ""
+msgstr "Ungültige Build-Protokoll-PHID \"%s\"."
 
 #, php-format
 msgid ""
 "Log \"%s\" is still live. Logs can not be finalized until they have closed."
-msgstr ""
+msgstr "Protokoll \"%s\" ist noch aktiv. Protokolle können erst finalisiert werden, wenn sie geschlossen wurden."
 
 #, php-format
 msgid "Bad build target ID \"%d\"."
-msgstr ""
+msgstr "Ungültige Build-Ziel-ID \"%d\"."
 
 msgid "Abort Build"
-msgstr ""
+msgstr "Build abbrechen"
 
 msgid "Abort Builds"
-msgstr ""
+msgstr "Builds abbrechen"
 
-#, fuzzy
 msgid "Really abort build?"
-msgstr "Wirklich diese Regel aktivieren?"
+msgstr "Build wirklich abbrechen?"
 
 msgid "Build will abort."
-msgstr ""
+msgstr "Build wird abgebrochen."
 
 msgid "Progress on this build will be discarded. Really abort build?"
-msgstr ""
+msgstr "Der Fortschritt dieses Builds wird verworfen. Build wirklich abbrechen?"
 
 msgid "Abort the build, discarding progress."
-msgstr ""
+msgstr "Den Build abbrechen und den Fortschritt verwerfen."
 
-#, fuzzy, php-format
+#, php-format
 msgid "Really abort %s build(s)?"
-msgstr "Wirklich diese Regel aktivieren?"
+msgstr "%s Build(s) wirklich abbrechen?"
 
 msgid ""
 "If you abort all builds, work will halt immediately. Work will be discarded, "
 "and builds must be completely restarted."
-msgstr ""
+msgstr "Wenn alle Builds abgebrochen werden, hält die Arbeit sofort an. Die Arbeit wird verworfen und Builds müssen vollständig neu gestartet werden."
 
 msgid ""
 "You can only abort some builds. Work will halt immediately on builds you can "
 "abort. Progress will be discarded, and builds must be completely restarted "
 "if you want them to complete."
-msgstr ""
+msgstr "Es können nur manche Builds abgebrochen werden. Die Arbeit hält bei abbrechbaren Builds sofort an. Der Fortschritt wird verworfen und Builds müssen vollständig neu gestartet werden, wenn sie abgeschlossen werden sollen."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s aborted this build."
-msgstr "%s hat diese Regel aktiviert."
+msgstr "%s hat diesen Build abgebrochen."
 
-#, fuzzy
 msgid "Unable to Abort Build"
-msgstr "Anmeldung fehlgeschlagen"
+msgstr "Build konnte nicht abgebrochen werden"
 
 msgid "You can not abort a build that uses an autoplan."
-msgstr ""
+msgstr "Ein Build mit einem Autoplan kann nicht abgebrochen werden."
 
 msgid "You can not abort this build because it is already complete."
-msgstr ""
+msgstr "Dieser Build kann nicht abgebrochen werden, weil er bereits abgeschlossen ist."
 
 msgid "You can not abort this build because it is already aborting."
-msgstr ""
+msgstr "Dieser Build kann nicht abgebrochen werden, weil er bereits abgebrochen wird."
 
 msgid "Pause Build"
-msgstr ""
+msgstr "Build anhalten"
 
 msgid "Pause Builds"
-msgstr ""
+msgstr "Builds anhalten"
 
 msgid "Really pause build?"
-msgstr ""
+msgstr "Build wirklich anhalten?"
 
 msgid "Build will pause."
-msgstr ""
+msgstr "Build wird angehalten."
 
 msgid ""
 "If you pause this build, work will halt once the current steps complete. You "
 "can resume the build later."
-msgstr ""
+msgstr "Wenn dieser Build angehalten wird, hält die Arbeit nach Abschluss der aktuellen Schritte an. Der Build kann später fortgesetzt werden."
 
 msgid "Pause the build."
-msgstr ""
+msgstr "Den Build anhalten."
 
-#, fuzzy, php-format
+#, php-format
 msgid "Really pause %s build(s)?"
-msgstr "Wirklich diese Regel aktivieren?"
+msgstr "%s Build(s) wirklich anhalten?"
 
 msgid ""
 "If you pause all builds, work will halt once the current steps complete. You "
 "can resume the builds later."
-msgstr ""
+msgstr "Wenn alle Builds angehalten werden, hält die Arbeit nach Abschluss der aktuellen Schritte an. Die Builds können später fortgesetzt werden."
 
 msgid ""
 "You can only pause some builds. Once the current steps complete, work will "
 "halt on builds you can pause. You can resume the builds later."
-msgstr ""
+msgstr "Es können nur manche Builds angehalten werden. Sobald die aktuellen Schritte abgeschlossen sind, hält die Arbeit bei anhaltbaren Builds an. Die Builds können später fortgesetzt werden."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s paused this build."
-msgstr "%s hat diese Frage gestellt."
+msgstr "%s hat diesen Build angehalten."
 
 msgid "Unable to Pause Build"
-msgstr ""
+msgstr "Build konnte nicht angehalten werden"
 
 msgid "You can not pause a build that uses an autoplan."
-msgstr ""
+msgstr "Ein Build mit einem Autoplan kann nicht angehalten werden."
 
 msgid "You can not pause this build because it is already paused."
-msgstr ""
+msgstr "Dieser Build kann nicht angehalten werden, weil er bereits angehalten ist."
 
-#, fuzzy
 msgid "You can not pause this build because it has already completed."
-msgstr "Du kannst keinen Teilnehmer hinzufügen, der bereits dabei ist."
+msgstr "Dieser Build kann nicht angehalten werden, weil er bereits abgeschlossen ist."
 
 msgid "You can not pause this build because it is already pausing."
-msgstr ""
+msgstr "Dieser Build kann nicht angehalten werden, weil er gerade angehalten wird."
 
 msgid "You can not pause this build because it is already restarting."
-msgstr ""
+msgstr "Dieser Build kann nicht angehalten werden, weil er gerade neu startet."
 
 msgid "You can not pause this build because it is already aborting."
-msgstr ""
+msgstr "Dieser Build kann nicht angehalten werden, weil er gerade abgebrochen wird."
 
 msgid "Restart Build"
-msgstr ""
+msgstr "Build neu starten"
 
 msgid "Restart Builds"
-msgstr ""
+msgstr "Builds neu starten"
 
 msgid "Build will restart."
-msgstr ""
+msgstr "Build wird neu gestartet."
 
 msgid "Really restart build?"
-msgstr ""
+msgstr "Build wirklich neu starten?"
 
 msgid ""
 "Progress on this build will be discarded and the build will restart. Side "
 "effects of the build will occur again. Really restart build?"
-msgstr ""
+msgstr "Der Fortschritt dieses Builds wird verworfen und der Build neu gestartet. Nebenwirkungen des Builds treten erneut auf. Build wirklich neu starten?"
 
 msgid "Restart the build, discarding all progress."
-msgstr ""
+msgstr "Den Build neu starten und den gesamten Fortschritt verwerfen."
 
-#, fuzzy, php-format
+#, php-format
 msgid "Really restart %s build(s)?"
-msgstr "Termin wirklich löschen?"
+msgstr "%s Build(s) wirklich neu starten?"
 
 msgid "All builds will restart."
-msgstr ""
+msgstr "Alle Builds werden neu gestartet."
 
 msgid "You can only restart some builds."
-msgstr ""
+msgstr "Es können nur manche Builds neu gestartet werden."
 
 msgid "Progress on running builds will be discarded."
-msgstr ""
+msgstr "Der Fortschritt laufender Builds wird verworfen."
 
 msgid ""
 "When a build is restarted, side effects associated with the build may occur "
 "again."
-msgstr ""
+msgstr "Wenn ein Build neu gestartet wird, können damit verbundene Nebenwirkungen erneut auftreten."
 
 #, php-format
 msgid "%s restarted this build."
-msgstr ""
+msgstr "%s hat diesen Build neu gestartet."
 
 msgid "Can Not Restart Autobuild"
-msgstr ""
+msgstr "Autobuild kann nicht neu gestartet werden"
 
 msgid "This build can not be restarted because it is an automatic build."
-msgstr ""
+msgstr "Dieser Build kann nicht neu gestartet werden, weil er ein automatischer Build ist."
 
 msgid "No Build Plan Permission"
-msgstr ""
+msgstr "Keine Build-Plan-Berechtigung"
 
 msgid ""
 "You can not restart this build because you do not have permission to access "
 "the build plan."
-msgstr ""
+msgstr "Dieser Build kann nicht neu gestartet werden, weil keine Berechtigung für den Zugriff auf den Build-Plan vorhanden ist."
 
 msgid "Build Plan Prevents Restart"
-msgstr ""
+msgstr "Build-Plan verhindert Neustart"
 
 msgid ""
 "This build can not be restarted because the build plan is configured to "
 "prevent the build from restarting."
-msgstr ""
+msgstr "Dieser Build kann nicht neu gestartet werden, weil der Build-Plan so konfiguriert ist, dass ein Neustart verhindert wird."
 
-#, fuzzy
 msgid "Only Restartable if Failed"
-msgstr "Registrierung fehlgeschlagen"
+msgstr "Nur bei Fehler neustartbar"
 
 msgid ""
 "This build can not be restarted because the build plan is configured to "
 "prevent the build from restarting unless it has failed, and it has not "
 "failed."
-msgstr ""
+msgstr "Dieser Build kann nicht neu gestartet werden, weil der Build-Plan nur einen Neustart bei Fehler erlaubt und der Build nicht fehlgeschlagen ist."
 
-#, fuzzy
 msgid "Already Restarting"
-msgstr "Existiert bereits."
+msgstr "Wird bereits neu gestartet"
 
 msgid ""
 "This build is already restarting. You can not reissue a restart command to a "
 "restarting build."
-msgstr ""
+msgstr "Dieser Build wird bereits neu gestartet. Einem bereits neu startenden Build kann kein weiterer Neustart-Befehl erteilt werden."
 
 msgid "Resume Build"
-msgstr ""
+msgstr "Build fortsetzen"
 
 msgid "Resume Builds"
-msgstr ""
+msgstr "Builds fortsetzen"
 
 msgid "Build will resume."
-msgstr ""
+msgstr "Build wird fortgesetzt."
 
 msgid "Really resume build?"
-msgstr ""
+msgstr "Build wirklich fortsetzen?"
 
 msgid "Work will continue on the build. Really resume?"
-msgstr ""
+msgstr "Die Arbeit am Build wird fortgesetzt. Wirklich fortsetzen?"
 
 msgid "Resume work on a previously paused build."
-msgstr ""
+msgstr "Die Arbeit an einem zuvor angehaltenen Build fortsetzen."
 
-#, fuzzy, php-format
+#, php-format
 msgid "Really resume %s build(s)?"
-msgstr "Wirklich diese Regel aktivieren?"
+msgstr "%s Build(s) wirklich fortsetzen?"
 
 msgid "Work will continue on all builds. Really resume?"
-msgstr ""
+msgstr "Die Arbeit an allen Builds wird fortgesetzt. Wirklich fortsetzen?"
 
 msgid ""
 "You can only resume some builds. Work will continue on builds you have "
 "permission to resume."
-msgstr ""
+msgstr "Es können nur manche Builds fortgesetzt werden. Die Arbeit wird an Builds fortgesetzt, für die eine Fortsetzungsberechtigung vorhanden ist."
 
 #, php-format
 msgid "%s resumed this build."
-msgstr ""
+msgstr "%s hat diesen Build fortgesetzt."
 
 msgid "Unable to Resume Build"
-msgstr ""
+msgstr "Build konnte nicht fortgesetzt werden"
 
 msgid "You can not resume a build that uses an autoplan."
-msgstr ""
+msgstr "Ein Build mit einem Autoplan kann nicht fortgesetzt werden."
 
 msgid ""
 "You can not resume this build because it is not paused. You can only resume "
 "a paused build."
-msgstr ""
+msgstr "Dieser Build kann nicht fortgesetzt werden, weil er nicht angehalten ist. Nur angehaltene Builds können fortgesetzt werden."
 
 msgid "You can not resume this build because it is already resuming."
-msgstr ""
+msgstr "Dieser Build kann nicht fortgesetzt werden, weil er bereits fortgesetzt wird."
 
 msgid "You can not resume this build because it is already restarting."
-msgstr ""
+msgstr "Dieser Build kann nicht fortgesetzt werden, weil er gerade neu startet."
 
 msgid "You can not resume this build because it is already aborting."
-msgstr ""
+msgstr "Dieser Build kann nicht fortgesetzt werden, weil er gerade abgebrochen wird."
 
 msgid ""
 "You can not issue this command because you do not have permission to access "
 "the build plan for this build."
-msgstr ""
+msgstr "Dieser Befehl kann nicht erteilt werden, weil keine Berechtigung für den Zugriff auf den Build-Plan dieses Builds vorhanden ist."
 
 msgid "Insufficient Build Plan Permission"
-msgstr ""
+msgstr "Unzureichende Build-Plan-Berechtigung"
 
 msgid ""
 "The build plan for this build is configured to prevent users who can not "
 "edit it from issuing commands to the build, and you do not have permission "
 "to edit the build plan."
-msgstr ""
+msgstr "Der Build-Plan für diesen Build ist so konfiguriert, dass Benutzer ohne Bearbeitungsrecht keine Befehle an den Build senden können, und es liegt keine Berechtigung zum Bearbeiten des Build-Plans vor."
 
 #, php-format
 msgid "%s restarted this buildable."
-msgstr ""
+msgstr "%s hat dieses Buildable neu gestartet."
 
 #, php-format
 msgid "%s resumed this buildable."
 msgstr ""
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s paused this buildable."
-msgstr "%s hat diese Regel aktiviert."
+msgstr "%s hat dieses Buildable angehalten."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s aborted this buildable."
-msgstr "%s hat diese Regel aktiviert."
+msgstr "%s hat dieses Buildable abgebrochen."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s changed the %s behavior for this plan from %s to %s."
-msgstr "%s hat den Namen des Termins von %s auf %s geändert."
+msgstr "%s hat das Verhalten %s für diesen Plan von %s auf %s geändert."
 
 #, php-format
 msgid "No behavior with key \"%s\" exists. Valid keys are: %s."
-msgstr ""
+msgstr "Kein Verhalten mit dem Schlüssel \"%s\" vorhanden. Gültige Schlüssel sind: %s."
 
 #, php-format
 msgid ""
 "Value \"%s\" is not a valid option for behavior \"%s\". Valid options are: "
 "%s."
-msgstr ""
+msgstr "Wert \"%s\" ist keine gültige Option für Verhalten \"%s\". Gültige Optionen sind: %s."
 
 #, php-format
 msgid "%s renamed this build plan from \"%s\" to \"%s\"."
-msgstr ""
+msgstr "%s hat diesen Build-Plan von \"%s\" in \"%s\" umbenannt."
 
-#, fuzzy
 msgid "You must choose a name for your build plan."
-msgstr "Du mußt ein Passwort wählen"
+msgstr "Du musst einen Namen für deinen Build-Plan wählen."
 
 #, php-format
 msgid "%s disabled this build plan."
-msgstr ""
+msgstr "%s hat diesen Build-Plan deaktiviert."
 
 #, php-format
 msgid "%s enabled this build plan."
-msgstr ""
+msgstr "%s hat diesen Build-Plan aktiviert."
 
 #, php-format
 msgid "Status \"%s\" is not a valid build plan status. Valid statuses are: %s."
-msgstr ""
+msgstr "Status \"%s\" ist kein gültiger Build-Plan-Status. Gültige Status sind: %s."
 
 #, php-format
 msgid "%s Help"
-msgstr ""
+msgstr "%s Hilfe"
 
 msgid "Close any dialog, including this one."
 msgstr "Schließe alle Dialogfenster (inklusive diesem hier)."
 
-#, fuzzy
 msgid "Page Shortcuts"
-msgstr "Kurztasten"
+msgstr "Seitenverknüpfungen"
 
-#, fuzzy
 msgid "Diff Navigation"
-msgstr "Side Navigation"
+msgstr "Diff-Navigation"
 
-#, fuzzy
 msgid "Hiding Content"
-msgstr "Inhalt"
+msgstr "Inhalte ausblenden"
 
-#, fuzzy
 msgid "Editing Inline Comments"
-msgstr "Inline-Kommentar ändern"
+msgstr "Inline-Kommentare bearbeiten"
 
-#, fuzzy
 msgid "Global Shortcuts"
-msgstr "Kurztasten"
+msgstr "Globale Kurztasten"
 
 msgid "Keyboard Shortcuts"
 msgstr "Kurztasten"
 
 #, php-format
 msgid "Effect type passed to \"%s\" must be a scalar string."
-msgstr ""
+msgstr "Der an \"%s\" übergebene Effekttyp muss ein skalarer String sein."
 
-#, fuzzy
 msgid "(Invalid List)"
-msgstr "Ungültiges Datum."
+msgstr "(Ungültige Liste)"
 
 msgid "No Targets"
-msgstr ""
+msgstr "Keine Ziele"
 
-#, fuzzy
 msgid "No Effect"
-msgstr "Handlung hat keine Wirkung."
+msgstr "Keine Wirkung"
 
-#, fuzzy
 msgid "Invalid Targets"
-msgstr "Ungültiges Datum."
+msgstr "Ungültige Ziele"
 
 msgid "Unloadable Targets"
-msgstr ""
+msgstr "Nicht ladbare Ziele"
 
-#, fuzzy
 msgid "Invalid Action"
-msgstr "Ungültiger Effekt!"
+msgstr "Ungültige Aktion"
 
-#, fuzzy
 msgid "Wrong Rule Type"
-msgstr "Regel-Typ"
+msgstr "Falscher Regeltyp"
 
-#, fuzzy
 msgid "Forbidden"
-msgstr "403 Zugriff verweigert"
+msgstr "Verboten"
 
-#, fuzzy
 msgid "This action specifies no targets."
-msgstr "Das Konto kann nicht verknüpft werden."
+msgstr "Diese Aktion gibt keine Ziele an."
 
-#, fuzzy, php-format
+#, php-format
 msgid "This action has no effect on %s target(s): %s."
-msgstr "Diese Transaktion bewirkt ... nichts."
+msgstr "Diese Aktion hat keine Wirkung auf %s Ziel(e): %s."
 
-#, fuzzy
 msgid "This action has no effect."
-msgstr "Diese Transaktion bewirkt ... nichts."
+msgstr "Diese Aktion hat keine Wirkung."
 
 #, php-format
 msgid "%s target(s) are invalid or of the wrong type: %s."
@@ -34817,91 +34866,86 @@ msgstr "Du hast leider keine Berechtigung, dieses Objekt anzusehen."
 
 #, php-format
 msgid "No implementation is available for rule \"%s\"."
-msgstr ""
+msgstr "Für Regel \"%s\" ist keine Implementierung verfügbar."
 
 #, php-format
 msgid "This action does not support rules of type \"%s\"."
-msgstr ""
+msgstr "Diese Aktion unterstützt keine Regeln vom Typ \"%s\"."
 
 msgid "Call webhooks"
-msgstr ""
+msgstr "Webhooks aufrufen"
 
 msgid "Called Webhooks"
-msgstr ""
+msgstr "Webhooks aufgerufen"
 
 #, php-format
 msgid "Call webhooks: %s."
-msgstr ""
+msgstr "Webhooks aufrufen: %s."
 
 #, php-format
 msgid "Called webhooks: %s."
-msgstr ""
+msgstr "Webhooks aufgerufen: %s."
 
-#, fuzzy
 msgid "Add comment"
-msgstr "Neuer Kommentar"
+msgstr "Kommentar hinzufügen"
 
-#, fuzzy
 msgid "Added Comment"
-msgstr "Neuer Kommentar"
+msgstr "Kommentar hinzugefügt"
 
-#, fuzzy, php-format
+#, php-format
 msgid "Add comment: %s"
-msgstr "Neuer Kommentar"
+msgstr "Kommentar hinzufügen: %s"
 
-#, fuzzy, php-format
+#, php-format
 msgid "Added a comment: %s"
-msgstr "%s hat %s kommentiert."
+msgstr "Kommentar hinzugefügt: %s"
 
 msgid "Do nothing"
-msgstr ""
+msgstr "Nichts tun"
 
 msgid "Did Nothing"
-msgstr ""
+msgstr "Nichts getan"
 
-#, fuzzy
 msgid "Do nothing."
-msgstr "Daemon läuft nicht."
+msgstr "Nichts tun."
 
 msgid "Did nothing."
-msgstr ""
+msgstr "Nichts getan."
 
-#, fuzzy
 msgid "Prevent"
-msgstr "Zurück"
+msgstr "Verhindern"
 
 msgid "Supporting Applications"
-msgstr ""
+msgstr "Unterstützende Anwendungen"
 
-#, fuzzy
 msgid "Utility"
-msgstr "Werkzeuge"
+msgstr "Hilfsprogramm"
 
 #, php-format
 msgid "You must %s to a boolean first!"
-msgstr ""
+msgstr "Du musst zuerst %s in einen Boolean umwandeln!"
 
 #, php-format
 msgid ""
 "Unable to build a new transaction for adapter object; it does not implement "
 "\"%s\"."
-msgstr ""
+msgstr "Neue Transaktion für Adapterobjekt konnte nicht erstellt werden; es implementiert \"%s\" nicht."
 
 #, php-format
 msgid ""
 "Expected object (of class \"%s\") to return a transaction template (of class "
 "\"%s\"), but it returned something else (\"%s\")."
-msgstr ""
+msgstr "Von Objekt (der Klasse \"%s\") wurde eine Transaktionsvorlage (der Klasse \"%s\") erwartet, aber es wurde etwas anderes zurückgegeben (\"%s\")."
 
 msgid "This adapter can not trigger on objects."
-msgstr ""
+msgstr "Dieser Adapter kann nicht auf Objekte reagieren."
 
 #, php-format
 msgid ""
 "Two HeraldFields (of classes \"%s\" and \"%s\") have the same field key "
 "(\"%s\") after expansion for an object of class \"%s\" inside adapter "
 "\"%s\". Each field must have a unique field key."
-msgstr ""
+msgstr "Zwei HeraldFields (der Klassen \"%s\" und \"%s\") haben nach der Erweiterung für ein Objekt der Klasse \"%s\" innerhalb von Adapter \"%s\" denselben Feldschlüssel (\"%s\"). Jedes Feld muss einen eindeutigen Feldschlüssel haben."
 
 msgid "contains"
 msgstr "enthält"
@@ -34919,10 +34963,10 @@ msgid "is any of"
 msgstr "ist eines von"
 
 msgid "is true"
-msgstr ""
+msgstr "ist wahr"
 
 msgid "is false"
-msgstr ""
+msgstr "ist falsch"
 
 msgid "is not any of"
 msgstr "ist keines von"
@@ -34933,9 +34977,8 @@ msgstr "enthält vollständig"
 msgid "include any of"
 msgstr "enthält eines von"
 
-#, fuzzy
 msgid "include none of"
-msgstr "enthält eines von"
+msgstr "enthält keines von"
 
 msgid "is myself"
 msgstr "bin ich"
@@ -34946,91 +34989,90 @@ msgstr "bin nicht ich"
 msgid "matches regexp"
 msgstr "erfüllt RegExp"
 
-#, fuzzy
 msgid "does not match regexp"
-msgstr "erfüllt RegExp"
+msgstr "erfüllt RegExp nicht"
 
 msgid "matches:"
-msgstr ""
+msgstr "entspricht:"
 
 msgid "does not match:"
-msgstr ""
+msgstr "entspricht nicht:"
 
 msgid "exists"
-msgstr ""
+msgstr "existiert"
 
 msgid "does not exist"
-msgstr ""
+msgstr "existiert nicht"
 
 msgid "matches regexp pair"
-msgstr ""
+msgstr "erfüllt RegExp-Paar"
 
 msgid "has bit"
-msgstr ""
+msgstr "hat Bit"
 
 msgid "lacks bit"
-msgstr ""
+msgstr "hat kein Bit"
 
 #, php-format
 msgid "No field with key \"%s\" is available to Herald adapter \"%s\"."
-msgstr ""
+msgstr "Kein Feld mit dem Schlüssel \"%s\" ist für den Herald-Adapter \"%s\" verfügbar."
 
 msgid "Expected condition value to be an array."
-msgstr ""
+msgstr "Bedingungswert wird als Array erwartet."
 
 msgid "Object produced non-array value!"
-msgstr ""
+msgstr "Objekt hat einen Nicht-Array-Wert erzeugt!"
 
 #, php-format
 msgid ""
 "Regular expression \"%s\" in Herald rule \"%s\" is not valid, or exceeded "
 "backtracking or recursion limits while executing. Verify the expression and "
 "correct it or rewrite it with less backtracking."
-msgstr ""
+msgstr "Regulärer Ausdruck \"%s\" in Herald-Regel \"%s\" ist ungültig oder hat beim Ausführen die Backtracking- oder Rekursionslimits überschritten. Den Ausdruck prüfen und korrigieren oder mit weniger Backtracking neu schreiben."
 
 msgid "Regular expression pair is not valid JSON!"
-msgstr ""
+msgstr "Reguläres-Ausdrucks-Paar ist kein gültiges JSON!"
 
 msgid "Regular expression pair is not a pair!"
-msgstr ""
+msgstr "Reguläres-Ausdrucks-Paar ist kein Paar!"
 
 msgid "First regular expression is invalid!"
-msgstr ""
+msgstr "Erster regulärer Ausdruck ist ungültig!"
 
 msgid "Second regular expression is invalid!"
-msgstr ""
+msgstr "Zweiter regulärer Ausdruck ist ungültig!"
 
 msgid "Condition references a rule which does not exist!"
-msgstr ""
+msgstr "Bedingung verweist auf eine Regel, die nicht existiert!"
 
 #, php-format
 msgid "Unknown condition '%s'."
-msgstr ""
+msgstr "Unbekannte Bedingung '%s'."
 
 #, php-format
 msgid ""
 "The regular expression \"%s\" is not valid. Regular expressions must have "
 "enclosing characters (e.g. \"@/path/to/file@\", not \"/path/to/file\") and "
 "be syntactically correct."
-msgstr ""
+msgstr "Der reguläre Ausdruck \"%s\" ist ungültig. Reguläre Ausdrücke müssen einschließende Zeichen haben (z.B. \"@/pfad/zur/datei@\", nicht \"/pfad/zur/datei\") und syntaktisch korrekt sein."
 
 #, php-format
 msgid ""
 "The regular expression pair \"%s\" is not valid JSON. Enter a valid JSON "
 "array with two elements."
-msgstr ""
+msgstr "Das reguläre-Ausdrucks-Paar \"%s\" ist kein gültiges JSON. Ein gültiges JSON-Array mit zwei Elementen eingeben."
 
 #, php-format
 msgid "The regular expression pair \"%s\" must have exactly two elements."
-msgstr ""
+msgstr "Das reguläre-Ausdrucks-Paar \"%s\" muss genau zwei Elemente haben."
 
 #, php-format
 msgid "The first regexp in the regexp pair, \"%s\", is not a valid regexp."
-msgstr ""
+msgstr "Der erste reguläre Ausdruck im RegExp-Paar, \"%s\", ist kein gültiger regulärer Ausdruck."
 
 #, php-format
 msgid "The second regexp in the regexp pair, \"%s\", is not a valid regexp."
-msgstr ""
+msgstr "Der zweite reguläre Ausdruck im RegExp-Paar, \"%s\", ist kein gültiger regulärer Ausdruck."
 
 #, php-format
 msgid "Unknown condition \"%s\"!"
@@ -35041,69 +35083,68 @@ msgid ""
 "Two HeraldActions (of classes \"%s\" and \"%s\") have the same action key "
 "(\"%s\") after expansion for an object of class \"%s\" inside adapter "
 "\"%s\". Each action must have a unique action key."
-msgstr ""
+msgstr "Zwei HeraldActions (der Klassen \"%s\" und \"%s\") haben nach der Erweiterung für ein Objekt der Klasse \"%s\" innerhalb von Adapter \"%s\" denselben Aktionsschlüssel (\"%s\"). Jede Aktion muss einen eindeutigen Aktionsschlüssel haben."
 
 #, php-format
 msgid "No action with key \"%s\" is available to Herald adapter \"%s\"."
-msgstr ""
+msgstr "Keine Aktion mit dem Schlüssel \"%s\" ist für den Herald-Adapter \"%s\" verfügbar."
 
 #, php-format
 msgid "No adapter exists for Herald content type \"%s\"."
-msgstr ""
+msgstr "Kein Adapter für Herald-Inhaltstyp \"%s\" vorhanden."
 
 msgid "When all of these conditions are met:"
-msgstr ""
+msgstr "Wenn alle dieser Bedingungen erfüllt sind:"
 
 msgid "When any of these conditions are met:"
-msgstr ""
+msgstr "Wenn eine dieser Bedingungen erfüllt ist:"
 
 msgid "Take these actions the first time this rule matches:"
-msgstr ""
+msgstr "Diese Aktionen ausführen, wenn diese Regel das erste Mal greift:"
 
 #, fuzzy
 msgid "Take these actions if this rule did not match the last time:"
 msgstr "Diese Dinge ausführen %s die Bedingungen für diese Regel zutreffen:"
 
 msgid "Take these actions every time this rule matches:"
-msgstr ""
+msgstr "Diese Aktionen jedes Mal ausführen, wenn diese Regel greift:"
 
-#, fuzzy, php-format
+#, php-format
 msgid "Unknown Field: \"%s\""
-msgstr "Unbekannter Absender: %s"
+msgstr "Unbekanntes Feld: \"%s\""
 
-#, fuzzy, php-format
+#, php-format
 msgid "Unknown Action (\"%s\")"
-msgstr "Unbekannte Aktion \"%s\""
+msgstr "Unbekannte Aktion (\"%s\")"
 
 #, php-format
 msgid "Unable to render value for unknown field type (\"%s\")."
-msgstr ""
+msgstr "Wert für unbekannten Feldtyp (\"%s\") konnte nicht gerendert werden."
 
 #, php-format
 msgid "Action \"%s\" is not forbidden!"
-msgstr ""
+msgstr "Aktion \"%s\" ist nicht verboten!"
 
 msgid "React to Herald rules being created or updated."
-msgstr ""
+msgstr "Auf erstellte oder aktualisierte Herald-Regeln reagieren."
 
 msgid "Test rules which run when another Herald rule is created or updated."
-msgstr ""
+msgstr "Regeln testen, die ausgeführt werden, wenn eine andere Herald-Regel erstellt oder aktualisiert wird."
 
 msgid "Herald Rules"
 msgstr "Herald Regeln"
 
 msgid "Herald"
-msgstr ""
+msgstr "Herald"
 
 msgid "Create Notification Rules"
 msgstr "Neue Benachrichtungsregel"
 
 msgid "Herald User Guide"
-msgstr ""
+msgstr "Herald-Benutzerhandbuch"
 
-#, fuzzy
 msgid "User Guide: Webhooks"
-msgstr "Suche in der Anleitung"
+msgstr "Benutzerhandbuch: Webhooks"
 
 msgid "Watch for danger!"
 msgstr "Vorsicht ist die Mutter der Porzellankiste!"
@@ -35111,13 +35152,11 @@ msgstr "Vorsicht ist die Mutter der Porzellankiste!"
 msgid "Global rules can bypass access controls."
 msgstr "Globale Regeln können Berechtigungen umgehen."
 
-#, fuzzy
 msgid "Can Create Webhooks"
-msgstr "Darf Zonen erzeugen"
+msgstr "Kann Webhooks erstellen"
 
-#, fuzzy
 msgid "You do not have permission to create webhooks."
-msgstr "Du hast keine Berechtigung, um Zonen zu erzeugen."
+msgstr "Du hast keine Berechtigung, Webhooks zu erstellen."
 
 msgid "Can Manage Global Rules"
 msgstr "Darf globale Regeln verändern"
@@ -35128,9 +35167,8 @@ msgstr "Du hast keine Berechtigung, um globale Herald-Regeln zu verändern."
 msgid "Personal"
 msgstr "Persönlich"
 
-#, fuzzy
 msgid "Changes triggered by Herald rules."
-msgstr "Die primäre Email-Adresse ändern?"
+msgstr "Durch Herald-Regeln ausgelöste Änderungen."
 
 msgid "Test Console"
 msgstr "Testkonsole"
@@ -35139,7 +35177,7 @@ msgid "Transcripts"
 msgstr "Ablaufprotokolle"
 
 msgid "Webhooks"
-msgstr ""
+msgstr "Webhooks"
 
 msgid "Really disable this rule?"
 msgstr "Diese Regel wirklich deaktivieren?"
@@ -35162,32 +35200,31 @@ msgstr "Regel aktivieren"
 msgid "Create Herald Rule"
 msgstr "Herald Regel erstellen"
 
-#, fuzzy, php-format
+#, php-format
 msgid "Create Herald Rule: %s"
-msgstr "Herald Regel erstellen"
+msgstr "Herald-Regel erstellen: %s"
 
 msgid ""
 "You can not create a rule for that object, because you do not have "
 "permission to edit it. You can only create rules for objects you can edit."
-msgstr ""
+msgstr "Für dieses Objekt kann keine Regel erstellt werden, da keine Bearbeitungsberechtigung vorhanden ist. Regeln können nur für Objekte erstellt werden, die bearbeitet werden dürfen."
 
 msgid "Not Editable"
-msgstr ""
+msgstr "Nicht bearbeitbar"
 
 msgid ""
 "This object is not of an allowed type for the rule. Rules can only trigger "
 "on certain objects."
-msgstr ""
+msgstr "Dieses Objekt ist kein erlaubter Typ für die Regel. Regeln können nur für bestimmte Objekte ausgelöst werden."
 
 msgid "No object exists by that name."
-msgstr ""
+msgstr "Kein Objekt mit diesem Namen vorhanden."
 
 msgid "You must choose an object to associate this rule with."
 msgstr ""
 
-#, fuzzy
 msgid "Choose Object"
-msgstr "Wähle ein Projekt"
+msgstr "Objekt wählen"
 
 msgid "Create Rule"
 msgstr "Neue Regel"
@@ -35200,7 +35237,7 @@ msgstr ""
 "Dir fehlt die Berechtigung, globale Regeln zu erstellen oder zu ändern."
 
 msgid "Personal Rule"
-msgstr ""
+msgstr "Persönliche Regel"
 
 msgid ""
 "Personal rules notify you about events. You own them, but they can only "
@@ -35212,14 +35249,14 @@ msgstr ""
 "Regeln lösen nur für Objekte aus, die Du auch ansehen darfst."
 
 msgid "Object Rule"
-msgstr ""
+msgstr "Objektregel"
 
 msgid ""
 "Object rules notify anyone about events. They are bound to an object (like a "
 "repository) and can only act on that object. You must be able to edit an "
 "object to create object rules for it. Other users who can edit the object "
 "can edit its rules."
-msgstr ""
+msgstr "Objektregeln benachrichtigen jeden über Ereignisse. Sie sind an ein Objekt (z.B. ein Repository) gebunden und können nur auf dieses Objekt wirken. Um Objektregeln für ein Objekt erstellen zu können, muss es bearbeitbar sein. Andere Benutzer, die das Objekt bearbeiten können, können auch dessen Regeln bearbeiten."
 
 msgid "Global Rule"
 msgstr "Globale Regel"
@@ -35232,14 +35269,13 @@ msgstr ""
 "Berechtigungen umgehen und auf jedes Objekt wirken."
 
 msgid "This rule type is not supported by the selected content type."
-msgstr ""
+msgstr "Dieser Regeltyp wird vom ausgewählten Inhaltstyp nicht unterstützt."
 
-#, fuzzy
 msgid "Back to Content Types"
-msgstr "(Alle Inhalte)"
+msgstr "Zurück zu Inhaltstypen"
 
 msgid "Rule for"
-msgstr ""
+msgstr "Regel für"
 
 msgid "Rule Type"
 msgstr "Regel-Typ"
@@ -35247,50 +35283,48 @@ msgstr "Regel-Typ"
 msgid ""
 "Choose the object this rule will act on (for example, enter `rX` to act on "
 "the `rX` repository, or `#project` to act on a project)."
-msgstr ""
+msgstr "Das Objekt auswählen, auf das diese Regel wirken soll (z.B. `rX` für das Repository `rX` oder `#projekt` für ein Projekt)."
 
-#, fuzzy
 msgid "Invalid Rule Type"
-msgstr "Regel-Typ"
+msgstr "Ungültiger Regeltyp"
 
 #, php-format
 msgid "The selected rule type (\"%s\") is not recognized by Herald."
-msgstr ""
+msgstr "Der ausgewählte Regeltyp (\"%s\") wird von Herald nicht erkannt."
 
-#, fuzzy
 msgid "Invalid Content Type"
-msgstr "(Alle Inhalte)"
+msgstr "Ungültiger Inhaltstyp"
 
 #, php-format
 msgid "The selected content type (\"%s\") is not recognized by Herald."
-msgstr ""
+msgstr "Der ausgewählte Inhaltstyp (\"%s\") wird von Herald nicht erkannt."
 
 msgid "Rule/Content Mismatch"
-msgstr ""
+msgstr "Regel/Inhalt-Konflikt"
 
 #, php-format
 msgid ""
 "The selected rule type (\"%s\") is not supported by the selected content "
 "type (\"%s\")."
-msgstr ""
+msgstr "Der ausgewählte Regeltyp (\"%s\") wird vom ausgewählten Inhaltstyp (\"%s\") nicht unterstützt."
 
 msgid "No valid object provided for object rule!"
-msgstr ""
+msgstr "Kein gültiges Objekt für Objektregel angegeben!"
 
 msgid "Object is of wrong type for adapter!"
-msgstr ""
+msgstr "Objekt hat den falschen Typ für den Adapter!"
 
 msgid ""
 "This rule was created with a newer version of Herald. You can not view or "
 "edit it in this older version. Upgrade your software."
-msgstr ""
+msgstr "Diese Regel wurde mit einer neueren Version von Herald erstellt. Sie kann in dieser älteren Version weder angezeigt noch bearbeitet werden. Die Software aktualisieren."
 
 msgid "Rule Name"
 msgstr "Name der Regel"
 
 #, php-format
 msgid "This rule triggers for %s."
-msgstr ""
+msgstr "Diese Regel wird für %s ausgelöst."
 
 #, php-format
 msgid "This %s rule triggers for %s."
@@ -35309,30 +35343,30 @@ msgstr "Wenn %s dieser Bedingungen zutreffen:"
 msgid "New Action"
 msgstr "Neue Aktion"
 
-#, fuzzy, php-format
+#, php-format
 msgid "Take these actions %s"
-msgstr "Diese Dinge ausführen %s die Bedingungen für diese Regel zutreffen:"
+msgstr "Diese Aktionen ausführen %s"
 
 msgid "Save Rule"
 msgstr "Regel speichern"
 
-#, fuzzy, php-format
+#, php-format
 msgid "Edit Herald Rule: %s"
-msgstr "Herald Regel ändern"
+msgstr "Herald-Regel bearbeiten: %s"
 
 msgid "Rule must have a name."
 msgstr "Regeln müssen einen Namen haben."
 
 msgid "Failed to decode rule data."
-msgstr ""
+msgstr "Regeldaten konnten nicht dekodiert werden."
 
 #, php-format
 msgid "<Unknown Field \"%s\">"
-msgstr ""
+msgstr "<Unbekanntes Feld \"%s\">"
 
 #, php-format
 msgid "<Unknown Action \"%s\">"
-msgstr ""
+msgstr "<Unbekannte Aktion \"%s\">"
 
 msgid "all of"
 msgstr "alles davon trifft zu"
@@ -35340,18 +35374,17 @@ msgstr "alles davon trifft zu"
 msgid "any of"
 msgstr "etwas davon trifft zu"
 
-#, fuzzy
 msgid "Author Not Active"
-msgstr "Nicht aktiviert"
+msgstr "Autor nicht aktiv"
 
 msgid "Edit Rule"
 msgstr "Regel ändern"
 
 msgid "Applies To"
-msgstr ""
+msgstr "Gilt für"
 
 msgid "Trigger Object"
-msgstr ""
+msgstr "Auslöseobjekt"
 
 msgid "An object name is required."
 msgstr "Benötige einen Objektnamen."
@@ -35363,34 +35396,32 @@ msgid ""
 "Enter an object to test rules for, like a Diffusion commit (e.g., `rX123`) "
 "or a Differential revision (e.g., `D123`). You will be shown the results of "
 "a dry run on the object."
-msgstr ""
+msgstr "Ein Objekt eingeben, für das Regeln getestet werden sollen, wie einen Diffusion-Commit (z.B. `rX123`) oder eine Differential-Revision (z.B. `D123`). Die Ergebnisse eines Testlaufs auf dem Objekt werden angezeigt."
 
-#, fuzzy
 msgid "//There are no available Herald events for this object.//"
-msgstr "Es gibt nichts zu diesem Projekt zu erzählen."
+msgstr "//Für dieses Objekt sind keine Herald-Ereignisse verfügbar.//"
 
-#, fuzzy
 msgid "Run Test"
-msgstr "Ausführender Rechner"
+msgstr "Test ausführen"
 
 #, php-format
 msgid ""
 "This object (\"%s\") has more than %s transactions in its most recent "
 "transaction group; this is too many."
-msgstr ""
+msgstr "Dieses Objekt (\"%s\") hat mehr als %s Transaktionen in der aktuellsten Transaktionsgruppe; das sind zu viele."
 
 msgid "Old Transcript"
 msgstr "Alte Ablaufprotokolle"
 
 msgid "Details of this transcript have been garbage collected."
-msgstr ""
+msgstr "Details dieses Ablaufprotokolls wurden durch die Speicherbereinigung entfernt."
 
 msgid "This transcript has an invalid or inaccessible adapter."
-msgstr ""
+msgstr "Dieses Ablaufprotokoll hat einen ungültigen oder nicht zugänglichen Adapter."
 
-#, fuzzy, php-format
+#, php-format
 msgid "Transcript %d"
-msgstr "Ablaufprotokoll"
+msgstr "Ablaufprotokoll %d"
 
 #, fuzzy, php-format
 msgid "Herald Transcript %s"
@@ -35398,158 +35429,144 @@ msgstr "Herald Ablaufprotokoll"
 
 #, php-format
 msgid "The %s repository is still importing."
-msgstr ""
+msgstr "Das Repository %s wird noch importiert."
 
 msgid "Herald rules will not trigger until import completes."
-msgstr ""
+msgstr "Herald-Regeln werden erst ausgelöst, wenn der Import abgeschlossen ist."
 
 #, php-format
 msgid "The %s repository is not tracked."
-msgstr ""
+msgstr "Das Repository %s wird nicht verfolgt."
 
 msgid "Herald rules will not trigger until tracking is enabled."
-msgstr ""
+msgstr "Herald-Regeln werden erst ausgelöst, wenn die Verfolgung aktiviert ist."
 
-#, fuzzy
 msgid "No Herald rules applied to this object."
-msgstr "Niemand hat einen Bezug zu diesem Projekt."
+msgstr "Keine Herald-Regeln auf dieses Objekt angewendet."
 
-#, fuzzy, php-format
+#, php-format
 msgid "H%d"
-msgstr "#%d"
+msgstr "H%d"
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s %s %s"
-msgstr "Ändere %s %s"
+msgstr "%s %s %s"
 
-#, fuzzy, php-format
+#, php-format
 msgid "Action: %s"
-msgstr "Aktionen"
+msgstr "Aktion: %s"
 
 msgid "Dry Run"
-msgstr ""
+msgstr "Testlauf"
 
-#, fuzzy
 msgid "This was a dry run, so no actions were taken."
-msgstr ""
-"Dies war ein Testlauf, es wurden daher keine Aktion tatsächlich ausgeführt."
+msgstr "Dies war ein Testlauf, es wurden daher keine Aktionen tatsächlich ausgeführt."
 
 msgid ""
 "This is an old transcript which uses an obsolete log format. Detailed action "
 "information is not available."
-msgstr ""
+msgstr "Dies ist ein altes Ablaufprotokoll in einem veralteten Protokollformat. Detaillierte Aktionsinformationen sind nicht verfügbar."
 
-#, fuzzy, php-format
+#, php-format
 msgid "Unknown Effect (\"%s\")"
-msgstr "Unbekanntes Objekt (%s)"
+msgstr "Unbekannte Wirkung (\"%s\")"
 
-#, fuzzy
 msgid "Rule Transcript"
-msgstr "Alte Ablaufprotokolle"
+msgstr "Regel-Ablaufprotokoll"
 
 msgid "This was a dry run to test Herald rules, no actions were executed."
-msgstr ""
+msgstr "Dies war ein Testlauf zum Testen von Herald-Regeln, es wurden keine Aktionen ausgeführt."
 
 msgid "Object Link"
 msgstr "Objekt Link"
 
-#, fuzzy, php-format
+#, php-format
 msgid "Field: %s"
-msgstr "Zugewiesen an: %s"
+msgstr "Feld: %s"
 
-#, fuzzy, php-format
+#, php-format
 msgid "Unknown Field (\"%s\")"
-msgstr "Unbekannte Aktion \"%s\""
+msgstr "Unbekanntes Feld (\"%s\")"
 
 msgid "Object Transcript"
 msgstr "Objekt Ablaufprotokoll"
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s%ss"
-msgstr "%s%s."
+msgstr "%s%ss"
 
-#, fuzzy
 msgid "Rule"
-msgstr "Regeln"
+msgstr "Regel"
 
-#, fuzzy
 msgid "Field"
-msgstr "Aussentermin"
+msgstr "Feld"
 
 msgid "What"
-msgstr ""
+msgstr "Was"
 
 msgid "Cost"
-msgstr ""
+msgstr "Kosten"
 
 msgid "Rules"
 msgstr "Regeln"
 
-#, fuzzy
 msgid "Field Values"
-msgstr "Alter Wert"
+msgstr "Feldwerte"
 
-#, fuzzy
 msgid "Profiler"
-msgstr "Profil zeigen"
+msgstr "Profiler"
 
-#, fuzzy, php-format
+#, php-format
 msgid "Unknown view key \"%s\"."
-msgstr "Unbekannte Aktion \"%s\""
+msgstr "Unbekannter Ansichtsschlüssel \"%s\"."
 
-#, fuzzy
 msgid "Regenerate HMAC Key"
-msgstr "Neu generieren"
+msgstr "HMAC-Schlüssel neu generieren"
 
 msgid "Regenerate the HMAC key used to sign requests made by this webhook?"
-msgstr ""
+msgstr "Den HMAC-Schlüssel neu generieren, der zum Signieren von Anfragen dieses Webhooks verwendet wird?"
 
 msgid "Requests which are currently authenticated with the old key may fail."
-msgstr ""
+msgstr "Anfragen, die derzeit mit dem alten Schlüssel authentifiziert werden, könnten fehlschlagen."
 
-#, fuzzy
 msgid "Regnerate Key"
-msgstr "Neu generieren"
+msgstr "Schlüssel neu generieren"
 
-#, fuzzy
 msgid "HMAC Key"
-msgstr "Neuer Key"
+msgstr "HMAC-Schlüssel"
 
 msgid "Webhook HMAC Key"
-msgstr ""
+msgstr "Webhook-HMAC-Schlüssel"
 
 msgid "Specified object could not be loaded."
-msgstr ""
+msgstr "Angegebenes Objekt konnte nicht geladen werden."
 
-#, fuzzy
 msgid "New Test Request"
-msgstr "Neue Anfrage"
+msgstr "Neue Testanfrage"
 
 msgid "Test Webhook"
-msgstr ""
+msgstr "Webhook testen"
 
 #, php-format
 msgid ""
 "Many requests to this webhook have failed recently (at least %s errors in "
 "the last %s seconds). New requests are temporarily paused."
-msgstr ""
+msgstr "Viele Anfragen an diesen Webhook sind kürzlich fehlgeschlagen (mindestens %s Fehler in den letzten %s Sekunden). Neue Anfragen sind vorübergehend angehalten."
 
 msgid ""
 "This server is running in silent mode, so it will not publish webhooks. To "
 "adjust this setting, see @{config:phabricator.silent} in Config."
-msgstr ""
+msgstr "Dieser Server läuft im Silent-Modus und veröffentlicht daher keine Webhooks. Um diese Einstellung anzupassen, @{config:phabricator.silent} in der Konfiguration aufrufen."
 
-#, fuzzy
 msgid "Silent Mode"
-msgstr "Vollbildmodus"
+msgstr "Silent-Modus"
 
-#, fuzzy
 msgid "Recent Requests"
-msgstr "Neue Anfrage"
+msgstr "Neuere Anfragen"
 
 #, php-format
 msgid "Webhook %d"
-msgstr ""
+msgstr "Webhook %d"
 
 #, fuzzy
 msgid "Edit Webhook"
@@ -35563,54 +35580,50 @@ msgstr ""
 
 #, fuzzy
 msgid "Called By Herald Rules"
-msgstr "Herald Regel erstellen"
+msgstr "Durch Herald-Regeln aufgerufen"
 
-#, fuzzy
 msgid "[Herald]"
-msgstr "Herald Regel"
+msgstr "[Herald]"
 
-#, fuzzy
 msgid "RULE DETAIL"
-msgstr "DATEI DETAILS"
+msgstr "REGELDETAIL"
 
-#, fuzzy
 msgid "Edit Webhook Configurations"
-msgstr "Phabricator Konfiguration"
+msgstr "Webhook-Konfigurationen bearbeiten"
 
 msgid "This engine is used to edit webhooks."
-msgstr ""
+msgstr "Diese Engine wird zum Bearbeiten von Webhooks verwendet."
 
-#, fuzzy
 msgid "Create Webhook"
-msgstr "Neuer Entwurf"
+msgstr "Webhook erstellen"
 
-#, fuzzy, php-format
+#, php-format
 msgid "Edit Webhook: %s"
-msgstr "Von %s verändert"
+msgstr "Webhook bearbeiten: %s"
 
 msgid "Webhook"
-msgstr ""
+msgstr "Webhook"
 
 msgid "Name of the webhook."
-msgstr ""
+msgstr "Name des Webhooks."
 
 msgid "URI for the webhook."
-msgstr ""
+msgstr "URI des Webhooks."
 
 msgid "Status mode for the webhook."
-msgstr ""
+msgstr "Statusmodus des Webhooks."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s created this webhook."
-msgstr "%s hat diese Aufgabe erzeugt."
+msgstr "%s hat diesen Webhook erstellt."
 
 #, php-format
 msgid "Herald rule \"%s\" already has an evaluation result."
-msgstr ""
+msgstr "Herald-Regel \"%s\" hat bereits ein Auswertungsergebnis."
 
 #, php-format
 msgid "Herald rule \"%s\" does not have an evaluation result."
-msgstr ""
+msgstr "Herald-Regel \"%s\" hat kein Auswertungsergebnis."
 
 msgid "This was a dry run, so no actions were actually taken."
 msgstr ""
@@ -35620,66 +35633,63 @@ msgstr ""
 msgid ""
 "An exception occurred executing Herald rule %s: \"%s\" Review the Herald "
 "transcripts and correct or disable the problematic rule."
-msgstr ""
+msgstr "Beim Ausführen von Herald-Regel %s ist eine Ausnahme aufgetreten: \"%s\" Die Herald-Ablaufprotokolle prüfen und die fehlerhafte Regel korrigieren oder deaktivieren."
 
 #, php-format
 msgid ""
 "An exception occurred executing Herald rule %s: Unknown action: \"%s\". "
 "Review the Herald transcripts and correct or disable the problematic rule."
-msgstr ""
+msgstr "Beim Ausführen von Herald-Regel %s ist eine Ausnahme aufgetreten: Unbekannte Aktion: \"%s\". Die Herald-Ablaufprotokolle prüfen und die fehlerhafte Regel korrigieren oder deaktivieren."
 
 #, php-format
 msgid "Conditions were met for %s"
 msgstr "Die Bedingungen für %s wurden erfüllt"
 
 msgid "Unable to pop profiler stack: profiler stack is empty."
-msgstr ""
+msgstr "Profiler-Stack konnte nicht geleert werden: Profiler-Stack ist leer."
 
 #, php-format
 msgid ""
 "Unable to pop profiler stack: expected frame of type \"%s\" with key \"%s\", "
 "but found frame of type \"%s\" with key \"%s\"."
-msgstr ""
+msgstr "Profiler-Stack konnte nicht geleert werden: Frame vom Typ \"%s\" mit Schlüssel \"%s\" erwartet, aber Frame vom Typ \"%s\" mit Schlüssel \"%s\" gefunden."
 
 #, php-format
 msgid ""
 "Unable to retrieve profile: profiler stack is not empty. The stack has %s "
 "frame(s); the final frame has type \"%s\" and key \"%s\"."
-msgstr ""
+msgstr "Profil konnte nicht abgerufen werden: Profiler-Stack ist nicht leer. Der Stack hat %s Frame(s); der letzte Frame hat Typ \"%s\" und Schlüssel \"%s\"."
 
-#, fuzzy
 msgid "Herald Actions"
-msgstr "Eigene Aktionen"
+msgstr "Herald-Aktionen"
 
 msgid "Herald Transcripts"
 msgstr "Herald Ablaufprotokoll"
 
-#, fuzzy
 msgid "Acting user"
-msgstr "Aktionen"
+msgstr "Handelnder Benutzer"
 
 msgid "Another Herald rule"
-msgstr ""
+msgstr "Eine andere Herald-Regel"
 
-#, fuzzy
 msgid "Comment content"
-msgstr "Kommentiert"
+msgstr "Kommentarinhalt"
 
 msgid "Content source"
-msgstr ""
+msgstr "Inhaltsquelle"
 
 msgid "Edit Attributes"
-msgstr ""
+msgstr "Attribute bearbeiten"
 
 #, php-format
 msgid "Herald field \"%s\" has unknown standard type \"%s\"."
-msgstr ""
+msgstr "Herald-Feld \"%s\" hat unbekannten Standardtyp \"%s\"."
 
 #, php-format
 msgid ""
 "Found more than one (\"%s\") applied edge transactions with given edge type "
 "(\"%s\"); expected zero or one."
-msgstr ""
+msgstr "Mehr als eine (\"%s\") angewendete Kanten-Transaktion mit gegebenem Kantentyp (\"%s\") gefunden; null oder eine erwartet."
 
 msgid "Is newly created"
 msgstr "Ist neu erstellt worden"
@@ -35691,187 +35701,173 @@ msgstr ""
 msgid "Content type"
 msgstr "Inhalt"
 
-#, fuzzy
 msgid "Rule Fields"
-msgstr "Regel Details"
+msgstr "Regelfelder"
 
-#, fuzzy
 msgid "Rule type"
-msgstr "Regel-Typ"
+msgstr "Regeltyp"
 
-#, fuzzy
 msgid "Herald Webhooks"
-msgstr "Herald Regeln"
+msgstr "Herald-Webhooks"
 
 msgid ""
 "Modify a rule, bypassing policies. This workflow can disable problematic "
 "personal rules."
-msgstr ""
+msgstr "Eine Regel unter Umgehung von Richtlinien ändern. Dieser Workflow kann problematische persönliche Regeln deaktivieren."
 
-#, fuzzy
 msgid "Apply changes to this rule."
-msgstr "%s plant Änderungen für %s."
+msgstr "Änderungen an dieser Regel anwenden."
 
-#, fuzzy
 msgid "Disable the rule."
-msgstr "%s hat diese Regel deaktiviert."
+msgstr "Die Regel deaktivieren."
 
-#, fuzzy
 msgid "Enable the rule."
-msgstr "%s hat diese Regel aktiviert."
+msgstr "Die Regel aktivieren."
 
 msgid "Specify a rule to edit with \"--rule <id|monogram>\"."
-msgstr ""
+msgstr "Eine zu bearbeitende Regel mit \"--rule <id|monogram>\" angeben."
 
 #, php-format
 msgid "Unable to load Herald rule with ID or monogram \"%s\"."
-msgstr ""
+msgstr "Herald-Regel mit ID oder Monogramm \"%s\" konnte nicht geladen werden."
 
 msgid "Specify \"--enable\" or \"--disable\", but not both."
-msgstr ""
+msgstr "Entweder \"--enable\" oder \"--disable\" angeben, aber nicht beides."
 
 msgid ""
 "Use flags to specify at least one edit to apply to the rule (for example, "
 "use \"--disable\" to disable a rule)."
-msgstr ""
+msgstr "Flags verwenden, um mindestens eine anzuwendende Änderung an der Regel anzugeben (z.B. \"--disable\" zum Deaktivieren einer Regel)."
 
-#, fuzzy, php-format
+#, php-format
 msgid "Applying changes to %s: %s..."
-msgstr "%s plant Änderungen für %s."
+msgstr "Änderungen an %s werden angewendet: %s..."
 
 msgid ""
 "Test content rules for an object. Executes a dry run, like the web UI test "
 "console."
-msgstr ""
+msgstr "Inhaltsregeln für ein Objekt testen. Führt einen Testlauf aus, wie die Test-Konsole der Web-Oberfläche."
 
-#, fuzzy
 msgid "Run rules on this object."
-msgstr "%s hat das Projekt wieder geöffnet."
+msgstr "Regeln auf diesem Objekt ausführen."
 
 msgid "Run rules for this content type."
-msgstr ""
+msgstr "Regeln für diesen Inhaltstyp ausführen."
 
 msgid "Specify an object to test rules for with \"--object\"."
-msgstr ""
+msgstr "Ein Objekt zum Testen von Regeln mit \"--object\" angeben."
 
-#, fuzzy, php-format
+#, php-format
 msgid "Unable to load specified object (\"%s\")."
-msgstr "Konnte Kommentar \"%s\" leider nicht laden."
+msgstr "Angegebenes Objekt (\"%s\") konnte nicht geladen werden."
 
 #, php-format
 msgid ""
 "Specify a content type to run rules for. For this object, valid content "
 "types are: %s."
-msgstr ""
+msgstr "Einen Inhaltstyp zum Ausführen von Regeln angeben. Für dieses Objekt sind gültige Inhaltstypen: %s."
 
 #, php-format
 msgid ""
 "Specify a content type to run rules for. The specified content type (\"%s\") "
 "is not valid. For this object, valid content types are: %s."
-msgstr ""
+msgstr "Einen Inhaltstyp zum Ausführen von Regeln angeben. Der angegebene Inhaltstyp (\"%s\") ist ungültig. Für dieses Objekt sind gültige Inhaltstypen: %s."
 
 #, php-format
 msgid ""
 "The specified content type (\"%s\") does not support dry runs. Choose a "
 "testable content type. For this object, valid content types are: %s."
-msgstr ""
+msgstr "Der angegebene Inhaltstyp (\"%s\") unterstützt keine Testläufe. Einen testbaren Inhaltstyp wählen. Für dieses Objekt sind gültige Inhaltstypen: %s."
 
-#, fuzzy
 msgid "Test run complete. Transcript:"
-msgstr "Komplettes Ablaufprotokoll zeigen"
+msgstr "Testlauf abgeschlossen. Ablaufprotokoll:"
 
 msgid "Call a webhook."
-msgstr ""
+msgstr "Einen Webhook aufrufen."
 
 msgid "Webhook ID to call"
-msgstr ""
+msgstr "Aufzurufende Webhook-ID"
 
 msgid "Submit transactions for a particular object."
-msgstr ""
+msgstr "Transaktionen für ein bestimmtes Objekt einreichen."
 
 msgid "Set the \"silent\" flag on the request."
-msgstr ""
+msgstr "Das \"silent\"-Flag für die Anfrage setzen."
 
 msgid "Set the \"secure\" flag on the request."
-msgstr ""
+msgstr "Das \"secure\"-Flag für die Anfrage setzen."
 
 msgid "Make a total of __N__ copies of the call."
-msgstr ""
+msgstr "Insgesamt __N__ Kopien des Aufrufs erstellen."
 
 msgid ""
 "Instead of making calls in the foreground, add the tasks to the daemon queue."
-msgstr ""
+msgstr "Anstatt Aufrufe im Vordergrund durchzuführen, die Tasks der Daemon-Warteschlange hinzufügen."
 
 msgid "Specify a webhook to call with \"--id\"."
-msgstr ""
+msgstr "Einen aufzurufenden Webhook mit \"--id\" angeben."
 
 msgid "Specified \"--count\" must be larger than 0."
-msgstr ""
+msgstr "Der angegebene \"--count\"-Wert muss größer als 0 sein."
 
 #, php-format
 msgid "Unable to load specified webhook (\"%s\")."
-msgstr ""
+msgstr "Angegebener Webhook (\"%s\") konnte nicht geladen werden."
 
 msgid "Queueing webhook calls..."
-msgstr ""
+msgstr "Webhook-Aufrufe werden in die Warteschlange gestellt..."
 
 msgid "Calling webhook..."
-msgstr ""
+msgstr "Webhook wird aufgerufen..."
 
 #, php-format
 msgid "Success, got HTTP %s from webhook."
-msgstr ""
+msgstr "Erfolg, HTTP %s vom Webhook erhalten."
 
 msgid "Herald Rule"
 msgstr "Herald Regel"
 
-#, fuzzy
 msgid "Herald Transcript"
-msgstr "Herald Ablaufprotokoll"
+msgstr "Herald-Ablaufprotokoll"
 
-#, fuzzy, php-format
+#, php-format
 msgid "Transcript %s"
-msgstr "Ablaufprotokolle"
+msgstr "Ablaufprotokoll %s"
 
 #, php-format
 msgid "Webhook %d %s"
-msgstr ""
+msgstr "Webhook %d %s"
 
-#, fuzzy
 msgid "Webhook Request"
-msgstr "Neue Anfrage"
+msgstr "Webhook-Anfrage"
 
-#, fuzzy, php-format
+#, php-format
 msgid "Webhook Request %d"
-msgstr "Neue Anfrage"
+msgstr "Webhook-Anfrage %d"
 
 msgid "Search for rules with given authors."
-msgstr ""
+msgstr "Nach Regeln mit bestimmten Autoren suchen."
 
 msgid "Search for rules of given types."
 msgstr ""
 
 msgid "Content Type"
-msgstr ""
+msgstr "Inhaltstyp"
 
 msgid "Search for rules affecting given types of content."
-msgstr ""
+msgstr "Nach Regeln suchen, die bestimmte Inhaltstypen betreffen."
 
-#, fuzzy
 msgid "Active Rules"
-msgstr "Aktive Panele"
+msgstr "Aktive Regeln"
 
-#, fuzzy
 msgid "Show Only Active Rules"
-msgstr "Nur aktive Zonen zeigen"
+msgstr "Nur aktive Regeln anzeigen"
 
-#, fuzzy
 msgid "Show Only Inactive Rules"
-msgstr "Zeige nur aktive Regeln"
+msgstr "Nur inaktive Regeln anzeigen"
 
-#, fuzzy
 msgid "Disabled Rules"
-msgstr "Regel deaktivieren"
+msgstr "Deaktivierte Regeln"
 
 msgid "Show Only Disabled Rules"
 msgstr "Zeige nur inaktive Regeln"
@@ -35879,9 +35875,8 @@ msgstr "Zeige nur inaktive Regeln"
 msgid "Show Only Enabled Rules"
 msgstr "Zeige nur aktive Regeln"
 
-#, fuzzy
 msgid "Affected Objects"
-msgstr "Aktive Projekte"
+msgstr "Betroffene Objekte"
 
 msgid "No rules found."
 msgstr "Keine Regeln gefunden."
@@ -35889,17 +35884,16 @@ msgstr "Keine Regeln gefunden."
 msgid ""
 "A flexible rules engine that can notify and act on other actions such as "
 "tasks, diffs, and commits."
-msgstr ""
+msgstr "Eine flexible Regel-Engine, die bei Aktionen wie Aufgaben, Diffs und Commits benachrichtigen und handeln kann."
 
 msgid "Object Monograms"
-msgstr ""
+msgstr "Objekt-Monogramme"
 
 msgid "Transcript IDs"
-msgstr ""
+msgstr "Ablaufprotokoll-IDs"
 
-#, fuzzy
 msgid "All Transcripts"
-msgstr "Ablaufprotokolle"
+msgstr "Alle Ablaufprotokolle"
 
 msgid "View Full Transcript"
 msgstr "Komplettes Ablaufprotokoll zeigen"
@@ -35908,73 +35902,66 @@ msgid "No transcripts found."
 msgstr "Keine Ablaufprotokolle gefunden."
 
 msgid "Search for archived or active pastes."
-msgstr ""
+msgstr "Nach archivierten oder aktiven Pastes suchen."
 
-#, fuzzy
 msgid "No webhooks found."
-msgstr "Keine Regeln gefunden."
+msgstr "Keine Webhooks gefunden."
 
 msgid ""
 "This change applied silently, so mail and other notifications will not be "
 "sent."
-msgstr ""
+msgstr "Diese Änderung wurde im Silent-Modus angewendet, daher werden keine E-Mails oder andere Benachrichtigungen gesendet."
 
-#, fuzzy, php-format
+#, php-format
 msgid "Unknown reason (\"%s\")."
-msgstr "Unbekannte Aktion \"%s\""
+msgstr "Unbekannter Grund (\"%s\")."
 
 #, php-format
 msgid "Unknown rule type \"%s\"!"
-msgstr ""
+msgstr "Unbekannter Regeltyp \"%s\"!"
 
 #, php-format
 msgid "%s (Disabled)"
-msgstr ""
+msgstr "%s (Deaktiviert)"
 
 #, php-format
 msgid "Rule repetition string constant \"%s\" is unknown."
-msgstr ""
+msgstr "Regel-Wiederholungs-Stringkonstante \"%s\" ist unbekannt."
 
-#, fuzzy
 msgid "every time this rule matches:"
-msgstr "Diese Dinge ausführen %s die Bedingungen für diese Regel zutreffen:"
+msgstr "jedes Mal wenn diese Regel greift:"
 
-#, fuzzy
 msgid "only the first time this rule matches:"
-msgstr "Diese Dinge ausführen %s die Bedingungen für diese Regel zutreffen:"
+msgstr "nur wenn diese Regel das erste Mal greift:"
 
 msgid "if this rule did not match the last time:"
-msgstr ""
+msgstr "wenn diese Regel das letzte Mal nicht gegriffen hat:"
 
 msgid ""
 "Global Herald rules can be edited by users with the \"Can Manage Global "
 "Rules\" Herald application permission."
-msgstr ""
+msgstr "Globale Herald-Regeln können von Benutzern mit der Herald-Anwendungsberechtigung \"Kann globale Regeln verwalten\" bearbeitet werden."
 
-#, fuzzy
 msgid "Object rules inherit the edit policies of their objects."
-msgstr ""
-"Eine Trophäe erbt die Policies des Objektes, für das sie verliehen wird."
+msgstr "Objektregeln erben die Bearbeitungsrichtlinien ihrer Objekte."
 
 msgid "A personal rule can only be edited by its author."
-msgstr ""
+msgstr "Eine persönliche Regel kann nur von ihrem Autor bearbeitet werden."
 
 msgid "Firehose"
-msgstr ""
+msgstr "Firehose"
 
-#, fuzzy
 msgid "Hook Error"
-msgstr "Formularfehler"
+msgstr "Hook-Fehler"
 
 msgid "HTTP Status Code"
-msgstr ""
+msgstr "HTTP-Statuscode"
 
-#, fuzzy
 msgid "Request Timeout"
-msgstr "Review anfordern"
+msgstr "Anfrage-Timeout"
 
 msgid "Sent"
-msgstr ""
+msgstr "Gesendet"
 
 msgid "In Silent Mode"
 msgstr ""
@@ -35987,33 +35974,28 @@ msgstr "Deaktiviert"
 msgid "Invalid URI"
 msgstr "Ungültig"
 
-#, fuzzy
 msgid "Invalid Object"
-msgstr "Ungültiger Effekt!"
+msgstr "Ungültiges Objekt"
 
-#, fuzzy
 msgid "Invalid Condition"
-msgstr "Neue Bedingung"
+msgstr "Ungültige Bedingung"
 
 msgid ""
 "An unknown error occurred while evaluating this condition. No additional "
 "information is available."
-msgstr ""
+msgstr "Beim Auswerten dieser Bedingung ist ein unbekannter Fehler aufgetreten. Keine weiteren Informationen verfügbar."
 
-#, fuzzy
 msgid "Recursion"
-msgstr "Regelmäßig"
+msgstr "Rekursion"
 
-#, fuzzy
 msgid "Exception"
-msgstr "Aktion"
+msgstr "Ausnahme"
 
 msgid "This rule has a dependency cycle and can not be evaluated:"
-msgstr ""
+msgstr "Diese Regel hat einen Abhängigkeitszyklus und kann nicht ausgewertet werden:"
 
-#, fuzzy
 msgid "Matched"
-msgstr "Keine Übereinstimmung"
+msgstr "Übereinstimmung"
 
 msgid "Any condition matched."
 msgstr "Eine Bedingung wurde erfüllt."
@@ -36030,11 +36012,10 @@ msgstr "Keine Bedingung wurde erfüllt."
 msgid ""
 "This rule matched, but did not take any actions because it is configured to "
 "act only if it did not match the last time."
-msgstr ""
+msgstr "Diese Regel hat gegriffen, hat aber keine Aktionen ausgeführt, weil sie so konfiguriert ist, nur zu handeln, wenn sie das letzte Mal nicht gegriffen hat."
 
-#, fuzzy
 msgid "Version Issue"
-msgstr "Version %s"
+msgstr "Versionsproblem"
 
 #, fuzzy
 msgid ""
@@ -36061,7 +36042,7 @@ msgstr ""
 "deaktiviert ist."
 
 msgid "View Policy"
-msgstr ""
+msgstr "Anzeigerichtlinie"
 
 #, fuzzy
 msgid ""
@@ -36074,16 +36055,16 @@ msgstr ""
 msgid ""
 "Rule failed automatically because it is an object rule which is not relevant "
 "for this object."
-msgstr ""
+msgstr "Regel ist automatisch fehlgeschlagen, weil es eine Objektregel ist, die für dieses Objekt nicht relevant ist."
 
 msgid "Rule failed because an exception occurred."
-msgstr ""
+msgstr "Regel ist fehlgeschlagen, weil eine Ausnahme aufgetreten ist."
 
 msgid "Rule failed because an exception occurred while evaluating it."
-msgstr ""
+msgstr "Regel ist fehlgeschlagen, weil beim Auswerten eine Ausnahme aufgetreten ist."
 
 msgid "Rule evaluation result is unknown."
-msgstr ""
+msgstr "Regelauswertungsergebnis ist unbekannt."
 
 #, fuzzy
 msgid "Already Applied"
@@ -36092,14 +36073,14 @@ msgstr "Schon unterschrieben"
 msgid ""
 "This rule is only supposed to be repeated a single time, and it has already "
 "been applied."
-msgstr ""
+msgstr "Diese Regel soll nur einmal wiederholt werden und wurde bereits angewendet."
 
 msgid "Object state prevented rule evaluation."
-msgstr ""
+msgstr "Objektzustand hat die Regelauswertung verhindert."
 
 msgid ""
 "This rule has a recursive dependency on itself and can not be evaluated."
-msgstr ""
+msgstr "Diese Regel hat eine rekursive Abhängigkeit von sich selbst und kann nicht ausgewertet werden."
 
 msgid "Run At Epoch"
 msgstr "Ausführungszeitpunkt"
@@ -36113,49 +36094,41 @@ msgstr "Dauer der Ausführung"
 msgid ""
 "To view a transcript, you must be able to view the object the transcript is "
 "about."
-msgstr ""
+msgstr "Um ein Ablaufprotokoll anzusehen, muss das Objekt sichtbar sein, über das das Ablaufprotokoll berichtet."
 
 #, php-format
 msgid "Result code \"%s\" is unknown."
-msgstr ""
+msgstr "Ergebniscode \"%s\" ist unbekannt."
 
-#, fuzzy
 msgid "Browse Herald Adapters"
-msgstr "Teilnehmer durchsuchen"
+msgstr "Herald-Adapter durchsuchen"
 
-#, fuzzy
 msgid "Type an adapter name..."
-msgstr "Benutzername eintippen..."
+msgstr "Einen Adapternamen eintippen..."
 
-#, fuzzy
 msgid "Type a Herald rule name..."
-msgstr "Benutzername eintippen..."
+msgstr "Einen Herald-Regelnamen eintippen..."
 
-#, fuzzy
 msgid "Browse Herald Rules"
-msgstr "Herald Regeln"
+msgstr "Herald-Regeln durchsuchen"
 
-#, fuzzy
 msgid "Browse Rule Types"
-msgstr "Regel-Typ"
+msgstr "Regeltypen durchsuchen"
 
-#, fuzzy
 msgid "Type a rule type..."
-msgstr "Benutzername eintippen..."
+msgstr "Einen Regeltyp eintippen..."
 
-#, fuzzy
 msgid "Type a webhook name..."
-msgstr "Einen Symbolnamen eintippen..."
+msgstr "Einen Webhook-Namen eintippen..."
 
-#, fuzzy
 msgid "Browse Webhooks"
-msgstr "Teilnehmer durchsuchen"
+msgstr "Webhooks durchsuchen"
 
 msgid "true"
-msgstr ""
+msgstr "wahr"
 
 msgid "false"
-msgstr ""
+msgstr "falsch"
 
 #, php-format
 msgid "Authored by %s"
@@ -36165,30 +36138,29 @@ msgstr "Erstellt von %s"
 msgid "Affects: %s"
 msgstr "Betrifft: %s"
 
-#, fuzzy
 msgid "Requested At"
-msgstr "Laufende Anfragen"
+msgstr "Angefragt am"
 
 #, php-format
 msgid ""
 "Unable to load webhook request (\"%s\"). It may have been garbage collected."
-msgstr ""
+msgstr "Webhook-Anfrage (\"%s\") konnte nicht geladen werden. Sie wurde möglicherweise durch die Speicherbereinigung entfernt."
 
 #, php-format
 msgid ""
 "Webhook request (\"%s\") is not in \"%s\" status (actual status is \"%s\"). "
 "Declining call to hook."
-msgstr ""
+msgstr "Webhook-Anfrage (\"%s\") befindet sich nicht im Status \"%s\" (tatsächlicher Status ist \"%s\"). Hook-Aufruf wird abgelehnt."
 
 #, php-format
 msgid "Associated hook (\"%s\") for webhook request (\"%s\") is disabled."
-msgstr ""
+msgstr "Zugehöriger Hook (\"%s\") für Webhook-Anfrage (\"%s\") ist deaktiviert."
 
 #, php-format
 msgid ""
 "Associated hook (\"%s\") for webhook request (\"%s\") has invalid fetch URI: "
 "%s"
-msgstr ""
+msgstr "Zugehöriger Hook (\"%s\") für Webhook-Anfrage (\"%s\") hat eine ungültige Abruf-URI: %s"
 
 #, php-format
 msgid "Unable to load object (\"%s\") for webhook request (\"%s\")."
@@ -36204,7 +36176,7 @@ msgstr ""
 msgid ""
 "Webhook request (\"%s\", to \"%s\") failed (%s / %s). The request will not "
 "be retried."
-msgstr ""
+msgstr "Webhook-Anfrage (\"%s\", an \"%s\") ist fehlgeschlagen (%s / %s). Die Anfrage wird nicht wiederholt."
 
 #, php-format
 msgid "%s disabled this rule."
@@ -36214,62 +36186,59 @@ msgstr "%s hat diese Regel deaktiviert."
 msgid "%s enabled this rule."
 msgstr "%s hat diese Regel aktiviert."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s edited this rule."
-msgstr "%s hat diese Regel deaktiviert."
+msgstr "%s hat diese Regel bearbeitet."
 
 msgid "rule"
-msgstr ""
+msgstr "Regel"
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s renamed this webhook from %s to %s."
-msgstr "%s hat den Entwurf von \"%s\" zu \"%s\" umbenannt."
+msgstr "%s hat diesen Webhook von %s in %s umbenannt."
 
-#, fuzzy
 msgid "Webhooks must have a name."
-msgstr "Zonen müssen einen Namen haben"
+msgstr "Webhooks müssen einen Namen haben."
 
 #, php-format
 msgid "Webhook names can be no longer than %s characters."
-msgstr ""
+msgstr "Webhook-Namen dürfen maximal %s Zeichen lang sein."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s changed hook status from %s to %s."
-msgstr "%s hat den Aufgaben-Status von \"%s\" auf \"%s\" geändert."
+msgstr "%s hat den Hook-Status von %s auf %s geändert."
 
 #, php-format
 msgid "%s changed %s from %s to %s."
 msgstr "%s hat %s von %s nach %s geändert."
 
-#, fuzzy, php-format
+#, php-format
 msgid "Webhook status \"%s\" is not valid. Valid statuses are: %s."
-msgstr "Der neue Chat-Teilnehmer \"%s\" ist kein gültiger Benutzer."
+msgstr "Webhook-Status \"%s\" ist ungültig. Gültige Status sind: %s."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s changed the URI for this webhook from %s to %s."
-msgstr "%s hat den Namen des Termins von %s auf %s geändert."
+msgstr "%s hat die URI dieses Webhooks von %s auf %s geändert."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s changed the URI for %s from %s to %s."
-msgstr "%s hat den Namen von %s von %s auf %s geändert."
+msgstr "%s hat die URI für %s von %s auf %s geändert."
 
-#, fuzzy
 msgid "Webhooks must have a URI."
-msgstr "Zonen müssen einen Namen haben"
+msgstr "Webhooks müssen eine URI haben."
 
 #, php-format
 msgid "Webhook URIs can be no longer than %s characters."
-msgstr ""
+msgstr "Webhook-URIs dürfen maximal %s Zeichen lang sein."
 
 msgid "Command Center"
-msgstr ""
+msgstr "Befehlszentrale"
 
-#, fuzzy
 msgid "More Applications"
-msgstr "Kern-Anwendungen"
+msgstr "Weitere Anwendungen"
 
 msgid "Built-in Homepage"
-msgstr ""
+msgstr "Eingebaute Startseite"
 
 msgid "Assigned Tasks"
 msgstr "Zugewiesene Aufgaben"
@@ -36284,30 +36253,30 @@ msgid "Active Repositories"
 msgstr "Aktive Repositories"
 
 msgid "Legalpad"
-msgstr ""
+msgstr "Legalpad"
 
 msgid "Agreements and Signatures"
-msgstr ""
+msgstr "Vereinbarungen und Unterschriften"
 
 msgid "Legalpad User Guide"
-msgstr ""
+msgstr "Legalpad-Benutzerhandbuch"
 
 msgid ""
 "**Legalpad** is a simple application for tracking signatures and legal "
 "agreements. At the moment, it is primarily intended to help open source "
 "projects keep track of Contributor License Agreements."
-msgstr ""
+msgstr "**Legalpad** ist eine einfache Anwendung zur Verfolgung von Unterschriften und rechtlichen Vereinbarungen. Derzeit dient es hauptsächlich dazu, Open-Source-Projekten bei der Verwaltung von Contributor License Agreements zu helfen."
 
 msgid "Email Commands: Legalpad Documents"
-msgstr ""
+msgstr "Email-Befehle für Legalpad-Dokumente"
 
 msgid "Interacting with Legalpad Documents"
-msgstr ""
+msgstr "Interaktion mit Legalpad-Dokumenten"
 
 msgid ""
 "This page documents the commands you can use to interact with documents in "
 "Legalpad."
-msgstr ""
+msgstr "Diese Seite beschreibt die Befehle zur Interaktion mit Legalpad-Dokumenten."
 
 msgid "Can Create Documents"
 msgstr "Darf Dokumente erstellen"
@@ -36315,45 +36284,43 @@ msgstr "Darf Dokumente erstellen"
 msgid "You do not have permission to create new documents."
 msgstr "Du hast keine Berechtigung, um neue Dokumente zu erstellen."
 
-#, fuzzy
 msgid "Read information about legalpad documents."
-msgstr "Der neue Pfad des Dokuments."
+msgstr "Informationen zu Legalpad-Dokumenten lesen."
 
 msgid "Read information about legalpad document signatures."
-msgstr ""
+msgstr "Informationen zu Legalpad-Unterschriften lesen."
 
 msgid "Create Document"
 msgstr "Neues Dokument"
 
 msgid "Signatures"
-msgstr ""
+msgstr "Unterschriften"
 
 msgid "Find Signatures"
-msgstr ""
+msgstr "Unterschriften suchen"
 
 msgid "Verify Signature"
-msgstr ""
+msgstr "Unterschrift prüfen"
 
 msgid ""
 "Thank you for signing this document. Please check your email to verify your "
 "signature and complete the process."
-msgstr ""
+msgstr "Vielen Dank für Deine Unterschrift. Bitte prüfe Deine Emails, um die Unterschrift zu bestätigen und den Vorgang abzuschließen."
 
-#, fuzzy
 msgid "DOCUMENT"
-msgstr "DOKUMENTENÄNDERUNG"
+msgstr "DOKUMENT"
 
 msgid "View/Sign Document"
-msgstr ""
+msgstr "Dokument anzeigen/unterschreiben"
 
 msgid "Edit Document"
 msgstr "Dokument ändern"
 
 msgid "View Signatures"
-msgstr ""
+msgstr "Unterschriften anzeigen"
 
 msgid "Signature Type"
-msgstr ""
+msgstr "Unterschriftentyp"
 
 msgid "Last Updated"
 msgstr "Letzte Änderung"
@@ -36365,62 +36332,62 @@ msgid "Versions"
 msgstr "Versionen"
 
 msgid "Contributors"
-msgstr ""
+msgstr "Mitwirkende"
 
 msgid "Already Signed"
 msgstr "Schon unterschrieben"
 
 msgid "You have already signed this document!"
-msgstr ""
+msgstr "Du hast dieses Dokument bereits unterschrieben!"
 
 msgid "You have not signed this document yet."
-msgstr ""
+msgstr "Du hast dieses Dokument noch nicht unterschrieben."
 
 #, php-format
 msgid ""
 "You do not need to sign this document. %s added a signature exemption for "
 "you on %s."
-msgstr ""
+msgstr "%s hat Dir am %s eine Unterzeichnungsausnahme für dieses Dokument gewährt. Du musst es nicht unterschreiben."
 
 #, php-format
 msgid "You signed this document on %s."
-msgstr ""
+msgstr "Du hast dieses Dokument am %s unterschrieben."
 
 msgid ""
 "This document requires a corporate signatory. You must log in to accept this "
 "document on behalf of a company you represent."
-msgstr ""
+msgstr "Dieses Dokument erfordert einen Firmenunterzeichner. Du musst Dich anmelden, um das Dokument im Namen einer Firma zu akzeptieren."
 
 msgid "You must check \"I agree to the terms laid forth above.\""
-msgstr ""
+msgstr "Du musst \"Ich stimme den obigen Bestimmungen zu.\" bestätigen."
 
 msgid "Preamble"
-msgstr ""
+msgstr "Präambel"
 
 msgid "Agree and Sign Document"
-msgstr ""
+msgstr "Zustimmen und Dokument unterschreiben"
 
 #, php-format
 msgid "This document has an unknown signature type (\"%s\")."
-msgstr ""
+msgstr "Dieses Dokument hat einen unbekannten Unterschriftentyp (\"%s\")."
 
 msgid "I agree to the terms laid forth above."
 msgstr "Ich stimme den obigen Bestimmungen zu."
 
 msgid "Sign Document"
-msgstr ""
+msgstr "Dokument unterschreiben"
 
 msgid "Company Name"
-msgstr ""
+msgstr "Firmenname"
 
 msgid "Company Address"
 msgstr "Firmenanschrift"
 
 msgid "Contact Name"
-msgstr ""
+msgstr "Ansprechpartner"
 
 msgid "Contact Email"
-msgstr ""
+msgstr "Email Ansprechpartner"
 
 msgid "Name field is required."
 msgstr "Eine Name ist erforderlich."
@@ -36434,7 +36401,7 @@ msgstr "Eine gültige Emailadresse ist erforderlich."
 msgid ""
 "You can not sign a document on behalf of a corporation unless you are logged "
 "in."
-msgstr ""
+msgstr "Du kannst kein Dokument im Namen einer Firma unterschreiben, wenn Du nicht angemeldet bist."
 
 msgid "Company name is required."
 msgstr "Firmenname ist ein Pflichtfeld."
@@ -36467,175 +36434,180 @@ msgid ""
 "\n"
 "  %s\n"
 msgstr ""
+"%s:\n"
+"\n"
+"Diese Email-Adresse wurde verwendet, um ein Legalpad-Dokument in %s zu unterschreiben:\n"
+"\n"
+"  %s\n"
+"\n"
+"Bitte bestätige, dass Dir diese Email-Adresse gehört und akzeptiere die Vereinbarung, indem Du auf diesen Link klickst:\n"
+"\n"
+"  %s\n"
+"\n"
+"Deine Unterschrift ist erst gültig, wenn Du diesen Bestätigungsschritt abgeschlossen hast.\n"
+"\n"
+"Das Dokument kannst Du hier einsehen:\n"
+"\n"
+"  %s\n"
 
 msgid "[Legalpad] Signature Verification"
-msgstr ""
+msgstr "[Legalpad] Unterschriftenbestätigung"
 
 msgid ""
 "The email address specified is associated with an account. Please login to "
 "that account and sign this document again."
-msgstr ""
+msgstr "Die angegebene Email-Adresse ist mit einem Konto verknüpft. Bitte melde Dich bei diesem Konto an und unterschreibe das Dokument erneut."
 
 msgid "You must choose a user to exempt."
-msgstr ""
+msgstr "Du musst einen Benutzer für die Ausnahme auswählen."
 
 msgid "That user does not exist."
 msgstr "Dieser Benutzer existiert nicht."
 
 msgid "Signed"
-msgstr ""
+msgstr "Unterschrieben"
 
 msgid "That user has already signed this document."
 msgstr "Dieser Benutzer hat das Dokument bereits gezeichnet."
 
 msgid "You must choose a company to add an exemption for."
-msgstr ""
+msgstr "Du musst eine Firma für die Ausnahme auswählen."
 
 msgid "Exempt User"
-msgstr ""
+msgstr "Benutzer befreien"
 
 msgid "Notes"
-msgstr ""
+msgstr "Notizen"
 
 msgid "Add Signature Exemption"
-msgstr ""
+msgstr "Unterschriftenausnahme hinzufügen"
 
 msgid ""
 "You can record a signature exemption if a user has signed an equivalent "
 "document. Other applications will behave as through the user has signed this "
 "document."
-msgstr ""
+msgstr "Du kannst eine Unterschriftenausnahme erfassen, wenn ein Benutzer ein gleichwertiges Dokument unterschrieben hat. Andere Anwendungen verhalten sich dann so, als hätte der Benutzer dieses Dokument unterschrieben."
 
 msgid "Add Exemption"
-msgstr ""
+msgstr "Ausnahme hinzufügen"
 
 msgid "Unable to Verify Signature"
-msgstr ""
+msgstr "Unterschrift kann nicht bestätigt werden"
 
 msgid ""
 "The signature verification code is incorrect, or the signature has been "
 "invalidated. Make sure you followed the link in the email correctly."
-msgstr ""
+msgstr "Der Bestätigungscode ist falsch, oder die Unterschrift wurde ungültig. Bitte stelle sicher, dass Du den Link aus der Email korrekt geöffnet hast."
 
 msgid "Signature Already Verified"
-msgstr ""
+msgstr "Unterschrift bereits bestätigt"
 
 msgid "This signature has already been verified."
-msgstr ""
+msgstr "Diese Unterschrift wurde bereits bestätigt."
 
 msgid "Signature Verified"
-msgstr ""
+msgstr "Unterschrift bestätigt"
 
 msgid "The signature is now verified."
-msgstr ""
+msgstr "Die Unterschrift ist nun bestätigt."
 
 msgid "Please verify this document signature."
-msgstr ""
+msgstr "Bitte bestätige diese Dokumentenunterschrift."
 
 msgid "Signed At"
 msgstr "Gezeichnet am"
 
 msgid "Verify Signature?"
-msgstr ""
+msgstr "Unterschrift bestätigen?"
 
 msgid "Exemption By"
-msgstr ""
+msgstr "Ausnahme durch"
 
 msgid "Signing User"
-msgstr ""
+msgstr "Unterzeichner"
 
 msgid "Signature Details"
-msgstr ""
+msgstr "Unterschriftendetails"
 
 #, php-format
 msgid "%s added %s required legal document(s): %s."
-msgstr ""
+msgstr "%s hat %s erforderliche(s) Rechtsdokument(e) hinzugefügt: %s."
 
 #, php-format
 msgid "%s removed %s required legal document(s): %s."
-msgstr ""
+msgstr "%s hat %s erforderliche(s) Rechtsdokument(e) entfernt: %s."
 
 #, php-format
 msgid "%s edited %s required legal document(s), added %s: %s; removed %s: %s."
-msgstr ""
+msgstr "%s hat %s erforderliche(s) Rechtsdokument(e) bearbeitet, hinzugefügt %s: %s; entfernt %s: %s."
 
 #, php-format
 msgid "%s added %s required legal document(s) to %s: %s."
-msgstr ""
+msgstr "%s hat %s erforderliche(s) Rechtsdokument(e) zu %s hinzugefügt: %s."
 
 #, php-format
 msgid "%s removed %s required legal document(s) from %s: %s."
-msgstr ""
+msgstr "%s hat %s erforderliche(s) Rechtsdokument(e) von %s entfernt: %s."
 
 #, php-format
 msgid ""
 "%s edited %s required legal document(s) for %s, added %s: %s; removed %s: %s."
-msgstr ""
+msgstr "%s hat %s erforderliche(s) Rechtsdokument(e) für %s bearbeitet, hinzugefügt %s: %s; entfernt %s: %s."
 
-#, fuzzy
 msgid "Configure Legalpad Forms"
-msgstr "Editor konfigurieren"
+msgstr "Legalpad-Formulare konfigurieren"
 
 msgid "Configure creation and editing documents in Legalpad."
-msgstr ""
+msgstr "Erstellen und Bearbeiten von Dokumenten in Legalpad konfigurieren."
 
-#, fuzzy
 msgid "Create New Document"
-msgstr "Neues Dokument"
+msgstr "Neues Dokument erstellen"
 
-#, fuzzy, php-format
+#, php-format
 msgid "Edit Document: %s"
-msgstr "Dokument ändern"
+msgstr "Dokument bearbeiten: %s"
 
-#, fuzzy
 msgid "Document Title."
-msgstr "Dokumentenart"
+msgstr "Dokumententitel."
 
-#, fuzzy
 msgid "New document title."
-msgstr "Einen Dokumententitel eintippen..."
+msgstr "Neuer Dokumententitel."
 
 msgid "Who Should Sign?"
-msgstr ""
+msgstr "Wer muss unterschreiben?"
 
 msgid "Type of signature required"
-msgstr ""
+msgstr "Erforderlicher Unterschriftentyp"
 
-#, fuzzy
 msgid "New document signature type."
-msgstr "Wähle eine Dokumentenart..."
+msgstr "Neuer Unterschriftentyp."
 
-#, fuzzy
 msgid "No Signature Required"
-msgstr "Anmeldung erforderlich"
+msgstr "Keine Unterschrift erforderlich"
 
 msgid "Signature Required to Log In"
-msgstr ""
+msgstr "Unterschrift für Anmeldung erforderlich"
 
 msgid "Marks this document as required signing."
-msgstr ""
+msgstr "Markiert dieses Dokument als unterschriftspflichtig."
 
-#, fuzzy
 msgid "The preamble of the document."
-msgstr "Der neue Pfad des Dokuments."
+msgstr "Die Präambel des Dokuments."
 
-#, fuzzy
 msgid "New document preamble."
-msgstr "Den Namen eines Dokumentes eintippen..."
+msgstr "Neue Dokumentenpräambel."
 
 msgid "Document Body"
-msgstr ""
+msgstr "Dokumenteninhalt"
 
-#, fuzzy
 msgid "The body of text of the document."
-msgstr "Der neue Pfad des Dokuments."
+msgstr "Der Textinhalt des Dokuments."
 
-#, fuzzy
 msgid "New document body."
-msgstr "Keine Dokumente gefunden."
+msgstr "Neuer Dokumenteninhalt."
 
 msgid "Legalpad Documents"
-msgstr ""
+msgstr "Legalpad-Dokumente"
 
 #, php-format
 msgid "%s created this document."
@@ -36644,337 +36616,324 @@ msgstr "%s hat das Dokument erstellt."
 msgid ""
 "Only documents with signature type \"individual\" may require signing to log "
 "in."
-msgstr ""
+msgstr "Nur Dokumente mit dem Unterschriftentyp \"Einzelperson\" können eine Unterschrift zum Anmelden erfordern."
 
 msgid "DOCUMENT DETAIL"
 msgstr "Dokumenten Details"
 
 msgid "[Legalpad]"
-msgstr ""
+msgstr "[Legalpad]"
 
-#, fuzzy
 msgid "Legalpad Document Body"
-msgstr "Dokument verschoben"
+msgstr "Legalpad-Dokumenteninhalt"
 
-#, fuzzy
 msgid "Get the full content for each document."
-msgstr "Der neue Pfad des Dokuments."
+msgstr "Den vollständigen Inhalt jedes Dokuments abrufen."
 
-#, fuzzy
 msgid "Document signers"
-msgstr "Dokumentenart"
+msgstr "Dokumentenunterzeichner"
 
 msgid "Get the signer list for the project."
-msgstr ""
+msgstr "Die Unterzeichnerliste für das Projekt abrufen."
 
-#, fuzzy
 msgid "Required Signature"
-msgstr "Login erzwingen"
+msgstr "Pflichtunterschrift"
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s document(s) are already signed: %s."
-msgstr "%d Projekt-Hashtag(s) werden bereits verwendet: %s."
+msgstr "%s Dokument(e) wurden bereits unterschrieben: %s."
 
-#, fuzzy, php-format
+#, php-format
 msgid "Required %s signature(s): %s."
-msgstr "%s hat %s Dateien entfernt: %s."
+msgstr "%s erforderliche Unterschrift(en): %s."
 
-#, fuzzy
 msgid "Require signatures"
-msgstr "Login erzwingen"
+msgstr "Unterschriften erforderlich"
 
 #, php-format
 msgid "Require document signatures: %s."
-msgstr ""
+msgstr "Dokumentenunterschriften erforderlich: %s."
 
 msgid "Mail receiver is not a LegalpadDocument!"
-msgstr ""
+msgstr "Der Mail-Empfänger ist kein Legalpad-Dokument!"
 
 msgid "Legalpad Document"
-msgstr ""
+msgstr "Legalpad-Dokument"
 
 msgid "Legalpad Signature"
-msgstr ""
+msgstr "Legalpad-Unterschrift"
 
 msgid "signers of legalpad documents"
-msgstr ""
+msgstr "Unterzeichner von Legalpad-Dokumenten"
 
-#, fuzzy
 msgid "Signed By"
-msgstr "Gezeichnet am"
+msgstr "Unterschrieben von"
 
 msgid "Search for documents signed by given users."
-msgstr ""
+msgstr "Nach Dokumenten suchen, die von bestimmten Benutzern unterschrieben wurden."
 
 msgid "Creators"
 msgstr "Autoren"
 
 msgid "Search for documents with given creators."
-msgstr ""
+msgstr "Nach Dokumenten mit bestimmten Autoren suchen."
 
 msgid "Search for documents with given contributors."
-msgstr ""
+msgstr "Nach Dokumenten mit bestimmten Mitwirkenden suchen."
 
 msgid "Search for documents created after a certain date."
-msgstr ""
+msgstr "Nach Dokumenten suchen, die nach einem bestimmten Datum erstellt wurden."
 
 msgid "Search for documents created before a certain date."
-msgstr ""
+msgstr "Nach Dokumenten suchen, die vor einem bestimmten Datum erstellt wurden."
 
 msgid "Signed Documents"
-msgstr ""
+msgstr "Unterschriebene Dokumente"
 
 msgid "All Documents"
 msgstr "Alle Dokumente"
 
 msgid "Not Signable"
-msgstr ""
+msgstr "Nicht unterzeichenbar"
 
 #, php-format
 msgid "Signed on %s"
-msgstr ""
+msgstr "Am %s unterschrieben"
 
 msgid "Not Signed"
-msgstr ""
+msgstr "Nicht unterschrieben"
 
 #, php-format
 msgid "Version %d (%s)"
-msgstr ""
+msgstr "Version %d (%s)"
 
 msgid "No documents found."
 msgstr "Keine Dokumente gefunden."
 
-#, fuzzy
 msgid "Create a Document"
-msgstr "Neues Dokument"
+msgstr "Dokument erstellen"
 
 msgid "Create documents and track signatures."
-msgstr ""
+msgstr "Dokumente erstellen und Unterschriften verfolgen."
 
 msgid "Search for signatures by given users."
-msgstr ""
+msgstr "Nach Unterschriften bestimmter Benutzer suchen."
 
 msgid "Documents"
-msgstr ""
+msgstr "Dokumente"
 
 msgid "Search for signatures on the given documents"
-msgstr ""
+msgstr "Nach Unterschriften auf bestimmten Dokumenten suchen."
 
 msgid "Search for signatures with a name containing the given string."
-msgstr ""
+msgstr "Nach Unterschriften suchen, deren Name den angegebenen Text enthält."
 
 msgid "Email Contains"
-msgstr ""
+msgstr "Email enthält"
 
 msgid "Search for signatures with an email containing the given string."
-msgstr ""
+msgstr "Nach Unterschriften suchen, deren Email den angegebenen Text enthält."
 
 msgid "Search for signatures created after a certain date."
-msgstr ""
+msgstr "Nach Unterschriften suchen, die nach einem bestimmten Datum erstellt wurden."
 
 msgid "Search for signatures created before a certain date."
-msgstr ""
+msgstr "Nach Unterschriften suchen, die vor einem bestimmten Datum erstellt wurden."
 
 msgid "Legalpad Signatures"
-msgstr ""
+msgstr "Legalpad-Unterschriften"
 
 msgid "Signers"
-msgstr ""
+msgstr "Unterzeichner"
 
 msgid "All Signatures"
-msgstr ""
+msgstr "Alle Unterschriften"
 
 msgid "Verified, Current"
-msgstr ""
+msgstr "Bestätigt, aktuell"
 
 msgid "Verified, Corporate"
-msgstr ""
+msgstr "Bestätigt, Firma"
 
 msgid "Signed Older Version"
-msgstr ""
+msgstr "Ältere Version unterschrieben"
 
 msgid "Unverified Email"
-msgstr ""
+msgstr "Unbestätigte Email"
 
 msgid "Exemption"
-msgstr ""
+msgstr "Ausnahme"
 
 msgid "No signatures match the query."
-msgstr ""
+msgstr "Keine Unterschriften entsprechen der Suchanfrage."
 
 msgid ""
 "NOTE: You can only see your own signatures and signatures on documents you "
 "have permission to edit."
-msgstr ""
+msgstr "HINWEIS: Du kannst nur Deine eigenen Unterschriften und Unterschriften auf Dokumenten sehen, die Du bearbeiten darfst."
 
 msgid "Individuals"
-msgstr ""
+msgstr "Einzelpersonen"
 
 msgid "Corporations"
-msgstr ""
+msgstr "Firmen"
 
 msgid "No One"
 msgstr "Niemand"
 
-#, fuzzy
 msgid "The title of this document"
-msgstr "Der neue Pfad des Dokuments."
+msgstr "Der Titel dieses Dokuments"
 
-#, fuzzy
 msgid "This user who created this document"
-msgstr "%s hat das Dokument erstellt."
+msgstr "Der Benutzer, der dieses Dokument erstellt hat"
 
-#, fuzzy
 msgid "The number of versions of this document"
-msgstr "Der neue Pfad des Dokuments."
+msgstr "Die Anzahl der Versionen dieses Dokuments"
 
 msgid "Whether signatures on this doc are required to use this install"
-msgstr ""
+msgstr "Ob Unterschriften auf diesem Dokument für die Verwendung dieser Installation erforderlich sind"
 
 msgid "The author of a document can always view and edit it."
-msgstr ""
+msgstr "Der Autor eines Dokuments kann es immer anzeigen und bearbeiten."
 
 #, php-format
 msgid "Unknown field: %s"
-msgstr ""
+msgstr "Unbekanntes Feld: %s"
 
-#, fuzzy
 msgid "The PHID of the document"
-msgstr "Der neue Pfad des Dokuments."
+msgstr "Die PHID des Dokuments"
 
 msgid "The PHID of the signer"
-msgstr ""
+msgstr "Die PHID des Unterzeichners"
 
 msgid "The PHID of the user who granted the exemption"
-msgstr ""
+msgstr "Die PHID des Benutzers, der die Ausnahme gewährt hat"
 
 msgid "The name used by the signer."
-msgstr ""
+msgstr "Der vom Unterzeichner verwendete Name."
 
 msgid "The email used by the signer."
-msgstr ""
+msgstr "Die vom Unterzeichner verwendete Email."
 
 msgid "Whether or not this signature is an exemption"
-msgstr ""
+msgstr "Ob diese Unterschrift eine Ausnahme ist"
 
 msgid "Browse Documents"
-msgstr ""
+msgstr "Dokumente durchsuchen"
 
 msgid "Type a document name..."
 msgstr "Den Namen eines Dokumentes eintippen..."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s updated the document preamble."
-msgstr "%s hat den Text des Dokumentes geändert."
+msgstr "%s hat die Präambel des Dokuments aktualisiert."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s updated the document preamble for %s."
-msgstr "%s hat das Bild für %s geändert."
+msgstr "%s hat die Präambel von %s aktualisiert."
 
 msgid "CHANGES TO DOCUMENT PREAMBLE"
-msgstr ""
+msgstr "ÄNDERUNGEN AN DER DOKUMENTENPRÄAMBEL"
 
 #, php-format
 msgid "%s set the document to require signatures."
-msgstr ""
+msgstr "%s hat das Dokument als unterschriftspflichtig markiert."
 
 #, php-format
 msgid "%s set the document to not require signatures."
-msgstr ""
+msgstr "%s hat das Dokument als nicht unterschriftspflichtig markiert."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s set the document %s to require signatures."
-msgstr "%s hat das Dokument %s von %s nach %s verschoben."
+msgstr "%s hat das Dokument %s als unterschriftspflichtig markiert."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s set the document %s to not require signatures."
-msgstr "%s hat den Inhalt des Dokumentes verändert."
+msgstr "%s hat das Dokument %s als nicht unterschriftspflichtig markiert."
 
 msgid "Only administrators may change whether a document requires a signature."
-msgstr ""
+msgstr "Nur Administratoren dürfen ändern, ob ein Dokument eine Unterschrift erfordert."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s updated the document signature type."
-msgstr "%s hat den Text des Dokumentes geändert."
+msgstr "%s hat den Unterschriftentyp des Dokuments aktualisiert."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s updated the document signature type for %s."
-msgstr "%s hat den Text des Dokumentes geändert."
+msgstr "%s hat den Unterschriftentyp von %s aktualisiert."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s set the document text."
-msgstr "%s hat den Text des Dokumentes geändert."
+msgstr "%s hat den Dokumententext festgelegt."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s updated the document text."
-msgstr "%s hat den Text des Dokumentes geändert."
+msgstr "%s hat den Dokumententext aktualisiert."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s updated the document text for %s."
-msgstr "%s hat den Text des Dokumentes geändert."
+msgstr "%s hat den Dokumententext von %s aktualisiert."
 
-#, fuzzy
 msgid "CHANGES TO DOCUMENT TEXT"
-msgstr "DOKUMENTENINHALT"
+msgstr "ÄNDERUNGEN AM DOKUMENTENTEXT"
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s renamed this document from %s to %s."
-msgstr "%s hat das Dokument von \"%s\" nach \"%s\" umbenannt."
+msgstr "%s hat das Dokument von %s in %s umbenannt."
 
-#, fuzzy
 msgid "Documents must have a title."
-msgstr "Zonen müssen einen Namen haben"
+msgstr "Dokumente müssen einen Titel haben."
 
 msgid ""
 "Failed to load a random user. You may need to generate more test users first."
-msgstr ""
+msgstr "Ein zufälliger Benutzer konnte nicht geladen werden. Möglicherweise müssen zuerst weitere Testbenutzer erzeugt werden."
 
 msgid "class"
-msgstr ""
+msgstr "Klasse"
 
 #, php-format
 msgid "Unable to load symbol %s: this class does not exist."
-msgstr ""
+msgstr "Symbol %s kann nicht geladen werden: Diese Klasse existiert nicht."
 
 msgid "Generate synthetic test objects."
-msgstr ""
+msgstr "Synthetische Testobjekte generieren."
 
 msgid "Generate objects without prompting for confirmation."
-msgstr ""
+msgstr "Objekte ohne Bestätigungsabfrage generieren."
 
 msgid "Generate objects as quickly as possible."
-msgstr ""
+msgstr "Objekte so schnell wie möglich generieren."
 
 #, php-format
 msgid ""
 "lipsum is a development and testing tool and may only be run on installs in "
 "developer mode. Enable \"%s\" in your configuration to enable lipsum."
-msgstr ""
+msgstr "Lipsum ist ein Entwicklungs- und Testwerkzeug und darf nur auf Installationen im Entwicklermodus ausgeführt werden. Aktiviere \"%s\" in Deiner Konfiguration, um lipsum zu aktivieren."
 
 #, php-format
 msgid "A lipsum generator is registered with key \"%s\". This key is reserved."
-msgstr ""
+msgstr "Ein Lipsum-Generator ist mit dem Schlüssel \"%s\" registriert. Dieser Schlüssel ist reserviert."
 
 #, php-format
 msgid ""
 "Choose which type or types of test data you want to generate, or select "
 "\"%s\"."
-msgstr ""
+msgstr "Wähle, welchen Typ oder welche Typen von Testdaten Du generieren möchtest, oder wähle \"%s\"."
 
 #, php-format
 msgid "Argument \"%s\" does not match the name of any generators."
-msgstr ""
+msgstr "Argument \"%s\" entspricht keinem Generator-Namen."
 
 #, php-format
 msgid "Argument \"%s\" is ambiguous, and matches multiple generators: %s."
-msgstr ""
+msgstr "Argument \"%s\" ist mehrdeutig und entspricht mehreren Generatoren: %s."
 
 msgid "GENERATORS"
-msgstr ""
+msgstr "GENERATOREN"
 
-#, fuzzy, php-format
+#, php-format
 msgid "Selected generators: %s."
-msgstr "Ausgewählte Aufgaben"
+msgstr "Ausgewählte Generatoren: %s."
 
 msgid ""
 "This command generates synthetic test data, including user accounts. It is "
@@ -36983,199 +36942,199 @@ msgid ""
 "command. If you run it in a production environment, it will pollute your "
 "data with large amounts of meaningless garbage that you can not get rid of."
 msgstr ""
+"Dieser Befehl erzeugt synthetische Testdaten, einschließlich Benutzerkonten. Er ist "
+"für Entwicklungsumgebungen gedacht, damit Features einfacher getestet werden können. "
+"Es gibt keine einfache Möglichkeit, diese Daten zu löschen oder die Auswirkungen dieses "
+"Befehls rückgängig zu machen. Wenn Du ihn in einer Produktionsumgebung ausführst, wird "
+"Dein Datenbestand mit großen Mengen bedeutungsloser Daten verschmutzt, die Du nicht mehr loswirst."
 
-#, fuzzy
 msgid "Are you sure you want to generate piles of garbage?"
-msgstr "Bist Du sicher, daß Du diesen Chat verlassen möchtest?"
+msgstr "Bist Du sicher, dass Du Berge von Testmüll erzeugen möchtest?"
 
 msgid "LIPSUM"
-msgstr ""
+msgstr "LIPSUM"
 
 msgid ""
 "Generating synthetic test objects forever. Use ^C to stop when satisfied."
-msgstr ""
+msgstr "Synthetische Testobjekte werden fortlaufend generiert. Mit ^C stoppen, wenn zufrieden."
 
 msgid "OOPS"
-msgstr ""
+msgstr "OOPS"
 
 #, php-format
 msgid "Generator (\"%s\") was unable to generate an object."
-msgstr ""
+msgstr "Generator (\"%s\") konnte kein Objekt generieren."
 
-#, fuzzy, php-format
+#, php-format
 msgid "Generated \"%s\": %s"
-msgstr "Zone %s: %s"
+msgstr "Generiert \"%s\": %s"
 
 msgid "Macro"
-msgstr ""
+msgstr "Makro"
 
 msgid "Image Macros and Memes"
-msgstr ""
+msgstr "Bildmakros und Memes"
 
 msgid "Allows creating and editing macros."
-msgstr ""
+msgstr "Ermöglicht das Erstellen und Bearbeiten von Makros."
 
 msgid "Email Commands: Macros"
-msgstr ""
+msgstr "Email-Befehle für Makros"
 
 msgid "Interacting with Macros"
-msgstr ""
+msgstr "Interaktion mit Makros"
 
 msgid ""
 "This page documents the commands you can use to interact with image macros."
-msgstr ""
+msgstr "Diese Seite beschreibt die Befehle zur Interaktion mit Bildmakros."
 
 msgid "Can Manage Macros"
-msgstr ""
+msgstr "Darf Makros verwalten"
 
 msgid "You do not have permission to manage image macros."
-msgstr ""
+msgstr "Du hast keine Berechtigung, Bildmakros zu verwalten."
 
 msgid "Generate a meme."
-msgstr ""
+msgstr "Ein Meme erstellen."
 
 msgid "Macro was not found."
-msgstr ""
+msgstr "Makro nicht gefunden."
 
 msgid "Apply transactions to create a new macro or edit an existing one."
-msgstr ""
+msgstr "Transaktionen anwenden, um ein neues Makro zu erstellen oder ein bestehendes zu bearbeiten."
 
 msgid "Retrieve image macro information."
-msgstr ""
+msgstr "Bildmakro-Informationen abrufen."
 
-#, fuzzy
 msgid "Author PHIDs must be a list."
-msgstr "%s muss eine ganze Zahl sein."
+msgstr "Autor-PHIDs müssen eine Liste sein."
 
-#, fuzzy
 msgid "PHIDs must be a list."
-msgstr "%s muss eine ganze Zahl sein."
+msgstr "PHIDs müssen eine Liste sein."
 
-#, fuzzy
 msgid "IDs must be a list."
-msgstr "%s muss eine ganze Zahl sein."
+msgstr "IDs müssen eine Liste sein."
 
-#, fuzzy
 msgid "Names must be a list."
-msgstr "%s muss eine ganze Zahl sein."
+msgstr "Namen müssen eine Liste sein."
 
 msgid ""
 "The file you uploaded is invalid: it is not recognizable as a valid audio "
 "file."
-msgstr ""
+msgstr "Die hochgeladene Datei ist ungültig: Sie wird nicht als gültige Audiodatei erkannt."
 
 msgid "To change the audio for a macro, you must upload an audio file."
-msgstr ""
+msgstr "Um die Audiodatei eines Makros zu ändern, musst Du eine Audiodatei hochladen."
 
 msgid ""
 "If you set one of the Play options, audio volume will automatically increase "
 "when scrolling closer to the Macro, and decrease when scrolling away."
-msgstr ""
+msgstr "Wenn Du eine der Wiedergabe-Optionen aktivierst, wird die Lautstärke beim Scrollen zum Makro automatisch erhöht und beim Scrollen weg davon verringert."
 
 msgid ""
 "If the audio does not play, you may need to reload the page and interact "
 "with it (for example, click somewhere), or check your web permissions as "
 "modern browsers may block audio autoplay."
-msgstr ""
+msgstr "Wenn das Audio nicht abgespielt wird, musst Du möglicherweise die Seite neu laden und mit ihr interagieren (z. B. irgendwo klicken), oder überprüfe Deine Browser-Berechtigungen, da moderne Browser die automatische Audiowiedergabe blockieren könnten."
 
 msgid "Audio Behavior"
-msgstr ""
+msgstr "Audioverhalten"
 
 msgid "Do Not Play"
-msgstr ""
+msgstr "Nicht abspielen"
 
 msgid "Do not play audio."
-msgstr ""
+msgstr "Audio nicht abspielen."
 
 msgid "Play Once"
-msgstr ""
+msgstr "Einmal abspielen"
 
 msgid "Play audio once, when the viewer looks at the macro."
-msgstr ""
+msgstr "Audio einmal abspielen, wenn der Betrachter das Makro ansieht."
 
 msgid "Play Continuously"
-msgstr ""
+msgstr "Dauerhaft abspielen"
 
 msgid ""
 "Play audio continuously, treating the macro as an audio source. Best for "
 "ambient sounds."
-msgstr ""
+msgstr "Audio dauerhaft abspielen, wobei das Makro als Audioquelle behandelt wird. Am besten für Umgebungsgeräusche geeignet."
 
 msgid "Save Audio Behavior"
-msgstr ""
+msgstr "Audioverhalten speichern"
 
-#, fuzzy, php-format
+#, php-format
 msgid "Edit Audio: %s"
-msgstr "Prüfer: %s"
+msgstr "Audio bearbeiten: %s"
 
 msgid "Edit Audio"
-msgstr ""
+msgstr "Audio bearbeiten"
 
 #, php-format
 msgid "Macro \"%s\""
-msgstr ""
+msgstr "Makro \"%s\""
 
 msgid "Audio File"
-msgstr ""
+msgstr "Audiodatei"
 
 msgid "Upload New Audio"
-msgstr ""
+msgstr "Neue Audiodatei hochladen"
 
 msgid "Create"
 msgstr "Mach einfach"
 
 msgid "Create Macro"
-msgstr ""
+msgstr "Makro erstellen"
 
 msgid "Really disable macro?"
-msgstr ""
+msgstr "Makro wirklich deaktivieren?"
 
 #, php-format
 msgid ""
 "Really disable the much-beloved image macro %s? It will be sorely missed."
-msgstr ""
+msgstr "Das vielgeliebte Bildmakro %s wirklich deaktivieren? Es wird sehr vermisst werden."
 
 msgid "Macro name is required."
-msgstr ""
+msgstr "Ein Makroname ist erforderlich."
 
 msgid "No such macro."
-msgstr ""
+msgstr "Dieses Makro existiert nicht."
 
 msgid "Above"
-msgstr ""
+msgstr "Oben"
 
 msgid "Below"
-msgstr ""
+msgstr "Unten"
 
 msgid "Create Meme"
-msgstr ""
+msgstr "Meme erstellen"
 
 msgid "Llama Diorama"
-msgstr ""
+msgstr "Llama Diorama"
 
 #, php-format
 msgid "Image Macro \"%s\""
-msgstr ""
+msgstr "Bildmakro \"%s\""
 
 msgid "Edit Macro"
-msgstr ""
+msgstr "Makro bearbeiten"
 
 msgid "Activate Macro"
-msgstr ""
+msgstr "Makro aktivieren"
 
 msgid "Archive Macro"
-msgstr ""
+msgstr "Makro archivieren"
 
 #, php-format
 msgid "Masterfully imagined by %s in ages long past."
-msgstr ""
+msgstr "Meisterhaft erschaffen von %s in längst vergangenen Zeiten."
 
 #, php-format
 msgid "Masterfully imagined by %s on %s."
 msgstr "Meisterhaft erschaffen von %s am %s."
 
 msgid "Loop"
-msgstr ""
+msgstr "Schleife"
 
 msgid "Macro Image"
 msgstr "Makrobild"
@@ -37184,7 +37143,7 @@ msgid "Configure Macro Image Forms"
 msgstr "Formulare für Makrobilder konfigurieren"
 
 msgid "Configure creation and editing of Macro images."
-msgstr ""
+msgstr "Erstellen und Bearbeiten von Makrobildern konfigurieren."
 
 msgid "Create New Macro"
 msgstr "Neues Makro erstellen"
@@ -37202,187 +37161,181 @@ msgstr "Name des Makros."
 msgid "New macro name."
 msgstr "Neuer Makroname."
 
-#, fuzzy
 msgid "Image File"
-msgstr "Veränderte Dateien"
+msgstr "Bilddatei"
 
 msgid "Image file to import."
-msgstr ""
+msgstr "Zu importierende Bilddatei."
 
 msgid "Macros"
-msgstr ""
+msgstr "Makros"
 
 #, php-format
 msgid "%s created this macro."
-msgstr ""
+msgstr "%s hat dieses Makro erstellt."
 
 msgid "MACRO DETAIL"
-msgstr ""
+msgstr "MAKRODETAILS"
 
 msgid "[Macro]"
-msgstr ""
+msgstr "[Makro]"
 
-#, fuzzy, php-format
+#, php-format
 msgid "Template \"%s\" is not a valid template."
-msgstr "Der neue Chat-Teilnehmer \"%s\" ist kein gültiger Benutzer."
+msgstr "Vorlage \"%s\" ist keine gültige Vorlage."
 
 msgid "Failed to imagecreatefromstring() image template data."
-msgstr ""
+msgstr "imagecreatefromstring() für Bildvorlagendaten ist fehlgeschlagen."
 
 #, php-format
 msgid "Macro %s: %s %s"
-msgstr ""
+msgstr "Makro %s: %s %s"
 
 msgid "Image Macro"
-msgstr ""
+msgstr "Bildmakro"
 
 msgid "Active Macros"
-msgstr ""
+msgstr "Aktive Makros"
 
 msgid "Disabled Macros"
-msgstr ""
+msgstr "Deaktivierte Makros"
 
 msgid "Active and Disabled Macros"
-msgstr ""
+msgstr "Aktive und deaktivierte Makros"
 
 msgid "(No Filtering)"
-msgstr ""
+msgstr "(Kein Filter)"
 
 msgid "(Marked With Any Flag)"
-msgstr ""
+msgstr "(Mit beliebiger Markierung)"
 
 #, php-format
 msgid "Unknown status '%s'!"
-msgstr ""
+msgstr "Unbekannter Status '%s'!"
 
 msgid "No matching flags."
-msgstr ""
+msgstr "Keine passenden Markierungen."
 
 msgid "Marked with Flag"
-msgstr ""
+msgstr "Mit Markierung versehen"
 
 #, php-format
 msgid "Created on %s"
-msgstr ""
+msgstr "Erstellt am %s"
 
 msgid "Created in ages long past"
-msgstr ""
+msgstr "In längst vergangenen Zeiten erstellt"
 
-#, fuzzy
 msgid "Create a Macro"
-msgstr "Einen Chat erzeugen"
+msgstr "Makro erstellen"
 
 msgid "Create easy to remember shortcuts to images and memes."
-msgstr ""
+msgstr "Leicht zu merkende Verknüpfungen zu Bildern und Memes erstellen."
 
-#, fuzzy
 msgid "Type an emoji name..."
-msgstr "Einen Makro-Namen eintippen..."
+msgstr "Einen Emoji-Namen eintippen..."
 
-#, fuzzy
 msgid "Browse Emojis"
-msgstr "In Projekten suchen"
+msgstr "Emojis durchsuchen"
 
 msgid "Type a macro name..."
 msgstr "Einen Makro-Namen eintippen..."
 
 msgid "Browse Macros"
-msgstr ""
+msgstr "Makros durchsuchen"
 
 #, php-format
 msgid "%s set the audio to play once."
-msgstr ""
+msgstr "%s hat das Audio auf einmaliges Abspielen gesetzt."
 
 #, php-format
 msgid "%s set the audio to loop."
-msgstr ""
+msgstr "%s hat das Audio auf Schleifenwiedergabe gesetzt."
 
 #, php-format
 msgid "%s disabled the audio for this macro."
-msgstr ""
+msgstr "%s hat das Audio für dieses Makro deaktiviert."
 
 #, php-format
 msgid "%s set the audio for %s to play once."
-msgstr ""
+msgstr "%s hat das Audio für %s auf einmaliges Abspielen gesetzt."
 
 #, php-format
 msgid "%s set the audio for %s to loop."
-msgstr ""
+msgstr "%s hat das Audio für %s auf Schleifenwiedergabe gesetzt."
 
 #, php-format
 msgid "%s disabled the audio for %s."
-msgstr ""
+msgstr "%s hat das Audio für %s deaktiviert."
 
 #, php-format
 msgid "%s attached audio: %s."
-msgstr ""
+msgstr "%s hat Audio angehängt: %s."
 
 #, php-format
 msgid "%s changed the audio for this macro from %s to %s."
-msgstr ""
+msgstr "%s hat das Audio für dieses Makro von %s auf %s geändert."
 
 #, php-format
 msgid "%s attached audio to %s: %s."
-msgstr ""
+msgstr "%s hat Audio an %s angehängt: %s."
 
 #, php-format
 msgid "%s changed the audio for %s from %s to %s."
-msgstr ""
+msgstr "%s hat das Audio für %s von %s auf %s geändert."
 
 #, php-format
 msgid "%s disabled this macro."
-msgstr ""
+msgstr "%s hat dieses Makro deaktiviert."
 
 #, php-format
 msgid "%s restored this macro."
-msgstr ""
+msgstr "%s hat dieses Makro wiederhergestellt."
 
 #, php-format
 msgid "%s restored %s."
-msgstr ""
+msgstr "%s hat %s wiederhergestellt."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s changed the image for this macro."
-msgstr "%s hat das Bild für %s geändert."
+msgstr "%s hat das Bild für dieses Makro geändert."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s changed the image for %s."
 msgstr "%s hat das Bild für %s geändert."
 
-#, fuzzy
 msgid "Image macros must have a file."
-msgstr "Zonen müssen einen Namen haben"
+msgstr "Bildmakros müssen eine Datei haben."
 
-#, fuzzy, php-format
+#, php-format
 msgid "\"%s\" is not a valid file PHID."
-msgstr "PID '%s' ist keine gültige PID."
+msgstr "\"%s\" ist keine gültige Datei-PHID."
 
 #, php-format
 msgid "File mime type of \"%s\" is not a valid viewable image."
-msgstr ""
+msgstr "Der MIME-Typ der Datei \"%s\" ist kein gültiges anzeigbares Bild."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s renamed this macro from %s to %s."
-msgstr "%s hat den Entwurf von \"%s\" zu \"%s\" umbenannt."
+msgstr "%s hat das Makro von %s in %s umbenannt."
 
-#, fuzzy
 msgid "Macros must have a name."
-msgstr "Zonen müssen einen Namen haben"
+msgstr "Makros müssen einen Namen haben."
 
 #, php-format
 msgid ""
 "Macro name \"%s\" be: at least three characters long; and contain only "
 "lowercase letters, digits, hyphens, colons, underscores, and emoji; and not "
 "be composed entirely of latin symbols."
-msgstr ""
+msgstr "Der Makroname \"%s\" muss: mindestens drei Zeichen lang sein; nur Kleinbuchstaben, Ziffern, Bindestriche, Doppelpunkte, Unterstriche und Emojis enthalten; und darf nicht ausschließlich aus lateinischen Buchstaben bestehen."
 
-#, fuzzy, php-format
+#, php-format
 msgid "Macro \"%s\" already exists."
-msgstr "Existiert bereits."
+msgstr "Makro \"%s\" existiert bereits."
 
 #, php-format
 msgid "Validity of macro \"%s\""
-msgstr ""
+msgstr "Gültigkeit von Makro \"%s\""
 
 msgid "Maniphest"
 msgstr "Maniphest"
