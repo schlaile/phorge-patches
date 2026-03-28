@@ -25895,7 +25895,7 @@ msgstr "\"%s\" oder \"%s\" angeben, aber nicht beides."
 
 #, php-format
 msgid "One of \"%s\" and \"%s\" is required."
-msgstr "Eines von „%s" und „%s" ist erforderlich."
+msgstr "Eines von „%s“ und „%s“ ist erforderlich."
 
 #, php-format
 msgid "Parameter \"%s\" is required if \"%s\" is provided."
@@ -26367,18 +26367,18 @@ msgid "Browse External"
 msgstr "Extern durchsuchen"
 
 msgid "No \"commitPHID\" in task data."
-msgstr "Kein „commitPHID" in den Aufgabendaten."
+msgstr "Kein „commitPHID“ in den Aufgabendaten."
 
 #, php-format
 msgid "Unable to load commit \"%s\"."
-msgstr "Commit „%s" konnte nicht geladen werden."
+msgstr "Commit „%s“ konnte nicht geladen werden."
 
 msgid "No \"objectPHID\" in task data."
-msgstr "Kein „objectPHID" in den Aufgabendaten."
+msgstr "Kein „objectPHID“ in den Aufgabendaten."
 
 #, php-format
 msgid "Unable to load object \"%s\"."
-msgstr "Objekt „%s" konnte nicht geladen werden."
+msgstr "Objekt „%s“ konnte nicht geladen werden."
 
 msgid "Accept Commit"
 msgstr "Commit akzeptieren"
@@ -26394,7 +26394,7 @@ msgid ""
 msgstr ""
 "Du kannst diesen Commit nicht akzeptieren, weil du der Autor des Commits bist. "
 "Du kannst nur Commits akzeptieren, die du nicht selbst verfasst hast. "
-"Du kannst dieses Verhalten ändern, indem du die Einstellung „%s" in der Konfiguration anpasst."
+"Du kannst dieses Verhalten ändern, indem du die Einstellung „%s“ in der Konfiguration anpasst."
 
 msgid "You can not accept this commit because you have already accepted it."
 msgstr "Du kannst diesen Commit nicht akzeptieren, weil du ihn bereits akzeptiert hast."
@@ -26425,11 +26425,11 @@ msgstr "%s hat %s Prüfer von %s entfernt: %s."
 
 #, php-format
 msgid "Auditor \"%s\" is not a valid object."
-msgstr "Prüfer „%s" ist kein gültiges Objekt."
+msgstr "Prüfer „%s“ ist kein gültiges Objekt."
 
 #, php-format
 msgid "Auditor \"%s\" must be a user, a package, or a project."
-msgstr "Prüfer „%s" muss ein Benutzer, ein Paket oder ein Projekt sein."
+msgstr "Prüfer „%s“ muss ein Benutzer, ein Paket oder ein Projekt sein."
 
 msgid "The author of a commit can not be an auditor."
 msgstr "Der Autor eines Commits kann kein Prüfer sein."
@@ -26585,7 +26585,7 @@ msgstr "Dieses Enum ist nicht dokumentiert."
 
 #, php-format
 msgid "Need translation for '%s'."
-msgstr "Übersetzung für „%s" fehlt."
+msgstr "Übersetzung für „%s“ fehlt."
 
 #, php-format
 msgid "This %s is not documented."
@@ -26613,7 +26613,7 @@ msgstr ""
 
 #, php-format
 msgid "Untitled Article \"%s\""
-msgstr "Namenloser Artikel „%s""
+msgstr "Namenloser Artikel „%s“"
 
 #, php-format
 msgid "Article has no %s!"
@@ -26621,7 +26621,7 @@ msgstr "Artikel hat kein %s!"
 
 #, php-format
 msgid "Unexpected property \"%s\" in Javelin class definition!"
-msgstr "Unerwartete Eigenschaft „%s" in der Javelin-Klassendefinition!"
+msgstr "Unerwartete Eigenschaft „%s“ in der Javelin-Klassendefinition!"
 
 #, php-format
 msgid "Documentation specifies `%s` multiple times."
@@ -26629,7 +26629,7 @@ msgstr "Dokumentation gibt `%s` mehrfach an."
 
 #, php-format
 msgid "Expected \"%s\" node but found \"%s\" (on line %d:%d)."
-msgstr "„%s"-Knoten erwartet, aber „%s" gefunden (in Zeile %d:%d)."
+msgstr "„%s“-Knoten erwartet, aber „%s“ gefunden (in Zeile %d:%d)."
 
 #, php-format
 msgid "This call takes %s parameter(s), but only %s are documented."
@@ -26642,7 +26642,7 @@ msgid ""
 "followed by a newline. Did you mean to use a documentation comment? (As the "
 "comment is not a documentation comment, it will be ignored.)"
 msgstr ""
-"Atom „%s" wird von einem Kommentar mit `%s` eingeleitet, aber der Kommentar ist kein "
+"Atom „%s“ wird von einem Kommentar mit `%s` eingeleitet, aber der Kommentar ist kein "
 "Dokumentationskommentar. Dokumentationskommentare müssen mit `%s` beginnen, "
 "gefolgt von einem Zeilenumbruch. Meintest du einen Dokumentationskommentar? "
 "(Da es kein Dokumentationskommentar ist, wird er ignoriert.)"
@@ -26652,7 +26652,7 @@ msgid ""
 "Parameter \"%s\" is named \"%s\" in the documentation. The documentation may "
 "be out of date."
 msgstr ""
-"Parameter „%s" heißt in der Dokumentation „%s". "
+"Parameter „%s“ heißt in der Dokumentation „%s“. "
 "Die Dokumentation könnte veraltet sein."
 
 #, php-format
@@ -26873,11 +26873,11 @@ msgstr "%s Buch/Bücher gefunden."
 
 #, php-format
 msgid "Generating book \"%s\"..."
-msgstr "Buch „%s" wird generiert..."
+msgstr "Buch „%s“ wird generiert..."
 
 #, php-format
 msgid "Completed generation of \"%s\"."
-msgstr "Generierung von „%s" abgeschlossen."
+msgstr "Generierung von „%s“ abgeschlossen."
 
 msgid "CLEARING CACHES"
 msgstr "CACHES LEEREN"
@@ -26888,7 +26888,7 @@ msgstr "Publisher-Klasse '%s' muss eine konkrete Unterklasse von %s sein."
 
 #, php-format
 msgid "Repository \"%s\" does not exist."
-msgstr "Repository „%s" existiert nicht."
+msgstr "Repository „%s“ existiert nicht."
 
 msgid "BUILDING ATOM CACHE"
 msgstr "ATOM-CACHE ERSTELLEN"
@@ -26984,8 +26984,8 @@ msgid ""
 "GitHub Issue ID \"%s\" is not properly formatted. Expected an ID in the form "
 "\"owner/repository#123\"."
 msgstr ""
-"GitHub-Issue-ID „%s" hat kein gültiges Format. "
-"Erwartet wird eine ID in der Form „owner/repository#123"."
+"GitHub-Issue-ID „%s“ hat kein gültiges Format. "
+"Erwartet wird eine ID in der Form „owner/repository#123“."
 
 #, php-format
 msgid "GitHub Issue %s"
@@ -27012,7 +27012,7 @@ msgstr "Externes Objekt"
 
 #, php-format
 msgid "DoorkeeperURIRef display mode \"%s\" is unknown."
-msgstr "DoorkeeperURIRef-Anzeigemodus „%s" ist unbekannt."
+msgstr "DoorkeeperURIRef-Anzeigemodus „%s“ ist unbekannt."
 
 msgid "Imported From"
 msgstr "Importiert aus"
@@ -27022,8 +27022,8 @@ msgid ""
 "Expected \"getDoorkeeperURIRef()\" to return \"null\" or an object of type "
 "\"DoorkeeperURIRef\", but got %s from provider \"%s\"."
 msgstr ""
-"Erwartet, dass „getDoorkeeperURIRef()" „null" oder ein Objekt vom Typ "
-"„DoorkeeperURIRef" zurückgibt, aber %s von Provider „%s" erhalten."
+"Erwartet, dass „getDoorkeeperURIRef()“ „null“ oder ein Objekt vom Typ "
+"„DoorkeeperURIRef“ zurückgibt, aber %s von Provider „%s“ erhalten."
 
 msgid "Integration with Asana"
 msgstr "Integration mit Asana"
@@ -27056,7 +27056,7 @@ msgid ""
 msgstr ""
 "Wenn %s Aufgaben in Asana erstellt, können diese anhand der Anwendung, aus der das "
 "entsprechende Objekt in %s stammt, Asana-Projekten hinzugefügt werden. "
-"Zum Beispiel können Code-Reviews in Asana einem „Differential"-Projekt hinzugefügt werden.\n"
+"Zum Beispiel können Code-Reviews in Asana einem „Differential“-Projekt hinzugefügt werden.\n"
 "\n"
 "HINWEIS: Diese Funktion ist neu und experimentell."
 
@@ -27602,7 +27602,7 @@ msgstr "Diese Engine wird zum Bearbeiten von Drydock-Blaupausen verwendet."
 msgid ""
 "When creating a new Drydock blueprint via the Conduit API, you must provide "
 "a \"type\" transaction to select a type."
-msgstr "Beim Erstellen einer neuen Drydock-Blaupause über die Conduit-API muss eine „type"-Transaktion angegeben werden, um einen Typ auszuwählen."
+msgstr "Beim Erstellen einer neuen Drydock-Blaupause über die Conduit-API muss eine „type“-Transaktion angegeben werden, um einen Typ auszuwählen."
 
 #, php-format
 msgid "Blueprint type \"%s\" is unrecognized. Valid types are: %s."
@@ -29087,7 +29087,7 @@ msgstr "Neuigkeiten aller meiner Projekt-Mitgliedschaften mit einbeziehen."
 msgid ""
 "The specified \"Occurs Before\" date is earlier in time than the specified "
 "\"Occurs After\" date, so this query can never match any results."
-msgstr "Das angegebene Datum „Tritt auf vor" liegt zeitlich früher als das Datum „Tritt auf nach", daher kann diese Abfrage keine Ergebnisse liefern."
+msgstr "Das angegebene Datum „Tritt auf vor“ liegt zeitlich früher als das Datum „Tritt auf nach“, daher kann diese Abfrage keine Ergebnisse liefern."
 
 msgid "All Stories"
 msgstr "Alle Neuigkeiten"
@@ -29107,7 +29107,7 @@ msgstr "Objekttypen"
 msgid ""
 "The specified \"Created Before\" date is earlier in time than the specified "
 "\"Created After\" date, so this query can never match any results."
-msgstr "Das angegebene Datum „Erstellt vor" liegt zeitlich früher als das Datum „Erstellt nach", daher kann diese Abfrage keine Ergebnisse liefern."
+msgstr "Das angegebene Datum „Erstellt vor“ liegt zeitlich früher als das Datum „Erstellt nach“, daher kann diese Abfrage keine Ergebnisse liefern."
 
 msgid "All Transactions"
 msgstr "Alle Transaktionen"
@@ -30016,7 +30016,7 @@ msgstr "Dieses Dokument ist nicht UTF-8. Es wurde als %s erkannt und für die An
 msgid ""
 "This document is not UTF8 and its text encoding could not be detected "
 "automatically. Use \"Change Text Encoding...\" to choose an encoding."
-msgstr "Dieses Dokument ist nicht UTF-8 und die Textkodierung konnte nicht automatisch erkannt werden. Verwende „Textkodierung ändern...", um eine Kodierung auszuwählen."
+msgstr "Dieses Dokument ist nicht UTF-8 und die Textkodierung konnte nicht automatisch erkannt werden. Verwende „Textkodierung ändern...“, um eine Kodierung auszuwählen."
 
 msgid "View as Video"
 msgstr "Als Video ansehen"
@@ -30563,7 +30563,6 @@ msgstr "GÜLTIG"
 #, php-format
 msgid "File \"%s\" has a valid integrity hash."
 msgstr "Datei \"%s\" hat einen gültigen Integritäts-Hash."
-msgstr ""
 
 msgid "MISMATCH"
 msgstr ""
@@ -30803,7 +30802,7 @@ msgid ""
 "No configured storage engine can store this file. See \"Configuring File "
 "Storage\" in the documentation for information on configuring storage "
 "engines. This is likely because the file is too large."
-msgstr "Keine konfigurierte Speicher-Engine kann diese Datei speichern. Informationen zur Konfiguration von Speicher-Engines in der Dokumentation unter „Dateispeicher konfigurieren" nachschlagen. Dies liegt wahrscheinlich daran, dass die Datei zu groß ist."
+msgstr "Keine konfigurierte Speicher-Engine kann diese Datei speichern. Informationen zur Konfiguration von Speicher-Engines in der Dokumentation unter „Dateispeicher konfigurieren“ nachschlagen. Dies liegt wahrscheinlich daran, dass die Datei zu groß ist."
 
 msgid "No valid storage engines are available!"
 msgstr "Keine gültigen Speicher-Engines verfügbar!"
@@ -31908,17 +31907,17 @@ msgid ""
 "Buildables may receive control commands like \"abort\" and \"restart\". "
 "Sending a control command to a Buildable is the same as sending it to each "
 "Build for the Buildable."
-msgstr "Buildables können Steuerbefehle wie „abort" und „restart" empfangen. Das Senden eines Steuerbefehls an ein Buildable entspricht dem Senden an jeden Build für das Buildable."
+msgstr "Buildables können Steuerbefehle wie „abort“ und „restart“ empfangen. Das Senden eines Steuerbefehls an ein Buildable entspricht dem Senden an jeden Build für das Buildable."
 
 msgid ""
 "Builds may receive control commands like \"pause\", \"resume\", \"abort\", "
 "and \"restart\"."
-msgstr "Builds können Steuerbefehle wie „pause", „resume", „abort" und „restart" empfangen."
+msgstr "Builds können Steuerbefehle wie „pause“, „resume“, „abort“ und „restart“ empfangen."
 
 msgid ""
 "Build Targets may receive build status and result messages, like \"pass\" or "
 "\"fail\"."
-msgstr "Build-Ziele können Build-Status- und Ergebnisnachrichten wie „pass" oder „fail" empfangen."
+msgstr "Build-Ziele können Build-Status- und Ergebnisnachrichten wie „pass“ oder „fail“ empfangen."
 
 #, php-format
 msgid ""
@@ -33614,7 +33613,7 @@ msgid ""
 "even if builds have failed or are still in progress."
 msgstr ""
 "Wenn Benutzer Revisionen in Differential erstellen, werden sie standardmäßig "
-"im Zustand „Entwurf" gehalten, bis alle Builds bestehen. Sobald die Builds "
+"im Zustand „Entwurf“ gehalten, bis alle Builds bestehen. Sobald die Builds "
 "bestanden haben, werden die Revisionen weitergeleitet und zur Überprüfung "
 "gesendet, was die Reviewer benachrichtigt.\n"
 "\n"
@@ -38096,7 +38095,7 @@ msgid "Maniphest Reports"
 msgstr "Maniphest-Berichte"
 
 msgid "Recently Means"
-msgstr ""Kürzlich" bedeutet"
+msgstr "„Kürzlich“ bedeutet"
 
 msgid "Configure the cutoff for the \"Recently Closed\" column."
 msgstr "Den Zeitraum für die Spalte \"Vor kurzem abgeschlossen\" konfigurieren."
