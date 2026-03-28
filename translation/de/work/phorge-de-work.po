@@ -22323,7 +22323,7 @@ msgid "This revision was not accepted when it landed; it landed in state %s."
 msgstr "Diese Version war beim Einbringen nicht akzeptiert; sie wurde im Status %s eingebracht."
 
 msgid "No Audits"
-msgstr "Keine Überprüfungen"
+msgstr "Keine Audits"
 
 msgid "Partially Audited"
 msgstr "Teilweise überprüft"
@@ -26234,10 +26234,10 @@ msgid "Manage Password"
 msgstr "Passwort verwalten"
 
 msgid "Discovering…"
-msgstr "Erkunde…"
+msgstr "Ermittlung läuft…"
 
 msgid "Importing…"
-msgstr "Importiere…"
+msgstr "Import läuft…"
 
 msgid "Browse Repository"
 msgstr "Repository durchsuchen"
@@ -26246,7 +26246,7 @@ msgid "No Builds"
 msgstr "Keine Builds"
 
 msgid "No Audit"
-msgstr "Keine Überprüfung"
+msgstr "Kein Audit"
 
 msgid "Path Does Not Exist"
 msgstr "Pfad existiert nicht"
@@ -26277,7 +26277,7 @@ msgid ""
 msgstr "Dieser Pfad existiert bei %s nicht. Er wurde in %s gelöscht und war zuletzt bei %s vorhanden."
 
 msgid "Directory Not Tracked"
-msgstr "Verzeichnis nicht in der Verfolgung"
+msgstr "Verzeichnis nicht verfolgt"
 
 #, php-format
 msgid ""
@@ -42195,7 +42195,7 @@ msgstr ""
 "konfigurieren\" in der Dokumentation."
 
 msgid "No Auditing"
-msgstr "Keine Überprüfung"
+msgstr "Kein Audit"
 
 msgid "\"\" (empty string)"
 msgstr "\"\" (leere Zeichenkette)"
