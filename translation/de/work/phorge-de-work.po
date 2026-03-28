@@ -21105,7 +21105,7 @@ msgid "Requested A Review Of"
 msgstr "Review angefordert für"
 
 msgid "Resigned From"
-msgstr "Hingeschmissen bei"
+msgstr "Kapituliert"
 
 msgid "Commandeered"
 msgstr "Übernommen"
