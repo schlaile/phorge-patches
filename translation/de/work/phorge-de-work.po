@@ -24183,16 +24183,16 @@ msgid "New staging area URI."
 msgstr "Neue URI der Staging-Area."
 
 msgid "Use Blueprints"
-msgstr "Blueprints verwenden"
+msgstr "Blaupausen verwenden"
 
 msgid "Automation blueprints."
-msgstr "Automatisierungs-Blueprints."
+msgstr "Automatisierungs-Blaupausen."
 
 msgid "Change automation blueprints."
-msgstr "Automatisierungs-Blueprints ändern."
+msgstr "Automatisierungs-Blaupausen ändern."
 
 msgid "New blueprint PHIDs."
-msgstr "Neue Blueprint-PHIDs."
+msgstr "Neue Blaupausen-PHIDs."
 
 msgid "Languages"
 msgstr "Sprachen"
