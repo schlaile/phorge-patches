@@ -2296,7 +2296,7 @@ msgid "Accepted"
 msgstr "Akzeptiert"
 
 msgid "Resigned"
-msgstr ""
+msgstr "Hingeschmissen"
 
 #, php-format
 msgid "Commit %s"
@@ -18199,26 +18199,27 @@ msgstr ""
 
 #, php-format
 msgid "Invalid options file: %s."
-msgstr ""
+msgstr "Ungültige Optionsdatei: %s."
 
 #, php-format
 msgid "Unknown renderer type \"%s\"!"
-msgstr ""
+msgstr "Unbekannter Renderer-Typ \"%s\"!"
 
 msgid "Differential"
 msgstr "Differential"
 
-#, fuzzy
 msgid "Pre-Commit Review"
-msgstr "Projekt Reviewer"
+msgstr "Vorab-Review"
 
 msgid "Differential User Guide"
-msgstr ""
+msgstr "Differential-Benutzerhandbuch"
 
 msgid ""
 "Differential is a **code review application** which allows engineers to "
 "review, discuss and approve changes to software."
 msgstr ""
+"Differential ist eine **Code-Review-Anwendung**, mit der Entwickler "
+"Änderungen an Software überprüfen, diskutieren und genehmigen können."
 
 #, php-format
 msgid ""
@@ -18226,121 +18227,131 @@ msgid ""
 "and / or one or more attachments should be the output of a \"diff\" command. "
 "%s"
 msgstr ""
+"Sende E-Mails an diese Adressen, um Versionen zu erstellen. Der Text der "
+"Nachricht und/oder ein oder mehrere Anhänge sollten die Ausgabe eines "
+"\"diff\"-Befehls sein. %s"
 
 msgid "Default view policy for newly created revisions."
 msgstr "Vorgaberechte für die Sichtung von neu erzeugten Versionen."
 
 msgid "Email Commands: Revisions"
-msgstr ""
+msgstr "E-Mail-Befehle: Versionen"
 
 msgid "Interacting with Differential Revisions"
-msgstr ""
+msgstr "Interaktion mit Differential-Versionen"
 
 msgid ""
 "This page documents the commands you can use to interact with revisions in "
 "Differential."
 msgstr ""
+"Diese Seite dokumentiert die Befehle, mit denen Du mit Versionen in "
+"Differential interagieren kannst."
 
 msgid "Read information about changesets."
-msgstr ""
+msgstr "Informationen über Changesets lesen."
 
 msgid "Close a Differential revision."
-msgstr ""
+msgstr "Eine Differential-Version schließen."
 
 msgid "Revision was not found."
-msgstr ""
+msgstr "Version wurde nicht gefunden."
 
 msgid "Add a comment to a Differential revision."
-msgstr ""
+msgstr "Einen Kommentar zu einer Differential-Version hinzufügen."
 
 msgid ""
 "This method is frozen and will eventually be deprecated. New code should use "
 "\"differential.revision.edit\" instead."
 msgstr ""
+"Diese Methode ist eingefroren und wird voraussichtlich veraltet sein. "
+"Neuer Code sollte stattdessen \"differential.revision.edit\" verwenden."
 
 msgid "Bad revision ID."
-msgstr ""
+msgstr "Ungültige Versions-ID."
 
 #, php-format
 msgid "Unsupported action \"%s\"."
-msgstr ""
+msgstr "Nicht unterstützte Aktion \"%s\"."
 
 msgid "Create a new Differential diff."
-msgstr ""
+msgstr "Einen neuen Differential-Diff erstellen."
 
-#, fuzzy
 msgid "Diff may not be empty."
-msgstr "Der Titel darf nicht leer bleiben."
+msgstr "Der Diff darf nicht leer sein."
 
-#, fuzzy
 msgid "You must specify a source path."
-msgstr "Du mußt eine Nachricht angeben."
+msgstr "Du musst einen Quellpfad angeben."
 
 msgid "Add an inline comment to a Differential revision."
-msgstr ""
+msgstr "Einen Inline-Kommentar zu einer Differential-Version hinzufügen."
 
 msgid "Bad diff ID, or diff does not belong to revision."
-msgstr ""
+msgstr "Ungültige Diff-ID oder Diff gehört nicht zur Version."
 
 msgid "Neither revision ID nor diff ID was provided."
-msgstr ""
+msgstr "Weder Versions-ID noch Diff-ID wurde angegeben."
 
 msgid "A file path was not provided."
-msgstr ""
+msgstr "Es wurde kein Dateipfad angegeben."
 
 msgid "Requested file doesn't exist in this revision."
-msgstr ""
+msgstr "Die angeforderte Datei existiert in dieser Version nicht."
 
 msgid "Create a new Differential diff from a raw diff source."
-msgstr ""
+msgstr "Einen neuen Differential-Diff aus einer Roh-Diff-Quelle erstellen."
 
 #, php-format
 msgid "No such repository \"%s\"!"
-msgstr ""
+msgstr "Kein solches Repository \"%s\"!"
 
 #, php-format
 msgid ""
 "The raw diff you have submitted is too large to parse (it affects more than "
 "%s paths and hunks)."
 msgstr ""
+"Der eingereichte Roh-Diff ist zu groß zum Parsen (er betrifft mehr als "
+"%s Pfade und Hunks)."
 
 msgid "Create a new Differential revision."
-msgstr ""
+msgstr "Eine neue Differential-Version erstellen."
 
 msgid "Bad diff ID."
-msgstr ""
+msgstr "Ungültige Diff-ID."
 
 msgid "Read information about diffs."
-msgstr ""
+msgstr "Informationen über Diffs lesen."
 
 msgid "Load all diffs for given revisions from Differential."
-msgstr ""
+msgstr "Alle Diffs für angegebene Versionen aus Differential laden."
 
 msgid "Retrieve Differential commit messages or message templates."
-msgstr ""
+msgstr "Differential-Commit-Nachrichten oder Nachrichtenvorlagen abrufen."
 
 #, php-format
 msgid ""
 "Commit message field \"%s\" was expected to render a string or null value, "
 "but rendered a \"%s\" instead."
 msgstr ""
+"Von Commit-Nachrichtenfeld \"%s\" wurde erwartet, dass es einen String- oder "
+"Null-Wert liefert, aber es lieferte stattdessen \"%s\"."
 
 msgid ""
 "Query which paths should be included when committing a Differential revision."
 msgstr ""
+"Abfragen, welche Pfade beim Einchecken einer Differential-Version einbezogen "
+"werden sollen."
 
 msgid "No such revision exists."
-msgstr ""
+msgstr "Diese Version existiert nicht."
 
-#, fuzzy
 msgid "Revision ID must be an integer."
-msgstr "%s muss eine ganze Zahl sein."
+msgstr "Die Versions-ID muss eine ganze Zahl sein."
 
 msgid "Load the content of a diff from Differential by revision ID or diff ID."
-msgstr ""
+msgstr "Den Inhalt eines Diffs aus Differential per Versions-ID oder Diff-ID laden."
 
 msgid "No such diff exists."
-msgstr ""
+msgstr "Dieser Diff existiert nicht."
 
 msgid "Retrieve a raw diff"
 msgstr "Einen Raw Diff ziehen"
@@ -18349,71 +18360,76 @@ msgid "Diff not found."
 msgstr "Diff nicht gefunden."
 
 msgid "Obsolete and doomed since 02/2014, see T2222."
-msgstr ""
+msgstr "Veraltet und zum Scheitern verurteilt seit 02/2014, siehe T2222."
 
 msgid "Retrieve Differential Revision Comments."
-msgstr ""
+msgstr "Kommentare zu Differential-Versionen abrufen."
 
 msgid "Load the content of a revision from Differential."
-msgstr ""
+msgstr "Den Inhalt einer Version aus Differential laden."
 
 msgid "Parse commit messages for Differential fields."
-msgstr ""
+msgstr "Commit-Nachrichten für Differential-Felder parsen."
 
 msgid "Query Differential revisions which match certain criteria."
-msgstr ""
+msgstr "Differential-Versionen nach bestimmten Kriterien durchsuchen."
 
 msgid ""
 "This method is frozen and will eventually be deprecated. New code should use "
 "\"differential.revision.search\" instead."
 msgstr ""
+"Diese Methode ist eingefroren und wird voraussichtlich veraltet sein. "
+"Neuer Code sollte stattdessen \"differential.revision.search\" verwenden."
 
 msgid "Missing or malformed parameter."
-msgstr ""
+msgstr "Fehlender oder fehlerhafter Parameter."
 
 msgid ""
 "Parameter \"paths\" to Conduit API method \"differential.query\" is no "
 "longer supported. Use the \"paths\" constraint to "
 "\"differential.revision.search\" instead. See T13639."
 msgstr ""
+"Der Parameter \"paths\" der Conduit-API-Methode \"differential.query\" wird "
+"nicht mehr unterstützt. Verwende stattdessen die \"paths\"-Einschränkung von "
+"\"differential.revision.search\". Siehe T13639."
 
 msgid "Query differential diffs which match certain criteria."
-msgstr "Differential Diffs nach bestimmten Kriterien durchsuchen"
+msgstr "Differential-Diffs nach bestimmten Kriterien durchsuchen."
 
 msgid ""
 "This method is frozen and will eventually be deprecated. New code should use "
 "\"differential.diff.search\" instead."
 msgstr ""
+"Diese Methode ist eingefroren und wird voraussichtlich veraltet sein. "
+"Neuer Code sollte stattdessen \"differential.diff.search\" verwenden."
 
 msgid "Apply transactions to create or update a revision."
-msgstr ""
+msgstr "Transaktionen zum Erstellen oder Aktualisieren einer Version anwenden."
 
 msgid "Read information about revisions."
-msgstr ""
+msgstr "Informationen über Versionen lesen."
 
 msgid "Attach properties to Differential diffs."
-msgstr ""
+msgstr "Eigenschaften an Differential-Diffs anhängen."
 
 msgid "Diff was not found."
-msgstr ""
+msgstr "Diff wurde nicht gefunden."
 
-#, fuzzy
 msgid "Name cannot be empty."
-msgstr "Der Titel darf nicht leer bleiben."
+msgstr "Der Name darf nicht leer sein."
 
 msgid "Update a Differential revision."
-msgstr ""
+msgstr "Eine Differential-Version aktualisieren."
 
 msgid "You are not the author of this revision."
-msgstr ""
+msgstr "Du bist nicht der Autor dieser Version."
 
 msgid "This revision has already been closed."
-msgstr ""
+msgstr "Diese Version ist bereits geschlossen."
 
 msgid "Configure Differential code review."
 msgstr "Differential Code Reviewer konfigurieren."
 
-#, fuzzy
 msgid ""
 "To include patches inline in email bodies, set this option to a positive\n"
 "integer. Patches will be inlined if they are at most that many lines and at\n"
@@ -18426,16 +18442,18 @@ msgid ""
 "By default, patches are not inlined.\n"
 "EOHELP"
 msgstr ""
-"Um Patches direkt in die Emails einzufügen, diesen Parameter auf eine "
-"positive\n"
-"ganze Zahl setzen. Patches werden direkt eingefügt, wenn sie maximal diese\n"
-"Anzahl Zeilen besitzen. Z.B. sagt ein Wert von 100 an: 'Patches bitte\n"
-"einfügen, so lange sie nicht mehr als 100 Zeilen haben'. Standardmäßig "
-"werden\n"
-"Patches nicht eingefügt."
+"Um Patches direkt in E-Mails einzufügen, diesen Parameter auf eine positive\n"
+"ganze Zahl setzen. Patches werden eingefügt, wenn sie maximal diese Anzahl\n"
+"Zeilen und maximal das 256-fache dieser Zahl an Bytes haben.\n"
+"\n"
+"Ein Wert von 100 bedeutet z.B.: \"Patches einfügen, wenn sie nicht mehr als\n"
+"100 Zeilen und nicht mehr als 25.600 Bytes groß sind\".\n"
+"\n"
+"Standardmäßig werden Patches nicht eingefügt.\n"
+"EOHELP"
 
 msgid "Select and reorder revision fields."
-msgstr ""
+msgstr "Versionsfelder auswählen und neu anordnen."
 
 msgid "Require 'Test Plan' field"
 msgstr "'Test Plan'-Feld zur Pflicht machen."
@@ -18494,15 +18512,23 @@ msgid ""
 "revisions. For instructions, see **[[ %s | Managing Caches ]]** in the "
 "documentation."
 msgstr ""
+"Liste von Datei-Regexen, die so behandelt werden sollen, als wären sie von "
+"einem automatischen Prozess generiert, und daher in Differential "
+"standardmäßig ausgeblendet werden.\n"
+"\n"
+"HINWEIS: Diese Eigenschaft wird gecacht. Nach Änderungen muss der Cache "
+"geleert werden, damit die neue Konfiguration bestehende Versionen betrifft. "
+"Anweisungen dazu findest Du in der Dokumentation unter **[[ %s | Caches "
+"verwalten ]]**."
 
 msgid "Accepts persist across updates"
-msgstr ""
+msgstr "Freigaben bleiben nach Updates erhalten"
 
 msgid "Accepts are reset by updates"
-msgstr ""
+msgstr "Freigaben werden durch Updates zurückgesetzt"
 
 msgid "Should \"Accepted\" revisions remain \"Accepted\" after updates?"
-msgstr ""
+msgstr "Sollen \"akzeptierte\" Versionen nach Updates \"akzeptiert\" bleiben?"
 
 msgid ""
 "Normally, when revisions that have been \"Accepted\" are updated, they "
@@ -18515,6 +18541,15 @@ msgid ""
 "the process for minor changes much more burdensome to both authors and "
 "reviewers."
 msgstr ""
+"Normalerweise bleiben Versionen, die \"akzeptiert\" wurden, nach Updates "
+"weiterhin \"akzeptiert\". Das erlaubt Reviewern, beim Akzeptieren kleinere "
+"Änderungen vorzuschlagen, und ermutigt Autoren, ihre Version bei kleinen "
+"Anpassungen als Reaktion auf Feedback zu aktualisieren.\n"
+"\n"
+"Wenn Updates stets eine erneute Überprüfung erfordern sollen, kannst Du die "
+"\"Klebrigkeit\" des Status \"Akzeptiert\" mit dieser Option deaktivieren. "
+"Das kann den Prozess für kleinere Änderungen für Autoren und Reviewer "
+"deutlich aufwändiger machen."
 
 msgid "Allow self-accept"
 msgstr "Versionen selbst freischalten"
@@ -18531,6 +18566,11 @@ msgid ""
 "it proves useful if you are working alone on a project and want to make use "
 "of all of differential's features."
 msgstr ""
+"Wenn Du diesen Wert auf 'true' setzt, können Benutzer ihre eigenen Versionen "
+"akzeptieren. Diese Funktion ist standardmäßig deaktiviert, da es sich "
+"wahrscheinlich nicht um das gewünschte Verhalten handelt. Sie kann jedoch "
+"nützlich sein, wenn Du allein an einem Projekt arbeitest und alle Funktionen "
+"von Differential nutzen möchtest."
 
 msgid "Allow any user"
 msgstr "Alle Benutzer erlauben"
@@ -18539,7 +18579,7 @@ msgid "Restrict to submitter"
 msgstr "Auf Einreicher beschränken"
 
 msgid "Allows any user to close accepted revisions."
-msgstr "Erlaube allen Benutzern akzeptierte Versionen zu schließen."
+msgstr "Jedem Benutzer erlauben, akzeptierte Versionen zu schließen."
 
 msgid ""
 "If you set this to true, any user can close any revision so long as it has "
@@ -18548,20 +18588,22 @@ msgid ""
 "committer can benefit from turning this option to true. If false, only the "
 "submitter can close a revision."
 msgstr ""
-"Wenn Du diesen Wert auf 'true' setzt, kann jeder Benutzer eine Version\n"
-"abschließen, vorausgesetzt diese wurde akzeptiert. Das kann je nach\n"
-"Entwicklungsmodell durchaus nützlich sein. Z.B., pull requests im Stile\n"
-"von github, bei denen der Reviewer identisch mit der Person ist, die den\n"
-"Commit absetzt, werden durch diese Option erleichtert. Wenn die Option auf\n"
-"'false' gesetzt ist, kann nur der Submitter eine Version abschließen."
+"Wenn Du diesen Wert auf 'true' setzt, kann jeder Benutzer eine Version "
+"abschließen, vorausgesetzt diese wurde akzeptiert. Das kann je nach "
+"Entwicklungsmodell nützlich sein. Z.B. können github-ähnliche Pull Requests, "
+"bei denen der Reviewer oft die Person ist, die den Commit absetzt, von dieser "
+"Option profitieren. Wenn die Option auf 'false' gesetzt ist, kann nur der "
+"Einreicher eine Version schließen."
 
 msgid "Allows any user to abandon revisions."
-msgstr ""
+msgstr "Jedem Benutzer erlauben, Versionen aufzugeben."
 
 msgid ""
 "If you set this to true, any user can abandon any revision. If false, only "
 "the submitter can abandon a revision."
 msgstr ""
+"Wenn Du diesen Wert auf 'true' setzt, kann jeder Benutzer eine Version "
+"aufgeben. Wenn false, kann nur der Einreicher eine Version aufgeben."
 
 msgid "Enable reopen"
 msgstr "Erneutes Öffnen aktivieren"
@@ -18570,7 +18612,7 @@ msgid "Disable reopen"
 msgstr "Erneutes Öffnen deaktivieren"
 
 msgid "Allows any user to reopen a closed revision."
-msgstr "Jedem Benutzer erlauben, eine abgeschlossen Version wieder zu öffnen."
+msgstr "Jedem Benutzer erlauben, eine geschlossene Version wieder zu öffnen."
 
 msgid ""
 "If you set this to true, any user can reopen a revision so long as it has "
@@ -18578,15 +18620,20 @@ msgid ""
 "developer changes his or her mind after closing a revision. If it is false, "
 "reopening is not allowed."
 msgstr ""
+"Wenn Du diesen Wert auf 'true' setzt, kann jeder Benutzer eine Version "
+"wieder öffnen, solange sie geschlossen ist. Das kann nützlich sein, wenn "
+"eine Version versehentlich geschlossen wurde oder wenn ein Entwickler nach "
+"dem Schließen seine Meinung ändert. Wenn false, ist das Wiedereröffnen "
+"nicht erlaubt."
 
 msgid "Treat Accepted Revisions as \"Closed\""
-msgstr ""
+msgstr "Akzeptierte Versionen als \"Geschlossen\" behandeln"
 
 msgid "Treat Accepted Revisions as \"Open\""
-msgstr ""
+msgstr "Akzeptierte Versionen als \"Offen\" behandeln"
 
 msgid "Allows \"Accepted\" to act as a closed status."
-msgstr ""
+msgstr "Erlaubt \"Akzeptiert\" als geschlossenen Status zu fungieren."
 
 msgid ""
 "Normally, Differential revisions remain on the dashboard when they are "
@@ -18601,6 +18648,17 @@ msgid ""
 "This sort of workflow is very unusual. Very few installs should need to "
 "change this option."
 msgstr ""
+"Normalerweise verbleiben Differential-Versionen im Dashboard, wenn sie "
+"\"akzeptiert\" sind, und der Autor schiebt dann die Änderungen ein, um die "
+"Version zu \"schließen\" und vom Dashboard zu entfernen.\n"
+"\n"
+"Wenn Du einen ungewöhnlichen Workflow verwendest, bei dem Differential für "
+"Post-Commit-Reviews (andernorts normalerweise \"Audit\" genannt) eingesetzt "
+"wird, kannst Du dieses Flag setzen, um den Status \"Akzeptiert\" als "
+"\"Geschlossen\" zu behandeln und den Review-Workflow früh zu beenden.\n"
+"\n"
+"Dieser Workflow ist sehr ungewöhnlich. Nur sehr wenige Installationen "
+"sollten diese Option ändern müssen."
 
 msgid "Attach Patches"
 msgstr "Patches anhängen"
@@ -18611,109 +18669,105 @@ msgstr "Keine Patches anhängen."
 msgid "Attach patches to email, as text attachments."
 msgstr "Patch Email-Anhänge als Textanhänge codieren."
 
-#, fuzzy
 msgid ""
 "If you set this to true, patches will be attached to Differential mail (as "
 "text attachments). This will not work if you are using SendGrid as your mail "
 "adapter."
 msgstr ""
-"Wenn Du diesen Wert auf 'true' setzt, wird Phabricator an die Differential\n"
-"Emails die betreffenden Patches als Datei Anhängen (genau genommen als\n"
-"Text-Anhänge). Das wird allerdings nicht funktionieren, wenn Du SendGrid\n"
-"als Mail Adapter verwendest."
+"Wenn Du diesen Wert auf 'true' setzt, werden Patches an Differential-"
+"E-Mails angehängt (als Text-Anhänge). Das funktioniert nicht, wenn Du "
+"SendGrid als Mail-Adapter verwendest."
 
 msgid "Inline patches in email, as body text."
 msgstr ""
 "Patches an die Emails anfügen, allerdings direkt in die Email nicht als "
 "Anhang."
 
-#, fuzzy
 msgid "Format for inlined or attached patches."
 msgstr ""
 "Das Format, in dem eingefügte oder angehängte Patches aufbereitet werden: "
 "'git' oder 'unified'."
 
-#, fuzzy
 msgid "Unified"
-msgstr "Nicht verifiziert"
+msgstr "Unified"
 
 msgid "Git"
-msgstr ""
+msgstr "Git"
 
 #, php-format
 msgid "%s commented on this revision."
-msgstr ""
+msgstr "%s hat diese Version kommentiert."
 
 #, php-format
 msgid "%s accepted this revision."
-msgstr ""
+msgstr "%s hat diese Version akzeptiert."
 
 #, php-format
 msgid "%s requested changes to this revision."
-msgstr ""
+msgstr "%s hat Änderungen an dieser Version angefordert."
 
 #, php-format
 msgid "%s planned changes to this revision."
-msgstr ""
+msgstr "%s hat Änderungen an dieser Version geplant."
 
 #, php-format
 msgid "%s abandoned this revision."
-msgstr ""
+msgstr "%s hat diese Version aufgegeben."
 
 #, php-format
 msgid "%s closed this revision."
-msgstr ""
+msgstr "%s hat diese Version geschlossen."
 
 #, php-format
 msgid "%s requested a review of this revision."
-msgstr ""
+msgstr "%s hat einen Review dieser Version angefordert."
 
 #, php-format
 msgid "%s reclaimed this revision."
-msgstr ""
+msgstr "%s hat diese Version wieder eingereicht."
 
 #, php-format
 msgid "%s updated this revision."
-msgstr ""
+msgstr "%s hat diese Version aktualisiert."
 
 #, php-format
 msgid "%s resigned from this revision."
-msgstr ""
+msgstr "%s hat als Reviewer bei dieser Version hingeschmissen."
 
 #, php-format
 msgid "%s summarized this revision."
-msgstr ""
+msgstr "%s hat diese Version zusammengefasst."
 
 #, php-format
 msgid "%s explained the test plan for this revision."
-msgstr ""
+msgstr "%s hat den Testplan für diese Version erklärt."
 
 #, php-format
 msgid "%s created this revision."
-msgstr ""
+msgstr "%s hat diese Version erstellt."
 
 #, php-format
 msgid "%s added reviewers to this revision."
-msgstr ""
+msgstr "%s hat Reviewer zu dieser Version hinzugefügt."
 
 #, php-format
 msgid "%s added CCs to this revision."
-msgstr ""
+msgstr "%s hat Mitleser zu dieser Version hinzugefügt."
 
 #, php-format
 msgid "%s commandeered this revision."
-msgstr ""
+msgstr "%s hat diese Version übernommen."
 
 #, php-format
 msgid "%s reopened this revision."
-msgstr ""
+msgstr "%s hat diese Version wieder geöffnet."
 
 #, php-format
 msgid "%s added an inline comment."
-msgstr ""
+msgstr "%s hat einen Inline-Kommentar hinzugefügt."
 
 msgid "Ghosts happened to this revision."
-msgstr ""
+msgstr "Diese Version wird von Geistern heimgesucht. Wen rufst Du an?"
 
 msgid "Modified"
 msgstr "Verändert"
@@ -18742,107 +18796,95 @@ msgstr "Commit Nachricht"
 msgid "Contents Modified"
 msgstr "Inhalte verändert"
 
-#, fuzzy
 msgid "Constants: Differential"
-msgstr "Differential"
+msgstr "Differential-Konstanten"
 
-#, fuzzy
 msgid "Legacy Value"
-msgstr "Neuer Wert"
+msgstr "Veralteter Wert"
 
 msgid "Timeline Icon"
-msgstr ""
+msgstr "Zeitleisten-Symbol"
 
-#, fuzzy
 msgid "Tag Color"
-msgstr "Flaggenfarbe"
+msgstr "Tag-Farbe"
 
-#, fuzzy
 msgid "ANSI Color"
-msgstr "Farbe"
+msgstr "ANSI-Farbe"
 
-#, fuzzy
 msgid "Open/Closed"
-msgstr "Geschlossen"
+msgstr "Offen/Geschlossen"
 
-#, fuzzy
 msgid "Differential Revision Statuses"
-msgstr "Differential Version"
+msgstr "Differential-Versionsstatus"
 
-#, fuzzy
 msgid "Differential Unit Statuses"
-msgstr "Differential Version"
+msgstr "Differential-Unit-Status"
 
-#, fuzzy
 msgid "Differential Lint Statuses"
-msgstr "Differential Version"
+msgstr "Differential-Lint-Status"
 
 #, php-format
 msgid "Unknown revision status filter constant \"%s\"."
-msgstr ""
+msgstr "Unbekannte Versionsstatus-Filterkonstante \"%s\"."
 
-#, fuzzy, php-format
+#, php-format
 msgid "Unknown Lint Status (\"%s\")"
-msgstr "Unbekannter Status"
+msgstr "Unbekannter Lint-Status (\"%s\")"
 
 msgid "No Lint Coverage"
-msgstr ""
+msgstr "Keine Lint-Abdeckung"
 
 msgid "Lint Passed"
-msgstr ""
+msgstr "Lint bestanden"
 
 msgid "Lint Warnings"
-msgstr ""
+msgstr "Lint-Warnungen"
 
 msgid "Lint Errors"
-msgstr ""
+msgstr "Lint-Fehler"
 
 msgid "Lint Skipped"
-msgstr ""
+msgstr "Lint übersprungen"
 
-#, fuzzy
 msgid "Lint Not Applicable"
-msgstr "Konto nicht verknüpfbar"
+msgstr "Lint nicht anwendbar"
 
 msgid "Needs Review"
-msgstr ""
+msgstr "Reviewer fehlt"
 
 msgid "Needs Revision"
-msgstr ""
+msgstr "Änderungen notwendig"
 
 msgid "Changes Planned"
-msgstr ""
+msgstr "Änderungen in Arbeit"
 
 msgid "Abandoned"
-msgstr "Aufgegeben"
+msgstr "Zurückgezogen"
 
 msgid "Draft"
 msgstr "Entwurf"
 
-#, fuzzy, php-format
+#, php-format
 msgid "Unknown Unit Status (\"%s\")"
-msgstr "Unbekannter Status"
+msgstr "Unbekannter Unit-Status (\"%s\")"
 
 msgid "No Test Coverage"
-msgstr ""
+msgstr "Keine Test-Abdeckung"
 
-#, fuzzy
 msgid "Tests Passed"
-msgstr "Testpfade"
+msgstr "Tests bestanden"
 
-#, fuzzy
 msgid "Test Warnings"
-msgstr "%d Warnung(en)"
+msgstr "Test-Warnungen"
 
-#, fuzzy
 msgid "Test Failures"
-msgstr "Anmeldung fehlgeschlagen"
+msgstr "Test-Fehler"
 
 msgid "Tests Skipped"
-msgstr ""
+msgstr "Tests übersprungen"
 
 msgid "Tests Not Applicable"
-msgstr ""
+msgstr "Tests nicht anwendbar"
 
 #, php-format
 msgid "Diff %d"
@@ -18853,7 +18895,7 @@ msgstr "Changeset Ansicht"
 
 #, php-format
 msgid "Lint: %s"
-msgstr ""
+msgstr "Lint: %s"
 
 msgid "Left"
 msgstr "Links"
@@ -18863,25 +18905,29 @@ msgstr "Rechts"
 
 #, php-format
 msgid "%s (Diff %d)"
-msgstr ""
+msgstr "%s (Diff %d)"
 
 msgid ""
 "You can not create an empty diff. Paste a diff or upload a file containing a "
 "diff."
 msgstr ""
+"Du kannst keinen leeren Diff erstellen. Füge einen Diff ein oder lade eine "
+"Datei mit einem Diff hoch."
 
 #, php-format
 msgid "The best way to create a diff is to use the %s command-line tool."
-msgstr ""
+msgstr "Der beste Weg, einen Diff zu erstellen, ist der %s Kommandozeilenwerkzeug."
 
 #, php-format
 msgid ""
 "You can also paste a diff above, or upload a file containing a diff (for "
 "example, from %s, %s or %s)."
 msgstr ""
+"Du kannst auch einen Diff oben einfügen oder eine Datei mit einem Diff "
+"hochladen (zum Beispiel von %s, %s oder %s)."
 
 msgid "Update Diff"
-msgstr ""
+msgstr "Diff aktualisieren"
 
 msgid "Create Diff"
 msgstr "Neues Diff"
@@ -18890,7 +18936,7 @@ msgid "Create New Diff"
 msgstr "Neues Diff erzeugen"
 
 msgid "Updating Revision"
-msgstr ""
+msgstr "Version wird aktualisiert"
 
 msgid "Raw Diff"
 msgstr "Raw Diff"
@@ -18923,63 +18969,69 @@ msgstr "Diff Ansehen"
 
 #, php-format
 msgid "Invalid revision ID \"%s\"."
-msgstr ""
+msgstr "Ungültige Versions-ID \"%s\"."
 
 #, php-format
 msgid "Invalid changeset ID \"%s\"!"
-msgstr ""
+msgstr "Ungültige Changeset-ID \"%s\"!"
 
 #, php-format
 msgid ""
 "Changeset ID \"%s\" is part of diff ID \"%s\", but that diff is attached to "
 "revision \"%s\", not revision \"%s\"."
 msgstr ""
+"Changeset-ID \"%s\" gehört zu Diff-ID \"%s\", aber dieser Diff ist der "
+"Version \"%s\" zugeordnet, nicht Version \"%s\"."
 
 #, php-format
 msgid "Unable to load inline \"%d\"."
-msgstr ""
+msgstr "Inline \"%d\" konnte nicht geladen werden."
 
 msgid "Unable to load changeset."
-msgstr ""
+msgstr "Changeset konnte nicht geladen werden."
 
 msgid "Unable to load diff."
-msgstr ""
+msgstr "Diff konnte nicht geladen werden."
 
 msgid "Unable to load revision."
-msgstr ""
+msgstr "Version konnte nicht geladen werden."
 
 msgid ""
 "You are not the revision owner, and this is not a draft comment you authored."
 msgstr ""
+"Du bist nicht der Eigentümer dieser Version und dies ist kein "
+"Entwurfskommentar von Dir."
 
-#, fuzzy
 msgid "This revision has no indexed affected paths."
-msgstr "Dieses Repository hat keine Branches."
+msgstr "Diese Version hat keine indizierten betroffenen Pfade."
 
-#, fuzzy
 msgid "Repository ID"
-msgstr "Repository"
+msgstr "Repository-ID"
 
-#, fuzzy
 msgid "Path ID"
-msgstr "Pfad"
+msgstr "Pfad-ID"
 
 msgid "Affected Path Index"
-msgstr ""
+msgstr "Index betroffener Pfade"
 
 msgid "Commit Close Explanation"
-msgstr ""
+msgstr "Erklärung zum Commit-Abschluss"
 
 msgid ""
 "This commit was made before this feature was built and thus this information "
 "is unavailable."
 msgstr ""
+"Dieser Commit wurde erstellt, bevor diese Funktion implementiert wurde. "
+"Daher ist diese Information nicht verfügbar."
 
 #, php-format
 msgid ""
 "We found a \"%s\" field with value \"%s\" in the commit message, and the "
 "domain on the URI matches this install, so we linked this commit to %s."
 msgstr ""
+"Wir haben ein Feld \"%s\" mit dem Wert \"%s\" in der Commit-Nachricht "
+"gefunden, und die Domain der URI stimmt mit dieser Installation überein, "
+"daher wurde dieser Commit mit %s verknüpft."
 
 #, php-format
 msgid ""
@@ -18988,42 +19040,43 @@ msgid ""
 "\"%s\", so we ignored it under the assumption that it refers to some third-"
 "party revision."
 msgstr ""
+"Wir haben ein Feld \"%s\" mit dem Wert \"%s\" in der Commit-Nachricht "
+"gefunden, aber die Domain dieser URI stimmt nicht mit der konfigurierten "
+"Domain dieser Installation überein (\"%s\"), daher wurde sie ignoriert, da "
+"sie vermutlich auf eine externe Version verweist."
 
 #, php-format
 msgid "We didn't find a \"%s\" field in the commit message."
-msgstr ""
+msgstr "Wir haben kein Feld \"%s\" in der Commit-Nachricht gefunden."
 
 #, php-format
 msgid ""
 "This commit and the active diff of %s had the same %s hash (%s) so we linked "
 "this commit to %s."
 msgstr ""
+"Dieser Commit und der aktive Diff von %s haben denselben %s-Hash (%s), "
+"daher wurde dieser Commit mit %s verknüpft."
 
 msgid "Diff Already Attached"
-msgstr ""
+msgstr "Diff bereits zugeordnet"
 
-#, fuzzy
 msgid "This diff is already attached to a revision."
-msgstr "Dieses Diff hängt an einer bestimmten Version und erbt deren Policies."
+msgstr "Dieser Diff ist bereits einer Version zugeordnet."
 
-#, fuzzy
 msgid "Diff Required"
-msgstr "Pflichtfeld"
+msgstr "Diff erforderlich"
 
-#, fuzzy
 msgid "You can not create a revision without a diff."
-msgstr "Du kannst kein leeres Dokument erstellen"
+msgstr "Du kannst eine Version nicht ohne Diff erstellen."
 
 msgid "Inline Comments"
 msgstr "Inline Kommentare"
 
-#, fuzzy
 msgid "Inlines"
-msgstr "Inline Kommentare"
+msgstr "Inline-Kommentare"
 
-#, fuzzy
 msgid "Back to Revision"
-msgstr "Schuld für Release zuweisen"
+msgstr "Zurück zur Version"
 
 msgid "Current"
 msgstr "Aktiv"
@@ -19032,103 +19085,101 @@ msgid "Diff"
 msgstr "Diff"
 
 msgid "Reviewer"
-msgstr ""
+msgstr "Reviewer"
 
-#, fuzzy
 msgid "You must select a branch to land this revision onto."
-msgstr "Du mußt einen Panel-Typ auswählen."
+msgstr "Du musst einen Branch auswählen, auf dem diese Version landet."
 
 msgid ""
 "You must select a branch from this repository to land this revision onto."
 msgstr ""
+"Du musst einen Branch aus diesem Repository auswählen, auf dem diese Version "
+"landet."
 
 msgid "(NOTE) This feature is new and experimental."
-msgstr ""
+msgstr "(HINWEIS) Diese Funktion ist neu und experimentell."
 
-#, fuzzy
 msgid "Onto Branch"
-msgstr "Branch schneiden"
+msgstr "Zielbranch"
 
-#, fuzzy
 msgid "Land Revision"
-msgstr "Version aufgeben"
+msgstr "Version einbringen"
 
-#, fuzzy
 msgid "Mentions"
-msgstr "Weitere Optionen"
+msgstr "Erwähnungen"
 
 msgid "This revision has no diffs. Something has gone quite wrong."
-msgstr ""
+msgstr "Diese Version hat keine Diffs. Irgendwas ist hier grundlegend schiefgelaufen."
 
 #, php-format
 msgid ""
 "This large diff affects %s files. Files without inline comments have been "
 "collapsed."
 msgstr ""
+"Dieser große Diff betrifft %s Dateien. Dateien ohne Inline-Kommentare wurden "
+"eingeklappt."
 
-#, fuzzy
 msgid "Expand All Files"
-msgstr "Datei Zeigen"
+msgstr "Alle Dateien ausklappen"
 
-#, fuzzy
 msgid "Large Diff"
-msgstr "Sehr Große Änderung"
+msgstr "Großer Diff"
 
-#, fuzzy
 msgid "Showing Only Differences"
-msgstr "Nur aktive Projekte zeigen"
+msgstr "Nur Unterschiede angezeigt"
 
 #, php-format
 msgid ""
 "This revision modifies %s more files that are hidden because they were not "
 "modified between selected diffs and they have no inline comments."
 msgstr ""
+"Diese Version ändert %s weitere Dateien, die ausgeblendet sind, weil sie "
+"zwischen den ausgewählten Diffs nicht geändert wurden und keine "
+"Inline-Kommentare haben."
 
-#, fuzzy
 msgid "Changeset List"
-msgstr "Changeset Ansicht"
+msgstr "Changeset-Liste"
 
-#, fuzzy, php-format
+#, php-format
 msgid ""
 "This very large diff affects more than %s files. Use the %s to browse "
 "changes."
 msgstr ""
-"Dieser Commit ist gigantisch und verändert mehr als %d Dateien. Änderungen "
-"werden daher nicht angezeigt."
+"Dieser sehr große Diff betrifft mehr als %s Dateien. Verwende %s, um die "
+"Änderungen zu durchsuchen."
 
 #, php-format
 msgid "Diff %s"
-msgstr ""
+msgstr "Diff %s"
 
 msgid "Files"
 msgstr "Dateien"
 
 msgid "Commits"
-msgstr ""
+msgstr "Commits"
 
 #, php-format
 msgid "Stack (%s Open)"
-msgstr ""
+msgstr "Stack (%s offen)"
 
 msgid "Stack"
-msgstr ""
+msgstr "Stack"
 
-#, fuzzy
 msgid "Similar"
-msgstr "Ähnliche Aufgabe"
+msgstr "Ähnliche Versionen"
 
-#, fuzzy
 msgid "Revision Contents"
-msgstr "Versionen"
+msgstr "Versionsinhalt"
 
-#, fuzzy
 msgid "Content Hidden"
-msgstr "Inhalt"
+msgstr "Inhalt ausgeblendet"
 
 msgid ""
 "The content of this revision is hidden until the author has signed all of "
 "the required legal agreements."
 msgstr ""
+"Der Inhalt dieser Version ist ausgeblendet, bis der Autor alle "
+"erforderlichen rechtlichen Vereinbarungen unterzeichnet hat."
 
 msgid "Edit Revision"
 msgstr "Version editieren"
@@ -19136,151 +19187,155 @@ msgstr "Version editieren"
 msgid "Download Raw Diff"
 msgstr "Raw Diff herunterladen"
 
-#, fuzzy
 msgid "Edit Related Revisions..."
-msgstr "Version editieren"
+msgstr "Verknüpfte Versionen bearbeiten..."
 
-#, fuzzy
 msgid "Recent Similar Revisions"
-msgstr "Version an sich reißen"
+msgstr "Ähnliche kürzliche Versionen"
 
 msgid "Diff Detail"
-msgstr ""
+msgstr "Diff-Details"
 
-#, fuzzy
 msgid "Active Operations"
-msgstr "Aktive Versionen"
+msgstr "Aktive Operationen"
 
-#, fuzzy
 msgid "No Actions"
-msgstr "Aktionen"
+msgstr "Keine Aktionen"
 
 msgid ""
 "Showing all changes because you have never taken an action on this revision."
-msgstr ""
+msgstr "Alle Änderungen werden angezeigt, da Du noch keine Aktion zu dieser Version ausgeführt hast."
 
-#, fuzzy
 msgid "No Recent Updates"
-msgstr "Neueste Aufträge"
+msgstr "Keine kürzlichen Aktualisierungen"
 
 msgid ""
 "Showing all changes because the diff for this revision has not been updated "
 "since your last action."
 msgstr ""
+"Alle Änderungen werden angezeigt, da der Diff dieser Version seit Deiner "
+"letzten Aktion nicht aktualisiert wurde."
 
-#, fuzzy
 msgid "New Changes Shown"
-msgstr "Nächste Änderung »"
+msgstr "Neue Änderungen angezeigt"
 
 msgid "Showing changes since the last action you took on this revision."
-msgstr ""
+msgstr "Änderungen seit Deiner letzten Aktion zu dieser Version."
 
 msgid "In Asana"
-msgstr ""
+msgstr "In Asana"
 
 msgid "Shows revision representation in Asana."
-msgstr ""
+msgstr "Zeigt die Darstellung der Version in Asana."
 
 msgid "Asana Task Deleted"
-msgstr "Asana Aufgabe gelöscht"
+msgstr "Asana-Aufgabe gelöscht"
 
 msgid "Allows commits to trigger audits explicitly."
-msgstr ""
+msgstr "Erlaubt es Commits, Audits explizit auszulösen."
 
 msgid "Blame Revision"
-msgstr "Schuld für Release zuweisen"
+msgstr "Schuldige Version"
 
 msgid "Stores a reference to what this fixes."
-msgstr ""
+msgstr "Speichert einen Verweis auf das, was hiermit behoben wird."
 
 #, php-format
 msgid "%s updated the blame revision for this revision."
-msgstr ""
+msgstr "%s hat die schuldige Version für diese Version aktualisiert."
 
 #, php-format
 msgid "%s updated the blame revision for %s."
-msgstr ""
+msgstr "%s hat die schuldige Version für %s aktualisiert."
 
 msgid "Branch"
 msgstr "Branch"
 
 msgid "Shows the branch a diff came from."
-msgstr ""
+msgstr "Zeigt den Branch an, aus dem ein Diff stammt."
 
 #, php-format
 msgid "%s (bookmark) on %s (branch)"
-msgstr ""
+msgstr "%s (Lesezeichen) auf %s (Branch)"
 
 #, php-format
 msgid "%s (bookmark)"
-msgstr ""
+msgstr "%s (Lesezeichen)"
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s (branched from %s)"
-msgstr "%s hat %s von %s an %s übergeben."
+msgstr "%s (abgezweigt von %s)"
 
 #, php-format
 msgid ""
 "In Git and Mercurial, use a branch like \"%s\" to automatically associate "
 "changes with the corresponding task."
 msgstr ""
+"In Git und Mercurial kannst Du einen Branch wie \"%s\" verwenden, um "
+"Änderungen automatisch der entsprechenden Aufgabe zuzuordnen."
 
 msgid "BRANCH"
-msgstr ""
+msgstr "BRANCH"
 
 msgid "Changes Since Last Update"
-msgstr ""
+msgstr "Änderungen seit letzter Aktualisierung"
 
 msgid "Links to changes since the last update in email."
-msgstr ""
+msgstr "Verlinkt in E-Mails auf Änderungen seit der letzten Aktualisierung."
 
 msgid "CHANGES SINCE LAST UPDATE"
-msgstr ""
+msgstr "ÄNDERUNGEN SEIT LETZTER AKTUALISIERUNG"
 
 msgid "Shows associated commits."
-msgstr ""
+msgstr "Zeigt zugehörige Commits an."
 
 msgid "Show a warning about draft revisions."
-msgstr ""
+msgstr "Zeigt eine Warnung zu Entwurfsversionen an."
 
 msgid "This is a draft revision that has not yet been submitted for review."
-msgstr ""
+msgstr "Dies ist eine Entwurfsversion, die noch nicht zur Überprüfung eingereicht wurde."
 
 #, php-format
 msgid ""
 "This draft revision will not be submitted for review because %s build(s) "
 "failed: %s."
 msgstr ""
+"Diese Entwurfsversion wird nicht zur Überprüfung eingereicht, da %s Build(s) "
+"fehlgeschlagen sind: %s."
 
 msgid "Fix build failures and update the revision."
-msgstr ""
+msgstr "Behebe die Build-Fehler und aktualisiere die Version."
 
 #, php-format
 msgid "This draft revision will be sent for review once %s build(s) pass: %s."
-msgstr ""
+msgstr "Diese Entwurfsversion wird zur Überprüfung gesendet, sobald %s Build(s) erfolgreich sind: %s."
 
 msgid ""
 "This revision is currently a draft. You can leave comments, but no one will "
 "be notified until the revision is submitted for review."
 msgstr ""
+"Diese Version ist derzeit ein Entwurf. Du kannst Kommentare hinterlassen, "
+"aber niemand wird benachrichtigt, bis die Version zur Überprüfung eingereicht wurde."
 
 msgid "Shows the local host where the diff came from."
-msgstr ""
+msgstr "Zeigt den lokalen Rechner an, von dem der Diff stammt."
 
 msgid "JIRA Issues"
 msgstr "JIRA Tickets"
 
 msgid "Lists associated JIRA issues."
-msgstr ""
+msgstr "Listet zugehörige JIRA-Tickets auf."
 
 msgid "Not Linked"
-msgstr ""
+msgstr "Nicht verknüpft"
 
 #, php-format
 msgid ""
 "You can not add JIRA issues (%s) to this revision because your %s account is "
 "not linked to a JIRA account."
 msgstr ""
+"Du kannst dieser Version keine JIRA-Tickets (%s) hinzufügen, da Dein %s-Konto "
+"nicht mit einem JIRA-Konto verknüpft ist."
 
 #, php-format
 msgid ""
@@ -19290,220 +19345,223 @@ msgstr ""
 "Einige der JIRA Tickets konnten nicht geladen werden. Möglicherweise "
 "existieren sie nicht, oder Du hast keine Berechtigung, sie Dir anzusehen: %s"
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s updated JIRA issue(s): added %s: %s; removed %s: %s."
-msgstr "%s hat Dateien geändert, %s hinzugefügt: %s; %s entfernt: %s."
+msgstr "%s hat JIRA-Ticket(s) aktualisiert: %s hinzugefügt: %s; %s entfernt: %s."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s added %s JIRA issue(s): %s."
-msgstr "%s hat %s Dateien hinzugefügt: %s."
+msgstr "%s hat %s JIRA-Ticket(s) hinzugefügt: %s."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s removed %s JIRA issue(s): %s."
-msgstr "%s hat %s Dateien entfernt: %s."
+msgstr "%s hat %s JIRA-Ticket(s) entfernt: %s."
 
 msgid "Lint"
 msgstr "Lint"
 
 msgid "Shows lint results."
-msgstr ""
+msgstr "Zeigt Lint-Ergebnisse an."
 
 msgid "Lint was skipped when generating these changes."
-msgstr ""
+msgstr "Lint wurde bei der Erzeugung dieser Änderungen übersprungen."
 
 msgid "These changes have lint problems."
-msgstr ""
+msgstr "Diese Änderungen haben Lint-Probleme."
 
 msgid "Maniphest Tasks"
 msgstr "Maniphest Aufgaben"
 
 msgid "Lists associated tasks."
-msgstr ""
+msgstr "Listet zugehörige Aufgaben auf."
 
 msgid "Shows the local path where the diff came from."
-msgstr ""
+msgstr "Zeigt den lokalen Pfad an, von dem der Diff stammt."
 
-#, fuzzy
 msgid "Group Reviewers"
-msgstr "Projekt Reviewer"
+msgstr "Reviewer gruppieren"
 
 msgid "Display project reviewers."
-msgstr ""
+msgstr "Zeigt Projekt-Reviewer an."
 
 msgid "Associates a revision with a repository."
-msgstr ""
+msgstr "Verknüpft eine Version mit einem Repository."
 
 msgid "REPOSITORY"
-msgstr ""
+msgstr "REPOSITORY"
 
-#, fuzzy, php-format
+#, php-format
 msgid "Repository: %s"
-msgstr "Repository"
+msgstr "Repository: %s"
 
 msgid "Required Signatures"
-msgstr ""
+msgstr "Erforderliche Unterschriften"
 
 msgid "Display required legal agreements."
-msgstr ""
+msgstr "Zeigt erforderliche rechtliche Vereinbarungen an."
 
 msgid ""
 "The author of this revision has not signed all the required legal documents. "
 "The revision can not be accepted until the documents are signed."
 msgstr ""
+"Der Autor dieser Version hat nicht alle erforderlichen rechtlichen Dokumente "
+"unterzeichnet. Die Version kann erst angenommen werden, wenn die Dokumente "
+"unterschrieben sind."
 
 msgid ""
 "This revision can not be accepted until the required legal agreements have "
 "been signed."
 msgstr ""
+"Diese Version kann erst angenommen werden, wenn die erforderlichen "
+"rechtlichen Vereinbarungen unterzeichnet wurden."
 
 msgid "Revert Plan"
-msgstr ""
+msgstr "Rücknahmeplan"
 
 msgid "Instructions for reverting/undoing this change."
-msgstr ""
+msgstr "Anweisungen zum Zurücknehmen dieser Änderung."
 
 #, php-format
 msgid "%s updated the revert plan for this revision."
-msgstr ""
+msgstr "%s hat den Rücknahmeplan für diese Version aktualisiert."
 
 #, php-format
 msgid "%s updated the revert plan for %s."
-msgstr ""
+msgstr "%s hat den Rücknahmeplan für %s aktualisiert."
 
 msgid "Reviewers"
 msgstr "Reviewer"
 
 msgid "Manage reviewers."
-msgstr ""
+msgstr "Reviewer verwalten."
 
 msgid "This revision needs review, but there are no reviewers specified."
-msgstr ""
+msgstr "Diese Version wartet auf Überprüfung, aber es sind keine Reviewer angegeben."
 
 msgid ""
 "This revision needs review, but all specified reviewers are disabled or "
 "inactive."
 msgstr ""
+"Diese Version wartet auf Überprüfung, aber alle angegebenen Reviewer sind "
+"deaktiviert oder inaktiv."
 
 msgid "This revision needs review, but all reviewers have resigned."
-msgstr ""
+msgstr "Diese Version wartet auf Review, aber alle Reviewer haben hingeschmissen."
 
 msgid ""
 "This revision needs review, but no reviewers have permission to view it."
 msgstr ""
+"Diese Version wartet auf Überprüfung, aber kein Reviewer hat die Berechtigung, "
+"sie einzusehen."
 
 msgid "Stores a summary of the revision."
-msgstr ""
+msgstr "Speichert eine Zusammenfassung der Version."
 
 msgid "REVISION SUMMARY"
-msgstr ""
+msgstr "VERSIONSZUSAMMENFASSUNG"
 
 msgid "Test Plan"
 msgstr "Testplan"
 
 msgid "Actions performed to verify the behavior of the change."
-msgstr ""
+msgstr "Maßnahmen zur Überprüfung des Verhaltens der Änderung."
 
 msgid "TEST PLAN"
-msgstr ""
+msgstr "TESTPLAN"
 
 msgid "Unit"
 msgstr "Unit"
 
 msgid "Shows unit test results."
-msgstr ""
+msgstr "Zeigt Unit-Test-Ergebnisse an."
 
 msgid ""
 "These changes have not finished building yet and may have build failures."
-msgstr ""
+msgstr "Diese Änderungen wurden noch nicht fertig gebaut und könnten Build-Fehler haben."
 
 msgid "These changes have failed to build."
-msgstr ""
+msgstr "Der Build dieser Änderungen ist fehlgeschlagen."
 
 msgid "Unit tests were skipped when generating these changes."
-msgstr ""
+msgstr "Unit-Tests wurden bei der Erzeugung dieser Änderungen übersprungen."
 
 msgid "These changes have unit test problems."
-msgstr ""
+msgstr "Diese Änderungen haben Probleme mit Unit-Tests."
 
 #, php-format
 msgid "%s Review Request"
 msgstr "%s Review Anfrage"
 
-#, fuzzy
 msgid "[Differential]"
-msgstr "Differential"
+msgstr "[Differential]"
 
-#, fuzzy
 msgid "Revision Has Child"
-msgstr "Versionen"
+msgstr "Version hat Unterversion"
 
 msgid "The source revision makes changes required by the destination revision."
-msgstr ""
+msgstr "Die Quellversion enthält Änderungen, die die Zielversion voraussetzt."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s added %s child revision(s): %s."
-msgstr "%s hat %s Dateien hinzugefügt: %s."
+msgstr "%s hat %s Unterversion(en) hinzugefügt: %s."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s removed %s child revision(s): %s."
-msgstr "%s hat %s Dateien entfernt: %s."
+msgstr "%s hat %s Unterversion(en) entfernt: %s."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s edited child revision(s), added %s: %s; removed %s: %s."
-msgstr "%s hat Dateien geändert, %s hinzugefügt: %s; %s entfernt: %s."
+msgstr "%s hat Unterversionen bearbeitet, %s hinzugefügt: %s; %s entfernt: %s."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s added %s child revision(s) for %s: %s."
-msgstr "%s hat %s blockierte Aufgabe(n) zu %s hinzugefügt: %s."
+msgstr "%s hat %s Unterversion(en) zu %s hinzugefügt: %s."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s removed %s child revision(s) for %s: %s."
-msgstr "%s hat %s blockierte Aufgabe(n) von %s entfernt: %s."
+msgstr "%s hat %s Unterversion(en) von %s entfernt: %s."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s edited child revision(s) for %s, added %s: %s; removed %s: %s."
 msgstr ""
-"%s hat %s Aufgaben von %s geändert, %s hinzugefügt: %s; %s entfernt: %s."
+"%s hat Unterversionen von %s bearbeitet, %s hinzugefügt: %s; %s entfernt: %s."
 
-#, fuzzy
 msgid "Revision Has Parent"
-msgstr "Änderungen pro Woche"
+msgstr "Version hat Elternversion"
 
 msgid "The source revision depends on changes in the destination revision."
-msgstr ""
+msgstr "Die Quellversion setzt Änderungen aus der Zielversion voraus."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s added %s parent revision(s): %s."
-msgstr "%s hat %d Teilnehmer hinzugefügt: %s."
+msgstr "%s hat %s Elternversion(en) hinzugefügt: %s."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s removed %s parent revision(s): %s."
-msgstr "%s hat %d Teilnehmer entfernt: %s."
+msgstr "%s hat %s Elternversion(en) entfernt: %s."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s edited parent revision(s), added %s: %s; removed %s: %s."
-msgstr "%s hat Teilnehmer verändert, %d hinzugefügt: %s; %d entfernt: %s."
+msgstr "%s hat Elternversionen bearbeitet, %s hinzugefügt: %s; %s entfernt: %s."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s added %s parent revision(s) for %s: %s."
-msgstr "%s hat %s Projekt(e) zu %s hinzugefügt: %s."
+msgstr "%s hat %s Elternversion(en) zu %s hinzugefügt: %s."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s removed %s parent revision(s) for %s: %s."
-msgstr "%s hat %s Projekt(e) von %s entfernt: %s."
+msgstr "%s hat %s Elternversion(en) von %s entfernt: %s."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s edited parent revision(s) for %s, added %s: %s; removed %s: %s."
 msgstr ""
-"%s hat %s Projekt(e) von %s geändert, %s hinzugefügt: %s; %s entfernt: %s."
+"%s hat Elternversionen von %s bearbeitet, %s hinzugefügt: %s; %s entfernt: %s."
 
-#, fuzzy
 msgid "Revision Has Commit"
-msgstr "Versionen"
+msgstr "Version hat Commit"
 
-#, fuzzy
 msgid "The source revision is associated with the destination commit."
-msgstr "Diese Aufgabe ist bereits mit den angegebenen Projekten verbunden."
+msgstr "Die Quellversion ist mit dem Ziel-Commit verknüpft."
 
 #, php-format
 msgid "%s added %s commit(s): %s."
@@ -19515,51 +19573,49 @@ msgstr "%s hat %s Commit(s) entfernt: %s."
 
 #, php-format
 msgid "%s edited commit(s), added %s: %s; removed %s: %s."
-msgstr ""
+msgstr "%s hat Commits bearbeitet, %s hinzugefügt: %s; %s entfernt: %s."
 
 #, php-format
 msgid "%s added %s commit(s) for %s: %s."
-msgstr ""
+msgstr "%s hat %s Commit(s) zu %s hinzugefügt: %s."
 
 #, php-format
 msgid "%s removed %s commit(s) for %s: %s."
-msgstr ""
+msgstr "%s hat %s Commit(s) von %s entfernt: %s."
 
 #, php-format
 msgid "%s edited commit(s) for %s, added %s: %s; removed %s: %s."
-msgstr ""
+msgstr "%s hat Commits von %s bearbeitet, %s hinzugefügt: %s; %s entfernt: %s."
 
 #, php-format
 msgid "%s added %s reviewer(s): %s."
-msgstr ""
+msgstr "%s hat %s Reviewer hinzugefügt: %s."
 
 #, php-format
 msgid "%s removed %s reviewer(s): %s."
-msgstr ""
+msgstr "%s hat %s Reviewer entfernt: %s."
 
 #, php-format
 msgid "%s edited %s reviewer(s), added %s: %s; removed %s: %s."
-msgstr ""
+msgstr "%s hat %s Reviewer bearbeitet, %s hinzugefügt: %s; %s entfernt: %s."
 
 #, php-format
 msgid "%s added %s reviewer(s) for %s: %s."
-msgstr ""
+msgstr "%s hat %s Reviewer zu %s hinzugefügt: %s."
 
 #, php-format
 msgid "%s removed %s reviewer(s) for %s: %s."
-msgstr ""
+msgstr "%s hat %s Reviewer von %s entfernt: %s."
 
 #, php-format
 msgid "%s edited %s reviewer(s) for %s, added %s: %s; removed %s: %s."
-msgstr ""
+msgstr "%s hat %s Reviewer von %s bearbeitet, %s hinzugefügt: %s; %s entfernt: %s."
 
-#, fuzzy
 msgid "Revision Has Task"
-msgstr "Versionen"
+msgstr "Version hat Aufgabe"
 
-#, fuzzy
 msgid "The source revision is associated with the destination task."
-msgstr "Es gibt kein Konto, daß mit dieser Email-Adresse verbunden wäre."
+msgstr "Die Quellversion ist mit der Zielaufgabe verknüpft."
 
 #, php-format
 msgid "%s added %s task(s): %s."
@@ -19587,269 +19643,236 @@ msgstr ""
 "%s hat %s Aufgaben von %s geändert, %s hinzugefügt: %s; %s entfernt: %s."
 
 msgid "Differential Diffs"
-msgstr ""
+msgstr "Differential-Diffs"
 
 msgid "Revisions"
 msgstr "Versionen"
 
-#, fuzzy
 msgid "Configure Revision Forms"
-msgstr "Editor konfigurieren"
+msgstr "Versionsformulare konfigurieren"
 
 msgid "Configure creation and editing revision forms in Differential."
-msgstr ""
+msgstr "Formulare zum Erstellen und Bearbeiten von Versionen in Differential konfigurieren."
 
-#, fuzzy, php-format
+#, php-format
 msgid "Update Revision %s: %s"
-msgstr "Bestehende Version ändern"
+msgstr "Version %s aktualisieren: %s"
 
-#, fuzzy, php-format
+#, php-format
 msgid "Edit Revision %s: %s"
-msgstr "Version editieren"
+msgstr "Version %s bearbeiten: %s"
 
-#, fuzzy
 msgid "Create Revision"
-msgstr "Neue Version"
+msgstr "Version erstellen"
 
 msgid "Revision"
 msgstr "Version"
 
-#, fuzzy
 msgid "Submit Quietly"
-msgstr "Zahlung abschicken"
+msgstr "Still einreichen"
 
-#, fuzzy
 msgid "Review Actions"
-msgstr "Neue Aktion"
+msgstr "Review-Aktionen"
 
-#, fuzzy
 msgid "Revision Actions"
-msgstr "Versionen"
+msgstr "Versionsaktionen"
 
 msgid "New diff to create or update the revision with."
-msgstr ""
+msgstr "Neuer Diff zum Erstellen oder Aktualisieren der Version."
 
 msgid "Create or update a revision with a diff."
-msgstr ""
+msgstr "Eine Version mit einem Diff erstellen oder aktualisieren."
 
 msgid "PHID of the diff."
-msgstr ""
+msgstr "PHID des Diffs."
 
 msgid "Describe the updates you have made to the diff."
-msgstr ""
+msgstr "Beschreibe die Änderungen, die Du am Diff vorgenommen hast."
 
 msgid "Comments providing context for the update."
-msgstr ""
+msgstr "Kommentare mit Kontext zur Aktualisierung."
 
 msgid "Title"
 msgstr "Titel"
 
-#, fuzzy
 msgid "The title of the revision."
-msgstr "Dieses Diff gehört zu Version %s."
+msgstr "Der Titel der Version."
 
-#, fuzzy
 msgid "Retitle the revision."
-msgstr "Neue Version"
+msgstr "Die Version umbenennen."
 
-#, fuzzy
 msgid "New revision title."
-msgstr "Versionen anzeigen"
+msgstr "Neuer Versionstitel."
 
 msgid "Make someone else the author of this revision."
-msgstr ""
+msgstr "Jemand anderen zum Autor dieser Version machen."
 
-#, fuzzy
 msgid "Make another user the author of this revision."
-msgstr "Möchtest Du wirklich ein Mitleser bei dieser Version werden?"
+msgstr "Einen anderen Benutzer zum Autor dieser Version machen."
 
-#, fuzzy
 msgid "New author."
-msgstr "Neuer Pfad"
+msgstr "Neuer Autor."
 
-#, fuzzy
 msgid "Change Author"
-msgstr "Letzter Autor"
+msgstr "Autor ändern"
 
-#, fuzzy
 msgid "The summary of the revision."
-msgstr "Möchtest Du wirklich ein Mitleser bei dieser Version werden?"
+msgstr "Die Zusammenfassung der Version."
 
-#, fuzzy
 msgid "Change the revision summary."
-msgstr "Ändere die Priorität einer Aufgabe."
+msgstr "Die Versionszusammenfassung ändern."
 
-#, fuzzy
 msgid "New revision summary."
-msgstr "Versionen anzeigen"
+msgstr "Neue Versionszusammenfassung."
 
-#, fuzzy
 msgid "Update the revision test plan."
-msgstr "%s hat die Beschreibung dieser Abstimmung geändert."
+msgstr "Den Testplan der Version aktualisieren."
 
-#, fuzzy
 msgid "New test plan."
-msgstr "Testplan"
+msgstr "Neuer Testplan."
 
-#, fuzzy
 msgid "Change Reviewers"
-msgstr "Reviewer vorschlagen"
+msgstr "Reviewer ändern"
 
-#, fuzzy
 msgid "Reviewers for this revision."
-msgstr "Möchtest Du wirklich ein Mitleser bei dieser Version werden?"
+msgstr "Reviewer dieser Version."
 
-#, fuzzy
 msgid "Change the reviewers for this revision."
-msgstr "%s hat die eigene Auffassung zu diesem Termin nochmal überdacht."
+msgstr "Die Reviewer dieser Version ändern."
 
-#, fuzzy
 msgid "New reviewers."
-msgstr "Reviewer"
+msgstr "Neue Reviewer."
 
-#, fuzzy
 msgid "The repository the revision belongs to."
-msgstr "Dieses Repository hat keine Branches."
+msgstr "Das Repository, zu dem diese Version gehört."
 
-#, fuzzy
 msgid "Change the repository for this revision."
-msgstr "Ändere die Priorität einer Aufgabe."
+msgstr "Das Repository dieser Version ändern."
 
-#, fuzzy
 msgid "New repository."
-msgstr "Repository"
+msgstr "Neues Repository."
 
-#, fuzzy
 msgid "Tasks associated with this revision."
-msgstr "Diese Aufgabe ist bereits mit den angegebenen Projekten verbunden."
+msgstr "Mit dieser Version verknüpfte Aufgaben."
 
-#, fuzzy
 msgid "Change associated tasks."
-msgstr "Du hast keine zugewiesenen Aufgaben."
+msgstr "Verknüpfte Aufgaben ändern."
 
-#, fuzzy
 msgid "List of tasks."
-msgstr "Keine Aufgaben."
+msgstr "Aufgabenliste."
 
-#, fuzzy
 msgid "Parent revisions of this revision."
-msgstr "%s hat die Beschreibung für dieses Repository aktualisiert."
+msgstr "Elternversionen dieser Version."
 
 msgid "Change associated parent revisions."
-msgstr ""
+msgstr "Verknüpfte Elternversionen ändern."
 
-#, fuzzy
 msgid "List of revisions."
-msgstr "Version editieren"
+msgstr "Versionsliste."
 
-#, fuzzy
 msgid "Child revisions of this revision."
-msgstr "Dieses Diff gehört zu Version %s."
+msgstr "Unterversionen dieser Version."
 
 msgid "Change associated child revisions."
-msgstr ""
+msgstr "Verknüpfte Unterversionen ändern."
 
-#, fuzzy
 msgid "Hold as Draft"
-msgstr "Entwurf speichern"
+msgstr "Als Entwurf zurückhalten"
 
 msgid "Autosubmit Once Builds Finish"
-msgstr ""
+msgstr "Automatisch einreichen, sobald Builds abgeschlossen sind"
 
-#, fuzzy
 msgid "Hold revision as draft."
-msgstr "Nur Versionen mit einem vorläufigen Kommentar zeigen."
+msgstr "Version als Entwurf zurückhalten."
 
 msgid "Change autosubmission from draft state after builds finish."
-msgstr ""
+msgstr "Automatisches Einreichen aus dem Entwurfsstatus nach Abschluss der Builds ändern."
 
 msgid "New \"Hold as Draft\" setting."
-msgstr ""
+msgstr "Neue Einstellung \"Als Entwurf zurückhalten\"."
 
 msgid "Differential Revisions"
-msgstr ""
+msgstr "Differential-Versionen"
 
 msgid "Failed to load revision from transaction finalization."
-msgstr ""
+msgstr "Version konnte beim Abschluss der Transaktion nicht geladen werden."
 
 #, php-format
 msgid "%s] [%s"
-msgstr ""
+msgstr "%s] [%s"
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s: Revision Updated"
-msgstr "Versionshistorie"
+msgstr "%s: Version aktualisiert"
 
-#, fuzzy
 msgid "View Revision"
-msgstr "Versionen anzeigen"
+msgstr "Version anzeigen"
 
 msgid "CHANGED PRIOR TO COMMIT"
-msgstr ""
+msgstr "VOR COMMIT GEÄNDERT"
 
 msgid "CHANGES SINCE LAST ACTION"
-msgstr ""
+msgstr "ÄNDERUNGEN SEIT LETZTER AKTION"
 
 msgid "REVISION DETAIL"
-msgstr ""
+msgstr "VERSIONSDETAIL"
 
 #, php-format
 msgid "D%s.%s.patch"
-msgstr ""
+msgstr "D%s.%s.patch"
 
 msgid "A revision is created."
-msgstr ""
+msgstr "Eine Version wird erstellt."
 
 msgid "A revision is updated."
-msgstr ""
+msgstr "Eine Version wird aktualisiert."
 
 msgid "Someone comments on a revision."
-msgstr ""
+msgstr "Jemand kommentiert eine Version."
 
 msgid "A revision is closed."
-msgstr ""
+msgstr "Eine Version wird geschlossen."
 
 msgid "A revision's reviewers change."
-msgstr ""
+msgstr "Die Reviewer einer Version ändern sich."
 
 msgid "A revision's CCs change."
-msgstr ""
+msgstr "Die CCs einer Version ändern sich."
 
 msgid "Other revision activity not listed above occurs."
-msgstr ""
+msgstr "Andere oben nicht aufgeführte Versionsaktivitäten treten auf."
 
-#, fuzzy, php-format
+#, php-format
 msgid "(Showing first %s of %s inline comments.)"
-msgstr "%s hat %d Inline-Kommentare hinzugefügt."
+msgstr "(Zeige die ersten %s von %s Inline-Kommentaren.)"
 
 msgid "CHANGE DETAILS"
-msgstr ""
+msgstr "ÄNDERUNGSDETAILS"
 
 #, php-format
 msgid "Diff \"%s\" does not exist!"
-msgstr ""
+msgstr "Diff \"%s\" existiert nicht!"
 
 msgid "Failed to load revision for Herald adapter construction!"
-msgstr ""
+msgstr "Version für Herald-Adapter-Konstruktion konnte nicht geladen werden!"
 
 #, php-format
 msgid "(%d more files...)"
-msgstr ""
+msgstr "(%d weitere Dateien...)"
 
-#, fuzzy, php-format
+#, php-format
 msgid "Failed to reload revision (\"%s\")."
-msgstr "Konnte Kommentar \"%s\" leider nicht laden."
+msgstr "Version \"%s\" konnte nicht neu geladen werden."
 
-#, fuzzy, php-format
+#, php-format
 msgid "Failed to load file (\"%s\") returned by \"%s\"."
-msgstr "Konnte Datei nicht laden."
+msgstr "Datei \"%s\", zurückgegeben von \"%s\", konnte nicht geladen werden."
 
 msgid "Paths"
 msgstr "Pfade"
 
-#, fuzzy
 msgid "Show Paths Panel"
-msgstr "Änderungen zeigen"
+msgstr "Pfade-Panel anzeigen"
 
 msgid "Table of Contents"
 msgstr "Inhaltsverzeichnis"
@@ -19857,225 +19880,223 @@ msgstr "Inhaltsverzeichnis"
 msgid "Add Comment"
 msgstr "Neuer Kommentar"
 
-#, fuzzy
 msgid "Hide Panel"
-msgstr "Statisches Panel"
+msgstr "Panel ausblenden"
 
-#, fuzzy
 msgid "Keyboard Reference"
-msgstr "Sucheinstellungen"
+msgstr "Tastaturkürzel"
 
-#, fuzzy
 msgid "Diff Commits"
-msgstr "Änderungen Zeigen"
+msgstr "Diff-Commits"
 
 msgid "Get the local commits (if any) for each diff."
-msgstr ""
+msgstr "Die lokalen Commits (falls vorhanden) für jeden Diff abrufen."
 
-#, fuzzy
 msgid "Revision Repository"
-msgstr "Versionshistorie"
+msgstr "Versions-Repository"
 
-#, fuzzy
 msgid "Revision Status"
-msgstr "Versionen"
+msgstr "Versionsstatus"
 
-#, fuzzy
 msgid "Differential Reviewers"
-msgstr "Differential Version"
+msgstr "Differential-Reviewer"
 
 msgid "Get the reviewers for each revision."
-msgstr ""
+msgstr "Die Reviewer für jede Version abrufen."
 
 #, php-format
 msgid ""
 "Field \"%s\" expects a string value, but received a value of type \"%s\"."
 msgstr ""
+"Das Feld \"%s\" erwartet einen String-Wert, hat aber einen Wert vom Typ \"%s\" "
+"erhalten."
 
 #, php-format
 msgid ""
 "Field \"%s\" expects a list of strings, but received a value of type \"%s\"."
 msgstr ""
+"Das Feld \"%s\" erwartet eine Liste von Strings, hat aber einen Wert vom Typ "
+"\"%s\" erhalten."
 
 msgid "Conflicts"
-msgstr ""
+msgstr "Konflikte"
 
 msgid "git-svn-id"
-msgstr ""
+msgstr "git-svn-id"
 
 msgid "Reviewed By"
-msgstr ""
+msgstr "Überprüft von"
 
 msgid "Differential Revision"
-msgstr "Differential Version"
+msgstr "Differential-Version"
 
 msgid "Subscribers"
 msgstr "Mitleser"
 
-#, fuzzy
 msgid "Project Tags"
-msgstr "Projekte"
+msgstr "Projekt-Tags"
 
 msgid ""
 "You must provide a test plan. Describe the actions you performed to verify "
 "the behavior of this change."
 msgstr ""
+"Du musst einen Testplan angeben. Beschreibe die Maßnahmen, die Du durchgeführt "
+"hast, um das Verhalten dieser Änderung zu überprüfen."
 
 msgid "<<Replace this line with your revision title>"
-msgstr ""
+msgstr "<<Ersetze diese Zeile mit Deinem Versionstitel>"
 
 msgid ""
 "Replace the default title line with a human-readable revision title which "
 "describes the changes you are making."
 msgstr ""
+"Ersetze die Standard-Titelzeile durch einen lesbaren Versionstitel, der die "
+"von Dir vorgenommenen Änderungen beschreibt."
 
 msgid ""
 "You must provide a revision title in the first line of your commit message."
-msgstr ""
+msgstr "Du musst einen Versionstitel in der ersten Zeile Deiner Commit-Nachricht angeben."
 
-#, fuzzy, php-format
+#, php-format
 msgid "Parse of: %s"
-msgstr "Produkt: %s"
+msgstr "Parse von: %s"
 
-#, fuzzy
 msgid "Differential Parse Cache"
-msgstr "Differential"
+msgstr "Differential-Parse-Cache"
 
-#, fuzzy
 msgid "Differential View States"
-msgstr "Differential Version"
+msgstr "Differential-Ansichtsstatus"
 
 msgid "Block diff with message"
-msgstr ""
+msgstr "Diff mit Nachricht blockieren"
 
 #, php-format
 msgid "Block diff with message: %s"
-msgstr ""
+msgstr "Diff mit Nachricht blockieren: %s"
 
-#, fuzzy
 msgid "Blocked Diff"
-msgstr "Ist blockiert"
+msgstr "Blockierter Diff"
 
 msgid "Blocked diff."
-msgstr ""
+msgstr "Diff blockiert."
 
 msgid "Change Details"
 msgstr "Änderungen im Detail"
 
 msgid "Affected files"
-msgstr ""
+msgstr "Betroffene Dateien"
 
 msgid "Author's projects"
-msgstr ""
+msgstr "Projekte des Autors"
 
 msgid "Added file content"
-msgstr ""
+msgstr "Hinzugefügter Dateiinhalt"
 
 msgid "Changed file content"
-msgstr ""
+msgstr "Geänderter Dateiinhalt"
 
 msgid "Removed file content"
-msgstr ""
+msgstr "Entfernter Dateiinhalt"
 
 msgid "Diff Fields"
-msgstr ""
+msgstr "Diff-Felder"
 
 msgid "Repository projects"
-msgstr ""
+msgstr "Repository-Projekte"
 
 msgid ""
 "This revision is still an unsubmitted draft, so mail will not be sent yet."
 msgstr ""
+"Diese Version ist noch ein nicht eingereichten Entwurf, daher wird noch keine "
+"E-Mail gesendet."
 
 msgid ""
 "The update which triggered Herald did not update the diff for this revision, "
 "so builds will not run."
 msgstr ""
+"Das Update, das Herald ausgelöst hat, hat den Diff dieser Version nicht "
+"aktualisiert, daher werden keine Builds gestartet."
 
 msgid ""
 "The update which triggered Herald was an automatic update in response to "
 "discovering a commit, so builds will not run."
 msgstr ""
+"Das Update, das Herald ausgelöst hat, war ein automatisches Update als Reaktion "
+"auf einen entdeckten Commit, daher werden keine Builds gestartet."
 
 msgid "Add blocking reviewers"
-msgstr ""
+msgstr "Blockierende Reviewer hinzufügen"
 
-#, fuzzy, php-format
+#, php-format
 msgid "Add blocking reviewers: %s."
-msgstr "Review geblockt"
+msgstr "Blockierende Reviewer hinzufügen: %s."
 
 msgid "Add me as a blocking reviewer"
-msgstr ""
+msgstr "Mich als blockierenden Reviewer hinzufügen"
 
 msgid "Add rule author as blocking reviewer."
-msgstr ""
+msgstr "Regelautor als blockierenden Reviewer hinzufügen."
 
 msgid "Add reviewers"
-msgstr ""
+msgstr "Reviewer hinzufügen"
 
-#, fuzzy, php-format
+#, php-format
 msgid "Add reviewers: %s."
-msgstr "Reviewer: %s"
+msgstr "Reviewer hinzufügen: %s."
 
 msgid "Add me as a reviewer"
-msgstr ""
+msgstr "Mich als Reviewer hinzufügen"
 
 msgid "Add rule author as reviewer."
-msgstr ""
+msgstr "Regelautor als Reviewer hinzufügen."
 
-#, fuzzy
 msgid "Revision Author"
-msgstr "Version"
+msgstr "Versionsautor"
 
 msgid "Added Reviewers"
-msgstr ""
+msgstr "Hinzugefügte Reviewer"
 
-#, fuzzy
 msgid "Added Blocking Reviewers"
-msgstr "Review geblockt"
+msgstr "Hinzugefügte blockierende Reviewer"
 
 #, php-format
 msgid "Declined to add revision author as reviewer: %s."
-msgstr ""
+msgstr "Versionsautor wurde nicht als Reviewer hinzugefügt: %s."
 
-#, fuzzy, php-format
+#, php-format
 msgid "Added %s reviewer(s): %s."
-msgstr "%s hat %s Dateien hinzugefügt: %s."
+msgstr "%s Reviewer hinzugefügt: %s."
 
-#, fuzzy, php-format
+#, php-format
 msgid "Added %s blocking reviewer(s): %s."
-msgstr "%s hat %s blockierende Aufgaben hinzugefügt: %s."
+msgstr "%s blockierende(n) Reviewer hinzugefügt: %s."
 
-#, fuzzy
 msgid "Author's packages"
-msgstr "Prüfungen für Paket %s"
+msgstr "Pakete des Autors"
 
 msgid "Revision Fields"
-msgstr ""
+msgstr "Versionsfelder"
 
-#, fuzzy
 msgid "JIRA Issue URIs"
-msgstr "JIRA Tickets"
+msgstr "JIRA-Ticket-URIs"
 
 msgid "Affected packages"
-msgstr ""
+msgstr "Betroffene Pakete"
 
 msgid "Affected package owners"
-msgstr ""
+msgstr "Betroffene Paket-Eigentümer"
 
-#, fuzzy
 msgid "Revision status"
-msgstr "Versionen"
+msgstr "Versionsstatus"
 
 msgid "Revision summary"
-msgstr ""
+msgstr "Versionszusammenfassung"
 
-#, fuzzy
 msgid "Revision test plan"
-msgstr "Versionen"
+msgstr "Versions-Testplan"
 
 msgid "Revision title"
-msgstr ""
+msgstr "Versionstitel"
 
 msgid ""
 "React to new diffs being uploaded, before writes occur.\n"
@@ -20083,219 +20104,241 @@ msgid ""
 "to prevent users from accidentally uploading private keys or other sensitive "
 "information."
 msgstr ""
+"Auf das Hochladen neuer Diffs reagieren, bevor Schreibvorgänge stattfinden.\n"
+"Diese Regeln können Diffs ablehnen, bevor sie in den dauerhaften Speicher "
+"geschrieben werden, um zu verhindern, dass Benutzer versehentlich private "
+"Schlüssel oder andere sensible Informationen hochladen."
 
 msgid "New Diff"
-msgstr ""
+msgstr "Neuer Diff"
 
 msgid "Test rules which run when a revision is created or updated."
-msgstr ""
+msgstr "Regeln testen, die beim Erstellen oder Aktualisieren einer Version ausgeführt werden."
 
 msgid ""
 "React to revisions being created or updated.\n"
 "Revision rules can send email, flag revisions, add reviewers, and run build "
 "plans."
 msgstr ""
+"Auf das Erstellen oder Aktualisieren von Versionen reagieren.\n"
+"Versionsregeln können E-Mails senden, Versionen markieren, Reviewer "
+"hinzufügen und Build-Pläne starten."
 
 #, php-format
 msgid ""
 "Could not parse file %s; only files with mimetype text/plain can be parsed "
 "via email."
 msgstr ""
+"Datei %s konnte nicht geparst werden; nur Dateien mit dem MIME-Typ text/plain "
+"können per E-Mail verarbeitet werden."
 
 #, php-format
 msgid ""
 "Could not parse attachment %s; only attachments (and mail bodies) generated "
 "via \"diff\" commands can be parsed."
 msgstr ""
+"Anhang %s konnte nicht geparst werden; nur Anhänge (und E-Mail-Texte), die "
+"mit \"diff\"-Befehlen erzeugt wurden, können verarbeitet werden."
 
 msgid "Mail Body"
-msgstr ""
+msgstr "E-Mail-Text"
 
 msgid ""
 "Could not parse mail body; only mail bodies (and attachments) generated via "
 "\"diff\" commands can be parsed."
 msgstr ""
+"E-Mail-Text konnte nicht geparst werden; nur Texte (und Anhänge), die mit "
+"\"diff\"-Befehlen erzeugt wurden, können verarbeitet werden."
 
 #, php-format
 msgid "You successfully created %d diff(s)."
-msgstr ""
+msgstr "Du hast erfolgreich %d Diff(s) erstellt."
 
 #, php-format
 msgid "Diff creation failed; see body for %s error(s)."
-msgstr ""
+msgstr "Diff-Erstellung fehlgeschlagen; im Text findest Du %s Fehler."
 
 #, php-format
 msgid "%s DIFF LINK(S)"
-msgstr ""
+msgstr "%s DIFF-LINK(S)"
 
 #, php-format
 msgid "%s ERROR(S)"
-msgstr ""
+msgstr "%s FEHLER"
 
 #, php-format
 msgid "%s-%s"
-msgstr ""
+msgstr "%s-%s"
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s wrote in %s"
-msgstr "%s schrieb:"
+msgstr "%s schrieb in %s"
 
-#, fuzzy
 msgid "View Inline"
-msgstr "Datei ansehen"
+msgstr "Inline anzeigen"
 
 #, php-format
 msgid "Receiver is not a %s!"
-msgstr ""
+msgstr "Empfänger ist kein %s!"
 
 msgid "Forcefully attach a commit to a revision."
-msgstr ""
+msgstr "Einen Commit zwangsweise an eine Version anhängen."
 
 msgid "Commit, and a revision to attach it to."
-msgstr ""
+msgstr "Commit und die Version, an die er angehängt werden soll."
 
 msgid "Specify a commit and a revision to attach it to."
-msgstr ""
+msgstr "Gib einen Commit und eine Version an, an die er angehängt werden soll."
 
 #, php-format
 msgid "Commit \"%s\" does not exist."
-msgstr "Änderung \"%s\" existiert nicht."
+msgstr "Commit \"%s\" existiert nicht."
 
-#, fuzzy, php-format
+#, php-format
 msgid "Revision \"%s\" does not exist."
-msgstr "Änderung \"%s\" existiert nicht."
+msgstr "Version \"%s\" existiert nicht."
 
-#, fuzzy, php-format
+#, php-format
 msgid "Object \"%s\" must be a Differential revision."
-msgstr "Gastzugriff auf Differential Versionen zulassen."
+msgstr "Objekt \"%s\" muss eine Differential-Version sein."
 
-#, fuzzy, php-format
+#, php-format
 msgid "Attached \"%s\" to \"%s\"."
-msgstr "Der Titel wurde von \"%s\" nach \"%s\" geändert"
+msgstr "\"%s\" wurde an \"%s\" angehängt."
 
 msgid "Extract a diff from a commit."
-msgstr ""
+msgstr "Einen Diff aus einem Commit extrahieren."
 
-#, fuzzy
 msgid "Commit to extract."
-msgstr "Commit-Details"
+msgstr "Zu extrahierender Commit."
 
 msgid "Specify a commit to extract the diff from."
-msgstr ""
+msgstr "Gib einen Commit an, aus dem der Diff extrahiert werden soll."
 
 msgid "Specify exactly one commit to extract."
-msgstr ""
+msgstr "Gib genau einen Commit zur Extraktion an."
 
-#, fuzzy, php-format
+#, php-format
 msgid "Commit \"%s\" is not valid."
-msgstr "Änderung \"%s\" existiert nicht."
+msgstr "Commit \"%s\" ist ungültig."
 
 #, php-format
 msgid "Extracted diff from \"%s\":"
-msgstr ""
+msgstr "Diff aus \"%s\" extrahiert:"
 
 msgid "Migrate storage engines for a hunk."
-msgstr ""
+msgstr "Storage-Engines für einen Hunk migrieren."
 
 msgid "Hunk ID to migrate."
-msgstr ""
+msgstr "ID des zu migrierenden Hunks."
 
 msgid "Storage engine to migrate to."
-msgstr ""
+msgstr "Ziel-Storage-Engine für die Migration."
 
 msgid "Migrate all hunks."
-msgstr ""
+msgstr "Alle Hunks migrieren."
 
-#, fuzzy
 msgid "Select storage format automatically."
-msgstr "Datei Regexe, die als automatisch generiert zu behandeln sind."
+msgstr "Storage-Format automatisch auswählen."
 
 msgid "Show planned writes but do not perform them."
-msgstr ""
+msgstr "Geplante Schreibvorgänge anzeigen, aber nicht ausführen."
 
 msgid ""
 "Options \"--all\" (to migrate all hunks) and \"--id\" (to migrate a specific "
 "hunk) are mutually exclusive."
 msgstr ""
+"Die Optionen \"--all\" (alle Hunks migrieren) und \"--id\" (einen bestimmten "
+"Hunk migrieren) schließen sich gegenseitig aus."
 
 msgid ""
 "Specify a hunk to migrate with \"--id\", or migrate all hunks with \"--all\"."
 msgstr ""
+"Gib mit \"--id\" einen Hunk zur Migration an oder migriere alle Hunks mit "
+"\"--all\"."
 
 msgid ""
 "Options \"--to\" (to choose a specific storage format) and \"--auto\" (to "
 "select a storage format automatically) are mutually exclusive."
 msgstr ""
+"Die Optionen \"--to\" (bestimmtes Storage-Format wählen) und \"--auto\" "
+"(automatisch auswählen) schließen sich gegenseitig aus."
 
 msgid ""
 "Use \"--to\" to choose a storage format, or \"--auto\" to select a format "
 "automatically."
 msgstr ""
+"Verwende \"--to\" um ein Storage-Format zu wählen, oder \"--auto\" um "
+"automatisch auszuwählen."
 
 #, php-format
 msgid "Storage type \"%s\" is unknown. Supported types are: %s."
-msgstr ""
+msgstr "Storage-Typ \"%s\" ist unbekannt. Unterstützte Typen sind: %s."
 
 msgid "WARN"
-msgstr ""
+msgstr "WARNUNG"
 
 #, php-format
 msgid "Failed to migrate hunk %d: %s"
-msgstr ""
+msgstr "Migration von Hunk %d fehlgeschlagen: %s"
 
-#, fuzzy, php-format
+#, php-format
 msgid "No hunk exists with ID \"%s\"."
-msgstr "Es existiert kein Objekt mit diesem Namen."
+msgstr "Es existiert kein Hunk mit der ID \"%s\"."
 
 msgid "SKIP"
-msgstr ""
+msgstr "ÜBERSPRUNGEN"
 
 #, php-format
 msgid ""
 "Hunk %d is already stored in the preferred engine (\"%s\") with the "
 "preferred format (\"%s\")."
 msgstr ""
+"Hunk %d ist bereits in der bevorzugten Engine (\"%s\") mit dem bevorzugten "
+"Format (\"%s\") gespeichert."
 
 msgid "DRY RUN"
-msgstr ""
+msgstr "TESTLAUF"
 
 #, php-format
 msgid ""
 "Hunk %d would be rewritten (storage: \"%s\" -> \"%s\"; format: \"%s\" -> "
 "\"%s\")."
 msgstr ""
+"Hunk %d würde neu geschrieben werden (Storage: \"%s\" -> \"%s\"; Format: "
+"\"%s\" -> \"%s\")."
 
 msgid "MIGRATE"
-msgstr ""
+msgstr "MIGRIEREN"
 
 #, php-format
 msgid "Converted hunk %d to \"%s\" storage (with format \"%s\")."
-msgstr ""
+msgstr "Hunk %d zu \"%s\" Storage konvertiert (mit Format \"%s\")."
 
 msgid "Integrity check failed: new file data differs from old data!"
-msgstr ""
+msgstr "Integritätsprüfung fehlgeschlagen: Neue Dateidaten unterscheiden sich von den alten!"
 
 msgid "Rebuild changesets for a revision."
-msgstr ""
+msgstr "Changesets für eine Version neu aufbauen."
 
 msgid "Revision to rebuild changesets for."
-msgstr ""
+msgstr "Version, für die Changesets neu aufgebaut werden sollen."
 
 msgid "Specify a revision to rebuild changesets for with \"--revision\"."
-msgstr ""
+msgstr "Gib mit \"--revision\" eine Version an, für die Changesets neu aufgebaut werden sollen."
 
 #, php-format
 msgid ""
 "Object \"%s\" specified by \"--revision\" must be a Differential revision."
-msgstr ""
+msgstr "Objekt \"%s\", angegeben mit \"--revision\", muss eine Differential-Version sein."
 
-#, fuzzy, php-format
+#, php-format
 msgid "No revision \"%s\" exists."
-msgstr "Seite '%s' existiert nicht!"
+msgstr "Version \"%s\" existiert nicht."
 
 #, php-format
 msgid "Rebuilding %s changeset(s) for diff ID %d."
-msgstr ""
+msgstr "%s Changeset(s) für Diff-ID %d werden neu aufgebaut."
 
 msgid ""
 "This file contains generated code, which does not normally need to be "
@@ -20305,7 +20348,7 @@ msgstr ""
 "werden muß."
 
 msgid "This is an empty file."
-msgstr ""
+msgstr "Dies ist eine leere Datei."
 
 msgid "The contents of this file were not changed."
 msgstr "Der Inhalt dieser Datei wurde nicht verändert."
@@ -20315,133 +20358,140 @@ msgstr "Diese Datei wurde gelöscht."
 
 #, php-format
 msgid "This file has a very large number of changes (%s lines)."
-msgstr "Diese Datei hat eine große Menge an Änderungen (%d Zeilen)."
+msgstr "Diese Datei hat eine große Menge an Änderungen (%s Zeilen)."
 
-#, fuzzy, php-format
+#, php-format
 msgid "This file has %s collapsed inline comment(s)."
-msgstr "%s hat %d Inline-Kommentare hinzugefügt."
+msgstr "Diese Datei hat %s eingeklappte(n) Inline-Kommentar(e)."
 
 #, php-format
 msgid ""
 "This comment originally appeared on line %s, but that line does not exist in "
 "this version of the diff. It has been moved backward to the nearest line."
 msgstr ""
+"Dieser Kommentar erschien ursprünglich in Zeile %s, aber diese Zeile existiert "
+"in dieser Version des Diffs nicht. Er wurde zur nächstgelegenen Zeile verschoben."
 
 msgid "Comment is not visible on changeset!"
-msgstr ""
+msgstr "Kommentar ist im Changeset nicht sichtbar!"
 
-#, fuzzy, php-format
+#, php-format
 msgid "Failed to load file data for changeset (\"%s\")."
-msgstr "Konnte Kommentar \"%s\" leider nicht laden."
+msgstr "Dateidaten für Changeset (\"%s\") konnten nicht geladen werden."
 
 #, php-format
 msgid "Expected %s, %s and %s to be set before parsing a corpus."
-msgstr ""
+msgstr "%s, %s und %s müssen gesetzt sein, bevor ein Korpus geparst werden kann."
 
 #, php-format
 msgid "Field \"%s\" occurs twice in commit message!"
-msgstr ""
+msgstr "Feld \"%s\" kommt zweimal in der Commit-Nachricht vor!"
 
 #, php-format
 msgid ""
 "Parser emitted a field with key \"%s\", but no corresponding field "
 "definition exists."
 msgstr ""
+"Der Parser hat ein Feld mit dem Schlüssel \"%s\" ausgegeben, aber es existiert "
+"keine entsprechende Felddefinition."
 
 #, php-format
 msgid "Error extracting field transactions from \"%s\": %s"
-msgstr ""
+msgstr "Fehler beim Extrahieren von Feld-Transaktionen aus \"%s\": %s"
 
 #, php-format
 msgid "Error parsing field \"%s\": %s"
-msgstr ""
+msgstr "Fehler beim Parsen von Feld \"%s\": %s"
 
 #, php-format
 msgid "Invalid or missing field \"%s\": %s"
-msgstr ""
+msgstr "Ungültiges oder fehlendes Feld \"%s\": %s"
 
 #, php-format
 msgid ""
 "Field label \"%s\" is parsed by two custom fields: \"%s\" and \"%s\". Each "
 "label must be parsed by only one field."
 msgstr ""
+"Die Feldbezeichnung \"%s\" wird von zwei benutzerdefinierten Feldern geparst: "
+"\"%s\" und \"%s\". Jede Bezeichnung darf nur von einem Feld geparst werden."
 
 #, php-format
 msgid "Unknown change filter '%s'."
-msgstr ""
+msgstr "Unbekannter Änderungsfilter '%s'."
 
 #, php-format
 msgid "Unexpected leading character \"%s\" at line index %s!"
-msgstr ""
+msgstr "Unerwartetes führendes Zeichen \"%s\" an Zeilenindex %s!"
 
 #, php-format
 msgid ""
 "Found unknown intradiff source line, expected a line beginning with \"+\", "
 "\"-\", or \" \" (space): %s."
 msgstr ""
+"Unbekannte Intradiff-Quellzeile gefunden, erwartet wurde eine Zeile beginnend "
+"mit \"+\", \"-\" oder \" \" (Leerzeichen): %s."
 
 #, php-format
 msgid ""
 "Expected test file \"%s\" to contain four parts (message, fields, output, "
 "errors) divided by \"%s\"."
 msgstr ""
+"Testdatei \"%s\" sollte vier Teile enthalten (Nachricht, Felder, Ausgabe, "
+"Fehler), getrennt durch \"%s\"."
 
 #, php-format
 msgid "Field normalization of label \"%s\"."
-msgstr ""
+msgstr "Feldnormalisierung der Bezeichnung \"%s\"."
 
 #, php-format
 msgid "Expected 1 changeset for '%s'!"
-msgstr ""
+msgstr "1 Changeset für '%s' erwartet!"
 
-#, fuzzy, php-format
+#, php-format
 msgid "Tabs to Spaces: %s"
-msgstr "Zone %s aktivieren"
+msgstr "Tabs zu Leerzeichen: %s"
 
-#, fuzzy
 msgid "Differential Changeset"
-msgstr "Differential"
+msgstr "Differential-Changeset"
 
-#, fuzzy, php-format
+#, php-format
 msgid "Changeset %d"
-msgstr "Changeset Ansicht"
+msgstr "Changeset %d"
 
 msgid "Differential Diff"
-msgstr ""
+msgstr "Differential-Diff"
 
-#, fuzzy
 msgid "Differential Changesets"
-msgstr "Differential"
+msgstr "Differential-Changesets"
 
-#, fuzzy
 msgid "Diffs"
-msgstr "Diff"
+msgstr "Diffs"
 
 msgid "Find changesets attached to a particular diff."
-msgstr ""
+msgstr "Changesets finden, die einem bestimmten Diff zugeordnet sind."
 
-#, fuzzy
 msgid "All Changesets"
-msgstr "Alle Änderungen zeigen"
+msgstr "Alle Changesets"
 
 msgid "Change"
 msgstr "Änderung"
 
 msgid "Find diffs attached to a particular revision."
-msgstr ""
+msgstr "Diffs finden, die einer bestimmten Version zugeordnet sind."
 
-#, fuzzy
 msgid "All Diffs"
-msgstr "Alle Listen"
+msgstr "Alle Diffs"
 
 #, php-format
 msgid "You must load hunks via changesets, with %s!"
-msgstr ""
+msgstr "Du musst Hunks über Changesets laden, mit %s!"
 
 msgid ""
 "Empty \"withReviewers()\" constraint is invalid. Provide one or more values, "
 "or remove the constraint."
 msgstr ""
+"Eine leere \"withReviewers()\"-Einschränkung ist ungültig. Gib einen oder "
+"mehrere Werte an oder entferne die Einschränkung."
 
 msgid "Date Updated (Latest First)"
 msgstr "Aktualisierungsdatum (Neueste zuerst)"
@@ -20450,127 +20500,110 @@ msgid "Date Updated (Oldest First)"
 msgstr "Aktualisierungsdatum (Älteste zuerst)"
 
 msgid "Bucket by Required Action"
-msgstr ""
+msgstr "Nach erforderlicher Aktion gruppieren"
 
 msgid ""
 "You can not bucket results by required action without specifying "
 "\"Responsible Users\"."
 msgstr ""
+"Du kannst Ergebnisse nicht nach erforderlicher Aktion gruppieren, ohne "
+"\"Verantwortliche Benutzer\" anzugeben."
 
-#, fuzzy
 msgid "Must Review"
-msgstr "Review anfordern"
+msgstr "Überprüfung erforderlich"
 
-#, fuzzy
 msgid "No revisions are blocked on your review."
-msgstr "Durch Deine Aktion werden keine Versionen blockiert."
+msgstr "Keine Versionen warten auf Deine Überprüfung."
 
-#, fuzzy
 msgid "Ready to Review"
-msgstr "Review anfordern"
+msgstr "Bereit zur Überprüfung"
 
-#, fuzzy
 msgid "No revisions are waiting on you to review them."
-msgstr "Keine Version hängt von Deiner Freigabe ab."
+msgstr "Keine Versionen warten darauf, von Dir überprüft zu werden."
 
 msgid "Ready to Land"
-msgstr ""
+msgstr "Bereit zum Einbringen"
 
-#, fuzzy
 msgid "No revisions are ready to land."
-msgstr "Keine Versionen benötigen Deinen Eingriff"
+msgstr "Keine Versionen sind bereit zum Einbringen."
 
-#, fuzzy
 msgid "Ready to Update"
-msgstr "Datum geändert"
+msgstr "Bereit zur Aktualisierung"
 
-#, fuzzy
 msgid "No revisions are waiting for updates."
-msgstr "Keine Version hängt von Deiner Freigabe ab."
+msgstr "Keine Versionen warten auf Aktualisierungen."
 
-#, fuzzy
 msgid "Drafts"
-msgstr "Entwurf"
+msgstr "Entwürfe"
 
-#, fuzzy
 msgid "You have no draft revisions."
-msgstr "Keine Benachrichtungen für Dich."
+msgstr "Du hast keine Entwurfsversionen."
 
-#, fuzzy
 msgid "Waiting on Review"
-msgstr "Warte auf andere Benutzer"
+msgstr "Wartet auf Überprüfung"
 
-#, fuzzy
 msgid "None of your revisions are waiting on review."
-msgstr "Keine Version hängt von Deiner Freigabe ab."
+msgstr "Keine Deiner Versionen wartet auf Überprüfung."
 
-#, fuzzy
 msgid "Waiting on Authors"
-msgstr "Warte auf andere Benutzer"
+msgstr "Wartet auf Autoren"
 
-#, fuzzy
 msgid "No revisions are waiting on author action."
-msgstr "Keine Version hängt von Deiner Freigabe ab."
+msgstr "Keine Versionen warten auf eine Autoraktion."
 
-#, fuzzy
 msgid "Waiting on Other Reviewers"
-msgstr "Warte auf andere Benutzer"
+msgstr "Wartet auf andere Reviewer"
 
-#, fuzzy
 msgid "No revisions are waiting for other reviewers."
-msgstr "Keine Version hängt von Deiner Freigabe ab."
+msgstr "Keine Versionen warten auf andere Reviewer."
 
-#, fuzzy
 msgid "Other Revisions"
-msgstr "Aktive Versionen"
+msgstr "Andere Versionen"
 
 msgid "Find revisions that a given user is responsible for."
-msgstr ""
+msgstr "Versionen finden, für die ein bestimmter Benutzer verantwortlich ist."
 
 msgid "Find revisions with specific authors."
-msgstr ""
+msgstr "Versionen mit bestimmten Autoren finden."
 
 msgid "Find revisions with specific reviewers."
-msgstr ""
+msgstr "Versionen mit bestimmten Reviewern finden."
 
 msgid "Find revisions from specific repositories."
-msgstr ""
+msgstr "Versionen aus bestimmten Repositories finden."
 
 msgid "Find revisions with particular statuses."
-msgstr ""
+msgstr "Versionen mit bestimmten Status finden."
 
 msgid "Created After"
 msgstr "Erzeugt nach"
 
 msgid "Find revisions created at or after a particular time."
-msgstr ""
+msgstr "Versionen finden, die zu oder nach einem bestimmten Zeitpunkt erstellt wurden."
 
 msgid "Created Before"
 msgstr "Erzeugt vor"
 
 msgid "Find revisions created at or before a particular time."
-msgstr ""
+msgstr "Versionen finden, die zu oder vor einem bestimmten Zeitpunkt erstellt wurden."
 
-#, fuzzy
 msgid "Modified After"
-msgstr "Registriert nach"
+msgstr "Geändert nach"
 
 msgid "Find revisions modified at or after a particular time."
-msgstr ""
+msgstr "Versionen finden, die zu oder nach einem bestimmten Zeitpunkt geändert wurden."
 
-#, fuzzy
 msgid "Modified Before"
-msgstr "Registriert vor"
+msgstr "Geändert vor"
 
 msgid "Find revisions modified at or before a particular time."
-msgstr ""
+msgstr "Versionen finden, die zu oder vor einem bestimmten Zeitpunkt geändert wurden."
 
-#, fuzzy
 msgid "Affected Paths"
-msgstr "Betrifft: %s"
+msgstr "Betroffene Pfade"
 
 msgid "Search for revisions affecting particular paths."
-msgstr ""
+msgstr "Nach Versionen suchen, die bestimmte Pfade betreffen."
 
 msgid "Active Revisions"
 msgstr "Aktive Versionen"
@@ -20578,89 +20611,73 @@ msgstr "Aktive Versionen"
 msgid "All Revisions"
 msgstr "Alle Versionen"
 
-#, fuzzy
 msgid "No revisions found."
-msgstr "Keine Termine gefunden."
+msgstr "Keine Versionen gefunden."
 
-#, fuzzy
 msgid "Create a Diff"
-msgstr "Neues Diff"
+msgstr "Diff erstellen"
 
 msgid ""
 "Pre-commit code review. Revisions that are waiting on your input will appear "
 "here."
 msgstr ""
+"Code-Review vor dem Commit. Versionen, die auf Deine Eingabe warten, werden "
+"hier angezeigt."
 
 msgid "Monogram"
-msgstr ""
+msgstr "Monogramm"
 
-#, fuzzy
 msgid "Author PHID"
-msgstr "Autor"
+msgstr "Autor-PHID"
 
-#, fuzzy
 msgid "Status Name"
-msgstr "Status(e)"
+msgstr "Statusname"
 
-#, fuzzy
 msgid "Edit Child Revisions"
-msgstr "Version editieren"
+msgstr "Unterversionen bearbeiten"
 
-#, fuzzy
 msgid "Current Child Revisions"
-msgstr "Aktuelle Version"
+msgstr "Aktuelle Unterversionen"
 
-#, fuzzy
 msgid "Save Child Revisions"
-msgstr "Aktive Versionen"
+msgstr "Unterversionen speichern"
 
-#, fuzzy
 msgid "Edit Commits"
-msgstr "Commit ändern"
+msgstr "Commits bearbeiten"
 
-#, fuzzy
 msgid "Edit Related Commits"
-msgstr "Commit ändern"
+msgstr "Verknüpfte Commits bearbeiten"
 
-#, fuzzy
 msgid "Current Commits"
-msgstr "Meine Quellcode-Änderungen"
+msgstr "Aktuelle Commits"
 
-#, fuzzy
 msgid "Save Related Commits"
-msgstr "Commits durchsuchen"
+msgstr "Verknüpfte Commits speichern"
 
-#, fuzzy
 msgid "Edit Parent Revisions"
-msgstr "Differential-Versionen ändern"
+msgstr "Elternversionen bearbeiten"
 
-#, fuzzy
 msgid "Current Parent Revisions"
-msgstr "Neue Version"
+msgstr "Aktuelle Elternversionen"
 
-#, fuzzy
 msgid "Save Parent Revisions"
-msgstr "Offene Versionen durchsuchen"
+msgstr "Elternversionen speichern"
 
-#, fuzzy
 msgid "Edit Tasks"
-msgstr "Aufgabe ändern"
+msgstr "Aufgaben bearbeiten"
 
-#, fuzzy
 msgid "Edit Related Tasks"
-msgstr "Ausgewählte Aufgaben"
+msgstr "Verknüpfte Aufgaben bearbeiten"
 
-#, fuzzy
 msgid "Current Tasks"
-msgstr "Übergeordnete Aufgabe"
+msgstr "Aktuelle Aufgaben"
 
-#, fuzzy
 msgid "Save Related Tasks"
-msgstr "Ausgewählte Aufgaben"
+msgstr "Verknüpfte Aufgaben speichern"
 
 #, php-format
 msgid "Unknown HTML renderer \"%s\"!"
-msgstr ""
+msgstr "Unbekannter HTML-Renderer \"%s\"!"
 
 msgid "This file was added."
 msgstr "Diese Datei wurde hinzugefügt."
@@ -20840,10 +20857,10 @@ msgstr "Dies ist ein Untermodul."
 
 #, php-format
 msgid "This file was converted from %s for display."
-msgstr ""
+msgstr "Diese Datei wurde zur Anzeige von %s konvertiert."
 
 msgid "This file uses an unknown character encoding."
-msgstr ""
+msgstr "Diese Datei verwendet eine unbekannte Zeichenkodierung."
 
 #, php-format
 msgid ""
@@ -20853,126 +20870,128 @@ msgstr ""
 "deaktiviert."
 
 msgid "File Mode"
-msgstr ""
+msgstr "Dateimodus"
 
 msgid "Image Dimensions"
-msgstr ""
+msgstr "Bildabmessungen"
 
 msgid "MIME Type"
-msgstr ""
+msgstr "MIME-Typ"
 
 msgid "File Size"
-msgstr ""
+msgstr "Dateigröße"
 
 msgid "Old Value"
 msgstr "Alter Wert"
 
 #, php-format
 msgid "Invalid '%s' parameter '%s'!"
-msgstr "Ungültiger '%s' Parameter '%s'!"
+msgstr "Ungültiger '%s'-Parameter '%s'!"
 
 msgid "Show File Contents"
 msgstr "Dateiinhalt zeigen"
 
-#, fuzzy, php-format
+#, php-format
 msgid "Show First %s Block(s)"
-msgstr "Zeige die ersten %d Zeilen"
+msgstr "Erste %s Block(s) anzeigen"
 
-#, fuzzy, php-format
+#, php-format
 msgid "Show First %s Line(s)"
-msgstr "Zeige die ersten %d Zeilen"
+msgstr "Erste %s Zeile(n) anzeigen"
 
-#, fuzzy, php-format
+#, php-format
 msgid "▲ Show %s Block(s)"
-msgstr "▲ Zeige %d Zeilen"
+msgstr "▲ %s Block(s) anzeigen"
 
-#, fuzzy, php-format
+#, php-format
 msgid "▲ Show %s Line(s)"
-msgstr "▲ Zeige %d Zeilen"
+msgstr "▲ %s Zeile(n) anzeigen"
 
-#, fuzzy, php-format
+#, php-format
 msgid "Show All %s Block(s)"
-msgstr "Zeige alle %d Zeilen"
+msgstr "Alle %s Block(s) anzeigen"
 
-#, fuzzy, php-format
+#, php-format
 msgid "Show All %s Line(s)"
-msgstr "Zeige alle %d Zeilen"
+msgstr "Alle %s Zeile(n) anzeigen"
 
-#, fuzzy, php-format
+#, php-format
 msgid "Show Last %s Block(s)"
-msgstr "Zeige die letzten %d Zeilen"
+msgstr "Letzte %s Block(s) anzeigen"
 
-#, fuzzy, php-format
+#, php-format
 msgid "Show Last %s Line(s)"
-msgstr "Zeige die letzten %d Zeilen"
+msgstr "Letzte %s Zeile(n) anzeigen"
 
-#, fuzzy, php-format
+#, php-format
 msgid "▼ Show %s Block(s)"
-msgstr "▲ Zeige %d Zeilen"
+msgstr "▼ %s Block(s) anzeigen"
 
-#, fuzzy, php-format
+#, php-format
 msgid "▼ Show %s Line(s)"
-msgstr "▲ Zeige %d Zeilen"
+msgstr "▼ %s Zeile(n) anzeigen"
 
-#, fuzzy
 msgid "(Empty.)"
-msgstr "(leer)"
+msgstr "(Leer.)"
 
 msgid "Context not available."
 msgstr "Kontext nicht verfügbar."
 
 msgid "Failed to make progress during 1up diff layout."
-msgstr ""
+msgstr "Beim 1-up-Diff-Layout konnte kein Fortschritt erzielt werden."
 
 #, php-format
 msgid "Unknown primitive type '%s'!"
-msgstr ""
+msgstr "Unbekannter primitiver Typ '%s'!"
 
 msgid "The diff the changeset is attached to."
-msgstr ""
+msgstr "Der Diff, dem der Changeset zugeordnet ist."
 
 msgid "This diff is attached to a revision, and inherits its policies."
 msgstr "Dieses Diff hängt an einer bestimmten Version und erbt deren Policies."
 
 msgid "The author of a diff can see it."
-msgstr ""
+msgstr "Der Autor eines Diffs kann ihn einsehen."
 
 msgid "The differential diff ID, if applicable."
-msgstr ""
+msgstr "Die Differential-Diff-ID, falls zutreffend."
 
 msgid "The differential revision ID, if applicable."
-msgstr ""
+msgstr "Die Differential-Versions-ID, falls zutreffend."
 
-#, fuzzy
 msgid "The callsign of the repository."
-msgstr "Das Repository wirklich löschen?"
+msgstr "Das Rufzeichen des Repositorys."
 
 msgid "The PHID of the repository."
-msgstr ""
+msgstr "Die PHID des Repositorys."
 
 msgid "The version control system, either \"svn\", \"hg\" or \"git\"."
-msgstr ""
+msgstr "Das Versionsverwaltungssystem, entweder \"svn\", \"hg\" oder \"git\"."
 
 msgid "The URI to clone or checkout the repository from."
-msgstr ""
+msgstr "Die URI zum Klonen oder Auschecken des Repositorys."
 
 msgid "The URI of the staging repository."
-msgstr ""
+msgstr "Die URI des Staging-Repositorys."
 
 msgid "The ref name for this change in the staging repository."
-msgstr ""
+msgstr "Der Ref-Name für diese Änderung im Staging-Repository."
 
 #, php-format
 msgid ""
 "This diff (\"%s\") is not associated with a repository. A diff must belong "
 "to a tracked repository to be built by CircleCI."
 msgstr ""
+"Dieser Diff (\"%s\") ist keinem Repository zugeordnet. Ein Diff muss zu einem "
+"verfolgten Repository gehören, um von CircleCI gebaut werden zu können."
 
 #, php-format
 msgid ""
 "This diff (\"%s\") is associated with a repository (\"%s\") which could not "
 "be loaded."
 msgstr ""
+"Dieser Diff (\"%s\") ist einem Repository (\"%s\") zugeordnet, das nicht "
+"geladen werden konnte."
 
 #, php-format
 msgid ""
@@ -20980,6 +20999,9 @@ msgid ""
 "have a Staging Area configured. You must configure a Staging Area to use "
 "CircleCI integration."
 msgstr ""
+"Dieser Diff (\"%s\") ist einem Repository (\"%s\") zugeordnet, für das kein "
+"Staging-Bereich konfiguriert ist. Du musst einen Staging-Bereich konfigurieren, "
+"um die CircleCI-Integration zu nutzen."
 
 #, php-format
 msgid ""
@@ -20988,41 +21010,41 @@ msgid ""
 "build from GitHub, so the Staging Area for the repository must be hosted "
 "there."
 msgstr ""
+"Dieser Diff (\"%s\") ist einem Repository (\"%s\") zugeordnet, dessen Staging-"
+"Bereich (\"%s\") nicht auf GitHub gehostet ist. CircleCI kann nur von GitHub "
+"aus bauen, daher muss der Staging-Bereich des Repositorys dort gehostet sein."
 
-#, fuzzy
 msgid "Associated revision PHID."
-msgstr "Projekte zuweisen"
+msgstr "Zugehörige Versions-PHID."
 
 msgid "Revision author PHID."
-msgstr ""
+msgstr "Versionsautor-PHID."
 
-#, fuzzy
 msgid "Associated repository PHID."
-msgstr "%s hat dieses Repository aktiviert."
+msgstr "Zugehörige Repository-PHID."
 
-#, fuzzy
 msgid "List of related VCS references."
-msgstr "Anzeigeeinstellungen"
+msgstr "Liste verknüpfter VCS-Referenzen."
 
 #, php-format
 msgid "Structured file kind should be \"+\" or \"-\", got \"%s\"."
-msgstr ""
+msgstr "Strukturierter Datei-Typ sollte \"+\" oder \"-\" sein, erhalten: \"%s\"."
 
 #, php-format
 msgid "Hunk has unsupported data type \"%s\"!"
-msgstr ""
+msgstr "Hunk hat einen nicht unterstützten Datentyp \"%s\"!"
 
 #, php-format
 msgid "Hunk has unsupported data encoding \"%s\"!"
-msgstr ""
+msgstr "Hunk hat eine nicht unterstützte Datenkodierung \"%s\"!"
 
 #, php-format
 msgid "Unable to load file data for hunk with wrong data type (\"%s\")."
-msgstr ""
+msgstr "Dateidaten für Hunk mit falschem Datentyp (\"%s\") konnten nicht geladen werden."
 
-#, fuzzy, php-format
+#, php-format
 msgid "Failed to load file (\"%s\") with hunk data."
-msgstr "Konnte Datei nicht laden."
+msgstr "Datei (\"%s\") mit Hunk-Daten konnte nicht geladen werden."
 
 msgid "The owner of a revision can always view and edit it."
 msgstr "Der Eigentümer einer Version kann sie immer ansehen und ändern."
@@ -21036,57 +21058,57 @@ msgstr ""
 "möchten."
 
 msgid "The revision title."
-msgstr ""
+msgstr "Der Titel der Version."
 
-#, fuzzy
 msgid "View URI for the revision."
-msgstr "Versionen anzeigen"
+msgstr "Anzeige-URI für die Version."
 
 msgid "Information about revision status."
-msgstr ""
+msgstr "Informationen zum Versionsstatus."
 
-#, fuzzy
 msgid "Revision repository PHID."
-msgstr "Versionshistorie"
+msgstr "Versions-Repository-PHID."
 
 msgid "Active diff PHID."
-msgstr ""
+msgstr "Aktive Diff-PHID."
 
-#, fuzzy
 msgid "Revision summary."
-msgstr "Versionen"
+msgstr "Versionszusammenfassung."
 
-#, fuzzy
 msgid "Revision test plan."
-msgstr "Versionen"
+msgstr "Versions-Testplan."
 
 msgid ""
 "True if this revision is in any draft state, and thus not notifying "
 "reviewers and subscribers about changes."
 msgstr ""
+"Wahr, wenn sich diese Version in einem Entwurfsstatus befindet und daher "
+"Reviewer und Abonnenten nicht über Änderungen benachrichtigt werden."
 
 msgid ""
 "True if this revision is being held as a draft. It will not be automatically "
 "submitted for review even if tests pass."
 msgstr ""
+"Wahr, wenn diese Version als Entwurf zurückgehalten wird. Sie wird nicht "
+"automatisch zur Überprüfung eingereicht, auch wenn Tests bestanden werden."
 
 msgid "Commented On"
 msgstr "Kommentiert"
 
 msgid "Requested Changes To"
-msgstr ""
+msgstr "Änderungen angefordert für"
 
 msgid "Planned Changes To"
-msgstr ""
+msgstr "Änderungen geplant für"
 
 msgid "Requested A Review Of"
-msgstr ""
+msgstr "Review angefordert für"
 
 msgid "Resigned From"
-msgstr ""
+msgstr "Hingeschmissen bei"
 
 msgid "Commandeered"
-msgstr ""
+msgstr "Übernommen"
 
 msgid "Reopened"
 msgstr "Neu geöffnet"
@@ -21101,11 +21123,11 @@ msgid "Closed by commit %s (authored by %s)."
 msgstr "Wurde durch Änderung %s (Autor war %s) geschlossen."
 
 msgid "Explain Why"
-msgstr ""
+msgstr "Begründung angeben"
 
 #, php-format
 msgid "%s requested changes to %s."
-msgstr "%s hat Änderungen für %s verlangt."
+msgstr "%s hat Änderungen für %s angefordert."
 
 #, php-format
 msgid "%s planned changes to %s."
@@ -21113,7 +21135,7 @@ msgstr "%s plant Änderungen für %s."
 
 #, php-format
 msgid "%s abandoned %s."
-msgstr ""
+msgstr "%s hat %s zurückgezogen."
 
 #, php-format
 msgid "%s closed %s."
@@ -21121,108 +21143,103 @@ msgstr "%s hat %s geschlossen."
 
 #, php-format
 msgid "%s closed %s by committing %s (authored by %s)."
-msgstr "%s hat %s geschlossen, in dem %s (Autor ist %s) eingepflegt wurde."
+msgstr "%s hat %s geschlossen, indem %s (Autor: %s) eingepflegt wurde."
 
 #, php-format
 msgid "%s closed %s by committing %s."
-msgstr "%s hat %s geschlossen, in dem %s eingepflegt wurde."
+msgstr "%s hat %s geschlossen, indem %s eingepflegt wurde."
 
 #, php-format
 msgid "%s requested review of %s."
-msgstr ""
+msgstr "%s hat Review von %s angefordert."
 
 #, php-format
 msgid "%s reclaimed %s."
-msgstr ""
+msgstr "%s hat %s wieder eingereicht."
 
 #, php-format
 msgid "%s resigned from %s."
-msgstr ""
+msgstr "%s hat als Reviewer bei %s hingeschmissen."
 
 #, php-format
 msgid "%s commandeered %s."
-msgstr ""
+msgstr "%s hat %s übernommen."
 
 #, php-format
 msgid "%s reopened %s."
 msgstr "%s hat %s wieder geöffnet."
 
 msgid "This revision is already closed."
-msgstr ""
+msgstr "Diese Version ist bereits geschlossen."
 
 msgid "This revision has already been abandoned."
-msgstr ""
+msgstr "Diese Version wurde bereits zurückgezogen."
 
 msgid ""
 "You can not reclaim this revision because his revision is not abandoned."
-msgstr ""
+msgstr "Du kannst diese Version nicht wieder einreichen, da sie nicht zurückgezogen wurde."
 
 msgid "You can not reopen this revision because this revision is not closed."
-msgstr ""
+msgstr "Du kannst diese Version nicht wieder öffnen, da sie nicht geschlossen ist."
 
 msgid "This revision already requires changes."
-msgstr ""
+msgstr "Diese Version erfordert bereits Änderungen."
 
 msgid "You can not commandeer this revision because you already own it."
-msgstr ""
+msgstr "Du kannst diese Version nicht übernehmen, da Du sie bereits besitzt."
 
 msgid "Warning: Editing Inlines"
-msgstr ""
+msgstr "Warnung: Inline-Kommentare werden bearbeitet"
 
-#, fuzzy
 msgid "Save Inlines and Continue"
-msgstr "Speichern und Fortsetzen"
+msgstr "Inlines speichern und fortfahren"
 
 #, php-format
 msgid "You are currently editing %s inline comment(s) on this revision."
-msgstr ""
+msgstr "Du bearbeitest derzeit %s Inline-Kommentar(e) zu dieser Version."
 
 #, php-format
 msgid "These %s inline comment(s) will be saved and published."
-msgstr ""
+msgstr "Diese %s Inline-Kommentar(e) werden gespeichert und veröffentlicht."
 
-#, fuzzy
 msgid "Warning: Draft Revision"
-msgstr "Keine Version wartet auf Freigabe"
+msgstr "Warnung: Entwurfsversion"
 
-#, fuzzy
 msgid "Tell No One"
-msgstr "Niemand"
+msgstr "Niemanden informieren"
 
 msgid ""
 "This is a draft revision that will not publish any notifications until the "
 "author requests review."
 msgstr ""
+"Dies ist eine Entwurfsversion, die keine Benachrichtigungen veröffentlicht, "
+"bis der Autor einen Review anfordert."
 
 msgid "Mentioned or subscribed users will not be notified."
-msgstr ""
+msgstr "Erwähnte oder abonnierte Benutzer werden nicht benachrichtigt."
 
 #, php-format
 msgid "Expected exactly one changeset from \"%s\"."
-msgstr ""
+msgstr "Genau ein Changeset von \"%s\" erwartet."
 
 #, php-format
 msgid "Expected exactly one hunk from \"%s\"."
-msgstr ""
+msgstr "Genau ein Hunk von \"%s\" erwartet."
 
-#, fuzzy
 msgid "Browse Blocking Reviewers"
-msgstr "Review geblockt"
+msgstr "Blockierende Reviewer durchsuchen"
 
 msgid "Type a user, project, or package name..."
 msgstr "Benutzer, Projekt oder Paket eintippen..."
 
-#, fuzzy
 msgid "Blocking: ..."
-msgstr "Verhindert"
+msgstr "Blockierend: ..."
 
-#, fuzzy
 msgid "reviewer"
 msgstr "Reviewer"
 
-#, fuzzy
 msgid "Select a blocking reviewer."
-msgstr "Review geblockt"
+msgstr "Einen blockierenden Reviewer auswählen."
 
 #, php-format
 msgid ""
@@ -21232,28 +21249,31 @@ msgid ""
 "%s\n"
 "\n"
 msgstr ""
+"Diese Funktion ermöglicht es Dir, einen Reviewer als blockierenden Reviewer "
+"hinzuzufügen. Zum Beispiel wird damit `%s` als blockierender Reviewer "
+"hinzugefügt: \n"
+"\n"
+"%s\n"
+"\n"
 
-#, fuzzy, php-format
+#, php-format
 msgid "Blocking: %s"
-msgstr "Verhindert"
+msgstr "Blockierend: %s"
 
-#, fuzzy
 msgid "Blocking: Invalid Reviewer"
-msgstr "Review geblockt"
+msgstr "Blockierend: Ungültiger Reviewer"
 
-#, fuzzy
 msgid "Type exact(<user>)..."
-msgstr "Gibt einen Benutzernamen an..."
+msgstr "exact(<Benutzer>) eingeben..."
 
-#, fuzzy
 msgid "Exact: ..."
-msgstr "Projekte: ..."
+msgstr "Genau: ..."
 
 msgid "username"
-msgstr ""
+msgstr "Benutzername"
 
 msgid "Find results matching users exactly."
-msgstr ""
+msgstr "Ergebnisse finden, die genau einem Benutzer entsprechen."
 
 #, php-format
 msgid ""
@@ -21264,27 +21284,31 @@ msgid ""
 "%s\n"
 "\n"
 msgstr ""
+"Diese Funktion ermöglicht es Dir, Ergebnisse zu finden, die genau einem "
+"Benutzer zugeordnet sind, ohne seine Projekte oder Pakete. Zum Beispiel "
+"findet dies Ergebnisse, die nur `%s` zugeordnet sind:\n"
+"\n"
+"%s\n"
+"\n"
 
-#, fuzzy, php-format
+#, php-format
 msgid "Exact User: %s"
-msgstr "Beispiel: %s"
+msgstr "Genauer Benutzer: %s"
 
 msgid "Exact User: Invalid User"
-msgstr ""
+msgstr "Genauer Benutzer: Ungültiger Benutzer"
 
-#, fuzzy
 msgid "Browse No Reviewers"
-msgstr "Projekt Reviewer"
+msgstr "Ohne Reviewer durchsuchen"
 
 msgid "Type \"none\"..."
-msgstr ""
+msgstr "\"none\" eintippen..."
 
-#, fuzzy
 msgid "No Reviewers"
-msgstr "Reviewer"
+msgstr "Keine Reviewer"
 
 msgid "Find results which have no reviewers."
-msgstr ""
+msgstr "Ergebnisse ohne Reviewer finden."
 
 #, php-format
 msgid ""
@@ -21300,100 +21324,105 @@ msgid ""
 "\n"
 "%s"
 msgstr ""
+"Diese Funktion enthält Ergebnisse ohne Reviewer. Verwende eine Abfrage wie "
+"diese, um Ergebnisse ohne Reviewer zu finden:\n"
+"\n"
+"%s\n"
+"\n"
+"Wenn Du diese Funktion mit anderen Funktionen kombinierst, gibt die Abfrage "
+"Ergebnisse zurück, die den anderen Selektoren entsprechen //oder// keine "
+"Reviewer haben. Diese Abfrage findet zum Beispiel Ergebnisse, bei denen "
+"`alincoln` als Reviewer eingetragen ist, und findet auch Ergebnisse ohne "
+"Reviewer:\n"
+"\n"
+"%s"
 
 msgid "Select results with no reviewers."
-msgstr ""
+msgstr "Ergebnisse ohne Reviewer auswählen."
 
-#, fuzzy
 msgid "Browse Responsible Users"
-msgstr "Verantwortliche"
+msgstr "Verantwortliche Benutzer durchsuchen"
 
-#, fuzzy
 msgid "Type a user, project, or package name, or function..."
-msgstr "Benutzer, Projekt oder Paket eintippen..."
+msgstr "Benutzer, Projekt, Paketname oder Funktion eingeben..."
 
 msgid ""
 "Show revisions the current viewer is responsible for. This function includes "
 "revisions the viewer is responsible for through membership in projects and "
 "packages."
 msgstr ""
+"Versionen anzeigen, für die der aktuelle Betrachter verantwortlich ist. Diese "
+"Funktion enthält Versionen, für die der Betrachter durch Mitgliedschaft in "
+"Projekten und Paketen verantwortlich ist."
 
-#, fuzzy
 msgid "Browse Reviewers"
-msgstr "Projekt Reviewer"
+msgstr "Reviewer durchsuchen"
 
-#, fuzzy
 msgid "Type a user, project, package name or function..."
-msgstr "Benutzer, Projekt oder Paket eintippen..."
+msgstr "Benutzer, Projekt, Paketname oder Funktion eingeben..."
 
 msgid "Browse Any Closed Status"
-msgstr ""
+msgstr "Beliebigen geschlossenen Status durchsuchen"
 
 msgid "Type closed()..."
-msgstr ""
+msgstr "closed() eingeben..."
 
 msgid "Any Closed Status"
-msgstr ""
+msgstr "Beliebiger geschlossener Status"
 
 msgid "Find results with any closed status."
-msgstr ""
+msgstr "Ergebnisse mit beliebigem geschlossenem Status finden."
 
 msgid "This function includes results which have any closed status."
-msgstr ""
+msgstr "Diese Funktion enthält Ergebnisse mit beliebigem geschlossenem Status."
 
 msgid "Select any closed status."
-msgstr ""
+msgstr "Beliebigen geschlossenen Status auswählen."
 
 msgid "Browse Any Open Status"
-msgstr ""
+msgstr "Beliebigen offenen Status durchsuchen"
 
 msgid "Type open()..."
-msgstr ""
+msgstr "open() eingeben..."
 
 msgid "Any Open Status"
-msgstr ""
+msgstr "Beliebiger offener Status"
 
 msgid "Find results with any open status."
-msgstr ""
+msgstr "Ergebnisse mit beliebigem offenem Status finden."
 
 msgid "This function includes results which have any open status."
-msgstr ""
+msgstr "Diese Funktion enthält Ergebnisse mit beliebigem offenem Status."
 
-#, fuzzy
 msgid "Select any open status."
-msgstr "Hinzuzufügendes Panel auswählen"
+msgstr "Beliebigen offenen Status auswählen."
 
 msgid "Browse Statuses"
-msgstr ""
+msgstr "Status durchsuchen"
 
-#, fuzzy
 msgid "Type a revision status name..."
-msgstr "Einen Aufgabenstatus eintippen..."
+msgstr "Einen Versionsstatus eintippen..."
 
-#, fuzzy
 msgid "Closed Status"
-msgstr "Regel-Status"
+msgstr "Geschlossener Status"
 
-#, fuzzy
 msgid "Open Status"
-msgstr "Neuer Termin"
+msgstr "Offener Status"
 
-#, fuzzy
 msgid "Type a revision status name or function..."
-msgstr "Einen Aufgabenstatus oder eine Funktion eintippen..."
+msgstr "Einen Versionsstatus oder eine Funktion eintippen..."
 
 msgid "Copy file path"
-msgstr ""
+msgstr "Dateipfad kopieren"
 
 msgid "File path copied."
-msgstr ""
+msgstr "Dateipfad kopiert."
 
-#, fuzzy
 msgid "Copying failed."
-msgstr "Anmeldung fehlgeschlagen"
+msgstr "Kopieren fehlgeschlagen."
 
 msgid "Load File"
-msgstr ""
+msgstr "Datei laden"
 
 msgid "Open in Editor"
 msgstr "In Editor öffnen"
@@ -21401,24 +21430,20 @@ msgstr "In Editor öffnen"
 msgid "Show All Context"
 msgstr "Kompletten Kontext anzeigen"
 
-#, fuzzy
 msgid "All Context Shown"
-msgstr "Kompletten Kontext anzeigen"
+msgstr "Kompletter Kontext angezeigt"
 
 msgid "Expand File"
-msgstr "Datei Zeigen"
+msgstr "Datei ausklappen"
 
-#, fuzzy
 msgid "Hide Changeset"
-msgstr "Änderungen speichern"
+msgstr "Changeset ausblenden"
 
-#, fuzzy
 msgid "Show Path in Repository"
-msgstr "Neues Repository"
+msgstr "Pfad im Repository anzeigen"
 
-#, fuzzy
 msgid "Show Directory in Repository"
-msgstr "Neues Repository"
+msgstr "Verzeichnis im Repository anzeigen"
 
 msgid "View Standalone"
 msgstr "Einzeln zeigen"
@@ -21433,198 +21458,160 @@ msgid "Configure Editor"
 msgstr "Editor konfigurieren"
 
 msgid "Load Changes"
-msgstr "Zeige Änderungen"
+msgstr "Änderungen laden"
 
-#, fuzzy
 msgid "View Side-by-Side Diff"
-msgstr "Zeige nebeneinander"
+msgstr "Nebeneinander anzeigen"
 
 msgid "View Unified Diff"
-msgstr ""
+msgstr "Unified Diff anzeigen"
 
 msgid "Change Text Encoding..."
-msgstr ""
+msgstr "Textkodierung ändern..."
 
 msgid "Highlight As..."
-msgstr ""
+msgstr "Hervorheben als..."
 
-#, fuzzy
 msgid "View As Document Type..."
-msgstr "Wähle eine Dokumentenart..."
+msgstr "Als Dokumenttyp anzeigen..."
 
-#, fuzzy
 msgid "Editing Comment"
-msgstr "Kommentar ändern"
+msgstr "Kommentar wird bearbeitet"
 
-#, fuzzy
 msgid "Jump to next change."
-msgstr "Ein Dokumenteninhalt wurde verändert."
+msgstr "Zur nächsten Änderung springen."
 
-#, fuzzy
 msgid "Jump to previous change."
-msgstr "Kein vorherigen Änderungen"
+msgstr "Zur vorherigen Änderung springen."
 
 msgid "Jump to next file."
-msgstr ""
+msgstr "Zur nächsten Datei springen."
 
-#, fuzzy
 msgid "Jump to previous file."
-msgstr "Kein vorherigen Änderungen"
+msgstr "Zur vorherigen Datei springen."
 
-#, fuzzy
 msgid "Jump to next inline comment."
-msgstr "Inline-Kommentar ändern"
+msgstr "Zum nächsten Inline-Kommentar springen."
 
-#, fuzzy
 msgid "Jump to previous inline comment."
-msgstr "%s hat Inline-Kommentare hinzugefügt."
+msgstr "Zum vorherigen Inline-Kommentar springen."
 
-#, fuzzy
 msgid "Jump to the table of contents."
-msgstr "Inhaltsverzeichnis"
+msgstr "Zum Inhaltsverzeichnis springen."
 
-#, fuzzy
 msgid "Edit selected inline comment."
-msgstr "Inline-Kommentar ändern"
+msgstr "Ausgewählten Inline-Kommentar bearbeiten."
 
-#, fuzzy
 msgid "You must select a comment to edit."
-msgstr "Du mußt eine Datei zum Hochladen auswählen."
+msgstr "Du musst einen Kommentar zum Bearbeiten auswählen."
 
-#, fuzzy
 msgid "Reply to selected inline comment or change."
-msgstr ""
-"Per Email-Antwort kommentieren oder per !unsubscribe von weiteren Email-"
-"Benachrichtigungen abmelden."
+msgstr "Auf ausgewählten Inline-Kommentar oder Änderung antworten."
 
-#, fuzzy
 msgid "You must select a comment or change to reply to."
-msgstr "Du mußt einen Panel-Typ auswählen."
+msgstr "Du musst einen Kommentar oder eine Änderung zum Antworten auswählen."
 
-#, fuzzy
 msgid "Reply and quote selected inline comment."
-msgstr "%s hat Inline-Kommentare hinzugefügt."
+msgstr "Auf ausgewählten Inline-Kommentar antworten und zitieren."
 
 msgid "Mark or unmark selected inline comment as done."
-msgstr ""
+msgstr "Ausgewählten Inline-Kommentar als erledigt markieren oder Markierung aufheben."
 
-#, fuzzy
 msgid "You must select a comment to mark done."
-msgstr "Du mußt eine Datei zum Hochladen auswählen."
+msgstr "Du musst einen Kommentar auswählen, um ihn als erledigt zu markieren."
 
-#, fuzzy
 msgid "Collapse or expand inline comment."
-msgstr "%s hat Inline-Kommentare hinzugefügt."
+msgstr "Inline-Kommentar ein- oder ausklappen."
 
-#, fuzzy
 msgid "You must select a comment to hide."
-msgstr "Du mußt eine Datei zum Hochladen auswählen."
+msgstr "Du musst einen Kommentar zum Ausblenden auswählen."
 
 msgid "Jump to next inline comment, including collapsed comments."
-msgstr ""
+msgstr "Zum nächsten Inline-Kommentar springen, einschließlich eingeklappter Kommentare."
 
 msgid "Jump to previous inline comment, including collapsed comments."
-msgstr ""
+msgstr "Zum vorherigen Inline-Kommentar springen, einschließlich eingeklappter Kommentare."
 
 msgid "Hide or show the current changeset."
-msgstr ""
+msgstr "Aktuellen Changeset aus- oder einblenden."
 
-#, fuzzy
 msgid "You must select a file to hide or show."
-msgstr "Du mußt eine Datei zum Hochladen auswählen."
+msgstr "Du musst eine Datei zum Aus- oder Einblenden auswählen."
 
-#, fuzzy
 msgid "Unsaved"
-msgstr "Änderungen gespeichert"
+msgstr "Nicht gespeichert"
 
 msgid "Unsubmitted"
-msgstr ""
+msgstr "Nicht eingereicht"
 
 msgid "Comments"
 msgstr "Kommentare"
 
-#, fuzzy
 msgid "Hide \"Done\" Inlines"
-msgstr "Host-Felder verstecken"
+msgstr "\"Erledigte\" Inlines ausblenden"
 
-#, fuzzy
 msgid "Hide Collapsed Inlines"
-msgstr "Datei Verstecken"
+msgstr "Eingeklappte Inlines ausblenden"
 
 msgid "Hide Older Inlines"
-msgstr ""
+msgstr "Ältere Inlines ausblenden"
 
 msgid "Hide All Inlines"
-msgstr ""
+msgstr "Alle Inlines ausblenden"
 
-#, fuzzy
 msgid "Show All Inlines"
-msgstr "Alle Dateien Inline zeigen"
+msgstr "Alle Inlines anzeigen"
 
-#, fuzzy
 msgid "List Inline Comments"
-msgstr "Inline Kommentare"
+msgstr "Inline-Kommentare auflisten"
 
-#, fuzzy
 msgid "Hide or show all inline comments."
-msgstr "%s hat Inline-Kommentare hinzugefügt."
+msgstr "Alle Inline-Kommentare aus- oder einblenden."
 
 msgid "Finish editing inline comments before changing display modes."
-msgstr ""
+msgstr "Beende das Bearbeiten von Inline-Kommentaren, bevor Du den Anzeigemodus wechselst."
 
-#, fuzzy
 msgid "Open file in external editor."
-msgstr "Alle im Editor öffnen"
+msgstr "Datei in externem Editor öffnen."
 
-#, fuzzy
 msgid "You must select a file to edit."
-msgstr "Du mußt eine Datei zum Hochladen auswählen."
+msgstr "Du musst eine Datei zum Bearbeiten auswählen."
 
-#, fuzzy
 msgid "You must select a file to open."
-msgstr "Du mußt eine Datei zum Hochladen auswählen."
+msgstr "Du musst eine Datei zum Öffnen auswählen."
 
-#, fuzzy
 msgid "No external editor is configured."
-msgstr "Keine Zahlungsmethoden konfiguriert"
+msgstr "Kein externer Editor konfiguriert."
 
 msgid "Hide or show the paths panel."
-msgstr ""
+msgstr "Pfade-Panel aus- oder einblenden."
 
-#, fuzzy
 msgid "Show path in repository."
-msgstr "%s hat dieses Repository aktiviert."
+msgstr "Pfad im Repository anzeigen."
 
-#, fuzzy
 msgid "Show directory in repository."
-msgstr "%s hat dieses Repository deaktiviert."
+msgstr "Verzeichnis im Repository anzeigen."
 
-#, fuzzy
 msgid "Jump to the comment area."
-msgstr "Auf Kommentar antworten"
+msgstr "Zum Kommentarbereich springen."
 
-#, fuzzy
 msgid "Show Changeset"
-msgstr "Änderungen zeigen"
+msgstr "Changeset anzeigen"
 
-#, fuzzy
 msgid "You must select source text to create a new inline comment."
-msgstr "Du mußt einen Panel-Typ auswählen."
+msgstr "Du musst Quelltext auswählen, um einen neuen Inline-Kommentar zu erstellen."
 
 msgid "New Inline Comment"
-msgstr ""
+msgstr "Neuer Inline-Kommentar"
 
-#, fuzzy
 msgid "Add new inline comment on selected source text."
-msgstr "%s hat einen Inline-Kommentar zu %s hinzugefügt."
+msgstr "Neuen Inline-Kommentar zum ausgewählten Quelltext hinzufügen."
 
-#, fuzzy
 msgid "Suggest Edit"
-msgstr "Reviewer vorschlagen"
+msgstr "Bearbeitung vorschlagen"
 
-#, fuzzy
 msgid "Discard Edit"
-msgstr "dieses Entwurf löschen"
+msgstr "Bearbeitung verwerfen"
 
 msgid "View Options"
 msgstr "Optionen anzeigen"
@@ -21650,70 +21637,64 @@ msgstr "Vorgänger kommentiert"
 msgid "Review Requested"
 msgstr "Review angefordert"
 
-#, fuzzy, php-format
+#, php-format
 msgid "Accepted (by %s)"
-msgstr "Erstellt von %s"
+msgstr "Akzeptiert (von %s)"
 
-#, fuzzy
 msgid "Accepted Earlier"
-msgstr "Vorangegangenen Diff akzeptiert"
+msgstr "Früher akzeptiert"
 
-#, fuzzy, php-format
+#, php-format
 msgid "Accepted Prior Diff (by %s)"
-msgstr "Vorangegangenen Diff akzeptiert"
+msgstr "Vorherigen Diff akzeptiert (von %s)"
 
 msgid "Accepted Prior Diff"
-msgstr "Vorangegangenen Diff akzeptiert"
+msgstr "Vorherigen Diff akzeptiert"
 
-#, fuzzy, php-format
+#, php-format
 msgid "Requested Changes (by %s)"
-msgstr "Änderungen angefordert"
+msgstr "Änderungen angefordert (von %s)"
 
 msgid "Requested Changes"
 msgstr "Änderungen angefordert"
 
-#, fuzzy, php-format
+#, php-format
 msgid "Requested Changes to Prior Diff (by %s)"
-msgstr "Änderungen zu vorangegangenem Diff angefordert"
+msgstr "Änderungen zu vorherigem Diff angefordert (von %s)"
 
 msgid "Requested Changes to Prior Diff"
-msgstr "Änderungen zu vorangegangenem Diff angefordert"
+msgstr "Änderungen zu vorherigem Diff angefordert"
 
 msgid "Blocking Review"
-msgstr "Review geblockt"
+msgstr "Review blockiert"
 
 msgid "(Owns No Changed Paths)"
-msgstr ""
+msgstr "(Keine geänderten Pfade im Besitz)"
 
-#, fuzzy
 msgid "No View Permission"
-msgstr "Versionen anzeigen"
+msgstr "Keine Anzeigeberechtigung"
 
 msgid "Unsubmitted Comments"
-msgstr "Nicht abgeschickte Kommentare."
+msgstr "Nicht eingereichte Kommentare"
 
-#, fuzzy
 msgid "Open Dependencies"
-msgstr "Abhängigkeiten"
+msgstr "Offene Abhängigkeiten"
 
 msgid ", ..."
-msgstr ""
+msgstr ", ..."
 
-#, fuzzy
 msgid "Reviewers:"
-msgstr "Reviewer"
+msgstr "Reviewer:"
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s Lines"
-msgstr "Zeige %d Zeilen"
+msgstr "%s Zeilen"
 
-#, fuzzy
 msgid "Smaller Change"
-msgstr "Änderungen speichern"
+msgstr "Kleinere Änderung"
 
-#, fuzzy
 msgid "Larger Change"
-msgstr "Änderungen speichern"
+msgstr "Größere Änderung"
 
 msgid "Base"
 msgstr "Basis"
@@ -21723,17 +21704,17 @@ msgstr "Diff anzeigen"
 
 #, php-format
 msgid "(On Diff #%d)"
-msgstr ""
+msgstr "(Auf Diff Nr. %d)"
 
 #, php-format
 msgid "%s created this diff."
-msgstr ""
+msgstr "%s hat diesen Diff erstellt."
 
 msgid "(None.)"
-msgstr ""
+msgstr "(Keine.)"
 
 msgid "Rejected by Herald"
-msgstr ""
+msgstr "Von Herald abgelehnt"
 
 #, php-format
 msgid ""
@@ -21741,20 +21722,25 @@ msgid ""
 "  Rule: %s\n"
 "Reason: %s"
 msgstr ""
+"Die Erstellung dieses Diffs wurde von Herald-Regel %s abgelehnt.\n"
+"  Regel: %s\n"
+"Grund: %s"
 
 msgid "Abandon Revision"
-msgstr "Version aufgeben"
+msgstr "Version zurückziehen"
 
 msgid "This revision will be abandoned and closed."
-msgstr ""
+msgstr "Diese Version wird zurückgezogen und geschlossen."
 
 msgid "Abandon a revision."
-msgstr ""
+msgstr "Eine Version zurückziehen."
 
 msgid ""
 "You can not abandon this revision because it has already been closed. Only "
 "open revisions can be abandoned."
 msgstr ""
+"Du kannst diese Version nicht zurückziehen, da sie bereits geschlossen ist. "
+"Nur offene Versionen können zurückgezogen werden."
 
 #, php-format
 msgid ""
@@ -21762,34 +21748,36 @@ msgid ""
 "only abandon revisions you own. You can change this behavior by adjusting "
 "the \"%s\" setting in Config."
 msgstr ""
+"Du kannst diese Version nicht zurückziehen, da Du nicht der Autor bist. Du "
+"kannst nur Versionen zurückziehen, die Dir gehören. Dieses Verhalten kannst "
+"Du durch Anpassen der Einstellung \"%s\" in der Konfiguration ändern."
 
-#, fuzzy
 msgid "Accept Revision"
-msgstr "Version akzeptieren ✔"
+msgstr "Version akzeptieren"
 
-#, fuzzy
 msgid "These changes will be approved."
-msgstr "Diese Aufgaben werden verändert:"
+msgstr "Diese Änderungen werden genehmigt."
 
 msgid "Accept a revision."
-msgstr ""
+msgstr "Eine Version akzeptieren."
 
-#, fuzzy, php-format
+#, php-format
 msgid "Force accept as %s"
-msgstr "%s hat %s akzeptiert."
+msgstr "Als %s erzwungen akzeptieren"
 
-#, fuzzy, php-format
+#, php-format
 msgid "Accept as %s"
-msgstr "Pfad Akzeptieren"
+msgstr "Als %s akzeptieren"
 
 msgid ""
 "You can not accept this revision because it has already been closed. Only "
 "open revisions can be accepted."
 msgstr ""
+"Du kannst diese Version nicht akzeptieren, da sie bereits geschlossen ist. "
+"Nur offene Versionen können akzeptiert werden."
 
-#, fuzzy
 msgid "You can not accept a draft revision."
-msgstr "Du kannst kein leeres Dokument erstellen"
+msgstr "Du kannst keine Entwurfsversion akzeptieren."
 
 #, php-format
 msgid ""
@@ -21797,95 +21785,102 @@ msgid ""
 "can only accept revisions you do not own. You can change this behavior by "
 "adjusting the \"%s\" setting in Config."
 msgstr ""
+"Du kannst diese Version nicht akzeptieren, da Du der Versionsautor bist. Du "
+"kannst nur Versionen akzeptieren, die Dir nicht gehören. Dieses Verhalten "
+"kannst Du durch Anpassen der Einstellung \"%s\" in der Konfiguration ändern."
 
 msgid "You can not accept this revision because you have already accepted it."
-msgstr ""
+msgstr "Du kannst diese Version nicht akzeptieren, da Du sie bereits akzeptiert hast."
 
 msgid ""
 "When accepting a revision, you must accept on behalf of at least one "
 "reviewer."
 msgstr ""
+"Beim Akzeptieren einer Version musst Du im Namen von mindestens einem "
+"Reviewer akzeptieren."
 
 #, php-format
 msgid ""
 "Reviewer \"%s\" is not a valid reviewer which you have authority to accept "
 "on behalf of."
 msgstr ""
+"Reviewer \"%s\" ist kein gültiger Reviewer, in dessen Namen Du zu akzeptieren "
+"berechtigt bist."
 
 #, php-format
 msgid "%s accepted this revision as %s reviewer(s): %s."
-msgstr ""
+msgstr "%s hat diese Version als %s Reviewer akzeptiert: %s."
 
-#, fuzzy
 msgid "Revisions must have an assigned author."
-msgstr "Du hast keine zugewiesenen Aufgaben."
+msgstr "Versionen müssen einen zugewiesenen Autor haben."
 
-#, fuzzy, php-format
+#, php-format
 msgid "Author \"%s\" is not a valid user."
-msgstr "Der neue Chat-Teilnehmer \"%s\" ist kein gültiger Benutzer."
+msgstr "Autor \"%s\" ist kein gültiger Benutzer."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s commandeered this revision from %s."
-msgstr "%s hat die Sichtbarkeit von %s verändert."
+msgstr "%s hat diese Version von %s übernommen."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s changed the author of this revision to %s."
-msgstr "%s hat den Namen des Termins von %s auf %s geändert."
+msgstr "%s hat den Autor dieser Version auf %s geändert."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s changed the author of this revision to..."
-msgstr "%s hat den Namen des Termins von %s auf %s geändert."
+msgstr "%s hat den Autor dieser Version geändert auf..."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s changed the author of this revision from %s to %s."
-msgstr "%s hat den Namen des Termins von %s auf %s geändert."
+msgstr "%s hat den Autor dieser Version von %s auf %s geändert."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s commandeered %s from %s."
-msgstr "%s hat %s von %s nach %s geändert."
+msgstr "%s hat %s von %s übernommen."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s foisted %s upon %s."
-msgstr "%s hat %s aus %s entfernt."
+msgstr "%s hat %s auf %s abgewälzt."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s changed the author of %s from %s to %s."
-msgstr "%s hat den Namen von %s von %s auf %s geändert."
+msgstr "%s hat den Autor von %s von %s auf %s geändert."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s completed remote builds in %s."
-msgstr "%s hat hierauf in %s Bezug genommen."
+msgstr "%s hat Remote-Builds in %s abgeschlossen."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s failed remote builds in %s!"
-msgstr "%s hat %s aus %s entfernt."
+msgstr "%s: Remote-Builds in %s fehlgeschlagen!"
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s completed remote builds in %s for %s."
-msgstr "%s hat das Diff für %s geändert."
+msgstr "%s hat Remote-Builds in %s für %s abgeschlossen."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s failed remote builds in %s for %s!"
-msgstr "%s hat die Sichtbarkeit von %s verändert."
+msgstr "%s: Remote-Builds in %s für %s fehlgeschlagen!"
 
 msgid "Close Revision"
 msgstr "Version schließen"
 
-#, fuzzy
 msgid "This revision will be closed."
-msgstr ""
-"Nach der angegebenen Anzahl Tagen, wird die Version als 'eingeschlafen' "
-"angesehen."
+msgstr "Diese Version wird geschlossen."
 
 msgid ""
 "You can not close this revision because it has already been closed. Only "
 "open revisions can be closed."
 msgstr ""
+"Du kannst diese Version nicht schließen, da sie bereits geschlossen ist. "
+"Nur offene Versionen können geschlossen werden."
 
 msgid ""
 "You can not close this revision because it has not been accepted. Revisions "
 "must be accepted before they can be closed."
 msgstr ""
+"Du kannst diese Version nicht schließen, da sie noch nicht akzeptiert wurde. "
+"Versionen müssen akzeptiert sein, bevor sie geschlossen werden können."
 
 #, php-format
 msgid ""
@@ -21893,147 +21888,161 @@ msgid ""
 "close revisions you own. You can change this behavior by adjusting the "
 "\"%s\" setting in Config."
 msgstr ""
+"Du kannst diese Version nicht schließen, da Du nicht der Autor bist. Du "
+"kannst nur Versionen schließen, die Dir gehören. Dieses Verhalten kannst Du "
+"durch Anpassen der Einstellung \"%s\" in der Konfiguration ändern."
 
 #, php-format
 msgid "Closed by commit %s."
-msgstr "Wurde durch Änderung %s geschlossen."
+msgstr "Durch Commit %s geschlossen."
 
 msgid "Commandeer Revision"
-msgstr "Versions Kommander"
+msgstr "Version übernehmen"
 
 msgid "You will take control of this revision and become its author."
-msgstr ""
+msgstr "Du übernimmst die Kontrolle über diese Version und wirst ihr Autor."
 
 msgid "Commandeer a revision."
-msgstr ""
+msgstr "Eine Version übernehmen."
 
 msgid ""
 "You can not commandeer this revision because it has already been closed. You "
 "can only commandeer open or abandoned revisions."
 msgstr ""
+"Du kannst diese Version nicht übernehmen, da sie bereits geschlossen ist. "
+"Du kannst nur offene oder zurückgezogene Versionen übernehmen."
 
 msgid ""
 "You can not commandeer this revision because you are already the author."
-msgstr ""
+msgstr "Du kannst diese Version nicht übernehmen, da Du bereits der Autor bist."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s held this revision as a draft."
-msgstr "%s hat diese Aufgabe geschlossen (war ein Duplikat)."
+msgstr "%s hat diese Version als Entwurf zurückgehalten."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s set this revision to automatically submit once builds complete."
-msgstr "%s hat das Repository für alle Branches auf 'autoclose' konfiguriert."
+msgstr "%s hat diese Version auf automatisches Einreichen nach Abschluss der Builds eingestellt."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s held %s as a draft."
-msgstr "%s hat %s abgeschlossen, da es ein Duplikat ist."
+msgstr "%s hat %s als Entwurf zurückgehalten."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s set %s to automatically submit once builds complete."
-msgstr "Du erfährst automatisch Neuigkeiten zu diesem Objekt."
+msgstr "%s hat %s auf automatisches Einreichen nach Abschluss der Builds eingestellt."
 
-#, fuzzy
 msgid "Plan Changes"
-msgstr "Änderungen planen ✘"
+msgstr "Änderungen planen"
 
 msgid "This revision will be removed from review queues until it is revised."
-msgstr ""
+msgstr "Diese Version wird aus den Review-Warteschlangen entfernt, bis sie überarbeitet wird."
 
-#, fuzzy
 msgid "Planned Changes"
-msgstr "Änderungen planen ✘"
+msgstr "Änderungen geplant"
 
 msgid "Plan changes to a revision."
-msgstr ""
+msgstr "Änderungen für eine Version planen."
 
-#, fuzzy
 msgid "You can not plan changes to a draft revision."
-msgstr "Du hast keinerlei Änderungen an diesem Dokument durchgeführt."
+msgstr "Du kannst keine Änderungen für eine Entwurfsversion planen."
 
 msgid ""
 "You can not request review of this revision because this revision is already "
 "under review and the action would have no effect."
 msgstr ""
+"Du kannst keinen Review für diese Version anfordern, da sie bereits in "
+"Überprüfung ist und die Aktion keine Wirkung hätte."
 
 msgid ""
 "You can not plan changes to this revision because it has already been closed."
-msgstr ""
+msgstr "Du kannst keine Änderungen für diese Version planen, da sie bereits geschlossen ist."
 
 msgid ""
 "You can not plan changes to this revision because you do not own it. Only "
 "the author of a revision can plan changes to it."
 msgstr ""
+"Du kannst keine Änderungen für diese Version planen, da Du ihr nicht gehörst. "
+"Nur der Autor einer Version kann Änderungen dafür planen."
 
 #, php-format
 msgid ""
 "%s returned this revision to the author for changes because remote builds "
 "failed."
 msgstr ""
+"%s hat diese Version wegen fehlgeschlagener Remote-Builds zur Überarbeitung "
+"an den Autor zurückgegeben."
 
 msgid "Reclaim Revision"
-msgstr "Version an sich reißen"
+msgstr "Version wieder einreichen"
 
 msgid "This revision will be reclaimed and reopened."
-msgstr ""
+msgstr "Diese Version wird wieder eingereicht und geöffnet."
 
-#, fuzzy
 msgid "Reclaimed"
-msgstr "An sich gerissen"
+msgstr "Wieder eingereicht"
 
 msgid "Reclaim a revision."
-msgstr ""
+msgstr "Eine Version wieder einreichen."
 
 msgid ""
 "You can not reclaim this revision because it has not been abandoned. Only "
 "abandoned revisions can be reclaimed."
 msgstr ""
+"Du kannst diese Version nicht wieder einreichen, da sie nicht zurückgezogen wurde. "
+"Nur zurückgezogene Versionen können wieder eingereicht werden."
 
 msgid ""
 "You can not reclaim this revision because you are not the revision author. "
 "You can only reclaim revisions you own."
 msgstr ""
+"Du kannst diese Version nicht wieder einreichen, da Du nicht der Versionsautor "
+"bist. Du kannst nur Versionen wieder einreichen, die Dir gehören."
 
-#, fuzzy
 msgid "Request Changes"
-msgstr "Änderungen angefordert"
+msgstr "Änderungen anfordern"
 
 msgid "This revision will be returned to the author for updates."
-msgstr ""
+msgstr "Diese Version wird zur Überarbeitung an den Autor zurückgegeben."
 
 msgid "Request changes to a revision."
-msgstr ""
+msgstr "Änderungen an einer Version anfordern."
 
 msgid ""
 "You can not request changes to this revision because it has already been "
 "closed. You can only request changes to open revisions."
 msgstr ""
+"Du kannst keine Änderungen für diese Version anfordern, da sie bereits "
+"geschlossen ist. Nur für offene Versionen können Änderungen angefordert werden."
 
 msgid ""
 "You can not request changes to this revision because you are the revision "
 "author. You can only request changes to revisions you do not own."
 msgstr ""
+"Du kannst keine Änderungen für diese Version anfordern, da Du der "
+"Versionsautor bist. Du kannst nur Änderungen für Versionen anfordern, "
+"die Dir nicht gehören."
 
-#, fuzzy
 msgid "You can not request changes to a draft revision."
-msgstr "%s muß nun geändert werden, damit es weitergeht."
+msgstr "Du kannst keine Änderungen für eine Entwurfsversion anfordern."
 
 msgid ""
 "You can not request changes to this revision because you have already "
 "requested changes."
-msgstr ""
+msgstr "Du kannst keine weiteren Änderungen anfordern, da Du bereits Änderungen angefordert hast."
 
-#, fuzzy
 msgid "Reopen Revision"
-msgstr "Frage erneut in die Runde werfen"
+msgstr "Version wieder öffnen"
 
-#, fuzzy
 msgid "This revision will be reopened for review."
-msgstr "Dieses Bild wird vom Entwurf entfernt."
+msgstr "Diese Version wird zur Überprüfung wieder geöffnet."
 
 msgid ""
 "You can not reopen this revision because it is not closed. Only closed "
 "revisions can be reopened."
 msgstr ""
+"Du kannst diese Version nicht wieder öffnen, da sie nicht geschlossen ist. "
+"Nur geschlossene Versionen können wieder geöffnet werden."
 
 #, php-format
 msgid ""
@@ -22041,43 +22050,44 @@ msgid ""
 "from being reopened. You can change this behavior by adjusting the \"%s\" "
 "setting in Config."
 msgstr ""
+"Du kannst diese Version nicht wieder öffnen, da die Konfiguration das "
+"Wiedereröffnen von Versionen verhindert. Dieses Verhalten kannst Du durch "
+"Anpassen der Einstellung \"%s\" in der Konfiguration ändern."
 
 #, php-format
 msgid "%s changed the repository for this revision from %s to %s."
-msgstr ""
+msgstr "%s hat das Repository dieser Version von %s auf %s geändert."
 
 #, php-format
 msgid "%s set the repository for this revision to %s."
-msgstr ""
+msgstr "%s hat das Repository dieser Version auf %s gesetzt."
 
 #, php-format
 msgid "%s removed %s as the repository for this revision."
-msgstr ""
+msgstr "%s hat %s als Repository dieser Version entfernt."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s changed the repository for %s from %s to %s."
-msgstr ""
-"%s hat die Repository Zeichencodierung von \"%s\" nach \"%s\" geändert."
+msgstr "%s hat das Repository für %s von %s auf %s geändert."
 
 #, php-format
 msgid "%s set the repository for %s to %s."
-msgstr ""
+msgstr "%s hat das Repository für %s auf %s gesetzt."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s removed %s as the repository for %s."
-msgstr "%s hat dieses Repository von \"%s\" nach \"%s\" umbenannt."
+msgstr "%s hat %s als Repository für %s entfernt."
 
-#, fuzzy, php-format
+#, php-format
 msgid ""
 "Repository \"%s\" is not a valid repository, or you do not have permission "
 "to view it."
 msgstr ""
-"Einige der JIRA Tickets konnten nicht geladen werden. Möglicherweise "
-"existieren sie nicht, oder Du hast keine Berechtigung, sie Dir anzusehen: %s"
+"Repository \"%s\" ist kein gültiges Repository, oder Du hast keine "
+"Berechtigung, es einzusehen."
 
-#, fuzzy
 msgid "Begin Review Now"
-msgstr "Design überprüfen"
+msgstr "Review jetzt beginnen"
 
 msgid "Request Review"
 msgstr "Review anfordern"
@@ -22085,113 +22095,118 @@ msgstr "Review anfordern"
 msgid ""
 "This revision will be moved out of the draft state so you can review it "
 "immediately."
-msgstr ""
+msgstr "Diese Version wird aus dem Entwurfsstatus herausgeholt, damit Du sie sofort überprüfen kannst."
 
 msgid "This revision will be submitted to reviewers for feedback."
-msgstr ""
+msgstr "Diese Version wird zur Überprüfung an die Reviewer eingereicht."
 
 msgid "This revision will be returned to reviewers for feedback."
-msgstr ""
+msgstr "Diese Version wird zur Überprüfung an die Reviewer zurückgegeben."
 
-#, fuzzy
 msgid "Publish Revision"
-msgstr "Version schließen"
+msgstr "Version veröffentlichen"
 
-#, fuzzy
 msgid "Requested Review"
-msgstr "Review anfordern"
+msgstr "Review angefordert"
 
 msgid ""
 "You can not request review of this revision because it has already been "
 "closed. You can only request review of open revisions."
 msgstr ""
+"Du kannst für diese Version keinen Review anfordern, da sie bereits "
+"geschlossen ist. Review kann nur für offene Versionen angefordert werden."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s published this revision for review."
-msgstr "%s hat diese Frage abgeschlossen."
+msgstr "%s hat diese Version zur Überprüfung veröffentlicht."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s requested review of this revision."
-msgstr "%s hat diese Frage wieder aufgeworfen."
+msgstr "%s hat eine Überprüfung dieser Version angefordert."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s published %s for review."
-msgstr "%s hat %s zur allgemeinen Bearbeitung freigegeben."
+msgstr "%s hat %s zur Überprüfung veröffentlicht."
 
 msgid ""
 "You can not request review of this revision because you are not the author "
 "of the revision and it is not currently a draft."
 msgstr ""
+"Du kannst für diese Version keinen Review anfordern, da Du nicht der Autor "
+"bist und sie derzeit kein Entwurf ist."
 
 msgid "Resign as Reviewer"
-msgstr "Als Reviewer eintragen"
+msgstr "Als Reviewer hinschmeißen"
 
 msgid "You will resign as a reviewer for this change."
-msgstr ""
+msgstr "Du schmeißt als Reviewer für diese Änderung hin."
 
 msgid "Resign from a revision."
-msgstr ""
+msgstr "Als Reviewer einer Version hinschmeißen."
 
 msgid ""
 "You can not resign from this revision because it has already been closed. "
 "You can only resign from open revisions."
 msgstr ""
+"Du kannst hier nicht als Reviewer hinschmeißen, da die Version bereits "
+"geschlossen ist. Das geht nur bei offenen Versionen."
 
 msgid ""
 "You can not resign from this revision because you have already resigned."
-msgstr ""
+msgstr "Du kannst hier nicht als Reviewer hinschmeißen, da Du das bereits getan hast."
 
 msgid ""
 "You can not resign from this revision because you are not a reviewer, and do "
 "not have authority over any reviewer."
 msgstr ""
+"Du kannst hier nicht als Reviewer hinschmeißen, da Du kein Reviewer bist "
+"und auch keine Autorität über einen Reviewer hast."
 
-#, fuzzy, php-format
+#, php-format
 msgid ""
 "%s changed %s blocking reviewer(s) for %s, added %s: %s; removed %s: %s."
 msgstr ""
-"%s hat %s Commit(s) für %s geänert, %s hinzugefügt: %s; %s entfernt: %s."
+"%s hat %s blockierende(n) Reviewer für %s geändert, %s hinzugefügt: %s; %s entfernt: %s."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s changed %s blocking reviewer(s), added %s: %s; removed %s: %s."
-msgstr ""
-"%s hat die Projektteilnehmer geändert, %d hinzugefügt: %s; %d entfernt: %s"
+msgstr "%s hat %s blockierende(n) Reviewer geändert, %s hinzugefügt: %s; %s entfernt: %s."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s added %s blocking reviewer(s) for %s: %s."
-msgstr "%s hat %s blockierte Aufgabe(n) zu %s hinzugefügt: %s."
+msgstr "%s hat %s blockierende(n) Reviewer zu %s hinzugefügt: %s."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s added %s blocking reviewer(s): %s."
-msgstr "%s hat %s blockierende Aufgaben hinzugefügt: %s."
+msgstr "%s hat %s blockierende(n) Reviewer hinzugefügt: %s."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s removed %s blocking reviewer(s) for %s: %s."
-msgstr "%s hat %s blockierte Aufgabe(n) von %s entfernt: %s."
+msgstr "%s hat %s blockierende(n) Reviewer von %s entfernt: %s."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s removed %s blocking reviewer(s): %s."
-msgstr "%s hat %s blockierende Aufgaben entfernt: %s."
+msgstr "%s hat %s blockierende(n) Reviewer entfernt: %s."
 
-#, fuzzy, php-format
+#, php-format
 msgid "Reviewer \"%s\" is not a valid object."
-msgstr "Der neue Chat-Teilnehmer \"%s\" ist kein gültiger Benutzer."
+msgstr "Reviewer \"%s\" ist kein gültiges Objekt."
 
 #, php-format
 msgid "Reviewer \"%s\" must be a user, a package, or a project."
-msgstr ""
+msgstr "Reviewer \"%s\" muss ein Benutzer, ein Paket oder ein Projekt sein."
 
 msgid "The author of a revision can not be a reviewer."
-msgstr ""
+msgstr "Der Autor einer Version kann kein Reviewer sein."
 
 msgid "This revision is now accepted and ready to land."
-msgstr ""
+msgstr "Diese Version ist jetzt akzeptiert und kann eingebracht werden."
 
 msgid "This revision now requires changes to proceed."
-msgstr ""
+msgstr "Diese Version erfordert jetzt Änderungen, um fortzufahren."
 
 msgid "This revision now requires review to proceed."
-msgstr ""
+msgstr "Diese Version erfordert jetzt eine Überprüfung, um fortzufahren."
 
 #, php-format
 msgid "%s is now accepted and ready to land."
@@ -22205,48 +22220,49 @@ msgstr "%s muß nun geändert werden, damit es weitergeht."
 msgid "%s now requires review to proceed."
 msgstr "%s muß gegengelesen werden, damit es weitergeht."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s edited the summary of this revision."
-msgstr "%s hat das Startdatum dieses Termins geändert."
+msgstr "%s hat die Zusammenfassung dieser Version bearbeitet."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s updated the summary of %s."
-msgstr "%s hat das Bild für %s geändert."
+msgstr "%s hat die Zusammenfassung von %s aktualisiert."
 
 msgid "CHANGES TO REVISION SUMMARY"
-msgstr ""
+msgstr "ÄNDERUNGEN AN DER VERSIONSZUSAMMENFASSUNG"
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s edited the test plan for this revision."
-msgstr "%s hat das Startdatum dieses Termins geändert."
+msgstr "%s hat den Testplan dieser Version bearbeitet."
 
 #, php-format
 msgid "%s updated the test plan for %s."
-msgstr ""
+msgstr "%s hat den Testplan für %s aktualisiert."
 
 msgid "CHANGES TO TEST PLAN"
-msgstr ""
+msgstr "ÄNDERUNGEN AM TESTPLAN"
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s retitled this revision from %s to %s."
-msgstr "%s hat dieses Repository von \"%s\" nach \"%s\" umbenannt."
+msgstr "%s hat diese Version von %s auf %s umbenannt."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s retitled %s from %s"
-msgstr "%s hat %s von %s an %s übergeben."
+msgstr "%s hat %s von %s umbenannt"
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s retitled %s from %s to %s."
-msgstr "%s hat %s von %s an %s übergeben."
+msgstr "%s hat %s von %s auf %s umbenannt."
 
-#, fuzzy
 msgid "Revisions must have a title."
-msgstr "Regeln müssen einen Namen haben."
+msgstr "Versionen müssen einen Titel haben."
 
 msgid ""
 "Revision title is too long: the maximum length of a revision title is 255 "
 "bytes."
 msgstr ""
+"Der Versionstitel ist zu lang: Die maximale Länge eines Versionstitels "
+"beträgt 255 Bytes."
 
 #, php-format
 msgid ""
@@ -22255,25 +22271,29 @@ msgid ""
 "\"Summary:\" and \"Test Plan:\" do not appear at the beginning of lines. "
 "Parsed keys: %s."
 msgstr ""
+"Der in \"%s\" eingegebene Wert kann bei der Darstellung in einer Commit-"
+"Nachricht nicht eindeutig geparst werden. Bearbeite die Nachricht so, dass "
+"Schlüsselwörter wie \"Summary:\" und \"Test Plan:\" nicht am Zeilenanfang "
+"stehen. Geparste Schlüssel: %s."
 
 msgid "Updated"
 msgstr "Aktualisiert"
 
 msgid ""
 "This revision was automatically updated to reflect the committed changes."
-msgstr ""
+msgstr "Diese Version wurde automatisch aktualisiert, um die eingepflegten Änderungen widerzuspiegeln."
 
 #, php-format
 msgid "%s updated this revision to %s."
-msgstr ""
+msgstr "%s hat diese Version auf %s aktualisiert."
 
 #, php-format
 msgid "%s updated the diff for %s."
-msgstr "%s hat das Diff für %s geändert."
+msgstr "%s hat das Diff für %s aktualisiert."
 
-#, fuzzy, php-format
+#, php-format
 msgid "Specified diff (\"%s\") does not exist."
-msgstr "Feld \"%s\" existiert nicht!"
+msgstr "Der angegebene Diff (\"%s\") existiert nicht."
 
 #, php-format
 msgid ""
@@ -22281,39 +22301,42 @@ msgid ""
 "this diff is already attached to the revision as an older version of the "
 "change."
 msgstr ""
+"Du kannst diese Version nicht mit dem angegebenen Diff (\"%s\") aktualisieren, "
+"da dieser Diff bereits als ältere Version der Änderung an die Version angehängt ist."
 
 #, php-format
 msgid ""
 "You can not update this revision with the specified diff (\"%s\") because "
 "the diff is already attached to another revision."
 msgstr ""
+"Du kannst diese Version nicht mit dem angegebenen Diff (\"%s\") aktualisieren, "
+"da der Diff bereits an eine andere Version angehängt ist."
 
 msgid "You must specify an initial diff when creating a revision."
-msgstr ""
+msgstr "Du musst beim Erstellen einer Version einen initialen Diff angeben."
 
 msgid "This revision was landed with ongoing or failed builds."
-msgstr ""
+msgstr "Diese Version wurde mit laufenden oder fehlgeschlagenen Builds eingebracht."
 
 #, php-format
 msgid "This revision was not accepted when it landed; it landed in state %s."
-msgstr ""
+msgstr "Diese Version war beim Einbringen nicht akzeptiert; sie wurde im Status %s eingebracht."
 
 msgid "No Audits"
 msgstr "Keine Überprüfungen"
 
 msgid "Partially Audited"
-msgstr "Teilweise Überprüft"
+msgstr "Teilweise überprüft"
 
-#, fuzzy
 msgid "Needs Verification"
-msgstr "Benachrichtigungen"
+msgstr "Verifizierung erforderlich"
 
 msgid "No repository was found."
-msgstr ""
+msgstr "Kein Repository wurde gefunden."
 
 #, php-format
 msgid "Invalid JSON: %s"
-msgstr ""
+msgstr "Ungültiges JSON: %s"
 
 msgid "Diffusion"
 msgstr "Diffusion"
