@@ -37363,13 +37363,13 @@ msgid ""
 "This page documents the commands you can use to interact with tasks in "
 "Maniphest. These commands work when creating new tasks via email and when "
 "replying to existing tasks."
-msgstr ""
+msgstr "Diese Seite beschreibt die Befehle zur Interaktion mit Maniphest-Aufgaben. Diese Befehle funktionieren beim Erstellen neuer Aufgaben per Email und beim Antworten auf bestehende Aufgaben."
 
 msgid "Can Bulk Edit Tasks"
 msgstr "Darf einen Stapel von Aufgaben auf einmal verändern."
 
 msgid "You do not have permission to bulk edit tasks."
-msgstr ""
+msgstr "Du hast keine Berechtigung, Aufgaben per Stapelverarbeitung zu bearbeiten."
 
 msgid "Assign a task to a specific user."
 msgstr "Weise eine Aufgabe einem bestimmten Benutzer zu."
@@ -37381,18 +37381,18 @@ msgid ""
 "\n"
 "If you omit the username or the username is not valid, this behaves like "
 "`%s` and assigns the task to you instead."
-msgstr ""
+msgstr "Um eine Aufgabe einem anderen Benutzer zuzuweisen, gib den Benutzernamen an. Zum Beispiel, um eine Aufgabe `%s` zuzuweisen, schreibe `%s`.\n\nWenn Du den Benutzernamen weglässt oder er ungültig ist, verhält sich dies wie `%s` und weist die Aufgabe Dir zu."
 
-#, fuzzy, php-format
+#, php-format
 msgid ""
 "Assign yourself as the owner of a task. To assign another user, see `%s`."
-msgstr "Reiße eine Aufgabe an Dich."
+msgstr "Weise Dir eine Aufgabe zu. Um einen anderen Benutzer zu assignen, siehe `%s`."
 
 #, php-format
 msgid ""
 "Close a task. This changes the task status to the default closed status. For "
 "a more powerful (but less concise) way to change task statuses, see `%s`."
-msgstr ""
+msgstr "Eine Aufgabe schließen. Dadurch wird der Aufgabenstatus auf den Standard-Abschlussstatus gesetzt. Für eine leistungsfähigere (aber weniger kompakte) Methode zur Statusänderung siehe `%s`."
 
 msgid "Change the priority of a task."
 msgstr "Ändere die Priorität einer Aufgabe."
@@ -37406,7 +37406,7 @@ msgid ""
 "\n"
 "If you specify an invalid priority, the command is ignored. This command has "
 "no effect if you do not specify a priority."
-msgstr ""
+msgstr "Um die Priorität einer Aufgabe zu ändern, gib die gewünschte Priorität an, z. B. `%s`. Diese Tabelle zeigt die konfigurierten Namen für Prioritätsstufen.\n\n%s\n\nWenn Du eine ungültige Priorität angibst, wird der Befehl ignoriert. Dieser Befehl hat keine Auswirkung, wenn keine Priorität angegeben wird."
 
 msgid "Change the status of a task."
 msgstr "Ändere den Status einer Aufgabe."
@@ -37422,17 +37422,17 @@ msgid ""
 "no effect if you do not specify a status.\n"
 "\n"
 "To quickly close a task, see `%s`."
-msgstr ""
+msgstr "Um den Status einer Aufgabe zu ändern, gib den gewünschten Status an, z. B. `%s`. Diese Tabelle zeigt die konfigurierten Namen für Status.\n\n%s\n\nWenn Du einen ungültigen Status angibst, wird der Befehl ignoriert. Dieser Befehl hat keine Auswirkung, wenn kein Status angegeben wird.\n\nUm eine Aufgabe schnell zu schließen, siehe `%s`."
 
 msgid "Status set to invalid value."
-msgstr ""
+msgstr "Status auf ungültigen Wert gesetzt."
 
 msgid "Priority set to invalid value."
-msgstr ""
+msgstr "Priorität auf ungültigen Wert gesetzt."
 
 #, php-format
 msgid "One or more PHIDs were invalid for %s."
-msgstr ""
+msgstr "Eine oder mehrere PHIDs waren ungültig für %s."
 
 msgid "Create a new Maniphest task."
 msgstr "Erstelle eine neue Maniphest-Aufgabe."
@@ -37440,70 +37440,70 @@ msgstr "Erstelle eine neue Maniphest-Aufgabe."
 msgid ""
 "This method is frozen and will eventually be deprecated. New code should use "
 "\"maniphest.edit\" instead."
-msgstr ""
+msgstr "Diese Methode ist eingefroren und wird irgendwann als veraltet markiert. Neuer Code sollte stattdessen \"maniphest.edit\" verwenden."
 
 msgid "Apply transactions to create a new task or edit an existing one."
-msgstr ""
+msgstr "Transaktionen anwenden, um eine neue Aufgabe zu erstellen oder eine bestehende zu bearbeiten."
 
 msgid "Retrieve Maniphest task transactions."
-msgstr ""
+msgstr "Maniphest-Aufgaben-Transaktionen abrufen."
 
 msgid ""
 "This method is frozen and will eventually be deprecated. New code should use "
 "\"transaction.search\" instead."
-msgstr ""
+msgstr "Diese Methode ist eingefroren und wird irgendwann als veraltet markiert. Neuer Code sollte stattdessen \"transaction.search\" verwenden."
 
 msgid "Retrieve information about a Maniphest task, given its ID."
-msgstr ""
+msgstr "Informationen über eine Maniphest-Aufgabe anhand ihrer ID abrufen."
 
 msgid ""
 "This method is frozen and will eventually be deprecated. New code should use "
 "\"maniphest.search\" instead."
-msgstr ""
+msgstr "Diese Methode ist eingefroren und wird irgendwann als veraltet markiert. Neuer Code sollte stattdessen \"maniphest.search\" verwenden."
 
 msgid "No such Maniphest task exists."
-msgstr ""
+msgstr "Diese Maniphest-Aufgabe existiert nicht."
 
 msgid "Read information about task priorities."
-msgstr ""
+msgstr "Informationen zu Aufgabenprioritäten lesen."
 
 msgid "Returns information about the possible priorities for Maniphest tasks."
-msgstr ""
+msgstr "Gibt Informationen über die möglichen Prioritäten für Maniphest-Aufgaben zurück."
 
 msgid "Execute complex searches for Maniphest tasks."
-msgstr ""
+msgstr "Komplexe Suchen für Maniphest-Aufgaben ausführen."
 
 msgid ""
 "Parameter \"fullText\" is no longer supported. Use method "
 "\"maniphest.search\" with the \"query\" constraint instead."
-msgstr ""
+msgstr "Der Parameter \"fullText\" wird nicht mehr unterstützt. Verwende stattdessen die Methode \"maniphest.search\" mit der \"query\"-Einschränkung."
 
 msgid "Retrieve information about possible Maniphest task status values."
-msgstr ""
+msgstr "Informationen über mögliche Maniphest-Aufgabenstatus-Werte abrufen."
 
 msgid ""
 "This method is frozen and will eventually be deprecated. New code should use "
 "\"maniphest.status.search\" instead."
-msgstr ""
+msgstr "Diese Methode ist eingefroren und wird irgendwann als veraltet markiert. Neuer Code sollte stattdessen \"maniphest.status.search\" verwenden."
 
 msgid "Read information about tasks."
-msgstr ""
+msgstr "Informationen zu Aufgaben lesen."
 
 msgid "Read information about task statuses."
-msgstr ""
+msgstr "Informationen zu Aufgabenstatus lesen."
 
 msgid "Returns information about the possible statuses for Maniphest tasks."
-msgstr ""
+msgstr "Gibt Informationen über die möglichen Status für Maniphest-Aufgaben zurück."
 
 msgid "Update an existing Maniphest task."
-msgstr ""
+msgstr "Eine bestehende Maniphest-Aufgabe aktualisieren."
 
 msgid "Update has no effect."
-msgstr ""
+msgstr "Aktualisierung hat keine Auswirkung."
 
 #, php-format
 msgid "Specify exactly one of '%s' and '%s'."
-msgstr ""
+msgstr "Gib genau eines von '%s' und '%s' an."
 
 msgid "Configure Maniphest."
 msgstr "Maniphest konfigurieren"
@@ -37667,10 +37667,10 @@ msgid ""
 msgstr ""
 
 msgid "Estimated Hours"
-msgstr ""
+msgstr "Geschätzte Stunden"
 
 msgid "Estimated number of hours this will take."
-msgstr ""
+msgstr "Geschätzte Anzahl der Stunden, die dies dauern wird."
 
 msgid "Story Points"
 msgstr "Story Points"
@@ -37921,7 +37921,7 @@ msgid ""
 "Choose a default priority for newly created tasks. You can review and adjust "
 "available priorities by using the %s configuration option. The default value "
 "(`90`) corresponds to the default \"Needs Triage\" priority."
-msgstr ""
+msgstr "Wähle eine Standard-Priorität für neu erstellte Aufgaben. Die verfügbaren Prioritäten kannst Du mit der Konfigurationsoption %s überprüfen und anpassen. Der Standardwert (`90`) entspricht der Standard-Priorität \"Needs Triage\"."
 
 msgid "Configure point values for tasks."
 msgstr "Punktewerte für Aufgaben konfigurieren."
@@ -37947,35 +37947,35 @@ msgstr "Punkte ändern"
 msgid ""
 "Configuration is not valid. Maniphest points configuration must be a "
 "dictionary."
-msgstr ""
+msgstr "Die Konfiguration ist ungültig. Die Maniphest-Punkte-Konfiguration muss ein Dictionary sein."
 
 msgid ""
 "Configuration is not valid. Maniphest priority configurations must be "
 "dictionaries."
-msgstr ""
+msgstr "Die Konfiguration ist ungültig. Maniphest-Prioritätskonfigurationen müssen Dictionaries sein."
 
 #, php-format
 msgid ""
 "Key \"%s\" is not a valid priority constant. Priority constants must be "
 "nonnegative integers."
-msgstr ""
+msgstr "Schlüssel \"%s\" ist keine gültige Prioritätskonstante. Prioritätskonstanten müssen nicht-negative ganze Zahlen sein."
 
 #, php-format
 msgid "Value for key \"%s\" should be a dictionary."
-msgstr ""
+msgstr "Der Wert für Schlüssel \"%s\" sollte ein Dictionary sein."
 
 #, php-format
 msgid ""
 "Key \"%s\" is not a valid priority keyword. Priority keywords must be 1-64 "
 "alphanumeric characters and cannot be exclusively digits. For example, "
 "\"%s\" or \"%s\" are reasonable choices."
-msgstr ""
+msgstr "Schlüssel \"%s\" ist kein gültiges Prioritäts-Schlüsselwort. Prioritäts-Schlüsselwörter müssen 1-64 alphanumerische Zeichen sein und dürfen nicht ausschließlich aus Ziffern bestehen. Zum Beispiel sind \"%s\" oder \"%s\" vernünftige Optionen."
 
 #, php-format
 msgid ""
 "Two different task priorities (\"%s\" and \"%s\") have the same keyword "
 "(\"%s\"). Keywords must uniquely identify priorities."
-msgstr ""
+msgstr "Zwei verschiedene Aufgabenprioritäten (\"%s\" und \"%s\") haben das gleiche Schlüsselwort (\"%s\"). Schlüsselwörter müssen Prioritäten eindeutig identifizieren."
 
 msgid "Unknown Status"
 msgstr "Unbekannter Status"
@@ -37989,84 +37989,84 @@ msgid ""
 "Key \"%s\" is not a valid status constant. Status constants must be 1-64 "
 "alphanumeric characters and cannot be exclusively digits. For example, "
 "\"%s\" or \"%s\" are reasonable choices."
-msgstr ""
+msgstr "Schlüssel \"%s\" ist keine gültige Statuskonstante. Statuskonstanten müssen 1-64 alphanumerische Zeichen sein und dürfen nicht ausschließlich aus Ziffern bestehen. Zum Beispiel sind \"%s\" oder \"%s\" vernünftige Optionen."
 
 #, php-format
 msgid ""
 "Task status (\"%s\") has unrecognized value for \"locked\" configuration "
 "(\"%s\"). Supported values are: \"%s\", \"%s\"."
-msgstr ""
+msgstr "Aufgabenstatus (\"%s\") hat einen unbekannten Wert für die \"locked\"-Konfiguration (\"%s\"). Unterstützte Werte sind: \"%s\", \"%s\"."
 
 #, php-format
 msgid ""
 "Configuration has two statuses both marked with the special attribute \"%s\" "
 "(\"%s\" and \"%s\"). There should be only one."
-msgstr ""
+msgstr "Die Konfiguration hat zwei Status, die beide mit dem Sonderattribut \"%s\" markiert sind (\"%s\" und \"%s\"). Es sollte nur einen geben."
 
 #, php-format
 msgid ""
 "Status \"%s\" is marked as default, but it is a closed status. The default "
 "status should be an open status."
-msgstr ""
+msgstr "Status \"%s\" ist als Standard markiert, ist aber ein geschlossener Status. Der Standardstatus sollte ein offener Status sein."
 
 #, php-format
 msgid ""
 "Status \"%s\" is marked as the default status for closing tasks, but is not "
 "a closed status. It should be a closed status."
-msgstr ""
+msgstr "Status \"%s\" ist als Standard-Status zum Schließen von Aufgaben markiert, ist aber kein geschlossener Status. Er sollte ein geschlossener Status sein."
 
 #, php-format
 msgid ""
 "Status \"%s\" is marked as the status for closing tasks as duplicates, but "
 "it is not a closed status. It should be a closed status."
-msgstr ""
+msgstr "Status \"%s\" ist als Status zum Schließen von Aufgaben als Duplikate markiert, ist aber kein geschlossener Status. Er sollte ein geschlossener Status sein."
 
 #, php-format
 msgid ""
 "Configuration defines no task status with special attribute \"%s\", but you "
 "must specify a status which fills this special role."
-msgstr ""
+msgstr "Die Konfiguration definiert keinen Aufgabenstatus mit dem Sonderattribut \"%s\", aber Du musst einen Status angeben, der diese besondere Rolle ausfüllt."
 
 #, php-format
 msgid "Validate \"%s\""
-msgstr ""
+msgstr "\"%s\" validieren"
 
 msgid "Exclaim"
-msgstr ""
+msgstr "Ausruf"
 
 msgid "Bad Key"
-msgstr ""
+msgstr "Ungültiger Schlüssel"
 
 msgid "Bad Value Type"
-msgstr ""
+msgstr "Ungültiger Werttyp"
 
 msgid "Invalid Key"
-msgstr ""
+msgstr "Ungültiger Schlüssel"
 
 msgid "Finished"
-msgstr ""
+msgstr "Abgeschlossen"
 
 msgid "Duplicate Special"
-msgstr ""
+msgstr "Doppeltes Sonderattribut"
 
 msgid "Missing Special"
-msgstr ""
+msgstr "Fehlendes Sonderattribut"
 
 msgid "Closed Default"
-msgstr ""
+msgstr "Geschlossener Standard"
 
 msgid "Open Closed"
-msgstr ""
+msgstr "Offener Status als Abschluss"
 
 msgid "Open Duplicate"
-msgstr ""
+msgstr "Offenes Duplikat"
 
 #, php-format
 msgid "Validation of \"%s\""
-msgstr ""
+msgstr "Validierung von \"%s\""
 
 msgid "Reports"
-msgstr ""
+msgstr "Berichte"
 
 msgid "Search Parent Tasks"
 msgstr "Übergeordnete Aufgaben durchsuchen"
@@ -38087,19 +38087,19 @@ msgid "By Project"
 msgstr "Nach Projekt"
 
 msgid "Burnup / Burndown"
-msgstr ""
+msgstr "Burnup / Burndown"
 
 msgid "Burnup / Burndown Rate"
-msgstr ""
+msgstr "Burnup / Burndown-Rate"
 
 msgid "Maniphest Reports"
-msgstr ""
+msgstr "Maniphest-Berichte"
 
 msgid "Recently Means"
-msgstr ""
+msgstr ""Kürzlich" bedeutet"
 
 msgid "Configure the cutoff for the \"Recently Closed\" column."
-msgstr ""
+msgstr "Den Zeitraum für die Spalte \"Vor kurzem abgeschlossen\" konfigurieren."
 
 msgid "Filter By Project"
 msgstr "Nach Projekt filtern"
@@ -38126,7 +38126,7 @@ msgstr "Älteste (Alle)"
 
 #, php-format
 msgid "Oldest open task, excluding those with priority %s"
-msgstr ""
+msgstr "Älteste offene Aufgabe, ohne Aufgaben mit Priorität %s"
 
 msgid "Oldest (Pri)"
 msgstr "Älteste (Prio)"
@@ -38142,22 +38142,22 @@ msgstr "Vor kurzem abgeschlossen"
 msgid ""
 "This task is directly connected to more than %s other tasks. Use %s to "
 "browse parents or subtasks, or %s to show more of the graph."
-msgstr ""
+msgstr "Diese Aufgabe ist direkt mit mehr als %s anderen Aufgaben verbunden. Verwende %s, um übergeordnete Aufgaben oder Unteraufgaben zu durchsuchen, oder %s, um mehr vom Graphen anzuzeigen."
 
 #, php-format
 msgid ""
 "This task is connected to more than %s other tasks. Only direct parents and "
 "subtasks are shown here. Use %s to show more of the graph."
-msgstr ""
+msgstr "Diese Aufgabe ist mit mehr als %s anderen Aufgaben verbunden. Hier werden nur direkte übergeordnete Aufgaben und Unteraufgaben angezeigt. Verwende %s, um mehr vom Graphen anzuzeigen."
 
 #, php-format
 msgid ""
 "There was an unexpected error displaying the task graph. Use %s to browse "
 "parents or subtasks, or %s to show the graph."
-msgstr ""
+msgstr "Beim Anzeigen des Aufgabengraphen ist ein unerwarteter Fehler aufgetreten. Verwende %s, um übergeordnete Aufgaben oder Unteraufgaben zu durchsuchen, oder %s, um den Graphen anzuzeigen."
 
 msgid "Task Graph"
-msgstr ""
+msgstr "Aufgabengraph"
 
 msgid "Related Objects"
 msgstr "Verknüpfte Objekte"
@@ -38196,25 +38196,24 @@ msgstr "Graph"
 msgid ""
 "This task is directly connected to more than %s other tasks, which is too "
 "many tasks to display. Use %s to browse parents or subtasks."
-msgstr ""
+msgstr "Diese Aufgabe ist direkt mit mehr als %s anderen Aufgaben verbunden, was zu viele Aufgaben für die Anzeige sind. Verwende %s, um übergeordnete Aufgaben oder Unteraufgaben zu durchsuchen."
 
 #, php-format
 msgid ""
 "This task is connected to more than %s other tasks. Only direct parents and "
 "subtasks are shown here."
-msgstr ""
+msgstr "Diese Aufgabe ist mit mehr als %s anderen Aufgaben verbunden. Hier werden nur direkte übergeordnete Aufgaben und Unteraufgaben angezeigt."
 
 msgid ""
 "This task has no parent tasks and no subtasks, so there is no graph to draw."
-msgstr ""
+msgstr "Diese Aufgabe hat keine übergeordneten Aufgaben und keine Unteraufgaben, daher gibt es keinen Graphen zum Anzeigen."
 
 msgid "No Forms"
-msgstr ""
+msgstr "Keine Formulare"
 
-#, fuzzy
 msgid ""
 "You do not have access to any forms which can be used to create a subtask."
-msgstr "Du hast keinen Zugriff auf Formulare zum Erstellen einer Unteraufgabe."
+msgstr "Du hast keinen Zugriff auf Formulare, mit denen eine Unteraufgabe erstellt werden kann."
 
 msgid "Choose Subtype"
 msgstr "Aufgabentyp wählen"
@@ -38299,8 +38298,7 @@ msgstr "%s hat %s Commit(s) von %s entfernt: %s."
 
 #, php-format
 msgid "%s edited %s commit(s) for %s, added %s: %s; removed %s: %s."
-msgstr ""
-"%s hat %s Commit(s) für %s geänert, %s hinzugefügt: %s; %s entfernt: %s."
+msgstr "%s hat %s Commit(s) für %s bearbeitet, %s hinzugefügt: %s; %s entfernt: %s."
 
 msgid "Merged In"
 msgstr "Zusammengeführt in"
@@ -38344,19 +38342,19 @@ msgstr "Diese Aufgabe ist der angegebenen Version zugeordnet."
 
 #, php-format
 msgid "%s edited %s revision(s), added %s: %s; removed %s: %s."
-msgstr ""
+msgstr "%s hat %s Revision(en) bearbeitet, %s hinzugefügt: %s; %s entfernt: %s."
 
 #, php-format
 msgid "%s added %s revision(s) to %s: %s."
-msgstr ""
+msgstr "%s hat %s Revision(en) zu %s hinzugefügt: %s."
 
 #, php-format
 msgid "%s removed %s revision(s) from %s: %s."
-msgstr ""
+msgstr "%s hat %s Revision(en) von %s entfernt: %s."
 
 #, php-format
 msgid "%s edited %s revision(s) for %s, added %s: %s; removed %s: %s."
-msgstr ""
+msgstr "%s hat %s Revision(en) für %s bearbeitet, %s hinzugefügt: %s; %s entfernt: %s."
 
 msgid "Closed as Duplicate"
 msgstr "Als Duplikat geschlossen"
@@ -38389,7 +38387,7 @@ msgstr "Volle Kraft voraus!"
 msgid ""
 "This task is closed as a duplicate. Only comment if you think that this task "
 "is not a duplicate."
-msgstr ""
+msgstr "Diese Aufgabe ist als Duplikat geschlossen. Kommentiere nur, wenn Du der Meinung bist, dass diese Aufgabe kein Duplikat ist."
 
 msgid ""
 "You can use this transaction type to create a task into a particular "
@@ -38587,11 +38585,11 @@ msgstr "Liste der verknüpften Commit-PHIDs."
 
 #, php-format
 msgid "● %s"
-msgstr ""
+msgstr "● %s"
 
 #, php-format
 msgid "○ %s"
-msgstr ""
+msgstr "○ %s"
 
 msgid "Edit Locked Task"
 msgstr "Gesperrte Aufgabe bearbeiten"
@@ -38657,43 +38655,43 @@ msgstr "ARBEITSFLÄCHE"
 msgid ""
 "Transaction specifies both \"afterPHID\" and \"afterPHIDs\". Specify only "
 "\"afterPHIDs\"."
-msgstr ""
+msgstr "Die Transaktion gibt sowohl \"afterPHID\" als auch \"afterPHIDs\" an. Gib nur \"afterPHIDs\" an."
 
 msgid ""
 "Transaction specifies both \"beforePHID\" and \"beforePHIDs\". Specify only "
 "\"beforePHIDs\"."
-msgstr ""
+msgstr "Die Transaktion gibt sowohl \"beforePHID\" als auch \"beforePHIDs\" an. Gib nur \"beforePHIDs\" an."
 
 #, php-format
 msgid ""
 "Column move transaction specifies column PHID \"%s\", but there is no "
 "corresponding column with this PHID."
-msgstr ""
+msgstr "Die Spaltenverschiebungs-Transaktion gibt die Spalten-PHID \"%s\" an, aber es gibt keine entsprechende Spalte mit dieser PHID."
 
 #, php-format
 msgid ""
 "When moving objects between columns on a board, columns must be identified "
 "by PHIDs. This transaction uses \"%s\" to identify a column, but that is not "
 "a valid column PHID."
-msgstr ""
+msgstr "Beim Verschieben von Objekten zwischen Spalten auf einer Arbeitsfläche müssen Spalten durch PHIDs identifiziert werden. Diese Transaktion verwendet \"%s\", um eine Spalte zu identifizieren, aber das ist keine gültige Spalten-PHID."
 
 msgid ""
 "You can not lock this task and unassign it at the same time because no one "
 "will be able to edit it anymore. Lock the task or remove the assignee, but "
 "not both."
-msgstr ""
+msgstr "Du kannst diese Aufgabe nicht gleichzeitig sperren und den Bearbeiter entfernen, weil dann niemand mehr in der Lage wäre, sie zu bearbeiten. Sperre die Aufgabe oder entferne den Bearbeiter, aber nicht beides."
 
 msgid ""
 "You can not lock this task because it does not have an assignee. No one "
 "would be able to edit the task. Assign the task to an assignee before "
 "locking it."
-msgstr ""
+msgstr "Du kannst diese Aufgabe nicht sperren, weil sie keinen Bearbeiter hat. Niemand wäre in der Lage, die Aufgabe zu bearbeiten. Weise die Aufgabe einem Bearbeiter zu, bevor Du sie sperrst."
 
 msgid ""
 "You can not remove the assignee of this task because it is locked and no one "
 "would be able to edit the task. Reassign the task or unlock it before "
 "removing the assignee."
-msgstr ""
+msgstr "Du kannst den Bearbeiter dieser Aufgabe nicht entfernen, weil sie gesperrt ist und niemand in der Lage wäre, die Aufgabe zu bearbeiten. Weise die Aufgabe neu zu oder entsperre sie, bevor Du den Bearbeiter entfernst."
 
 msgid "Lock Error"
 msgstr "Sperr-Fehler"
@@ -38797,25 +38795,25 @@ msgid "Change subtype to \"%s.\""
 msgstr "Aufgabentyp ändern auf \"%s.\""
 
 msgid "Comma-separated list of task PHIDs."
-msgstr ""
+msgstr "Durch Komma getrennte Liste von Aufgaben-PHIDs."
 
 msgid "List of task PHIDs, as array."
-msgstr ""
+msgstr "Liste von Aufgaben-PHIDs als Array."
 
 msgid "Comma-separated list of task IDs."
-msgstr ""
+msgstr "Durch Komma getrennte Liste von Aufgaben-IDs."
 
 msgid "List of task IDs, as array."
-msgstr ""
+msgstr "Liste von Aufgaben-IDs als Array."
 
 msgid "Comma-separated list of task monograms."
-msgstr ""
+msgstr "Durch Komma getrennte Liste von Aufgaben-Monogrammen."
 
 msgid "List of task monograms, as array."
-msgstr ""
+msgstr "Liste von Aufgaben-Monogrammen als Array."
 
 msgid "Mixture of PHIDs, IDs and monograms."
-msgstr ""
+msgstr "Mischung aus PHIDs, IDs und Monogrammen."
 
 msgid "Untitled Task"
 msgstr "Aufgabe ohne Titel"
@@ -38833,33 +38831,33 @@ msgid "Tasks with edits locked may only be edited by their assignee."
 msgstr "Aufgaben mit gesperrter Bearbeitung dürfen nur vom Bearbeiter geändert werden."
 
 msgid "Task Author"
-msgstr ""
+msgstr "Aufgabenautor"
 
 msgid "The author of this task can take this action."
-msgstr ""
+msgstr "Der Autor dieser Aufgabe kann diese Aktion ausführen."
 
 msgid "task author"
-msgstr ""
+msgstr "Aufgabenautor"
 
 msgid "Empty withOwners() constraint is not valid."
-msgstr ""
+msgstr "Eine leere withOwners()-Einschränkung ist nicht gültig."
 
 msgid "Task IDs must be integer numbers."
 msgstr "Aufgaben-IDs müssen ganzzahlige Zahlen sein."
 
 #, php-format
 msgid "Unknown status query '%s'!"
-msgstr ""
+msgstr "Unbekannte Statusabfrage '%s'!"
 
 msgid "Date Closed (Latest First)"
 msgstr "Abschlussdatum (Neueste zuerst)"
 
 #, php-format
 msgid "Group PHID (\"%s\") component of cursor (\"%s\") is not valid."
-msgstr ""
+msgstr "Die Gruppen-PHID (\"%s\") des Cursors (\"%s\") ist nicht gültig."
 
 msgid "Search for tasks owned by a user from a list."
-msgstr ""
+msgstr "Nach Aufgaben suchen, die einem Benutzer aus einer Liste gehören."
 
 msgid "Search for tasks with given authors."
 msgstr "Aufgaben nach Autor filtern."
@@ -39190,14 +39188,14 @@ msgstr "Die Datei-PHID (\"%s\") ist ungültig oder Du hast keine Berechtigung, s
 
 #, php-format
 msgid "File (\"%s\", with MIME type \"%s\") is not a viewable image file."
-msgstr ""
+msgstr "Datei (\"%s\", mit MIME-Typ \"%s\") ist keine anzeigbare Bilddatei."
 
 #, php-format
 msgid ""
 "File (\"%s\", with MIME type \"%s\") can not be transformed into a "
 "thumbnail. You may be missing support for this file type in the \"GD\" "
 "extension."
-msgstr ""
+msgstr "Datei (\"%s\", mit MIME-Typ \"%s\") kann nicht in ein Vorschaubild umgewandelt werden. Möglicherweise fehlt die Unterstützung für diesen Dateityp in der \"GD\"-Erweiterung."
 
 msgid "Edited"
 msgstr "Geändert"
@@ -39276,12 +39274,12 @@ msgstr "Benutzer \"%s\" ist kein gültiger Benutzer."
 
 #, php-format
 msgid "Parent task identifier \"%s\" does not identify a visible task."
-msgstr ""
+msgstr "Der Bezeichner der übergeordneten Aufgabe \"%s\" identifiziert keine sichtbare Aufgabe."
 
 msgid ""
 "You can only select a parent task when creating a transaction for the first "
 "time."
-msgstr ""
+msgstr "Du kannst eine übergeordnete Aufgabe nur beim ersten Erstellen einer Transaktion auswählen."
 
 #, php-format
 msgid "%s set the point value for this task to %s."
@@ -39354,7 +39352,7 @@ msgstr "%s hat die Priorität von %s von %s auf %s erhöht."
 msgid ""
 "Task priority \"%s\" is not a valid task priority. Use a priority keyword to "
 "choose a task priority: %s."
-msgstr ""
+msgstr "Aufgabenpriorität \"%s\" ist keine gültige Aufgabenpriorität. Verwende ein Prioritäts-Schlüsselwort, um eine Aufgabenpriorität auszuwählen: %s."
 
 msgid "Changed Status"
 msgstr "Status verändert"
@@ -39437,7 +39435,7 @@ msgstr "Aufgaben müssen einen Titel haben."
 
 #, php-format
 msgid "Task title cannot exceed %d characters."
-msgstr ""
+msgstr "Der Aufgabentitel darf %d Zeichen nicht überschreiten."
 
 msgid "Block"
 msgstr "Hindernis"
@@ -39483,25 +39481,24 @@ msgid "Explore More Applications"
 msgstr "Alle Anwendungen anzeigen"
 
 msgid "Prototype"
-msgstr ""
+msgstr "Prototyp"
 
 #, php-format
 msgid "This application is a prototype. %s"
-msgstr ""
+msgstr "Diese Anwendung ist ein Prototyp. %s"
 
-#, fuzzy
 msgid "Validation Failed"
-msgstr "Registrierung fehlgeschlagen"
+msgstr "Validierung fehlgeschlagen"
 
 msgid "Save Policies"
-msgstr ""
+msgstr "Richtlinien speichern"
 
 #, php-format
 msgid "Edit Policies: %s"
-msgstr ""
+msgstr "Richtlinien bearbeiten: %s"
 
 msgid "Mail Commands Overview"
-msgstr ""
+msgstr "Übersicht über Email-Befehle"
 
 #, php-format
 msgid ""
@@ -39541,85 +39538,80 @@ msgid ""
 msgstr ""
 
 msgid "Quick Reference"
-msgstr ""
+msgstr "Kurzübersicht"
 
 msgid ""
 "This table summarizes the available mail commands. For details on a specific "
 "command, see the command section below."
-msgstr ""
+msgstr "Diese Tabelle fasst die verfügbaren Email-Befehle zusammen. Details zu einem bestimmten Befehl findest Du im Befehlsabschnitt unten."
 
 msgid "Syntax"
-msgstr ""
+msgstr "Syntax"
 
 msgid "Aliases"
-msgstr ""
+msgstr "Aliase"
 
 msgid ""
 "This server is not currently configured to accept inbound mail. You won't be "
 "able to interact with objects over email until inbound mail is set up."
-msgstr ""
+msgstr "Dieser Server ist derzeit nicht für den Empfang von eingehenden Emails konfiguriert. Du kannst erst per Email mit Objekten interagieren, wenn der Emailempfang eingerichtet ist."
 
 msgid "Prototypes Not Enabled"
-msgstr ""
+msgstr "Prototypen nicht aktiviert"
 
 #, php-format
 msgid "To manage prototypes, enable them by setting %s in your configuration."
-msgstr ""
+msgstr "Um Prototypen zu verwalten, aktiviere sie durch Setzen von %s in Deiner Konfiguration."
 
 msgid "Confirmation"
-msgstr ""
+msgstr "Bestätigung"
 
-#, fuzzy, php-format
+#, php-format
 msgid "Enable %s application?"
-msgstr "Die Releeph Applikation aktivieren."
+msgstr "Anwendung %s aktivieren?"
 
 msgid "Information"
-msgstr ""
+msgstr "Information"
 
-#, fuzzy
 msgid "You cannot enable an enabled application."
-msgstr "Die Releeph Applikation aktivieren."
+msgstr "Du kannst eine bereits aktivierte Anwendung nicht erneut aktivieren."
 
-#, fuzzy
 msgid "Really Disable Application?"
-msgstr "Darf die Anwendung verwenden"
+msgstr "Anwendung wirklich deaktivieren?"
 
-#, fuzzy
 msgid "Are you absolutely certain you want to disable the Home application?"
-msgstr "Bist Du sicher, dass Du den Countdown %s löschen möchtest?"
+msgstr "Bist Du absolut sicher, dass Du die Home-Anwendung deaktivieren möchtest?"
 
 msgid ""
 "This is very unusual and will leave you without any content on the home "
 "page. You should only do this if you are certain you know what you are doing."
-msgstr ""
+msgstr "Dies ist sehr ungewöhnlich und lässt Dich ohne Inhalte auf der Startseite zurück. Du solltest das nur tun, wenn Du Dir absolut sicher bist, was Du tust."
 
 msgid "Completely Break Everything"
-msgstr ""
+msgstr "Alles komplett kaputt machen"
 
-#, fuzzy, php-format
+#, php-format
 msgid "Really disable the %s application?"
-msgstr "Diese Regel wirklich deaktivieren?"
+msgstr "Die Anwendung %s wirklich deaktivieren?"
 
 msgid "This application is required and cannot be disabled."
-msgstr ""
+msgstr "Diese Anwendung ist erforderlich und kann nicht deaktiviert werden."
 
-#, fuzzy
 msgid "Configure Application Forms"
-msgstr "Darf die Anwendung konfigurieren"
+msgstr "Anwendungsformulare konfigurieren"
 
 msgid "Configure creation and editing forms in Applications."
-msgstr ""
+msgstr "Erstellen und Bearbeiten von Formularen in Anwendungen konfigurieren."
 
-#, fuzzy
 msgid "Create New Application"
-msgstr "Darf die Anwendung verwenden"
+msgstr "Neue Anwendung erstellen"
 
-#, fuzzy, php-format
+#, php-format
 msgid "Edit Application: %s"
-msgstr "Anwendungen"
+msgstr "Anwendung bearbeiten: %s"
 
 msgid "Create Application"
-msgstr ""
+msgstr "Anwendung erstellen"
 
 msgid "Show All Applications"
 msgstr "Zeige alle Anwendungen"
@@ -39633,16 +39625,16 @@ msgid "Show Disabled Applications"
 msgstr "Zeige nicht installierte Anwendungen"
 
 msgid "Show Prototype Applications"
-msgstr ""
+msgstr "Prototyp-Anwendungen anzeigen"
 
 msgid "Show Released Applications"
 msgstr "Zeige finalisierte Anwendungen"
 
 msgid "Show First-Party Applications"
-msgstr ""
+msgstr "Eigene Anwendungen anzeigen"
 
 msgid "Show Third-Party Applications"
-msgstr ""
+msgstr "Drittanbieter-Anwendungen anzeigen"
 
 msgid "Launchable"
 msgstr "Aufrufbar"
@@ -39654,13 +39646,13 @@ msgid "Show Non-Launchable Applications"
 msgstr "Zeige nicht-verwendbare Anwendungen"
 
 msgid "Application Emails"
-msgstr ""
+msgstr "Anwendungs-Emails"
 
 msgid "Show Applications w/ App Email Support"
-msgstr ""
+msgstr "Anwendungen mit Email-Unterstützung anzeigen"
 
 msgid "Show Applications w/o App Email Support"
-msgstr ""
+msgstr "Anwendungen ohne Email-Unterstützung anzeigen"
 
 msgid "Launcher"
 msgstr "Anwendungsstarter"
@@ -39669,166 +39661,160 @@ msgid "All Applications"
 msgstr "Alle Anwendungen"
 
 msgid "Extension"
-msgstr ""
+msgstr "Erweiterung"
 
 #, php-format
 msgid "Unknown order \"%s\"!"
-msgstr ""
+msgstr "Unbekannte Sortierung \"%s\"!"
 
 msgid "Browse Applications"
-msgstr ""
+msgstr "Anwendungen durchsuchen"
 
 msgid "Type an application name..."
 msgstr "Gib einen Anwendungsnamen an..."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s changed the %s policy from %s to %s."
-msgstr "%s hat %s von %s nach %s geändert."
+msgstr "%s hat die %s-Richtlinie von %s auf %s geändert."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s changed the %s policy for application %s from %s to %s."
-msgstr ""
-"%s hat die Editier-Rechte des Objekts %s von \"%s\" auf \"%s\" geändert."
+msgstr "%s hat die %s-Richtlinie für die Anwendung %s von %s auf %s geändert."
 
-#, fuzzy
 msgid "Policy does not exist."
-msgstr "Änderung \"%s\" existiert nicht."
+msgstr "Richtlinie existiert nicht."
 
 msgid "Can't set the policy to a policy you can't view!"
-msgstr ""
+msgstr "Die Richtlinie kann nicht auf eine Richtlinie gesetzt werden, die Du nicht einsehen kannst!"
 
 msgid "Can't set non-public capabilities to public."
-msgstr ""
+msgstr "Nicht-öffentliche Berechtigungen können nicht auf öffentlich gesetzt werden."
 
 #, php-format
 msgid "Capability \"%s\" is not editable for this application."
-msgstr ""
+msgstr "Berechtigung \"%s\" ist für diese Anwendung nicht bearbeitbar."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s disabled this application."
-msgstr "%s hat diese Regel deaktiviert."
+msgstr "%s hat diese Anwendung deaktiviert."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s enabled this application."
-msgstr "%s hat diese Regel aktiviert."
+msgstr "%s hat diese Anwendung aktiviert."
 
 #, php-format
 msgid ""
 "Unable to load mail message (with ID \"%s\") while preparing to deliver it."
-msgstr ""
+msgstr "Mail-Nachricht (mit ID \"%s\") konnte während der Vorbereitung der Zustellung nicht geladen werden."
 
 #, php-format
 msgid ""
 "Adapter (\"%s\") is configured for medium \"%s\", but this is not a "
 "supported delivery medium. Supported media are: %s."
-msgstr ""
+msgstr "Adapter (\"%s\") ist für Medium \"%s\" konfiguriert, aber dies ist kein unterstütztes Zustellungsmedium. Unterstützte Medien sind: %s."
 
 #, php-format
 msgid "Mailer (\"%s\") is attempting to access unknown option (\"%s\")."
-msgstr ""
+msgstr "Mailer (\"%s\") versucht auf unbekannte Option (\"%s\") zuzugreifen."
 
 msgid "Failed to JSON decode response."
-msgstr ""
+msgstr "JSON-Dekodierung der Antwort fehlgeschlagen."
 
 #, php-format
 msgid "Request failed with errors: %s."
-msgstr ""
+msgstr "Anfrage mit Fehlern gescheitert: %s."
 
 msgid "Unit Test (Permanent)"
-msgstr ""
+msgstr "Unit-Test (dauerhaft)"
 
 msgid "Unit Test (Temporary)"
-msgstr ""
+msgstr "Unit-Test (temporär)"
 
 msgid "Amazon SES"
-msgstr ""
+msgstr "Amazon SES"
 
 msgid "Mailgun"
-msgstr ""
+msgstr "Mailgun"
 
-#, fuzzy
 msgid "Sendmail"
-msgstr "Email senden"
+msgstr "Sendmail"
 
-#, fuzzy
 msgid "Sendmail (Explicit Config)"
-msgstr "Minimale, gültige Konfiguration"
+msgstr "Sendmail (explizite Konfiguration)"
 
 msgid "SMTP (Local)"
-msgstr ""
+msgstr "SMTP (Lokal)"
 
 msgid "SMTP (Local + Explicit)"
-msgstr ""
+msgstr "SMTP (Lokal + Explizit)"
 
 msgid "SMTP (AWS)"
-msgstr ""
+msgstr "SMTP (AWS)"
 
 msgid "SMTP (AWS + Explicit)"
-msgstr ""
+msgstr "SMTP (AWS + Explizit)"
 
-#, fuzzy, php-format
+#, php-format
 msgid "Message-ID: %s"
-msgstr "%d Nachrichten"
+msgstr "Nachrichten-ID: %s"
 
-#, fuzzy
 msgid "Send and Receive Mail"
-msgstr "Eine Nachricht schicken an"
+msgstr "E-Mails senden und empfangen"
 
 msgid "Every program attempts to expand until it can read mail."
-msgstr ""
+msgstr "Jedes Programm versucht sich zu erweitern, bis es E-Mails lesen kann."
 
 msgid "Edit Application Emails"
-msgstr ""
+msgstr "Anwendungs-Emails bearbeiten"
 
 #, php-format
 msgid "Edit Application Emails: %s"
-msgstr ""
+msgstr "Anwendungs-Emails bearbeiten: %s"
 
 msgid "Add New Address"
 msgstr "Neue Adresse hinzufügen"
 
-#, fuzzy
 msgid "Emails"
-msgstr "Email-Benutzer"
+msgstr "E-Mails"
 
 msgid "Space"
-msgstr ""
+msgstr "Space"
 
 msgid "Default Author"
-msgstr ""
+msgstr "Standard-Autor"
 
 msgid ""
 "Used if the \"From:\" address does not map to a user account. Setting a "
 "default author will allow anyone on the public internet to create objects by "
 "sending email to this address."
-msgstr ""
+msgstr "Wird verwendet, wenn die \"Von:\"-Adresse keinem Benutzerkonto entspricht. Das Festlegen eines Standard-Autors ermöglicht es jedem im öffentlichen Internet, Objekte durch Senden von E-Mails an diese Adresse zu erstellen."
 
 msgid "New Address"
 msgstr "Neue Adresse"
 
 msgid "Edit Address"
-msgstr ""
+msgstr "Adresse bearbeiten"
 
 msgid "Delete Address"
-msgstr ""
+msgstr "Adresse löschen"
 
 msgid "Are you sure you want to delete this email address?"
-msgstr ""
+msgstr "Diese Email-Adresse wirklich löschen?"
 
 msgid "No application emails created yet."
-msgstr ""
+msgstr "Noch keine Anwendungs-Emails erstellt."
 
 #, php-format
 msgid ""
 "Mail commands \"%s\" and \"%s\" both respond to keyword \"%s\". Keywords "
 "must be uniquely associated with commands."
-msgstr ""
+msgstr "Email-Befehle \"%s\" und \"%s\" antworten beide auf das Schlüsselwort \"%s\". Schlüsselwörter müssen eindeutig mit Befehlen verknüpft sein."
 
 msgid "Duplicate Message"
 msgstr "Doppelte Nachricht"
 
 msgid "Mail From Self"
-msgstr ""
+msgstr "Mail von Dir selbst"
 
 msgid "No Receivers"
 msgstr "Keine Empfänger"
@@ -39861,180 +39847,169 @@ msgid "Ignored Empty Mail"
 msgstr "Leere Email ignoriert"
 
 msgid "Reserved Recipient"
-msgstr ""
+msgstr "Reservierter Empfänger"
 
 msgid "Processing Exception"
-msgstr ""
+msgstr "Verarbeitungsfehler"
 
 msgid "Delivery Failed"
-msgstr ""
+msgstr "Zustellung fehlgeschlagen"
 
 msgid "Voided"
-msgstr ""
+msgstr "Storniert"
 
-#, fuzzy
 msgid "Route as Notification"
-msgstr "Ungelesene Benachrichtigungen"
+msgstr "Als Benachrichtigung weiterleiten"
 
 msgid "Route as Mail"
-msgstr ""
+msgstr "Als E-Mail weiterleiten"
 
 msgid "Content sent by electronic mail, also known as e-mail."
-msgstr ""
+msgstr "Inhalt, der per E-Mail versendet wird."
 
 msgid "Content Redacted"
-msgstr ""
+msgstr "Inhalt geschwärzt"
 
 msgid "Must Encrypt"
-msgstr ""
+msgstr "Verschlüsselung erforderlich"
 
 msgid "Message content can only be transmitted over secure channels."
-msgstr ""
+msgstr "Nachrichteninhalt kann nur über sichere Kanäle übermittelt werden."
 
 #, php-format
 msgid "Mail %d"
-msgstr ""
+msgstr "Mail %d"
 
-#, fuzzy
 msgid "Headers"
-msgstr "Aufträge"
+msgstr "Header"
 
 msgid "Delivery"
-msgstr ""
+msgstr "Zustellung"
 
-#, fuzzy
 msgid "View Object"
-msgstr "Objekt"
+msgstr "Objekt anzeigen"
 
-#, fuzzy, php-format
+#, php-format
 msgid "Sent by %s"
-msgstr "Erstellt von %s"
+msgstr "Gesendet von %s"
 
 msgid "To"
 msgstr "An"
 
 msgid "Cc"
-msgstr ""
+msgstr "Cc"
 
 msgid ""
 "The content of this mail is sensitive and it can not be viewed from the web "
 "UI."
-msgstr ""
+msgstr "Der Inhalt dieser Mail ist vertraulich und kann nicht über die Web-Oberfläche angezeigt werden."
 
-#, fuzzy
 msgid "Attached Files"
-msgstr "Verknüpft"
+msgstr "Angehängte Dateien"
 
 msgid ""
 "This message has not been delivered yet, so delivery information is not "
 "available."
-msgstr ""
+msgstr "Diese Nachricht wurde noch nicht zugestellt, daher sind keine Zustellungsinformationen verfügbar."
 
 msgid ""
 "This is an older message that predates recording delivery information, so "
 "none is available."
-msgstr ""
+msgstr "Dies ist eine ältere Nachricht, die vor der Aufzeichnung von Zustellungsinformationen erstellt wurde, daher sind keine verfügbar."
 
-#, fuzzy
 msgid "This message was not delivered to you."
-msgstr "Dieses Bild wurde nach %s verschoben."
+msgstr "Diese Nachricht wurde Dir nicht zugestellt."
 
 msgid "Delivered"
-msgstr ""
+msgstr "Zugestellt"
 
 msgid "Reasons"
-msgstr ""
+msgstr "Gründe"
 
 msgid "Delivery reasons are listed from weakest to strongest."
-msgstr ""
+msgstr "Zustellungsgründe werden vom schwächsten zum stärksten aufgeführt."
 
 msgid "Routing Rules"
-msgstr ""
+msgstr "Weiterleitungsregeln"
 
 msgid ""
 "This message has not been sent yet, so routing rules have not been computed."
-msgstr ""
+msgstr "Diese Nachricht wurde noch nicht gesendet, daher wurden keine Weiterleitungsregeln berechnet."
 
 msgid "This is an older message which predates routing rules."
-msgstr ""
+msgstr "Dies ist eine ältere Nachricht, die vor der Einführung von Weiterleitungsregeln erstellt wurde."
 
 msgid "No routing rules applied when delivering this message to you."
-msgstr ""
+msgstr "Beim Zustellen dieser Nachricht wurden keine Weiterleitungsregeln angewendet."
 
 #, php-format
 msgid "This message was routed as a notification because it matched %s."
-msgstr ""
+msgstr "Diese Nachricht wurde als Benachrichtigung weitergeleitet, weil sie %s entsprach."
 
-#, fuzzy, php-format
+#, php-format
 msgid "This message was routed as an email because it matched %s."
-msgstr "Dieses Bild wurde gelöscht, nachdem es nach %s kopiert wurde."
+msgstr "Diese Nachricht wurde als E-Mail weitergeleitet, weil sie %s entsprach."
 
-#, fuzzy, php-format
+#, php-format
 msgid "Unknown routing rule \"%s\"."
-msgstr "Unbekannte Aktion \"%s\""
+msgstr "Unbekannte Weiterleitungsregel \"%s\"."
 
-#, fuzzy
 msgid "Effective Rule"
-msgstr "Neue Regel"
+msgstr "Wirksame Regel"
 
-#, fuzzy
 msgid "All Matching Rules"
-msgstr "Alle Regeln"
+msgstr "Alle passenden Regeln"
 
 msgid "Matching rules are listed from weakest to strongest."
-msgstr ""
+msgstr "Passende Regeln werden vom schwächsten zum stärksten aufgeführt."
 
-#, fuzzy
 msgid "Message PHID"
-msgstr "Nachricht"
+msgstr "Nachrichten-PHID"
 
-#, fuzzy
 msgid "Generated by Server"
-msgstr "Schlüsselpaar erzeugen"
+msgstr "Vom Server generiert"
 
 msgid "Actor"
-msgstr ""
+msgstr "Akteur"
 
 msgid "Related Object"
-msgstr ""
+msgstr "Verknüpftes Objekt"
 
 msgid "Mail signature is not valid. Check your Mailgun API key."
-msgstr ""
+msgstr "Mail-Signatur ist ungültig. Überprüfe Deinen Mailgun API-Schlüssel."
 
 msgid "Got it! Thanks, Mailgun!\n"
-msgstr ""
+msgstr "Verstanden! Danke, Mailgun!\n"
 
 msgid "Got it! Thanks, Postmark!\n"
-msgstr ""
+msgstr "Verstanden! Danke, Postmark!\n"
 
 msgid "Got it! Thanks, SendGrid!"
-msgstr ""
+msgstr "Verstanden! Danke, SendGrid!"
 
 msgid "Email address is not formatted properly."
-msgstr ""
+msgstr "Email-Adresse ist nicht korrekt formatiert."
 
 msgid "Reserved"
-msgstr ""
+msgstr "Reserviert"
 
-#, fuzzy
 msgid "This email address is reserved. Choose a different address."
-msgstr "Diese Email-Adresse wurde bereits bestätigt."
+msgstr "Diese Email-Adresse ist reserviert. Wähle eine andere Adresse."
 
 msgid "In Use"
 msgstr "In Benutzung"
 
-#, fuzzy
 msgid ""
 "This email address is already in use by a user. Choose a different address."
-msgstr "Diese Email-Adresse wurde bereits bestätigt."
+msgstr "Diese Email-Adresse wird bereits von einem Benutzer verwendet. Wähle eine andere Adresse."
 
 msgid "This email address is already in use."
-msgstr ""
+msgstr "Diese Email-Adresse wird bereits verwendet."
 
 msgid ""
 "Message has no valid recipients: all To/CC are disabled, invalid, or "
 "configured not to receive this mail."
-msgstr ""
+msgstr "Nachricht hat keine gültigen Empfänger: Alle An/CC-Empfänger sind deaktiviert, ungültig oder so konfiguriert, dass sie diese Mail nicht erhalten."
 
 msgid ""
 "This is an error email, but one or more recipients have exceeded the error "
@@ -40045,12 +40020,12 @@ msgstr ""
 "nicht ausgeliefert."
 
 msgid "This secure message is notifying you of a change to this object:"
-msgstr ""
+msgstr "Diese sichere Nachricht informiert Dich über eine Änderung an diesem Objekt:"
 
 msgid ""
 "The content for this message can only be transmitted over a secure channel. "
 "To view the message content, follow this link:"
-msgstr ""
+msgstr "Der Inhalt dieser Nachricht kann nur über einen sicheren Kanal übermittelt werden. Um den Nachrichteninhalt anzuzeigen, folge diesem Link:"
 
 #, php-format
 msgid "(This email was truncated at %d bytes.)"
@@ -40060,511 +40035,486 @@ msgstr "(Diese Email wurde auf %d Zeichen verkürzt.)"
 msgid ""
 "This software is running in silent mode. See `%s` in the configuration to "
 "change this setting."
-msgstr ""
+msgstr "Diese Software läuft im Stumm-Modus. Siehe `%s` in der Konfiguration, um diese Einstellung zu ändern."
 
-#, fuzzy
 msgid "Object Updated"
-msgstr "Objekttyp"
+msgstr "Objekt aktualisiert"
 
 msgid "Message has no \"To\" recipient."
-msgstr ""
+msgstr "Nachricht hat keinen \"An\"-Empfänger."
 
 msgid "Message has more than one \"To\" recipient."
-msgstr ""
+msgstr "Nachricht hat mehr als einen \"An\"-Empfänger."
 
 msgid "Message recipient has no mailable actor."
-msgstr ""
+msgstr "Nachrichtenempfänger hat keinen mailbaren Akteur."
 
-#, fuzzy
 msgid "Message recipient is not deliverable."
-msgstr "Das Konto kann nicht verknüpft werden."
+msgstr "Nachrichtenempfänger ist nicht erreichbar."
 
 msgid "Message recipient has no primary contact number."
-msgstr ""
+msgstr "Nachrichtenempfänger hat keine primäre Kontaktnummer."
 
 msgid "Message recipient has more than one primary contact number."
-msgstr ""
+msgstr "Nachrichtenempfänger hat mehr als eine primäre Kontaktnummer."
 
-#, fuzzy
 msgid "Mail Properties"
-msgstr "Eigenschaften"
+msgstr "Mail-Eigenschaften"
 
 msgid "PHP mailparse extension is not installed"
-msgstr ""
+msgstr "PHP mailparse-Erweiterung ist nicht installiert"
 
-#, fuzzy, php-format
+#, php-format
 msgid "Read the header '%s' from the test email %s"
-msgstr "Wirklich %s von Projekt %s entfernen?"
+msgstr "Header '%s' aus der Test-Email %s gelesen"
 
 msgid "Expected JSON response from Twilio."
-msgstr ""
+msgstr "JSON-Antwort von Twilio erwartet."
 
-#, fuzzy
 msgid "Mail (Received)"
-msgstr "Mehrere Empfänger"
+msgstr "Mail (Empfangen)"
 
-#, fuzzy
 msgid "Mail (Sent)"
-msgstr "Email verschickt"
+msgstr "Mail (Gesendet)"
 
-#, fuzzy
 msgid "Message Fields"
-msgstr "Nachrichten"
+msgstr "Nachrichtenfelder"
 
 msgid "Subject"
-msgstr ""
+msgstr "Betreff"
 
 msgid "Require secure email"
-msgstr ""
+msgstr "Sichere E-Mail erforderlich"
 
 msgid "Require mail content be transmitted only over secure channels."
-msgstr ""
+msgstr "Mail-Inhalt muss nur über sichere Kanäle übermittelt werden."
 
 msgid ""
 "Made it a requirement that mail content be transmitted only over secure "
 "channels."
-msgstr ""
+msgstr "Es wurde zur Anforderung gemacht, dass Mail-Inhalt nur über sichere Kanäle übermittelt wird."
 
 msgid "Route outbound email."
-msgstr ""
+msgstr "Ausgehende E-Mails weiterleiten."
 
 msgid "Test rules which run when outbound mail is being prepared for delivery."
-msgstr ""
+msgstr "Regeln testen, die ausgeführt werden, wenn ausgehende Mail für die Zustellung vorbereitet wird."
 
 msgid "Outbound Mail"
-msgstr ""
+msgstr "Ausgehende Mail"
 
-#, fuzzy
 msgid "Routed Message"
-msgstr "Nachricht senden"
+msgstr "Weitergeleitete Nachricht"
 
-#, fuzzy
 msgid "Routed mail."
-msgstr "Email senden"
+msgstr "Weitergeleitete Mail."
 
-#, fuzzy
 msgid "Deliver as email"
-msgstr "Mir eine Email schicken"
+msgstr "Als E-Mail zustellen"
 
-#, fuzzy
 msgid "Deliver as email."
-msgstr "Mir eine Email schicken"
+msgstr "Als E-Mail zustellen."
 
-#, fuzzy
 msgid "Deliver as notification"
-msgstr "Sende mir überhaupt keine Email Benachrichtungen"
+msgstr "Als Benachrichtigung zustellen"
 
-#, fuzzy
 msgid "Deliver as notification."
-msgstr "Sende mir überhaupt keine Email Benachrichtungen"
+msgstr "Als Benachrichtigung zustellen."
 
 msgid "Receiving email addresses"
-msgstr ""
+msgstr "Empfangende Email-Adressen"
 
-#, fuzzy
 msgid "Sent Mail"
-msgstr "Leere Email"
+msgstr "Gesendete Mail"
 
-#, fuzzy
 msgid "Forced Mail"
-msgstr "Leere Email ignoriert"
+msgstr "Erzwungene Mail"
 
 #, php-format
 msgid "Queued email to be delivered to %s target(s): %s."
-msgstr ""
+msgstr "E-Mail zur Zustellung an %s Empfänger in die Warteschlange gestellt: %s."
 
 #, php-format
 msgid ""
 "Queued email to be delivered to %s target(s), ignoring their notification "
 "preferences: %s."
-msgstr ""
+msgstr "E-Mail zur Zustellung an %s Empfänger in die Warteschlange gestellt, unter Ignorierung ihrer Benachrichtigungseinstellungen: %s."
 
 msgid "Send an email to"
 msgstr "Eine Nachricht schicken an"
 
-#, fuzzy, php-format
+#, php-format
 msgid "Send an email to: %s."
-msgstr "Eine Nachricht schicken an"
+msgstr "Eine E-Mail senden an: %s."
 
 msgid "Send me an email"
 msgstr "Mir eine Email schicken"
 
-#, fuzzy
 msgid "Send an email to rule author."
-msgstr "Eine Nachricht schicken an"
+msgstr "Eine E-Mail an den Regelautor senden."
 
-#, fuzzy
 msgid "List inbound messages."
-msgstr "%s ungelesene Nachrichten."
+msgstr "Eingehende Nachrichten auflisten."
 
 msgid "Show a specific number of messages (default 100)."
-msgstr ""
+msgstr "Eine bestimmte Anzahl von Nachrichten anzeigen (Standard 100)."
 
 msgid "No received mail."
-msgstr ""
+msgstr "Keine empfangene Mail."
 
 msgid "Related PHID"
-msgstr ""
+msgstr "Verknüpfte PHID"
 
 msgid "(No subject.)"
-msgstr ""
+msgstr "(Kein Betreff.)"
 
-#, fuzzy
 msgid "List outbound messages."
-msgstr "%s ungelesene Nachrichten."
+msgstr "Ausgehende Nachrichten auflisten."
 
 msgid "No sent mail."
-msgstr ""
+msgstr "Keine gesendete Mail."
 
 msgid "#"
-msgstr ""
+msgstr "#"
 
 msgid ""
 "Simulate receiving mail. This is primarily useful if you are developing new "
 "mail receivers."
-msgstr ""
+msgstr "Mail-Empfang simulieren. Dies ist vor allem nützlich, wenn Du neue Mail-Empfänger entwickelst."
 
 msgid "Act as the specified user."
-msgstr ""
+msgstr "Als angegebener Benutzer handeln."
 
 msgid "Simulate mail delivery \"From:\" the given user."
-msgstr ""
+msgstr "Mail-Zustellung \"Von:\" dem angegebenen Benutzer simulieren."
 
 msgid "Simulate mail delivery \"To:\" the given object."
-msgstr ""
+msgstr "Mail-Zustellung \"An:\" das angegebene Objekt simulieren."
 
 msgid "Simulate a mail delivery \"Cc:\" address."
-msgstr ""
+msgstr "Eine Mail-Zustellungs-\"Cc:\"-Adresse simulieren."
 
 #, php-format
 msgid "Use '%s' to specify the receiving object or email address."
-msgstr ""
+msgstr "Verwende '%s', um das empfangende Objekt oder die Email-Adresse anzugeben."
 
 msgid "Use '--as' to specify the acting user."
-msgstr ""
+msgstr "Verwende '--as', um den handelnden Benutzer anzugeben."
 
 #, php-format
 msgid "No such user '%s' exists."
-msgstr ""
+msgstr "Benutzer '%s' existiert nicht."
 
 msgid "Reading message body from stdin..."
-msgstr ""
+msgstr "Nachrichteninhalt von stdin lesen..."
 
 #, php-format
 msgid "No configured mail receiver can accept mail to '%s'."
-msgstr ""
+msgstr "Kein konfigurierter Mail-Empfänger kann Mail an '%s' annehmen."
 
 #, php-format
 msgid ""
 "Receiver '%s' accepts mail to '%s', but is not a subclass of "
 "PhabricatorObjectMailReceiver."
-msgstr ""
+msgstr "Empfänger '%s' akzeptiert Mail an '%s', ist aber keine Unterklasse von PhabricatorObjectMailReceiver."
 
 #, php-format
 msgid "No such object '%s'!"
-msgstr ""
+msgstr "Objekt '%s' nicht gefunden!"
 
 msgid "Mail received! You can view details by running this command:"
-msgstr ""
+msgstr "Mail empfangen! Details können mit diesem Befehl angezeigt werden:"
 
 msgid "Send mail again."
-msgstr ""
+msgstr "Mail erneut senden."
 
 msgid "Send mail with a given ID again."
-msgstr ""
+msgstr "Mail mit einer bestimmten ID erneut senden."
 
 #, php-format
 msgid "Use the '%s' flag to specify one or more messages to resend."
-msgstr ""
+msgstr "Verwende das Flag '%s', um eine oder mehrere Nachrichten zum erneuten Senden anzugeben."
 
 #, php-format
 msgid "Some specified messages do not exist: %s"
-msgstr ""
+msgstr "Einige angegebene Nachrichten existieren nicht: %s"
 
 #, php-format
 msgid "Queued message #%d for resend."
-msgstr ""
+msgstr "Nachricht #%d zum erneuten Senden in die Warteschlange gestellt."
 
 msgid ""
 "Simulate sending mail. This may be useful to test your mail configuration, "
 "or while developing new mail adapters."
-msgstr ""
+msgstr "Mail-Versand simulieren. Dies kann nützlich sein, um die Mail-Konfiguration zu testen oder beim Entwickeln neuer Mail-Adapter."
 
 msgid "Send mail from the specified user."
-msgstr ""
+msgstr "Mail vom angegebenen Benutzer senden."
 
 msgid "Send mail \"To:\" the specified users."
-msgstr ""
+msgstr "Mail \"An:\" die angegebenen Benutzer senden."
 
 msgid "Send mail which \"Cc:\"s the specified users."
-msgstr ""
+msgstr "Mail senden, die die angegebenen Benutzer \"Cc:\"."
 
 msgid "Use the provided subject."
-msgstr ""
+msgstr "Den angegebenen Betreff verwenden."
 
 msgid "Add the given mail tags."
-msgstr ""
+msgstr "Die angegebenen Mail-Tags hinzufügen."
 
 msgid "Attach a file."
-msgstr ""
+msgstr "Eine Datei anhängen."
 
 msgid "Send with a specific configured mailer."
-msgstr ""
+msgstr "Mit einem bestimmten konfigurierten Mailer senden."
 
 msgid "Send as HTML mail."
-msgstr ""
+msgstr "Als HTML-Mail senden."
 
 msgid "Send with bulk headers."
-msgstr ""
+msgstr "Mit Massen-Headern senden."
 
 msgid "Send the specified type of message (email, sms, ...)."
-msgstr ""
+msgstr "Den angegebenen Nachrichtentyp senden (Email, SMS, ...)."
 
 #, php-format
 msgid "Message type \"%s\" is unknown, supported message types are: %s."
-msgstr ""
+msgstr "Nachrichtentyp \"%s\" ist unbekannt, unterstützte Nachrichtentypen sind: %s."
 
 msgid ""
 "Specify one or more users to send a message to with \"--to\" and/or \"--cc\"."
-msgstr ""
+msgstr "Einen oder mehrere Benutzer mit \"--to\" und/oder \"--cc\" angeben, an die eine Nachricht gesendet werden soll."
 
 msgid "No Subject"
-msgstr ""
+msgstr "Kein Betreff"
 
 #, php-format
 msgid ""
 "(This is a placeholder plaintext email body for a test message sent with %s.)"
-msgstr ""
+msgstr "(Dies ist ein Platzhalter-Klartextinhalt für eine Testnachricht, die mit %s gesendet wurde.)"
 
 #, php-format
 msgid "No configured mailers support outbound messages of type \"%s\"."
-msgstr ""
+msgstr "Kein konfigurierter Mailer unterstützt ausgehende Nachrichten vom Typ \"%s\"."
 
 #, php-format
 msgid ""
 "Mailer key (\"%s\") is not configured, or does not support outbound messages "
 "of type \"%s\". Available mailers are: %s."
-msgstr ""
+msgstr "Mailer-Schlüssel (\"%s\") ist nicht konfiguriert oder unterstützt keine ausgehenden Nachrichten vom Typ \"%s\". Verfügbare Mailer sind: %s."
 
 msgid "Mail sent! You can view details by running this command:"
-msgstr ""
+msgstr "Mail gesendet! Details können mit diesem Befehl angezeigt werden:"
 
 msgid "Show diagnostic details about inbound mail."
-msgstr ""
+msgstr "Diagnosedetails über eingehende Mail anzeigen."
 
 msgid "Show details about inbound mail with given ID."
-msgstr ""
+msgstr "Details über eingehende Mail mit der angegebenen ID anzeigen."
 
 #, php-format
 msgid "Use the '%s' flag to specify one or more messages to show."
-msgstr ""
+msgstr "Verwende das Flag '%s', um eine oder mehrere anzuzeigende Nachrichten anzugeben."
 
 msgid "PROPERTIES"
-msgstr ""
+msgstr "EIGENSCHAFTEN"
 
 #, php-format
 msgid "ID: %d"
-msgstr ""
+msgstr "ID: %d"
 
 #, php-format
 msgid "Status: %s"
-msgstr ""
+msgstr "Status: %s"
 
 #, php-format
 msgid "Related PHID: %s"
-msgstr ""
+msgstr "Verknüpfte PHID: %s"
 
 #, php-format
 msgid "Author PHID: %s"
-msgstr ""
+msgstr "Autor-PHID: %s"
 
 #, php-format
 msgid "Message ID Hash: %s"
-msgstr ""
+msgstr "Nachrichten-ID-Hash: %s"
 
 msgid "MESSAGE"
-msgstr ""
+msgstr "NACHRICHT"
 
 msgid "HEADERS"
-msgstr ""
+msgstr "HEADER"
 
 msgid "BODIES"
-msgstr ""
+msgstr "INHALT"
 
 #, php-format
 msgid "Body \"%s\""
-msgstr ""
+msgstr "Inhalt \"%s\""
 
 msgid "ATTACHMENTS"
-msgstr ""
+msgstr "ANHÄNGE"
 
 msgid "No attachments."
-msgstr ""
+msgstr "Keine Anhänge."
 
 #, php-format
 msgid "File PHID: %s"
-msgstr ""
+msgstr "Datei-PHID: %s"
 
 msgid "Show diagnostic details about outbound mail."
-msgstr ""
+msgstr "Diagnosedetails über ausgehende Mail anzeigen."
 
 msgid "Show details about outbound mail with given ID."
-msgstr ""
+msgstr "Details über ausgehende Mail mit der angegebenen ID anzeigen."
 
 msgid ""
 "Dump the HTML body of the mail. You can redirect it to a file and then open "
 "it in a browser."
-msgstr ""
+msgstr "Den HTML-Inhalt der Mail ausgeben. Kann in eine Datei umgeleitet und dann im Browser geöffnet werden."
 
-#, fuzzy, php-format
+#, php-format
 msgid "Argument \"%s\" is not a valid message ID."
-msgstr "Der neue Chat-Teilnehmer \"%s\" ist kein gültiger Benutzer."
+msgstr "Argument \"%s\" ist keine gültige Nachrichten-ID."
 
 msgid "(This message has no HTML body.)"
-msgstr ""
+msgstr "(Diese Nachricht hat keinen HTML-Inhalt.)"
 
 #, php-format
 msgid "Message: %s"
-msgstr ""
+msgstr "Nachricht: %s"
 
 msgid "PARAMETERS"
-msgstr ""
+msgstr "PARAMETER"
 
 msgid "Unnamed File"
-msgstr ""
+msgstr "Unbenannte Datei"
 
 msgid "RECIPIENTS"
-msgstr ""
+msgstr "EMPFÄNGER"
 
 msgid "TEXT BODY"
-msgstr ""
+msgstr "TEXTINHALT"
 
 msgid "(This message has no text body.)"
-msgstr ""
+msgstr "(Diese Nachricht hat keinen Textinhalt.)"
 
 msgid "BODY AS DELIVERED"
-msgstr ""
+msgstr "INHALT WIE ZUGESTELLT"
 
 msgid "HTML BODY"
-msgstr ""
+msgstr "HTML-INHALT"
 
 msgid "Unverify an email address so it no longer receives mail."
-msgstr ""
+msgstr "Email-Adresse deveifizieren, damit sie keine Mail mehr empfängt."
 
 msgid "Address (or addresses) to unverify."
-msgstr ""
+msgstr "Zu deverizierende Adresse(n)."
 
 msgid "Specify one or more email addresses to unverify."
-msgstr ""
+msgstr "Eine oder mehrere zu deverizierende Email-Adressen angeben."
 
 #, php-format
 msgid "Address \"%s\" is unknown."
-msgstr ""
+msgstr "Adresse \"%s\" ist unbekannt."
 
 #, php-format
 msgid "Address \"%s\" belongs to invalid user \"%s\"."
-msgstr ""
+msgstr "Adresse \"%s\" gehört zu ungültigem Benutzer \"%s\"."
 
 #, php-format
 msgid "Address \"%s\" (owned by \"%s\") is already unverified."
-msgstr ""
+msgstr "Adresse \"%s\" (im Besitz von \"%s\") ist bereits unbestätigt."
 
 #, php-format
 msgid "Unverified \"%s\", the primary address for \"%s\"."
-msgstr ""
+msgstr "\"%s\", die primäre Adresse für \"%s\", wurde deveifiziert."
 
 #, php-format
 msgid "Unverified \"%s\", an address for \"%s\"."
-msgstr ""
+msgstr "\"%s\", eine Adresse für \"%s\", wurde deveifiziert."
 
 msgid "Show how much mail users have received recently."
-msgstr ""
+msgstr "Anzeigen, wie viel Mail Benutzer kürzlich erhalten haben."
 
 msgid "Number of days back (default 30)."
-msgstr ""
+msgstr "Anzahl der zurückliegenden Tage (Standard 30)."
 
 msgid "Period specified with --days must be at least 1."
-msgstr ""
+msgstr "Der mit --days angegebene Zeitraum muss mindestens 1 sein."
 
 msgid "Unfiltered"
-msgstr ""
+msgstr "Ungefiltert"
 
 #, php-format
 msgid "Mail sent in the last %s day(s)."
-msgstr ""
+msgstr "In den letzten %s Tag(en) gesendete Mail."
 
 msgid "\"Unfiltered\" is raw volume before rules applied."
-msgstr ""
+msgstr "\"Ungefiltert\" ist das Rohvolumen vor Anwendung der Regeln."
 
 msgid "\"Delivered\" shows email actually sent."
-msgstr ""
+msgstr "\"Zugestellt\" zeigt tatsächlich gesendete Emails."
 
 #, php-format
 msgid ""
 "Phone number (\"%s\") is not in a recognized format: expected a US number "
 "like \"(555) 555-5555\", or an international number like \"+55 5555 555555\"."
-msgstr ""
+msgstr "Telefonnummer (\"%s\") hat kein erkanntes Format: erwartet wird eine US-Nummer wie \"(555) 555-5555\" oder eine internationale Nummer wie \"+55 5555 555555\"."
 
 #, php-format
 msgid "Exception raised by: %s"
-msgstr ""
+msgstr "Ausnahme ausgelöst von: %s"
 
 #, php-format
 msgid "E164 of: %s"
-msgstr ""
+msgstr "E164 von: %s"
 
 msgid "MetaMTA Mail"
-msgstr ""
+msgstr "MetaMTA Mail"
 
-#, fuzzy
 msgid "Disabled Recipient"
-msgstr "Erneutes Öffnen deaktivieren"
+msgstr "Deaktivierter Empfänger"
 
 msgid "Bot Recipient"
-msgstr ""
+msgstr "Bot-Empfänger"
 
-#, fuzzy
 msgid "No Address"
-msgstr "Neue Adresse"
+msgstr "Keine Adresse"
 
-#, fuzzy
 msgid "External Recipient"
-msgstr "Externes Konto"
+msgstr "Externer Empfänger"
 
-#, fuzzy
 msgid "Not Mailable"
-msgstr "Keine Daten verfügbar."
+msgstr "Nicht mailbar"
 
-#, fuzzy
 msgid "Similar Reply"
-msgstr "Ähnliche Aufgabe"
+msgstr "Ähnliche Antwort"
 
 msgid "Self Mail"
-msgstr ""
+msgstr "Mail an sich selbst"
 
-#, fuzzy
 msgid "Mail Disabled"
-msgstr "Deaktiviert"
+msgstr "Mail deaktiviert"
 
 msgid "Mail Tags"
-msgstr ""
+msgstr "Mail-Tags"
 
-#, fuzzy
 msgid "Bad Recipient"
-msgstr "Kaputtes Objekt"
+msgstr "Ungültiger Empfänger"
 
 msgid "Forced by Herald"
-msgstr ""
+msgstr "Durch Herald erzwungen"
 
-#, fuzzy
 msgid "Address Not Verified"
-msgstr "Emailadresse wurde verifiziert"
+msgstr "Adresse nicht verifiziert"
 
 msgid "Muted"
-msgstr ""
+msgstr "Stummgeschaltet"
 
 msgid "No special rules affected this mail."
-msgstr ""
+msgstr "Keine besonderen Regeln haben diese Mail beeinflusst."
 
 msgid "This user is disabled; disabled users do not receive mail."
 msgstr ""
@@ -40575,15 +40525,15 @@ msgstr ""
 "Dieser Benutzer ist ein Systembenutzer; Systembenutzer bekommen keine Emails."
 
 msgid "Unable to load an email address for this PHID."
-msgstr ""
+msgstr "Eine Email-Adresse für diese PHID konnte nicht geladen werden."
 
 msgid ""
 "Only external accounts of type \"email\" are deliverable; this account has a "
 "different type."
-msgstr ""
+msgstr "Nur externe Konten vom Typ \"Email\" sind zustellbar; dieses Konto hat einen anderen Typ."
 
 msgid "This PHID type does not correspond to a mailable object."
-msgstr ""
+msgstr "Dieser PHID-Typ entspricht keinem mailbaren Objekt."
 
 msgid ""
 "This message is a response to another email message, and this recipient "
