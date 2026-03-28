@@ -40583,51 +40583,51 @@ msgstr ""
 
 #, fuzzy
 msgid "This recipient does not have a verified primary email address."
-msgstr "Dieses Projekt hat keine Mitglieder."
+msgstr "Dieser Empfänger hat keine bestätigte primäre Email-Adresse."
 
 msgid "This recipient has muted notifications for this object."
-msgstr ""
+msgstr "Dieser Empfänger hat Benachrichtigungen für dieses Objekt stummgeschaltet."
 
 #, php-format
 msgid "Unknown Reason (\"%s\")"
-msgstr ""
+msgstr "Unbekannter Grund (\"%s\")"
 
 msgid "MetaMTA Mails"
-msgstr ""
+msgstr "MetaMTA-Mails"
 
 msgid "Actors"
-msgstr ""
+msgstr "Akteure"
 
 msgid "Inbox"
-msgstr ""
+msgstr "Posteingang"
 
 msgid "Outbox"
-msgstr ""
+msgstr "Postausgang"
 
 #, php-format
 msgid ""
 "You are sending from an unrecognized email address to an address which does "
 "not support public email (\"%s\")."
-msgstr ""
+msgstr "Du sendest von einer unbekannten Email-Adresse an eine Adresse, die keine öffentlichen Emails unterstützt (\"%s\")."
 
 #, php-format
 msgid "Application email (\"%s\") has an invalid default author (\"%s\")."
-msgstr ""
+msgstr "Anwendungs-Email (\"%s\") hat einen ungültigen Standard-Autor (\"%s\")."
 
 #, php-format
 msgid "Failed to parse object address (\"%s\") during processing."
-msgstr ""
+msgstr "Objekt-Adresse (\"%s\") konnte während der Verarbeitung nicht analysiert werden."
 
 #, php-format
 msgid ""
 "This mail is addressed to an object (\"%s\") you do not have permission to "
 "see: %s"
-msgstr ""
+msgstr "Diese Mail ist an ein Objekt (\"%s\") adressiert, das Du nicht siehst: %s"
 
 #, php-format
 msgid ""
 "This mail is addressed to an object (\"%s\"), but that object does not exist."
-msgstr ""
+msgstr "Diese Mail ist an ein Objekt (\"%s\") adressiert, aber das Objekt existiert nicht."
 
 #, php-format
 msgid ""
@@ -40653,56 +40653,55 @@ msgstr ""
 
 #, php-format
 msgid "Address %s"
-msgstr ""
+msgstr "Adresse %s"
 
 #, php-format
 msgid "Address: %s"
-msgstr ""
+msgstr "Adresse: %s"
 
-#, fuzzy, php-format
+#, php-format
 msgid "Reserved: %s"
-msgstr "Reviewer: %s"
+msgstr "Reserviert: %s"
 
 msgid "STAMPS"
-msgstr ""
+msgstr "STAMPS"
 
 #, php-format
 msgid "The address %s is configured to be used by the %s Application."
-msgstr ""
+msgstr "Die Adresse %s ist so konfiguriert, dass sie von der Anwendung %s verwendet wird."
 
 #, php-format
 msgid "The address %s is configured to be used by an application."
-msgstr ""
+msgstr "Die Adresse %s ist so konfiguriert, dass sie von einer Anwendung verwendet wird."
 
 msgid "Trying to send an already-sent mail!"
-msgstr ""
+msgstr "Versuch, eine bereits gesendete Mail erneut zu senden!"
 
-#, fuzzy, php-format
+#, php-format
 msgid "Unknown mailer (\"%s\")!"
-msgstr "Unbekannte Aktion \"%s\""
+msgstr "Unbekannter Mailer (\"%s\")!"
 
 msgid "No configured mailers support sending outbound mail."
-msgstr ""
+msgstr "Kein konfigurierter Mailer unterstützt das Senden ausgehender Mail."
 
-#, fuzzy
 msgid "No mailers are configured."
-msgstr "Keine Zahlungsmethoden konfiguriert"
+msgstr "Keine Mailer konfiguriert."
 
 #, php-format
 msgid "Unable to send message with unknown message type \"%s\"."
-msgstr ""
+msgstr "Nachricht mit unbekanntem Nachrichtentyp \"%s\" kann nicht gesendet werden."
 
 msgid "Encountered multiple exceptions while transmitting mail."
-msgstr ""
+msgstr "Beim Übertragen der Mail sind mehrere Ausnahmen aufgetreten."
 
 msgid "The mail sender and message recipients can always see the mail."
-msgstr ""
+msgstr "Der Mail-Absender und die Nachrichtenempfänger können die Mail immer sehen."
 
 #, php-format
 msgid ""
 "No application handled this mail. This mail was sent to a reserved recipient "
 "(\"%s\") so bounces are suppressed."
-msgstr ""
+msgstr "Keine Anwendung hat diese Mail verarbeitet. Diese Mail wurde an einen reservierten Empfänger (\"%s\") gesendet, daher werden Bounce-Meldungen unterdrückt."
 
 #, php-format
 msgid ""
@@ -40725,11 +40724,11 @@ msgstr ""
 
 #, php-format
 msgid "Unhandled Exception: %s"
-msgstr ""
+msgstr "Unbehandelte Ausnahme: %s"
 
 #, php-format
 msgid "Ignoring email with '%s' header to avoid loops."
-msgstr ""
+msgstr "Email mit '%s'-Header wird ignoriert, um Schleifen zu vermeiden."
 
 #, php-format
 msgid ""
@@ -40801,171 +40800,168 @@ msgstr ""
 msgid ""
 "Load balancing between two mail servers did not select both servers after an "
 "absurd number of attempts."
-msgstr ""
+msgstr "Der Lastausgleich zwischen zwei Mail-Servern hat nach einer absurden Anzahl von Versuchen nicht beide Server ausgewählt."
 
 msgid "\"To\" is a recipient."
-msgstr ""
+msgstr "\"An\" ist ein Empfänger."
 
 msgid "\"From\" does not exclude recipients by default."
-msgstr ""
+msgstr "\"Von\" schließt Empfänger standardmäßig nicht aus."
 
 msgid "\"From\" excludes recipients with no-self-mail set."
-msgstr ""
+msgstr "\"Von\" schließt Empfänger mit aktivierter Keine-Selbst-Mail-Option aus."
 
 msgid "\"From\" excludes recipients with no-mail set."
-msgstr ""
+msgstr "\"Von\" schließt Empfänger mit aktivierter Keine-Mail-Option aus."
 
 msgid "\"From\" includes no-mail recipients when forced."
-msgstr ""
+msgstr "\"Von\" schließt Keine-Mail-Empfänger ein, wenn erzwungen."
 
 msgid "Explicit exclude excludes recipients."
-msgstr ""
+msgstr "Expliziter Ausschluss schließt Empfänger aus."
 
 msgid "Tag preference excludes recipients."
-msgstr ""
+msgstr "Tag-Einstellung schließt Empfänger aus."
 
 msgid "Mail not sent to unverified address."
-msgstr ""
+msgstr "Mail nicht an unbestätigte Adresse gesendet."
 
 msgid "Mail sent to verified address."
-msgstr ""
+msgstr "Mail an bestätigte Adresse gesendet."
 
 #, php-format
 msgid "Expect Thread-Index header for case %s."
-msgstr ""
+msgstr "Thread-Index-Header für Fall %s erwartet."
 
 #, php-format
 msgid "Expectation about existence of Message-ID header for case %s."
-msgstr ""
+msgstr "Erwartung über Existenz des Message-ID-Headers für Fall %s."
 
 #, php-format
 msgid "Expectation about existence of In-Reply-To header for case %s."
-msgstr ""
+msgstr "Erwartung über Existenz des In-Reply-To-Headers für Fall %s."
 
 #, php-format
 msgid "Expectation about existence of References header for case %s."
-msgstr ""
+msgstr "Erwartung über Existenz des References-Headers für Fall %s."
 
 msgid "Text Body Truncated"
-msgstr ""
+msgstr "Textinhalt abgeschnitten"
 
 msgid "HTML Body Removed"
-msgstr ""
+msgstr "HTML-Inhalt entfernt"
 
 msgid "Browse Email Addresses"
-msgstr ""
+msgstr "Email-Adressen durchsuchen"
 
 msgid "Type an application email address..."
-msgstr ""
+msgstr "Eine Anwendungs-Email-Adresse eingeben..."
 
 msgid "Browse Subscribers"
-msgstr ""
+msgstr "Mitleser durchsuchen"
 
-#, fuzzy
 msgid "Type a user, project, package, or mailing list name..."
-msgstr "Benutzer, Projekt oder Mailing-Liste eintippen..."
+msgstr "Benutzer, Projekt, Paket oder Mailing-Liste eintippen..."
 
-#, fuzzy
 msgid "Type a username, project, mailing list, package, or function..."
-msgstr "Benutzername, Projekt, Mailing-Liste oder Funktion eintippen..."
+msgstr "Benutzername, Projekt, Mailing-Liste, Paket oder Funktion eintippen..."
 
 msgid "Type a username, project, mailing list, or function..."
 msgstr "Benutzername, Projekt, Mailing-Liste oder Funktion eintippen..."
 
 msgid "Multimeter"
-msgstr ""
+msgstr "Multimeter"
 
 msgid "Performance Sampler"
-msgstr ""
+msgstr "Performance-Sampler"
 
 msgid "Multimeter User Guide"
-msgstr ""
+msgstr "Multimeter-Benutzerhandbuch"
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s Event(s)"
-msgstr "Termine"
+msgstr "%s Ereignis(se)"
 
 msgid "Viewer"
-msgstr ""
+msgstr "Betrachter"
 
 msgid "Label"
-msgstr ""
+msgstr "Bezeichnung"
 
 msgid "Avg"
-msgstr ""
+msgstr "Ø"
 
 msgid "Rate"
-msgstr ""
+msgstr "Rate"
 
 msgid "Epoch"
-msgstr ""
+msgstr "Zeitstempel"
 
 msgid "Samples"
-msgstr ""
+msgstr "Stichproben"
 
 msgid "By Host"
-msgstr ""
+msgstr "Nach Host"
 
 msgid "By Context"
-msgstr ""
+msgstr "Nach Kontext"
 
 msgid "By Viewer"
-msgstr ""
+msgstr "Nach Betrachter"
 
 msgid "By Request"
-msgstr ""
+msgstr "Nach Anfrage"
 
 msgid "By Label"
-msgstr ""
+msgstr "Nach Bezeichnung"
 
 msgid "By ID"
-msgstr ""
+msgstr "Nach ID"
 
 #, php-format
 msgid "Samples (%s - %s)"
-msgstr ""
+msgstr "Stichproben (%s - %s)"
 
 msgid "(All)"
-msgstr ""
+msgstr "(Alle)"
 
 msgid "Trying to unpause an active multimeter!"
-msgstr ""
+msgstr "Versuch, ein aktives Multimeter fortzusetzen!"
 
-#, fuzzy
 msgid "Multimeter Events"
-msgstr "Termine im Kalender"
+msgstr "Multimeter-Ereignisse"
 
 msgid "Static Resource"
-msgstr ""
+msgstr "Statische Ressource"
 
 msgid "Web Request"
-msgstr ""
+msgstr "Web-Anfrage"
 
 msgid "Subprocesses"
-msgstr ""
+msgstr "Unterprozesse"
 
 #, php-format
 msgid "%s Req"
-msgstr ""
+msgstr "%s Anf."
 
 #, php-format
 msgid "%s Unit(s)"
-msgstr ""
+msgstr "%s Einheit(en)"
 
 msgid "Real-Time Updates and Alerts"
-msgstr ""
+msgstr "Echtzeit-Aktualisierungen und Benachrichtigungen"
 
 msgid "Unable to test client on an admin server!"
-msgstr ""
+msgstr "Client kann auf einem Admin-Server nicht getestet werden!"
 
 msgid "Got HTTP 200, but expected HTTP 501 (WebSocket Upgrade)!"
-msgstr ""
+msgstr "HTTP 200 erhalten, aber HTTP 501 (WebSocket Upgrade) erwartet!"
 
 msgid "Unable to load server status: this is not an admin server!"
-msgstr ""
+msgstr "Server-Status konnte nicht geladen werden: Dies ist kein Admin-Server!"
 
 msgid "Unable to post message: this is not an admin server!"
-msgstr ""
+msgstr "Nachricht konnte nicht gesendet werden: Dies ist kein Admin-Server!"
 
 #, php-format
 msgid ""
@@ -41038,7 +41034,7 @@ msgid "Mark All Read"
 msgstr "Alles als Gelesen markieren"
 
 msgid "No notifications to mark as read."
-msgstr ""
+msgstr "Keine Benachrichtigungen zum Markieren."
 
 msgid "You have no unread notifications."
 msgstr "Du hast keine ungelesenen Benachrichtigungen."
@@ -41050,17 +41046,17 @@ msgstr "Keine Benachrichtungen für Dich."
 msgid ""
 "%s notification(s) about objects which no longer exist or which you can no "
 "longer see were discarded."
-msgstr ""
+msgstr "%s Benachrichtigung(en) über Objekte, die nicht mehr existieren oder nicht mehr sichtbar sind, wurden verworfen."
 
 #, php-format
 msgid "This is a test notification, sent at %s."
-msgstr ""
+msgstr "Dies ist eine Test-Benachrichtigung, gesendet am %s."
 
 msgid "Unread"
-msgstr ""
+msgstr "Ungelesen"
 
 msgid "Show only unread notifications."
-msgstr ""
+msgstr "Nur ungelesene Benachrichtigungen anzeigen."
 
 msgid "All Notifications"
 msgstr "Alle Benachrichtigungen"
@@ -41079,15 +41075,15 @@ msgid ""
 msgstr ""
 
 msgid "Notification Server Down"
-msgstr ""
+msgstr "Benachrichtigungs-Server nicht erreichbar"
 
 msgid "Unable to Connect to Notification Server"
-msgstr ""
+msgstr "Verbindung zum Benachrichtigungs-Server nicht möglich"
 
 msgid ""
 "This server is configured to use a notification server, but is not able to "
 "connect to it."
-msgstr ""
+msgstr "Dieser Server ist für die Verwendung eines Benachrichtigungs-Servers konfiguriert, kann aber keine Verbindung herstellen."
 
 #, php-format
 msgid ""
@@ -41096,41 +41092,40 @@ msgid ""
 msgstr ""
 
 msgid "Setting Up Client"
-msgstr ""
+msgstr "Client einrichten"
 
 msgid "Disconnected"
-msgstr ""
+msgstr "Getrennt"
 
 msgid "Connecting..."
 msgstr "Verbinde..."
 
-#, fuzzy
 msgid "Notification server not enabled"
-msgstr "Nur Meldungen."
+msgstr "Benachrichtigungs-Server nicht aktiviert"
 
 msgid "Nuance"
-msgstr ""
+msgstr "Nuance"
 
 msgid "High-Volume Task Queues"
-msgstr ""
+msgstr "Aufgabenwarteschlangen für hohe Last"
 
 msgid "Default view policy for newly created sources."
-msgstr ""
+msgstr "Standard-Anzeigeberechtigung für neu erstellte Quellen."
 
 msgid "Default edit policy for newly created sources."
 msgstr "Vorgabe Editier-Berechtigung für neu erzeugte Quellen."
 
 msgid "Default Source Edit Policy"
-msgstr ""
+msgstr "Standard-Bearbeitungsberechtigung für Quellen"
 
 msgid "Default Source View Policy"
-msgstr ""
+msgstr "Standard-Anzeigeberechtigung für Quellen"
 
 msgid "Can Manage Sources"
-msgstr ""
+msgstr "Darf Quellen verwalten"
 
 msgid "You do not have permission to manage sources."
-msgstr ""
+msgstr "Du hast keine Berechtigung, Quellen zu verwalten."
 
 #, php-format
 msgid ""
@@ -41145,58 +41140,50 @@ msgid ""
 msgstr ""
 
 msgid "Throw in Trash"
-msgstr ""
+msgstr "In Papierkorb werfen"
 
-#, fuzzy
 msgid "Content imported via Nuance."
-msgstr "Kontext nicht verfügbar."
+msgstr "Über Nuance importierter Inhalt."
 
 msgid "Queues"
-msgstr ""
+msgstr "Warteschlangen"
 
-#, fuzzy
 msgid "Manage Nuance queues."
-msgstr "Panele Verwalten"
+msgstr "Nuance-Warteschlangen verwalten."
 
 msgid "Sources"
-msgstr ""
+msgstr "Quellen"
 
-#, fuzzy
 msgid "Manage Nuance sources."
-msgstr "Panele Verwalten"
+msgstr "Nuance-Quellen verwalten."
 
-#, fuzzy
 msgid "Items"
-msgstr "Artikel"
+msgstr "Elemente"
 
-#, fuzzy
 msgid "Manage Nuance items."
-msgstr "Panele Verwalten"
+msgstr "Nuance-Elemente verwalten."
 
-#, fuzzy
 msgid "Nuance Console"
-msgstr "Testkonsole"
+msgstr "Nuance-Konsole"
 
-#, fuzzy
 msgid "Wrong Queue"
-msgstr "Freigabe Warteschlange"
+msgstr "Falsche Warteschlange"
 
 msgid ""
 "You are trying to act on this item from the wrong queue: it is currently in "
 "a different queue."
-msgstr ""
+msgstr "Du versuchst, auf dieses Element aus der falschen Warteschlange zu agieren: Es befindet sich derzeit in einer anderen Warteschlange."
 
-#, fuzzy
 msgid "Command Not Supported"
-msgstr "Nicht unterstützt."
+msgstr "Befehl nicht unterstützt"
 
-#, fuzzy, php-format
+#, php-format
 msgid "This item does not support the specified command (\"%s\")."
-msgstr "Dieser Server unterstützt nur die folgenden Bildformate: %s"
+msgstr "Dieses Element unterstützt den angegebenen Befehl (\"%s\") nicht."
 
-#, fuzzy, php-format
+#, php-format
 msgid "Item %d"
-msgstr "Artikel"
+msgstr "Element %d"
 
 msgid "Date Created"
 msgstr "Erstellungsdatum"
@@ -41205,61 +41192,52 @@ msgid "Requestor"
 msgstr "Auftraggeber"
 
 msgid "Queue"
-msgstr ""
+msgstr "Warteschlange"
 
-#, fuzzy
 msgid "View Item"
-msgstr "Element auflisten"
+msgstr "Element anzeigen"
 
-#, fuzzy
 msgid "Manage Item"
-msgstr "Editieren"
+msgstr "Element verwalten"
 
 msgid "Edit Queue"
-msgstr ""
+msgstr "Warteschlange bearbeiten"
 
-#, fuzzy
 msgid "Begin Work"
-msgstr "Arbeit organisieren"
+msgstr "Arbeit beginnen"
 
 msgid "Work"
-msgstr ""
+msgstr "Arbeit"
 
 msgid "Queue Empty"
-msgstr ""
+msgstr "Warteschlange leer"
 
 msgid "This queue has no open items which you have permission to work on."
-msgstr ""
+msgstr "Diese Warteschlange hat keine offenen Elemente, an denen Du arbeiten darfst."
 
-#, fuzzy
 msgid "Queue Actions"
-msgstr "Eigene Aktionen"
+msgstr "Warteschlangen-Aktionen"
 
-#, fuzzy
 msgid "Manage Queue"
-msgstr "Dokumente verwalten"
+msgstr "Warteschlange verwalten"
 
-#, fuzzy
 msgid "Pending Commands"
-msgstr "Inline Kommentare"
+msgstr "Ausstehende Befehle"
 
-#, fuzzy
 msgid "You must choose a source type."
-msgstr "Du mußt ein Passwort wählen"
+msgstr "Du musst einen Quellentyp wählen."
 
 msgid "Choose Source Type"
-msgstr ""
+msgstr "Quellentyp auswählen"
 
-#, fuzzy
 msgid "Default Queue"
-msgstr "Vorgabebild"
+msgstr "Standard-Warteschlange"
 
-#, fuzzy
 msgid "Routing"
-msgstr "Buchhaltung"
+msgstr "Weiterleitung"
 
 msgid "Edit Source"
-msgstr ""
+msgstr "Quelle bearbeiten"
 
 #, php-format
 msgid ""
@@ -41299,52 +41277,48 @@ msgid "Set API poll TTL to +%s second(s) (%s second(s) from now)."
 msgstr ""
 
 msgid "Nuance Items"
-msgstr ""
+msgstr "Nuance-Elemente"
 
 msgid "Nuance Queues"
-msgstr ""
+msgstr "Nuance-Warteschlangen"
 
 msgid "Edit Nuance Queue Configurations"
-msgstr ""
+msgstr "Nuance-Warteschlangenkonfigurationen bearbeiten"
 
 msgid "This engine is used to edit Nuance queues."
-msgstr ""
+msgstr "Diese Engine wird verwendet, um Nuance-Warteschlangen zu bearbeiten."
 
 msgid "Create Queue"
-msgstr ""
+msgstr "Warteschlange erstellen"
 
-#, fuzzy, php-format
+#, php-format
 msgid "Edit Queue: %s"
-msgstr "Abfragen ändern..."
+msgstr "Warteschlange bearbeiten: %s"
 
-#, fuzzy
 msgid "Name of the queue."
-msgstr "Ein Name ist zwingend erforderlich."
+msgstr "Name der Warteschlange."
 
 msgid "Nuance Sources"
-msgstr ""
+msgstr "Nuance-Quellen"
 
-#, fuzzy
 msgid "Edit Nuance Source Configurations"
-msgstr "Phabricator Konfiguration"
+msgstr "Nuance-Quellenkonfigurationen bearbeiten"
 
 msgid "This engine is used to edit Nuance sources."
-msgstr ""
+msgstr "Diese Engine wird verwendet, um Nuance-Quellen zu bearbeiten."
 
 msgid "Create Source"
-msgstr ""
+msgstr "Quelle erstellen"
 
-#, fuzzy, php-format
+#, php-format
 msgid "Edit Source: %s"
-msgstr "Prüfer: %s"
+msgstr "Quelle bearbeiten: %s"
 
-#, fuzzy
 msgid "Name of the source."
-msgstr "Eine Name ist erforderlich."
+msgstr "Name der Quelle."
 
-#, fuzzy
 msgid "Default queue."
-msgstr "Vorgabebild"
+msgstr "Standard-Warteschlange."
 
 #, fuzzy, php-format
 msgid "Unknown Event Type (\"%s\")"
@@ -41352,69 +41326,67 @@ msgstr "Unbekanntes Objekt (%s)"
 
 #, php-format
 msgid "GitHub %s %s (%s)"
-msgstr ""
+msgstr "GitHub %s %s (%s)"
 
-#, fuzzy, php-format
+#, php-format
 msgid "Pull Request #%d"
-msgstr "Pull Anfragen"
+msgstr "Pull Request #%d"
 
-#, fuzzy, php-format
+#, php-format
 msgid "Issue #%d"
-msgstr "Problem gelöst"
+msgstr "Issue #%d"
 
-#, fuzzy, php-format
+#, php-format
 msgid "Branch %s"
-msgstr "Branch"
+msgstr "Branch %s"
 
-#, fuzzy, php-format
+#, php-format
 msgid "Tag %s"
-msgstr "Flagge %s"
+msgstr "Tag %s"
 
-#, fuzzy, php-format
+#, php-format
 msgid "Ref %s"
-msgstr "Woche vom %s"
+msgstr "Ref %s"
 
-#, fuzzy, php-format
+#, php-format
 msgid "User %s"
-msgstr "Benutzer"
+msgstr "Benutzer %s"
 
-#, fuzzy
 msgid "Unknown Object"
-msgstr "Unbekanntes Objekt (%s)"
+msgstr "Unbekanntes Objekt"
 
-#, fuzzy, php-format
+#, php-format
 msgid "Removed Milestone: %s"
-msgstr "Panel %s entfernen"
+msgstr "Meilenstein entfernt: %s"
 
-#, fuzzy, php-format
+#, php-format
 msgid "Added Label: %s"
-msgstr "Wurde von %s hinzugefügt."
+msgstr "Label hinzugefügt: %s"
 
-#, fuzzy, php-format
+#, php-format
 msgid "Added Milestone: %s"
-msgstr "Hinzugefügte Prüfer"
+msgstr "Meilenstein hinzugefügt: %s"
 
 msgid "Renamed"
-msgstr ""
+msgstr "Umbenannt"
 
-#, fuzzy, php-format
+#, php-format
 msgid "Unassigned: %s"
-msgstr "Zugewiesen an: %s"
+msgstr "Zuweisung entfernt: %s"
 
-#, fuzzy, php-format
+#, php-format
 msgid "Removed Label: %s"
-msgstr "Panel %s entfernen"
+msgstr "Label entfernt: %s"
 
 msgid "Unlocked"
-msgstr ""
+msgstr "Entsperrt"
 
-#, fuzzy, php-format
+#, php-format
 msgid "Pushed: %s"
-msgstr "User mit Push-Rechten"
+msgstr "Gepusht: %s"
 
-#, fuzzy
 msgid "Watched"
-msgstr "Beobachter"
+msgstr "Beobachtet"
 
 #, php-format
 msgid ""
@@ -41433,60 +41405,50 @@ msgstr ""
 msgid "Exception while decoding test data for test \"%s\"."
 msgstr ""
 
-#, fuzzy
 msgid "Form"
-msgstr "Format"
+msgstr "Formular"
 
 msgid "Complaint"
-msgstr ""
+msgstr "Beschwerde"
 
 msgid "Throw In Trash"
-msgstr ""
+msgstr "In Papierkorb werfen"
 
-#, fuzzy
 msgid "GitHub Event"
-msgstr "Termin ändern"
+msgstr "GitHub-Ereignis"
 
 msgid "Reload from GitHub"
-msgstr ""
+msgstr "Von GitHub neu laden"
 
-#, fuzzy
 msgid "Import to Maniphest"
-msgstr "Maniphest"
+msgstr "In Maniphest importieren"
 
-#, fuzzy
 msgid "View Raw Event"
-msgstr "Neuer Termin"
+msgstr "Rohereignis anzeigen"
 
-#, fuzzy
 msgid "Imported As"
-msgstr "Vollständig importiert"
+msgstr "Importiert als"
 
 msgid "GitHub Actor"
-msgstr ""
+msgstr "GitHub-Akteur"
 
-#, fuzzy
 msgid "Raw Event"
-msgstr "Termin"
+msgstr "Rohereignis"
 
-#, fuzzy
 msgid "GitHub Raw Event"
-msgstr "Termin ändern"
+msgstr "GitHub-Rohereignis"
 
-#, fuzzy
 msgid "GitHub Event ID"
-msgstr "Termin ändern"
+msgstr "GitHub-Ereignis-ID"
 
-#, fuzzy
 msgid "GitHub Event URI"
-msgstr "Termin ändern"
+msgstr "GitHub-Ereignis-URI"
 
-#, fuzzy
 msgid "Event Properties"
-msgstr "Eigenschaften"
+msgstr "Ereignis-Eigenschaften"
 
 msgid "Unable to sync: no external object PHID."
-msgstr ""
+msgstr "Synchronisierung nicht möglich: keine externe Objekt-PHID."
 
 #, fuzzy, php-format
 msgid "Unable to sync: failed to load object \"%s\"."
@@ -41494,20 +41456,20 @@ msgstr "Konnte Kommentar \"%s\" leider nicht laden."
 
 #, php-format
 msgid "Nuance Item %d Task"
-msgstr ""
+msgstr "Nuance-Element %d Aufgabe"
 
 #, php-format
 msgid "This item type (\"%s\", of class \"%s\") can not update items."
 msgstr ""
 
 msgid "Import data from a source."
-msgstr ""
+msgstr "Daten aus einer Quelle importieren."
 
 msgid "Choose which source to import."
-msgstr ""
+msgstr "Zu importierende Quelle auswählen."
 
 msgid "Import only a particular cursor."
-msgstr ""
+msgstr "Nur einen bestimmten Cursor importieren."
 
 #, php-format
 msgid "This source (\"%s\") does not expose import cursors."
@@ -41531,14 +41493,13 @@ msgid "Importing all cursors: %s."
 msgstr ""
 
 msgid "(Use --cursor to import only a particular cursor.)"
-msgstr ""
+msgstr "(Verwende --cursor, um nur einen bestimmten Cursor zu importieren.)"
 
-#, fuzzy
 msgid "Update or route an item."
-msgstr "Dokument ändern"
+msgstr "Ein Element aktualisieren oder weiterleiten."
 
 msgid "Choose which item to route."
-msgstr ""
+msgstr "Weiterzuleitendes Element auswählen."
 
 #, fuzzy, php-format
 msgid "Specify a source with %s."
@@ -41580,81 +41541,73 @@ msgstr "Es existiert kein Objekt mit diesem Namen."
 msgid "No item exists with PHID \"%s\"."
 msgstr "Es existiert kein Objekt mit diesem Namen."
 
-#, fuzzy
 msgid "Import Cursor"
-msgstr "Aus LDAP-Verzeichnis importieren"
+msgstr "Import-Cursor"
 
 msgid "Item"
 msgstr "Artikel"
 
-#, fuzzy
 msgid "All Items"
-msgstr "Alle Neuigkeiten"
+msgstr "Alle Elemente"
 
-#, fuzzy
 msgid "Not in Queue"
-msgstr "Nicht eindeutig"
+msgstr "Nicht in Warteschlange"
 
-#, fuzzy
 msgid "No items found."
-msgstr "Keine Gesprächsbeiträge gefunden."
+msgstr "Keine Elemente gefunden."
 
 msgid "All Queues"
-msgstr ""
+msgstr "Alle Warteschlangen"
 
 #, php-format
 msgid "Queue %d"
-msgstr ""
+msgstr "Warteschlange %d"
 
 msgid "No queues found."
-msgstr ""
+msgstr "Keine Warteschlangen gefunden."
 
 msgid "Search for sources by name substring."
-msgstr ""
+msgstr "Quellen nach Namensteilstring suchen."
 
 msgid "All Sources"
-msgstr ""
+msgstr "Alle Quellen"
 
 #, php-format
 msgid "Source %d"
-msgstr ""
+msgstr "Quelle %d"
 
 msgid "No sources found."
-msgstr ""
+msgstr "Keine Quellen gefunden."
 
-#, fuzzy
 msgid "GitHub Repository"
-msgstr "Repository ändern"
+msgstr "GitHub-Repository"
 
 msgid "Import issues and pull requests from a GitHub repository."
-msgstr ""
+msgstr "Issues und Pull Requests aus einem GitHub-Repository importieren."
 
-#, fuzzy
 msgid "Web Form"
-msgstr "Datumsformat"
+msgstr "Web-Formular"
 
 msgid "Create a web form that submits into a Nuance queue."
-msgstr ""
+msgstr "Ein Web-Formular erstellen, das in eine Nuance-Warteschlange einreicht."
 
-#, fuzzy
 msgid "View Form"
-msgstr "Datei ansehen"
+msgstr "Formular anzeigen"
 
 msgid "IMPORTANT: This is a very rough prototype."
-msgstr ""
+msgstr "WICHTIG: Dies ist ein sehr grober Prototyp."
 
 msgid "Got a complaint? Complain here! We love complaints."
-msgstr ""
+msgstr "Eine Beschwerde? Beschwer Dich hier! Wir lieben Beschwerden."
 
 msgid "Submit Complaint"
-msgstr ""
+msgstr "Beschwerde einreichen"
 
 msgid "Complaint Form"
-msgstr ""
+msgstr "Beschwerdeformular"
 
-#, fuzzy
 msgid "This source has no input cursors."
-msgstr "Dieses Repository hat keine Branches."
+msgstr "Diese Quelle hat keine Eingabe-Cursor."
 
 #, php-format
 msgid ""
@@ -41680,24 +41633,20 @@ msgstr "Besitzer eines Objekts dürfen dieses immer sehen."
 msgid "Owners of an item can always edit it."
 msgstr "Besitzer eines Objekts dürfen dieses immer ändern."
 
-#, fuzzy
 msgid "Issued"
-msgstr "Problem gelöst"
+msgstr "Ausgegeben"
 
-#, fuzzy
 msgid "Executing"
-msgstr "Buchhaltung"
+msgstr "Wird ausgeführt"
 
-#, fuzzy
 msgid "Browse Queues"
-msgstr "Teilnehmer durchsuchen"
+msgstr "Warteschlangen durchsuchen"
 
-#, fuzzy
 msgid "Type a queue name..."
-msgstr "Benutzername eintippen..."
+msgstr "Einen Warteschlangennamen eingeben..."
 
 msgid "Trying to apply a command to the wrong item!"
-msgstr ""
+msgstr "Versuch, einen Befehl auf das falsche Element anzuwenden!"
 
 #, php-format
 msgid ""
@@ -41709,57 +41658,54 @@ msgstr ""
 msgid "There is no Nuance item with PHID \"%s\"."
 msgstr ""
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s applied a \"%s\" command to this item."
-msgstr "%s hat Bedenken wegen dieser Änderung angemeldet."
+msgstr "%s hat den Befehl \"%s\" auf dieses Element angewendet."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s reassigned this item from %s to %s."
-msgstr "%s hat diese Aufgabe %s weggenommen und %s zugeordnet."
+msgstr "%s hat dieses Element von %s an %s neu zugewiesen."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s set a property on this item."
-msgstr "%s hat das Icon des Projektes auf %s gesetzt."
+msgstr "%s hat eine Eigenschaft auf diesem Element gesetzt."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s rerouted this item from %s to %s."
-msgstr "%s hat diese Aufgabe %s weggenommen und %s zugeordnet."
+msgstr "%s hat dieses Element von %s nach %s umgeleitet."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s changed the status of this item from %s to %s."
-msgstr "%s hat den Status von %s von \"%s\" nach \"%s\" geändert."
+msgstr "%s hat den Status dieses Elements von %s auf %s geändert."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s renamed this queue from %s to %s."
-msgstr "%s hat diese Zone von \"%s\" nach \"%s\" umbenannt."
+msgstr "%s hat diese Warteschlange von %s in %s umbenannt."
 
-#, fuzzy
 msgid "Queues must have a name."
-msgstr "Regeln müssen einen Namen haben."
+msgstr "Warteschlangen müssen einen Namen haben."
 
 #, php-format
 msgid "Queue names must not be longer than %s character(s)."
-msgstr ""
+msgstr "Warteschlangennamen dürfen nicht länger als %s Zeichen sein."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s changed the default queue for this source from %s to %s."
-msgstr "%s hat den Namen des Termins von %s auf %s geändert."
+msgstr "%s hat die Standard-Warteschlange dieser Quelle von %s auf %s geändert."
 
-#, fuzzy
 msgid "Sources must have a default queue."
-msgstr "Zonen müssen einen Namen haben"
+msgstr "Quellen müssen eine Standard-Warteschlange haben."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s renamed this source from %s to %s."
-msgstr "%s hat diese Zone von \"%s\" nach \"%s\" umbenannt."
+msgstr "%s hat diese Quelle von %s in %s umbenannt."
 
-#, fuzzy
 msgid "Sources must have a name."
-msgstr "Zonen müssen einen Namen haben"
+msgstr "Quellen müssen einen Namen haben."
 
 #, php-format
 msgid "Source names must not be longer than %s character(s)."
-msgstr ""
+msgstr "Quellennamen dürfen nicht länger als %s Zeichen sein."
 
 #, php-format
 msgid ""
@@ -41775,57 +41721,57 @@ msgstr ""
 
 #, php-format
 msgid "Validation of redirect URI '%s'"
-msgstr ""
+msgstr "Validierung der Umleitungs-URI '%s'"
 
 #, php-format
 msgid "Validation of redirect URI '%s' relative to '%s'"
-msgstr ""
+msgstr "Validierung der Umleitungs-URI '%s' relativ zu '%s'"
 
 #, php-format
 msgid "Validation of secondary redirect URI '%s' relative to '%s'"
-msgstr ""
+msgstr "Validierung der sekundären Umleitungs-URI '%s' relativ zu '%s'"
 
 #, php-format
 msgid "Validation (https): %s"
-msgstr ""
+msgstr "Validierung (https): %s"
 
 #, php-format
 msgid "Validation (params): %s"
-msgstr ""
+msgstr "Validierung (Parameter): %s"
 
 msgid "OAuth Server"
-msgstr ""
+msgstr "OAuth-Server"
 
 msgid "OAuth Login Provider"
-msgstr ""
+msgstr "OAuth-Anmeldeanbieter"
 
-#, fuzzy, php-format
+#, php-format
 msgid "Log In with %s"
-msgstr "Mittels LDAP anmelden"
+msgstr "Mit %s anmelden"
 
 #, php-format
 msgid "Using the %s OAuth Server"
-msgstr ""
+msgstr "Den %s OAuth-Server verwenden"
 
 msgid "Can Create OAuth Applications"
-msgstr ""
+msgstr "Darf OAuth-Anwendungen erstellen"
 
 msgid "You do not have permission to create OAuth applications."
-msgstr ""
+msgstr "Du hast keine Berechtigung, OAuth-Anwendungen zu erstellen."
 
 msgid "Malformed Request"
-msgstr ""
+msgstr "Fehlerhafte Anfrage"
 
 #, php-format
 msgid "Required parameter %s was not present in the request."
-msgstr ""
+msgstr "Erforderlicher Parameter %s war nicht in der Anfrage enthalten."
 
 msgid "Invalid Client Application"
-msgstr ""
+msgstr "Ungültige Client-Anwendung"
 
 #, php-format
 msgid "Request parameter %s does not specify a valid client application."
-msgstr ""
+msgstr "Anfrageparameter %s gibt keine gültige Client-Anwendung an."
 
 #, fuzzy
 msgid "Application Disabled"
