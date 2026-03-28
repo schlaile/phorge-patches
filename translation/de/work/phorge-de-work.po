@@ -43451,323 +43451,306 @@ msgstr "%s hat Zugangsdaten %s ein neues Geheimnis hinzugefügt."
 msgid "%s updated the secret for %s."
 msgstr "%s hat das Geheimnis der Zugangsdaten %s aktualisiert."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s set the username for this credential to %s."
-msgstr "%s hat die Zeichencodierung für das Repository auf \"%s\" gesetzt."
+msgstr "%s hat den Benutzernamen für diese Zugangsdaten auf %s gesetzt."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s set the username for credential %s to %s."
-msgstr "%s hat das Symbol für %s auf %s gesetzt."
+msgstr "%s hat den Benutzernamen für Zugangsdaten %s auf %s gesetzt."
 
-#, fuzzy
 msgid "This credential must have a username."
-msgstr "Produkte müssen Namen haben"
+msgstr "Diese Zugangsdaten müssen einen Benutzernamen haben."
 
 #, php-format
 msgid "The username can be no longer than %s characters."
-msgstr ""
+msgstr "Der Benutzername darf nicht länger als %s Zeichen sein."
 
 msgid "Paste"
-msgstr ""
+msgstr "Paste"
 
 msgid "Share Text Snippets"
-msgstr ""
+msgstr "Textschnipsel teilen"
 
 #, php-format
 msgid "Send email to these addresses to create pastes. %s"
-msgstr ""
+msgstr "Sende E-Mails an diese Adressen, um Pastes zu erstellen. %s"
 
 msgid "Default view policy for newly created pastes."
-msgstr ""
+msgstr "Standard-Anzeigerichtlinie für neu erstellte Pastes."
 
 msgid "Default edit policy for newly created pastes."
-msgstr ""
+msgstr "Standard-Bearbeitungsrichtlinie für neu erstellte Pastes."
 
 msgid "Email Commands: Pastes"
-msgstr ""
+msgstr "E-Mail-Befehle: Pastes"
 
 msgid "Interacting with Pastes"
-msgstr ""
+msgstr "Mit Pastes interagieren"
 
 msgid "This page documents the commands you can use to interact with pastes."
-msgstr ""
+msgstr "Diese Seite dokumentiert die Befehle zur Interaktion mit Pastes."
 
 msgid "Create a new paste."
-msgstr ""
+msgstr "Einen neuen Paste erstellen."
 
 msgid "Paste may not be empty."
-msgstr ""
+msgstr "Paste darf nicht leer sein."
 
 msgid "Masterwork From Distant Lands"
-msgstr ""
+msgstr "Meisterwerk aus fernen Landen"
 
 msgid "Apply transactions to create a new paste or edit an existing one."
-msgstr ""
+msgstr "Transaktionen anwenden, um einen neuen Paste zu erstellen oder einen vorhandenen zu bearbeiten."
 
 msgid "Retrieve an array of information about a paste."
-msgstr ""
+msgstr "Ein Array mit Informationen über einen Paste abrufen."
 
 msgid "No such paste exists."
-msgstr ""
+msgstr "Kein solcher Paste vorhanden."
 
 msgid "Query Pastes."
-msgstr ""
+msgstr "Pastes abfragen."
 
 msgid "Read information about pastes."
-msgstr ""
+msgstr "Informationen über Pastes lesen."
 
-#, fuzzy
 msgid "Activate Paste"
-msgstr "Panel aktivieren"
+msgstr "Paste aktivieren"
 
-#, fuzzy
 msgid "This paste will become consumable again."
-msgstr "Diese Regel wird dann wieder aktiv sein."
+msgstr "Dieser Paste wird wieder verwendbar sein."
 
-#, fuzzy
 msgid "Archive Paste"
-msgstr "Panel archivieren"
+msgstr "Paste archivieren"
 
-#, fuzzy
 msgid "This paste will be marked as expired."
-msgstr "Diese Aufgaben werden verändert:"
+msgstr "Dieser Paste wird als abgelaufen markiert."
 
 msgid "(An Untitled Masterwork)"
-msgstr ""
+msgstr "(Ein unbetiteltes Meisterwerk)"
 
 msgid "Edit Paste"
-msgstr ""
+msgstr "Paste bearbeiten"
 
 msgid "View Raw File"
-msgstr ""
+msgstr "Rohdatei anzeigen"
 
 msgid "This content can be rendered as a document in Files."
-msgstr ""
+msgstr "Dieser Inhalt kann als Dokument in Dateien gerendert werden."
 
 msgid "Pastes"
-msgstr ""
+msgstr "Pastes"
 
-#, fuzzy
 msgid "Configure Paste Forms"
-msgstr "Phabricator konfigurieren"
+msgstr "Paste-Formulare konfigurieren"
 
 msgid "Configure creation and editing forms in Paste."
-msgstr ""
+msgstr "Erstellungs- und Bearbeitungsformulare in Paste konfigurieren."
 
 msgid "Create New Paste"
-msgstr ""
+msgstr "Neuen Paste erstellen"
 
-#, fuzzy, php-format
+#, php-format
 msgid "Edit Paste: %s"
-msgstr "Ändere %s %s"
+msgstr "Paste bearbeiten: %s"
 
 msgid "Create Paste"
-msgstr ""
+msgstr "Paste erstellen"
 
 msgid "Eat Paste"
-msgstr ""
+msgstr "Paste essen"
 
 msgid "Nom Nom Nom Nom Nom"
-msgstr ""
+msgstr "Nom Nom Nom Nom Nom"
 
-#, fuzzy
 msgid "The title of the paste."
-msgstr "Die Bildüberschrift wurde nicht geändert."
+msgstr "Der Titel des Pastes."
 
 msgid "Retitle the paste."
-msgstr ""
+msgstr "Den Paste umbenennen."
 
-#, fuzzy
 msgid "New paste title."
-msgstr "Neue Aufgabe erstellt"
+msgstr "Neuer Paste-Titel."
 
 msgid ""
 "Language used for syntax highlighting. By default, inferred from the title."
 msgstr ""
+"Sprache für die Syntaxhervorhebung. Standardmäßig aus dem Titel abgeleitet."
 
 msgid "Change language used for syntax highlighting."
-msgstr ""
+msgstr "Sprache für die Syntaxhervorhebung ändern."
 
 msgid "New highlighting language."
-msgstr ""
+msgstr "Neue Hervorhebungssprache."
 
 msgid "The main body text of the paste."
-msgstr ""
+msgstr "Der Haupttext des Pastes."
 
-#, fuzzy
 msgid "Change the paste content."
-msgstr "Ändere den Status einer Aufgabe."
+msgstr "Den Paste-Inhalt ändern."
 
-#, fuzzy
 msgid "New body content."
-msgstr "Neues Dokument"
+msgstr "Neuer Inhalt."
 
 msgid "Active or archived status."
-msgstr ""
+msgstr "Aktiver oder archivierter Status."
 
-#, fuzzy
 msgid "Active or archive the paste."
-msgstr "Aktive und inaktive Repositories"
+msgstr "Paste aktivieren oder archivieren."
 
-#, fuzzy
 msgid "New paste status constant."
-msgstr "Der Status einer Aufgabe wurde verändert."
+msgstr "Neue Paste-Statuskonstante."
 
 #, php-format
 msgid "%s created this paste."
-msgstr ""
+msgstr "%s hat diesen Paste erstellt."
 
 msgid "[Paste]"
-msgstr ""
+msgstr "[Paste]"
 
 msgid "Paste title, language or text changes."
-msgstr ""
+msgstr "Paste-Titel, Sprachänderungen oder Textänderungen."
 
 msgid "Someone comments on a paste."
-msgstr ""
+msgstr "Jemand kommentiert einen Paste."
 
 msgid "Other paste activity not listed above occurs."
-msgstr ""
+msgstr "Andere Paste-Aktivitäten, die oben nicht aufgeführt sind, treten auf."
 
 msgid "PASTE DETAIL"
-msgstr ""
+msgstr "PASTE-DETAIL"
 
-#, fuzzy
 msgid "Paste Content"
-msgstr "Inhalt"
+msgstr "Paste-Inhalt"
 
 msgid "Get the full content for each paste."
-msgstr ""
+msgstr "Den vollständigen Inhalt für jeden Paste abrufen."
 
 msgid "Email Paste"
-msgstr ""
+msgstr "Paste per E-Mail"
 
 msgid "You successfully created a paste."
-msgstr ""
+msgstr "Du hast erfolgreich einen Paste erstellt."
 
 msgid "PASTE LINK"
-msgstr ""
+msgstr "PASTE-LINK"
 
 msgid "Search for pastes with specific authors."
-msgstr ""
+msgstr "Nach Pastes von bestimmten Autoren suchen."
 
 msgid "Search for pastes highlighted in specific languages."
-msgstr ""
+msgstr "Nach Pastes in bestimmten Syntaxhervorhebungssprachen suchen."
 
 msgid "Search for pastes created after a given time."
-msgstr ""
+msgstr "Nach Pastes suchen, die nach einem bestimmten Zeitpunkt erstellt wurden."
 
 msgid "Search for pastes created before a given time."
-msgstr ""
+msgstr "Nach Pastes suchen, die vor einem bestimmten Zeitpunkt erstellt wurden."
 
-#, fuzzy
 msgid "Active Pastes"
-msgstr "Aktive Panele"
+msgstr "Aktive Pastes"
 
 msgid "All Pastes"
-msgstr ""
+msgstr "Alle Pastes"
 
 #, php-format
 msgid "%s Line(s)"
-msgstr ""
+msgstr "%s Zeile(n)"
 
 msgid "No pastes found."
-msgstr ""
+msgstr "Keine Pastes gefunden."
 
-#, fuzzy
 msgid "Create a Paste"
-msgstr "Neuer Beitrag"
+msgstr "Paste erstellen"
 
 msgid "Store, share, and embed snippets of code."
-msgstr ""
+msgstr "Code-Schnipsel speichern, teilen und einbetten."
 
 msgid "The author of a paste can always view and edit it."
-msgstr ""
+msgstr "Der Autor eines Pastes kann ihn immer ansehen und bearbeiten."
 
 msgid "View URI for the paste."
-msgstr ""
+msgstr "Anzeige-URI des Pastes."
 
 msgid "User PHID of the author."
-msgstr ""
+msgstr "Benutzer-PHID des Autors."
 
 msgid "Language to use for syntax highlighting."
-msgstr ""
+msgstr "Sprache für die Syntaxhervorhebung."
 
 msgid "Active or archived status of the paste."
-msgstr ""
+msgstr "Aktiver oder archivierter Status des Pastes."
 
-#, fuzzy
 msgid "Browse Languages"
-msgstr "Zonen durchsuchen"
+msgstr "Sprachen durchsuchen"
 
 msgid "Type a language name or leave blank to auto-detect..."
-msgstr ""
+msgstr "Sprachname eingeben oder leer lassen zur automatischen Erkennung..."
 
-#, fuzzy
 msgid "You must provide content to create a paste."
-msgstr "Du mußt eine Email-Adresse angeben."
+msgstr "Du musst Inhalt angeben, um einen Paste zu erstellen."
 
 #, php-format
 msgid "%s edited the content of this paste."
-msgstr ""
+msgstr "%s hat den Inhalt dieses Pastes bearbeitet."
 
 msgid "CHANGES TO PASTE CONTENT"
-msgstr ""
+msgstr "ÄNDERUNGEN AM PASTE-INHALT"
 
 msgid "autodetect"
-msgstr ""
+msgstr "automatisch erkennen"
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s updated the paste's language from %s to %s."
-msgstr "%s hat die Bildnamen von %s geändert."
+msgstr "%s hat die Paste-Sprache von %s auf %s geändert."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s updated the language for %s from %s to %s."
-msgstr "%s hat den Namen von %s von %s auf %s geändert."
+msgstr "%s hat die Sprache für %s von %s auf %s geändert."
 
-#, fuzzy
 msgid "Paste language must be null or a nonempty string."
-msgstr "Phame-Titel darf nicht leer sein."
+msgstr "Paste-Sprache muss null oder eine nicht-leere Zeichenkette sein."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s activated this paste."
-msgstr "%s hat dieses Panel aktiviert."
+msgstr "%s hat diesen Paste aktiviert."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s archived this paste."
-msgstr "%s hat dieses Panel archiviert."
+msgstr "%s hat diesen Paste archiviert."
 
 #, php-format
 msgid "%s activated %s."
-msgstr ""
+msgstr "%s hat %s aktiviert."
 
 #, php-format
 msgid "%s archived %s."
-msgstr ""
+msgstr "%s hat %s archiviert."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s changed the title of this paste from %s to %s."
-msgstr "%s hat den Namen des Termins von %s auf %s geändert."
+msgstr "%s hat den Titel dieses Pastes von %s auf %s geändert."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s changed the title of this paste from untitled to %s."
-msgstr "%s hat den Namen des Termins von %s auf %s geändert."
+msgstr "%s hat den Titel dieses Pastes von (unbetitelt) auf %s geändert."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s changed the title of this paste from %s to untitled."
-msgstr "%s hat den Namen des Termins von %s auf %s geändert."
+msgstr "%s hat den Titel dieses Pastes von %s auf (unbetitelt) geändert."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s updated the title for %s from %s to %s."
-msgstr "%s hat das Enddatum von %s von %s nach %s geändert."
+msgstr "%s hat den Titel für %s von %s auf %s aktualisiert."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s updated the title for %s from untitled to %s."
-msgstr "%s hat das Enddatum von %s von %s nach %s geändert."
+msgstr "%s hat den Titel für %s von (unbetitelt) auf %s aktualisiert."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s updated the title for %s from %s to untitled."
-msgstr "%s hat das Enddatum von %s von %s nach %s geändert."
+msgstr "%s hat den Titel für %s von %s auf (unbetitelt) aktualisiert."
 
 msgid "People"
 msgstr "Leute"
@@ -43776,73 +43759,75 @@ msgid "User Accounts and Profiles"
 msgstr "Benutzerkonten und -profile"
 
 msgid "Sort of a social utility."
-msgstr ""
+msgstr "Soziale Funktionen."
 
 #, php-format
 msgid ""
 "Failed to load UserCacheType to manage key \"%s\". This cache type is "
 "required."
 msgstr ""
+"UserCacheType zum Verwalten des Schlüssels \"%s\" konnte nicht geladen werden. Dieser Cache-Typ ist erforderlich."
 
 msgid "Can Browse User Directory"
-msgstr ""
+msgstr "Darf das Benutzerverzeichnis durchsuchen"
 
 msgid "You do not have permission to browse the user directory."
-msgstr ""
+msgstr "Du hast keine Berechtigung, das Benutzerverzeichnis zu durchsuchen."
 
 msgid "Can Create (non-bot) Users"
-msgstr ""
+msgstr "Darf (nicht-Bot-)Benutzer erstellen"
 
 msgid "You do not have permission to create users."
-msgstr ""
+msgstr "Du hast keine Berechtigung, Benutzer zu erstellen."
 
-#, fuzzy
 msgid "Can Disable Users"
-msgstr "Abfrage deaktivieren"
+msgstr "Darf Benutzer deaktivieren"
 
-#, fuzzy
 msgid "You do not have permission to disable or enable users."
-msgstr "Du hast keine Berechtigung, um Zonen zu erzeugen."
+msgstr "Du hast keine Berechtigung, Benutzer zu deaktivieren oder zu aktivieren."
 
 msgid "Permanently disable specified users (admin only)."
-msgstr ""
+msgstr "Angegebene Benutzer dauerhaft deaktivieren (nur Admins)."
 
 msgid "Only admins can call this method."
-msgstr ""
+msgstr "Nur Admins können diese Methode aufrufen."
 
 msgid "Non existent user PHID."
-msgstr ""
+msgstr "Nicht existenter Benutzer-PHID."
 
 msgid ""
 "Apply transactions to edit a user. (Users can not be created via the API.)"
 msgstr ""
+"Transaktionen anwenden, um einen Benutzer zu bearbeiten. (Benutzer können nicht über die API erstellt werden.)"
 
 msgid "Re-enable specified users (admin only)."
-msgstr ""
+msgstr "Angegebene Benutzer wieder aktivieren (nur Admins)."
 
 #, php-format
 msgid "Lookup PHIDs by username. Obsoleted by \"%s\"."
-msgstr ""
+msgstr "PHIDs nach Benutzername nachschlagen. Veraltet durch \"%s\"."
 
 msgid "Query users."
-msgstr ""
+msgstr "Benutzer abfragen."
 
 msgid ""
 "This method is frozen and will eventually be deprecated. New code should use "
 "\"user.search\" instead."
 msgstr ""
+"Diese Methode ist eingefroren und wird irgendwann veraltet sein. Neuer Code sollte "
+"stattdessen \"user.search\" verwenden."
 
 msgid "Read information about users."
-msgstr ""
+msgstr "Informationen über Benutzer lesen."
 
 msgid "Retrieve information about the logged-in user."
-msgstr ""
+msgstr "Informationen über den angemeldeten Benutzer abrufen."
 
 msgid "User Profiles"
-msgstr ""
+msgstr "Benutzerprofile"
 
 msgid "User profiles configuration."
-msgstr ""
+msgstr "Konfiguration der Benutzerprofile."
 
 #, php-format
 msgid ""
@@ -43854,31 +43839,29 @@ msgid ""
 msgstr ""
 
 msgid "Select and reorder user profile fields."
-msgstr ""
+msgstr "Benutzerprofil-Felder auswählen und neu anordnen."
 
 msgid "Always require real name for user profiles."
-msgstr ""
+msgstr "Echtnamen für Benutzerprofile immer erforderlich machen."
 
 msgid "Make real names required"
-msgstr ""
+msgstr "Echtnamen erforderlich machen"
 
 msgid "Make real names optional"
-msgstr ""
+msgstr "Echtnamen optional machen"
 
-#, fuzzy
 msgid "Already Approved"
-msgstr "Schon unterschrieben"
+msgstr "Bereits freigegeben"
 
-#, fuzzy
 msgid "This user has already been approved."
-msgstr "Diese Email-Adresse wurde bereits bestätigt."
+msgstr "Dieser Benutzer wurde bereits freigegeben."
 
 msgid "Confirm Approval"
 msgstr "Freigabe Bestätigen"
 
-#, fuzzy, php-format
+#, php-format
 msgid "Allow %s to access this server?"
-msgstr "%s den Zugriff auf diese Phabricator-Installation erlauben?"
+msgstr "%s den Zugriff auf diesen Server erlauben?"
 
 msgid "Approve Account"
 msgstr "Konto freigeben"
@@ -43899,22 +43882,28 @@ msgid ""
 "Create a standard user account. These users can log in, use the web "
 "interface and API, and receive email."
 msgstr ""
+"Ein Standard-Benutzerkonto erstellen. Diese Benutzer können sich anmelden, die "
+"Web-Oberfläche und API nutzen und E-Mails empfangen."
 
 msgid ""
 "Administrators are limited in their ability to access or edit these accounts "
 "after account creation."
 msgstr ""
+"Administratoren sind in ihrer Möglichkeit, diese Konten nach der Erstellung "
+"zu bearbeiten, eingeschränkt."
 
 msgid ""
 "Create a bot/script user account, to automate interactions with other "
 "systems. These users can not use the web interface, but can use the API."
 msgstr ""
+"Ein Bot-/Skript-Benutzerkonto erstellen, um Interaktionen mit anderen Systemen "
+"zu automatisieren. Diese Benutzer können die Web-Oberfläche nicht nutzen, aber die API."
 
 msgid "Administrators have greater access to edit these accounts."
-msgstr ""
+msgstr "Administratoren haben größere Möglichkeiten, diese Konten zu bearbeiten."
 
 msgid "Create Standard User"
-msgstr ""
+msgstr "Standard-Benutzer erstellen"
 
 msgid "Create a standard user account."
 msgstr "Neues Standard-Benutzer Konto."
@@ -43933,9 +43922,11 @@ msgid ""
 "Create a mailing list user to represent an existing, external mailing list "
 "like a Google Group or a Mailman list."
 msgstr ""
+"Einen Mailing-Listen-Benutzer erstellen, um eine bestehende externe Mailing-Liste "
+"wie eine Google-Gruppe oder eine Mailman-Liste darzustellen."
 
 msgid "Account Type"
-msgstr ""
+msgstr "Kontotyp"
 
 #, php-format
 msgid ""
@@ -43949,11 +43940,13 @@ msgstr "Benutzer löschen"
 msgid ""
 "To permanently destroy this user, run this command from the command line:"
 msgstr ""
+"Um diesen Benutzer dauerhaft zu löschen, führe diesen Befehl über die Befehlszeile aus:"
 
 msgid ""
 "Unless you have a very good reason to delete this user, consider disabling "
 "them instead."
 msgstr ""
+"Sofern Du keinen sehr guten Grund hast, diesen Benutzer zu löschen, erwäge stattdessen, ihn zu deaktivieren."
 
 #, php-format
 msgid ""
@@ -43961,68 +43954,64 @@ msgid ""
 "documentation for more information."
 msgstr ""
 
-#, fuzzy
 msgid "Only administrators can disapprove users."
-msgstr ""
-"Neue Benutzer-Konten müssen erst durch einen Administrator freigeschaltet "
-"werden."
+msgstr "Nur Administratoren können Benutzern die Freigabe verweigern."
 
 msgid "Something Stays Your Hand"
-msgstr ""
+msgstr "Etwas hält Dich zurück"
 
 msgid "Try as you might, you find you can not disable your own account."
-msgstr ""
+msgstr "So sehr Du es auch versuchst, Du kannst Dein eigenes Konto nicht deaktivieren."
 
-#, fuzzy
 msgid "Disable User Account?"
-msgstr "Konto deaktivieren"
+msgstr "Benutzerkonto deaktivieren?"
 
 msgid "Disable Account"
 msgstr "Konto deaktivieren"
 
-#, fuzzy, php-format
+#, php-format
 msgid ""
 "Disable %s? They will no longer be able to access this server or receive "
 "email."
 msgstr ""
-"%s deaktivieren? Diese Benutzer werden danach nicht mehr in der Lage sein, "
-"auf Phabricator zuzugreifen oder Emails von Phabricator zu empfangen."
+"%s deaktivieren? Sie werden dann nicht mehr auf diesen Server zugreifen oder "
+"E-Mails empfangen können."
 
-#, fuzzy
 msgid "Enable User Account?"
-msgstr "Konto deaktivieren"
+msgstr "Benutzerkonto aktivieren?"
 
 msgid "Enable User"
-msgstr ""
+msgstr "Benutzer aktivieren"
 
-#, fuzzy, php-format
+#, php-format
 msgid ""
 "Enable %s? They will be able to access this server and receive email again."
 msgstr ""
-"%s deaktivieren? Diese Benutzer werden danach nicht mehr in der Lage sein, "
-"auf Phabricator zuzugreifen oder Emails von Phabricator zu empfangen."
+"%s aktivieren? Sie werden dann wieder auf diesen Server zugreifen und "
+"E-Mails empfangen können."
 
-#, fuzzy
 msgid "Enable Account"
-msgstr "Konto deaktivieren"
+msgstr "Konto aktivieren"
 
 msgid "Remove as Administrator?"
-msgstr ""
+msgstr "Als Administrator entfernen?"
 
 msgid "Remove Administrator"
-msgstr ""
+msgstr "Administrator entfernen"
 
 #, php-format
 msgid ""
 "Remove %s as an administrator? They will no longer be able to perform "
 "administrative functions on this server."
 msgstr ""
+"%s als Administrator entfernen? Sie werden dann keine administrativen "
+"Funktionen mehr auf diesem Server ausführen können."
 
 msgid "Make Administrator?"
-msgstr ""
+msgstr "Zum Administrator machen?"
 
 msgid "Make Administrator"
-msgstr ""
+msgstr "Zum Administrator machen"
 
 #, php-format
 msgid ""
@@ -44030,42 +44019,54 @@ msgid ""
 "users, make and remove administrators, delete accounts, and perform other "
 "administrative functions on this server."
 msgstr ""
+"%s zum Administrator machen? Sie können dann Benutzer erstellen, freigeben, "
+"Administratoren hinzufügen und entfernen, Konten löschen und andere "
+"administrative Funktionen auf diesem Server ausführen."
 
 msgid "Invites"
-msgstr ""
+msgstr "Einladungen"
 
 msgid "Invite Users"
-msgstr ""
+msgstr "Benutzer einladen"
 
 msgid "To send invites, you must enter at least one email address."
-msgstr ""
+msgstr "Um Einladungen zu senden, musst Du mindestens eine E-Mail-Adresse eingeben."
 
 msgid ""
 "None of the provided addresses are valid invite recipients. Review the table "
 "below for details. Revise the address list to continue."
 msgstr ""
+"Keine der angegebenen Adressen sind gültige Einladungsempfänger. Überprüfe die "
+"Tabelle unten für Details. Überarbeite die Adressliste, um fortzufahren."
 
 msgid ""
 "All of the addresses appear to be valid invite recipients. Confirm the "
 "actions below to continue."
 msgstr ""
+"Alle Adressen scheinen gültige Einladungsempfänger zu sein. Bestätige die "
+"Aktionen unten, um fortzufahren."
 
 msgid ""
 "Some of the addresses you entered do not appear to be valid recipients. "
 "Review the table below. You can revise the address list, or ignore these "
 "errors and continue."
 msgstr ""
+"Einige der eingegebenen Adressen scheinen keine gültigen Empfänger zu sein. "
+"Überprüfe die Tabelle unten. Du kannst die Adressliste überarbeiten oder diese "
+"Fehler ignorieren und fortfahren."
 
 msgid "To register an account and get started, follow this link:"
-msgstr ""
+msgstr "Um ein Konto zu registrieren und loszulegen, folge diesem Link:"
 
 msgid ""
 "If you already have an account, you can follow the link to quickly verify "
 "this email address."
 msgstr ""
+"Falls Du bereits ein Konto hast, kannst Du dem Link folgen, um diese "
+"E-Mail-Adresse schnell zu bestätigen."
 
 msgid "Confirm Invites"
-msgstr ""
+msgstr "Einladungen bestätigen"
 
 msgid "Confirm"
 msgstr "Bestätigen"
@@ -44075,71 +44076,71 @@ msgid ""
 "invitations these users. Otherwise, edit the email list or personal message "
 "at the bottom of the page to revise the invitations."
 msgstr ""
+"Wenn alles in Ordnung ist, klicke auf **Einladungen senden**, um E-Mail-Einladungen "
+"an diese Benutzer zu schicken. Andernfalls bearbeite die E-Mail-Liste oder die "
+"persönliche Nachricht unten auf der Seite, um die Einladungen zu überarbeiten."
 
 msgid "Send Invitations"
-msgstr ""
+msgstr "Einladungen senden"
 
 msgid ""
 "To invite users, enter their email addresses below. Separate addresses with "
 "commas or newlines."
 msgstr ""
+"Um Benutzer einzuladen, gib ihre E-Mail-Adressen unten ein. Trenne die Adressen mit "
+"Kommas oder Zeilenumbrüchen."
 
 msgid "Email Addresses"
 msgstr "Emailadressen"
 
 msgid "emails"
-msgstr ""
+msgstr "E-Mails"
 
 msgid "You can optionally include a heartfelt personal message in the email."
-msgstr ""
+msgstr "Du kannst optional eine herzliche persönliche Nachricht in die E-Mail einfügen."
 
 msgid "message"
-msgstr ""
+msgstr "Nachricht"
 
 msgid "Update Preview"
-msgstr ""
+msgstr "Vorschau aktualisieren"
 
 msgid "Revise Invites"
-msgstr ""
+msgstr "Einladungen überarbeiten"
 
-#, fuzzy
 msgid "Event Date"
-msgstr "Enddatum"
+msgstr "Ereignisdatum"
 
-#, fuzzy
 msgid "Acting User"
-msgstr "Aktionen"
+msgstr "Handelnder Benutzer"
 
-#, fuzzy
 msgid "Affected User"
-msgstr "Betrifft: %s"
+msgstr "Betroffener Benutzer"
 
 msgid "Username and email must be unique."
 msgstr "Benutzername und Email dürfen im System nicht doppelt vergeben werden."
 
-#, fuzzy
 msgid "Create New Bot"
-msgstr "Neues Projekt"
+msgstr "Neuen Bot erstellen"
 
 msgid "You are creating a new **bot** user account."
-msgstr ""
+msgstr "Du erstellst ein neues **Bot**-Benutzerkonto."
 
-#, fuzzy
 msgid "Create New Mailing List"
-msgstr "Neue Mailing-Liste"
+msgstr "Neue Mailing-Liste erstellen"
 
 msgid "You are creating a new **mailing list** user account."
-msgstr ""
+msgstr "Du erstellst ein neues **Mailing-Listen**-Benutzerkonto."
 
 msgid "You are creating a new **standard** user account."
-msgstr ""
+msgstr "Du erstellst ein neues **Standard**-Benutzerkonto."
 
 #, php-format
 msgid "Send \"Welcome to %s\" email with login instructions."
-msgstr ""
+msgstr "E-Mail \"Willkommen bei %s\" mit Anmeldeanweisungen senden."
 
 msgid "Create User"
-msgstr ""
+msgstr "Benutzer erstellen"
 
 msgid ""
 "**Why do bot accounts need an email address?**\n"
@@ -44162,142 +44163,138 @@ msgid ""
 "correctly formatted) address like `bot@yourcompany.com` if you prefer."
 msgstr ""
 
-#, fuzzy, php-format
+#, php-format
 msgid "Awarded by %s"
-msgstr "Wurde von %s hinzugefügt."
+msgstr "Verliehen von %s"
 
-#, fuzzy
 msgid "User has not been awarded any badges."
-msgstr "%s hat noch keine Beiträge geschrieben."
+msgstr "Diesem Benutzer wurden noch keine Abzeichen verliehen."
 
-#, fuzzy
 msgid "Received Badges"
-msgstr "Archivierte Panele"
+msgstr "Erhaltene Abzeichen"
 
-#, fuzzy
 msgid "No recent commits."
-msgstr "Neueste Commits"
+msgstr "Keine neuesten Commits."
 
 msgid "Administrator"
 msgstr "Administrator"
 
 msgid "Bot"
-msgstr ""
+msgstr "Bot"
 
 msgid "Mailing List"
 msgstr "Mailing-Liste"
 
-#, fuzzy
 msgid "Email Not Verified"
-msgstr "Email: Verifizieren"
+msgstr "E-Mail nicht verifiziert"
 
 msgid "Has MFA"
-msgstr ""
+msgstr "Hat MFA"
 
 msgid "Edit Profile"
-msgstr ""
+msgstr "Profil bearbeiten"
 
 msgid "Save Profile"
-msgstr ""
+msgstr "Profil speichern"
 
 msgid "Information on user profiles on this install is publicly visible."
-msgstr ""
+msgstr "Informationen auf Benutzerprofilen dieser Installation sind öffentlich sichtbar."
 
-#, fuzzy, php-format
+#, php-format
 msgid "Edit Profile: %s"
-msgstr "Zahlungsdienstleister %d ändern"
+msgstr "Profil bearbeiten: %s"
 
-#, fuzzy
 msgid "Manage User"
-msgstr "Editieren"
+msgstr "Benutzer verwalten"
 
 msgid "Edit Profile Picture"
-msgstr ""
+msgstr "Profilbild bearbeiten"
 
 msgid "Edit Settings"
-msgstr ""
+msgstr "Einstellungen bearbeiten"
 
 msgid "Change Username"
 msgstr "Benutzername ändern"
 
 msgid "Send Welcome Email"
-msgstr ""
+msgstr "Willkommens-E-Mail senden"
 
-#, fuzzy
 msgid "Approve User"
-msgstr "Freigeben"
+msgstr "Benutzer freigeben"
 
-#, fuzzy
 msgid "View Activity Log"
-msgstr "Aktivitätenprotokoll"
+msgstr "Aktivitätenprotokoll anzeigen"
 
 #, php-format
 msgid "Maximum image dimensions: %s pixels."
-msgstr ""
+msgstr "Maximale Bildabmessungen: %s Pixel."
 
 #, php-format
 msgid "Picture From %s"
-msgstr ""
+msgstr "Bild von %s"
 
-#, fuzzy
 msgid "Recent Revisions"
-msgstr "Offene Versionen durchsuchen"
+msgstr "Neueste Revisionen"
 
-#, fuzzy
 msgid "No recent revisions."
-msgstr "Keine Version wartet auf Freigabe"
+msgstr "Keine neuesten Revisionen."
 
-#, fuzzy
 msgid "No open, assigned tasks."
-msgstr "Du hast keine zugewiesenen Aufgaben."
+msgstr "Keine offenen, zugewiesenen Aufgaben."
 
-#, fuzzy
 msgid "Authored Tasks"
-msgstr "Autoren"
+msgstr "Erstellte Aufgaben"
 
-#, fuzzy
 msgid "No authored tasks."
-msgstr "Keine Aufgaben."
+msgstr "Keine erstellten Aufgaben."
 
-#, fuzzy
 msgid "User Details"
-msgstr "Auftragsdetails"
+msgstr "Benutzerdetails"
 
 msgid "Projects"
 msgstr "Projekte"
 
-#, fuzzy, php-format
+#, php-format
 msgid "Projects (%s)"
-msgstr "Projekt: %s"
+msgstr "Projekte (%s)"
 
-#, fuzzy
 msgid "User is not a member of any projects."
-msgstr "Teilnehmer des Projektes"
+msgstr "Dieser Benutzer ist kein Mitglied eines Projekts."
 
 msgid "To begin on such a grand journey, requires but just a single step."
-msgstr ""
+msgstr "Eine große Reise beginnt mit einem einzigen Schritt."
 
 msgid ""
 "You can not change usernames because you are not an administrator. Only "
 "administrators can change usernames."
 msgstr ""
+"Du kannst keine Benutzernamen ändern, da Du kein Administrator bist. Nur "
+"Administratoren können Benutzernamen ändern."
 
 msgid ""
 "If you rename this user, the old username will no longer be tied to the user "
 "account. Anything which uses the old username in raw text (like old commit "
 "messages) may no longer associate correctly."
 msgstr ""
+"Wenn Du diesen Benutzer umbenennst, wird der alte Benutzername nicht mehr mit dem "
+"Konto verknüpft sein. Alles, was den alten Benutzernamen im Rohtext verwendet "
+"(z.B. alte Commit-Meldungen), wird möglicherweise nicht mehr korrekt zugeordnet."
 
 msgid ""
 "It is generally safe to rename users, but changing usernames may create "
 "occasional minor complications or confusion with text that contains the old "
 "username."
 msgstr ""
+"Es ist im Allgemeinen sicher, Benutzer umzubenennen, aber das Ändern von Benutzernamen "
+"kann gelegentlich kleinere Komplikationen oder Verwirrungen mit Texten verursachen, "
+"die den alten Benutzernamen enthalten."
 
 msgid ""
 "The user will receive an email notifying them that you changed their "
 "username."
 msgstr ""
+"Der Benutzer wird eine E-Mail erhalten, die ihn darüber informiert, dass Du seinen "
+"Benutzernamen geändert hast."
 
 msgid "Old Username"
 msgstr "Alter Benutzername"
@@ -44306,7 +44303,7 @@ msgid "New Username"
 msgstr "Neuer Benutzername"
 
 msgid "Rename User"
-msgstr ""
+msgstr "Benutzer umbenennen"
 
 #, php-format
 msgid ""
@@ -44314,11 +44311,16 @@ msgid ""
 "[[ %s | default custom mail body ]] with different text by providing a "
 "message below."
 msgstr ""
+"Die E-Mail wird Dich als Absender ausweisen. Du kannst optional den "
+"[[ %s | Standard-E-Mail-Text ]] durch einen anderen Text ersetzen, indem Du "
+"unten eine Nachricht eingibst."
 
 msgid ""
 "The email will identify you as the sender. You may optionally include "
 "additional text in the mail body by specifying it below."
 msgstr ""
+"Die E-Mail wird Dich als Absender ausweisen. Du kannst optional zusätzlichen "
+"Text im E-Mail-Text angeben, indem Du ihn unten eingibst."
 
 #, php-format
 msgid ""
@@ -44326,6 +44328,8 @@ msgid ""
 "email that users normally receive when their accounts are created by an "
 "administrator."
 msgstr ""
+"Dieser Ablauf sendet diesem Benutzer (\"%s\") eine Kopie der \"Willkommen bei %s\"-"
+"E-Mail, die Benutzer normalerweise erhalten, wenn ihr Konto von einem Administrator erstellt wird."
 
 msgid ""
 "The email will contain a link that the user may use to log in to their "
@@ -44333,217 +44337,206 @@ msgid ""
 "log in without credentials. Sending a copy of this email can be useful if "
 "the original was lost or never sent."
 msgstr ""
+"Die E-Mail enthält einen Link, den der Benutzer zur Anmeldung bei seinem Konto "
+"verwenden kann. Dieser Link umgeht Authentifizierungsanforderungen und ermöglicht "
+"die Anmeldung ohne Zugangsdaten. Das Senden einer Kopie dieser E-Mail kann nützlich "
+"sein, wenn die ursprüngliche verloren ging oder nie gesendet wurde."
 
 msgid "Blurb"
 msgstr "Bla Bla"
 
 msgid "Short blurb about the user."
-msgstr ""
+msgstr "Kurzbeschreibung des Benutzers."
 
 msgid "User icon to accompany their title."
-msgstr ""
+msgstr "Benutzer-Icon für ihren Titel."
 
 #, php-format
 msgid "Value for \"%s\" is invalid: \"%s\"."
-msgstr ""
+msgstr "Wert für \"%s\" ist ungültig: \"%s\"."
 
 msgid "Stores the real name of the user, like \"Abraham Lincoln\"."
-msgstr ""
+msgstr "Speichert den Echtnamen des Benutzers, z.B. \"Abraham Lincoln\"."
 
 msgid "Roles"
 msgstr "Rollen"
 
 msgid "Shows roles like \"Administrator\" and \"Disabled\"."
-msgstr ""
+msgstr "Zeigt Rollen wie \"Administrator\" und \"Deaktiviert\"."
 
 msgid "Not Approved"
 msgstr "Nicht freigegeben"
 
 msgid "User Since"
-msgstr ""
+msgstr "Benutzer seit"
 
 msgid "Shows user join date."
-msgstr ""
+msgstr "Zeigt das Beitrittsdatum des Benutzers."
 
-#, fuzzy
 msgid "Availability"
-msgstr "Verfügbar"
+msgstr "Verfügbarkeit"
 
 msgid "Shows when a user is away or busy."
-msgstr ""
+msgstr "Zeigt an, wenn ein Benutzer abwesend oder beschäftigt ist."
 
 msgid "User title, like \"CEO\" or \"Assistant to the Manager\"."
-msgstr ""
+msgstr "Benutzertitel, z.B. \"CEO\" oder \"Assistent des Managers\"."
 
 msgid "Users"
 msgstr "Benutzer"
 
-#, fuzzy
 msgid "Configure User Forms"
-msgstr "Besitzer konfigurieren."
+msgstr "Benutzerformulare konfigurieren."
 
 msgid "Configure creation and editing forms for users."
-msgstr ""
+msgstr "Erstellungs- und Bearbeitungsformulare für Benutzer konfigurieren."
 
-#, fuzzy, php-format
+#, php-format
 msgid "Edit User: %s"
-msgstr "Benutzer ändern"
+msgstr "Benutzer bearbeiten: %s"
 
-#, fuzzy
 msgid "Disable the user."
-msgstr "Abfrage deaktivieren"
+msgstr "Den Benutzer deaktivieren."
 
-#, fuzzy
 msgid "Disable or enable the user."
-msgstr "%s hat diese Regel aktiviert."
+msgstr "Den Benutzer deaktivieren oder aktivieren."
 
-#, fuzzy
 msgid "True to disable the user."
-msgstr "Nur deaktivierte Benutzer zeigen."
+msgstr "True, um den Benutzer zu deaktivieren."
 
-#, fuzzy
 msgid "Approved"
-msgstr "Freigeben"
+msgstr "Freigegeben"
 
-#, fuzzy
 msgid "Unapproved"
-msgstr "Freigeben"
+msgstr "Nicht freigegeben"
 
-#, fuzzy
 msgid "Approve the user."
-msgstr "Freigabe Warteschlange"
+msgstr "Den Benutzer freigeben."
 
 msgid "Approve or reject the user."
-msgstr ""
+msgstr "Den Benutzer freigeben oder ablehnen."
 
-#, fuzzy
 msgid "True to approve the user."
-msgstr "Du mußt der Abfrage schon einen Namen geben."
+msgstr "True, um den Benutzer freizugeben."
 
 msgid "User has already been created!"
-msgstr ""
+msgstr "Benutzer wurde bereits erstellt!"
 
 msgid "Primary email addresses can not be reassigned."
-msgstr ""
+msgstr "Primäre E-Mail-Adressen können nicht neu zugewiesen werden."
 
 msgid "Email has already been created!"
-msgstr ""
+msgstr "E-Mail wurde bereits erstellt!"
 
 #, php-format
 msgid "Username is invalid! %s"
-msgstr ""
+msgstr "Benutzername ist ungültig! %s"
 
 msgid "User has not been created yet!"
-msgstr ""
+msgstr "Benutzer wurde noch nicht erstellt!"
 
 msgid "Email has not been created yet!"
-msgstr ""
+msgstr "E-Mail wurde noch nicht erstellt!"
 
 msgid "Can't remove primary email!"
-msgstr ""
+msgstr "Primäre E-Mail-Adresse kann nicht entfernt werden!"
 
 msgid "Email not owned by user!"
-msgstr ""
+msgstr "E-Mail gehört dem Benutzer nicht!"
 
 msgid "User does not own email!"
 msgstr "Dem Benutzer gehört diese Email-Adresse nicht!"
 
 msgid "Email is already primary!"
-msgstr ""
+msgstr "E-Mail ist bereits primär!"
 
 msgid "Email is not verified!"
-msgstr ""
+msgstr "E-Mail ist nicht verifiziert!"
 
 msgid "Verified email addresses can not be reassigned."
-msgstr ""
+msgstr "Verifizierte E-Mail-Adressen können nicht neu zugewiesen werden."
 
 msgid "User Accounts"
-msgstr ""
+msgstr "Benutzerkonten"
 
-#, fuzzy
 msgid "Account Menu"
-msgstr "Aktionsmenü"
+msgstr "Kontomenü"
 
-#, fuzzy, php-format
+#, php-format
 msgid "Log Out %s"
-msgstr "Abmelden"
+msgstr "%s abmelden"
 
-#, fuzzy
 msgid "People Profile Pictures"
-msgstr "Projektbild ändern"
+msgstr "Benutzerprofilbilder"
 
-#, fuzzy
 msgid "User Availability"
-msgstr "Verfügbar"
+msgstr "Benutzerverfügbarkeit"
 
 msgid "Get availability information for users."
-msgstr ""
+msgstr "Verfügbarkeitsinformationen für Benutzer abrufen."
 
 msgid "User Activity Logs"
-msgstr ""
+msgstr "Benutzeraktivitätsprotokolle"
 
-#, fuzzy
 msgid "Choose User Icon"
-msgstr "Icon auswählen"
+msgstr "Benutzer-Icon wählen"
 
-#, fuzzy
 msgid "Engineering"
-msgstr "System"
+msgstr "Technik"
 
 msgid "Design"
-msgstr ""
+msgstr "Design"
 
 msgid "Musician"
-msgstr ""
+msgstr "Musiker"
 
-#, fuzzy
 msgid "Spy"
-msgstr "Sep"
+msgstr "Spion"
 
-#, fuzzy
 msgid "Relationships"
-msgstr "Lösen"
+msgstr "Beziehungen"
 
 msgid "Logistics"
-msgstr ""
+msgstr "Logistik"
 
-#, fuzzy
 msgid "Research"
-msgstr "Suchen"
+msgstr "Forschung"
 
-#, fuzzy
 msgid "Executive"
-msgstr "Aktiv"
+msgstr "Führungskraft"
 
 msgid "Animal"
-msgstr ""
+msgstr "Tier"
 
-#, fuzzy
 msgid "User Account is Disabled"
-msgstr "Konto gesperrt"
+msgstr "Benutzerkonto ist deaktiviert"
 
 msgid ""
 "You can not send an email login link to this email address because the "
 "associated user account is disabled."
 msgstr ""
+"Du kannst keinen E-Mail-Anmeldelink an diese E-Mail-Adresse senden, da das "
+"zugehörige Benutzerkonto deaktiviert ist."
 
-#, fuzzy
 msgid "Not a Normal User"
-msgstr "Normaler Benutzer"
+msgstr "Kein normaler Benutzer"
 
 msgid ""
 "You can not send an email login link to this email address because the "
 "associated user account is not a normal user account and can not log in to "
 "the web interface."
 msgstr ""
+"Du kannst keinen E-Mail-Anmeldelink an diese E-Mail-Adresse senden, da das "
+"zugehörige Benutzerkonto kein normales Benutzerkonto ist und sich nicht über "
+"die Web-Oberfläche anmelden kann."
 
-#, fuzzy, php-format
+#, php-format
 msgid "[%s] Account Password Link"
-msgstr "Konto bereits verknüpft"
+msgstr "[%s] Konto-Passwort-Link"
 
-#, fuzzy, php-format
+#, php-format
 msgid "[%s] Account Login Link"
-msgstr "Konto nicht verknüpfbar"
+msgstr "[%s] Konto-Anmeldelink"
 
 #, fuzzy, php-format
 msgid ""
@@ -44606,155 +44599,160 @@ msgstr ""
 "\n"
 " %s\n"
 
-#, fuzzy, php-format
+#, php-format
 msgid "Activity Log ID: #%d"
-msgstr "Aktivitätenprotokoll"
+msgstr "Aktivitätenprotokoll-ID: #%d"
 
 #, php-format
 msgid "%s (%s) has changed your %s username."
-msgstr ""
+msgstr "%s (%s) hat Deinen %s Benutzernamen geändert."
 
 #, php-format
 msgid "Old Username: %s"
-msgstr ""
+msgstr "Alter Benutzername: %s"
 
 #, php-format
 msgid "New Username: %s"
-msgstr ""
+msgstr "Neuer Benutzername: %s"
 
 #, php-format
 msgid "[%s] Username Changed"
-msgstr ""
+msgstr "[%s] Benutzername geändert"
 
-#, fuzzy
 msgid "Not an Administrator"
-msgstr "Administrator"
+msgstr "Kein Administrator"
 
 msgid ""
 "You can not send welcome mail because you are not an administrator. Only "
 "administrators may send welcome mail."
 msgstr ""
+"Du kannst keine Willkommens-E-Mail senden, da Du kein Administrator bist. Nur "
+"Administratoren dürfen Willkommens-E-Mails senden."
 
 msgid ""
 "You can not send welcome mail to this user because their account is disabled."
 msgstr ""
+"Du kannst diesem Benutzer keine Willkommens-E-Mail senden, da sein Konto deaktiviert ist."
 
 msgid ""
 "You can not send this user welcome mail because they are not a normal user "
 "and can not log in to the web interface. Special users (like bots and "
 "mailing lists) are unable to establish web sessions."
 msgstr ""
+"Du kannst diesem Benutzer keine Willkommens-E-Mail senden, da er kein normaler "
+"Benutzer ist und sich nicht über die Web-Oberfläche anmelden kann. Spezielle "
+"Benutzer (wie Bots und Mailing-Listen) können keine Web-Sitzungen erstellen."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s (%s) has created an account for you."
-msgstr "%s hat dieses Konto erstellt."
+msgstr "%s (%s) hat ein Konto für Dich erstellt."
 
-#, fuzzy, php-format
+#, php-format
 msgid "    Username: %s"
-msgstr "Benutzernamen"
+msgstr "    Benutzername: %s"
 
 msgid "To log in, follow this link and set a password:"
-msgstr ""
+msgstr "Um Dich anzumelden, folge diesem Link und setze ein Passwort:"
 
 #, php-format
 msgid "  %s"
-msgstr ""
+msgstr "  %s"
 
 msgid ""
 "After you have set a password, you can log in again in the future by going "
 "here:"
 msgstr ""
+"Nachdem Du ein Passwort gesetzt hast, kannst Du Dich in Zukunft hier wieder anmelden:"
 
 msgid "To log in to your account for the first time, follow this link:"
-msgstr ""
+msgstr "Um Dich zum ersten Mal bei Deinem Konto anzumelden, folge diesem Link:"
 
 msgid ""
 "After you set up your account, you can log in again in the future by going "
 "here:"
 msgstr ""
+"Nachdem Du Dein Konto eingerichtet hast, kannst Du Dich in Zukunft hier wieder anmelden:"
 
-#, fuzzy, php-format
+#, php-format
 msgid "[%s] Welcome to %s"
-msgstr "%s hat %s kommentiert."
+msgstr "[%s] Willkommen bei %s"
 
-#, fuzzy, php-format
+#, php-format
 msgid ""
 "Love,\n"
 "%s"
-msgstr "Lieben"
+msgstr ""
+"Mit freundlichen Grüßen,\n"
+"%s"
 
-#, fuzzy
 msgid "Approves a user."
-msgstr "Freigabe Warteschlange"
+msgstr "Gibt einen Benutzer frei."
 
 #, php-format
 msgid ""
 "User account \"%s\" is already approved. You can only approve accounts that "
 "are not yet approved."
 msgstr ""
+"Benutzerkonto \"%s\" ist bereits freigegeben. Du kannst nur Konten freigeben, "
+"die noch nicht freigegeben wurden."
 
-#, fuzzy, php-format
+#, php-format
 msgid "Approved user account \"%s\"."
-msgstr "Konto freigeben"
+msgstr "Benutzerkonto \"%s\" freigegeben."
 
 msgid "Turn a user account into an administrator account."
-msgstr ""
+msgstr "Ein Benutzerkonto zu einem Administratorkonto machen."
 
 #, php-format
 msgid ""
 "User account \"%s\" is already an administrator. You can only empower "
 "accounts that are not yet administrators."
 msgstr ""
+"Benutzerkonto \"%s\" ist bereits ein Administrator. Du kannst nur Konten "
+"zu Administratoren machen, die noch keine sind."
 
 #, php-format
 msgid "Empowered user account \"%s\"."
-msgstr ""
+msgstr "Benutzerkonto \"%s\" zum Administrator gemacht."
 
-#, fuzzy
 msgid "Enable a disabled user account."
-msgstr "Neues Standard-Benutzer Konto."
+msgstr "Ein deaktiviertes Benutzerkonto aktivieren."
 
-#, fuzzy, php-format
+#, php-format
 msgid ""
 "User account \"%s\" is not disabled. You can only enable accounts that are "
 "disabled."
 msgstr ""
-"Dein Konto (%s) ist deaktiviert, folglich kannst Du mit Phabricator auch "
-"nicht per Email interagieren."
+"Benutzerkonto \"%s\" ist nicht deaktiviert. Du kannst nur Konten aktivieren, "
+"die deaktiviert sind."
 
-#, fuzzy, php-format
+#, php-format
 msgid "Enabled user account \"%s\"."
-msgstr "%s hat diese Spalte \"%s\" genannt."
+msgstr "Benutzerkonto \"%s\" aktiviert."
 
-#, fuzzy
 msgid "User account to act on."
-msgstr "Benutzerkonten und -profile"
+msgstr "Zu bearbeitendes Benutzerkonto."
 
 msgid "Select a user account to act on with \"--user <username>\"."
-msgstr ""
+msgstr "Benutzerkonto mit \"--user <Benutzername>\" auswählen."
 
 msgid "Authored Commits"
 msgstr "Meine Quellcode-Änderungen"
 
-#, fuzzy
 msgid "User Profile"
-msgstr "Profil zeigen"
+msgstr "Benutzerprofil"
 
-#, fuzzy
 msgid "User Picture"
-msgstr "Bild verwenden"
+msgstr "Benutzerbild"
 
-#, fuzzy
 msgid "Authored Revisions"
-msgstr "Aktive Versionen"
+msgstr "Erstellte Revisionen"
 
-#, fuzzy
 msgid "External Account Identifier"
-msgstr "Externes Konto"
+msgstr "Externe Konto-Kennung"
 
-#, fuzzy
 msgid "User Email"
-msgstr "Benutzername oder Emailadresse"
+msgstr "Benutzer-E-Mail"
 
 msgid "administrators"
 msgstr "Administratoren"
@@ -44766,125 +44764,126 @@ msgid "Account Activity"
 msgstr "Kontoaktivitäten"
 
 msgid "Search for activity affecting specific users."
-msgstr ""
+msgstr "Nach Aktivitäten suchen, die bestimmte Benutzer betreffen."
 
 msgid "Search for activity by specific users."
-msgstr ""
+msgstr "Nach Aktivitäten von bestimmten Benutzern suchen."
 
 msgid "Search for particular types of activity."
-msgstr ""
+msgstr "Nach bestimmten Arten von Aktivitäten suchen."
 
 msgid "Filter IP"
-msgstr ""
+msgstr "IP filtern"
 
 msgid "Search for actions by remote address."
-msgstr ""
+msgstr "Nach Aktionen nach Remote-Adresse suchen."
 
 msgid "Search for activity in particular sessions."
-msgstr ""
+msgstr "Nach Aktivitäten in bestimmten Sitzungen suchen."
 
-#, fuzzy
 msgid "Actor PHID"
-msgstr "Objekt PHID"
+msgstr "Akteur-PHID"
 
-#, fuzzy
 msgid "User PHID"
-msgstr "Benutzer"
+msgstr "Benutzer-PHID"
 
-#, fuzzy
 msgid "Action Name"
-msgstr "Aktions-Panel"
+msgstr "Aktionsname"
 
 msgid "Usernames"
 msgstr "Benutzernamen"
 
-#, fuzzy
 msgid "Find users by exact username."
-msgstr "Ein anderer Benutzer hat bereits diesen Benutzernamen"
+msgstr "Benutzer nach exaktem Benutzernamen finden."
 
 msgid "Find users whose usernames or real names contain a substring."
-msgstr ""
+msgstr "Benutzer suchen, deren Benutzername oder Echtname eine Teilzeichenkette enthält."
 
 msgid "Administrators"
 msgstr "Administratoren"
 
 msgid "Show Only Administrators"
-msgstr ""
+msgstr "Nur Administratoren anzeigen"
 
 msgid "Hide Administrators"
-msgstr ""
+msgstr "Administratoren ausblenden"
 
 msgid "Pass true to find only administrators, or false to omit administrators."
-msgstr ""
+msgstr "True übergeben, um nur Administratoren zu finden, oder false, um sie auszulassen."
 
-#, fuzzy
 msgid "Show Only Disabled Accounts"
-msgstr "Zeige nur inaktive Regeln"
+msgstr "Nur deaktivierte Konten anzeigen"
 
-#, fuzzy
 msgid "Hide Disabled Accounts"
-msgstr "Konto deaktivieren"
+msgstr "Deaktivierte Konten ausblenden"
 
 msgid ""
 "Pass true to find only disabled accounts, or false to omit disabled accounts."
 msgstr ""
+"True übergeben, um nur deaktivierte Konten zu finden, oder false, um sie auszulassen."
 
 msgid "Bots"
-msgstr ""
+msgstr "Bots"
 
 msgid "Mailing Lists"
-msgstr ""
+msgstr "Mailing-Listen"
 
 msgid "Show Only Mailing Lists"
-msgstr ""
+msgstr "Nur Mailing-Listen anzeigen"
 
 msgid "Hide Mailing Lists"
-msgstr ""
+msgstr "Mailing-Listen ausblenden"
 
 msgid "Pass true to find only mailing lists, or false to omit mailing lists."
-msgstr ""
+msgstr "True übergeben, um nur Mailing-Listen zu finden, oder false, um sie auszulassen."
 
 msgid "Needs Approval"
 msgstr "Benötigt Freigabe"
 
 msgid "Show Only Unapproved Users"
-msgstr ""
+msgstr "Nur nicht freigegebene Benutzer anzeigen"
 
 msgid "Hide Unapproved Users"
-msgstr ""
+msgstr "Nicht freigegebene Benutzer ausblenden"
 
 msgid ""
 "Pass true to find only users awaiting administrative approval, or false to "
 "omit these users."
 msgstr ""
+"True übergeben, um nur Benutzer zu finden, die auf administrative Freigabe warten, "
+"oder false, um sie auszulassen."
 
 msgid "Show Only Users With MFA"
-msgstr ""
+msgstr "Nur Benutzer mit MFA anzeigen"
 
 msgid "Hide Users With MFA"
-msgstr ""
+msgstr "Benutzer mit MFA ausblenden"
 
 msgid ""
 "Pass true to find only users who are enrolled in MFA, or false to omit these "
 "users."
 msgstr ""
+"True übergeben, um nur Benutzer zu finden, die sich bei MFA angemeldet haben, "
+"oder false, um sie auszulassen."
 
 msgid "Joined After"
 msgstr "Registriert nach"
 
 msgid "Find user accounts created after a given time."
-msgstr ""
+msgstr "Benutzerkonten finden, die nach einem bestimmten Zeitpunkt erstellt wurden."
 
 msgid "Joined Before"
 msgstr "Registriert vor"
 
 msgid "Find user accounts created before a given time."
-msgstr ""
+msgstr "Benutzerkonten finden, die vor einem bestimmten Zeitpunkt erstellt wurden."
 
 msgid ""
 "The \"Has MFA\" query constraint may only be used by administrators, to "
 "prevent attackers from using it to target weak accounts."
 msgstr ""
+"Die Abfragebeschränkung \"Hat MFA\" darf nur von Administratoren verwendet werden, "
+"um Angreifer daran zu hindern, sie auf schwache Konten anzuwenden."
 
 msgid "Approval Queue"
 msgstr "Freigabe Warteschlange"
@@ -44899,149 +44898,156 @@ msgid "Approve"
 msgstr "Freigeben"
 
 msgid "No accounts found."
-msgstr ""
+msgstr "Keine Konten gefunden."
 
 msgid "External accounts can only be edited by the account owner."
-msgstr ""
+msgstr "Externe Konten können nur vom Kontoinhaber bearbeitet werden."
 
 msgid "User has no primary email address!"
-msgstr ""
+msgstr "Benutzer hat keine primäre E-Mail-Adresse!"
 
 #, php-format
 msgid "Usernames must have no more than %s characters."
-msgstr ""
+msgstr "Benutzernamen dürfen nicht mehr als %s Zeichen haben."
 
 msgid ""
 "Usernames cannot contain spaces. Please replace them with underscores, "
 "hyphens, periods, or some other way of separating words."
 msgstr ""
+"Benutzernamen dürfen keine Leerzeichen enthalten. Ersetze sie bitte durch Unterstriche, "
+"Bindestriche, Punkte oder andere Möglichkeiten, Wörter zu trennen."
 
 msgid "Usernames cannot end with a period."
-msgstr ""
+msgstr "Benutzernamen dürfen nicht mit einem Punkt enden."
 
-#, fuzzy
 msgid ""
 "Usernames must contain only numbers, Latin letters, period, underscore and "
 "hyphen."
 msgstr ""
-"Benutzernamen dürfen nur aus Ziffern, Buchstaben, Punkten, Unterstrichen "
-"('_') und Bindestrichen bestehen und: dürfen nicht mit einem Punkt enden. "
-"Sie dürfen nicht mehr als %d Zeichen enthalten."
+"Benutzernamen dürfen nur Ziffern, lateinische Buchstaben, Punkte, Unterstriche "
+"und Bindestriche enthalten."
 
 #, php-format
 msgid "Real Name must have no more than %s characters."
-msgstr ""
+msgstr "Echtname darf nicht mehr als %s Zeichen haben."
 
 msgid "Only you can edit your information."
 msgstr "Nur Du kannst Deine Angaben ändern."
 
-#, fuzzy
 msgid "The user's username."
-msgstr "Gibt einen Benutzernamen an..."
+msgstr "Der Benutzername des Benutzers."
 
-#, fuzzy
 msgid "The user's real name."
-msgstr "Benutzername eintippen..."
+msgstr "Der Echtname des Benutzers."
 
 msgid "List of account roles."
-msgstr ""
+msgstr "Liste der Kontorollen."
 
-#, fuzzy, php-format
+#, php-format
 msgid "Unknown CSS variable \"%s\"!"
-msgstr "Unbekannte Aktion \"%s\""
+msgstr "Unbekannte CSS-Variable \"%s\"!"
 
 #, php-format
 msgid ""
 "Email addresses should be in the form \"user@domain.com\". The maximum "
 "length of an email address is %s characters."
 msgstr ""
+"E-Mail-Adressen sollten im Format \"user@domain.com\" sein. Die maximale Länge "
+"einer E-Mail-Adresse beträgt %s Zeichen."
 
 #, php-format
 msgid "Email address must be @%s"
-msgstr ""
+msgstr "E-Mail-Adresse muss @%s sein"
 
 #, php-format
 msgid "Email address must be at one of: %s"
-msgstr ""
+msgstr "E-Mail-Adresse muss eine der folgenden sein: %s"
 
 #, php-format
 msgid ""
 "Get Well Soon,\n"
 "%s"
 msgstr ""
+"Gute Besserung,\n"
+"%s"
 
 #, php-format
 msgid "Hi %s"
-msgstr ""
+msgstr "Hallo %s"
 
 #, php-format
 msgid ""
 "Please verify that you own this email address (%s) by clicking this link:"
 msgstr ""
+"Bitte bestätige, dass Dir diese E-Mail-Adresse (%s) gehört, indem Du auf diesen Link klickst:"
 
-#, fuzzy, php-format
+#, php-format
 msgid "[%s] Email Verification"
-msgstr "Email Benachrichtungen"
+msgstr "[%s] E-Mail-Verifizierung"
 
 #, php-format
 msgid ""
 "This email address (%s) is no longer your primary email address. Going "
 "forward, all email will be sent to your new primary email address (%s)."
 msgstr ""
+"Diese E-Mail-Adresse (%s) ist nicht mehr Deine primäre E-Mail-Adresse. Zukünftig "
+"wird alle E-Mail an Deine neue primäre E-Mail-Adresse (%s) gesendet."
 
-#, fuzzy, php-format
+#, php-format
 msgid "[%s] Primary Address Changed"
-msgstr "Primäre Adresse ändern"
+msgstr "[%s] Primäre Adresse geändert"
 
 #, php-format
 msgid ""
 "This is now your primary email address (%s). Going forward, all email will "
 "be sent here."
 msgstr ""
+"Dies ist jetzt Deine primäre E-Mail-Adresse (%s). Zukünftig wird alle E-Mail hierher gesendet."
 
-#, fuzzy, php-format
+#, php-format
 msgid "Activity Log %d"
-msgstr "Aktivitätenprotokoll"
+msgstr "Aktivitätenprotokoll %d"
 
 msgid "Users can view their activity and activity that affects them."
-msgstr ""
+msgstr "Benutzer können ihre eigene Aktivität und Aktivitäten, die sie betreffen, einsehen."
 
 msgid "Administrators can always view all activity."
-msgstr ""
+msgstr "Administratoren können immer alle Aktivitäten einsehen."
 
 #, php-format
 msgid "Validity of '%s'."
-msgstr ""
+msgstr "Gültigkeit von '%s'."
 
 msgid "Browse Any Owner"
-msgstr ""
+msgstr "Beliebigen Eigentümer durchsuchen"
 
 msgid "Type \"anyone()\"..."
-msgstr ""
+msgstr "\"anyone()\" eingeben..."
 
 msgid "Anyone"
-msgstr ""
+msgstr "Jeder"
 
 msgid "Find results which are assigned to anyone."
-msgstr ""
+msgstr "Ergebnisse finden, die jemandem zugewiesen sind."
 
 msgid ""
 "This function includes results which have any owner. It excludes unassigned "
 "or unowned results."
 msgstr ""
+"Diese Funktion schließt Ergebnisse ein, die einen Eigentümer haben. Nicht zugewiesene "
+"oder eigentumslose Ergebnisse werden ausgeschlossen."
 
 msgid "Any Owner"
-msgstr ""
+msgstr "Beliebiger Eigentümer"
 
-#, fuzzy
 msgid "Select results with any owner."
-msgstr "Es existiert kein Objekt mit diesem Namen."
+msgstr "Ergebnisse mit beliebigem Eigentümer auswählen."
 
 msgid "Type a username..."
 msgstr "Gibt einen Benutzernamen an..."
 
 msgid "Browse No Owner"
-msgstr ""
+msgstr "Ohne Eigentümer durchsuchen"
 
 #, php-format
 msgid ""
@@ -45059,15 +45065,13 @@ msgid ""
 msgstr ""
 
 msgid "Browse Owners"
-msgstr ""
+msgstr "Eigentümer durchsuchen"
 
-#, fuzzy
 msgid "Browse Log Types"
-msgstr "Zonen durchsuchen"
+msgstr "Protokolltypen durchsuchen"
 
-#, fuzzy
 msgid "Type a log type name..."
-msgstr "Einen Zonennamen eintippen..."
+msgstr "Protokolltypnamen eingeben..."
 
 msgid ""
 "This function allows you to change the behavior of a query based on who is "
@@ -45080,268 +45084,240 @@ msgid ""
 "information to the user who is looking at them."
 msgstr ""
 
-#, fuzzy
 msgid "Select current viewer."
-msgstr "Den aktuell angemeldeten Benutzer verwenden."
+msgstr "Den aktuellen Betrachter auswählen."
 
 msgid "Email: Add Address"
-msgstr ""
+msgstr "E-Mail: Adresse hinzufügen"
 
 msgid "Multi-Factor: Add Factor"
-msgstr ""
+msgstr "Multi-Faktor: Faktor hinzufügen"
 
 msgid "Conduit: Read Certificate Failure"
-msgstr ""
+msgstr "Conduit: Zertifikat lesen fehlgeschlagen"
 
 msgid "Conduit: Read Certificate"
-msgstr ""
+msgstr "Conduit: Zertifikat lesen"
 
-#, fuzzy
 msgid "Email: Recovery Link"
-msgstr "Email: Verifizieren"
+msgstr "E-Mail: Wiederherstellungslink"
 
 msgid "Hisec: Enter"
-msgstr ""
+msgstr "High Security: Betreten"
 
 msgid "Hisec: Exit"
-msgstr ""
+msgstr "High Security: Verlassen"
 
 msgid "Hisec: Failed Attempt"
-msgstr ""
+msgstr "High Security: Fehlgeschlagener Versuch"
 
 msgid "Login: Upgrade to Full"
-msgstr ""
+msgstr "Anmeldung: Auf vollständig upgraden"
 
 msgid "Login: Failure"
-msgstr ""
+msgstr "Anmeldung: Fehlgeschlagen"
 
 msgid "Logout"
 msgstr "Abmelden"
 
 msgid "Login: Partial Login"
-msgstr ""
+msgstr "Anmeldung: Teilanmeldung"
 
 msgid "Email: Change Primary"
-msgstr ""
+msgstr "E-Mail: Primär ändern"
 
 msgid "Email: Reassign"
-msgstr ""
+msgstr "E-Mail: Neu zuweisen"
 
 msgid "Email: Remove Address"
-msgstr ""
+msgstr "E-Mail: Adresse entfernen"
 
 msgid "Multi-Factor: Remove Factor"
-msgstr ""
+msgstr "Multi-Faktor: Faktor entfernen"
 
 msgid "Login: Signed Required Legalpad Documents"
-msgstr ""
+msgstr "Anmeldung: Erforderliche Legalpad-Dokumente unterzeichnet"
 
-#, fuzzy
 msgid "Email: Verify Address"
-msgstr "Email: Verifizieren"
+msgstr "E-Mail: Adresse verifizieren"
 
-#, fuzzy
 msgid "Unapproved Account"
-msgstr "Konto freigeben"
+msgstr "Nicht freigegebenes Konto"
 
-#, fuzzy
 msgid "This user can not see this object."
-msgstr "Du kannst kein Mitleser für Änderungen dieses Objektes werden."
+msgstr "Dieser Benutzer kann dieses Objekt nicht sehen."
 
 msgid "IP"
-msgstr ""
+msgstr "IP"
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s Account \"%s\" Approved"
-msgstr "Phabricator-Konto \"%s\" freigegeben"
+msgstr "%s Konto \"%s\" freigegeben"
 
-#, fuzzy, php-format
+#, php-format
 msgid "Your %s account (%s) has been approved by %s. You can login here:"
 msgstr ""
-"Dein Phabricator-Konto (%s) wurde freigeschaltet durch %s. Du kannst Dich "
-"jetzt hier anmelden:"
+"Dein %s-Konto (%s) wurde von %s freigegeben. Du kannst Dich hier anmelden:"
 
 #, php-format
 msgid "[%s] %s"
 msgstr ""
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s approved this user."
-msgstr "%s hat diese Pull Anfrage für gut befunden"
+msgstr "%s hat diesen Benutzer freigegeben."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s rejected this user."
-msgstr "%s hat diese Pull Anfrage abgelehnt"
+msgstr "%s hat diesen Benutzer abgelehnt."
 
-#, fuzzy
 msgid "You must be an administrator to approve users."
-msgstr ""
-"Neue Benutzer-Konten müssen erst durch einen Administrator freigeschaltet "
-"werden."
+msgstr "Du musst ein Administrator sein, um Benutzer freizugeben."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s disabled this user."
-msgstr "%s hat diese Regel deaktiviert."
+msgstr "%s hat diesen Benutzer deaktiviert."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s enabled this user."
-msgstr "%s hat diese Regel aktiviert."
+msgstr "%s hat diesen Benutzer aktiviert."
 
-#, fuzzy
 msgid "You can not enable or disable your own account."
-msgstr "Du kannst Dein eigenes Konto nicht löschen."
+msgstr "Du kannst Dein eigenes Konto nicht aktivieren oder deaktivieren."
 
 msgid ""
 "After a time, your efforts fail. You can not adjust your own status as an "
 "administrator."
 msgstr ""
+"Nach einer Weile scheitern Deine Bemühungen. Du kannst Deinen eigenen Administratorstatus nicht ändern."
 
 msgid "You must be an administrator to create administrators."
-msgstr ""
+msgstr "Du musst ein Administrator sein, um Administratoren zu erstellen."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s empowered this user as an administrator."
-msgstr "%s hat diese Aufgabe geschlossen (war ein Duplikat)."
+msgstr "%s hat diesen Benutzer zum Administrator gemacht."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s removed the administrator role from this user."
-msgstr "%s hat Prüfer von %s entfernt: %s."
+msgstr "%s hat die Administratorrolle von diesem Benutzer entfernt."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s defrocked this user."
-msgstr "%s hat diese Zone archiviert."
+msgstr "%s hat diesen Benutzer der Administratorrolle enthoben."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s empowered %s as an administrator."
-msgstr "%s hat %s abgeschlossen, da es ein Duplikat ist."
+msgstr "%s hat %s zum Administrator gemacht."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s removed the administrator role from %s."
-msgstr "%s hat Prüfer von %s entfernt: %s."
+msgstr "%s hat die Administratorrolle von %s entfernt."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s defrocked %s."
-msgstr "%s hat %s aktiviert."
+msgstr "%s hat %s der Administratorrolle enthoben."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s sent this user a test notification."
-msgstr "%s ungelesene Benachrichtigungen."
+msgstr "%s hat diesem Benutzer eine Test-Benachrichtigung gesendet."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s renamed this user."
-msgstr "%s hat diese Regel aktiviert."
+msgstr "%s hat diesen Benutzer umbenannt."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s renamed this user from %s to %s."
-msgstr "%s hat diese Zone von \"%s\" nach \"%s\" umbenannt."
+msgstr "%s hat diesen Benutzer von %s nach %s umbenannt."
 
 #, php-format
 msgid "%s renamed %s."
-msgstr ""
+msgstr "%s hat %s umbenannt."
 
-#, fuzzy
 msgid "You must be an administrator to rename users."
-msgstr "Du mußt mindestens eine mögliche Antwort angeben."
+msgstr "Du musst ein Administrator sein, um Benutzer umzubenennen."
 
 msgid "New username is required."
 msgstr "Ein neuer Benutzername ist nötig."
 
-#, fuzzy
 msgid "New username cannot be the old username."
-msgstr "Der neue Benutzername muß sich vom alten unterscheiden."
+msgstr "Der neue Benutzername darf nicht der alte Benutzername sein."
 
-#, fuzzy, php-format
+#, php-format
 msgid "Another user already has the username \"%s\"."
-msgstr "Ein anderer Benutzer hat bereits diesen Benutzernamen"
+msgstr "Ein anderer Benutzer hat bereits den Benutzernamen \"%s\"."
 
 msgid "Phame"
-msgstr ""
+msgstr "Phame"
 
 msgid "Internal and External Blogs"
-msgstr ""
+msgstr "Interne und externe Blogs"
 
 msgid "Phame User Guide"
-msgstr ""
+msgstr "Phame-Benutzerhandbuch"
 
-#, fuzzy
 msgid "Default create policy for blogs."
-msgstr "Vorgabe Anzeige-Benutzerrichtlinie für neue Umfragen."
+msgstr "Standard-Erstellungsrichtlinie für Blogs."
 
-#, fuzzy
 msgid "Can Create Blogs"
-msgstr "Neuer Blog"
+msgstr "Darf Blogs erstellen"
 
-#, fuzzy
 msgid "You do not have permission to create a blog."
-msgstr "Du hast keine Berechtigung, um Zonen zu erzeugen."
+msgstr "Du hast keine Berechtigung, einen Blog zu erstellen."
 
 msgid "Create or edit blogs in Phame."
-msgstr ""
+msgstr "Blogs in Phame erstellen oder bearbeiten."
 
 msgid "Read information about blogs."
-msgstr ""
+msgstr "Informationen über Blogs lesen."
 
 msgid "Create or edit blog posts in Phame."
-msgstr ""
+msgstr "Blog-Beiträge in Phame erstellen oder bearbeiten."
 
 msgid "Read information about blog posts."
-msgstr ""
+msgstr "Informationen über Blog-Beiträge lesen."
 
 msgid "Published"
 msgstr "Veröffentlicht"
 
-#, fuzzy
 msgid "There aren't any visible blog posts."
-msgstr "Es gibt keine sichtbaren Beiträge."
+msgstr "Es gibt keine sichtbaren Blog-Beiträge."
 
-#, fuzzy
 msgid "Create a Blog"
-msgstr "Neuer Blog"
+msgstr "Blog erstellen"
 
-#, fuzzy
 msgid "Recent Posts"
-msgstr "Neueste Aufgaben"
+msgstr "Neueste Beiträge"
 
 msgid "Blogs"
 msgstr "Blogs"
 
-#, fuzzy
 msgid "Activate Blog"
-msgstr "Panel aktivieren"
+msgstr "Blog aktivieren"
 
-#, fuzzy
 msgid "This blog will become active again."
-msgstr "Diese Regel wird dann wieder aktiv sein."
+msgstr "Dieser Blog wird wieder aktiv sein."
 
-#, fuzzy
 msgid "Archive Blog"
-msgstr "Panel archivieren"
+msgstr "Blog archivieren"
 
-#, fuzzy
 msgid "This blog will be marked as archived."
-msgstr "Diese Regel wird dann wieder aktiv sein."
+msgstr "Dieser Blog wird als archiviert markiert."
 
-#, fuzzy
 msgid "You must choose a file when uploading a new blog header."
-msgstr ""
-"Du mußt einen Dateinamen auswählen, wenn Du ein neues Projektbild hochladen "
-"möchtest."
+msgstr "Du musst eine Datei auswählen, wenn Du einen neuen Blog-Header hochlädst."
 
-#, fuzzy
 msgid "Edit Blog Header"
-msgstr "Blog ändern"
+msgstr "Blog-Header bearbeiten"
 
-#, fuzzy
 msgid "Upload Header"
-msgstr "Datei hochladen"
+msgstr "Header hochladen"
 
-#, fuzzy
 msgid "Delete Header"
-msgstr "Benutzer löschen"
+msgstr "Header löschen"
 
-#, fuzzy
 msgid "Upload New Header"
-msgstr "Neue Bilder hochladen"
+msgstr "Neuen Header hochladen"
 
 #, fuzzy
 msgid "Blog Header"
