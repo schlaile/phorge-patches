@@ -295,3 +295,17 @@ Verification:
 - syntax check of all three touched Phortune search engine classes
 - code inspection of the anonymous-viewer guard in
   `buildQueryFromSavedQuery()`
+
+### `018-avoid-null-viewer-phid-in-feed-search.patch`
+
+This patch avoids running the legacy `viewerProjects` membership lookup with a
+null viewer PHID in `PhabricatorFeedSearchEngine`.
+
+For anonymous viewers, the old compatibility option should simply contribute no
+additional project PHIDs.
+
+Verification:
+
+- syntax check of `src/applications/feed/query/PhabricatorFeedSearchEngine.php`
+- code inspection of the `viewerProjects` branch in
+  `buildQueryFromParameters()`

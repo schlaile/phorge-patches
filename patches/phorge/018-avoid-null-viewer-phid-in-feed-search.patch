@@ -1,0 +1,90 @@
+From b4621387c13a6336c7200c86dac0173395d25d69 Mon Sep 17 00:00:00 2001
+From: Alicia Codex <alicia@schlaile.de>
+Date: Sun, 29 Mar 2026 16:47:00 +0200
+Subject: [PATCH] PHP 8.5: Avoid null viewer PHID in Phortune searches
+
+---
+ .../phortune/query/PhortuneCartSearchEngine.php            | 7 ++++++-
+ .../phortune/query/PhortuneChargeSearchEngine.php          | 7 ++++++-
+ .../phortune/query/PhortuneSubscriptionSearchEngine.php    | 7 ++++++-
+ 3 files changed, 18 insertions(+), 3 deletions(-)
+
+diff --git a/src/applications/phortune/query/PhortuneCartSearchEngine.php b/src/applications/phortune/query/PhortuneCartSearchEngine.php
+index b017591fb8..78508d90eb 100644
+--- a/src/applications/phortune/query/PhortuneCartSearchEngine.php
++++ b/src/applications/phortune/query/PhortuneCartSearchEngine.php
+@@ -58,6 +58,7 @@ final class PhortuneCartSearchEngine
+       ->needPurchases(true);
+ 
+     $viewer = $this->requireViewer();
++    $viewer_phid = $viewer->getPHID();
+ 
+     $merchant = $this->getMerchant();
+     $account = $this->getAccount();
+@@ -66,8 +67,12 @@ final class PhortuneCartSearchEngine
+     } else if ($account) {
+       $query->withAccountPHIDs(array($account->getPHID()));
+     } else {
++      if (!$viewer_phid) {
++        throw new Exception(pht('You have no accounts!'));
++      }
++
+       $accounts = id(new PhortuneAccountQuery())
+-        ->withMemberPHIDs(array($viewer->getPHID()))
++        ->withMemberPHIDs(array($viewer_phid))
+         ->execute();
+       if ($accounts) {
+         $query->withAccountPHIDs(mpull($accounts, 'getPHID'));
+diff --git a/src/applications/phortune/query/PhortuneChargeSearchEngine.php b/src/applications/phortune/query/PhortuneChargeSearchEngine.php
+index 5cbf214500..ac371f33b8 100644
+--- a/src/applications/phortune/query/PhortuneChargeSearchEngine.php
++++ b/src/applications/phortune/query/PhortuneChargeSearchEngine.php
+@@ -37,13 +37,18 @@ final class PhortuneChargeSearchEngine
+     $query = new PhortuneChargeQuery();
+ 
+     $viewer = $this->requireViewer();
++    $viewer_phid = $viewer->getPHID();
+ 
+     $account = $this->getAccount();
+     if ($account) {
+       $query->withAccountPHIDs(array($account->getPHID()));
+     } else {
++      if (!$viewer_phid) {
++        throw new Exception(pht('You have no accounts!'));
++      }
++
+       $accounts = id(new PhortuneAccountQuery())
+-        ->withMemberPHIDs(array($viewer->getPHID()))
++        ->withMemberPHIDs(array($viewer_phid))
+         ->execute();
+       if ($accounts) {
+         $query->withAccountPHIDs(mpull($accounts, 'getPHID'));
+diff --git a/src/applications/phortune/query/PhortuneSubscriptionSearchEngine.php b/src/applications/phortune/query/PhortuneSubscriptionSearchEngine.php
+index 22aff1cef2..1c2a2198cc 100644
+--- a/src/applications/phortune/query/PhortuneSubscriptionSearchEngine.php
++++ b/src/applications/phortune/query/PhortuneSubscriptionSearchEngine.php
+@@ -47,6 +47,7 @@ final class PhortuneSubscriptionSearchEngine
+     $query = new PhortuneSubscriptionQuery();
+ 
+     $viewer = $this->requireViewer();
++    $viewer_phid = $viewer->getPHID();
+ 
+     $merchant = $this->getMerchant();
+     $account = $this->getAccount();
+@@ -75,8 +76,12 @@ final class PhortuneSubscriptionSearchEngine
+       }
+       $query->withAccountPHIDs(array($account->getPHID()));
+     } else {
++      if (!$viewer_phid) {
++        throw new Exception(pht('You have no accounts!'));
++      }
++
+       $accounts = id(new PhortuneAccountQuery())
+-        ->withMemberPHIDs(array($viewer->getPHID()))
++        ->withMemberPHIDs(array($viewer_phid))
+         ->execute();
+       if ($accounts) {
+         $query->withAccountPHIDs(mpull($accounts, 'getPHID'));
+-- 
+2.47.3
+
