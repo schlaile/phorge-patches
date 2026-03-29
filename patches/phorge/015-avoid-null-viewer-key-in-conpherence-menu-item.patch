@@ -1,0 +1,22 @@
+From bba19c039ffa51e73e02c05208c11d7f67063c6d Mon Sep 17 00:00:00 2001
+From: Alicia Codex <alicia@schlaile.de>
+Date: Sun, 29 Mar 2026 17:46:53 +0200
+Subject: [PATCH] PHP 8.5: Avoid null viewer key in Conpherence menu item
+
+---
+ .../search/menuitem/PhabricatorConpherenceProfileMenuItem.php   | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/src/applications/search/menuitem/PhabricatorConpherenceProfileMenuItem.php b/src/applications/search/menuitem/PhabricatorConpherenceProfileMenuItem.php
+index c2d3536f9c..b1573c79fa 100644
+--- a/src/applications/search/menuitem/PhabricatorConpherenceProfileMenuItem.php
++++ b/src/applications/search/menuitem/PhabricatorConpherenceProfileMenuItem.php
+@@ -109,7 +109,7 @@ final class PhabricatorConpherenceProfileMenuItem
+     $participants = $room->getParticipants();
+     $viewer_phid = $viewer->getPHID();
+     $unread_count = null;
+-    if (isset($participants[$viewer_phid])) {
++    if ($viewer_phid && isset($participants[$viewer_phid])) {
+       $data = $room->getDisplayData($viewer);
+       $unread_count = $data['unread_count'];
+     }

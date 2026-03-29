@@ -263,3 +263,17 @@ Verification:
 
 - syntax check of both touched search engine classes
 - code inspection of the authored builtin branches
+
+### `015-avoid-null-viewer-key-in-conpherence-menu-item.patch`
+
+This patch fixes a small PHP 8.5 null-key edge in the Conpherence profile menu
+item.
+
+Anonymous viewers can not be participants in a room, so the menu item should
+not probe the participant map with a null viewer PHID before checking unread
+state.
+
+Verification:
+
+- syntax check of `search/menuitem/PhabricatorConpherenceProfileMenuItem.php`
+- code inspection of the anonymous-viewer path in `newMenuItemViewList()`
