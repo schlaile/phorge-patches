@@ -344,3 +344,20 @@ Verification:
 - syntax check of both touched search engine classes
 - code inspection of `getBuiltinQueryNames()` and
   `buildSavedQueryFromBuiltin()`
+
+### `021-guard-review-and-audit-builtin-search-queries.patch`
+
+This patch applies the same viewer-specific builtin guard to:
+
+- `DifferentialRevisionSearchEngine`
+- `PhabricatorCommitSearchEngine`
+
+Both engines already only advertise these builtins to logged-in users, but the
+handler should also avoid constructing viewer-specific query parameters from a
+null PHID if reached directly.
+
+Verification:
+
+- syntax check of both touched search engine classes
+- code inspection of the viewer-specific builtin branches in
+  `buildSavedQueryFromBuiltin()`

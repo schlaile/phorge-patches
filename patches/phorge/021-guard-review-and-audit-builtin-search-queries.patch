@@ -1,0 +1,67 @@
+From bf3ce3fb22714c34e088c81c631ff6a24868bcf7 Mon Sep 17 00:00:00 2001
+From: Alicia Codex <alicia@schlaile.de>
+Date: Sun, 29 Mar 2026 16:54:06 +0200
+Subject: [PATCH] PHP 8.5: Guard signed and authored search queries
+
+---
+ .../legalpad/query/LegalpadDocumentSearchEngine.php   |  6 +++++-
+ .../phurl/query/PhabricatorPhurlURLSearchEngine.php   | 11 +++++++++--
+ 2 files changed, 14 insertions(+), 3 deletions(-)
+
+diff --git a/src/applications/legalpad/query/LegalpadDocumentSearchEngine.php b/src/applications/legalpad/query/LegalpadDocumentSearchEngine.php
+index 709441eba2..180c7bce2a 100644
+--- a/src/applications/legalpad/query/LegalpadDocumentSearchEngine.php
++++ b/src/applications/legalpad/query/LegalpadDocumentSearchEngine.php
+@@ -96,10 +96,14 @@ final class LegalpadDocumentSearchEngine
+     $query->setQueryKey($query_key);
+ 
+     $viewer = $this->requireViewer();
++    $viewer_phid = $viewer->getPHID();
+ 
+     switch ($query_key) {
+       case 'signed':
+-        return $query->setParameter('signerPHIDs', array($viewer->getPHID()));
++        if (!$viewer_phid) {
++          return $query;
++        }
++        return $query->setParameter('signerPHIDs', array($viewer_phid));
+       case 'all':
+         return $query;
+     }
+diff --git a/src/applications/phurl/query/PhabricatorPhurlURLSearchEngine.php b/src/applications/phurl/query/PhabricatorPhurlURLSearchEngine.php
+index e68d08565c..6964887ea1 100644
+--- a/src/applications/phurl/query/PhabricatorPhurlURLSearchEngine.php
++++ b/src/applications/phurl/query/PhabricatorPhurlURLSearchEngine.php
+@@ -72,9 +72,12 @@ final class PhabricatorPhurlURLSearchEngine
+   protected function getBuiltinQueryNames() {
+     $names = array(
+       'all' => pht('All URLs'),
+-      'authored' => pht('Authored'),
+     );
+ 
++    if ($this->requireViewer()->isLoggedIn()) {
++      $names['authored'] = pht('Authored');
++    }
++
+     return $names;
+   }
+ 
+@@ -82,10 +85,14 @@ final class PhabricatorPhurlURLSearchEngine
+     $query = $this->newSavedQuery();
+     $query->setQueryKey($query_key);
+     $viewer = $this->requireViewer();
++    $viewer_phid = $viewer->getPHID();
+ 
+     switch ($query_key) {
+       case 'authored':
+-        return $query->setParameter('authorPHIDs', array($viewer->getPHID()));
++        if (!$viewer_phid) {
++          return $query;
++        }
++        return $query->setParameter('authorPHIDs', array($viewer_phid));
+       case 'all':
+         return $query;
+     }
+-- 
+2.47.3
+
