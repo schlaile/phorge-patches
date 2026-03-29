@@ -50,9 +50,6 @@ The patch keeps the modern/legacy boundary intact instead of teaching
   existing runtime help bridge
 - genuine legacy workflows still stay in the legacy launcher
 
-A small environment marker prevents recursion when `ArcanistRuntime` falls
-back into `scripts/arcanist.php` for an actual legacy workflow.
-
 Verification:
 
 - syntax checks of `scripts/arcanist.php` and `src/runtime/ArcanistRuntime.php`
@@ -62,3 +59,27 @@ Verification:
 - `php scripts/arcanist.php diff --help`
 - `php scripts/arcanist.php diff` still falls through to the legacy path and
   reports the expected working-copy usage error outside a repository
+
+### `003-keep-direct-command-routing-fix-local-to-legacy-script.patch`
+
+This follow-up narrows the launcher fix so it only changes
+`scripts/arcanist.php`.
+
+The first version also touched `ArcanistRuntime` to add a recursion marker,
+but that turned out to be unnecessary for the concrete bug:
+
+- `scripts/arcanist.php` only delegates commands that are already known to be
+  modern or explicit help flows
+- those commands are handled directly by the runtime and do not fall through
+  back into the legacy launcher
+
+Keeping the correction local to the legacy script is a better fit for this
+obsolete entry point and avoids changing the primary `./bin/arc` path at all.
+
+Verification:
+
+- syntax checks of `scripts/arcanist.php` and `src/runtime/ArcanistRuntime.php`
+- `php scripts/arcanist.php version`
+- `php scripts/arcanist.php help`
+- `php scripts/arcanist.php diff --help`
+- `./bin/arc version`
