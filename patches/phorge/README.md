@@ -220,3 +220,32 @@ Verification:
 - file list of the curated patch compared against the same commit range with no
   missing or extra files
 - syntax check previously performed while landing the individual source commits
+
+### `013-guard-remaining-viewer-specific-builtin-searches.patch`
+
+This patch finishes the same PHP 8.5 builtin-query guard pattern for the
+remaining search engines which:
+
+- only advertise certain builtins to logged-in users
+- but could still build viewer-specific query parameters from a null PHID when
+  reached directly
+
+The affected engines are:
+
+- Conpherence
+- Files
+- Fund
+- Herald
+- Maniphest
+- OAuth Server
+- Owners
+- Paste
+- Pholio
+- Ponder
+- Projects
+- Slowvote
+
+Verification:
+
+- syntax check of all twelve touched search engine classes
+- code inspection of the viewer-specific builtin branches

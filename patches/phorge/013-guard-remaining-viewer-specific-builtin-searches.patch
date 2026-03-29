@@ -1,0 +1,325 @@
+From 11b2af32f46bb9ddf215b9ffad834129b0d7f6c1 Mon Sep 17 00:00:00 2001
+From: Alicia Codex <alicia@schlaile.de>
+Date: Sun, 29 Mar 2026 17:43:10 +0200
+Subject: [PATCH] PHP 8.5: Guard remaining viewer-specific builtin searches
+
+---
+ .../query/ConpherenceThreadSearchEngine.php          |  7 ++++++-
+ .../files/query/PhabricatorFileSearchEngine.php      |  7 ++++++-
+ .../fund/query/FundInitiativeSearchEngine.php        |  7 ++++++-
+ .../herald/query/HeraldRuleSearchEngine.php          |  3 +++
+ .../maniphest/query/ManiphestTaskSearchEngine.php    |  9 +++++++++
+ .../PhabricatorOAuthServerClientSearchEngine.php     |  7 ++++++-
+ .../query/PhabricatorOwnersPackageSearchEngine.php   |  7 ++++++-
+ .../paste/query/PhabricatorPasteSearchEngine.php     |  7 ++++++-
+ .../pholio/query/PholioMockSearchEngine.php          |  7 ++++++-
+ .../ponder/query/PonderQuestionSearchEngine.php      | 12 ++++++++++--
+ .../project/query/PhabricatorProjectSearchEngine.php |  6 ++++++
+ .../query/PhabricatorSlowvoteSearchEngine.php        |  7 ++++++-
+ 12 files changed, 76 insertions(+), 10 deletions(-)
+
+diff --git a/src/applications/conpherence/query/ConpherenceThreadSearchEngine.php b/src/applications/conpherence/query/ConpherenceThreadSearchEngine.php
+index f716c82ec1..51005e41c6 100644
+--- a/src/applications/conpherence/query/ConpherenceThreadSearchEngine.php
++++ b/src/applications/conpherence/query/ConpherenceThreadSearchEngine.php
+@@ -79,13 +79,18 @@ final class ConpherenceThreadSearchEngine
+     $query = $this->newSavedQuery();
+     $query->setQueryKey($query_key);
+ 
++    $viewer_phid = $this->requireViewer()->getPHID();
++
+     switch ($query_key) {
+       case 'all':
+         return $query;
+       case 'participant':
++        if (!$viewer_phid) {
++          return $query;
++        }
+         return $query->setParameter(
+           'participants',
+-          array($this->requireViewer()->getPHID()));
++          array($viewer_phid));
+     }
+ 
+     return parent::buildSavedQueryFromBuiltin($query_key);
+diff --git a/src/applications/files/query/PhabricatorFileSearchEngine.php b/src/applications/files/query/PhabricatorFileSearchEngine.php
+index 125a0bce87..4c49394111 100644
+--- a/src/applications/files/query/PhabricatorFileSearchEngine.php
++++ b/src/applications/files/query/PhabricatorFileSearchEngine.php
+@@ -111,11 +111,16 @@ final class PhabricatorFileSearchEngine
+     $query = $this->newSavedQuery();
+     $query->setQueryKey($query_key);
+ 
++    $viewer_phid = $this->requireViewer()->getPHID();
++
+     switch ($query_key) {
+       case 'all':
+         return $query;
+       case 'authored':
+-        $author_phid = array($this->requireViewer()->getPHID());
++        if (!$viewer_phid) {
++          return $query;
++        }
++        $author_phid = array($viewer_phid);
+         return $query
+           ->setParameter('authorPHIDs', $author_phid)
+           ->setParameter('explicit', true);
+diff --git a/src/applications/fund/query/FundInitiativeSearchEngine.php b/src/applications/fund/query/FundInitiativeSearchEngine.php
+index 2773d2a150..0d321ee588 100644
+--- a/src/applications/fund/query/FundInitiativeSearchEngine.php
++++ b/src/applications/fund/query/FundInitiativeSearchEngine.php
+@@ -62,14 +62,19 @@ final class FundInitiativeSearchEngine
+     $query = $this->newSavedQuery();
+     $query->setQueryKey($query_key);
+ 
++    $viewer_phid = $this->requireViewer()->getPHID();
++
+     switch ($query_key) {
+       case 'all':
+         return $query;
+       case 'owned':
++        if (!$viewer_phid) {
++          return $query;
++        }
+         return $query->setParameter(
+           'ownerPHIDs',
+           array(
+-            $this->requireViewer()->getPHID(),
++            $viewer_phid,
+           ));
+       case 'open':
+         return $query->setParameter(
+diff --git a/src/applications/herald/query/HeraldRuleSearchEngine.php b/src/applications/herald/query/HeraldRuleSearchEngine.php
+index 7448d8958b..d34d2dd589 100644
+--- a/src/applications/herald/query/HeraldRuleSearchEngine.php
++++ b/src/applications/herald/query/HeraldRuleSearchEngine.php
+@@ -122,6 +122,9 @@ final class HeraldRuleSearchEngine extends PhabricatorApplicationSearchEngine {
+         return $query
+           ->setParameter('active', true);
+       case 'authored':
++        if (!$viewer_phid) {
++          return $query;
++        }
+         return $query
+           ->setParameter('authorPHIDs', array($viewer_phid))
+           ->setParameter('disabled', false);
+diff --git a/src/applications/maniphest/query/ManiphestTaskSearchEngine.php b/src/applications/maniphest/query/ManiphestTaskSearchEngine.php
+index 47c7938563..e1ad4cb7fc 100644
+--- a/src/applications/maniphest/query/ManiphestTaskSearchEngine.php
++++ b/src/applications/maniphest/query/ManiphestTaskSearchEngine.php
+@@ -335,12 +335,18 @@ final class ManiphestTaskSearchEngine
+       case 'all':
+         return $query;
+       case 'assigned':
++        if (!$viewer_phid) {
++          return $query;
++        }
+         return $query
+           ->setParameter('assignedPHIDs', array($viewer_phid))
+           ->setParameter(
+             'statuses',
+             ManiphestTaskStatus::getOpenStatusConstants());
+       case 'subscribed':
++        if (!$viewer_phid) {
++          return $query;
++        }
+         return $query
+           ->setParameter('subscriberPHIDs', array($viewer_phid))
+           ->setParameter(
+@@ -352,6 +358,9 @@ final class ManiphestTaskSearchEngine
+             'statuses',
+             ManiphestTaskStatus::getOpenStatusConstants());
+       case 'authored':
++        if (!$viewer_phid) {
++          return $query;
++        }
+         return $query
+           ->setParameter('authorPHIDs', array($viewer_phid))
+           ->setParameter('order', 'created')
+diff --git a/src/applications/oauthserver/query/PhabricatorOAuthServerClientSearchEngine.php b/src/applications/oauthserver/query/PhabricatorOAuthServerClientSearchEngine.php
+index 371cffcefe..f349bfdd6b 100644
+--- a/src/applications/oauthserver/query/PhabricatorOAuthServerClientSearchEngine.php
++++ b/src/applications/oauthserver/query/PhabricatorOAuthServerClientSearchEngine.php
+@@ -61,13 +61,18 @@ final class PhabricatorOAuthServerClientSearchEngine
+     $query = $this->newSavedQuery();
+     $query->setQueryKey($query_key);
+ 
++    $viewer_phid = $this->requireViewer()->getPHID();
++
+     switch ($query_key) {
+       case 'all':
+         return $query;
+       case 'created':
++        if (!$viewer_phid) {
++          return $query;
++        }
+         return $query->setParameter(
+           'creatorPHIDs',
+-          array($this->requireViewer()->getPHID()));
++          array($viewer_phid));
+     }
+ 
+     return parent::buildSavedQueryFromBuiltin($query_key);
+diff --git a/src/applications/owners/query/PhabricatorOwnersPackageSearchEngine.php b/src/applications/owners/query/PhabricatorOwnersPackageSearchEngine.php
+index 922fd05041..528732bf59 100644
+--- a/src/applications/owners/query/PhabricatorOwnersPackageSearchEngine.php
++++ b/src/applications/owners/query/PhabricatorOwnersPackageSearchEngine.php
+@@ -103,6 +103,8 @@ final class PhabricatorOwnersPackageSearchEngine
+     $query = $this->newSavedQuery();
+     $query->setQueryKey($query_key);
+ 
++    $viewer_phid = $this->requireViewer()->getPHID();
++
+     switch ($query_key) {
+       case 'all':
+         return $query;
+@@ -113,9 +115,12 @@ final class PhabricatorOwnersPackageSearchEngine
+             PhabricatorOwnersPackage::STATUS_ACTIVE,
+           ));
+       case 'authority':
++        if (!$viewer_phid) {
++          return $query;
++        }
+         return $query->setParameter(
+           'authorityPHIDs',
+-          array($this->requireViewer()->getPHID()));
++          array($viewer_phid));
+     }
+ 
+     return parent::buildSavedQueryFromBuiltin($query_key);
+diff --git a/src/applications/paste/query/PhabricatorPasteSearchEngine.php b/src/applications/paste/query/PhabricatorPasteSearchEngine.php
+index 9a9dbfa0be..d836f7a214 100644
+--- a/src/applications/paste/query/PhabricatorPasteSearchEngine.php
++++ b/src/applications/paste/query/PhabricatorPasteSearchEngine.php
+@@ -107,6 +107,8 @@ final class PhabricatorPasteSearchEngine
+     $query = $this->newSavedQuery();
+     $query->setQueryKey($query_key);
+ 
++    $viewer_phid = $this->requireViewer()->getPHID();
++
+     switch ($query_key) {
+       case 'active':
+         return $query->setParameter(
+@@ -117,9 +119,12 @@ final class PhabricatorPasteSearchEngine
+       case 'all':
+         return $query;
+       case 'authored':
++        if (!$viewer_phid) {
++          return $query;
++        }
+         return $query->setParameter(
+           'authorPHIDs',
+-          array($this->requireViewer()->getPHID()));
++          array($viewer_phid));
+     }
+ 
+     return parent::buildSavedQueryFromBuiltin($query_key);
+diff --git a/src/applications/pholio/query/PholioMockSearchEngine.php b/src/applications/pholio/query/PholioMockSearchEngine.php
+index ae46316fec..a48a7be12c 100644
+--- a/src/applications/pholio/query/PholioMockSearchEngine.php
++++ b/src/applications/pholio/query/PholioMockSearchEngine.php
+@@ -67,6 +67,8 @@ final class PholioMockSearchEngine extends PhabricatorApplicationSearchEngine {
+     $query = $this->newSavedQuery();
+     $query->setQueryKey($query_key);
+ 
++    $viewer_phid = $this->requireViewer()->getPHID();
++
+     switch ($query_key) {
+       case 'open':
+         return $query->setParameter(
+@@ -75,9 +77,12 @@ final class PholioMockSearchEngine extends PhabricatorApplicationSearchEngine {
+       case 'all':
+         return $query;
+       case 'authored':
++        if (!$viewer_phid) {
++          return $query;
++        }
+         return $query->setParameter(
+           'authorPHIDs',
+-          array($this->requireViewer()->getPHID()));
++          array($viewer_phid));
+     }
+ 
+     return parent::buildSavedQueryFromBuiltin($query_key);
+diff --git a/src/applications/ponder/query/PonderQuestionSearchEngine.php b/src/applications/ponder/query/PonderQuestionSearchEngine.php
+index 0896c82bf8..9e34724c5c 100644
+--- a/src/applications/ponder/query/PonderQuestionSearchEngine.php
++++ b/src/applications/ponder/query/PonderQuestionSearchEngine.php
+@@ -75,6 +75,8 @@ final class PonderQuestionSearchEngine
+     $query = $this->newSavedQuery();
+     $query->setQueryKey($query_key);
+ 
++    $viewer_phid = $this->requireViewer()->getPHID();
++
+     switch ($query_key) {
+       case 'all':
+         return $query;
+@@ -91,13 +93,19 @@ final class PonderQuestionSearchEngine
+         return $query->setParameter(
+           'statuses', array(PonderQuestionStatus::STATUS_CLOSED_RESOLVED));
+       case 'authored':
++        if (!$viewer_phid) {
++          return $query;
++        }
+         return $query->setParameter(
+           'authorPHIDs',
+-          array($this->requireViewer()->getPHID()));
++          array($viewer_phid));
+       case 'answered':
++        if (!$viewer_phid) {
++          return $query;
++        }
+         return $query->setParameter(
+           'answerers',
+-          array($this->requireViewer()->getPHID()));
++          array($viewer_phid));
+     }
+ 
+     return parent::buildSavedQueryFromBuiltin($query_key);
+diff --git a/src/applications/project/query/PhabricatorProjectSearchEngine.php b/src/applications/project/query/PhabricatorProjectSearchEngine.php
+index e617bd921d..e54bbdf128 100644
+--- a/src/applications/project/query/PhabricatorProjectSearchEngine.php
++++ b/src/applications/project/query/PhabricatorProjectSearchEngine.php
+@@ -260,10 +260,16 @@ final class PhabricatorProjectSearchEngine
+         return $query
+           ->setParameter('status', $active);
+       case 'joined':
++        if (!$viewer_phid) {
++          return $query->setParameter('status', $active);
++        }
+         return $query
+           ->setParameter('memberPHIDs', array($viewer_phid))
+           ->setParameter('status', $active);
+       case 'watching':
++        if (!$viewer_phid) {
++          return $query->setParameter('status', $active);
++        }
+         return $query
+           ->setParameter('watcherPHIDs', array($viewer_phid))
+           ->setParameter('status', $active);
+diff --git a/src/applications/slowvote/query/PhabricatorSlowvoteSearchEngine.php b/src/applications/slowvote/query/PhabricatorSlowvoteSearchEngine.php
+index c73b9bdc15..81668d0e04 100644
+--- a/src/applications/slowvote/query/PhabricatorSlowvoteSearchEngine.php
++++ b/src/applications/slowvote/query/PhabricatorSlowvoteSearchEngine.php
+@@ -86,15 +86,20 @@ final class PhabricatorSlowvoteSearchEngine
+     $query = $this->newSavedQuery();
+     $query->setQueryKey($query_key);
+ 
++    $viewer_phid = $this->requireViewer()->getPHID();
++
+     switch ($query_key) {
+       case 'open':
+         return $query->setParameter('statuses', array('open'));
+       case 'all':
+         return $query;
+       case 'authored':
++        if (!$viewer_phid) {
++          return $query;
++        }
+         return $query->setParameter(
+           'authorPHIDs',
+-          array($this->requireViewer()->getPHID()));
++          array($viewer_phid));
+       case 'voted':
+         return $query->setParameter('voted', array('voted'));
+     }
