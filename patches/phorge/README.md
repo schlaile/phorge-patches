@@ -213,3 +213,16 @@ Verification:
 - syntax check of both touched Legalpad classes
 - code inspection of the anonymous-viewer branches in the policy and query
   paths
+
+### `013-avoid-null-viewer-phid-in-calendar-event-search.patch`
+
+This patch avoids requesting viewer-specific RSVP attachment data for anonymous
+viewers in `PhabricatorCalendarEventSearchEngine`.
+
+Anonymous viewers can not have RSVP state, so the search query should only call
+`needRSVPs()` when a real viewer PHID exists.
+
+Verification:
+
+- syntax check of `src/applications/calendar/query/PhabricatorCalendarEventSearchEngine.php`
+- code inspection of the anonymous-viewer branch in `newQuery()`
