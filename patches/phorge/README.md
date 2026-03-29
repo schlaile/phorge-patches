@@ -191,3 +191,25 @@ Verification:
 
 - syntax check of both touched query classes
 - code inspection of the anonymous-viewer branches in the query postprocessing
+
+### `012-avoid-null-viewer-phid-in-legalpad-signature-paths.patch`
+
+This patch avoids carrying an anonymous viewer PHID into Legalpad signature
+queries and attachment state.
+
+The affected paths are:
+
+- `PhabricatorLegalpadSignaturePolicyRule`
+- `LegalpadDocumentQuery`
+
+For anonymous viewers, there is no signer PHID to filter by and no
+viewer-specific signature attachment to record. The correct behavior is simply:
+
+- skip the signer query
+- skip attaching viewer-specific signature state
+
+Verification:
+
+- syntax check of both touched Legalpad classes
+- code inspection of the anonymous-viewer branches in the policy and query
+  paths
