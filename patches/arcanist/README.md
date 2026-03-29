@@ -27,7 +27,7 @@ Verification:
 - bootstrap smoke test via `require_once "scripts/__init_script__.php"` under
   PHP 8.4 without additional warnings
 
-### `002-route-modern-scripts-arcanist-commands-through-runtime.patch`
+### `002-keep-direct-command-routing-fix-local-to-legacy-script.patch`
 
 This patch fixes a launcher split between the legacy `scripts/arcanist.php`
 entry point and the newer `ArcanistRuntime` toolset dispatcher.
@@ -49,24 +49,6 @@ The patch keeps the modern/legacy boundary intact instead of teaching
 - `--help` paths are also delegated so cases like `diff --help` land in the
   existing runtime help bridge
 - genuine legacy workflows still stay in the legacy launcher
-
-Verification:
-
-- syntax checks of `scripts/arcanist.php` and `src/runtime/ArcanistRuntime.php`
-- `php scripts/arcanist.php version`
-- `php scripts/arcanist.php help`
-- `php scripts/arcanist.php help diff`
-- `php scripts/arcanist.php diff --help`
-- `php scripts/arcanist.php diff` still falls through to the legacy path and
-  reports the expected working-copy usage error outside a repository
-
-### `003-keep-direct-command-routing-fix-local-to-legacy-script.patch`
-
-This follow-up narrows the launcher fix so it only changes
-`scripts/arcanist.php`.
-
-The first version also touched `ArcanistRuntime` to add a recursion marker,
-but that turned out to be unnecessary for the concrete bug:
 
 - `scripts/arcanist.php` only delegates commands that are already known to be
   modern or explicit help flows
