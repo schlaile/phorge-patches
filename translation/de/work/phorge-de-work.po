@@ -10522,11 +10522,11 @@ msgstr ""
 
 #, php-format
 msgid "CSS file '%s' has unknown variable '%s'."
-msgstr ""
+msgstr "CSS-Datei '%s' enthält unbekannte Variable '%s'."
 
 #, php-format
 msgid "Expected file '%s' in '%s' to be a sprite source ending in '%s'."
-msgstr ""
+msgstr "Datei '%s' in '%s' sollte eine Sprite-Quelle sein, die auf '%s' endet."
 
 msgid "Attempting to add more metadata after metadata has been locked."
 msgstr "Es wird versucht, nach dem Sperren weitere Metadaten hinzuzufügen."
@@ -11149,56 +11149,56 @@ msgid "List of position dictionaries."
 msgstr "Liste von Positionswörterbüchern."
 
 msgid "List with a mixture of PHIDs and dictionaries."
-msgstr ""
+msgstr "Liste mit einer Mischung aus PHIDs und Wörterbüchern."
 
 #, php-format
 msgid "Epoch timestamp must be larger than 0, got %d."
-msgstr ""
+msgstr "Epoch-Zeitstempel muss größer als 0 sein, erhalten: %d."
 
 msgid "Epoch timestamp, as an integer."
-msgstr ""
+msgstr "Epoch-Zeitstempel als Ganzzahl."
 
 
 msgid "List of integers."
-msgstr ""
+msgstr "Liste von Ganzzahlen."
 
 
 msgid "Expected a list, but value is not a list."
-msgstr ""
+msgstr "Liste erwartet, aber der Wert ist keine Liste."
 
 msgid "Expected a list, but value is an object."
-msgstr ""
+msgstr "Liste erwartet, aber der Wert ist ein Objekt."
 
 msgid "Expected a nonempty list, but value is an empty list."
-msgstr ""
+msgstr "Nicht-leere Liste erwartet, aber der Wert ist eine leere Liste."
 
 msgid "List of PHIDs."
-msgstr ""
+msgstr "Liste von PHIDs."
 
 msgid "Expected PHID, got something else."
-msgstr ""
+msgstr "PHID erwartet, etwas anderes erhalten."
 
 msgid "A PHID."
-msgstr ""
+msgstr "Eine PHID."
 
 #, php-format
 msgid "Error while reading \"%s\": %s"
-msgstr ""
+msgstr "Fehler beim Lesen von \\\"%s\\\": %s"
 
 msgid "Expected string, got something else."
-msgstr ""
+msgstr "Zeichenkette erwartet, etwas anderes erhalten."
 
 msgid "Integer overflow."
-msgstr ""
+msgstr "Ganzzahlüberlauf."
 
 msgid "Expected integer, got something else."
-msgstr ""
+msgstr "Ganzzahl erwartet, etwas anderes erhalten."
 
 msgid "Expected boolean (true or false), got something else."
-msgstr ""
+msgstr "Boolean (true oder false) erwartet, etwas anderes erhalten."
 
 msgid "Expected numeric points value, got something else."
-msgstr ""
+msgstr "Numerischen Punktewert erwartet, etwas anderes erhalten."
 
 #, fuzzy
 msgid "Point values must be nonnegative."
@@ -11206,7 +11206,7 @@ msgstr "Der Titel darf nicht leer sein."
 
 
 msgid "A nonnegative number, or null."
-msgstr ""
+msgstr "Eine nicht-negative Zahl oder null."
 
 #, fuzzy
 msgid "List of project PHIDs."
@@ -11219,16 +11219,16 @@ msgstr "Teilnehmer des Projektes"
 
 
 msgid "List with a mixture of PHIDs and tags."
-msgstr ""
+msgstr "Liste mit einer Mischung aus PHIDs und Tags."
 
 msgid "List of strings."
-msgstr ""
+msgstr "Liste von Zeichenketten."
 
 msgid "A string."
-msgstr ""
+msgstr "Eine Zeichenkette."
 
 msgid "List of user PHIDs."
-msgstr ""
+msgstr "Liste von Benutzer-PHIDs."
 
 #, fuzzy
 msgid "List of usernames."
@@ -11236,13 +11236,13 @@ msgstr "Gibt einen Benutzernamen an..."
 
 
 msgid "List with a mixture of PHIDs and usernames."
-msgstr ""
+msgstr "Liste mit einer Mischung aus PHIDs und Benutzernamen."
 
 msgid "Expected PHID or null, got something else."
-msgstr ""
+msgstr "PHID oder null erwartet, etwas anderes erhalten."
 
 msgid "User PHID."
-msgstr ""
+msgstr "Benutzer-PHID."
 
 #, fuzzy
 msgid "Username."
@@ -11255,14 +11255,14 @@ msgstr "Herald Regel ändern"
 
 
 msgid "Any mixed or complex value. Check the documentation for details."
-msgstr ""
+msgstr "Beliebiger gemischter oder komplexer Wert. Details in der Dokumentation."
 
 msgid "(Wildcard)"
-msgstr ""
+msgstr "(Platzhalter)"
 
 #, php-format
 msgid "Required int param not provided: %s"
-msgstr ""
+msgstr "Erforderlicher int-Parameter nicht angegeben: %s"
 
 
 #, php-format
@@ -11273,14 +11273,14 @@ msgstr ""
 
 #, php-format
 msgid "Method '%s' belongs to application '%s', which is not enabled."
-msgstr ""
+msgstr "Methode '%s' gehört zu Anwendung '%s', die nicht aktiviert ist."
 
 #, php-format
 msgid "Conduit API method \"%s\" does not exist."
-msgstr ""
+msgstr "Conduit-API-Methode \\\"%s\\\" existiert nicht."
 
 msgid "Support for ConduitResultInterface"
-msgstr ""
+msgstr "Unterstützung für ConduitResultInterface"
 
 #, fuzzy
 msgid "Callers"
@@ -11298,16 +11298,16 @@ msgstr "Regel-Typ"
 
 
 msgid "Show Only Bots"
-msgstr ""
+msgstr "Nur Bots anzeigen"
 
 msgid "Hide Bots"
-msgstr ""
+msgstr "Bots ausblenden"
 
 msgid "Pass true to find only bots, or false to omit bots."
-msgstr ""
+msgstr "True übergeben, um nur Bots zu finden, false um Bots auszulassen."
 
 msgid "Methods"
-msgstr ""
+msgstr "Methoden"
 
 #, fuzzy
 msgid "Find calls to specific methods."
@@ -11320,7 +11320,7 @@ msgstr "Neuer Termin"
 
 
 msgid "Find calls to stable, unstable, or deprecated methods."
-msgstr ""
+msgstr "Aufrufe stabiler, instabiler oder veralteter Methoden suchen."
 
 #, fuzzy
 msgid "Called After"
@@ -11338,7 +11338,7 @@ msgstr "Rufzeichen"
 
 
 msgid "My Deprecated Calls"
-msgstr ""
+msgstr "Meine veralteten Aufrufe"
 
 #, fuzzy
 msgid "All Call Logs"
@@ -11346,109 +11346,109 @@ msgstr "Alle Blogs"
 
 
 msgid "Deprecated Call Logs"
-msgstr ""
+msgstr "Protokolle veralteter Aufrufe"
 
 msgid "Caller PHID"
-msgstr ""
+msgstr "Aufrufer-PHID"
 
 msgid "Caller"
-msgstr ""
+msgstr "Aufrufer"
 
 msgid "Method"
-msgstr ""
+msgstr "Methode"
 
 msgid "Call Duration (us)"
-msgstr ""
+msgstr "Aufruf-Dauer (µs)"
 
 
 msgid "Frozen"
-msgstr ""
+msgstr "Eingefroren"
 
 #, php-format
 msgid "Unknown (\"%s\")"
-msgstr ""
+msgstr "Unbekannt (\\\"%s\\\")"
 
 #, php-format
 msgid "%s us"
-msgstr ""
+msgstr "%s µs"
 
 msgid "Duration"
 msgstr "Dauer"
 
 msgid "No matching calls in log."
-msgstr ""
+msgstr "Keine passenden Aufrufe im Protokoll."
 
 msgid "Conduit Methods"
-msgstr ""
+msgstr "Conduit-Methoden"
 
 msgid "Stable Methods"
-msgstr ""
+msgstr "Stabile Methoden"
 
 msgid "Show established API methods with stable interfaces."
-msgstr ""
+msgstr "Etablierte API-Methoden mit stabilen Schnittstellen anzeigen."
 
 msgid "Unstable Methods"
-msgstr ""
+msgstr "Instabile Methoden"
 
 msgid "Show new methods which are subject to change."
-msgstr ""
+msgstr "Neue Methoden anzeigen, die sich ändern können."
 
 msgid "Deprecated Methods"
-msgstr ""
+msgstr "Veraltete Methoden"
 
 msgid ""
 "Show old methods which will be deleted in a future version of this software."
 msgstr ""
 
 msgid "Modern Methods"
-msgstr ""
+msgstr "Moderne Methoden"
 
 msgid "All Methods"
-msgstr ""
+msgstr "Alle Methoden"
 
 msgid "Never"
-msgstr ""
+msgstr "Nie"
 
 msgid "You don't have any active API tokens."
-msgstr ""
+msgstr "Du hast keine aktiven API-Tokens."
 
 msgid "Expires"
-msgstr ""
+msgstr "Läuft ab"
 
 msgid "Active API Tokens"
-msgstr ""
+msgstr "Aktive API-Tokens"
 
 msgid "No Conduit method provided."
-msgstr ""
+msgstr "Keine Conduit-Methode angegeben."
 
 msgid "Too many Conduit methods provided."
-msgstr ""
+msgstr "Zu viele Conduit-Methoden angegeben."
 
 msgid "Invalid JSON input."
-msgstr ""
+msgstr "Ungültige JSON-Eingabe."
 
 msgid "Standard API Token"
-msgstr ""
+msgstr "Standard-API-Token"
 
 msgid "Command Line API Token"
-msgstr ""
+msgstr "Kommandozeilen-API-Token"
 
 msgid "Cluster API Token"
-msgstr ""
+msgstr "Cluster-API-Token"
 
 #, php-format
 msgid "Unknown Conduit token type \"%s\"!"
-msgstr ""
+msgstr "Unbekannter Conduit-Token-Typ \\\"%s\\\"!"
 
 msgid "Conduit tokens inherit the policies of the user they authenticate."
-msgstr ""
+msgstr "Conduit-Tokens erben die Richtlinien des Benutzers, den sie authentifizieren."
 
 msgid "Config"
-msgstr ""
+msgstr "Konfiguration"
 
 #, php-format
 msgid "Configure %s"
-msgstr ""
+msgstr "%s konfigurieren"
 
 
 msgid ""
@@ -11459,13 +11459,13 @@ msgid ""
 msgstr ""
 
 msgid "No Auth Providers"
-msgstr ""
+msgstr "Keine Auth-Anbieter"
 
 msgid "No Authentication Providers Configured"
-msgstr ""
+msgstr "Keine Authentifizierungsanbieter konfiguriert"
 
 msgid "Auth Application"
-msgstr ""
+msgstr "Auth-Anwendung"
 
 msgid ""
 "Your authentication provider configuration is unlocked. Once you finish "
@@ -11500,10 +11500,10 @@ msgid ""
 msgstr ""
 
 msgid "No \"Host\" Header"
-msgstr ""
+msgstr "Kein \\\"Host\\\"-Header"
 
 msgid "No \"Host\" header present in request."
-msgstr ""
+msgstr "Kein \\\"Host\\\"-Header in der Anfrage vorhanden."
 
 msgid ""
 "This request did not include a \"Host\" header. This may mean that your "
@@ -11521,10 +11521,10 @@ msgid ""
 msgstr ""
 
 msgid "Bad \"Host\" Header"
-msgstr ""
+msgstr "Ungültiger \\\"Host\\\"-Header"
 
 msgid "Request has bad \"Host\" header."
-msgstr ""
+msgstr "Anfrage enthält ungültigen \\\"Host\\\"-Header."
 
 #, php-format
 msgid ""
@@ -11569,10 +11569,10 @@ msgid ""
 msgstr ""
 
 msgid "No Base URI"
-msgstr ""
+msgstr "Keine Basis-URI"
 
 msgid "Base URI Not Configured"
-msgstr ""
+msgstr "Basis-URI nicht konfiguriert"
 
 #, php-format
 msgid ""
@@ -11588,7 +11588,7 @@ msgstr ""
 
 #, php-format
 msgid "Unexpected '%s' Behavior"
-msgstr ""
+msgstr "Unerwartetes '%s'-Verhalten"
 
 #, php-format
 msgid ""
@@ -11598,7 +11598,7 @@ msgid ""
 msgstr ""
 
 msgid "Unexpected 'diff' Behavior"
-msgstr ""
+msgstr "Unerwartetes 'diff'-Verhalten"
 
 #, php-format
 msgid ""
@@ -11637,7 +11637,7 @@ msgstr ""
 
 #, php-format
 msgid "(%s%s) %s"
-msgstr ""
+msgstr "(%s%s) %s"
 
 #, php-format
 msgid ""
@@ -11655,19 +11655,19 @@ msgstr ""
 
 #, php-format
 msgid "'%s' Missing"
-msgstr ""
+msgstr "'%s' fehlt"
 
 #, php-format
 msgid "Missing '%s' Binary"
-msgstr ""
+msgstr "Binärdatei '%s' fehlt"
 
 #, php-format
 msgid "The '%s' binary could not be located or executed."
-msgstr ""
+msgstr "Die Binärdatei '%s' konnte nicht gefunden oder ausgeführt werden."
 
 #, php-format
 msgid "Unable to determine the version number of \"%s\"."
-msgstr ""
+msgstr "Die Versionsnummer von \\\"%s\\\" konnte nicht bestimmt werden."
 
 #, php-format
 msgid ""
@@ -11693,14 +11693,14 @@ msgstr ""
 
 #, php-format
 msgid "Unknown '%s' Version"
-msgstr ""
+msgstr "Unbekannte '%s'-Version"
 
 msgid "Report this Issue to the Upstream"
-msgstr ""
+msgstr "Dieses Problem an Upstream melden"
 
 #, php-format
 msgid "This server has a known bad version of \"%s\"."
-msgstr ""
+msgstr "Dieser Server hat eine bekannte fehlerhafte Version von \\\"%s\\\"."
 
 #, php-format
 msgid ""
@@ -11710,14 +11710,14 @@ msgid ""
 msgstr ""
 
 msgid "You should upgrade this software."
-msgstr ""
+msgstr "Diese Software sollte aktualisiert werden."
 
 msgid "The known issues with this old version are:"
-msgstr ""
+msgstr "Die bekannten Probleme mit dieser alten Version sind:"
 
 #, php-format
 msgid "Unsupported/Insecure \"%s\" Version"
-msgstr ""
+msgstr "Nicht unterstützte/unsichere \\\"%s\\\"-Version"
 
 msgid ""
 "You must start the daemons to send email, rebuild search indexes, and do "
@@ -11725,7 +11725,7 @@ msgid ""
 msgstr ""
 
 msgid "Managing Daemons with phd"
-msgstr ""
+msgstr "Dämonen mit phd verwalten"
 
 #, php-format
 msgid ""
@@ -11737,7 +11737,7 @@ msgid ""
 msgstr ""
 
 msgid "Daemons Not Running"
-msgstr ""
+msgstr "Dämonen laufen nicht"
 
 #, fuzzy
 msgid "Daemons Are Not Running"
@@ -11745,7 +11745,7 @@ msgstr "Daemon läuft nicht."
 
 
 msgid "At least one daemon is currently running as the wrong user."
-msgstr ""
+msgstr "Mindestens ein Dämon läuft derzeit als falscher Benutzer."
 
 #, php-format
 msgid ""
@@ -11756,14 +11756,14 @@ msgid ""
 msgstr ""
 
 msgid "Daemon Running as Wrong User"
-msgstr ""
+msgstr "Dämon läuft als falscher Benutzer"
 
 msgid "Deprecated mysql.host Format"
-msgstr ""
+msgstr "Veraltetes mysql.host-Format"
 
 #, php-format
 msgid "Move port information from `%s` to `%s` in your config."
-msgstr ""
+msgstr "Portinformationen in der Konfiguration von `%s` nach `%s` verschieben."
 
 #, php-format
 msgid ""
@@ -11792,7 +11792,7 @@ msgid ""
 msgstr ""
 
 msgid "MySQL InnoDB Engine Not Available"
-msgstr ""
+msgstr "MySQL InnoDB-Engine nicht verfügbar"
 
 #, php-format
 msgid ""
@@ -11801,7 +11801,7 @@ msgid ""
 msgstr ""
 
 msgid "Setup MySQL Schema"
-msgstr ""
+msgstr "MySQL-Schema einrichten"
 
 #, php-format
 msgid ""
@@ -11810,7 +11810,7 @@ msgid ""
 msgstr ""
 
 msgid "Upgrade MySQL Schema"
-msgstr ""
+msgstr "MySQL-Schema aktualisieren"
 
 #, php-format
 msgid ""
@@ -11831,7 +11831,7 @@ msgid ""
 msgstr ""
 
 msgid "Nonreplicating Replica"
-msgstr ""
+msgstr "Nicht replizierendes Replikat"
 
 #, php-format
 msgid ""
@@ -11842,11 +11842,11 @@ msgid ""
 msgstr ""
 
 msgid "Cluster Configuration Out of Sync"
-msgstr ""
+msgstr "Cluster-Konfiguration nicht synchronisiert"
 
 
 msgid "Elasticsearch is not reachable as configured."
-msgstr ""
+msgstr "Elasticsearch ist gemäß Konfiguration nicht erreichbar."
 
 #, php-format
 msgid ""
@@ -11857,10 +11857,10 @@ msgid ""
 msgstr ""
 
 msgid "Elasticsearch Misconfigured"
-msgstr ""
+msgstr "Elasticsearch falsch konfiguriert"
 
 msgid "You enabled Elasticsearch but the index does not exist."
-msgstr ""
+msgstr "Elasticsearch ist aktiviert, aber der Index existiert nicht."
 
 msgid ""
 "You likely enabled cluster.search without creating the index. Use the "
@@ -11873,7 +11873,7 @@ msgstr "Hostname für Elastic Search"
 
 
 msgid "Elasticsearch index exists but needs correction."
-msgstr ""
+msgstr "Elasticsearch-Index existiert, muss aber korrigiert werden."
 
 msgid ""
 "Either the schema for Elasticsearch has changed or Elasticsearch created the "
@@ -11881,16 +11881,16 @@ msgid ""
 msgstr ""
 
 msgid "Elasticsearch Index Schema Mismatch"
-msgstr ""
+msgstr "Elasticsearch-Index-Schema-Konflikt"
 
 msgid "Required PHP extensions are not installed."
-msgstr ""
+msgstr "Erforderliche PHP-Erweiterungen sind nicht installiert."
 
 msgid "Missing Required Extensions"
-msgstr ""
+msgstr "Erforderliche Erweiterungen fehlen"
 
 msgid "This option has been removed. You may delete it at your convenience."
-msgstr ""
+msgstr "Diese Option wurde entfernt. Sie kann bei Gelegenheit gelöscht werden."
 
 #, php-format
 msgid ""
@@ -11901,14 +11901,14 @@ msgid ""
 msgstr ""
 
 msgid "Obsolete Config"
-msgstr ""
+msgstr "Veraltete Konfiguration"
 
 #, php-format
 msgid "Obsolete Configuration Option \"%s\""
-msgstr ""
+msgstr "Veraltete Konfigurationsoption \\\"%s\\\""
 
 msgid "This option is not recognized. It may be misspelled."
-msgstr ""
+msgstr "Diese Option wird nicht erkannt. Möglicherweise ist sie falsch geschrieben."
 
 #, php-format
 msgid ""
@@ -11918,11 +11918,11 @@ msgid ""
 msgstr ""
 
 msgid "Unknown Config"
-msgstr ""
+msgstr "Unbekannte Konfiguration"
 
 #, php-format
 msgid "Unknown Configuration Option \"%s\""
-msgstr ""
+msgstr "Unbekannte Konfigurationsoption \\\"%s\\\""
 
 #, php-format
 msgid ""
@@ -11931,7 +11931,7 @@ msgstr ""
 
 #, php-format
 msgid "Configuration value \"%s\" is locked, but has a value in the database."
-msgstr ""
+msgstr "Konfigurationswert \\\"%s\\\" ist gesperrt, hat aber einen Wert in der Datenbank."
 
 #, php-format
 msgid ""
@@ -11959,13 +11959,13 @@ msgstr "Reparierte Konfiguration"
 
 #, php-format
 msgid "Locked Configuration Option \"%s\" Has Database Value"
-msgstr ""
+msgstr "Gesperrte Konfigurationsoption \\\"%s\\\" hat Datenbankwert"
 
 msgid "Feed Hooks Deprecated"
-msgstr ""
+msgstr "Feed-Hooks sind veraltet"
 
 msgid "Migrate From \"feed.http-hooks\" to Webhooks"
-msgstr ""
+msgstr "Von \\\"feed.http-hooks\\\" zu Webhooks migrieren"
 
 msgid ""
 "The \"feed.http-hooks\" option is deprecated in favor of Webhooks. This "
@@ -11984,7 +11984,7 @@ msgstr ""
 
 #, php-format
 msgid "Custom remarkup rules are now added by subclassing %s or %s."
-msgstr ""
+msgstr "Benutzerdefinierte Remarkup-Regeln werden jetzt durch Unterklassen von %s oder %s hinzugefügt."
 
 msgid ""
 "Sessions now expire and are garbage collected rather than having an "
@@ -12004,10 +12004,10 @@ msgid ""
 msgstr ""
 
 msgid "Reply handlers can no longer be overridden with configuration."
-msgstr ""
+msgstr "Antwort-Handler können nicht mehr durch Konfiguration überschrieben werden."
 
 msgid "Global customization of monospaced fonts is no longer supported."
-msgstr ""
+msgstr "Globale Anpassung von Monospace-Schriftarten wird nicht mehr unterstützt."
 
 msgid ""
 "Inbound mail addresses are now configured for each application in the "
@@ -12016,7 +12016,7 @@ msgstr ""
 
 #, php-format
 msgid "Garbage collectors are now configured with \"%s\"."
-msgstr ""
+msgstr "Garbage Collectors werden jetzt mit \\\"%s\\\" konfiguriert."
 
 msgid ""
 "Configuration of the notification server has changed substantially. For "
@@ -12040,10 +12040,10 @@ msgstr ""
 
 #, php-format
 msgid "Elasticsearch is now configured with \"%s\"."
-msgstr ""
+msgstr "Elasticsearch wird jetzt mit \\\"%s\\\" konfiguriert."
 
 msgid "Inbound and outbound mail is now configured with \"cluster.mailers\"."
-msgstr ""
+msgstr "Ein- und ausgehende Mail wird jetzt mit \\\"cluster.mailers\\\" konfiguriert."
 
 msgid ""
 "Per-application mail subject prefix customization is no longer directly "
@@ -12052,7 +12052,7 @@ msgid ""
 msgstr ""
 
 msgid "Use \"bin/phd debug ...\" to get a detailed daemon execution log."
-msgstr ""
+msgstr "\\\"bin/phd debug ...\\\" verwenden, um ein detailliertes Ausführungsprotokoll des Dämons zu erhalten."
 
 #, php-format
 msgid ""
@@ -12073,11 +12073,11 @@ msgid ""
 msgstr ""
 
 msgid "SSH keys are now actually useful, so they are always enabled."
-msgstr ""
+msgstr "SSH-Schlüssel sind jetzt tatsächlich nützlich und daher immer aktiviert."
 
 #, php-format
 msgid "Global access controls now exist, see `%s`."
-msgstr ""
+msgstr "Globale Zugriffskontrollen existieren jetzt, siehe `%s`."
 
 msgid ""
 "An alternate resource map is no longer supported. Instead, use multiple "
@@ -12085,13 +12085,13 @@ msgid ""
 msgstr ""
 
 msgid "Mail is now always delivered by the daemons."
-msgstr ""
+msgstr "Mail wird jetzt immer von den Dämonen zugestellt."
 
 msgid "Typeahead strategies are now managed automatically."
-msgstr ""
+msgstr "Typeahead-Strategien werden jetzt automatisch verwaltet."
 
 msgid "Obsolete; use standard rendering events instead."
-msgstr ""
+msgstr "Veraltet; stattdessen Standard-Rendering-Ereignisse verwenden."
 
 #, php-format
 msgid ""
@@ -12105,7 +12105,7 @@ msgid ""
 msgstr ""
 
 msgid "Notifications no longer have a dedicated debugging mode."
-msgstr ""
+msgstr "Benachrichtigungen haben keinen dedizierten Debugging-Modus mehr."
 
 msgid ""
 "The translation implementation has changed and providers are no longer used "
@@ -12114,7 +12114,7 @@ msgstr ""
 
 #, php-format
 msgid "Use `%s` instead of this option."
-msgstr ""
+msgstr "Stattdessen `%s` verwenden."
 
 #, php-format
 msgid ""
@@ -12123,7 +12123,7 @@ msgid ""
 msgstr ""
 
 msgid "Storage engines are now discovered automatically at runtime."
-msgstr ""
+msgstr "Speicher-Engines werden jetzt zur Laufzeit automatisch erkannt."
 
 msgid ""
 "Arbitrarily large files are now supported. Consult the documentation for "
@@ -12132,10 +12132,10 @@ msgstr ""
 
 #, php-format
 msgid "This option has been replaced with the more granular option `%s`."
-msgstr ""
+msgstr "Diese Option wurde durch die detailliertere Option `%s` ersetzt."
 
 msgid "Reply hints are no longer shown in mail."
-msgstr ""
+msgstr "Antworthinweise werden nicht mehr in Mails angezeigt."
 
 msgid ""
 "Transaction mail is now always sent with \"Precedence: bulk\" to improve "
@@ -12143,13 +12143,13 @@ msgid ""
 msgstr ""
 
 msgid "Available search engines are now automatically discovered at runtime."
-msgstr ""
+msgstr "Verfügbare Suchmaschinen werden jetzt zur Laufzeit automatisch erkannt."
 
 msgid "Impersonating users over the API is no longer supported."
-msgstr ""
+msgstr "Benutzerverkörperung über die API wird nicht mehr unterstützt."
 
 msgid "The framable public feed is no longer supported."
-msgstr ""
+msgstr "Der einbettbare öffentliche Feed wird nicht mehr unterstützt."
 
 msgid ""
 "This configuration option has been replaced with a modular handler. See "
@@ -12171,10 +12171,10 @@ msgid ""
 msgstr ""
 
 msgid "The best available MYSQL implementation is now selected automatically."
-msgstr ""
+msgstr "Die beste verfügbare MySQL-Implementierung wird jetzt automatisch ausgewählt."
 
 msgid "Partitioning and replication are now managed in primary configuration."
-msgstr ""
+msgstr "Partitionierung und Replikation werden jetzt in der Primärkonfiguration verwaltet."
 
 msgid ""
 "This option generally did not prove useful. Resource hash keys are now "
@@ -12182,25 +12182,25 @@ msgid ""
 msgstr ""
 
 msgid "Resource deflation is now managed automatically."
-msgstr ""
+msgstr "Ressourcenkomprimierung wird jetzt automatisch verwaltet."
 
 msgid "Resource minification is now managed automatically."
-msgstr ""
+msgstr "Ressourcenminifizierung wird jetzt automatisch verwaltet."
 
 msgid "Mail thread IDs are now generated automatically."
-msgstr ""
+msgstr "Mail-Thread-IDs werden jetzt automatisch generiert."
 
 msgid "Placeholder recipients are now generated automatically."
-msgstr ""
+msgstr "Platzhalterempfänger werden jetzt automatisch generiert."
 
 msgid "Mail object address hash keys are now generated automatically."
-msgstr ""
+msgstr "Mail-Objekt-Adress-Hash-Schlüssel werden jetzt automatisch generiert."
 
 msgid "CSRF HMAC keys are now managed automatically."
-msgstr ""
+msgstr "CSRF-HMAC-Schlüssel werden jetzt automatisch verwaltet."
 
 msgid "Authenticating users based on \"Reply-To\" is no longer supported."
-msgstr ""
+msgstr "Benutzerauthentifizierung auf Basis von \\\"Reply-To\\\" wird nicht mehr unterstützt."
 
 msgid ""
 "Public email is now accepted if the associated address has a default author, "
@@ -12213,10 +12213,10 @@ msgid ""
 msgstr ""
 
 msgid "Whitespace rendering is now handled automatically."
-msgstr ""
+msgstr "Leerraumdarstellung wird jetzt automatisch gehandhabt."
 
 msgid "Daemons no longer use PID files."
-msgstr ""
+msgstr "Dämonen verwenden keine PID-Dateien mehr."
 
 #, php-format
 msgid ""
@@ -12226,7 +12226,7 @@ msgstr ""
 
 #, php-format
 msgid "Missing '%s' Extension"
-msgstr ""
+msgstr "Erweiterung '%s' fehlt"
 
 #, php-format
 msgid ""
@@ -12244,7 +12244,7 @@ msgstr ""
 
 #, php-format
 msgid "Partial '%s' Support"
-msgstr ""
+msgstr "Teilweise '%s'-Unterstützung"
 
 #, php-format
 msgid ""
@@ -12255,11 +12255,11 @@ msgstr ""
 
 #, php-format
 msgid "'%s' or '%s' binary not found or Imagemagick is not installed."
-msgstr ""
+msgstr "Binärdatei '%s' oder '%s' nicht gefunden oder Imagemagick ist nicht installiert."
 
 #, php-format
 msgid "Config '%s' Invalid"
-msgstr ""
+msgstr "Konfiguration '%s' ungültig"
 
 #, php-format
 msgid ""
@@ -12274,7 +12274,7 @@ msgid ""
 msgstr ""
 
 msgid "Mailers Not Configured"
-msgstr ""
+msgstr "Mailer nicht konfiguriert"
 
 #, fuzzy
 msgid "Rebuild Search Index"
@@ -12292,10 +12292,10 @@ msgid ""
 msgstr ""
 
 msgid "You can rebuild the search index while the server is running."
-msgstr ""
+msgstr "Der Suchindex kann bei laufendem Server neu aufgebaut werden."
 
 msgid "To rebuild the index, run this command:"
-msgstr ""
+msgstr "Um den Index neu aufzubauen, diesen Befehl ausführen:"
 
 #, php-format
 msgid ""
@@ -12313,11 +12313,11 @@ msgstr "Alle Repositories"
 
 #, php-format
 msgid "The mapping from VCS users to %s users has changed and must be rebuilt."
-msgstr ""
+msgstr "Die Zuordnung von VCS-Benutzern zu %s-Benutzern hat sich geändert und muss neu aufgebaut werden."
 
 #, php-format
 msgid "The way VCS activity is attributed %s user accounts has changed."
-msgstr ""
+msgstr "Die Art, wie VCS-Aktivitäten %s-Benutzerkonten zugeordnet werden, hat sich geändert."
 
 msgid ""
 "There is a new indirection layer between the strings that appear as VCS "
@@ -12336,14 +12336,14 @@ msgid ""
 msgstr ""
 
 msgid "You can rebuild repository identities while the server is running."
-msgstr ""
+msgstr "Repository-Identitäten können bei laufendem Server neu aufgebaut werden."
 
 msgid "To rebuild identities, run this command:"
-msgstr ""
+msgstr "Um Identitäten neu aufzubauen, diesen Befehl ausführen:"
 
 #, php-format
 msgid "You can find more information about this new identity mapping here: %s"
-msgstr ""
+msgstr "Weitere Informationen zu dieser neuen Identitätszuordnung gibt es hier: %s"
 
 msgid ""
 "After rebuilding repository identities, run this command to clear this setup "
@@ -12359,7 +12359,7 @@ msgstr ""
 
 #, php-format
 msgid "Small MySQL \"%s\""
-msgstr ""
+msgstr "Kleines MySQL \\\"%s\\\""
 
 #, php-format
 msgid ""
@@ -12405,7 +12405,7 @@ msgstr ""
 
 #, php-format
 msgid "MySQL %s Mode Not Set"
-msgstr ""
+msgstr "MySQL %s-Modus nicht gesetzt"
 
 #, php-format
 msgid ""
@@ -12426,7 +12426,7 @@ msgstr ""
 
 #, php-format
 msgid "MySQL %s Not Supported"
-msgstr ""
+msgstr "MySQL %s nicht unterstützt"
 
 #, php-format
 msgid ""
@@ -12459,7 +12459,7 @@ msgid ""
 msgstr ""
 
 msgid "MySQL is Using Default Stopword File"
-msgstr ""
+msgstr "MySQL verwendet Standard-Stoppwortdatei"
 
 #, php-format
 msgid ""
@@ -12488,7 +12488,7 @@ msgid ""
 msgstr ""
 
 msgid "MySQL is Using Default Minimum Word Length"
-msgstr ""
+msgstr "MySQL verwendet Standard-Mindestworteraumlänge"
 
 #, php-format
 msgid ""
@@ -12522,7 +12522,7 @@ msgid ""
 msgstr ""
 
 msgid "MySQL May Run Slowly"
-msgstr ""
+msgstr "MySQL könnte langsam laufen"
 
 #, php-format
 msgid ""
@@ -12539,10 +12539,10 @@ msgid ""
 msgstr ""
 
 msgid "Old MySQL Version"
-msgstr ""
+msgstr "Alte MySQL-Version"
 
 msgid "Major Web/Database Clock Skew"
-msgstr ""
+msgstr "Erhebliche Zeitabweichung zwischen Web und Datenbank"
 
 #, php-format
 msgid ""
@@ -12558,7 +12558,7 @@ msgid ""
 msgstr ""
 
 msgid "The MySQL \"local_infile\" option is enabled. This option is unsafe."
-msgstr ""
+msgstr "Die MySQL-Option \\\"local_infile\\\" ist aktiviert. Diese Option ist unsicher."
 
 #, php-format
 msgid ""
@@ -12574,7 +12574,7 @@ msgid ""
 msgstr ""
 
 msgid "Unsafe MySQL \"local_infile\" Setting Enabled"
-msgstr ""
+msgstr "Unsichere MySQL-Einstellung \\\"local_infile\\\" aktiviert"
 
 msgid ""
 "You likely need to fix your preamble script so REMOTE_ADDR is no longer "
@@ -12602,11 +12602,11 @@ msgstr "Keine Daten verfügbar."
 
 #, php-format
 msgid "Disable unsafe option \"%s\" in PHP configuration."
-msgstr ""
+msgstr "Unsichere Option \\\"%s\\\" in der PHP-Konfiguration deaktivieren."
 
 #, php-format
 msgid "%s = 0"
-msgstr ""
+msgstr "%s = 0"
 
 #, php-format
 msgid ""
@@ -12626,7 +12626,7 @@ msgid ""
 msgstr ""
 
 msgid "Unsafe PHP \"Local Infile\" Configuration"
-msgstr ""
+msgstr "Unsichere PHP-\\\"Local Infile\\\"-Konfiguration"
 
 #, php-format
 msgid ""
@@ -12638,7 +12638,7 @@ msgstr ""
 
 #, php-format
 msgid "Remove PHP %s"
-msgstr ""
+msgstr "PHP %s entfernen"
 
 #, php-format
 msgid ""
@@ -12651,7 +12651,7 @@ msgstr ""
 
 #, php-format
 msgid "Disable PHP %s"
-msgstr ""
+msgstr "PHP %s deaktivieren"
 
 #, php-format
 msgid ""
@@ -12677,7 +12677,7 @@ msgstr ""
 
 #, php-format
 msgid "%s Not Set"
-msgstr ""
+msgstr "%s nicht gesetzt"
 
 #, php-format
 msgid ""
@@ -12710,7 +12710,7 @@ msgstr "%s abgeschlossen"
 
 #, php-format
 msgid "A component of the configured PATH can not be used by the webserver: %s"
-msgstr ""
+msgstr "Eine Komponente des konfigurierten PATH kann vom Webserver nicht verwendet werden: %s"
 
 #, php-format
 msgid ""
@@ -12737,7 +12737,7 @@ msgstr ""
 
 #, php-format
 msgid "%s Not Found"
-msgstr ""
+msgstr "%s nicht gefunden"
 
 #, php-format
 msgid ""
@@ -12753,7 +12753,7 @@ msgstr ""
 
 #, php-format
 msgid "%s Not Working"
-msgstr ""
+msgstr "%s funktioniert nicht"
 
 msgid ""
 "Pygments should be installed and enabled to provide advanced syntax "
@@ -12773,14 +12773,14 @@ msgid ""
 msgstr ""
 
 msgid "Install Pygments to Improve Syntax Highlighting"
-msgstr ""
+msgstr "Pygments installieren, um Syntax-Highlighting zu verbessern"
 
 #, php-format
 msgid "The configuration option '%s' is not set."
-msgstr ""
+msgstr "Die Konfigurationsoption '%s' ist nicht gesetzt."
 
 msgid "Missing Repository Local Path"
-msgstr ""
+msgstr "Lokaler Pfad des Repositories fehlt"
 
 msgid ""
 "The path for local repositories does not exist, or is not readable by the "
@@ -12804,7 +12804,7 @@ msgid ""
 msgstr ""
 
 msgid "T6185 \"Shellshock\" Bash Vulnerability"
-msgstr ""
+msgstr "T6185 \\\"Shellshock\\\"-Bash-Sicherheitslücke"
 
 #, php-format
 msgid ""
@@ -12817,13 +12817,13 @@ msgid ""
 msgstr ""
 
 msgid "Severe Security Vulnerability: Unpatched Bash"
-msgstr ""
+msgstr "Schwerwiegende Sicherheitslücke: Nicht gepatchtes Bash"
 
 msgid "Alternate File Domain Not Configured"
-msgstr ""
+msgstr "Alternative Dateidomain nicht konfiguriert"
 
 msgid "Improve security by configuring an alternate file domain."
-msgstr ""
+msgstr "Sicherheit durch Konfiguration einer alternativen Dateidomain verbessern."
 
 msgid ""
 "This software is currently configured to serve user uploads directly from "
@@ -12834,14 +12834,14 @@ msgid ""
 msgstr ""
 
 msgid "Configuration Guide: Configuring a File Domain"
-msgstr ""
+msgstr "Konfigurationsanleitung: Dateidomain konfigurieren"
 
 #, php-format
 msgid "Two setup checks raised an issue with key '%s'!"
-msgstr ""
+msgstr "Zwei Setup-Prüfungen haben ein Problem mit Schlüssel '%s' gemeldet!"
 
 msgid "Configuring File Storage"
-msgstr ""
+msgstr "Dateispeicher konfigurieren"
 
 #, php-format
 msgid ""
@@ -12851,10 +12851,10 @@ msgid ""
 msgstr ""
 
 msgid "Large Files"
-msgstr ""
+msgstr "Große Dateien"
 
 msgid "Large File Storage Not Configured"
-msgstr ""
+msgstr "Großdateispeicher nicht konfiguriert"
 
 #, php-format
 msgid ""
@@ -12869,7 +12869,7 @@ msgid ""
 msgstr ""
 
 msgid "PHP post_max_size Not Configured"
-msgstr ""
+msgstr "PHP post_max_size nicht konfiguriert"
 
 msgid ""
 "Your PHP memory limit is configured in a way that may prevent you from "
@@ -12899,7 +12899,7 @@ msgid ""
 msgstr ""
 
 msgid "Memory Limit Restricts File Uploads"
-msgstr ""
+msgstr "Speicherlimit schränkt Dateiuploads ein"
 
 #, php-format
 msgid ""
@@ -12909,10 +12909,10 @@ msgid ""
 msgstr ""
 
 msgid "Local Disk Storage"
-msgstr ""
+msgstr "Lokaler Festplattenspeicher"
 
 msgid "Local Disk Storage Not Readable/Writable"
-msgstr ""
+msgstr "Lokaler Festplattenspeicher nicht les-/schreibbar"
 
 msgid ""
 "File storage in Amazon S3 has been partially configured, but you are missing "
@@ -12927,17 +12927,17 @@ msgstr "Teilweise Überprüft"
 
 
 msgid "Amazon S3 is Only Partially Configured"
-msgstr ""
+msgstr "Amazon S3 ist nur teilweise konfiguriert"
 
 msgid ""
 "Your PHP configuration selects an invalid timezone. Select a valid timezone."
 msgstr ""
 
 msgid "PHP Timezone"
-msgstr ""
+msgstr "PHP-Zeitzone"
 
 msgid "PHP Timezone Invalid"
-msgstr ""
+msgstr "PHP-Zeitzone ungültig"
 
 msgid ""
 "Without a configured timezone, PHP will emit warnings when working with "
@@ -12952,10 +12952,10 @@ msgid ""
 msgstr ""
 
 msgid "Timezone"
-msgstr ""
+msgstr "Zeitzone"
 
 msgid "Server Timezone Not Configured"
-msgstr ""
+msgstr "Server-Zeitzone nicht konfiguriert"
 
 #, fuzzy
 msgid "Disable Pagespeed"
@@ -12963,7 +12963,7 @@ msgstr "Erneutes Öffnen deaktivieren"
 
 
 msgid "Pagespeed is enabled, but should be disabled."
-msgstr ""
+msgstr "Pagespeed ist aktiviert, sollte aber deaktiviert sein."
 
 msgid ""
 "This server received an \"X-Mod-Pagespeed\" or \"X-Page-Speed\" HTTP header "
@@ -12981,10 +12981,10 @@ msgid ""
 msgstr ""
 
 msgid "Installed on Burstable CPU Instance"
-msgstr ""
+msgstr "Auf Burst-CPU-Instanz installiert"
 
 msgid "Do not install this software on an instance class with burstable CPU."
-msgstr ""
+msgstr "Diese Software nicht auf einer Instanz mit Burst-CPU installieren."
 
 msgid ""
 "This software sent itself a request with \"Accept-Encoding: gzip\", but "
@@ -12996,10 +12996,10 @@ msgid ""
 msgstr ""
 
 msgid "GZip Compression May Not Be Enabled"
-msgstr ""
+msgstr "GZip-Komprimierung möglicherweise nicht aktiviert"
 
 msgid "Your webserver may have compression disabled."
-msgstr ""
+msgstr "Dein Webserver hat möglicherweise die Komprimierung deaktiviert."
 
 #, php-format
 msgid ""
@@ -13024,10 +13024,10 @@ msgid ""
 msgstr ""
 
 msgid "Mangled Webserver Response"
-msgstr ""
+msgstr "Beschädigte Webserver-Antwort"
 
 msgid "Your webserver produced an unexpected response."
-msgstr ""
+msgstr "Dein Webserver hat eine unerwartete Antwort erzeugt."
 
 #, php-format
 msgid ""
@@ -13042,10 +13042,10 @@ msgid ""
 msgstr ""
 
 msgid "HTTP Basic Auth Not Configured"
-msgstr ""
+msgstr "HTTP Basic Auth nicht konfiguriert"
 
 msgid "Your webserver is not forwarding credentials."
-msgstr ""
+msgstr "Dein Webserver leitet keine Zugangsdaten weiter."
 
 #, php-format
 msgid ""
@@ -13066,13 +13066,13 @@ msgid ""
 msgstr ""
 
 msgid "HTTP Path Rewriting Incorrect"
-msgstr ""
+msgstr "HTTP-Pfadumschreibung inkorrekt"
 
 msgid "Your webserver is rewriting paths improperly."
-msgstr ""
+msgstr "Dein Webserver schreibt Pfade falsch um."
 
 msgid "<none>"
-msgstr ""
+msgstr "<keine>"
 
 #, php-format
 msgid ""
@@ -13087,10 +13087,10 @@ msgid ""
 msgstr ""
 
 msgid "HTTP Parameters Not Transmitting"
-msgstr ""
+msgstr "HTTP-Parameter werden nicht übertragen"
 
 msgid "Your webserver is not handling GET parameters properly."
-msgstr ""
+msgstr "Dein Webserver verarbeitet GET-Parameter nicht korrekt."
 
 msgid ""
 "This software sent itself a test request that was compressed with \"Content-"
@@ -13121,7 +13121,7 @@ msgstr "Das angeforderte Bild ist nicht mehr aktuell."
 
 
 msgid "The request body that was received began:"
-msgstr ""
+msgstr "Der empfangene Anfragekörper begann:"
 
 msgid ""
 "Identify the component in your webserver configuration which is "
@@ -13130,10 +13130,10 @@ msgid ""
 msgstr ""
 
 msgid "Compressed Requests Not Received Properly"
-msgstr ""
+msgstr "Komprimierte Anfragen werden nicht korrekt empfangen"
 
 msgid "Your webserver is not handling compressed request bodies properly."
-msgstr ""
+msgstr "Dein Webserver verarbeitet komprimierte Anfragekörper nicht korrekt."
 
 #, fuzzy
 msgid "<empty>"
@@ -13152,11 +13152,11 @@ msgid ""
 msgstr ""
 
 msgid "Missing \"zip\" Extension"
-msgstr ""
+msgstr "\\\"zip\\\"-Erweiterung fehlt"
 
 #, php-format
 msgid "%s's home page"
-msgstr ""
+msgstr "Startseite von %s"
 
 
 #, php-format
@@ -13181,11 +13181,11 @@ msgstr "Version %s"
 
 
 msgid "Recorded items (sample):"
-msgstr ""
+msgstr "Aufgezeichnete Einträge (Stichprobe):"
 
 #, php-format
 msgid "%s, occurrences: %s"
-msgstr ""
+msgstr "%s, Vorkommen: %s"
 
 #, fuzzy
 msgid "Deprecated Code"
@@ -13193,7 +13193,7 @@ msgstr "Erzeugt vor"
 
 
 msgid "There is some deprecated code found in the code-base."
-msgstr ""
+msgstr "Im Code-Bestand wurde veralteter Code gefunden."
 
 #, fuzzy
 msgid "Core Settings"
@@ -13204,7 +13204,7 @@ msgid "Application Settings"
 msgstr "Anwendungseinstellungen"
 
 msgid "Developer Settings"
-msgstr ""
+msgstr "Entwicklereinstellungen"
 
 msgid "Unknown"
 msgstr "Unbekannt"
@@ -13213,16 +13213,16 @@ msgid "Application"
 msgstr "Anwendung"
 
 msgid "Developer"
-msgstr ""
+msgstr "Entwickler"
 
 msgid "Review and modify configuration settings."
-msgstr ""
+msgstr "Konfigurationseinstellungen überprüfen und ändern."
 
 msgid "Setup Issues"
 msgstr "Probleme bei der Installation"
 
 msgid "Show unresolved issues with setup and configuration."
-msgstr ""
+msgstr "Ungelöste Probleme mit Setup und Konfiguration anzeigen."
 
 msgid ""
 "View status information for databases, caches, repositories, and other "
@@ -13230,7 +13230,7 @@ msgid ""
 msgstr ""
 
 msgid "Extensions/Modules"
-msgstr ""
+msgstr "Erweiterungen/Module"
 
 #, fuzzy
 msgid "Show installed extensions and modules."
@@ -13238,13 +13238,13 @@ msgstr "Zeige Aktive und Inaktive Regeln"
 
 
 msgid "Configuration"
-msgstr ""
+msgstr "Konfiguration"
 
 msgid "Library"
 msgstr "Bibliothek"
 
 msgid "Version"
-msgstr ""
+msgstr "Version"
 
 #, fuzzy
 msgid "Branchpoint"
@@ -13278,7 +13278,7 @@ msgid ""
 msgstr ""
 
 msgid "Really ignore this setup issue?"
-msgstr ""
+msgstr "Dieses Setup-Problem wirklich ignorieren?"
 
 msgid "Ignore"
 msgstr "Ignorieren"
@@ -13302,13 +13302,13 @@ msgstr ""
 
 #, php-format
 msgid "Unrecognized verb: %s"
-msgstr ""
+msgstr "Unbekanntes Verb: %s"
 
 msgid "No Issues"
-msgstr ""
+msgstr "Keine Probleme"
 
 msgid "Your install has no current setup issues to resolve."
-msgstr ""
+msgstr "Deine Installation hat keine aktuellen Setup-Probleme zu lösen."
 
 #, fuzzy
 msgid "Unresolved Setup Issues"
@@ -13316,7 +13316,7 @@ msgstr "Setup-Probleme lösen"
 
 
 msgid "You have no unresolved setup issues."
-msgstr ""
+msgstr "Du hast keine ungelösten Setup-Probleme."
 
 
 msgid "Issue Resolved"
@@ -13326,34 +13326,34 @@ msgid "This setup issue has been resolved. "
 msgstr "Dieses Installationsproblem wurde gelöst."
 
 msgid "Return to Open Issue List"
-msgstr ""
+msgstr "Zur Liste offener Probleme zurückkehren"
 
 msgid "Resolved Issue"
 msgstr "Problem gelöst"
 
 msgid "Purge Caches"
-msgstr ""
+msgstr "Caches leeren"
 
 msgid "Cache Status"
-msgstr ""
+msgstr "Cache-Status"
 
 msgid "Opcode Cache"
-msgstr ""
+msgstr "Opcode-Cache"
 
 msgid "Pattern"
-msgstr ""
+msgstr "Muster"
 
 msgid "Count"
-msgstr ""
+msgstr "Anzahl"
 
 msgid "Largest"
-msgstr ""
+msgstr "Größter"
 
 msgid "Total"
 msgstr "Summe"
 
 msgid "Usage"
-msgstr ""
+msgstr "Verwendung"
 
 #, fuzzy
 msgid "Cache Storage"
@@ -13361,23 +13361,23 @@ msgstr "Speicherort"
 
 
 msgid "Data Cache"
-msgstr ""
+msgstr "Datencache"
 
 msgid "Cache"
-msgstr ""
+msgstr "Cache"
 
 msgid "Not Enabled"
-msgstr ""
+msgstr "Nicht aktiviert"
 
 msgid "Memory Usage"
-msgstr ""
+msgstr "Speichernutzung"
 
 #, php-format
 msgid "%s of %s"
 msgstr "%s von %s"
 
 msgid "Cache Entries"
-msgstr ""
+msgstr "Cache-Einträge"
 
 #, fuzzy
 msgid "Database Servers"
@@ -13385,7 +13385,7 @@ msgstr "Datenbank"
 
 
 msgid "Master"
-msgstr ""
+msgstr "Master"
 
 #, fuzzy
 msgid "Replica"
@@ -13394,10 +13394,10 @@ msgstr "Antworten"
 
 #, php-format
 msgid "%ss Behind"
-msgstr ""
+msgstr "%s Sekunden zurück"
 
 msgid "Up to Date"
-msgstr ""
+msgstr "Aktuell"
 
 msgid ""
 "UNHEALTHY: This database has failed recent health checks. Traffic will not "
@@ -13406,7 +13406,7 @@ msgstr ""
 
 #, php-format
 msgid "%s / %s"
-msgstr ""
+msgstr "%s / %s"
 
 #, fuzzy
 msgid "Default Partition"
@@ -13414,7 +13414,7 @@ msgstr "Vorgabebild"
 
 
 msgid "Empty"
-msgstr ""
+msgstr "Leer"
 
 #, fuzzy, php-format
 msgid "Partition: %s"
@@ -13422,10 +13422,10 @@ msgstr "Dauer: %s"
 
 
 msgid "This server is not configured in cluster mode."
-msgstr ""
+msgstr "Dieser Server ist nicht im Cluster-Modus konfiguriert."
 
 msgid "Connection"
-msgstr ""
+msgstr "Verbindung"
 
 #, fuzzy
 msgid "Replication"
@@ -13433,7 +13433,7 @@ msgstr "Anwendung"
 
 
 msgid "Health"
-msgstr ""
+msgstr "Zustand"
 
 #, fuzzy
 msgid "Notification Servers"
@@ -13446,32 +13446,32 @@ msgstr "Benachrichtigungen"
 
 
 msgid "Admin Server"
-msgstr ""
+msgstr "Admin-Server"
 
 msgid "Client Server"
-msgstr ""
+msgstr "Client-Server"
 
 #, php-format
 msgid "Version %s"
 msgstr "Version %s"
 
 msgid "Connection Error"
-msgstr ""
+msgstr "Verbindungsfehler"
 
 msgid "Connected"
 msgstr "Verbunden"
 
 #, php-format
 msgid "%s Active / %s Total"
-msgstr ""
+msgstr "%s aktiv / %s gesamt"
 
 #, php-format
 msgid "%s In / %s Out"
-msgstr ""
+msgstr "%s ein / %s aus"
 
 #, php-format
 msgid "%s Held / %sms"
-msgstr ""
+msgstr "%s gehalten / %s ms"
 
 #, fuzzy
 msgid "No Messages"
@@ -13484,13 +13484,13 @@ msgstr "Keine Benachrichtigungen."
 
 
 msgid "Proto"
-msgstr ""
+msgstr "Proto"
 
 msgid "Uptime"
-msgstr ""
+msgstr "Laufzeit"
 
 msgid "Clients"
-msgstr ""
+msgstr "Clients"
 
 msgid "History"
 msgstr "Historie"
@@ -13515,12 +13515,12 @@ msgstr "Offen"
 
 #, php-format
 msgid "%s Active"
-msgstr ""
+msgstr "%s aktiv"
 
 
 #, php-format
 msgid "Repository %s has an ambiguous leader."
-msgstr ""
+msgstr "Repository %s hat einen mehrdeutigen Leader."
 
 #, fuzzy, php-format
 msgid "Repository %s has unreplicated changes (for %s)."
@@ -13529,20 +13529,20 @@ msgstr "%s plant Änderungen für %s."
 
 #, php-format
 msgid "Repository %s has unreplicated changes."
-msgstr ""
+msgstr "Repository %s hat nicht replizierte Änderungen."
 
 
 msgid "Ambiguous Leader"
-msgstr ""
+msgstr "Mehrdeutiger Leader"
 
 msgid "Unsynchronized"
-msgstr ""
+msgstr "Nicht synchronisiert"
 
 msgid "Partial"
-msgstr ""
+msgstr "Partiell"
 
 msgid "Synchronized"
-msgstr ""
+msgstr "Synchronisiert"
 
 #, fuzzy
 msgid "No Repositories"
@@ -13555,7 +13555,7 @@ msgstr "%s (%s)"
 
 
 msgid "No repository cluster services are configured."
-msgstr ""
+msgstr "Keine Repository-Cluster-Dienste konfiguriert."
 
 #, fuzzy
 msgid "Repos"
@@ -13563,10 +13563,10 @@ msgstr "Repository"
 
 
 msgid "Sync"
-msgstr ""
+msgstr "Sync"
 
 msgid "No active repositories have outstanding errors."
-msgstr ""
+msgstr "Keine aktiven Repositories haben ausstehende Fehler."
 
 msgid "Repository"
 msgstr "Repository"
@@ -13583,7 +13583,7 @@ msgstr "Keine Zahlungsmethoden konfiguriert"
 
 #, php-format
 msgid "%s Stats"
-msgstr ""
+msgstr "%s-Statistiken"
 
 
 #, fuzzy
@@ -13592,7 +13592,7 @@ msgstr "Keine Nachrichten für Dich bis jetzt."
 
 
 msgid "Server"
-msgstr ""
+msgstr "Server"
 
 msgid "Database"
 msgstr "Datenbank"
@@ -13601,18 +13601,18 @@ msgid "Table"
 msgstr "Tabelle"
 
 msgid "Column/Key"
-msgstr ""
+msgstr "Spalte/Schlüssel"
 
 msgid "Issue"
-msgstr ""
+msgstr "Problem"
 
 #, php-format
 msgid "Detected %s serious issue(s) with the schemata."
-msgstr ""
+msgstr "%s schwerwiegendes/e Problem(e) mit den Schemata erkannt."
 
 #, php-format
 msgid "Detected %s warning(s) with the schemata."
-msgstr ""
+msgstr "%s Warnung(en) mit den Schemata erkannt."
 
 #, fuzzy
 msgid "Schemata Issues"
@@ -13620,69 +13620,69 @@ msgstr "Probleme bei der Installation"
 
 
 msgid "Database Status"
-msgstr ""
+msgstr "Datenbankstatus"
 
 msgid "Charset"
-msgstr ""
+msgstr "Zeichensatz"
 
 msgid "Collation"
-msgstr ""
+msgstr "Sortierung"
 
 msgid "Persistence"
-msgstr ""
+msgstr "Persistenz"
 
 msgid "Character Set"
-msgstr ""
+msgstr "Zeichensatz"
 
 msgid "Expected Character Set"
-msgstr ""
+msgstr "Erwarteter Zeichensatz"
 
 msgid "Expected Collation"
-msgstr ""
+msgstr "Erwartete Sortierung"
 
 msgid "Column"
-msgstr ""
+msgstr "Spalte"
 
 msgid "Data Type"
-msgstr ""
+msgstr "Datentyp"
 
 msgid "Column Type"
-msgstr ""
+msgstr "Spaltentyp"
 
 msgid "Nullable"
-msgstr ""
+msgstr "Nullable"
 
 msgid "Autoincrement"
-msgstr ""
+msgstr "Auto-Inkrement"
 
 msgid "Columns"
-msgstr ""
+msgstr "Spalten"
 
 msgid "Unique"
-msgstr ""
+msgstr "Eindeutig"
 
 msgid "Size"
 msgstr "Größe"
 
 #, php-format
 msgid "%s.%s"
-msgstr ""
+msgstr "%s.%s"
 
 msgid "Keys"
-msgstr ""
+msgstr "Schlüssel"
 
 #, php-format
 msgid "%s.%s.%s"
-msgstr ""
+msgstr "%s.%s.%s"
 
 msgid "Expected Column Type"
-msgstr ""
+msgstr "Erwarteter Spaltentyp"
 
 msgid "Expected Nullable"
-msgstr ""
+msgstr "Erwartetes Nullable"
 
 msgid "Expected Autoincrement"
-msgstr ""
+msgstr "Erwartetes Auto-Inkrement"
 
 #, fuzzy, php-format
 msgid "%s.%s (%s)"
@@ -13690,16 +13690,16 @@ msgstr "%s (%s)"
 
 
 msgid "Expected Unique"
-msgstr ""
+msgstr "Erwartetes Eindeutig"
 
 msgid "Expected Columns"
-msgstr ""
+msgstr "Erwartete Spalten"
 
 msgid "No Schema Issues"
-msgstr ""
+msgstr "Keine Schema-Probleme"
 
 msgid "Schema Status"
-msgstr ""
+msgstr "Schema-Status"
 
 #, fuzzy
 msgid "No Caches to Reset"
@@ -13707,13 +13707,13 @@ msgstr "Keine Berechtigung für Zonen"
 
 
 msgid "None of the caches on this page can be cleared."
-msgstr ""
+msgstr "Keiner der Caches auf dieser Seite kann geleert werden."
 
 msgid "Opcode"
-msgstr ""
+msgstr "Opcode"
 
 msgid "Data"
-msgstr ""
+msgstr "Daten"
 
 #, fuzzy
 msgid "Really Clear Cache?"
@@ -13731,13 +13731,13 @@ msgid ""
 msgstr ""
 
 msgid "The following caches will be cleared:"
-msgstr ""
+msgstr "Folgende Caches werden geleert:"
 
 msgid "Clear Cache"
-msgstr ""
+msgstr "Cache leeren"
 
 msgid "Databases"
-msgstr ""
+msgstr "Datenbanken"
 
 #, fuzzy
 msgid "Other Services"
@@ -13762,7 +13762,7 @@ msgid ""
 msgstr ""
 
 msgid "Learn more about locked and hidden options."
-msgstr ""
+msgstr "Mehr über gesperrte und versteckte Optionen erfahren."
 
 msgid "Hidden"
 msgstr "Versteckt"
@@ -13779,7 +13779,7 @@ msgid "Save Config Entry"
 msgstr "Konfigurationseintrag speichern"
 
 msgid "Current Configuration"
-msgstr ""
+msgstr "Aktuelle Konfiguration"
 
 
 #, fuzzy, php-format
@@ -13807,7 +13807,7 @@ msgid "All Settings"
 msgstr "Alle Einstellungen"
 
 msgid "Settings History"
-msgstr ""
+msgstr "Einstellungsverlauf"
 
 #, fuzzy
 msgid "Editable"
@@ -13816,10 +13816,10 @@ msgstr "Editierbar von"
 
 #, php-format
 msgid "The following regex is malformed and cannot be used: %s"
-msgstr ""
+msgstr "Der folgende reguläre Ausdruck ist fehlerhaft und kann nicht verwendet werden: %s"
 
 msgid "Logo configuration is not valid: value must be a dictionary."
-msgstr ""
+msgstr "Logo-Konfiguration ist ungültig: Wert muss ein Wörterbuch sein."
 
 #, fuzzy
 msgid "Logo Image"
@@ -13827,14 +13827,14 @@ msgstr "Bild beschneiden"
 
 
 msgid "Remove Custom Logo"
-msgstr ""
+msgstr "Benutzerdefiniertes Logo entfernen"
 
 
 msgid "Wordmark"
-msgstr ""
+msgstr "Wortmarke"
 
 msgid "Footer configuration is not valid: value must be a list of items."
-msgstr ""
+msgstr "Fußzeilen-Konfiguration ist ungültig: Wert muss eine Listelemente sein."
 
 #, php-format
 msgid ""
@@ -13844,7 +13844,7 @@ msgstr ""
 
 #, php-format
 msgid "Footer item with index \"%s\" is invalid: %s"
-msgstr ""
+msgstr "Fußzeilenelement mit Index \\\"%s\\\" ist ungültig: %s"
 
 #, php-format
 msgid ""
@@ -13857,30 +13857,30 @@ msgid ""
 msgstr ""
 
 msgid "Can Not Connect to MySQL"
-msgstr ""
+msgstr "Verbindung zu MySQL nicht möglich"
 
 msgid "Delete a local configuration value."
-msgstr ""
+msgstr "Lokalen Konfigurationswert löschen."
 
 msgid "Delete configuration in the database instead of in local configuration."
-msgstr ""
+msgstr "Konfiguration in der Datenbank statt in der lokalen Konfiguration löschen."
 
 msgid "Specify a configuration key to delete."
-msgstr ""
+msgstr "Einen zu löschenden Konfigurationsschlüssel angeben."
 
 msgid "Too many arguments: expected one key."
-msgstr ""
+msgstr "Zu viele Argumente: ein Schlüssel erwartet."
 
 #, php-format
 msgid "Configuration key '%s' is not set in %s configuration!"
-msgstr ""
+msgstr "Konfigurationsschlüssel '%s' ist in der %s-Konfiguration nicht gesetzt!"
 
 #, php-format
 msgid "Deleted '%s' from %s configuration."
-msgstr ""
+msgstr "'%s' aus der %s-Konfiguration gelöscht."
 
 msgid "Mark a manual upgrade activity as complete."
-msgstr ""
+msgstr "Eine manuelle Upgrade-Aktivität als abgeschlossen markieren."
 
 msgid ""
 "Mark activities complete even if there is no outstanding need to complete "
@@ -13888,11 +13888,11 @@ msgid ""
 msgstr ""
 
 msgid "Specify an activity to mark as completed."
-msgstr ""
+msgstr "Eine als abgeschlossen zu markierende Aktivität angeben."
 
 #, php-format
 msgid "Activity \"%s\" did not need to be marked as complete."
-msgstr ""
+msgstr "Aktivität \\\"%s\\\" musste nicht als abgeschlossen markiert werden."
 
 #, php-format
 msgid ""
@@ -13902,79 +13902,79 @@ msgstr ""
 
 #, php-format
 msgid "Marked activity \"%s\" as completed."
-msgstr ""
+msgstr "Aktivität \\\"%s\\\" als abgeschlossen markiert."
 
 msgid "Get a local configuration value."
-msgstr ""
+msgstr "Lokalen Konfigurationswert abrufen."
 
 msgid "Specify a configuration key to get."
-msgstr ""
+msgstr "Einen abzurufenden Konfigurationsschlüssel angeben."
 
 #, php-format
 msgid "No such configuration key '%s'! Use `%s` to list all keys."
-msgstr ""
+msgstr "Kein Konfigurationsschlüssel '%s'! `%s` verwenden, um alle Schlüssel aufzulisten."
 
 msgid "Database source is not configured properly"
-msgstr ""
+msgstr "Datenbankquelle ist nicht korrekt konfiguriert"
 
 msgid "List all configuration keys."
-msgstr ""
+msgstr "Alle Konfigurationsschlüssel auflisten."
 
 msgid "Migrate file-based configuration to more modern storage."
-msgstr ""
+msgstr "Dateibasierte Konfiguration zu modernerer Speicherung migrieren."
 
 msgid "Migrating file-based config to more modern config..."
-msgstr ""
+msgstr "Dateibasierte Konfiguration wird zu modernerer Konfiguration migriert..."
 
 #, php-format
 msgid "Skipping config of source type %s..."
-msgstr ""
+msgstr "Konfiguration vom Quellentyp %s wird übersprungen..."
 
 msgid "Migrating file source..."
-msgstr ""
+msgstr "Dateiquelle wird migriert..."
 
 #, php-format
 msgid "Skipping obsolete option: %s"
-msgstr ""
+msgstr "Veraltete Option wird übersprungen: %s"
 
 #, php-format
 msgid "Skipping option \"%s\"; already in local config."
-msgstr ""
+msgstr "Option \\\"%s\\\" wird übersprungen; bereits in lokaler Konfiguration."
 
 #, php-format
 msgid "Migrated option \"%s\" from file to local config."
-msgstr ""
+msgstr "Option \\\"%s\\\" von Datei in lokale Konfiguration migriert."
 
 #, php-format
 msgid "Skipping option \"%s\"; already in database config."
-msgstr ""
+msgstr "Option \\\"%s\\\" wird übersprungen; bereits in Datenbankkonfiguration."
 
 #, php-format
 msgid "Migrated option \"%s\" from file to database config."
-msgstr ""
+msgstr "Option \\\"%s\\\" von Datei in Datenbankkonfiguration migriert."
 
 #, php-format
 msgid "Done. Migrated %d keys."
-msgstr ""
+msgstr "Fertig. %d Schlüssel migriert."
 
 msgid "Set a local configuration value."
-msgstr ""
+msgstr "Lokalen Konfigurationswert setzen."
 
 msgid "Update configuration in the database instead of in local configuration."
-msgstr ""
+msgstr "Konfiguration in der Datenbank statt in der lokalen Konfiguration aktualisieren."
 
 msgid "Read option value from stdin."
-msgstr ""
+msgstr "Optionswert von stdin lesen."
 
 msgid "Specify the configuration key you want to set."
-msgstr ""
+msgstr "Den zu setzenden Konfigurationsschlüssel angeben."
 
 msgid ""
 "Too many arguments: expected only a configuration key when using \"--stdin\"."
 msgstr ""
 
 msgid "Reading value from stdin..."
-msgstr ""
+msgstr "Wert wird von stdin gelesen..."
 
 #, php-format
 msgid ""
@@ -13983,7 +13983,7 @@ msgid ""
 msgstr ""
 
 msgid "Too many arguments: expected one key and one value."
-msgstr ""
+msgstr "Zu viele Argumente: ein Schlüssel und ein Wert erwartet."
 
 #, php-format
 msgid ""
@@ -13993,10 +13993,10 @@ msgstr ""
 
 #, php-format
 msgid "Configuration key \"%s\" is of type \"%s\". Specify it in JSON."
-msgstr ""
+msgstr "Konfigurationsschlüssel \\\"%s\\\" ist vom Typ \\\"%s\\\". In JSON angeben."
 
 msgid "Configuration Guide: Locked and Hidden Configuration"
-msgstr ""
+msgstr "Konfigurationsanleitung: Gesperrte und versteckte Konfiguration"
 
 #, php-format
 msgid ""
@@ -14006,7 +14006,7 @@ msgstr ""
 
 #, php-format
 msgid "Wrote configuration key \"%s\" to database storage."
-msgstr ""
+msgstr "Konfigurationsschlüssel \\\"%s\\\" in Datenbankspeicher geschrieben."
 
 #, php-format
 msgid ""
@@ -14015,7 +14015,7 @@ msgid ""
 msgstr ""
 
 msgid "OVERRIDDEN"
-msgstr ""
+msgstr "ÜBERSCHRIEBEN"
 
 #, php-format
 msgid ""
@@ -14025,10 +14025,10 @@ msgstr ""
 
 #, php-format
 msgid "Wrote configuration key \"%s\" to local storage (in file \"%s\")."
-msgstr ""
+msgstr "Konfigurationsschlüssel \\\"%s\\\" in lokalen Speicher geschrieben (in Datei \\\"%s\\\")."
 
 msgid "DONE"
-msgstr ""
+msgstr "ERLEDIGT"
 
 #, fuzzy
 msgid "Garbage Collectors"
@@ -14036,7 +14036,7 @@ msgstr "Garbage Collector"
 
 
 msgid "Automatic"
-msgstr ""
+msgstr "Automatisch"
 
 msgid "Indefinite"
 msgstr ""
