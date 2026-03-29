@@ -226,3 +226,16 @@ Verification:
 
 - syntax check of `src/applications/calendar/query/PhabricatorCalendarEventSearchEngine.php`
 - code inspection of the anonymous-viewer branch in `newQuery()`
+
+### `014-avoid-null-viewer-phid-in-calendar-export-search.patch`
+
+This patch avoids applying an author filter with a null viewer PHID in
+`PhabricatorCalendarExportSearchEngine`.
+
+Anonymous viewers do not have a user PHID, so the export query should only
+restrict by author when a real viewer PHID exists.
+
+Verification:
+
+- syntax check of `src/applications/calendar/query/PhabricatorCalendarExportSearchEngine.php`
+- code inspection of the anonymous-viewer branch in `newQuery()`
