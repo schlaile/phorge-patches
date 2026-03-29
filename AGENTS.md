@@ -18,6 +18,8 @@ Repository-specific working rules for coding agents.
 - for the active migration project in this repository, internal task
   references like `T1369` are expected in commit messages
 - prefer the `Ref T1369 ...` style for normal curation and translation commits
+- for PHP 8 compatibility notes, tooling, and exported patch work, prefer the
+  `Ref T1371 ...` style
 - if a branch or patch is being prepared for later upstream submission, rewrite
   the commit messages to neutral wording without internal task IDs
 - target repositories that may later receive ports from here, especially
