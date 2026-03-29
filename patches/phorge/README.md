@@ -249,3 +249,17 @@ Verification:
 
 - syntax check of all twelve touched search engine classes
 - code inspection of the viewer-specific builtin branches
+
+### `014-guard-remaining-authored-builtin-searches.patch`
+
+This small follow-up closes the same authored-builtin guard pattern in the two
+remaining search engines which still built author filters from the current
+viewer PHID:
+
+- Countdown
+- Macro
+
+Verification:
+
+- syntax check of both touched search engine classes
+- code inspection of the authored builtin branches

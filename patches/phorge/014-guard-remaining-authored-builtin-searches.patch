@@ -1,0 +1,61 @@
+From ded1083ce5c3690eede02714790de6a1cf61a23f Mon Sep 17 00:00:00 2001
+From: Alicia Codex <alicia@schlaile.de>
+Date: Sun, 29 Mar 2026 17:44:23 +0200
+Subject: [PATCH] PHP 8.5: Guard remaining authored builtin searches
+
+---
+ .../countdown/query/PhabricatorCountdownSearchEngine.php   | 7 ++++++-
+ .../macro/query/PhabricatorMacroSearchEngine.php           | 7 ++++++-
+ 2 files changed, 12 insertions(+), 2 deletions(-)
+
+diff --git a/src/applications/countdown/query/PhabricatorCountdownSearchEngine.php b/src/applications/countdown/query/PhabricatorCountdownSearchEngine.php
+index bf98b41308..6062c4d7ef 100644
+--- a/src/applications/countdown/query/PhabricatorCountdownSearchEngine.php
++++ b/src/applications/countdown/query/PhabricatorCountdownSearchEngine.php
+@@ -67,13 +67,18 @@ final class PhabricatorCountdownSearchEngine
+     $query = $this->newSavedQuery();
+     $query->setQueryKey($query_key);
+ 
++    $viewer_phid = $this->requireViewer()->getPHID();
++
+     switch ($query_key) {
+       case 'all':
+         return $query;
+       case 'authored':
++        if (!$viewer_phid) {
++          return $query;
++        }
+         return $query->setParameter(
+           'authorPHIDs',
+-          array($this->requireViewer()->getPHID()));
++          array($viewer_phid));
+       case 'upcoming':
+         return $query->setParameter('upcoming', array('upcoming'));
+     }
+diff --git a/src/applications/macro/query/PhabricatorMacroSearchEngine.php b/src/applications/macro/query/PhabricatorMacroSearchEngine.php
+index 87559b13b2..528927626d 100644
+--- a/src/applications/macro/query/PhabricatorMacroSearchEngine.php
++++ b/src/applications/macro/query/PhabricatorMacroSearchEngine.php
+@@ -109,6 +109,8 @@ final class PhabricatorMacroSearchEngine
+     $query = $this->newSavedQuery();
+     $query->setQueryKey($query_key);
+ 
++    $viewer_phid = $this->requireViewer()->getPHID();
++
+     switch ($query_key) {
+       case 'active':
+         return $query->setParameter(
+@@ -119,9 +121,12 @@ final class PhabricatorMacroSearchEngine
+           'status',
+           PhabricatorMacroQuery::STATUS_ANY);
+       case 'authored':
++        if (!$viewer_phid) {
++          return $query;
++        }
+         return $query->setParameter(
+           'authorPHIDs',
+-          array($this->requireViewer()->getPHID()));
++          array($viewer_phid));
+     }
+ 
+     return parent::buildSavedQueryFromBuiltin($query_key);
