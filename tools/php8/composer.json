@@ -1,0 +1,12 @@
+{
+  "name": "schlaile/phorge-php8-tooling",
+  "description": "Local helper tooling for PHP 8 compatibility work on Phorge-related trees",
+  "type": "project",
+  "require-dev": {
+    "phpstan/phpstan": "^2.1",
+    "rector/rector": "^2.2"
+  },
+  "config": {
+    "sort-packages": true
+  }
+}

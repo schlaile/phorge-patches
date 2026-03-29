@@ -31,6 +31,7 @@ Maintain local changes in a way that keeps them:
 - `branding/assets/`: non-sensitive branding artifacts
 - `notes/`: inventories, upgrade plan, upstream candidates
 - `scripts/`: helper scripts for export, apply, and build steps
+- `tools/php8/`: local Composer-based helper tooling for PHP 8 compatibility work
 
 ## Workflow
 
