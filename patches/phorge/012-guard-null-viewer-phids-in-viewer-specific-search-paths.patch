@@ -1,0 +1,748 @@
+From 02f275815d2db83f5539cd189170178d385406cd Mon Sep 17 00:00:00 2001
+From: Alicia Codex <alicia@schlaile.de>
+Date: Sun, 29 Mar 2026 17:05:10 +0200
+Subject: [PATCH] PHP 8.5: Guard null viewer PHIDs in viewer-specific search
+ paths
+
+---
+ .../query/PhabricatorCommitSearchEngine.php   |  9 ++++++
+ .../PhabricatorCalendarEventSearchEngine.php  |  9 ++++--
+ .../PhabricatorCalendarExportSearchEngine.php |  9 ++++--
+ .../PhabricatorConduitLogSearchEngine.php     |  6 ++++
+ .../PhabricatorDashboardPanelSearchEngine.php |  6 +++-
+ .../PhabricatorDashboardSearchEngine.php      |  6 +++-
+ .../DifferentialRevisionSearchEngine.php      | 11 ++++++--
+ .../query/PhabricatorFeedSearchEngine.php     | 13 +++++----
+ .../query/HarbormasterBuildSearchEngine.php   | 27 ++++++++++++------
+ ...PhabricatorLegalpadSignaturePolicyRule.php |  7 ++++-
+ .../legalpad/query/LegalpadDocumentQuery.php  | 18 +++++++-----
+ .../query/LegalpadDocumentSearchEngine.php    |  6 +++-
+ .../PhabricatorMetaMTAMailSearchEngine.php    | 21 ++++++++++----
+ .../PhabricatorPeopleLogSearchEngine.php      |  5 ++--
+ .../query/PhabricatorPeopleSearchEngine.php   |  5 ++--
+ .../query/PhortuneCartSearchEngine.php        |  7 ++++-
+ .../query/PhortuneChargeSearchEngine.php      |  7 ++++-
+ .../PhortuneSubscriptionSearchEngine.php      |  7 ++++-
+ .../query/PhabricatorPhurlURLSearchEngine.php | 11 ++++++--
+ .../PhabricatorSearchDefaultController.php    | 22 ++++++++++-----
+ .../PhabricatorSearchEditController.php       |  7 ++++-
+ ...atorSearchRelationshipSourceController.php |  9 ++++--
+ .../PhabricatorApplicationSearchEngine.php    | 28 ++++++++++++-------
+ ...torSubscriptionsSearchEngineAttachment.php |  2 +-
+ 24 files changed, 191 insertions(+), 67 deletions(-)
+
+diff --git a/src/applications/audit/query/PhabricatorCommitSearchEngine.php b/src/applications/audit/query/PhabricatorCommitSearchEngine.php
+index 3d5e4a5517..3240726ee4 100644
+--- a/src/applications/audit/query/PhabricatorCommitSearchEngine.php
++++ b/src/applications/audit/query/PhabricatorCommitSearchEngine.php
+@@ -200,6 +200,9 @@ final class PhabricatorCommitSearchEngine
+       case 'all':
+         return $query;
+       case 'active':
++        if (!$viewer_phid) {
++          return $query;
++        }
+         $bucket_key = DiffusionCommitRequiredActionResultBucket::BUCKETKEY;
+ 
+         $open = DiffusionCommitAuditStatus::getOpenStatusConstants();
+@@ -211,10 +214,16 @@ final class PhabricatorCommitSearchEngine
+           ->setParameter('unreachable', false);
+         return $query;
+       case 'authored':
++        if (!$viewer_phid) {
++          return $query;
++        }
+         $query
+           ->setParameter('authorPHIDs', array($viewer_phid));
+         return $query;
+       case 'audited':
++        if (!$viewer_phid) {
++          return $query;
++        }
+         $query
+           ->setParameter('auditorPHIDs', array($viewer_phid));
+         return $query;
+diff --git a/src/applications/calendar/query/PhabricatorCalendarEventSearchEngine.php b/src/applications/calendar/query/PhabricatorCalendarEventSearchEngine.php
+index 1631a888ed..65f57bd47c 100644
+--- a/src/applications/calendar/query/PhabricatorCalendarEventSearchEngine.php
++++ b/src/applications/calendar/query/PhabricatorCalendarEventSearchEngine.php
+@@ -20,9 +20,14 @@ final class PhabricatorCalendarEventSearchEngine
+    */
+   public function newQuery() {
+     $viewer = $this->requireViewer();
++    $viewer_phid = $viewer->getPHID();
++
++    $query = new PhabricatorCalendarEventQuery();
++    if ($viewer_phid) {
++      $query->needRSVPs(array($viewer_phid));
++    }
+ 
+-    return id(new PhabricatorCalendarEventQuery())
+-      ->needRSVPs(array($viewer->getPHID()));
++    return $query;
+   }
+ 
+   protected function shouldShowOrderField() {
+diff --git a/src/applications/calendar/query/PhabricatorCalendarExportSearchEngine.php b/src/applications/calendar/query/PhabricatorCalendarExportSearchEngine.php
+index 0ceccf48d4..f3c89cda27 100644
+--- a/src/applications/calendar/query/PhabricatorCalendarExportSearchEngine.php
++++ b/src/applications/calendar/query/PhabricatorCalendarExportSearchEngine.php
+@@ -17,9 +17,14 @@ final class PhabricatorCalendarExportSearchEngine
+ 
+   public function newQuery() {
+     $viewer = $this->requireViewer();
++    $viewer_phid = $viewer->getPHID();
+ 
+-    return id(new PhabricatorCalendarExportQuery())
+-      ->withAuthorPHIDs(array($viewer->getPHID()));
++    $query = new PhabricatorCalendarExportQuery();
++    if ($viewer_phid) {
++      $query->withAuthorPHIDs(array($viewer_phid));
++    }
++
++    return $query;
+   }
+ 
+   protected function buildCustomSearchFields() {
+diff --git a/src/applications/conduit/query/PhabricatorConduitLogSearchEngine.php b/src/applications/conduit/query/PhabricatorConduitLogSearchEngine.php
+index 6cbf9ad91f..310cedbd26 100644
+--- a/src/applications/conduit/query/PhabricatorConduitLogSearchEngine.php
++++ b/src/applications/conduit/query/PhabricatorConduitLogSearchEngine.php
+@@ -117,9 +117,15 @@ final class PhabricatorConduitLogSearchEngine
+ 
+     switch ($query_key) {
+       case 'viewer':
++        if (!$viewer_phid) {
++          return $query;
++        }
+         return $query
+           ->setParameter('callerPHIDs', array($viewer_phid));
+       case 'viewerdeprecated':
++        if (!$viewer_phid) {
++          return $query;
++        }
+         return $query
+           ->setParameter('callerPHIDs', array($viewer_phid))
+           ->setParameter('statuses', $deprecated);
+diff --git a/src/applications/dashboard/query/PhabricatorDashboardPanelSearchEngine.php b/src/applications/dashboard/query/PhabricatorDashboardPanelSearchEngine.php
+index c4b30652b9..4006346982 100644
+--- a/src/applications/dashboard/query/PhabricatorDashboardPanelSearchEngine.php
++++ b/src/applications/dashboard/query/PhabricatorDashboardPanelSearchEngine.php
+@@ -88,15 +88,19 @@ final class PhabricatorDashboardPanelSearchEngine
+     $query = $this->newSavedQuery();
+     $query->setQueryKey($query_key);
+     $viewer = $this->requireViewer();
++    $viewer_phid = $viewer->getPHID();
+ 
+     switch ($query_key) {
+       case 'active':
+         return $query->setParameter('status', 'active');
+       case 'authored':
++        if (!$viewer_phid) {
++          return $query;
++        }
+         return $query->setParameter(
+           'authorPHIDs',
+           array(
+-            $viewer->getPHID(),
++            $viewer_phid,
+           ));
+       case 'all':
+         return $query;
+diff --git a/src/applications/dashboard/query/PhabricatorDashboardSearchEngine.php b/src/applications/dashboard/query/PhabricatorDashboardSearchEngine.php
+index c02778c77d..c9c12a421c 100644
+--- a/src/applications/dashboard/query/PhabricatorDashboardSearchEngine.php
++++ b/src/applications/dashboard/query/PhabricatorDashboardSearchEngine.php
+@@ -57,15 +57,19 @@ final class PhabricatorDashboardSearchEngine
+     $query = $this->newSavedQuery();
+     $query->setQueryKey($query_key);
+     $viewer = $this->requireViewer();
++    $viewer_phid = $viewer->getPHID();
+ 
+     switch ($query_key) {
+       case 'all':
+         return $query;
+       case 'authored':
++        if (!$viewer_phid) {
++          return $query;
++        }
+         return $query->setParameter(
+           'authorPHIDs',
+           array(
+-            $viewer->getPHID(),
++            $viewer_phid,
+           ));
+       case 'open':
+         return $query->setParameter(
+diff --git a/src/applications/differential/query/DifferentialRevisionSearchEngine.php b/src/applications/differential/query/DifferentialRevisionSearchEngine.php
+index d50da522c8..7f1abae779 100644
+--- a/src/applications/differential/query/DifferentialRevisionSearchEngine.php
++++ b/src/applications/differential/query/DifferentialRevisionSearchEngine.php
+@@ -151,18 +151,25 @@ final class DifferentialRevisionSearchEngine
+     $query->setQueryKey($query_key);
+ 
+     $viewer = $this->requireViewer();
++    $viewer_phid = $viewer->getPHID();
+ 
+     switch ($query_key) {
+       case 'active':
++        if (!$viewer_phid) {
++          return $query;
++        }
+         $bucket_key = DifferentialRevisionRequiredActionResultBucket::BUCKETKEY;
+ 
+         return $query
+-          ->setParameter('responsiblePHIDs', array($viewer->getPHID()))
++          ->setParameter('responsiblePHIDs', array($viewer_phid))
+           ->setParameter('statuses', array('open()'))
+           ->setParameter('bucket', $bucket_key);
+       case 'authored':
++        if (!$viewer_phid) {
++          return $query;
++        }
+         return $query
+-          ->setParameter('authorPHIDs', array($viewer->getPHID()));
++          ->setParameter('authorPHIDs', array($viewer_phid));
+       case 'all':
+         return $query;
+     }
+diff --git a/src/applications/feed/query/PhabricatorFeedSearchEngine.php b/src/applications/feed/query/PhabricatorFeedSearchEngine.php
+index 09d4fb4542..bb61a5df40 100644
+--- a/src/applications/feed/query/PhabricatorFeedSearchEngine.php
++++ b/src/applications/feed/query/PhabricatorFeedSearchEngine.php
+@@ -66,11 +66,14 @@ final class PhabricatorFeedSearchEngine
+     $viewer_projects = $map['viewerProjects'];
+     if ($viewer_projects) {
+       $viewer = $this->requireViewer();
+-      $projects = id(new PhabricatorProjectQuery())
+-        ->setViewer($viewer)
+-        ->withMemberPHIDs(array($viewer->getPHID()))
+-        ->execute();
+-      $phids += array_fuse(mpull($projects, 'getPHID'));
++      $viewer_phid = $viewer->getPHID();
++      if ($viewer_phid) {
++        $projects = id(new PhabricatorProjectQuery())
++          ->setViewer($viewer)
++          ->withMemberPHIDs(array($viewer_phid))
++          ->execute();
++        $phids += array_fuse(mpull($projects, 'getPHID'));
++      }
+     }
+ 
+     if ($phids) {
+diff --git a/src/applications/harbormaster/query/HarbormasterBuildSearchEngine.php b/src/applications/harbormaster/query/HarbormasterBuildSearchEngine.php
+index 9e969d894e..b42d8d02ef 100644
+--- a/src/applications/harbormaster/query/HarbormasterBuildSearchEngine.php
++++ b/src/applications/harbormaster/query/HarbormasterBuildSearchEngine.php
+@@ -81,23 +81,32 @@ final class HarbormasterBuildSearchEngine
+   }
+ 
+   protected function getBuiltinQueryNames() {
+-    return array(
+-      'initiated' => pht('My Builds'),
+-      'all' => pht('All Builds'),
+-      'waiting' => pht('Waiting'),
+-      'active' => pht('Active'),
+-      'completed' => pht('Completed'),
+-    );
++    $names = array();
++
++    if ($this->requireViewer()->isLoggedIn()) {
++      $names['initiated'] = pht('My Builds');
++    }
++
++    $names['all'] = pht('All Builds');
++    $names['waiting'] = pht('Waiting');
++    $names['active'] = pht('Active');
++    $names['completed'] = pht('Completed');
++
++    return $names;
+   }
+ 
+   public function buildSavedQueryFromBuiltin($query_key) {
+     $query = $this->newSavedQuery();
+     $query->setQueryKey($query_key);
++    $viewer = $this->requireViewer();
++    $viewer_phid = $viewer->getPHID();
+ 
+     switch ($query_key) {
+       case 'initiated':
+-        $viewer = $this->requireViewer();
+-        return $query->setParameter('initiators', array($viewer->getPHID()));
++        if (!$viewer_phid) {
++          return $query;
++        }
++        return $query->setParameter('initiators', array($viewer_phid));
+       case 'all':
+         return $query;
+       case 'waiting':
+diff --git a/src/applications/legalpad/policyrule/PhabricatorLegalpadSignaturePolicyRule.php b/src/applications/legalpad/policyrule/PhabricatorLegalpadSignaturePolicyRule.php
+index 423b19e510..37d3f3fc5f 100644
+--- a/src/applications/legalpad/policyrule/PhabricatorLegalpadSignaturePolicyRule.php
++++ b/src/applications/legalpad/policyrule/PhabricatorLegalpadSignaturePolicyRule.php
+@@ -14,6 +14,11 @@ final class PhabricatorLegalpadSignaturePolicyRule
+     array $values,
+     array $objects) {
+ 
++    $viewer_phid = $viewer->getPHID();
++    if (!$viewer_phid) {
++      return;
++    }
++
+     $values = array_unique(array_filter(array_mergev($values)));
+     if (!$values) {
+       return;
+@@ -25,7 +30,7 @@ final class PhabricatorLegalpadSignaturePolicyRule
+     $documents = id(new LegalpadDocumentQuery())
+       ->setViewer(PhabricatorUser::getOmnipotentUser())
+       ->withPHIDs($values)
+-      ->withSignerPHIDs(array($viewer->getPHID()))
++      ->withSignerPHIDs(array($viewer_phid))
+       ->execute();
+     $this->signatures = mpull($documents, 'getPHID', 'getPHID');
+   }
+diff --git a/src/applications/legalpad/query/LegalpadDocumentQuery.php b/src/applications/legalpad/query/LegalpadDocumentQuery.php
+index 692cc84a5c..48aeda05bf 100644
+--- a/src/applications/legalpad/query/LegalpadDocumentQuery.php
++++ b/src/applications/legalpad/query/LegalpadDocumentQuery.php
+@@ -85,6 +85,8 @@ final class LegalpadDocumentQuery
+   }
+ 
+   protected function willFilterPage(array $documents) {
++    $viewer_phid = $this->getViewer()->getPHID();
++
+     if ($this->needDocumentBodies) {
+       $documents = $this->loadDocumentBodies($documents);
+     }
+@@ -99,10 +101,10 @@ final class LegalpadDocumentQuery
+ 
+     if ($this->needViewerSignatures) {
+       if ($documents) {
+-        if ($this->getViewer()->getPHID()) {
++        if ($viewer_phid) {
+           $signatures = id(new LegalpadDocumentSignatureQuery())
+             ->setViewer($this->getViewer())
+-            ->withSignerPHIDs(array($this->getViewer()->getPHID()))
++            ->withSignerPHIDs(array($viewer_phid))
+             ->withDocumentPHIDs(mpull($documents, 'getPHID'))
+             ->execute();
+           $signatures = mpull($signatures, null, 'getDocumentPHID');
+@@ -110,11 +112,13 @@ final class LegalpadDocumentQuery
+           $signatures = array();
+         }
+ 
+-        foreach ($documents as $document) {
+-          $signature = idx($signatures, $document->getPHID());
+-          $document->attachUserSignature(
+-            $this->getViewer()->getPHID(),
+-            $signature);
++        if ($viewer_phid) {
++          foreach ($documents as $document) {
++            $signature = idx($signatures, $document->getPHID());
++            $document->attachUserSignature(
++              $viewer_phid,
++              $signature);
++          }
+         }
+       }
+     }
+diff --git a/src/applications/legalpad/query/LegalpadDocumentSearchEngine.php b/src/applications/legalpad/query/LegalpadDocumentSearchEngine.php
+index 709441eba2..180c7bce2a 100644
+--- a/src/applications/legalpad/query/LegalpadDocumentSearchEngine.php
++++ b/src/applications/legalpad/query/LegalpadDocumentSearchEngine.php
+@@ -96,10 +96,14 @@ final class LegalpadDocumentSearchEngine
+     $query->setQueryKey($query_key);
+ 
+     $viewer = $this->requireViewer();
++    $viewer_phid = $viewer->getPHID();
+ 
+     switch ($query_key) {
+       case 'signed':
+-        return $query->setParameter('signerPHIDs', array($viewer->getPHID()));
++        if (!$viewer_phid) {
++          return $query;
++        }
++        return $query->setParameter('signerPHIDs', array($viewer_phid));
+       case 'all':
+         return $query;
+     }
+diff --git a/src/applications/metamta/query/PhabricatorMetaMTAMailSearchEngine.php b/src/applications/metamta/query/PhabricatorMetaMTAMailSearchEngine.php
+index ddfec31461..1c1c1e5294 100644
+--- a/src/applications/metamta/query/PhabricatorMetaMTAMailSearchEngine.php
++++ b/src/applications/metamta/query/PhabricatorMetaMTAMailSearchEngine.php
+@@ -55,29 +55,38 @@ final class PhabricatorMetaMTAMailSearchEngine
+   }
+ 
+   protected function getBuiltinQueryNames() {
+-    $names = array(
+-      'inbox'  => pht('Inbox'),
+-      'outbox' => pht('Outbox'),
+-    );
++    $names = array();
++
++    if ($this->requireViewer()->isLoggedIn()) {
++      $names['inbox'] = pht('Inbox');
++      $names['outbox'] = pht('Outbox');
++    }
+ 
+     return $names;
+   }
+ 
+   public function buildSavedQueryFromBuiltin($query_key) {
+     $viewer = $this->requireViewer();
++    $viewer_phid = $viewer->getPHID();
+ 
+     $query = $this->newSavedQuery();
+     $query->setQueryKey($query_key);
+ 
+     switch ($query_key) {
+       case 'inbox':
++        if (!$viewer_phid) {
++          return $query;
++        }
+         return $query->setParameter(
+           'recipientPHIDs',
+-          array($viewer->getPHID()));
++          array($viewer_phid));
+       case 'outbox':
++        if (!$viewer_phid) {
++          return $query;
++        }
+         return $query->setParameter(
+           'actorPHIDs',
+-          array($viewer->getPHID()));
++          array($viewer_phid));
+     }
+ 
+     return parent::buildSavedQueryFromBuiltin($query_key);
+diff --git a/src/applications/people/query/PhabricatorPeopleLogSearchEngine.php b/src/applications/people/query/PhabricatorPeopleLogSearchEngine.php
+index 22384b3097..05a8b44aae 100644
+--- a/src/applications/people/query/PhabricatorPeopleLogSearchEngine.php
++++ b/src/applications/people/query/PhabricatorPeopleLogSearchEngine.php
+@@ -24,8 +24,9 @@ final class PhabricatorPeopleLogSearchEngine
+     // large numbers of logs that the user will not be able to see and filter
+     // them in-process.
+     $viewer = $this->requireViewer();
+-    if (!$viewer->getIsAdmin()) {
+-      $query->withRelatedPHIDs(array($viewer->getPHID()));
++    $viewer_phid = $viewer->getPHID();
++    if (!$viewer->getIsAdmin() && $viewer_phid) {
++      $query->withRelatedPHIDs(array($viewer_phid));
+     }
+ 
+     return $query;
+diff --git a/src/applications/people/query/PhabricatorPeopleSearchEngine.php b/src/applications/people/query/PhabricatorPeopleSearchEngine.php
+index 62771f7e48..57f879bf57 100644
+--- a/src/applications/people/query/PhabricatorPeopleSearchEngine.php
++++ b/src/applications/people/query/PhabricatorPeopleSearchEngine.php
+@@ -129,6 +129,7 @@ final class PhabricatorPeopleSearchEngine
+     $query = $this->newQuery();
+ 
+     $viewer = $this->requireViewer();
++    $viewer_phid = $viewer->getPHID();
+ 
+     // If the viewer can't browse the user directory, restrict the query to
+     // just the user's own profile. This is a little bit silly, but serves to
+@@ -138,8 +139,8 @@ final class PhabricatorPeopleSearchEngine
+       $viewer,
+       $this->getApplication(),
+       PeopleBrowseUserDirectoryCapability::CAPABILITY);
+-    if (!$can_browse) {
+-      $query->withPHIDs(array($viewer->getPHID()));
++    if (!$can_browse && $viewer_phid) {
++      $query->withPHIDs(array($viewer_phid));
+     }
+ 
+     if ($map['usernames']) {
+diff --git a/src/applications/phortune/query/PhortuneCartSearchEngine.php b/src/applications/phortune/query/PhortuneCartSearchEngine.php
+index b017591fb8..78508d90eb 100644
+--- a/src/applications/phortune/query/PhortuneCartSearchEngine.php
++++ b/src/applications/phortune/query/PhortuneCartSearchEngine.php
+@@ -58,6 +58,7 @@ final class PhortuneCartSearchEngine
+       ->needPurchases(true);
+ 
+     $viewer = $this->requireViewer();
++    $viewer_phid = $viewer->getPHID();
+ 
+     $merchant = $this->getMerchant();
+     $account = $this->getAccount();
+@@ -66,8 +67,12 @@ final class PhortuneCartSearchEngine
+     } else if ($account) {
+       $query->withAccountPHIDs(array($account->getPHID()));
+     } else {
++      if (!$viewer_phid) {
++        throw new Exception(pht('You have no accounts!'));
++      }
++
+       $accounts = id(new PhortuneAccountQuery())
+-        ->withMemberPHIDs(array($viewer->getPHID()))
++        ->withMemberPHIDs(array($viewer_phid))
+         ->execute();
+       if ($accounts) {
+         $query->withAccountPHIDs(mpull($accounts, 'getPHID'));
+diff --git a/src/applications/phortune/query/PhortuneChargeSearchEngine.php b/src/applications/phortune/query/PhortuneChargeSearchEngine.php
+index 5cbf214500..ac371f33b8 100644
+--- a/src/applications/phortune/query/PhortuneChargeSearchEngine.php
++++ b/src/applications/phortune/query/PhortuneChargeSearchEngine.php
+@@ -37,13 +37,18 @@ final class PhortuneChargeSearchEngine
+     $query = new PhortuneChargeQuery();
+ 
+     $viewer = $this->requireViewer();
++    $viewer_phid = $viewer->getPHID();
+ 
+     $account = $this->getAccount();
+     if ($account) {
+       $query->withAccountPHIDs(array($account->getPHID()));
+     } else {
++      if (!$viewer_phid) {
++        throw new Exception(pht('You have no accounts!'));
++      }
++
+       $accounts = id(new PhortuneAccountQuery())
+-        ->withMemberPHIDs(array($viewer->getPHID()))
++        ->withMemberPHIDs(array($viewer_phid))
+         ->execute();
+       if ($accounts) {
+         $query->withAccountPHIDs(mpull($accounts, 'getPHID'));
+diff --git a/src/applications/phortune/query/PhortuneSubscriptionSearchEngine.php b/src/applications/phortune/query/PhortuneSubscriptionSearchEngine.php
+index 22aff1cef2..1c2a2198cc 100644
+--- a/src/applications/phortune/query/PhortuneSubscriptionSearchEngine.php
++++ b/src/applications/phortune/query/PhortuneSubscriptionSearchEngine.php
+@@ -47,6 +47,7 @@ final class PhortuneSubscriptionSearchEngine
+     $query = new PhortuneSubscriptionQuery();
+ 
+     $viewer = $this->requireViewer();
++    $viewer_phid = $viewer->getPHID();
+ 
+     $merchant = $this->getMerchant();
+     $account = $this->getAccount();
+@@ -75,8 +76,12 @@ final class PhortuneSubscriptionSearchEngine
+       }
+       $query->withAccountPHIDs(array($account->getPHID()));
+     } else {
++      if (!$viewer_phid) {
++        throw new Exception(pht('You have no accounts!'));
++      }
++
+       $accounts = id(new PhortuneAccountQuery())
+-        ->withMemberPHIDs(array($viewer->getPHID()))
++        ->withMemberPHIDs(array($viewer_phid))
+         ->execute();
+       if ($accounts) {
+         $query->withAccountPHIDs(mpull($accounts, 'getPHID'));
+diff --git a/src/applications/phurl/query/PhabricatorPhurlURLSearchEngine.php b/src/applications/phurl/query/PhabricatorPhurlURLSearchEngine.php
+index e68d08565c..6964887ea1 100644
+--- a/src/applications/phurl/query/PhabricatorPhurlURLSearchEngine.php
++++ b/src/applications/phurl/query/PhabricatorPhurlURLSearchEngine.php
+@@ -72,9 +72,12 @@ final class PhabricatorPhurlURLSearchEngine
+   protected function getBuiltinQueryNames() {
+     $names = array(
+       'all' => pht('All URLs'),
+-      'authored' => pht('Authored'),
+     );
+ 
++    if ($this->requireViewer()->isLoggedIn()) {
++      $names['authored'] = pht('Authored');
++    }
++
+     return $names;
+   }
+ 
+@@ -82,10 +85,14 @@ final class PhabricatorPhurlURLSearchEngine
+     $query = $this->newSavedQuery();
+     $query->setQueryKey($query_key);
+     $viewer = $this->requireViewer();
++    $viewer_phid = $viewer->getPHID();
+ 
+     switch ($query_key) {
+       case 'authored':
+-        return $query->setParameter('authorPHIDs', array($viewer->getPHID()));
++        if (!$viewer_phid) {
++          return $query;
++        }
++        return $query->setParameter('authorPHIDs', array($viewer_phid));
+       case 'all':
+         return $query;
+     }
+diff --git a/src/applications/search/controller/PhabricatorSearchDefaultController.php b/src/applications/search/controller/PhabricatorSearchDefaultController.php
+index 61fa3105bc..46135b8698 100644
+--- a/src/applications/search/controller/PhabricatorSearchDefaultController.php
++++ b/src/applications/search/controller/PhabricatorSearchDefaultController.php
+@@ -5,6 +5,7 @@ final class PhabricatorSearchDefaultController
+ 
+   public function handleRequest(AphrontRequest $request) {
+     $viewer = $this->getViewer();
++    $viewer_phid = $viewer->getPHID();
+     $engine_class = $request->getURIData('engine');
+ 
+     $base_class = PhabricatorApplicationSearchEngine::class;
+@@ -17,15 +18,18 @@ final class PhabricatorSearchDefaultController
+ 
+     $key = $request->getURIData('queryKey');
+ 
++    $user_phids = array(
++      PhabricatorNamedQuery::SCOPE_GLOBAL,
++    );
++    if ($viewer_phid) {
++      array_unshift($user_phids, $viewer_phid);
++    }
++
+     $named_query = id(new PhabricatorNamedQueryQuery())
+       ->setViewer($viewer)
+       ->withEngineClassNames(array($engine_class))
+       ->withQueryKeys(array($key))
+-      ->withUserPHIDs(
+-        array(
+-          $viewer->getPHID(),
+-          PhabricatorNamedQuery::SCOPE_GLOBAL,
+-        ))
++      ->withUserPHIDs($user_phids)
+       ->executeOne();
+ 
+     if (!$named_query && $engine->isBuiltinQuery($key)) {
+@@ -44,15 +48,19 @@ final class PhabricatorSearchDefaultController
+     }
+ 
+     if ($request->isFormPost()) {
++      if (!$viewer_phid) {
++        return new Aphront403Response();
++      }
++
+       $config = id(new PhabricatorNamedQueryConfigQuery())
+         ->setViewer($viewer)
+         ->withEngineClassNames(array($engine_class))
+-        ->withScopePHIDs(array($viewer->getPHID()))
++        ->withScopePHIDs(array($viewer_phid))
+         ->executeOne();
+       if (!$config) {
+         $config = PhabricatorNamedQueryConfig::initializeNewQueryConfig()
+           ->setEngineClassName($engine_class)
+-          ->setScopePHID($viewer->getPHID());
++          ->setScopePHID($viewer_phid);
+       }
+ 
+       $config->setConfigProperty(
+diff --git a/src/applications/search/controller/PhabricatorSearchEditController.php b/src/applications/search/controller/PhabricatorSearchEditController.php
+index a526091503..606edd2f4c 100644
+--- a/src/applications/search/controller/PhabricatorSearchEditController.php
++++ b/src/applications/search/controller/PhabricatorSearchEditController.php
+@@ -5,6 +5,7 @@ final class PhabricatorSearchEditController
+ 
+   public function handleRequest(AphrontRequest $request) {
+     $viewer = $this->getViewer();
++    $viewer_phid = $viewer->getPHID();
+ 
+     $id = $request->getURIData('id');
+     if ($id) {
+@@ -41,8 +42,12 @@ final class PhabricatorSearchEditController
+     $cancel_uri = $complete_uri;
+ 
+     if (!$named_query) {
++      if (!$viewer_phid) {
++        return new Aphront403Response();
++      }
++
+       $named_query = id(new PhabricatorNamedQuery())
+-        ->setUserPHID($viewer->getPHID())
++        ->setUserPHID($viewer_phid)
+         ->setQueryKey($saved_query->getQueryKey())
+         ->setEngineClassName($saved_query->getEngineClassName());
+ 
+diff --git a/src/applications/search/controller/PhabricatorSearchRelationshipSourceController.php b/src/applications/search/controller/PhabricatorSearchRelationshipSourceController.php
+index 52cdec57be..48d7cf4e51 100644
+--- a/src/applications/search/controller/PhabricatorSearchRelationshipSourceController.php
++++ b/src/applications/search/controller/PhabricatorSearchRelationshipSourceController.php
+@@ -5,6 +5,7 @@ final class PhabricatorSearchRelationshipSourceController
+ 
+   public function handleRequest(AphrontRequest $request) {
+     $viewer = $request->getViewer();
++    $viewer_phid = $viewer->getPHID();
+ 
+     $object = $this->loadRelationshipObject();
+     if (!$object) {
+@@ -33,11 +34,15 @@ final class PhabricatorSearchRelationshipSourceController
+ 
+     switch ($filter) {
+       case 'assigned':
+-        $query->setParameter('ownerPHIDs', array($viewer->getPHID()));
++        if ($viewer_phid) {
++          $query->setParameter('ownerPHIDs', array($viewer_phid));
++        }
+         $query->setParameter('statuses', array($status_open));
+         break;
+       case 'created':
+-        $query->setParameter('authorPHIDs', array($viewer->getPHID()));
++        if ($viewer_phid) {
++          $query->setParameter('authorPHIDs', array($viewer_phid));
++        }
+         $query->setParameter('statuses', array($status_open));
+         break;
+       case 'open':
+diff --git a/src/applications/search/engine/PhabricatorApplicationSearchEngine.php b/src/applications/search/engine/PhabricatorApplicationSearchEngine.php
+index 19610ce85a..946a002d2a 100644
+--- a/src/applications/search/engine/PhabricatorApplicationSearchEngine.php
++++ b/src/applications/search/engine/PhabricatorApplicationSearchEngine.php
+@@ -555,16 +555,20 @@ abstract class PhabricatorApplicationSearchEngine extends Phobject {
+   public function loadAllNamedQueries() {
+     $viewer = $this->requireViewer();
+     $builtin = $this->getBuiltinQueries();
++    $viewer_phid = $viewer->getPHID();
+ 
+     if ($this->namedQueries === null) {
++      $user_phids = array(
++        PhabricatorNamedQuery::SCOPE_GLOBAL,
++      );
++      if ($viewer_phid) {
++        array_unshift($user_phids, $viewer_phid);
++      }
++
+       $named_queries = id(new PhabricatorNamedQueryQuery())
+         ->setViewer($viewer)
+         ->withEngineClassNames(array(get_class($this)))
+-        ->withUserPHIDs(
+-          array(
+-            $viewer->getPHID(),
+-            PhabricatorNamedQuery::SCOPE_GLOBAL,
+-          ))
++        ->withUserPHIDs($user_phids)
+         ->execute();
+       $named_queries = mpull($named_queries, null, 'getQueryKey');
+ 
+@@ -610,15 +614,19 @@ abstract class PhabricatorApplicationSearchEngine extends Phobject {
+    */
+   public function getDefaultQueryKey() {
+     $viewer = $this->requireViewer();
++    $viewer_phid = $viewer->getPHID();
++
++    $scope_phids = array(
++      PhabricatorNamedQueryConfig::SCOPE_GLOBAL,
++    );
++    if ($viewer_phid) {
++      array_unshift($scope_phids, $viewer_phid);
++    }
+ 
+     $configs = id(new PhabricatorNamedQueryConfigQuery())
+       ->setViewer($viewer)
+       ->withEngineClassNames(array(get_class($this)))
+-      ->withScopePHIDs(
+-        array(
+-          $viewer->getPHID(),
+-          PhabricatorNamedQueryConfig::SCOPE_GLOBAL,
+-        ))
++      ->withScopePHIDs($scope_phids)
+       ->execute();
+     $configs = msortv($configs, 'getStrengthSortVector');
+ 
+diff --git a/src/applications/subscriptions/engineextension/PhabricatorSubscriptionsSearchEngineAttachment.php b/src/applications/subscriptions/engineextension/PhabricatorSubscriptionsSearchEngineAttachment.php
+index 61c9c22ac0..30cd26f5ea 100644
+--- a/src/applications/subscriptions/engineextension/PhabricatorSubscriptionsSearchEngineAttachment.php
++++ b/src/applications/subscriptions/engineextension/PhabricatorSubscriptionsSearchEngineAttachment.php
+@@ -23,7 +23,7 @@ final class PhabricatorSubscriptionsSearchEngineAttachment
+ 
+     $viewer = $this->getViewer();
+     $viewer_phid = $viewer->getPHID();
+-    if ($viewer) {
++    if ($viewer_phid) {
+       $edges = id(new PhabricatorEdgeQuery())
+         ->withSourcePHIDs($object_phids)
+         ->withEdgeTypes(array($edge_type))

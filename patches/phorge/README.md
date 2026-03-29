@@ -192,214 +192,31 @@ Verification:
 - syntax check of both touched query classes
 - code inspection of the anonymous-viewer branches in the query postprocessing
 
-### `012-avoid-null-viewer-phid-in-legalpad-signature-paths.patch`
+### `012-guard-null-viewer-phids-in-viewer-specific-search-paths.patch`
 
-This patch avoids carrying an anonymous viewer PHID into Legalpad signature
-queries and attachment state.
+This patch consolidates the repeated PHP 8.5 null-viewer fixes across
+viewer-specific search engines, search controllers, and related query paths.
 
-The affected paths are:
+The common pattern is the same throughout:
 
-- `PhabricatorLegalpadSignaturePolicyRule`
-- `LegalpadDocumentQuery`
+- anonymous viewers do not have a user PHID
+- viewer-scoped builtins, filters, lookups, and attachments should therefore
+  not build parameters from `null`
+- on PHP 8.5, these old paths otherwise drift into deprecated `null` array key
+  and `array(null)` behavior
 
-For anonymous viewers, there is no signer PHID to filter by and no
-viewer-specific signature attachment to record. The correct behavior is simply:
+The patch covers:
 
-- skip the signer query
-- skip attaching viewer-specific signature state
-
-Verification:
-
-- syntax check of both touched Legalpad classes
-- code inspection of the anonymous-viewer branches in the policy and query
-  paths
-
-### `013-avoid-null-viewer-phid-in-calendar-event-search.patch`
-
-This patch avoids requesting viewer-specific RSVP attachment data for anonymous
-viewers in `PhabricatorCalendarEventSearchEngine`.
-
-Anonymous viewers can not have RSVP state, so the search query should only call
-`needRSVPs()` when a real viewer PHID exists.
+- builtin query handlers in Audit, Differential, Dashboard, Conduit,
+  Harbormaster, MetaMTA, Legalpad, and Phurl
+- viewer-scoped search filters in Calendar, Feed, People, and Phortune
+- central search configuration and saved-query paths
+- related viewer-specific attachment and policy helpers in Legalpad and
+  Subscriptions
 
 Verification:
 
-- syntax check of `src/applications/calendar/query/PhabricatorCalendarEventSearchEngine.php`
-- code inspection of the anonymous-viewer branch in `newQuery()`
-
-### `014-avoid-null-viewer-phid-in-calendar-export-search.patch`
-
-This patch avoids applying an author filter with a null viewer PHID in
-`PhabricatorCalendarExportSearchEngine`.
-
-Anonymous viewers do not have a user PHID, so the export query should only
-restrict by author when a real viewer PHID exists.
-
-Verification:
-
-- syntax check of `src/applications/calendar/query/PhabricatorCalendarExportSearchEngine.php`
-- code inspection of the anonymous-viewer branch in `newQuery()`
-
-### `015-guard-viewer-specific-builtin-search-queries.patch`
-
-This patch aligns viewer-specific builtin search queries with the existing
-pattern already used in other search engines like Differential:
-
-- only offer viewer-specific builtins to logged-in users
-- do not build viewer-specific parameters from a null viewer PHID
-
-The affected search engines are:
-
-- `PhabricatorMetaMTAMailSearchEngine`
-- `HarbormasterBuildSearchEngine`
-
-Verification:
-
-- syntax check of both touched search engine classes
-- code inspection of `getBuiltinQueryNames()` and
-  `buildSavedQueryFromBuiltin()`
-
-### `016-avoid-null-viewer-phid-in-people-queries.patch`
-
-This patch avoids passing a null viewer PHID into viewer-scoped People query
-filters.
-
-The affected query paths are:
-
-- `PhabricatorPeopleSearchEngine`
-- `PhabricatorPeopleLogSearchEngine`
-
-For anonymous viewers, these filters should simply not apply, instead of
-building `array(null)` constraints.
-
-Verification:
-
-- syntax check of both touched People query classes
-- code inspection of the viewer-scoped filter guards
-
-### `017-avoid-null-viewer-phid-in-phortune-searches.patch`
-
-This patch avoids querying account membership with a null viewer PHID in the
-default search paths for:
-
-- `PhortuneCartSearchEngine`
-- `PhortuneChargeSearchEngine`
-- `PhortuneSubscriptionSearchEngine`
-
-For anonymous viewers without an explicit account or merchant context, the
-existing user-facing behavior should simply be "You have no accounts!", without
-issuing a membership query for `null`.
-
-Verification:
-
-- syntax check of all three touched Phortune search engine classes
-- code inspection of the anonymous-viewer guard in
-  `buildQueryFromSavedQuery()`
-
-### `018-avoid-null-viewer-phid-in-feed-search.patch`
-
-This patch avoids running the legacy `viewerProjects` membership lookup with a
-null viewer PHID in `PhabricatorFeedSearchEngine`.
-
-For anonymous viewers, the old compatibility option should simply contribute no
-additional project PHIDs.
-
-Verification:
-
-- syntax check of `src/applications/feed/query/PhabricatorFeedSearchEngine.php`
-- code inspection of the `viewerProjects` branch in
-  `buildQueryFromParameters()`
-
-### `019-guard-authored-builtin-search-queries.patch`
-
-This patch adds a final null-viewer guard to several search engines which
-already hide viewer-specific builtins from anonymous users, but could still be
-reached directly with a builtin key.
-
-The affected search engines are:
-
-- `PhabricatorDashboardPanelSearchEngine`
-- `PhabricatorDashboardSearchEngine`
-- `PhabricatorConduitLogSearchEngine`
-
-Verification:
-
-- syntax check of all three touched search engine classes
-- code inspection of the viewer-specific builtin branches in
-  `buildSavedQueryFromBuiltin()`
-
-### `020-guard-signed-and-authored-search-queries.patch`
-
-This patch adds the same builtin-query guard pattern to two more search
-engines:
-
-- `LegalpadDocumentSearchEngine`
-- `PhabricatorPhurlURLSearchEngine`
-
-In both cases, the affected builtin query is viewer-specific and should not
-construct query parameters from a null viewer PHID.
-
-Verification:
-
-- syntax check of both touched search engine classes
-- code inspection of `getBuiltinQueryNames()` and
-  `buildSavedQueryFromBuiltin()`
-
-### `021-guard-review-and-audit-builtin-search-queries.patch`
-
-This patch applies the same viewer-specific builtin guard to:
-
-- `DifferentialRevisionSearchEngine`
-- `PhabricatorCommitSearchEngine`
-
-Both engines already only advertise these builtins to logged-in users, but the
-handler should also avoid constructing viewer-specific query parameters from a
-null PHID if reached directly.
-
-Verification:
-
-- syntax check of both touched search engine classes
-- code inspection of the viewer-specific builtin branches in
-  `buildSavedQueryFromBuiltin()`
-
-### `022-avoid-null-viewer-phids-in-search-query-config-lookups.patch`
-
-This patch tightens the central search engine logic for loading named queries
-and pinned default query configuration.
-
-For anonymous viewers, these paths only need to consult global query state, so
-they should not build lookup lists like `array(null, SCOPE_GLOBAL)`.
-
-Verification:
-
-- syntax check of `src/applications/search/engine/PhabricatorApplicationSearchEngine.php`
-- code inspection of `loadAllNamedQueries()` and `getDefaultQueryKey()`
-
-### `023-guard-viewer-scoped-search-controller-queries.patch`
-
-This patch applies the same null-viewer guard pattern to two search-related
-controllers:
-
-- `PhabricatorSearchRelationshipSourceController`
-- `PhabricatorSearchDefaultController`
-
-These paths were still constructing viewer-scoped query filters or scope lists
-even when no viewer PHID exists.
-
-Verification:
-
-- syntax check of both touched controller classes
-- code inspection of the viewer-scoped query and config branches
-
-### `024-guard-null-viewer-phids-in-saved-query-paths.patch`
-
-This patch closes two remaining null-viewer paths related to saved queries and
-viewer-specific search attachments:
-
-- `PhabricatorSearchEditController`
-- `PhabricatorSubscriptionsSearchEngineAttachment`
-
-Verification:
-
-- syntax check of both touched classes
-- code inspection of the null-viewer guard branches
+- generated directly from `git diff 5e375dc36a^..1a1967bc9f` in `phorge`
+- file list of the curated patch compared against the same commit range with no
+  missing or extra files
+- syntax check previously performed while landing the individual source commits
