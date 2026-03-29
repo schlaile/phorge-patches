@@ -361,3 +361,16 @@ Verification:
 - syntax check of both touched search engine classes
 - code inspection of the viewer-specific builtin branches in
   `buildSavedQueryFromBuiltin()`
+
+### `022-avoid-null-viewer-phids-in-search-query-config-lookups.patch`
+
+This patch tightens the central search engine logic for loading named queries
+and pinned default query configuration.
+
+For anonymous viewers, these paths only need to consult global query state, so
+they should not build lookup lists like `array(null, SCOPE_GLOBAL)`.
+
+Verification:
+
+- syntax check of `src/applications/search/engine/PhabricatorApplicationSearchEngine.php`
+- code inspection of `loadAllNamedQueries()` and `getDefaultQueryKey()`

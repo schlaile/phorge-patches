@@ -1,0 +1,76 @@
+From 0e100f4c7df2183aa7736390f98688925959271e Mon Sep 17 00:00:00 2001
+From: Alicia Codex <alicia@schlaile.de>
+Date: Sun, 29 Mar 2026 16:55:56 +0200
+Subject: [PATCH] PHP 8.5: Guard review and audit builtin search queries
+
+---
+ .../audit/query/PhabricatorCommitSearchEngine.php     |  9 +++++++++
+ .../query/DifferentialRevisionSearchEngine.php        | 11 +++++++++--
+ 2 files changed, 18 insertions(+), 2 deletions(-)
+
+diff --git a/src/applications/audit/query/PhabricatorCommitSearchEngine.php b/src/applications/audit/query/PhabricatorCommitSearchEngine.php
+index 3d5e4a5517..3240726ee4 100644
+--- a/src/applications/audit/query/PhabricatorCommitSearchEngine.php
++++ b/src/applications/audit/query/PhabricatorCommitSearchEngine.php
+@@ -200,6 +200,9 @@ final class PhabricatorCommitSearchEngine
+       case 'all':
+         return $query;
+       case 'active':
++        if (!$viewer_phid) {
++          return $query;
++        }
+         $bucket_key = DiffusionCommitRequiredActionResultBucket::BUCKETKEY;
+ 
+         $open = DiffusionCommitAuditStatus::getOpenStatusConstants();
+@@ -211,10 +214,16 @@ final class PhabricatorCommitSearchEngine
+           ->setParameter('unreachable', false);
+         return $query;
+       case 'authored':
++        if (!$viewer_phid) {
++          return $query;
++        }
+         $query
+           ->setParameter('authorPHIDs', array($viewer_phid));
+         return $query;
+       case 'audited':
++        if (!$viewer_phid) {
++          return $query;
++        }
+         $query
+           ->setParameter('auditorPHIDs', array($viewer_phid));
+         return $query;
+diff --git a/src/applications/differential/query/DifferentialRevisionSearchEngine.php b/src/applications/differential/query/DifferentialRevisionSearchEngine.php
+index d50da522c8..7f1abae779 100644
+--- a/src/applications/differential/query/DifferentialRevisionSearchEngine.php
++++ b/src/applications/differential/query/DifferentialRevisionSearchEngine.php
+@@ -151,18 +151,25 @@ final class DifferentialRevisionSearchEngine
+     $query->setQueryKey($query_key);
+ 
+     $viewer = $this->requireViewer();
++    $viewer_phid = $viewer->getPHID();
+ 
+     switch ($query_key) {
+       case 'active':
++        if (!$viewer_phid) {
++          return $query;
++        }
+         $bucket_key = DifferentialRevisionRequiredActionResultBucket::BUCKETKEY;
+ 
+         return $query
+-          ->setParameter('responsiblePHIDs', array($viewer->getPHID()))
++          ->setParameter('responsiblePHIDs', array($viewer_phid))
+           ->setParameter('statuses', array('open()'))
+           ->setParameter('bucket', $bucket_key);
+       case 'authored':
++        if (!$viewer_phid) {
++          return $query;
++        }
+         return $query
+-          ->setParameter('authorPHIDs', array($viewer->getPHID()));
++          ->setParameter('authorPHIDs', array($viewer_phid));
+       case 'all':
+         return $query;
+     }
+-- 
+2.47.3
+
