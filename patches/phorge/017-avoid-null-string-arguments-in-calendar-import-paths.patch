@@ -1,0 +1,226 @@
+From dac02e2043d2d75c1db540dd2af21ad3c8182beb Mon Sep 17 00:00:00 2001
+From: Alicia Codex <alicia@schlaile.de>
+Date: Sun, 29 Mar 2026 18:16:18 +0200
+Subject: [PATCH] PHP 8.5: Avoid null string arguments in calendar parser
+
+---
+ .../data/PhutilCalendarAbsoluteDateTime.php   |  2 +-
+ .../parser/data/PhutilCalendarDuration.php    |  2 +-
+ .../data/PhutilCalendarRecurrenceRule.php     | 12 ++++----
+ .../calendar/parser/ics/PhutilICSParser.php   | 30 +++++++++----------
+ .../calendar/parser/ics/PhutilICSWriter.php   |  2 +-
+ 5 files changed, 24 insertions(+), 24 deletions(-)
+
+diff --git a/src/applications/calendar/parser/data/PhutilCalendarAbsoluteDateTime.php b/src/applications/calendar/parser/data/PhutilCalendarAbsoluteDateTime.php
+index 0129e6c05b..e4e2e11a08 100644
+--- a/src/applications/calendar/parser/data/PhutilCalendarAbsoluteDateTime.php
++++ b/src/applications/calendar/parser/data/PhutilCalendarAbsoluteDateTime.php
+@@ -21,7 +21,7 @@ final class PhutilCalendarAbsoluteDateTime
+       '\z/';
+ 
+     $matches = null;
+-    $ok = preg_match($pattern, $value, $matches);
++    $ok = preg_match($pattern, (string)$value, $matches);
+     if (!$ok) {
+       throw new Exception(
+         pht(
+diff --git a/src/applications/calendar/parser/data/PhutilCalendarDuration.php b/src/applications/calendar/parser/data/PhutilCalendarDuration.php
+index 863150e17e..ec6e3746c8 100644
+--- a/src/applications/calendar/parser/data/PhutilCalendarDuration.php
++++ b/src/applications/calendar/parser/data/PhutilCalendarDuration.php
+@@ -70,7 +70,7 @@ final class PhutilCalendarDuration extends Phobject {
+       '\z/';
+ 
+     $matches = null;
+-    $ok = preg_match($pattern, $value, $matches);
++    $ok = preg_match($pattern, (string)$value, $matches);
+     if (!$ok) {
+       throw new Exception(
+         pht(
+diff --git a/src/applications/calendar/parser/data/PhutilCalendarRecurrenceRule.php b/src/applications/calendar/parser/data/PhutilCalendarRecurrenceRule.php
+index b31ecb23ef..ff7f68c1c1 100644
+--- a/src/applications/calendar/parser/data/PhutilCalendarRecurrenceRule.php
++++ b/src/applications/calendar/parser/data/PhutilCalendarRecurrenceRule.php
+@@ -235,11 +235,11 @@ final class PhutilCalendarRecurrenceRule
+   }
+ 
+   public static function newFromRRULE($rrule) {
+-    $parts = explode(';', $rrule);
++    $parts = explode(';', (string)$rrule);
+ 
+     $dict = array();
+     foreach ($parts as $part) {
+-      list($key, $value) = explode('=', $part, 2);
++      list($key, $value) = explode('=', (string)$part, 2);
+       switch ($key) {
+         case 'FREQ':
+         case 'INTERVAL':
+@@ -276,7 +276,7 @@ final class PhutilCalendarRecurrenceRule
+     foreach ($dict as $key => $value) {
+       if (isset($int_values[$key])) {
+         // None of these values may be negative.
+-        if (!preg_match('/^\d+\z/', $value)) {
++        if (!preg_match('/^\d+\z/', (string)$value)) {
+           throw new Exception(
+             pht(
+               'Unexpected value "%s" in "%s" RULE property: expected an '.
+@@ -289,7 +289,7 @@ final class PhutilCalendarRecurrenceRule
+ 
+       if (isset($int_lists[$key])) {
+         foreach ($value as $k => $v) {
+-          if (!preg_match('/^-?\d+\z/', $v)) {
++          if (!preg_match('/^-?\d+\z/', (string)$v)) {
+             throw new Exception(
+               pht(
+                 'Unexpected value "%s" in "%s" RRULE property: expected '.
+@@ -466,7 +466,7 @@ final class PhutilCalendarRecurrenceRule
+     $pattern = '/^(?:[+-]?([1-9]\d?))?('.$constants.')\z/';
+     foreach ($by_day as $key => $value) {
+       $matches = null;
+-      if (!preg_match($pattern, $value, $matches)) {
++      if (!preg_match($pattern, (string)$value, $matches)) {
+         throw new Exception(
+           pht(
+             'RRULE BYDAY value "%s" is invalid: rule part must be in the '.
+@@ -490,7 +490,7 @@ final class PhutilCalendarRecurrenceRule
+       }
+ 
+       // Normalize "+3FR" into "3FR".
+-      $by_day[$key] = ltrim($value, '+');
++      $by_day[$key] = ltrim((string)$value, '+');
+     }
+ 
+     $this->byDay = array_fuse($by_day);
+diff --git a/src/applications/calendar/parser/ics/PhutilICSParser.php b/src/applications/calendar/parser/ics/PhutilICSParser.php
+index 8d636f7f7b..744d738fed 100644
+--- a/src/applications/calendar/parser/ics/PhutilICSParser.php
++++ b/src/applications/calendar/parser/ics/PhutilICSParser.php
+@@ -51,9 +51,9 @@ final class PhutilICSParser extends Phobject {
+     foreach ($lines as $key => $line) {
+       $this->cursor = $key;
+       $matches = null;
+-      if (preg_match('(^BEGIN:(.*)\z)', $line, $matches)) {
++      if (preg_match('(^BEGIN:(.*)\z)', (string)$line, $matches)) {
+         $this->beginParsingNode($matches[1]);
+-      } else if (preg_match('(^END:(.*)\z)', $line, $matches)) {
++      } else if (preg_match('(^END:(.*)\z)', (string)$line, $matches)) {
+         $this->endParsingNode($matches[1]);
+       } else {
+         if (count($this->stack) < 2) {
+@@ -100,7 +100,7 @@ final class PhutilICSParser extends Phobject {
+     $last = null;
+     foreach ($lines as $idx => $line) {
+       $this->cursor = $idx;
+-      if (!preg_match('/^[ \t]/', $line)) {
++      if (!preg_match('/^[ \t]/', (string)$line)) {
+         $last = $idx;
+         continue;
+       }
+@@ -194,7 +194,7 @@ final class PhutilICSParser extends Phobject {
+     // by either a ";" (to begin a list of parameters) or a ":" (to begin
+     // the actual field body).
+ 
+-    $ok = preg_match('(^([A-Za-z0-9-]+)([;:])(.*)\z)', $line, $matches);
++    $ok = preg_match('(^([A-Za-z0-9-]+)([;:])(.*)\z)', (string)$line, $matches);
+     if (!$ok) {
+       $this->raiseParseFailure(
+         self::PARSE_MALFORMED_PROPERTY,
+@@ -213,7 +213,7 @@ final class PhutilICSParser extends Phobject {
+ 
+       while (true) {
+         // We're going to get the first couple of parts first.
+-        $ok = preg_match('(^([^=]+)=)', $body, $matches);
++        $ok = preg_match('(^([^=]+)=)', (string)$body, $matches);
+         if (!$ok) {
+           $this->raiseParseFailure(
+             self::PARSE_MALFORMED_PARAMETER_NAME,
+@@ -234,7 +234,7 @@ final class PhutilICSParser extends Phobject {
+             $is_quoted = true;
+             $ok = preg_match(
+               '(^"([^\x00-\x08\x10-\x19"]*)")',
+-              $body,
++              (string)$body,
+               $matches);
+             if (!$ok) {
+               $this->raiseParseFailure(
+@@ -248,7 +248,7 @@ final class PhutilICSParser extends Phobject {
+ 
+             // It's impossible for this not to match since it can match
+             // nothing, and it's valid for it to match nothing.
+-            preg_match('(^([^\x00-\x08\x10-\x19";:,]*))', $body, $matches);
++            preg_match('(^([^\x00-\x08\x10-\x19";:,]*))', (string)$body, $matches);
+           }
+ 
+           // NOTE: RFC5545 says "Property parameter values that are not in
+@@ -458,7 +458,7 @@ final class PhutilICSParser extends Phobject {
+ 
+     switch ($value_type) {
+       case 'BINARY':
+-        $result = base64_decode($data, true);
++        $result = base64_decode((string)$data, true);
+         if ($result === false) {
+           $this->raiseParseFailure(
+             self::PARSE_BAD_BASE64,
+@@ -490,31 +490,31 @@ final class PhutilICSParser extends Phobject {
+         break;
+       case 'DATE':
+         // This is a comma-separated list of "YYYYMMDD" values.
+-        $result = explode(',', $data);
++        $result = explode(',', (string)$data);
+         break;
+       case 'DATE-TIME':
+       case 'DURATION':
+-        if (!strlen($data)) {
++        if (!strlen((string)$data)) {
+           $result = array();
+         } else {
+-          $result = explode(',', $data);
++          $result = explode(',', (string)$data);
+         }
+         break;
+       case 'FLOAT':
+-        $result = explode(',', $data);
++        $result = explode(',', (string)$data);
+         foreach ($result as $k => $v) {
+           $result[$k] = (float)$v;
+         }
+         break;
+       case 'INTEGER':
+-        $result = explode(',', $data);
++        $result = explode(',', (string)$data);
+         foreach ($result as $k => $v) {
+           $result[$k] = (int)$v;
+         }
+         break;
+       case 'PERIOD':
+       case 'TIME':
+-        $result = explode(',', $data);
++        $result = explode(',', (string)$data);
+         break;
+       case 'TEXT':
+         $result = $this->unescapeTextValue($data);
+@@ -865,7 +865,7 @@ final class PhutilICSParser extends Phobject {
+       '/i';
+ 
+     $matches = null;
+-    if (preg_match($offset_pattern, $tzid, $matches)) {
++    if (preg_match($offset_pattern, (string)$tzid, $matches)) {
+       $hours = (int)$matches['h'];
+       $minutes = (int)idx($matches, 'm');
+       $offset = ($hours * 60 * 60) + ($minutes * 60);
+diff --git a/src/applications/calendar/parser/ics/PhutilICSWriter.php b/src/applications/calendar/parser/ics/PhutilICSWriter.php
+index 0540299a91..86f4f188bf 100644
+--- a/src/applications/calendar/parser/ics/PhutilICSWriter.php
++++ b/src/applications/calendar/parser/ics/PhutilICSWriter.php
+@@ -141,7 +141,7 @@ final class PhutilICSWriter extends Phobject {
+     $properties = array();
+ 
+     $uid = $event->getUID();
+-    if (!strlen($uid)) {
++    if (!strlen((string)$uid)) {
+       throw new Exception(
+         pht(
+           'Unable to write ICS document: event has no UID, but each event '.
+-- 
+2.47.3
+

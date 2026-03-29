@@ -314,3 +314,32 @@ Verification:
   - `PhutilCalendarRecurrenceRule::newFromRRULE(null)`
 - result: all three now reach their normal exception paths without PHP 8
   deprecation noise
+
+### `017-avoid-null-string-arguments-in-calendar-import-paths.patch`
+
+This follow-up patch fixes the same PHP 8 string-argument deprecation pattern
+in a few remaining Calendar import and lookup paths.
+
+The affected code still passed possibly-null values into string functions like:
+
+- `strtolower()`
+- `substr()`
+- `preg_match()`
+- `strlen()`
+
+On older PHP this implicitly behaved like `null -> ''`. On PHP 8, it emits
+deprecations. These casts keep the historical behavior in place while leaving
+the later validation and control flow unchanged.
+
+The patch covers:
+
+- `CalendarTimeUtil`
+- `PhabricatorCalendarEventPHIDType`
+- `PhabricatorCalendarImportEngine`
+
+Verification:
+
+- syntax check of all three touched files
+- targeted `rector` dry-run on the same files after the patch
+- result: only a separate unused-catch cleanup remains; no further strict
+  string-argument fixes are suggested on these files
