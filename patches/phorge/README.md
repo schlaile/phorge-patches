@@ -277,3 +277,40 @@ Verification:
 
 - syntax check of `search/menuitem/PhabricatorConpherenceProfileMenuItem.php`
 - code inspection of the anonymous-viewer path in `newMenuItemViewList()`
+
+### `016-avoid-null-string-arguments-in-calendar-parser.patch`
+
+This patch fixes a small cluster of PHP 8 string-argument deprecations in the
+Calendar parser and ICS import/export code.
+
+The affected paths historically relied on old PHP behavior where `null` was
+implicitly coerced to `''` when passed to string functions like:
+
+- `preg_match()`
+- `explode()`
+- `strlen()`
+- `ltrim()`
+- `base64_decode()`
+
+On PHP 8, these calls emit deprecations instead. In these parser boundaries,
+casting to string preserves the old effective behavior: invalid or missing
+input still flows into the existing validation and exception paths, but
+without raising runtime deprecations first.
+
+The patch covers:
+
+- `PhutilCalendarAbsoluteDateTime`
+- `PhutilCalendarDuration`
+- `PhutilCalendarRecurrenceRule`
+- `PhutilICSParser`
+- `PhutilICSWriter`
+
+Verification:
+
+- syntax check of all five touched files
+- direct bootstrap reproducer with `error_reporting=E_ALL` for:
+  - `PhutilCalendarAbsoluteDateTime::newFromISO8601(null)`
+  - `PhutilCalendarDuration::newFromISO8601(null)`
+  - `PhutilCalendarRecurrenceRule::newFromRRULE(null)`
+- result: all three now reach their normal exception paths without PHP 8
+  deprecation noise
