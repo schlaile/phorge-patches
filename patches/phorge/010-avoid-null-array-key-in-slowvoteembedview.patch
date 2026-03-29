@@ -1,0 +1,31 @@
+From a645cdca831344f91b77a5d052324315bbeea2d1 Mon Sep 17 00:00:00 2001
+From: Alicia Codex <alicia@schlaile.de>
+Date: Sun, 29 Mar 2026 16:23:04 +0200
+Subject: [PATCH] PHP 8.5: Avoid null array key in SlowvoteEmbedView
+
+---
+ src/applications/slowvote/view/SlowvoteEmbedView.php | 7 ++++++-
+ 1 file changed, 6 insertions(+), 1 deletion(-)
+
+diff --git a/src/applications/slowvote/view/SlowvoteEmbedView.php b/src/applications/slowvote/view/SlowvoteEmbedView.php
+index 323801de47..ac1b3dd346 100644
+--- a/src/applications/slowvote/view/SlowvoteEmbedView.php
++++ b/src/applications/slowvote/view/SlowvoteEmbedView.php
+@@ -336,8 +336,13 @@ final class SlowvoteEmbedView extends AphrontView {
+       return ($poll->getAuthorPHID() === $viewer->getPHID());
+     }
+ 
++    $viewer_phid = $viewer->getPHID();
++    if (!$viewer_phid) {
++      return false;
++    }
++
+     $choices = mgroup($poll->getChoices(), 'getAuthorPHID');
+-    return (bool)idx($choices, $viewer->getPHID());
++    return (bool)idx($choices, $viewer_phid);
+   }
+ 
+ }
+-- 
+2.47.3
+

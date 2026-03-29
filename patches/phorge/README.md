@@ -158,3 +158,16 @@ Verification:
 
 - syntax check of the three touched files
 - code inspection of the anonymous-viewer branches
+
+### `010-avoid-null-array-key-in-slowvoteembedview.patch`
+
+This patch avoids using an anonymous viewer PHID as an array key in
+`SlowvoteEmbedView`.
+
+When response visibility is based on whether the viewer has voted, an anonymous
+viewer can not have a vote and should simply see `false` here.
+
+Verification:
+
+- syntax check of `src/applications/slowvote/view/SlowvoteEmbedView.php`
+- code inspection of the anonymous-viewer branch in `areResultsVisible()`
