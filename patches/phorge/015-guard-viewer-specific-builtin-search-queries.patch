@@ -1,0 +1,33 @@
+From 2ba4ef92c62e36b6b731fe5ce6a58d4587b48df1 Mon Sep 17 00:00:00 2001
+From: Alicia Codex <alicia@schlaile.de>
+Date: Sun, 29 Mar 2026 16:38:59 +0200
+Subject: [PATCH] PHP 8.5: Avoid null viewer PHID in Calendar export search
+
+---
+ .../query/PhabricatorCalendarExportSearchEngine.php      | 9 +++++++--
+ 1 file changed, 7 insertions(+), 2 deletions(-)
+
+diff --git a/src/applications/calendar/query/PhabricatorCalendarExportSearchEngine.php b/src/applications/calendar/query/PhabricatorCalendarExportSearchEngine.php
+index 0ceccf48d4..f3c89cda27 100644
+--- a/src/applications/calendar/query/PhabricatorCalendarExportSearchEngine.php
++++ b/src/applications/calendar/query/PhabricatorCalendarExportSearchEngine.php
+@@ -17,9 +17,14 @@ final class PhabricatorCalendarExportSearchEngine
+ 
+   public function newQuery() {
+     $viewer = $this->requireViewer();
++    $viewer_phid = $viewer->getPHID();
+ 
+-    return id(new PhabricatorCalendarExportQuery())
+-      ->withAuthorPHIDs(array($viewer->getPHID()));
++    $query = new PhabricatorCalendarExportQuery();
++    if ($viewer_phid) {
++      $query->withAuthorPHIDs(array($viewer_phid));
++    }
++
++    return $query;
+   }
+ 
+   protected function buildCustomSearchFields() {
+-- 
+2.47.3
+

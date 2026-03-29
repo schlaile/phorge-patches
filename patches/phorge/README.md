@@ -239,3 +239,22 @@ Verification:
 
 - syntax check of `src/applications/calendar/query/PhabricatorCalendarExportSearchEngine.php`
 - code inspection of the anonymous-viewer branch in `newQuery()`
+
+### `015-guard-viewer-specific-builtin-search-queries.patch`
+
+This patch aligns viewer-specific builtin search queries with the existing
+pattern already used in other search engines like Differential:
+
+- only offer viewer-specific builtins to logged-in users
+- do not build viewer-specific parameters from a null viewer PHID
+
+The affected search engines are:
+
+- `PhabricatorMetaMTAMailSearchEngine`
+- `HarbormasterBuildSearchEngine`
+
+Verification:
+
+- syntax check of both touched search engine classes
+- code inspection of `getBuiltinQueryNames()` and
+  `buildSavedQueryFromBuiltin()`
