@@ -1,0 +1,91 @@
+From c276d637aa0245f3e956eabbf7fdac23e26ebb6c Mon Sep 17 00:00:00 2001
+From: Alicia Codex <alicia@schlaile.de>
+Date: Sun, 29 Mar 2026 15:15:27 +0200
+Subject: [PATCH] Route direct modern commands through ArcanistRuntime
+
+---
+ scripts/arcanist.php            | 21 +++++++++++++++++++++
+ src/runtime/ArcanistRuntime.php | 21 +++++++++++++++++----
+ 2 files changed, 38 insertions(+), 4 deletions(-)
+
+diff --git a/scripts/arcanist.php b/scripts/arcanist.php
+index 8bf3828a..e1ee4f31 100755
+--- a/scripts/arcanist.php
++++ b/scripts/arcanist.php
+@@ -48,6 +48,18 @@ function arcanist_adjust_php_include_path() {
+ }
+ arcanist_adjust_php_include_path();
+ 
++function arcanist_should_use_runtime($help, $workflow) {
++  if (getenv(ArcanistRuntime::ENV_LEGACY_FALLTHROUGH)) {
++    return false;
++  }
++
++  if ($help) {
++    return true;
++  }
++
++  return $workflow->supportsToolset(new ArcanistArcToolset());
++}
++
+ ini_set('memory_limit', -1);
+ 
+ $original_argv = $argv;
+@@ -253,6 +265,15 @@ try {
+     $args,
+     $configuration_manager,
+     $console);
++
++  if (arcanist_should_use_runtime($help, $workflow)) {
++    $runtime_argv = $original_argv;
++    $runtime_argv[0] = ArcanistArcToolset::TOOLSETKEY;
++
++    $runtime = new ArcanistRuntime();
++    exit($runtime->execute($runtime_argv));
++  }
++
+   $workflow->setConfigurationManager($configuration_manager);
+   $workflow->setArcanistConfiguration($config);
+   $workflow->setCommand($command);
+diff --git a/src/runtime/ArcanistRuntime.php b/src/runtime/ArcanistRuntime.php
+index b1b9cd11..938c8299 100644
+--- a/src/runtime/ArcanistRuntime.php
++++ b/src/runtime/ArcanistRuntime.php
+@@ -2,6 +2,8 @@
+ 
+ final class ArcanistRuntime {
+ 
++  const ENV_LEGACY_FALLTHROUGH = 'ARCANIST_RUNTIME_LEGACY_FALLTHROUGH';
++
+   private $workflows;
+   private $logEngine;
+   private $lastInterruptTime;
+@@ -230,10 +232,21 @@ final class ArcanistRuntime {
+     $arcanist_root = dirname($arcanist_root);
+     $bin = $arcanist_root.'/scripts/arcanist.php';
+ 
+-    $err = phutil_passthru(
+-      'php -f %R -- %Ls',
+-      $bin,
+-      array_slice($argv, 1));
++    $old_fallthrough = getenv(self::ENV_LEGACY_FALLTHROUGH);
++    putenv(self::ENV_LEGACY_FALLTHROUGH.'=1');
++
++    try {
++      $err = phutil_passthru(
++        'php -f %R -- %Ls',
++        $bin,
++        array_slice($argv, 1));
++    } finally {
++      if ($old_fallthrough === false) {
++        putenv(self::ENV_LEGACY_FALLTHROUGH);
++      } else {
++        putenv(self::ENV_LEGACY_FALLTHROUGH.'='.$old_fallthrough);
++      }
++    }
+ 
+     return $err;
+   }
+-- 
+2.47.3
+
