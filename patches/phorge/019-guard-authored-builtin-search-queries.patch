@@ -1,0 +1,36 @@
+From 01d327eb7435d7e81e5cc86364f6776255437bd5 Mon Sep 17 00:00:00 2001
+From: Alicia Codex <alicia@schlaile.de>
+Date: Sun, 29 Mar 2026 16:48:53 +0200
+Subject: [PATCH] PHP 8.5: Avoid null viewer PHID in Feed search
+
+---
+ .../feed/query/PhabricatorFeedSearchEngine.php      | 13 ++++++++-----
+ 1 file changed, 8 insertions(+), 5 deletions(-)
+
+diff --git a/src/applications/feed/query/PhabricatorFeedSearchEngine.php b/src/applications/feed/query/PhabricatorFeedSearchEngine.php
+index 09d4fb4542..bb61a5df40 100644
+--- a/src/applications/feed/query/PhabricatorFeedSearchEngine.php
++++ b/src/applications/feed/query/PhabricatorFeedSearchEngine.php
+@@ -66,11 +66,14 @@ final class PhabricatorFeedSearchEngine
+     $viewer_projects = $map['viewerProjects'];
+     if ($viewer_projects) {
+       $viewer = $this->requireViewer();
+-      $projects = id(new PhabricatorProjectQuery())
+-        ->setViewer($viewer)
+-        ->withMemberPHIDs(array($viewer->getPHID()))
+-        ->execute();
+-      $phids += array_fuse(mpull($projects, 'getPHID'));
++      $viewer_phid = $viewer->getPHID();
++      if ($viewer_phid) {
++        $projects = id(new PhabricatorProjectQuery())
++          ->setViewer($viewer)
++          ->withMemberPHIDs(array($viewer_phid))
++          ->execute();
++        $phids += array_fuse(mpull($projects, 'getPHID'));
++      }
+     }
+ 
+     if ($phids) {
+-- 
+2.47.3
+

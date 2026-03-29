@@ -309,3 +309,21 @@ Verification:
 - syntax check of `src/applications/feed/query/PhabricatorFeedSearchEngine.php`
 - code inspection of the `viewerProjects` branch in
   `buildQueryFromParameters()`
+
+### `019-guard-authored-builtin-search-queries.patch`
+
+This patch adds a final null-viewer guard to several search engines which
+already hide viewer-specific builtins from anonymous users, but could still be
+reached directly with a builtin key.
+
+The affected search engines are:
+
+- `PhabricatorDashboardPanelSearchEngine`
+- `PhabricatorDashboardSearchEngine`
+- `PhabricatorConduitLogSearchEngine`
+
+Verification:
+
+- syntax check of all three touched search engine classes
+- code inspection of the viewer-specific builtin branches in
+  `buildSavedQueryFromBuiltin()`
