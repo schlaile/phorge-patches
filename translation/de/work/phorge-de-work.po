@@ -32710,10 +32710,10 @@ msgid "Retrieve information about Harbormaster build steps."
 msgstr "Informationen über Harbormaster-Build-Schritte abrufen."
 
 msgid "Apply transactions to create a new buildable or edit an existing one."
-msgstr "Transaktionen anwenden, um ein neues Buildable zu erstellen oder ein vorhandenes zu bearbeiten."
+msgstr "Transaktionen anwenden, um einen neuen Build-Kandidaten zu erstellen oder einen vorhandenen zu bearbeiten."
 
 msgid "Find out information about buildables."
-msgstr "Informationen über Buildables abrufen."
+msgstr "Informationen über Build-Kandidaten abrufen."
 
 msgid "Create a build artifact."
 msgstr "Ein Build-Artefakt erstellen."
@@ -32767,7 +32767,7 @@ msgid ""
 msgstr "Objekt \"%s\" implementiert Schnittstelle \"%s\" nicht. Auto-Ziele können nur für buildbare Objekte abgefragt werden."
 
 msgid "Query Harbormaster buildables."
-msgstr "Harbormaster-Buildables abfragen."
+msgstr "Harbormaster-Build-Kandidaten abfragen."
 
 msgid "Query Harbormaster builds."
 msgstr "Harbormaster-Builds abfragen."
@@ -32787,7 +32787,7 @@ msgid ""
 "Buildables may receive control commands like \"abort\" and \"restart\". "
 "Sending a control command to a Buildable is the same as sending it to each "
 "Build for the Buildable."
-msgstr "Buildables können Steuerbefehle wie „abort“ und „restart“ empfangen. Das Senden eines Steuerbefehls an ein Buildable entspricht dem Senden an jeden Build für das Buildable."
+msgstr "Build-Kandidaten können Steuerbefehle wie „abort“ und „restart“ empfangen. Das Senden eines Steuerbefehls an einen Build-Kandidaten entspricht dem Senden an jeden Build dieses Build-Kandidaten."
 
 msgid ""
 "Builds may receive control commands like \"pause\", \"resume\", \"abort\", "
@@ -32929,7 +32929,7 @@ msgid ""
 "See below for a list of control commands.\n"
 "\n"
 "EOREMARKUP"
-msgstr "Diese Methode (`harbormaster.sendmessage`) verwenden, um Steuerbefehle an Buildables und Builds zu senden.\n\nDen Build oder das Buildable, das den Steuerbefehl empfangen soll, durch Angabe seiner PHID im `receiver`-Parameter angeben.\n\nDas Senden eines Steuerbefehls an ein Buildable hat denselben Effekt wie das Senden an jeden Build für das Buildable.\n\nBeim Senden von Steuerbefehlen müssen die `unit`- und `lint`-Parameter dieser API-Methode weggelassen werden. Build-Ergebnisse können nicht direkt an einen Build oder ein Buildable gemeldet werden. Stattdessen Ergebnisse an ein Build-Ziel melden.\n\nSiehe unten für eine Liste der Steuerbefehle.\n\nEOREMARKUP"
+msgstr "Diese Methode (`harbormaster.sendmessage`) verwenden, um Steuerbefehle an Build-Kandidaten und Builds zu senden.\n\nDen Build oder den Build-Kandidaten, der den Steuerbefehl empfangen soll, durch Angabe seiner PHID im `receiver`-Parameter angeben.\n\nDas Senden eines Steuerbefehls an einen Build-Kandidaten hat denselben Effekt wie das Senden an jeden Build dieses Build-Kandidaten.\n\nBeim Senden von Steuerbefehlen müssen die `unit`- und `lint`-Parameter dieser API-Methode weggelassen werden. Build-Ergebnisse können nicht direkt an einen Build oder einen Build-Kandidaten gemeldet werden. Stattdessen Ergebnisse an ein Build-Ziel melden.\n\nSiehe unten für eine Liste der Steuerbefehle.\n\nEOREMARKUP"
 
 msgid "Message Type"
 msgstr "Nachrichtentyp"
@@ -32980,7 +32980,7 @@ msgid ""
 "\n"
 "EOREMARKUP"
 msgstr ""
-"Diese Methode verwenden, um Steuerbefehle an Buildables und Builds zu "
+"Diese Methode verwenden, um Steuerbefehle an Build-Kandidaten und Builds zu "
 "senden.\n"
 "\n"
 "Diese Tabelle fasst zusammen, welche Objekttypen Steuerbefehle empfangen "
@@ -32994,10 +32994,10 @@ msgstr ""
 "    <th>Beschreibung</th>\n"
 "  </tr>\n"
 "  <tr>\n"
-"    <td>Harbormaster Buildable</td>\n"
+"    <td>Harbormaster Build-Kandidat</td>\n"
 "    <td>`PHID-HMBB-...`</td>\n"
 "    <td>{icon check color=green}</td>\n"
-"    <td>Buildables können Steuerbefehle empfangen.</td>\n"
+"    <td>Build-Kandidaten können Steuerbefehle empfangen.</td>\n"
 "  </tr>\n"
 "  <tr>\n"
 "    <td>Harbormaster Build</td>\n"
@@ -33045,7 +33045,7 @@ msgid ""
 "    <th>Description</th>\n"
 "  </tr>\n"
 "  <tr>\n"
-"    <td>Harbormaster Buildable</td>\n"
+"    <td>Harbormaster Build-Kandidat</td>\n"
 "    <td>`PHID-HMBB-...`</td>\n"
 "    <td>{icon times color=red}</td>\n"
 "    <td>Buildables may **NOT** receive status or result messages.</td>\n"
@@ -33118,7 +33118,7 @@ msgstr ""
 "    <td>Harbormaster Buildable</td>\n"
 "    <td>`PHID-HMBB-...`</td>\n"
 "    <td>{icon times color=red}</td>\n"
-"    <td>Buildables können **KEINE** Status- oder Ergebnisnachrichten empfangen.</td>\n"
+"    <td>Build-Kandidaten können **KEINE** Status- oder Ergebnisnachrichten empfangen.</td>\n"
 "  </tr>\n"
 "  <tr>\n"
 "    <td>Harbormaster Build</td>\n"
@@ -33329,7 +33329,7 @@ msgstr "Wird abgebrochen"
 
 #, php-format
 msgid "Attempting to access unknown buildable status property (\"%s\")."
-msgstr "Versuch, auf unbekannte Buildable-Statuseigenschaft (\"%s\") zuzugreifen."
+msgstr "Versuch, auf unbekannte Statuseigenschaft eines Build-Kandidaten (\"%s\") zuzugreifen."
 
 msgid "Preparing"
 msgstr "Wird vorbereitet"
@@ -33523,7 +33523,7 @@ msgid "Lines"
 msgstr "Zeilen"
 
 msgid "Buildable"
-msgstr "Buildable"
+msgstr "Build-Kandidat"
 
 msgid "Build Plan"
 msgstr "Build-Plan"
@@ -33545,7 +33545,7 @@ msgid "Build"
 msgstr "Build"
 
 msgid "This buildable has no builds, so you can not issue any commands."
-msgstr "Dieses Buildable hat keine Builds, daher können keine Befehle erteilt werden."
+msgstr "Dieser Build-Kandidat hat keine Builds, daher können keine Befehle erteilt werden."
 
 msgid "Unable to Send Command"
 msgstr "Befehl konnte nicht gesendet werden"
@@ -33553,10 +33553,10 @@ msgstr "Befehl konnte nicht gesendet werden"
 msgid ""
 "You can not send this command to any of the current builds for this "
 "buildable."
-msgstr "Dieser Befehl kann keinem der aktuellen Builds für dieses Buildable gesendet werden."
+msgstr "Dieser Befehl kann keinem der aktuellen Builds für diesen Build-Kandidaten gesendet werden."
 
 msgid "Builds for this buildable:"
-msgstr "Builds für dieses Buildable:"
+msgstr "Builds für diesen Build-Kandidaten:"
 
 msgid "Browse Builds"
 msgstr "Builds durchsuchen"
@@ -33569,7 +33569,7 @@ msgstr "Build-Pläne verwalten"
 
 #, php-format
 msgid "Buildable %d"
-msgstr "Buildable %d"
+msgstr "Build-Kandidat %d"
 
 msgid "Container"
 msgstr "Container"
@@ -33578,10 +33578,10 @@ msgid "Origin"
 msgstr "Ursprung"
 
 msgid "Manual Buildable"
-msgstr "Manuelles Buildable"
+msgstr "Manuell angelegter Build-Kandidat"
 
 msgid "Automatic Buildable"
-msgstr "Automatisches Buildable"
+msgstr "Automatisch erzeugter Build-Kandidat"
 
 #, php-format
 msgid "Target %d"
@@ -33660,7 +33660,7 @@ msgstr ""
 "  $ ./bin/harbormaster build <object> --plan %s"
 
 msgid "Buildable Name"
-msgstr "Buildable-Name"
+msgstr "Name des Build-Kandidaten"
 
 msgid ""
 "This build plan does not have any build steps yet, so it will not do "
@@ -33984,23 +33984,23 @@ msgid "Edit Build Step"
 msgstr "Build-Schritt bearbeiten"
 
 msgid "Harbormaster Buildables"
-msgstr "Harbormaster-Buildables"
+msgstr "Harbormaster-Build-Kandidaten"
 
 msgid "Edit Harbormaster Buildable Configurations"
-msgstr "Harbormaster-Buildable-Konfigurationen bearbeiten"
+msgstr "Harbormaster-Build-Kandidaten-Konfigurationen bearbeiten"
 
 msgid "This engine is used to edit Harbormaster buildables."
-msgstr "Diese Engine wird zum Bearbeiten von Harbormaster-Buildables verwendet."
+msgstr "Diese Engine wird zum Bearbeiten von Harbormaster-Build-Kandidaten verwendet."
 
 msgid "Create Buildable"
-msgstr "Buildable erstellen"
+msgstr "Build-Kandidaten erstellen"
 
 #, php-format
 msgid "Edit Buildable: %s"
-msgstr "Buildable bearbeiten: %s"
+msgstr "Build-Kandidaten bearbeiten: %s"
 
 msgid "Edit Buildable"
-msgstr "Buildable bearbeiten"
+msgstr "Build-Kandidaten bearbeiten"
 
 msgid "Report that the target is complete, and the target has passed."
 msgstr "Melden, dass das Ziel abgeschlossen ist und bestanden hat."
@@ -34331,15 +34331,15 @@ msgid ""
 msgstr "Builds normal in die Build-Warteschlange einreihen, anstatt sie im Vordergrund auszuführen."
 
 msgid "Specify exactly one buildable object, by object name."
-msgstr "Genau ein Buildable-Objekt per Objektname angeben."
+msgstr "Genau ein Build-Kandidaten-Objekt per Objektname angeben."
 
 #, php-format
 msgid "No such buildable \"%s\"!"
-msgstr "Kein solches Buildable \"%s\"!"
+msgstr "Kein solcher Build-Kandidat \"%s\"!"
 
 #, php-format
 msgid "Object \"%s\" is not a buildable!"
-msgstr "Objekt \"%s\" ist kein Buildable!"
+msgstr "Objekt \"%s\" ist kein Build-Kandidat!"
 
 #, php-format
 msgid "Use %s to specify a build plan to run."
@@ -34354,7 +34354,7 @@ msgstr "Dieser Build-Plan kann nicht manuell ausgeführt werden."
 
 #, php-format
 msgid "Applying plan %s to new buildable %s..."
-msgstr "Plan %s wird auf neues Buildable %s angewendet..."
+msgstr "Plan %s wird auf neuen Build-Kandidaten %s angewendet..."
 
 msgid "**publish** __buildable__ ..."
 msgstr "**publish** __buildable__ ..."
@@ -34362,22 +34362,22 @@ msgstr "**publish** __buildable__ ..."
 msgid ""
 "Publish a buildable. This is primarily useful for developing and debugging "
 "applications which have buildable objects."
-msgstr "Ein Buildable veröffentlichen. Dies ist hauptsächlich nützlich für die Entwicklung und das Debuggen von Anwendungen mit Buildable-Objekten."
+msgstr "Einen Build-Kandidaten veröffentlichen. Dies ist hauptsächlich nützlich für die Entwicklung und das Debuggen von Anwendungen mit Build-Kandidaten-Objekten."
 
 msgid "Name one or more buildables to publish, like \"B123\"."
-msgstr "Ein oder mehrere zu veröffentlichende Buildables angeben, z.B. \"B123\"."
+msgstr "Einen oder mehrere zu veröffentlichende Build-Kandidaten angeben, z.B. \"B123\"."
 
 #, php-format
 msgid ""
 "Argument \"%s\" does not name a buildable. Provide one or more valid "
 "buildable monograms or PHIDs."
-msgstr "Argument \"%s\" benennt kein Buildable. Ein oder mehrere gültige Buildable-Monogramme oder PHIDs angeben."
+msgstr "Argument \"%s\" benennt keinen Build-Kandidaten. Einen oder mehrere gültige Monogramme oder PHIDs von Build-Kandidaten angeben."
 
 #, php-format
 msgid ""
 "Object \"%s\" is not a HarbormasterBuildable (it is a \"%s\"). Name one or "
 "more buildables to publish, like \"B123\"."
-msgstr "Objekt \"%s\" ist kein HarbormasterBuildable (es ist ein \"%s\"). Ein oder mehrere zu veröffentlichende Buildables angeben, z.B. \"B123\"."
+msgstr "Objekt \"%s\" ist kein Harbormaster-Build-Kandidat (es ist ein \"%s\"). Einen oder mehrere zu veröffentlichende Build-Kandidaten angeben, z.B. \"B123\"."
 
 #, php-format
 msgid "Publishing \"%s\"..."
@@ -34468,7 +34468,7 @@ msgstr "Nur diesen Build aktualisieren."
 msgid ""
 "Force the buildable to update even if no build status changes occur during "
 "normal update."
-msgstr "Das Buildable zur Aktualisierung zwingen, auch wenn sich beim normalen Update kein Build-Status ändert."
+msgstr "Den Build-Kandidaten zur Aktualisierung zwingen, auch wenn sich beim normalen Update kein Build-Status ändert."
 
 msgid ""
 "If updating generates tasks, queue them for the daemons instead of executing "
@@ -34476,19 +34476,19 @@ msgid ""
 msgstr "Wenn die Aktualisierung Tasks erzeugt, diese für die Daemons in die Warteschlange stellen, anstatt sie in diesem Prozess auszuführen."
 
 msgid "Specify exactly one buildable, by object name."
-msgstr "Genau ein Buildable per Objektname angeben."
+msgstr "Genau einen Build-Kandidaten per Objektname angeben."
 
 #, php-format
 msgid "Object \"%s\" is not a Harbormaster Buildable!"
-msgstr "Objekt \"%s\" ist kein Harbormaster-Buildable!"
+msgstr "Objekt \"%s\" ist kein Harbormaster-Build-Kandidat!"
 
 #, php-format
 msgid "The specified buildable does not have a build with ID \"%s\"."
-msgstr "Das angegebene Buildable hat keinen Build mit der ID \"%s\"."
+msgstr "Der angegebene Build-Kandidat hat keinen Build mit der ID \"%s\"."
 
 #, php-format
 msgid "Updating build %d of buildable %s..."
-msgstr "Build %d von Buildable %s wird aktualisiert..."
+msgstr "Build %d von Build-Kandidat %s wird aktualisiert..."
 
 msgid ""
 "Write a new Harbormaster build log. This is primarily intended to make "
@@ -34606,14 +34606,14 @@ msgid "\"arc land\" never warns that the build is still running or has failed."
 msgstr "\"arc land\" warnt nie, dass der Build noch läuft oder fehlgeschlagen ist."
 
 msgid "The buildable waits for the build, and fails if the build fails."
-msgstr "Das Buildable wartet auf den Build und schlägt fehl, wenn der Build fehlschlägt."
+msgstr "Der Build-Kandidat wartet auf den Build und schlägt fehl, wenn der Build fehlschlägt."
 
 msgid ""
 "The buildable waits for the build, but does not fail if the build fails."
-msgstr "Das Buildable wartet auf den Build, schlägt aber nicht fehl, wenn der Build fehlschlägt."
+msgstr "Der Build-Kandidat wartet auf den Build, schlägt aber nicht fehl, wenn der Build fehlschlägt."
 
 msgid "The buildable does not wait for the build."
-msgstr "Das Buildable wartet nicht auf den Build."
+msgstr "Der Build-Kandidat wartet nicht auf den Build."
 
 msgid "The build may be restarted."
 msgstr "Der Build kann neu gestartet werden."
@@ -34726,11 +34726,12 @@ msgid ""
 "You can change this behavior if you do not want to wait for this build, or "
 "do not care if it fails."
 msgstr ""
-"Der Gesamtzustand eines Buildables (wie ein Commit oder eine Revision) ist "
+"Der Gesamtzustand eines Build-Kandidaten (wie eines Commits oder einer "
+"Revision) ist "
 "normalerweise die Zusammenfassung der Einzelzustände aller Builds, die "
 "dagegen gelaufen sind.\n"
 "\n"
-"Buildables befinden sich im Zustand \"wird gebaut\", bis alle Builds "
+"Build-Kandidaten befinden sich im Zustand \"wird gebaut\", bis alle Builds "
 "bestanden haben (was sie zu \"bestanden\" macht), oder ein Build "
 "fehlschlägt (was sie zu \"fehlgeschlagen\" macht).\n"
 "\n"
@@ -34738,7 +34739,7 @@ msgstr ""
 "werden soll oder es egal ist, ob er fehlschlägt."
 
 msgid "Affects Buildable"
-msgstr "Beeinflusst Buildable"
+msgstr "Beeinflusst Build-Kandidaten"
 
 msgid ""
 "Usually, builds may be restarted by users who have permission to edit the "
@@ -34865,10 +34866,10 @@ msgid "Search for builds running a given build plan."
 msgstr "Nach Builds suchen, die einen bestimmten Build-Plan ausführen."
 
 msgid "Buildables"
-msgstr "Buildables"
+msgstr "Build-Kandidaten"
 
 msgid "Search for builds running against particular buildables."
-msgstr "Nach Builds suchen, die gegen bestimmte Buildables laufen."
+msgstr "Nach Builds suchen, die gegen bestimmte Build-Kandidaten laufen."
 
 msgid "Search for builds with given statuses."
 msgstr "Nach Builds mit bestimmten Status suchen."
@@ -34953,13 +34954,13 @@ msgid "Search for builds by containing revision or repository."
 msgstr "Nach Builds nach enthaltener Revision oder Repository suchen."
 
 msgid "Search for builds by buildable status."
-msgstr "Nach Builds nach Buildable-Status suchen."
+msgstr "Nach Builds nach dem Status des Build-Kandidaten suchen."
 
 msgid "Manual"
 msgstr "Manuell"
 
 msgid "Search for only manual or automatic buildables."
-msgstr "Nur nach manuellen oder automatischen Buildables suchen."
+msgstr "Nur nach manuell angelegten oder automatisch erzeugten Build-Kandidaten suchen."
 
 msgid "Show Only Manual Builds"
 msgstr "Nur manuelle Builds anzeigen"
@@ -34968,10 +34969,10 @@ msgid "Show Only Automated Builds"
 msgstr "Nur automatisierte Builds anzeigen"
 
 msgid "All Buildables"
-msgstr "Alle Buildables"
+msgstr "Alle Build-Kandidaten"
 
 msgid "No buildables found."
-msgstr "Keine Buildables gefunden."
+msgstr "Keine Build-Kandidaten gefunden."
 
 msgid "Abort Older Builds"
 msgstr "Ältere Builds abbrechen"
@@ -35083,7 +35084,7 @@ msgstr "Auch klonen"
 msgid ""
 "Unable to determine how to clone the repository for this buildable: it is "
 "not associated with a tracked repository."
-msgstr "Klonmethode für dieses Buildable konnte nicht ermittelt werden: Es ist keinem verfolgten Repository zugeordnet."
+msgstr "Klonmethode für diesen Build-Kandidaten konnte nicht ermittelt werden: Er ist keinem verfolgten Repository zugeordnet."
 
 #, php-format
 msgid "Unable to load repository with PHID \"%s\"."
@@ -35092,7 +35093,7 @@ msgstr "Repository mit PHID \"%s\" konnte nicht geladen werden."
 msgid ""
 "Unable to determine how to fetch changes: this buildable does not identify a "
 "commit or a staging ref. You may need to configure a repository staging area."
-msgstr "Abrufmethode für Änderungen konnte nicht ermittelt werden: Dieses Buildable benennt weder einen Commit noch eine Staging-Referenz. Möglicherweise muss eine Repository-Staging-Area konfiguriert werden."
+msgstr "Abrufmethode für Änderungen konnte nicht ermittelt werden: Dieser Build-Kandidat benennt weder einen Commit noch eine Staging-Referenz. Möglicherweise muss eine Repository-Staging-Area konfiguriert werden."
 
 msgid "Sleep"
 msgstr "Warten"
@@ -35169,22 +35170,22 @@ msgid "Failed to load build plan (\"%s\")."
 msgstr "Build-Plan (\"%s\") konnte nicht geladen werden."
 
 msgid "A buildable inherits policies from the underlying object."
-msgstr "Ein Buildable erbt Richtlinien vom zugrundeliegenden Objekt."
+msgstr "Ein Build-Kandidat erbt Richtlinien vom zugrundeliegenden Objekt."
 
 msgid "PHID of the object that is built."
 msgstr "PHID des Objekts, das gebaut wird."
 
 msgid "PHID of the object containing this buildable."
-msgstr "PHID des Objekts, das dieses Buildable enthält."
+msgstr "PHID des Objekts, das diesen Build-Kandidaten enthält."
 
 msgid "The current status of this buildable."
-msgstr "Der aktuelle Status dieses Buildables."
+msgstr "Der aktuelle Status dieses Build-Kandidaten."
 
 msgid "True if this is a manual buildable."
-msgstr "Wahr, wenn dies ein manuelles Buildable ist."
+msgstr "Wahr, wenn dies ein manuell angelegter Build-Kandidat ist."
 
 msgid "View URI for the buildable."
-msgstr "Ansichts-URI für das Buildable."
+msgstr "Ansichts-URI für den Build-Kandidaten."
 
 msgid "The current UNIX timestamp."
 msgstr "Der aktuelle UNIX-Zeitstempel."
@@ -35199,7 +35200,7 @@ msgid "The PHID of the user or Object that initiated the build, if applicable."
 msgstr "Die PHID des Benutzers oder Objekts, das den Build gestartet hat, falls zutreffend."
 
 msgid "The object PHID of the Harbormaster Buildable being built."
-msgstr "Die Objekt-PHID des Harbormaster-Buildables, das gebaut wird."
+msgstr "Die Objekt-PHID des Harbormaster-Build-Kandidaten, der gebaut wird."
 
 msgid "The object PHID of the object (usually a diff or commit) being built."
 msgstr "Die Objekt-PHID des Objekts (normalerweise ein Diff oder Commit), das gebaut wird."
@@ -35213,7 +35214,7 @@ msgid "The object PHID of the Harbormaster Build being built."
 msgstr "Die Objekt-PHID des Harbormaster-Builds, der gerade gebaut wird."
 
 msgid "A build inherits policies from its buildable."
-msgstr "Ein Build erbt Richtlinien von seinem Buildable."
+msgstr "Ein Build erbt Richtlinien von seinem Build-Kandidaten."
 
 msgid "PHID of the object this build is building."
 msgstr "PHID des Objekts, das dieser Build baut."
@@ -35514,7 +35515,7 @@ msgstr "Ungültige Build-ID \"%s\"."
 
 #, php-format
 msgid "Invalid buildable PHID \"%s\"."
-msgstr "Ungültige Buildable-PHID \"%s\"."
+msgstr "Ungültige PHID des Build-Kandidaten \"%s\"."
 
 #, php-format
 msgid "Invalid build log PHID \"%s\"."
@@ -35788,19 +35789,19 @@ msgstr "Der Build-Plan für diesen Build ist so konfiguriert, dass Benutzer ohne
 
 #, php-format
 msgid "%s restarted this buildable."
-msgstr "%s hat dieses Buildable neu gestartet."
+msgstr "%s hat diesen Build-Kandidaten neu gestartet."
 
 #, php-format
 msgid "%s resumed this buildable."
-msgstr "%s hat dieses Buildable fortgesetzt."
+msgstr "%s hat diesen Build-Kandidaten fortgesetzt."
 
 #, php-format
 msgid "%s paused this buildable."
-msgstr "%s hat dieses Buildable angehalten."
+msgstr "%s hat diesen Build-Kandidaten angehalten."
 
 #, php-format
 msgid "%s aborted this buildable."
-msgstr "%s hat dieses Buildable abgebrochen."
+msgstr "%s hat diesen Build-Kandidaten abgebrochen."
 
 #, php-format
 msgid "%s changed the %s behavior for this plan from %s to %s."
