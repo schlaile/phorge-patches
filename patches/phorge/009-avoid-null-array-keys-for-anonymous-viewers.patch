@@ -1,0 +1,79 @@
+From ec9d32284016070e213f7a9ee5307d78e04e3e4b Mon Sep 17 00:00:00 2001
+From: Alicia Codex <alicia@schlaile.de>
+Date: Sun, 29 Mar 2026 16:21:09 +0200
+Subject: [PATCH] PHP 8.5: Avoid null array keys for anonymous viewers
+
+---
+ src/applications/phortune/storage/PhortuneMerchant.php   | 7 ++++++-
+ src/applications/ponder/view/PonderAddAnswerView.php     | 3 ++-
+ .../policyrule/PhabricatorProjectsBasePolicyRule.php     | 9 +++++++--
+ 3 files changed, 15 insertions(+), 4 deletions(-)
+
+diff --git a/src/applications/phortune/storage/PhortuneMerchant.php b/src/applications/phortune/storage/PhortuneMerchant.php
+index 25426d3b28..840ce39574 100644
+--- a/src/applications/phortune/storage/PhortuneMerchant.php
++++ b/src/applications/phortune/storage/PhortuneMerchant.php
+@@ -148,8 +148,13 @@ final class PhortuneMerchant extends PhortuneDAO
+   }
+ 
+   public function hasAutomaticCapability($capability, PhabricatorUser $viewer) {
++    $viewer_phid = $viewer->getPHID();
++    if (!$viewer_phid) {
++      return false;
++    }
++
+     $members = array_fuse($this->getMemberPHIDs());
+-    if (isset($members[$viewer->getPHID()])) {
++    if (isset($members[$viewer_phid])) {
+       return true;
+     }
+ 
+diff --git a/src/applications/ponder/view/PonderAddAnswerView.php b/src/applications/ponder/view/PonderAddAnswerView.php
+index 76ec1649e3..50d30eb6d1 100644
+--- a/src/applications/ponder/view/PonderAddAnswerView.php
++++ b/src/applications/ponder/view/PonderAddAnswerView.php
+@@ -18,9 +18,10 @@ final class PonderAddAnswerView extends AphrontView {
+   public function render() {
+     $question = $this->question;
+     $viewer = $this->getViewer();
++    $viewer_phid = $viewer->getPHID();
+ 
+     $authors = mpull($question->getAnswers(), null, 'getAuthorPHID');
+-    if (isset($authors[$viewer->getPHID()])) {
++    if ($viewer_phid && isset($authors[$viewer_phid])) {
+       $view = id(new PHUIInfoView())
+         ->setSeverity(PHUIInfoView::SEVERITY_NOTICE)
+         ->setTitle(pht('Already Answered'))
+diff --git a/src/applications/project/policyrule/PhabricatorProjectsBasePolicyRule.php b/src/applications/project/policyrule/PhabricatorProjectsBasePolicyRule.php
+index fed217779b..d3a72179df 100644
+--- a/src/applications/project/policyrule/PhabricatorProjectsBasePolicyRule.php
++++ b/src/applications/project/policyrule/PhabricatorProjectsBasePolicyRule.php
+@@ -14,6 +14,11 @@ abstract class PhabricatorProjectsBasePolicyRule
+     array $values,
+     array $objects) {
+ 
++    $viewer_phid = $viewer->getPHID();
++    if (!$viewer_phid) {
++      return;
++    }
++
+     $values = array_unique(array_filter(array_mergev($values)));
+     if (!$values) {
+       return;
+@@ -21,11 +26,11 @@ abstract class PhabricatorProjectsBasePolicyRule
+ 
+     $projects = id(new PhabricatorProjectQuery())
+       ->setViewer(PhabricatorUser::getOmnipotentUser())
+-      ->withMemberPHIDs(array($viewer->getPHID()))
++      ->withMemberPHIDs(array($viewer_phid))
+       ->withPHIDs($values)
+       ->execute();
+     foreach ($projects as $project) {
+-      $this->memberships[$viewer->getPHID()][$project->getPHID()] = true;
++      $this->memberships[$viewer_phid][$project->getPHID()] = true;
+     }
+   }
+ 
+-- 
+2.47.3
+

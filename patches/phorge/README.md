@@ -137,3 +137,24 @@ Verification:
 - syntax check of `src/applications/policy/filter/PhabricatorPolicyFilter.php`
 - code inspection of the anonymous-viewer path in `loadCustomPolicies()` and
   `checkCustomPolicy()`
+
+### `009-avoid-null-array-keys-for-anonymous-viewers.patch`
+
+This patch adds a few more small PHP 8.5 guards for anonymous viewers.
+
+In these code paths, an anonymous viewer can not meaningfully be:
+
+- a merchant member
+- a project member for policy matching
+- an already-answering user in Ponder
+
+The change therefore avoids using `null` viewer PHIDs as array keys in:
+
+- `PhortuneMerchant::hasAutomaticCapability()`
+- `PhabricatorProjectsBasePolicyRule::willApplyRules()`
+- `PonderAddAnswerView::render()`
+
+Verification:
+
+- syntax check of the three touched files
+- code inspection of the anonymous-viewer branches
