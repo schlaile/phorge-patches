@@ -38,3 +38,34 @@ That means:
 - PHP 8 no longer emits signature deprecations just from loading the class
 
 This is intended as a compatibility-preserving refactor, not a behavior change.
+
+### `0003-fix-php-8-error-handler-callback-signature.patch`
+
+This patch fixes a PHP 8 runtime fatal in the central libphutil error handler.
+
+Historically, `set_error_handler()` callbacks could receive a fifth
+"context" argument. `PhutilErrorHandler::handleError()` still required that
+parameter.
+
+On modern PHP versions, the callback is invoked with four arguments:
+
+- error number
+- error string
+- file
+- line
+
+If a warning or notice occurs, PHP now calls the callback with those four
+arguments and libphutil immediately crashes with:
+
+- `ArgumentCountError: Too few arguments to function
+  PhutilErrorHandler::handleError()`
+
+The patch keeps the legacy parameter for compatibility with the internal trap
+API, but makes it optional:
+
+- old code paths can still provide context data
+- modern PHP can invoke the callback with four arguments
+- the handler can finally process the original warning instead of crashing
+
+This is a runtime compatibility fix which restores the intended behavior of the
+existing error handler on PHP 8.
