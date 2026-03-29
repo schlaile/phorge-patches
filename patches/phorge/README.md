@@ -117,3 +117,24 @@ Verification:
 - `php -d error_reporting=E_ALL ./bin/storage upgrade --force`
 - result: fresh storage upgrade completed successfully, including schema
   adjustments and table analysis
+
+### `008-avoid-null-array-key-in-phabricatorpolicyfilter.patch`
+
+This patch avoids using a `null` viewer PHID as a cache key in
+`PhabricatorPolicyFilter`.
+
+On PHP 8.5, using `null` as an array offset is deprecated. The filter already
+stores custom policies per viewer, and anonymous viewers can safely share the
+same empty-string cache key, matching the normalization already used by `idx()`.
+
+The change:
+
+- normalizes the viewer PHID to `''` when absent
+- uses that normalized key consistently when storing and reading cached custom
+  policies
+
+Verification:
+
+- syntax check of `src/applications/policy/filter/PhabricatorPolicyFilter.php`
+- code inspection of the anonymous-viewer path in `loadCustomPolicies()` and
+  `checkCustomPolicy()`

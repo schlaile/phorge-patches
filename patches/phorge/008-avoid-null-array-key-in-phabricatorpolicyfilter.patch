@@ -1,0 +1,43 @@
+From 65be21b60603dae2a7d7934184707da08aca7011 Mon Sep 17 00:00:00 2001
+From: Alicia Codex <alicia@schlaile.de>
+Date: Sun, 29 Mar 2026 16:06:10 +0200
+Subject: [PATCH] PHP 8.5: Avoid null array key in PhabricatorPolicyFilter
+
+---
+ src/applications/policy/filter/PhabricatorPolicyFilter.php | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+
+diff --git a/src/applications/policy/filter/PhabricatorPolicyFilter.php b/src/applications/policy/filter/PhabricatorPolicyFilter.php
+index 4679cbe6b3..14f9fa5d03 100644
+--- a/src/applications/policy/filter/PhabricatorPolicyFilter.php
++++ b/src/applications/policy/filter/PhabricatorPolicyFilter.php
+@@ -627,7 +627,7 @@ final class PhabricatorPolicyFilter extends Phobject {
+ 
+   private function loadCustomPolicies(array $map) {
+     $viewer = $this->viewer;
+-    $viewer_phid = $viewer->getPHID();
++    $viewer_phid = $viewer->getPHID() ?? '';
+ 
+     $policy_query = id(new PhabricatorPolicyQuery())
+       ->setViewer($viewer)
+@@ -680,7 +680,7 @@ final class PhabricatorPolicyFilter extends Phobject {
+       $this->customPolicies[$viewer_phid] = array();
+     }
+ 
+-    $this->customPolicies[$viewer->getPHID()] += $custom_policies;
++    $this->customPolicies[$viewer_phid] += $custom_policies;
+   }
+ 
+   private function checkCustomPolicy(
+@@ -688,7 +688,7 @@ final class PhabricatorPolicyFilter extends Phobject {
+     PhabricatorPolicyInterface $object) {
+ 
+     $viewer = $this->viewer;
+-    $viewer_phid = $viewer->getPHID();
++    $viewer_phid = $viewer->getPHID() ?? '';
+ 
+     $policy = idx($this->customPolicies[$viewer_phid], $policy_phid);
+     if (!$policy) {
+-- 
+2.47.3
+
