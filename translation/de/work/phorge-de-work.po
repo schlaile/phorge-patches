@@ -14039,7 +14039,7 @@ msgid "Automatic"
 msgstr "Automatisch"
 
 msgid "Indefinite"
-msgstr ""
+msgstr "Unbegrenzt"
 
 #, fuzzy, php-format
 msgid "%s Day(s)"
@@ -14053,7 +14053,7 @@ msgid ""
 msgstr ""
 
 msgid "Constant"
-msgstr ""
+msgstr "Konstant"
 
 #, fuzzy
 msgid "Retention Policy"
@@ -14066,10 +14066,10 @@ msgstr "Typen"
 
 
 msgid "Inverse"
-msgstr ""
+msgstr "Invertiert"
 
 msgid "HTTP Parameter Types"
-msgstr ""
+msgstr "HTTP-Parametertypen"
 
 #, fuzzy
 msgid "PHID Types"
@@ -14098,19 +14098,19 @@ msgstr "Höhe"
 
 
 msgid "Sites"
-msgstr ""
+msgstr "Websites"
 
 msgid "Amazon Web Services"
-msgstr ""
+msgstr "Amazon Web Services"
 
 msgid "Configure integration with AWS (EC2, SES, S3, etc.)."
-msgstr ""
+msgstr "Integration mit AWS (EC2, SES, S3 usw.) konfigurieren."
 
 msgid "Access key for Amazon S3."
-msgstr ""
+msgstr "Zugriffsschlüssel für Amazon S3."
 
 msgid "Secret key for Amazon S3."
-msgstr ""
+msgstr "Geheimschlüssel für Amazon S3."
 
 msgid ""
 "Amazon S3 region where your S3 bucket is located. When you specify a region, "
@@ -14120,7 +14120,7 @@ msgid ""
 msgstr ""
 
 msgid "USWest Region"
-msgstr ""
+msgstr "US-West-Region"
 
 msgid ""
 "Explicit S3 endpoint to use. This should be the endpoint which corresponds "
@@ -14130,82 +14130,82 @@ msgid ""
 msgstr ""
 
 msgid "Use specific endpoint"
-msgstr ""
+msgstr "Bestimmten Endpunkt verwenden"
 
 msgid "Access key for Amazon EC2."
-msgstr ""
+msgstr "Zugriffsschlüssel für Amazon EC2."
 
 msgid "Secret key for Amazon EC2."
-msgstr ""
+msgstr "Geheimschlüssel für Amazon EC2."
 
 msgid "Access Logs"
-msgstr ""
+msgstr "Zugriffsprotokolle"
 
 msgid "Configure the access logs, which log HTTP/SSH requests."
-msgstr ""
+msgstr "Zugriffsprotokolle konfigurieren, die HTTP/SSH-Anfragen protokollieren."
 
 msgid "The controller or workflow which handled the request."
-msgstr ""
+msgstr "Der Controller oder Workflow, der die Anfrage bearbeitet hat."
 
 msgid "The HTTP response code or process exit code."
-msgstr ""
+msgstr "Der HTTP-Antwortcode oder Prozess-Exit-Code."
 
 msgid "The request date."
-msgstr ""
+msgstr "Das Anfragedatum."
 
 msgid "Epoch timestamp."
-msgstr ""
+msgstr "Epoch-Zeitstempel."
 
 msgid "The webserver's host name."
-msgstr ""
+msgstr "Der Hostname des Webservers."
 
 msgid "The PID of the server process."
-msgstr ""
+msgstr "Die PID des Serverprozesses."
 
 msgid "The remote IP."
-msgstr ""
+msgstr "Die Remote-IP."
 
 msgid "The request duration, in microseconds."
-msgstr ""
+msgstr "Die Anfragedauer in Mikrosekunden."
 
 msgid "The request path, or request target."
-msgstr ""
+msgstr "Der Anfragepfad oder das Anfrageziel."
 
 msgid "For conduit, the Conduit method which was invoked."
-msgstr ""
+msgstr "Bei Conduit die aufgerufene Conduit-Methode."
 
 msgid "The logged-in username, if one is logged in."
-msgstr ""
+msgstr "Der angemeldete Benutzername, falls einer angemeldet ist."
 
 msgid "The logged-in user PHID, if one is logged in."
-msgstr ""
+msgstr "Die PHID des angemeldeten Benutzers, falls einer angemeldet ist."
 
 msgid "Request input, in bytes."
-msgstr ""
+msgstr "Anfrage-Eingabe in Bytes."
 
 msgid "Request output, in bytes."
-msgstr ""
+msgstr "Anfrage-Ausgabe in Bytes."
 
 msgid "Cluster instance name, if configured."
-msgstr ""
+msgstr "Cluster-Instanzname, falls konfiguriert."
 
 msgid "The HTTP referrer."
-msgstr ""
+msgstr "Der HTTP-Referrer."
 
 msgid "The HTTP method."
-msgstr ""
+msgstr "Die HTTP-Methode."
 
 msgid "The system user."
-msgstr ""
+msgstr "Der Systembenutzer."
 
 msgid "The system sudo user."
-msgstr ""
+msgstr "Der System-Sudo-Benutzer."
 
 msgid "ID of the SSH key used to authenticate the request."
-msgstr ""
+msgstr "ID des SSH-Schlüssels, der zur Authentifizierung der Anfrage verwendet wurde."
 
 msgid "A random, unique string which identifies the request."
-msgstr ""
+msgstr "Eine zufällige, eindeutige Zeichenkette, die die Anfrage identifiziert."
 
 #, php-format
 msgid ""
@@ -14220,7 +14220,7 @@ msgid ""
 msgstr ""
 
 msgid "Access log location."
-msgstr ""
+msgstr "Speicherort des Zugriffsprotokolls."
 
 msgid ""
 "To enable the HTTP access log, specify a path. This log is more detailed "
@@ -14231,16 +14231,16 @@ msgid ""
 msgstr ""
 
 msgid "Disable access log."
-msgstr ""
+msgstr "Zugriffsprotokoll deaktivieren."
 
 msgid "Write access log here."
-msgstr ""
+msgstr "Zugriffsprotokoll hier schreiben."
 
 msgid "Access log format."
-msgstr ""
+msgstr "Format des Zugriffsprotokolls."
 
 msgid "SSH log location."
-msgstr ""
+msgstr "Speicherort des SSH-Protokolls."
 
 msgid ""
 "To enable the SSH log, specify a path. This log can provide more detailed "
@@ -14251,16 +14251,16 @@ msgid ""
 msgstr ""
 
 msgid "Disable SSH log."
-msgstr ""
+msgstr "SSH-Protokoll deaktivieren."
 
 msgid "Write SSH log here."
-msgstr ""
+msgstr "SSH-Protokoll hier schreiben."
 
 msgid "SSH log format."
-msgstr ""
+msgstr "Format des SSH-Protokolls."
 
 msgid "SSH error log location."
-msgstr ""
+msgstr "Speicherort des SSH-Fehlerprotokolls."
 
 msgid ""
 "To enable the SSH error log, specify a path. Errors occurring in contexts "
@@ -14270,10 +14270,10 @@ msgid ""
 msgstr ""
 
 msgid "Disable SSH error log."
-msgstr ""
+msgstr "SSH-Fehlerprotokoll deaktivieren."
 
 msgid "Write SSH error log here."
-msgstr ""
+msgstr "SSH-Fehlerprotokoll hier schreiben."
 
 #, php-format
 msgid ""
@@ -14288,23 +14288,23 @@ msgstr ""
 
 #, php-format
 msgid "Multiple %s subclasses have the same key ('%s'): %s, %s."
-msgstr ""
+msgstr "Mehrere %s-Unterklassen haben denselben Schlüssel ('%s'): %s, %s."
 
 #, php-format
 msgid "Multiple %s subclasses contain an option named '%s'!"
-msgstr ""
+msgstr "Mehrere %s-Unterklassen enthalten eine Option namens '%s'!"
 
 msgid "Options relating to authentication."
-msgstr ""
+msgstr "Optionen zur Authentifizierung."
 
 msgid "Require email verification"
-msgstr ""
+msgstr "E-Mail-Verifizierung erforderlich"
 
 msgid "Don't require email verification"
-msgstr ""
+msgstr "E-Mail-Verifizierung nicht erforderlich"
 
 msgid "Require email verification before a user can log in."
-msgstr ""
+msgstr "E-Mail-Verifizierung erfordern, bevor sich ein Benutzer anmelden kann."
 
 msgid ""
 "If true, email addresses must be verified (by clicking a link in an email) "
@@ -14319,7 +14319,7 @@ msgid "Don't Require Manual Approval"
 msgstr "Eine manuelle Freigabe ist nicht nötig"
 
 msgid "Require administrators to approve new accounts."
-msgstr ""
+msgstr "Administratoren müssen neue Konten genehmigen."
 "Neue Benutzer-Konten müssen erst durch einen Administrator freigeschaltet "
 "werden."
 
@@ -14339,7 +14339,7 @@ msgid ""
 msgstr ""
 
 msgid "Only allow registration from particular domains."
-msgstr ""
+msgstr "Registrierung nur von bestimmten Domains erlauben."
 
 msgid ""
 "You can restrict allowed email addresses to certain domains (like "
@@ -14359,10 +14359,10 @@ msgid "Valid Setting"
 msgstr "Gültiger Wert"
 
 msgid "Auth provider config must be unlocked before editing"
-msgstr ""
+msgstr "Auth-Anbieter-Konfiguration muss vor der Bearbeitung entsperrt werden"
 
 msgid "Auth provider config can be edited without unlocking"
-msgstr ""
+msgstr "Auth-Anbieter-Konfiguration kann ohne Entsperren bearbeitet werden"
 
 msgid ""
 "Require administrators to unlock the authentication provider configuration "
@@ -14380,13 +14380,13 @@ msgid ""
 msgstr ""
 
 msgid "Allow editing"
-msgstr ""
+msgstr "Bearbeitung erlauben"
 
 msgid "Prevent editing"
-msgstr ""
+msgstr "Bearbeitung verhindern"
 
 msgid "Determines whether or not basic account information is editable."
-msgstr ""
+msgstr "Bestimmt, ob grundlegende Kontoinformationen bearbeitbar sind."
 
 msgid ""
 "This option controls whether users can edit account email addresses and "
@@ -14398,7 +14398,7 @@ msgid ""
 msgstr ""
 
 msgid "Minimum password length."
-msgstr ""
+msgstr "Mindestlänge des Passworts."
 
 msgid ""
 "When users set or reset a password, it must have at least this many "
@@ -14406,10 +14406,10 @@ msgid ""
 msgstr ""
 
 msgid "Cluster Setup"
-msgstr ""
+msgstr "Cluster-Setup"
 
 msgid "Configure services to run on a cluster of hosts."
-msgstr ""
+msgstr "Dienste für den Betrieb auf einem Host-Cluster konfigurieren."
 
 #, fuzzy
 msgid "Cluster: Databases"
@@ -14450,7 +14450,7 @@ msgid ""
 msgstr ""
 
 msgid "Address ranges of cluster hosts."
-msgstr ""
+msgstr "Adressbereiche der Cluster-Hosts."
 
 #, php-format
 msgid ""
@@ -14469,19 +14469,19 @@ msgid ""
 msgstr ""
 
 msgid "Whitelist Specific Addresses"
-msgstr ""
+msgstr "Bestimmte Adressen zulassen"
 
 msgid "Whitelist 1.2.3.*"
-msgstr ""
+msgstr "1.2.3.* zulassen"
 
 msgid "Whitelist 1.2.*.*"
-msgstr ""
+msgstr "1.2.*.* zulassen"
 
 msgid "Allow Any Host (Insecure!)"
-msgstr ""
+msgstr "Jeden Host erlauben (unsicher!)"
 
 msgid "Instance identifier for multi-tenant clusters."
-msgstr ""
+msgstr "Instanzkennung für Multi-Tenant-Cluster."
 
 #, php-format
 msgid ""
@@ -14494,7 +14494,7 @@ msgid ""
 msgstr ""
 
 msgid "Activate read-only mode for maintenance or disaster recovery."
-msgstr ""
+msgstr "Nur-Lese-Modus für Wartung oder Notfallwiederherstellung aktivieren."
 
 msgid ""
 "WARNING: This is a prototype option and the description below is currently "
@@ -14507,10 +14507,10 @@ msgid ""
 msgstr ""
 
 msgid "Configure database read replicas."
-msgstr ""
+msgstr "Datenbank-Lesereplikate konfigurieren."
 
 msgid "Configure full-text search services."
-msgstr ""
+msgstr "Volltextsuchdienste konfigurieren."
 
 #, php-format
 msgid ""
@@ -14519,19 +14519,19 @@ msgid ""
 msgstr ""
 
 msgid "True"
-msgstr ""
+msgstr "True"
 
 msgid "False"
-msgstr ""
+msgstr "False"
 
 msgid "This option does not have a custom type!"
-msgstr ""
+msgstr "Diese Option hat keinen benutzerdefinierten Typ!"
 
 msgid "Configure core options, including URIs."
-msgstr ""
+msgstr "Kernoptionen einschließlich URIs konfigurieren."
 
 msgid "User Guide: Prototype Applications"
-msgstr ""
+msgstr "Benutzerhandbuch: Prototyp-Anwendungen"
 
 msgid ""
 "This option allows you to stop this service from sending data to most "
@@ -14572,7 +14572,7 @@ msgid ""
 msgstr ""
 
 msgid "URI where this software is installed."
-msgstr ""
+msgstr "URI, unter der diese Software installiert ist."
 
 msgid ""
 "Set the URI where this software is installed. Setting this improves security "
@@ -14581,7 +14581,7 @@ msgid ""
 msgstr ""
 
 msgid "Primary install URI, for multi-environment installs."
-msgstr ""
+msgstr "Primäre Installations-URI für Multi-Umgebungs-Installationen."
 
 #, php-format
 msgid ""
@@ -14593,7 +14593,7 @@ msgid ""
 msgstr ""
 
 msgid "Alternative URIs that can access this service."
-msgstr ""
+msgstr "Alternative URIs, die auf diesen Dienst zugreifen können."
 
 msgid ""
 "These alternative URIs will be able to access 'normal' pages on this "
@@ -14602,22 +14602,22 @@ msgid ""
 msgstr ""
 
 msgid "The timezone this software should use by default."
-msgstr ""
+msgstr "Die Zeitzone, die diese Software standardmäßig verwenden soll."
 
 msgid "US East (EDT)"
-msgstr ""
+msgstr "US-Ost (EDT)"
 
 msgid "US Central (CDT)"
-msgstr ""
+msgstr "US-Mitte (CDT)"
 
 msgid "US Mountain (MDT)"
-msgstr ""
+msgstr "US-Bergzeit (MDT)"
 
 msgid "US West (PDT)"
-msgstr ""
+msgstr "US-West (PDT)"
 
 msgid "Set a string this software should use to prefix cookie names."
-msgstr ""
+msgstr "Eine Zeichenkette festlegen, die diese Software als Präfix für Cookie-Namen verwenden soll."
 
 msgid ""
 "Cookies set for x.com are also sent for y.x.com. Assuming instances are "
@@ -14627,16 +14627,16 @@ msgstr ""
 
 #, php-format
 msgid "Prefix cookie with \"%s\""
-msgstr ""
+msgstr "Cookie mit \\\"%s\\\" prefixen"
 
 msgid "Enable Prototypes"
-msgstr ""
+msgstr "Prototypen aktivieren"
 
 msgid "Disable Prototypes"
-msgstr ""
+msgstr "Prototypen deaktivieren"
 
 msgid "Enable applications which are still under development."
-msgstr ""
+msgstr "Anwendungen aktivieren, die sich noch in der Entwicklung befinden."
 
 #, php-format
 msgid ""
@@ -14656,13 +14656,13 @@ msgid ""
 msgstr ""
 
 msgid "Serious business"
-msgstr ""
+msgstr "Ernstes Geschäft"
 
 msgid "Shenanigans"
-msgstr ""
+msgstr "Mumpitz"
 
 msgid "Allows you to remove levity and jokes from the UI."
-msgstr ""
+msgstr "Ermöglicht das Entfernen von Humor und Witzen aus der Benutzeroberfläche."
 
 msgid ""
 "By default, this software includes some flavor text in the UI, like a prompt "
@@ -14684,7 +14684,7 @@ msgstr ""
 
 #, php-format
 msgid "These paths get appended to your %s environment variable."
-msgstr ""
+msgstr "Diese Pfade werden deiner %s-Umgebungsvariablen angehängt."
 
 #, php-format
 msgid ""
@@ -14705,36 +14705,36 @@ msgid ""
 msgstr ""
 
 msgid "Add One Path"
-msgstr ""
+msgstr "Einen Pfad hinzufügen"
 
 msgid "Add Multiple Paths"
-msgstr ""
+msgstr "Mehrere Pfade hinzufügen"
 
 msgid "Additional configuration options to lock."
-msgstr ""
+msgstr "Zusätzliche zu sperrende Konfigurationsoptionen."
 
 msgid "Additional configuration options to hide."
-msgstr ""
+msgstr "Zusätzliche zu versteckende Konfigurationsoptionen."
 
 msgid "Setup issues to ignore."
-msgstr ""
+msgstr "Zu ignorierende Setup-Probleme."
 
 msgid "Internal."
-msgstr ""
+msgstr "Intern."
 
 msgid "Unit test value."
-msgstr ""
+msgstr "Unit-Test-Wert."
 
 msgid "Applications application"
-msgstr ""
+msgstr "Anwendungen-Anwendung"
 
 #, php-format
 msgid "Use the %s to manage enabled applications."
-msgstr ""
+msgstr "%s verwenden, um aktivierte Anwendungen zu verwalten."
 
 
 msgid "Array containing list of disabled applications."
-msgstr ""
+msgstr "Array mit der Liste deaktivierter Anwendungen."
 
 #, fuzzy
 msgid "Customized settings for applications."
@@ -14742,19 +14742,19 @@ msgstr "Applikationen anpassen..."
 
 
 msgid "Cache namespace."
-msgstr ""
+msgstr "Cache-Namensraum."
 
 msgid "Run Silently"
-msgstr ""
+msgstr "Ohne Ausgaben laufen"
 
 msgid "Run Normally"
-msgstr ""
+msgstr "Normal laufen"
 
 msgid "Stop this software from sending any email, etc."
-msgstr ""
+msgstr "Diese Software daran hindern, E-Mails usw. zu senden."
 
 msgid "Default User-Agent for outgoing HTTP requests made by this software."
-msgstr ""
+msgstr "Standard-User-Agent für ausgehende HTTP-Anfragen dieser Software."
 
 #, php-format
 msgid ""
@@ -14794,19 +14794,19 @@ msgid ""
 msgstr ""
 
 msgid "Developer / Debugging"
-msgstr ""
+msgstr "Entwickler / Debugging"
 
 msgid "Options for platform developers, including debugging."
-msgstr ""
+msgstr "Optionen für Plattformentwickler, einschließlich Debugging."
 
 msgid "Enable DarkConsole"
-msgstr ""
+msgstr "DarkConsole aktivieren"
 
 msgid "Disable DarkConsole"
-msgstr ""
+msgstr "DarkConsole deaktivieren"
 
 msgid "Enable the debugging console."
-msgstr ""
+msgstr "Die Debugging-Konsole aktivieren."
 
 #, php-format
 msgid ""
@@ -14823,13 +14823,13 @@ msgid ""
 msgstr ""
 
 msgid "Always Activate DarkConsole"
-msgstr ""
+msgstr "DarkConsole immer aktivieren"
 
 msgid "Require DarkConsole Activation"
-msgstr ""
+msgstr "DarkConsole-Aktivierung erfordern"
 
 msgid "Activate DarkConsole on every page."
-msgstr ""
+msgstr "DarkConsole auf jeder Seite aktivieren."
 
 #, php-format
 msgid ""
@@ -14842,7 +14842,7 @@ msgid ""
 msgstr ""
 
 msgid "Limit page execution time to debug hangs."
-msgstr ""
+msgstr "Seitenausführungszeit begrenzen, um Hänger zu debuggen."
 
 msgid ""
 "This option can help debug pages which are taking a very long time (more "
@@ -14870,13 +14870,13 @@ msgid ""
 msgstr ""
 
 msgid "Stop Before HTTP Redirect"
-msgstr ""
+msgstr "Vor HTTP-Weiterleitung anhalten"
 
 msgid "Use Normal HTTP Redirects"
-msgstr ""
+msgstr "Normale HTTP-Weiterleitungen verwenden"
 
 msgid "Confirm before redirecting so DarkConsole can be examined."
-msgstr ""
+msgstr "Vor der Weiterleitung bestätigen, damit DarkConsole untersucht werden kann."
 
 msgid ""
 "Normally, this software issues HTTP redirects after a successful POST. This "
@@ -14889,17 +14889,17 @@ msgid ""
 msgstr ""
 
 msgid "No profiling"
-msgstr ""
+msgstr "Kein Profiling"
 
 msgid "Profile every request (slow)"
-msgstr ""
+msgstr "Jede Anfrage profilieren (langsam)"
 
 #, php-format
 msgid "Profile 0.1%% of all requests"
-msgstr ""
+msgstr "0,1%% aller Anfragen profilieren"
 
 msgid "Automatically profile some percentage of pages."
-msgstr ""
+msgstr "Automatisch einen Prozentsatz der Seiten profilieren."
 
 #, php-format
 msgid ""
@@ -14921,17 +14921,17 @@ msgid ""
 msgstr ""
 
 msgid "No performance sampling."
-msgstr ""
+msgstr "Kein Performance-Sampling."
 
 msgid "Sample every request (slow)."
-msgstr ""
+msgstr "Jede Anfrage samplen (langsam)."
 
 #, php-format
 msgid "Sample 0.1%% of requests."
-msgstr ""
+msgstr "0,1%% der Anfragen samplen."
 
 msgid "Automatically sample some fraction of requests."
-msgstr ""
+msgstr "Automatisch einen Bruchteil der Anfragen samplen."
 
 msgid ""
 "The Multimeter application collects performance samples. You can use this "
@@ -14948,13 +14948,13 @@ msgid ""
 msgstr ""
 
 msgid "Enable developer mode"
-msgstr ""
+msgstr "Entwicklermodus aktivieren"
 
 msgid "Disable developer mode"
-msgstr ""
+msgstr "Entwicklermodus deaktivieren"
 
 msgid "Enable verbose error reporting and disk reads."
-msgstr ""
+msgstr "Ausführliche Fehlerberichterstattung und Festplattenlesezugriffe aktivieren."
 
 msgid ""
 "This option enables verbose error reporting (stack traces, error callouts) "
@@ -14967,13 +14967,13 @@ msgstr "Versionen"
 
 
 msgid "Manage extensions."
-msgstr ""
+msgstr "Erweiterungen verwalten."
 
 msgid "Paths to additional phutil libraries to load."
-msgstr ""
+msgstr "Pfade zu zusätzlichen zu ladenden phutil-Bibliotheken."
 
 msgid "Listeners receive callbacks when interesting things occur."
-msgstr ""
+msgstr "Listener erhalten Callbacks, wenn interessante Ereignisse eintreten."
 
 msgid ""
 "You can respond to various application events by installing listeners, which "
@@ -14982,10 +14982,10 @@ msgid ""
 msgstr ""
 
 msgid "Mail"
-msgstr ""
+msgstr "Mail"
 
 msgid "Configure Mail."
-msgstr ""
+msgstr "Mail konfigurieren."
 
 msgid ""
 "When a user takes an action which generates an email notification (like\n"
@@ -15182,7 +15182,7 @@ msgid ""
 msgstr ""
 
 msgid "Configuring Outbound Email"
-msgstr ""
+msgstr "Ausgehende E-Mail konfigurieren"
 
 #, php-format
 msgid ""
@@ -15219,10 +15219,10 @@ msgstr "Art der Darstellung eines Datums"
 
 
 msgid "Send Mail To Each Recipient"
-msgstr ""
+msgstr "Mail an jeden Empfänger senden"
 
 msgid "Send Mail To All Recipients"
-msgstr ""
+msgstr "Mail an alle Empfänger senden"
 
 msgid ""
 "Controls whether email for multiple recipients is sent by creating one "
@@ -15231,7 +15231,7 @@ msgid ""
 msgstr ""
 
 msgid "Send as User Taking Action"
-msgstr ""
+msgstr "Als handelnden Benutzer senden"
 
 #, fuzzy, php-format
 msgid "Send as %s"
@@ -15239,34 +15239,34 @@ msgstr "Ende %s"
 
 
 msgid "Controls whether email is sent \"From\" users."
-msgstr ""
+msgstr "Steuert, ob E-Mail \\\"Von\\\" Benutzern gesendet wird."
 
 msgid "Domain used for reply email addresses."
-msgstr ""
+msgstr "Domain für Antwort-E-Mail-Adressen."
 
 msgid "Show Recipient Hints"
-msgstr ""
+msgstr "Empfängerhinweise anzeigen"
 
 msgid "No Recipient Hints"
-msgstr ""
+msgstr "Keine Empfängerhinweise"
 
 msgid "Show \"To:\" and \"Cc:\" footer hints in email."
-msgstr ""
+msgstr "\\\"An:\\\"- und \\\"Cc:\\\"-Fußnotenhinweise in E-Mails anzeigen."
 
 msgid "Show Email Preferences Link"
-msgstr ""
+msgstr "Link zu E-Mail-Präferenzen anzeigen"
 
 msgid "No Email Preferences Link"
-msgstr ""
+msgstr "Kein Link zu E-Mail-Präferenzen"
 
 msgid "Show email preferences link in email."
-msgstr ""
+msgstr "Link zu E-Mail-Präferenzen in E-Mails anzeigen."
 
 msgid "Use Public Replies (Less Secure)"
-msgstr ""
+msgstr "Öffentliche Antworten verwenden (weniger sicher)"
 
 msgid "Use Private Replies (More Secure)"
-msgstr ""
+msgstr "Private Antworten verwenden (sicherer)"
 
 msgid ""
 "Reply addresses can either be private (more secure) or public (which works "
@@ -15274,7 +15274,7 @@ msgid ""
 msgstr ""
 
 msgid "Allow a single mailbox to be used for all replies."
-msgstr ""
+msgstr "Ein einzelnes Postfach für alle Antworten verwenden."
 
 #, fuzzy
 msgid "Short"
@@ -15287,10 +15287,10 @@ msgstr "Voller Name"
 
 
 msgid "Full"
-msgstr ""
+msgstr "Vollständig"
 
 msgid "Control how user names are rendered in mail."
-msgstr ""
+msgstr "Steuern, wie Benutzernamen in Mails angezeigt werden."
 
 msgid ""
 "You can set a limit for the maximum byte size of outbound mail. Mail which "
@@ -15300,37 +15300,37 @@ msgid ""
 msgstr ""
 
 msgid "Global cap for size of generated emails (bytes)."
-msgstr ""
+msgstr "Globale Größenbegrenzung für generierte E-Mails (Bytes)."
 
 msgid "Truncate at 512KB"
-msgstr ""
+msgstr "Bei 512 KB kürzen"
 
 msgid "Truncate at 1MB"
-msgstr ""
+msgstr "Bei 1 MB kürzen"
 
 msgid "MySQL"
-msgstr ""
+msgstr "MySQL"
 
 msgid "Database configuration."
-msgstr ""
+msgstr "Datenbankkonfiguration."
 
 msgid "MySQL database hostname."
-msgstr ""
+msgstr "MySQL-Datenbank-Hostname."
 
 msgid "MySQL on this machine"
-msgstr ""
+msgstr "MySQL auf diesem Rechner"
 
 msgid "Nonstandard port"
-msgstr ""
+msgstr "Nicht-Standard-Port"
 
 msgid "MySQL username to use when connecting to the database."
-msgstr ""
+msgstr "MySQL-Benutzername für die Datenbankverbindung."
 
 msgid "MySQL password to use when connecting to the database."
-msgstr ""
+msgstr "MySQL-Passwort für die Datenbankverbindung."
 
 msgid "The namespace that databases should use."
-msgstr ""
+msgstr "Der Namensraum, den Datenbanken verwenden sollen."
 
 msgid ""
 "Databases are created in a namespace, which defaults to 'phabricator' -- for "
@@ -15341,16 +15341,16 @@ msgid ""
 msgstr ""
 
 msgid "MySQL port to use when connecting to the database."
-msgstr ""
+msgstr "MySQL-Port für die Datenbankverbindung."
 
 msgid "Notifications"
 msgstr "Benachrichtigungen"
 
 msgid "Configure real-time notifications."
-msgstr ""
+msgstr "Echtzeit-Benachrichtigungen konfigurieren."
 
 msgid "Notifications User Guide: Setup and Configuration"
-msgstr ""
+msgstr "Benutzerhandbuch für Benachrichtigungen: Einrichtung und Konfiguration"
 
 #, php-format
 msgid ""
@@ -15367,16 +15367,16 @@ msgstr "Beispiel"
 
 
 msgid "Daemons"
-msgstr ""
+msgstr "Dämonen"
 
 msgid "Options relating to PHD (daemons)."
-msgstr ""
+msgstr "Optionen für PHD (Dämonen)."
 
 msgid "Directory that the daemons should use to store log files."
-msgstr ""
+msgstr "Verzeichnis, in dem die Dämonen Protokolldateien speichern sollen."
 
 msgid "Maximum taskmaster daemon pool size."
-msgstr ""
+msgstr "Maximale Poolgröße des Taskmaster-Dämons."
 
 msgid ""
 "Maximum number of taskmaster daemons to run at once. Raising this can "
@@ -15393,7 +15393,7 @@ msgid ""
 msgstr ""
 
 msgid "System user to run daemons as."
-msgstr ""
+msgstr "Systembenutzer, unter dem Dämonen ausgeführt werden sollen."
 
 msgid ""
 "Specify a system user to run the daemons as. Primarily, this user will own "
@@ -15408,16 +15408,16 @@ msgid ""
 msgstr ""
 
 msgid "Retention policies for garbage collection."
-msgstr ""
+msgstr "Aufbewahrungsrichtlinien für die Garbage Collection."
 
 msgid "Customizes retention policies for garbage collectors."
-msgstr ""
+msgstr "Aufbewahrungsrichtlinien für Garbage Collectors anpassen."
 
 msgid "Integration with Recaptcha"
-msgstr ""
+msgstr "Integration mit Recaptcha"
 
 msgid "Configure Recaptcha captchas."
-msgstr ""
+msgstr "Recaptcha-Captchas konfigurieren."
 
 msgid "Enable Recaptcha"
 msgstr "Recaptcha aktivieren"
@@ -15426,7 +15426,7 @@ msgid "Disable Recaptcha"
 msgstr "Recaptcha deaktivieren"
 
 msgid "Enable captchas with Recaptcha."
-msgstr ""
+msgstr "Captchas mit Recaptcha aktivieren."
 
 msgid ""
 "Enable recaptcha to require users solve captchas after a few failed login "
@@ -15435,10 +15435,10 @@ msgid ""
 msgstr ""
 
 msgid "Recaptcha public key, obtained by signing up for Recaptcha."
-msgstr ""
+msgstr "Recaptcha-öffentlicher Schlüssel, durch Anmeldung bei Recaptcha erhalten."
 
 msgid "Recaptcha private key, obtained by signing up for Recaptcha."
-msgstr ""
+msgstr "Recaptcha-privater Schlüssel, durch Anmeldung bei Recaptcha erhalten."
 
 msgid "Security"
 msgstr "Sicherheit"
@@ -15455,7 +15455,7 @@ msgid ""
 msgstr ""
 
 msgid "List of Users Without MFA"
-msgstr ""
+msgstr "Liste der Benutzer ohne MFA"
 
 #, php-format
 msgid ""
@@ -15474,7 +15474,7 @@ msgid ""
 msgstr ""
 
 msgid "Alternate domain to serve files from."
-msgstr ""
+msgstr "Alternative Domain für das Bereitstellen von Dateien."
 
 #, php-format
 msgid ""
@@ -15487,7 +15487,7 @@ msgid ""
 msgstr ""
 
 msgid "Key for HMAC digests."
-msgstr ""
+msgstr "Schlüssel für HMAC-Digests."
 
 msgid ""
 "Default key for HMAC digests where the key is not important (i.e., the hash "
@@ -15497,7 +15497,7 @@ msgid ""
 msgstr ""
 
 msgid "Force users to connect via HTTPS instead of HTTP."
-msgstr ""
+msgstr "Benutzer zur Verbindung über HTTPS statt HTTP zwingen."
 
 #, php-format
 msgid ""
@@ -15528,16 +15528,16 @@ msgid "Allow HTTP"
 msgstr "HTTP zulassen"
 
 msgid "Require all users to configure multi-factor authentication."
-msgstr ""
+msgstr "Alle Benutzer zur Einrichtung von Multi-Faktor-Authentifizierung verpflichten."
 
 msgid "Multi-Factor Required"
-msgstr ""
+msgstr "Multi-Faktor erforderlich"
 
 msgid "Multi-Factor Optional"
-msgstr ""
+msgstr "Multi-Faktor optional"
 
 msgid "Determines which URI protocols are valid for links and redirects."
-msgstr ""
+msgstr "Bestimmt, welche URI-Protokolle für Links und Weiterleitungen gültig sind."
 
 msgid ""
 "When users write comments which have URIs, they will be automatically turned "
@@ -15556,7 +15556,7 @@ msgid ""
 msgstr ""
 
 msgid "Whitelists editor protocols for \"Open in Editor\"."
-msgstr ""
+msgstr "Editor-Protokolle für \\\"Im Editor öffnen\\\" zulassen."
 
 msgid ""
 "Users can configure a URI pattern to open files in a text editor. The URI "
@@ -15570,7 +15570,7 @@ msgid "Don't embed YouTube videos"
 msgstr "Keine YouTube Videos einbinden"
 
 msgid "Determines whether or not YouTube videos get embedded."
-msgstr ""
+msgstr "Bestimmt, ob YouTube-Videos eingebettet werden."
 
 msgid ""
 "If you enable this, linked YouTube videos will be embedded inline. This has "
@@ -15579,7 +15579,7 @@ msgid ""
 msgstr ""
 
 msgid "Blacklist subnets to prevent user-initiated outbound requests."
-msgstr ""
+msgstr "Subnetze sperren, um benutzerinitiierte ausgehende Anfragen zu verhindern."
 
 msgid ""
 "Users can make requests to other services from service hosts in some "
@@ -15595,16 +15595,16 @@ msgid ""
 msgstr ""
 
 msgid "No Outbound Requests"
-msgstr ""
+msgstr "Keine ausgehenden Anfragen"
 
 msgid "Use HSTS"
-msgstr ""
+msgstr "HSTS verwenden"
 
 msgid "Do Not Use HSTS"
-msgstr ""
+msgstr "HSTS nicht verwenden"
 
 msgid "Enable HTTP Strict Transport Security (HSTS)."
-msgstr ""
+msgstr "HTTP Strict Transport Security (HSTS) aktivieren."
 
 msgid ""
 "HTTP Strict Transport Security (HSTS) sends a header which instructs "
@@ -15624,7 +15624,7 @@ msgstr "Projekte konfigurieren."
 
 #, php-format
 msgid "Config option '%s' is invalid. The URI must start with '%s' or '%s'."
-msgstr ""
+msgstr "Konfigurationsoption '%s' ist ungültig. Die URI muss mit '%s' oder '%s' beginnen."
 
 #, php-format
 msgid ""
@@ -15641,26 +15641,26 @@ msgid ""
 msgstr ""
 
 msgid "Syntax Highlighting"
-msgstr ""
+msgstr "Syntax-Highlighting"
 
 msgid "Options relating to syntax highlighting source code."
-msgstr ""
+msgstr "Optionen für das Syntax-Highlighting von Quellcode."
 
 msgid "Default non-pygments syntax highlighter engine."
-msgstr ""
+msgstr "Standard-Nicht-Pygments-Syntax-Highlighting-Engine."
 
 #, php-format
 msgid "You can provide a custom highlighter engine by extending class %s."
-msgstr ""
+msgstr "Eine benutzerdefinierte Highlighting-Engine durch Erweiterung der Klasse %s bereitstellen."
 
 msgid "Use Pygments to highlight code?"
-msgstr ""
+msgstr "Pygments für Code-Highlighting verwenden?"
 
 msgid "Use Pygments"
-msgstr ""
+msgstr "Pygments verwenden"
 
 msgid "Do Not Use Pygments"
-msgstr ""
+msgstr "Pygments nicht verwenden"
 
 #, php-format
 msgid ""
@@ -15681,7 +15681,7 @@ msgid ""
 msgstr ""
 
 msgid "Set the language list which appears in dropdowns."
-msgstr ""
+msgstr "Die Sprachenliste festlegen, die in Dropdown-Menüs erscheint."
 
 msgid ""
 "In places that we display a dropdown to syntax-highlight code, this is where "
@@ -15689,7 +15689,7 @@ msgid ""
 msgstr ""
 
 msgid "Override what language files (based on filename) highlight as."
-msgstr ""
+msgstr "Festlegen, als welche Sprache Dateien (basierend auf dem Dateinamen) hervorgehoben werden."
 
 msgid ""
 "This is an override list of regular expressions which allows you to choose "
@@ -15703,10 +15703,10 @@ msgstr ""
 
 #, php-format
 msgid "Highlight %s as PHP."
-msgstr ""
+msgstr "%s als PHP hervorheben."
 
 msgid "Highlight httpd.conf as \"apacheconf\"."
-msgstr ""
+msgstr "httpd.conf als \\\"apacheconf\\\" hervorheben."
 
 msgid ""
 "Treat all '*.x.bak' file as '.x'. NOTE: We map to capturing group 1 by "
@@ -15714,13 +15714,13 @@ msgid ""
 msgstr ""
 
 msgid "Translations"
-msgstr ""
+msgstr "Übersetzungen"
 
 msgid "Options relating to translations."
-msgstr ""
+msgstr "Optionen für Übersetzungen."
 
 msgid "Override translations."
-msgstr ""
+msgstr "Übersetzungen überschreiben."
 
 #, php-format
 msgid ""
@@ -15730,7 +15730,7 @@ msgid ""
 msgstr ""
 
 msgid "Locale code of command-line locale."
-msgstr ""
+msgstr "Sprachcode der Kommandozeilen-Locale."
 
 #, php-format
 msgid ""
@@ -15739,10 +15739,10 @@ msgid ""
 msgstr ""
 
 msgid "User Interface"
-msgstr ""
+msgstr "Benutzeroberfläche"
 
 msgid "Configure the UI, including colors."
-msgstr ""
+msgstr "Die Benutzeroberfläche einschließlich Farben konfigurieren."
 
 #, fuzzy
 msgid "Blindigo"
@@ -15762,14 +15762,14 @@ msgid "Indigo"
 msgstr "Indigo"
 
 msgid "Dark"
-msgstr ""
+msgstr "Dunkel"
 
 msgid "Sets the default color scheme."
-msgstr ""
+msgstr "Legt das Standard-Farbschema fest."
 
 
 msgid "Customize the logo and wordmark text in the header."
-msgstr ""
+msgstr "Logo und Wortmarke in der Kopfzeile anpassen."
 
 #, php-format
 msgid ""
@@ -15789,7 +15789,7 @@ msgstr "Applikationen anpassen..."
 
 
 msgid "Allows you to add footer links on most pages."
-msgstr ""
+msgstr "Ermöglicht das Hinzufügen von Fußnotenlinks auf den meisten Seiten."
 
 msgid ""
 "Allows you to add a footer with links in it to most pages. You might want to "
@@ -15804,7 +15804,7 @@ msgid ""
 msgstr ""
 
 msgid "Basic Example"
-msgstr ""
+msgstr "Grundlegendes Beispiel"
 
 #, fuzzy
 msgid "Setup Error"
@@ -15818,159 +15818,159 @@ msgstr ""
 
 #, php-format
 msgid "Trying to add duplicate table \"%s\"!"
-msgstr ""
+msgstr "Versuch, doppelte Tabelle \\\"%s\\\" hinzuzufügen!"
 
 msgid "Can not compare two missing schemata!"
-msgstr ""
+msgstr "Zwei fehlende Schemata können nicht verglichen werden!"
 
 #, php-format
 msgid "Unknown column type \"%s\"!"
-msgstr ""
+msgstr "Unbekannter Spaltentyp \\\"%s\\\"!"
 
 #, php-format
 msgid "Trying to add duplicate database \"%s\"!"
-msgstr ""
+msgstr "Versuch, doppelte Datenbank \\\"%s\\\" hinzuzufügen!"
 
 msgid "Classes must match to compare schemata!"
-msgstr ""
+msgstr "Klassen müssen übereinstimmen, um Schemata zu vergleichen!"
 
 msgid "Names must match to compare schemata!"
-msgstr ""
+msgstr "Namen müssen übereinstimmen, um Schemata zu vergleichen!"
 
 msgid "Missing"
-msgstr ""
+msgstr "Fehlend"
 
 msgid "Missing Key"
-msgstr ""
+msgstr "Schlüssel fehlt"
 
 msgid "Surplus"
-msgstr ""
+msgstr "Überschuss"
 
 msgid "Surplus Key"
-msgstr ""
+msgstr "Überschuss-Schlüssel"
 
 msgid "Better Character Set Available"
-msgstr ""
+msgstr "Besserer Zeichensatz verfügbar"
 
 msgid "Better Collation Available"
-msgstr ""
+msgstr "Bessere Sortierung verfügbar"
 
 msgid "Wrong Column Type"
-msgstr ""
+msgstr "Falscher Spaltentyp"
 
 msgid "Wrong Nullable Setting"
-msgstr ""
+msgstr "Falsche Nullable-Einstellung"
 
 msgid "Key on Wrong Columns"
-msgstr ""
+msgstr "Schlüssel auf falschen Spalten"
 
 msgid "Key has Wrong Uniqueness"
-msgstr ""
+msgstr "Schlüssel hat falsche Eindeutigkeitseinstellung"
 
 msgid "Key is Too Long"
-msgstr ""
+msgstr "Schlüssel ist zu lang"
 
 msgid "Subschemata Have Warnings"
-msgstr ""
+msgstr "Unterschemata haben Warnungen"
 
 msgid "Subschemata Have Failures"
-msgstr ""
+msgstr "Unterschemata haben Fehler"
 
 msgid "Column has Wrong Autoincrement"
-msgstr ""
+msgstr "Spalte hat falsches Auto-Inkrement"
 
 msgid "Column Has No Specification"
-msgstr ""
+msgstr "Spalte hat keine Spezifikation"
 
 msgid "Access Denied"
-msgstr ""
+msgstr "Zugriff verweigert"
 
 
 msgid "Better Table Engine Available"
-msgstr ""
+msgstr "Bessere Tabellen-Engine verfügbar"
 
 #, php-format
 msgid "Unknown schema issue \"%s\"!"
-msgstr ""
+msgstr "Unbekanntes Schema-Problem \\\"%s\\\"!"
 
 msgid "This schema is expected to exist, but does not."
-msgstr ""
+msgstr "Dieses Schema sollte existieren, tut es aber nicht."
 
 msgid "This key is expected to exist, but does not."
-msgstr ""
+msgstr "Dieser Schlüssel sollte existieren, tut es aber nicht."
 
 msgid "This schema is not expected to exist."
-msgstr ""
+msgstr "Dieses Schema sollte nicht existieren."
 
 msgid "This key is not expected to exist."
-msgstr ""
+msgstr "Dieser Schlüssel sollte nicht existieren."
 
 msgid "This schema can use a better character set."
-msgstr ""
+msgstr "Dieses Schema kann einen besseren Zeichensatz verwenden."
 
 msgid "This schema can use a better collation."
-msgstr ""
+msgstr "Dieses Schema kann eine bessere Sortierung verwenden."
 
 msgid "This schema can use a better column type."
-msgstr ""
+msgstr "Dieses Schema kann einen besseren Spaltentyp verwenden."
 
 msgid "This schema has the wrong nullable setting."
-msgstr ""
+msgstr "Dieses Schema hat die falsche Nullable-Einstellung."
 
 msgid "This key is on the wrong columns."
-msgstr ""
+msgstr "Dieser Schlüssel befindet sich auf den falschen Spalten."
 
 msgid "This key has the wrong uniqueness setting."
-msgstr ""
+msgstr "Dieser Schlüssel hat die falsche Eindeutigkeitseinstellung."
 
 msgid "This key is too long for utf8mb4."
-msgstr ""
+msgstr "Dieser Schlüssel ist für utf8mb4 zu lang."
 
 msgid "Subschemata have setup warnings."
-msgstr ""
+msgstr "Unterschemata haben Setup-Warnungen."
 
 msgid "Subschemata have setup failures."
-msgstr ""
+msgstr "Unterschemata haben Setup-Fehler."
 
 msgid "This column has the wrong autoincrement setting."
-msgstr ""
+msgstr "Diese Spalte hat die falsche Auto-Inkrement-Einstellung."
 
 msgid "This column is missing a type specification."
-msgstr ""
+msgstr "Dieser Spalte fehlt eine Typspezifikation."
 
 msgid "This table can use a better table engine."
-msgstr ""
+msgstr "Diese Tabelle kann eine bessere Tabellen-Engine verwenden."
 
 #, php-format
 msgid "Unknown schema status \"%s\"!"
-msgstr ""
+msgstr "Unbekannter Schema-Status \\\"%s\\\"!"
 
 #, php-format
 msgid "Trying to add duplicate column \"%s\"!"
-msgstr ""
+msgstr "Versuch, doppelte Spalte \\\"%s\\\" hinzuzufügen!"
 
 #, php-format
 msgid "Trying to add duplicate key \"%s\"!"
-msgstr ""
+msgstr "Versuch, doppelten Schlüssel \\\"%s\\\" hinzuzufügen!"
 
 msgid "Index"
 msgstr "Index"
 
 #, php-format
 msgid "%s created this configuration entry."
-msgstr ""
+msgstr "%s hat diesen Konfigurationseintrag erstellt."
 
 #, php-format
 msgid "%s deleted this configuration entry."
-msgstr ""
+msgstr "%s hat diesen Konfigurationseintrag gelöscht."
 
 #, php-format
 msgid "%s deleted this configuration entry (again?)."
-msgstr ""
+msgstr "%s hat diesen Konfigurationseintrag (erneut?) gelöscht."
 
 #, php-format
 msgid "%s edited this configuration entry."
-msgstr ""
+msgstr "%s hat diesen Konfigurationseintrag bearbeitet."
 
 #, php-format
 msgid "%s deleted %s."
@@ -15978,7 +15978,7 @@ msgstr "%s hat %s gelöscht."
 
 #, php-format
 msgid "%s deleted %s (again?)."
-msgstr ""
+msgstr "%s hat %s (erneut?) gelöscht."
 
 #, php-format
 msgid "%s edited %s."
@@ -16042,7 +16042,7 @@ msgstr ""
 
 #, php-format
 msgid "Value for option \"%s\" must be an integer."
-msgstr ""
+msgstr "Wert für Option \\\"%s\\\" muss eine Ganzzahl sein."
 
 
 #, php-format
@@ -16139,18 +16139,18 @@ msgid ""
 msgstr ""
 
 msgid "Or:"
-msgstr ""
+msgstr "Oder:"
 
 #, php-format
 msgid "Run these %d command(s):"
-msgstr ""
+msgstr "Diese %d Befehl(e) ausführen:"
 
 #, php-format
 msgid "Install these %d PHP extension(s):"
-msgstr ""
+msgstr "Diese %d PHP-Erweiterung(en) installieren:"
 
 msgid "extname"
-msgstr ""
+msgstr "Erweiterungsname"
 
 #, php-format
 msgid ""
@@ -16173,23 +16173,23 @@ msgid ""
 msgstr ""
 
 msgid "Unignore Setup Issue"
-msgstr ""
+msgstr "Setup-Problem nicht mehr ignorieren"
 
 msgid "Ignore Setup Issue"
-msgstr ""
+msgstr "Setup-Problem ignorieren"
 
 msgid "Reload Page"
-msgstr ""
+msgstr "Seite neu laden"
 
 msgid "This issue is currently ignored, and does not show a global warning."
-msgstr ""
+msgstr "Dieses Problem wird derzeit ignoriert und zeigt keine globale Warnung."
 
 msgid "To continue, resolve this problem and reload the page."
-msgstr ""
+msgstr "Um fortzufahren, das Problem beheben und die Seite neu laden."
 
 #, php-format
 msgid "The current configuration has these %d value(s):"
-msgstr ""
+msgstr "Die aktuelle Konfiguration enthält diese %d Wert(e):"
 
 #, php-format
 msgid ""
@@ -16198,7 +16198,7 @@ msgstr ""
 
 #, php-format
 msgid "View \"%s\""
-msgstr ""
+msgstr "\\\"%s\\\" anzeigen"
 
 
 #, fuzzy, php-format
@@ -16208,7 +16208,7 @@ msgstr "Ändere %s %s"
 
 #, php-format
 msgid "You can update these %d value(s) here:"
-msgstr ""
+msgstr "Diese %d Wert(e) können hier aktualisiert werden:"
 
 #, php-format
 msgid "These %d configuration value(s) are related:"
@@ -16216,11 +16216,11 @@ msgstr ""
 
 #, php-format
 msgid "The current PHP configuration has these %d value(s):"
-msgstr ""
+msgstr "Die aktuelle PHP-Konfiguration enthält diese %d Wert(e):"
 
 #, php-format
 msgid "To update these %d value(s), edit your PHP configuration file."
-msgstr ""
+msgstr "Um diese %d Wert(e) zu aktualisieren, die PHP-Konfigurationsdatei bearbeiten."
 
 #, php-format
 msgid ""
@@ -16229,21 +16229,21 @@ msgstr ""
 
 #, php-format
 msgid "PHP also loaded these %s configuration file(s):"
-msgstr ""
+msgstr "PHP hat außerdem diese %s Konfigurationsdatei(en) geladen:"
 
 msgid "PHP Documentation"
-msgstr ""
+msgstr "PHP-Dokumentation"
 
 #, php-format
 msgid "You can find more information about PHP configuration values in the %s."
-msgstr ""
+msgstr "Weitere Informationen zu PHP-Konfigurationswerten finden sich in %s."
 
 msgid "PHP OPcache Documentation"
-msgstr ""
+msgstr "PHP-OPcache-Dokumentation"
 
 #, php-format
 msgid "You can find more information about configuring OPcache in the %s."
-msgstr ""
+msgstr "Weitere Informationen zur OPcache-Konfiguration finden sich in %s."
 
 #, php-format
 msgid ""
@@ -16253,10 +16253,10 @@ msgid ""
 msgstr ""
 
 msgid "(Not Supported)"
-msgstr ""
+msgstr "(Nicht unterstützt)"
 
 msgid "User Guide: Amazon RDS"
-msgstr ""
+msgstr "Benutzerhandbuch: Amazon RDS"
 
 #, php-format
 msgid ""
@@ -16266,14 +16266,14 @@ msgstr ""
 
 #, php-format
 msgid "The current MySQL configuration has these %d value(s):"
-msgstr ""
+msgstr "Die aktuelle MySQL-Konfiguration enthält diese %d Wert(e):"
 
 #, php-format
 msgid "%d related link(s):"
-msgstr ""
+msgstr "%d verwandter/e Link(s):"
 
 msgid "Restarting"
-msgstr ""
+msgstr "Neustart"
 
 msgid "Show Older Messages"
 msgstr "Ältere Nachrichten anzeigen"
@@ -16302,11 +16302,11 @@ msgstr "Neuer Conpherence Thread"
 
 #, php-format
 msgid "This method has been deprecated since %s in favor of %s."
-msgstr ""
+msgstr "Diese Methode ist seit %s zugunsten von %s veraltet."
 
 
 msgid "You must specify participant phids."
-msgstr ""
+msgstr "Teilnehmer-PHIDs angeben."
 
 #, fuzzy
 msgid "You must specify a title."
@@ -16314,7 +16314,7 @@ msgstr "Du mußt eine Nachricht angeben."
 
 
 msgid "Apply transactions to create a new room or edit an existing one."
-msgstr ""
+msgstr "Transaktionen anwenden, um einen neuen Raum zu erstellen oder einen bestehenden zu bearbeiten."
 
 msgid ""
 "Query for Conpherence threads for the logged in user. You can query by IDs "
@@ -16331,7 +16331,7 @@ msgid ""
 msgstr ""
 
 msgid "You must specify a room id or room PHID to query transactions from."
-msgstr ""
+msgstr "Eine Raum-ID oder Raum-PHID angeben, um Transaktionen abzufragen."
 
 msgid "Update an existing conpherence room."
 msgstr "Einen bestehenden Conpherence-Chat ändern."
@@ -16342,16 +16342,16 @@ msgid ""
 msgstr ""
 
 msgid "You must specify a room ID or room PHID to query transactions from."
-msgstr ""
+msgstr "Eine Raum-ID oder Raum-PHID angeben, um Transaktionen abzufragen."
 
 msgid "Room does not exist or logged in user can not see it."
-msgstr ""
+msgstr "Raum existiert nicht oder der angemeldete Benutzer kann ihn nicht sehen."
 
 msgid "Only a user can remove themselves from a room."
-msgstr ""
+msgstr "Nur ein Benutzer selbst kann sich aus einem Raum entfernen."
 
 msgid "You must specify data that actually updates the Conpherence."
-msgstr ""
+msgstr "Daten angeben, die Conpherence tatsächlich aktualisieren."
 
 #, fuzzy
 msgid "No Sound"
@@ -16359,19 +16359,19 @@ msgstr "Seite nicht gefunden"
 
 
 msgid "Alert"
-msgstr ""
+msgstr "Alarm"
 
 msgid "Bing"
-msgstr ""
+msgstr "Bing"
 
 msgid "Pock"
-msgstr ""
+msgstr "Pock"
 
 msgid "Tap"
-msgstr ""
+msgstr "Tap"
 
 msgid "Ting"
-msgstr ""
+msgstr "Ting"
 
 #, fuzzy
 msgid "Light"
@@ -16379,7 +16379,7 @@ msgstr "Rechts"
 
 
 msgid "Peach"
-msgstr ""
+msgstr "Peach"
 
 msgid "Pink"
 msgstr "Pink"
@@ -16408,7 +16408,7 @@ msgstr "An einem Chat teilnehmen"
 
 #, php-format
 msgid "Search %s..."
-msgstr ""
+msgstr "%s durchsuchen..."
 
 
 #, fuzzy
@@ -16420,7 +16420,7 @@ msgid "Rooms"
 msgstr "Chats"
 
 msgid "Persistent Chat"
-msgstr ""
+msgstr "Dauerhafter Chat"
 
 msgid "Create Room"
 msgstr "Neuer Chat"
@@ -16431,7 +16431,7 @@ msgstr "Unterstützte Formate: %s"
 
 
 msgid "Server supports no image formats."
-msgstr ""
+msgstr "Server unterstützt keine Bildformate."
 
 
 #, fuzzy
@@ -16470,7 +16470,7 @@ msgstr "Bild"
 
 
 msgid "Notification settings are available after joining the room."
-msgstr ""
+msgstr "Benachrichtigungseinstellungen sind nach dem Beitreten des Raums verfügbar."
 
 msgid ""
 "Notification settings are available after logging in and joining the room."
@@ -16482,20 +16482,20 @@ msgstr "Emaileinstellungen"
 
 
 msgid "Notify"
-msgstr ""
+msgstr "Benachrichtigen"
 
 msgid "New Message"
 msgstr "Neue Nachricht"
 
 msgid "Theme"
-msgstr ""
+msgstr "Design"
 
 #, php-format
 msgid "Unknown action: %s"
-msgstr ""
+msgstr "Unbekannte Aktion: %s"
 
 msgid "That was a non-update. Try cancel."
-msgstr ""
+msgstr "Das war keine Aktualisierung. Abbrechen versuchen."
 
 msgid "Leave Room"
 msgstr "Chat verlassen"
@@ -16514,13 +16514,13 @@ msgstr "Wirklich %s von Projekt %s entfernen?"
 
 
 msgid "You will be able to rejoin the room later."
-msgstr ""
+msgstr "Du kannst dem Raum später wieder beitreten."
 
 msgid "They will be able to rejoin the room later."
-msgstr ""
+msgstr "Er/Sie kann dem Raum später wieder beitreten."
 
 msgid "You are the last member, so you will never be able to rejoin the room."
-msgstr ""
+msgstr "Du bist das letzte Mitglied und kannst dem Raum nie wieder beitreten."
 
 msgid ""
 "You will not be able to rejoin the room on your own, but someone else can "
@@ -16528,10 +16528,10 @@ msgid ""
 msgstr ""
 
 msgid "They will not be able to rejoin the room unless invited again."
-msgstr ""
+msgstr "Er/Sie kann dem Raum nur durch erneute Einladung wieder beitreten."
 
 msgid "Sending a message will also join the room."
-msgstr ""
+msgstr "Das Senden einer Nachricht tritt dem Raum ebenfalls bei."
 
 #, fuzzy
 msgid "Log in to join this room and participate."
@@ -16549,7 +16549,7 @@ msgstr "Conpherence Emails konfigurieren"
 
 
 msgid "Configure creation and editing forms in Conpherence."
-msgstr ""
+msgstr "Erstellungs- und Bearbeitungsformulare in Conpherence konfigurieren."
 
 #, fuzzy
 msgid "Create New Room"
@@ -16558,14 +16558,14 @@ msgstr "Einen Chat erzeugen"
 
 #, php-format
 msgid "Edit Room: %s"
-msgstr ""
+msgstr "Raum bearbeiten: %s"
 
 
 msgid "Room"
 msgstr "Chat"
 
 msgid "Room name."
-msgstr ""
+msgstr "Raumname."
 
 #, fuzzy
 msgid "New Room name."
@@ -16573,7 +16573,7 @@ msgstr "Neuer Chat"
 
 
 msgid "Topic"
-msgstr ""
+msgstr "Thema"
 
 #, fuzzy
 msgid "Room topic."
@@ -16624,7 +16624,7 @@ msgstr "Conpherence"
 
 
 msgid "Conpherence Threads"
-msgstr ""
+msgstr "Conpherence-Threads"
 
 msgid "Conpherence Room"
 msgstr "Conpherence Chat"
@@ -16663,7 +16663,7 @@ msgid "Last updated %s"
 msgstr "Zuletzt Aktualisiert am %s"
 
 msgid "No results found."
-msgstr ""
+msgstr "Keine Ergebnisse gefunden."
 
 msgid "Private Room"
 msgstr "Privater Chat"
@@ -16687,19 +16687,19 @@ msgstr "Einen Dokumententitel eintippen..."
 
 
 msgid "No topic set"
-msgstr ""
+msgstr "Kein Thema gesetzt"
 
 msgid "Room Actions"
 msgstr "Chat Aktionen"
 
 msgid "Minimize Window"
-msgstr ""
+msgstr "Fenster minimieren"
 
 msgid "View in Conpherence"
-msgstr ""
+msgstr "In Conpherence anzeigen"
 
 msgid "Hide Window"
-msgstr ""
+msgstr "Fenster ausblenden"
 
 msgid "Loading..."
 msgstr "Lade..."
@@ -16734,7 +16734,7 @@ msgstr ""
 
 #, php-format
 msgid "Participants (%s)"
-msgstr ""
+msgstr "Teilnehmer (%s)"
 
 
 msgid "Join a Room"
@@ -16796,7 +16796,7 @@ msgstr "Regeln müssen einen Namen haben."
 
 #, php-format
 msgid "The title can be no longer than %s characters."
-msgstr ""
+msgstr "Der Titel darf nicht länger als %s Zeichen sein."
 
 #, fuzzy, php-format
 msgid "%s set the room topic to %s."
@@ -16820,7 +16820,7 @@ msgstr "%s hat die Rechte zum Zusammenführen von %s verändert."
 
 #, php-format
 msgid "The topic can be no longer than %s characters."
-msgstr ""
+msgstr "Das Thema darf nicht länger als %s Zeichen sein."
 
 #, php-format
 msgid "Error Log (%d)"
@@ -16830,7 +16830,7 @@ msgid "Error Log"
 msgstr "Fehlerprotokoll"
 
 msgid "Shows errors and warnings."
-msgstr ""
+msgstr "Zeigt Fehler und Warnungen."
 
 msgid "No errors."
 msgstr "Keine Fehler"
@@ -16839,28 +16839,28 @@ msgid "Events"
 msgstr "Termine"
 
 msgid "Information about events and event listeners."
-msgstr ""
+msgstr "Informationen über Ereignisse und Ereignis-Listener."
 
 msgid "Registered Event Listeners"
-msgstr ""
+msgstr "Registrierte Ereignis-Listener"
 
 msgid "Internal ID"
-msgstr ""
+msgstr "Interne ID"
 
 msgid "Listener Class"
-msgstr ""
+msgstr "Listener-Klasse"
 
 msgid "Event Log"
-msgstr ""
+msgstr "Ereignisprotokoll"
 
 msgid "STOPPED"
-msgstr ""
+msgstr "GESTOPPT"
 
 msgid "Event Type"
-msgstr ""
+msgstr "Ereignistyp"
 
 msgid "Stopped"
-msgstr ""
+msgstr "Gestoppt"
 
 #, fuzzy
 msgid "Realtime"
@@ -16883,23 +16883,23 @@ msgstr "Antworten"
 
 
 msgid "Repaint"
-msgstr ""
+msgstr "Neu zeichnen"
 
 msgid "Request"
-msgstr ""
+msgstr "Anfrage"
 
 #, php-format
 msgid "Information about %s and %s."
-msgstr ""
+msgstr "Informationen über %s und %s."
 
 msgid "Site"
-msgstr ""
+msgstr "Website"
 
 msgid "Controller"
-msgstr ""
+msgstr "Controller"
 
 msgid "Machine"
-msgstr ""
+msgstr "Rechner"
 
 #, fuzzy
 msgid "Hostname"
@@ -16910,44 +16910,44 @@ msgid "Basics"
 msgstr "Grundeinstellungen"
 
 msgid "(Masked)"
-msgstr ""
+msgstr "(Maskiert)"
 
 msgid "Information about services."
-msgstr ""
+msgstr "Informationen über Dienste."
 
 msgid "Small Table Scan"
-msgstr ""
+msgstr "Kleiner Tabellen-Scan"
 
 msgid "TABLE SCAN!"
-msgstr ""
+msgstr "TABELLEN-SCAN!"
 
 msgid "Whole Table"
-msgstr ""
+msgstr "Ganze Tabelle"
 
 msgid "No Tables"
-msgstr ""
+msgstr "Keine Tabellen"
 
 msgid "Can't Analyze"
-msgstr ""
+msgstr "Analyse nicht möglich"
 
 msgid "Analyze Query Plans"
-msgstr ""
+msgstr "Abfragepläne analysieren"
 
 msgid "Calls to External Services"
-msgstr ""
+msgstr "Aufrufe externer Dienste"
 
 msgid "Total Cost"
-msgstr ""
+msgstr "Gesamtkosten"
 
 msgid "Page Weight"
-msgstr ""
+msgstr "Seitengewicht"
 
 #, php-format
 msgid "+%s ms"
-msgstr ""
+msgstr "+%s ms"
 
 msgid "Analysis"
-msgstr ""
+msgstr "Analyse"
 
 #, fuzzy
 msgid "Startup"
@@ -16955,10 +16955,10 @@ msgstr "Anfang"
 
 
 msgid "Timing information about the startup sequence."
-msgstr ""
+msgstr "Zeitinformationen über die Startsequenz."
 
 msgid "-"
-msgstr ""
+msgstr "-"
 
 #, fuzzy
 msgid "Phase"
@@ -16966,16 +16966,16 @@ msgstr "Kaufen"
 
 
 msgid "Offset"
-msgstr ""
+msgstr "Versatz"
 
 msgid "XHProf"
-msgstr ""
+msgstr "XHProf"
 
 msgid "Provides detailed PHP profiling information through XHProf."
-msgstr ""
+msgstr "Bietet detaillierte PHP-Profiling-Informationen durch XHProf."
 
 msgid "Installation Guide"
-msgstr ""
+msgstr "Installationsanleitung"
 
 #, php-format
 msgid ""
@@ -16984,13 +16984,13 @@ msgid ""
 msgstr ""
 
 msgid "Profile Page"
-msgstr ""
+msgstr "Profilseite"
 
 msgid "XHProf Profiler"
-msgstr ""
+msgstr "XHProf-Profiler"
 
 msgid "Profile Permalink"
-msgstr ""
+msgstr "Profil-Permalink"
 
 msgid ""
 "Profiling was not enabled for this page. Use the button above to enable it."
@@ -16998,16 +16998,16 @@ msgstr ""
 
 #, php-format
 msgid "Unknown event: %s"
-msgstr ""
+msgstr "Unbekanntes Ereignis: %s"
 
 msgid "Countdown"
 msgstr "Countdown"
 
 msgid "Countdown to Events"
-msgstr ""
+msgstr "Countdown zu Ereignissen"
 
 msgid "Utilize the full capabilities of your ALU."
-msgstr ""
+msgstr "Nutze die vollen Fähigkeiten deiner ALU."
 
 #, fuzzy
 msgid "Default create policy for countdowns."
@@ -17015,7 +17015,7 @@ msgstr "Vorgabe Anzeige-Benutzerrichtlinie für neue Umfragen."
 
 
 msgid "Default view policy for new countdowns."
-msgstr ""
+msgstr "Standardanzeigerichtlinie für neue Countdowns."
 
 #, fuzzy
 msgid "Default edit policy for new countdowns."
@@ -17043,13 +17043,13 @@ msgstr "Du hast keine Berechtigung, um Zonen zu erzeugen."
 
 
 msgid "Apply transactions to create a new countdown or edit an existing one."
-msgstr ""
+msgstr "Transaktionen anwenden, um einen neuen Countdown zu erstellen oder einen bestehenden zu bearbeiten."
 
 msgid "Read information about countdowns."
-msgstr ""
+msgstr "Informationen über Countdowns lesen."
 
 msgid "Running"
-msgstr ""
+msgstr "Läuft"
 
 msgid "Launched"
 msgstr "Gestartet"
@@ -17112,7 +17112,7 @@ msgstr "Du mußt einen Endzeitpunkt für einen Countdown angeben."
 
 
 msgid "New countdown end date."
-msgstr ""
+msgstr "Neues Countdown-Enddatum."
 
 #, fuzzy
 msgid "Description of the countdown."
@@ -17120,7 +17120,7 @@ msgstr "Der neue Pfad des Dokuments."
 
 
 msgid "Change the countdown description."
-msgstr ""
+msgstr "Countdown-Beschreibung ändern."
 
 
 #, fuzzy
@@ -17139,7 +17139,7 @@ msgstr "Jemand hat eine Aufgabe kommentiert."
 
 
 msgid "Other countdown activity not listed above occurs."
-msgstr ""
+msgstr "Andere, oben nicht aufgeführte Countdown-Aktivitäten treten auf."
 
 #, fuzzy
 msgid "COUNTDOWN DESCRIPTION"
@@ -17152,13 +17152,13 @@ msgstr "FRAGE DETAILS"
 
 
 msgid "End Date (Past to Future)"
-msgstr ""
+msgstr "Enddatum (Vergangenheit bis Zukunft)"
 
 msgid "End Date (Future to Past)"
-msgstr ""
+msgstr "Enddatum (Zukunft bis Vergangenheit)"
 
 msgid "Search for objects created by specific authors."
-msgstr ""
+msgstr "Objekte bestimmter Autoren suchen."
 
 #, fuzzy
 msgid "Show only upcoming countdowns."
@@ -17184,7 +17184,7 @@ msgid "Hours"
 msgstr "Stunden"
 
 msgid "No countdowns found."
-msgstr ""
+msgstr "Keine Countdowns gefunden."
 
 #, fuzzy
 msgid "Create a Countdown"
@@ -17192,7 +17192,7 @@ msgstr "Neuer Countdown"
 
 
 msgid "Keep track of upcoming launch dates with embeddable counters."
-msgstr ""
+msgstr "Anstehende Starttermine mit einbettbaren Zählern im Blick behalten."
 
 #, fuzzy
 msgid "The title of the countdown."
@@ -17257,51 +17257,51 @@ msgstr "Produkte müssen Namen haben"
 
 #, php-format
 msgid "Countdown titles must not be longer than %s characters."
-msgstr ""
+msgstr "Countdown-Titel dürfen nicht länger als %s Zeichen sein."
 
 msgid "Manage Daemons"
-msgstr ""
+msgstr "Dämonen verwalten"
 
 msgid "Bulk Jobs"
-msgstr ""
+msgstr "Massenaufgaben"
 
 #, php-format
 msgid "Bulk Job %d"
-msgstr ""
+msgstr "Massenaufgabe %d"
 
 msgid "Confirm Bulk Job"
-msgstr ""
+msgstr "Massenaufgabe bestätigen"
 
 msgid "Start work on this bulk job?"
-msgstr ""
+msgstr "Mit dieser Massenaufgabe beginnen?"
 
 msgid "Start Work"
-msgstr ""
+msgstr "Arbeit beginnen"
 
 msgid "Waiting For Confirmation"
-msgstr ""
+msgstr "Warte auf Bestätigung"
 
 msgid "This job is waiting for confirmation before work begins."
-msgstr ""
+msgstr "Dieser Auftrag wartet auf Bestätigung, bevor die Arbeit beginnt."
 
 msgid "This job is waiting for tasks to be queued."
-msgstr ""
+msgstr "Dieser Auftrag wartet darauf, dass Aufgaben in die Warteschlange eingestellt werden."
 
 msgid "This job is running."
-msgstr ""
+msgstr "Dieser Auftrag wird ausgeführt."
 
 msgid "This job is complete."
-msgstr ""
+msgstr "Dieser Auftrag ist abgeschlossen."
 
 #, php-format
 msgid "%s s"
-msgstr ""
+msgstr "%s s"
 
 msgid "Temporary Failures"
-msgstr ""
+msgstr "Vorübergehende Fehler"
 
 msgid "Queue Utilization (Approximate)"
-msgstr ""
+msgstr "Warteschlangen-Auslastung (ungefähr)"
 
 msgid "No tasks have completed in the last 15 minutes."
 msgstr "Es wurden keinerlei Aufgaben in den letzten 15 Minuten abgeschlossen."
@@ -17312,62 +17312,62 @@ msgstr "Dauer"
 
 
 msgid "Average Queue Time"
-msgstr ""
+msgstr "Durchschnittliche Warteschlangenzeit"
 
 msgid "Recently Completed Tasks (Last 15m)"
 msgstr "Kürzlich abgeschlossene Aufgaben (letzte 15 Min)"
 
 msgid "Active Daemons"
-msgstr ""
+msgstr "Aktive Dämonen"
 
 msgid "No tasks are leased by workers."
-msgstr ""
+msgstr "Keine Aufgaben werden von Arbeitern gepachtet."
 
 msgid "Leased Tasks"
-msgstr ""
+msgstr "Gepachtete Aufgaben"
 
 msgid "Task queue is empty."
-msgstr ""
+msgstr "Aufgabenwarteschlange ist leer."
 
 msgid "Queued Tasks"
-msgstr ""
+msgstr "Wartende Aufgaben"
 
 msgid "Next In Queue"
-msgstr ""
+msgstr "Nächste in der Warteschlange"
 
 msgid "Upcoming Triggers"
-msgstr ""
+msgstr "Bevorstehende Auslöser"
 
 msgid "There are no upcoming event triggers."
-msgstr ""
+msgstr "Es gibt keine bevorstehenden Ereignisauslöser."
 
 msgid "Clock"
-msgstr ""
+msgstr "Uhr"
 
 msgid "Last"
 msgstr "Ende"
 
 msgid "All Daemons"
-msgstr ""
+msgstr "Alle Dämonen"
 
 msgid "Manage Bulk Jobs"
-msgstr ""
+msgstr "Massenaufgaben verwalten"
 
 #, php-format
 msgid "Daemon %s"
-msgstr ""
+msgstr "Dämon %s"
 
 msgid "Dead"
-msgstr ""
+msgstr "Tot"
 
 msgid "Waiting"
 msgstr "Warte..."
 
 msgid "Exiting"
-msgstr ""
+msgstr "Beendet sich"
 
 msgid "Exited"
-msgstr ""
+msgstr "Beendet"
 
 #, fuzzy
 msgid "Daemon Details"
@@ -17375,7 +17375,7 @@ msgstr "Änderungen im Detail"
 
 
 msgid "Daemon Log"
-msgstr ""
+msgstr "Dämonenprotokoll"
 
 #, php-format
 msgid ""
@@ -17404,130 +17404,130 @@ msgid ""
 msgstr ""
 
 msgid "This daemon is shutting down gracefully."
-msgstr ""
+msgstr "Dieser Dämon wird ordnungsgemäß beendet."
 
 msgid "This daemon exited normally and is no longer running."
-msgstr ""
+msgstr "Dieser Dämon wurde normal beendet und läuft nicht mehr."
 
 msgid "Status Details"
-msgstr ""
+msgstr "Statusdetails"
 
 msgid "Daemon Class"
-msgstr ""
+msgstr "Dämonenklasse"
 
 msgid "PID"
-msgstr ""
+msgstr "PID"
 
 msgid "Running as"
-msgstr ""
+msgstr "Läuft als"
 
 msgid "Started"
-msgstr ""
+msgstr "Gestartet"
 
 msgid "Seen"
-msgstr ""
+msgstr "Zuletzt gesehen"
 
 #, php-format
 msgid "%s ago (%s)"
-msgstr ""
+msgstr "Vor %s (%s)"
 
 msgid "Argv"
-msgstr ""
+msgstr "Argv"
 
 msgid "View Full Logs"
-msgstr ""
+msgstr "Vollständige Protokolle anzeigen"
 
 msgid "Task Does Not Exist"
-msgstr ""
+msgstr "Aufgabe existiert nicht"
 
 #, php-format
 msgid "Task %d Missing"
-msgstr ""
+msgstr "Aufgabe %d fehlt"
 
 msgid "No Such Task"
-msgstr ""
+msgstr "Keine solche Aufgabe"
 
 msgid "This task may have recently been garbage collected."
-msgstr ""
+msgstr "Diese Aufgabe wurde möglicherweise kürzlich von der Garbage Collection erfasst."
 
 #, php-format
 msgid "Task %d"
-msgstr ""
+msgstr "Aufgabe %d"
 
 #, php-format
 msgid "Task %d: %s"
-msgstr ""
+msgstr "Aufgabe %d: %s"
 
 
 msgid "Retries"
-msgstr ""
+msgstr "Wiederholungsversuche"
 
 msgid "Object"
 msgstr "Objekt"
 
 msgid "Complete"
-msgstr ""
+msgstr "Abgeschlossen"
 
 msgid "Failed"
-msgstr ""
+msgstr "Fehlgeschlagen"
 
 msgid "Unknown task status!"
-msgstr ""
+msgstr "Unbekannter Aufgabenstatus!"
 
 msgid "Task Status"
-msgstr ""
+msgstr "Aufgabenstatus"
 
 msgid "Task Class"
-msgstr ""
+msgstr "Aufgabenklasse"
 
 msgid "Leased"
-msgstr ""
+msgstr "Gepachtet"
 
 msgid "Lease Expired"
-msgstr ""
+msgstr "Pacht abgelaufen"
 
 msgid "Not Leased"
-msgstr ""
+msgstr "Nicht gepachtet"
 
 msgid "Lease Status"
-msgstr ""
+msgstr "Pachtstatus"
 
 msgid "Lease Owner"
-msgstr ""
+msgstr "Pachtinhaber"
 
 msgid "Lease Expires"
-msgstr ""
+msgstr "Pacht läuft ab"
 
 msgid "Not Completed"
-msgstr ""
+msgstr "Nicht abgeschlossen"
 
 msgid "Failure Count"
-msgstr ""
+msgstr "Fehleranzahl"
 
 msgid "Retries Forever"
-msgstr ""
+msgstr "Unbegrenzt wiederholen"
 
 msgid "Maximum Retries"
-msgstr ""
+msgstr "Maximale Wiederholungsversuche"
 
 msgid "No More Retries"
-msgstr ""
+msgstr "Keine weiteren Versuche"
 
 msgid "Retries After"
-msgstr ""
+msgstr "Wiederholt nach"
 
 #, php-format
 msgid "No such daemon \"%s\"!"
-msgstr ""
+msgstr "Kein Dämon \\\"%s\\\" vorhanden!"
 
 msgid "Lock Logs"
-msgstr ""
+msgstr "Sperr-Protokolle"
 
 msgid "Daemon Processes"
-msgstr ""
+msgstr "Dämonenprozesse"
 
 msgid "Daemon Logs"
-msgstr ""
+msgstr "Dämonenprotokolle"
 
 #, fuzzy
 msgid "Archived Tasks"
@@ -17540,30 +17540,30 @@ msgid ""
 msgstr ""
 
 msgid "Maximum pool size."
-msgstr ""
+msgstr "Maximale Poolgröße."
 
 #, php-format
 msgid "Run the daemon as the current user instead of the configured %s"
-msgstr ""
+msgstr "Den Dämon als aktuellen Benutzer statt als konfigurierten %s ausführen"
 
 msgid "You must specify which daemon to debug."
-msgstr ""
+msgstr "Angeben, welcher Dämon debuggt werden soll."
 
 msgid "Start a specific __daemon__, or __n__ copies of a specific __daemon__."
-msgstr ""
+msgstr "Einen bestimmten __daemon__ oder __n__ Kopien eines bestimmten __daemon__ starten."
 
 msgid "You must launch at least one daemon."
-msgstr ""
+msgstr "Mindestens einen Dämon starten."
 
 msgid "You must specify which daemon to launch."
-msgstr ""
+msgstr "Angeben, welcher Dämon gestartet werden soll."
 
 msgid "Show a list of available daemons."
-msgstr ""
+msgstr "Liste der verfügbaren Dämonen anzeigen."
 
 #, php-format
 msgid "Daemons in library __%s__:"
-msgstr ""
+msgstr "Dämonen in Bibliothek __%s__:"
 
 msgid ""
 "Print the logs for all daemons, or some daemon(s) identified by ID. You can "
@@ -17571,21 +17571,21 @@ msgid ""
 msgstr ""
 
 msgid "Show logs for daemon(s) with given ID(s)."
-msgstr ""
+msgstr "Protokolle für Dämon(en) mit der/den angegebenen ID(s) anzeigen."
 
 msgid "Show a specific number of log messages (default 100)."
-msgstr ""
+msgstr "Eine bestimmte Anzahl von Protokollnachrichten anzeigen (Standard: 100)."
 
 #, php-format
 msgid "No log record exists for a daemon with ID \"%s\"."
-msgstr ""
+msgstr "Kein Protokolleintrag für Dämon mit ID \\\"%s\\\" vorhanden."
 
 msgid "No log records exist for any daemons."
-msgstr ""
+msgstr "Keine Protokolleinträge für Dämonen vorhanden."
 
 #, php-format
 msgid "Daemon %d %s [%s] %s"
-msgstr ""
+msgstr "Dämon %d %s [%s] %s"
 
 #, php-format
 msgid ""
@@ -17621,13 +17621,13 @@ msgid ""
 msgstr ""
 
 msgid "Start daemons even if daemons are already running."
-msgstr ""
+msgstr "Dämonen starten, auch wenn bereits Dämonen laufen."
 
 msgid "Show daemon processes on this host."
-msgstr ""
+msgstr "Dämonenprozesse auf diesem Host anzeigen."
 
 msgid "NO DAEMONS"
-msgstr ""
+msgstr "KEINE DÄMONEN"
 
 #, php-format
 msgid ""
@@ -17640,10 +17640,10 @@ msgstr "Es gibt keine sichtbaren Beiträge."
 
 
 msgid "Command"
-msgstr ""
+msgstr "Befehl"
 
 msgid "Stop daemon processes on this host."
-msgstr ""
+msgstr "Dämonenprozesse auf diesem Host stoppen."
 
 #, php-format
 msgid ""
@@ -17654,11 +17654,11 @@ msgstr ""
 
 #, php-format
 msgid "No daemons match '%s'! Use '%s' for a list of available daemons."
-msgstr ""
+msgstr "Keine Dämonen entsprechen '%s'! '%s' für eine Liste verfügbarer Dämonen verwenden."
 
 #, php-format
 msgid "Specify a daemon unambiguously. Multiple daemons match '%s': %s."
-msgstr ""
+msgstr "Einen Dämon eindeutig angeben. Mehrere Dämonen entsprechen '%s': %s."
 
 #, php-format
 msgid ""
@@ -17672,7 +17672,7 @@ msgstr ""
 
 #, php-format
 msgid "Starting daemons as %s"
-msgstr ""
+msgstr "Dämonen werden als %s gestartet"
 
 #, php-format
 msgid ""
@@ -17702,7 +17702,7 @@ msgid ""
 msgstr ""
 
 msgid "RUNNING DAEMONS"
-msgstr ""
+msgstr "LAUFENDE DÄMONEN"
 
 #, fuzzy
 msgid "Daemons are already running:"
@@ -17715,10 +17715,10 @@ msgid ""
 msgstr ""
 
 msgid "Not touching active task queue leases."
-msgstr ""
+msgstr "Aktive Aufgabenwarteschlangenleasing wird nicht berührt."
 
 msgid "Freeing active task leases..."
-msgstr ""
+msgstr "Aktive Aufgabenpachtungen werden freigegeben..."
 
 #, php-format
 msgid "Freed %s task lease(s)."
