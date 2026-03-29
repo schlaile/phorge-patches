@@ -16212,7 +16212,7 @@ msgstr "Diese %d Wert(e) können hier aktualisiert werden:"
 
 #, php-format
 msgid "These %d configuration value(s) are related:"
-msgstr ""
+msgstr "Diese %d Konfigurationswert(e) sind verwandt:"
 
 #, php-format
 msgid "The current PHP configuration has these %d value(s):"
@@ -17722,7 +17722,7 @@ msgstr "Aktive Aufgabenpachtungen werden freigegeben..."
 
 #, php-format
 msgid "Freed %s task lease(s)."
-msgstr ""
+msgstr "%s Aufgabenpacht(en) freigegeben."
 
 #, php-format
 msgid ""
@@ -17736,21 +17736,21 @@ msgstr "Es gibt keine sichtbaren Beiträge."
 
 
 msgid "STOP"
-msgstr ""
+msgstr "STOPP"
 
 #, php-format
 msgid "Stopped PID %d (\"%s\")"
-msgstr ""
+msgstr "PID %d (\\\"%s\\\") gestoppt"
 
 msgid "SURVIVED"
-msgstr ""
+msgstr "ÜBERLEBT"
 
 #, php-format
 msgid "Unable to stop PID %d (\"%s\")."
-msgstr ""
+msgstr "PID %d (\\\"%s\\\") konnte nicht gestoppt werden."
 
 msgid "SURVIVORS"
-msgstr ""
+msgstr "ÜBERLEBENDE"
 
 msgid ""
 "Unable to stop all daemon processes. You may need to run this command as "
@@ -17758,44 +17758,44 @@ msgid ""
 msgstr ""
 
 msgid "There are no running daemon processes to reload."
-msgstr ""
+msgstr "Keine laufenden Dämonenprozesse zum Neuladen vorhanden."
 
 msgid "RELOAD"
-msgstr ""
+msgstr "NEU LADEN"
 
 #, php-format
 msgid "Reloading process %d..."
-msgstr ""
+msgstr "Prozess %d wird neu geladen..."
 
 #, php-format
 msgid "Interrupting process %d..."
-msgstr ""
+msgstr "Prozess %d wird unterbrochen..."
 
 #, php-format
 msgid "Terminating process %d..."
-msgstr ""
+msgstr "Prozess %d wird beendet..."
 
 #, php-format
 msgid "Killing process %d..."
-msgstr ""
+msgstr "Prozess %d wird abgebrochen..."
 
 #, php-format
 msgid "Process %d exited."
-msgstr ""
+msgstr "Prozess %d beendet."
 
 msgid "Launching daemons (in debug mode):"
-msgstr ""
+msgstr "Dämonen werden gestartet (im Debug-Modus):"
 
 msgid "Launching daemons:"
-msgstr ""
+msgstr "Dämonen werden gestartet:"
 
 #, php-format
 msgid "(Logs will appear in \"%s\".)"
-msgstr ""
+msgstr "(Protokolle erscheinen in \\\"%s\\\".)"
 
 #, php-format
 msgid "(Pool: %s)"
-msgstr ""
+msgstr "(Pool: %s)"
 
 #, php-format
 msgid ""
@@ -17805,7 +17805,7 @@ msgid ""
 msgstr ""
 
 msgid "Enable, disable, or show the lock log."
-msgstr ""
+msgstr "Sperr-Protokoll aktivieren, deaktivieren oder anzeigen."
 
 #, fuzzy
 msgid "Enable the lock log."
@@ -17813,13 +17813,13 @@ msgstr "Anmeldung fehlgeschlagen"
 
 
 msgid "Disable the lock log."
-msgstr ""
+msgstr "Sperr-Protokoll deaktivieren."
 
 msgid "Review logs for a specific lock."
-msgstr ""
+msgstr "Protokolle für eine bestimmte Sperre überprüfen."
 
 msgid "You can not both \"--enable\" and \"--disable\" the lock log."
-msgstr ""
+msgstr "Das Sperr-Protokoll kann nicht gleichzeitig \\\"--enable\\\" und \\\"--disable\\\" werden."
 
 msgid ""
 "You can not both \"--enable\" or \"--disable\" with search parameters like "
@@ -17832,7 +17832,7 @@ msgstr "Projektname ist bereits vergeben."
 
 
 msgid "Disabling the lock log."
-msgstr ""
+msgstr "Sperr-Protokoll wird deaktiviert."
 
 #, fuzzy
 msgid "Lock log is already enabled."
@@ -17840,10 +17840,10 @@ msgstr "Projektname ist bereits vergeben."
 
 
 msgid "Enabling the lock log."
-msgstr ""
+msgstr "Sperr-Protokoll wird aktiviert."
 
 msgid "Restart daemons to apply changes."
-msgstr ""
+msgstr "Dämonen neu starten, um Änderungen anzuwenden."
 
 #, fuzzy
 msgid "No matching lock logs."
@@ -17861,35 +17861,35 @@ msgstr "Pflichtfeld"
 
 
 msgid "Released"
-msgstr ""
+msgstr "Freigegeben"
 
 msgid "Held"
-msgstr ""
+msgstr "Gehalten"
 
 msgid "Parameters"
-msgstr ""
+msgstr "Parameter"
 
 msgid "Context"
-msgstr ""
+msgstr "Kontext"
 
 #, php-format
 msgid "Unknown status \"%s\"!"
-msgstr ""
+msgstr "Unbekannter Status \\\"%s\\\"!"
 
 msgid "This daemon is running."
-msgstr ""
+msgstr "Dieser Dämon läuft."
 
 msgid "This daemon has been lost or exited uncleanly, and is presumed dead."
-msgstr ""
+msgstr "Dieser Dämon ist verloren gegangen oder unkontrolliert beendet worden und gilt als tot."
 
 msgid "Shutting Down"
-msgstr ""
+msgstr "Wird beendet"
 
 msgid "This daemon is shutting down."
-msgstr ""
+msgstr "Dieser Dämon wird beendet."
 
 msgid "This daemon exited cleanly."
-msgstr ""
+msgstr "Dieser Dämon wurde ordnungsgemäß beendet."
 
 msgid ""
 "This daemon encountered an error recently and is waiting a moment to restart."
@@ -17901,16 +17901,16 @@ msgid ""
 msgstr ""
 
 msgid "PPID"
-msgstr ""
+msgstr "PPID"
 
 msgid "Daemon"
-msgstr ""
+msgstr "Dämon"
 
 msgid "View Task"
 msgstr "Aufgabe zeigen"
 
 msgid "Failures"
-msgstr ""
+msgstr "Fehler"
 
 msgid "Dashboards"
 msgstr "Dashboards"
@@ -17932,13 +17932,13 @@ msgstr ""
 
 
 msgid "Apply transactions to create a new portal or edit an existing one."
-msgstr ""
+msgstr "Transaktionen anwenden, um ein neues Portal zu erstellen oder ein bestehendes zu bearbeiten."
 
 msgid "Read information about portals."
-msgstr ""
+msgstr "Informationen über Portale lesen."
 
 msgid "Portals"
-msgstr ""
+msgstr "Portale"
 
 msgid ""
 "Portals are collections of dashboards, links, and other resources that can "
@@ -18004,7 +18004,7 @@ msgstr "Du mußt ein Passwort wählen"
 
 
 msgid "Choose a panel to add to this dashboard:"
-msgstr ""
+msgstr "Ein Panel auswählen, das diesem Dashboard hinzugefügt werden soll:"
 
 msgid "Panel"
 msgstr "Panel"
@@ -18038,10 +18038,10 @@ msgstr "Zeige Dashboard"
 
 
 msgid "This dashboard will be marked as archived."
-msgstr ""
+msgstr "Dieses Dashboard wird als archiviert markiert."
 
 msgid "Add Dashboard to Menu"
-msgstr ""
+msgstr "Dashboard zum Menü hinzufügen"
 
 
 msgid "Edit Dashboard"
@@ -18051,10 +18051,10 @@ msgid "Global"
 msgstr "Global"
 
 msgid "This dashboard has not been added to any menus."
-msgstr ""
+msgstr "Dieses Dashboard wurde noch keinen Menüs hinzugefügt."
 
 msgid "Menu"
-msgstr ""
+msgstr "Menü"
 
 #, fuzzy
 msgid "Global/Personal"
@@ -18062,7 +18062,7 @@ msgstr "Persönlich"
 
 
 msgid "Dashboard Used By"
-msgstr ""
+msgstr "Dashboard verwendet von"
 
 
 msgid "Activate Panel?"
@@ -18097,10 +18097,10 @@ msgid "Create Panel"
 msgstr "Neues Panel"
 
 msgid "Required parameter `parentPanelPHIDs` is not present in request."
-msgstr ""
+msgstr "Erforderlicher Parameter `parentPanelPHIDs` ist in der Anfrage nicht vorhanden."
 
 msgid "Standalone View"
-msgstr ""
+msgstr "Eigenständige Ansicht"
 
 #, fuzzy
 msgid "Adjacent Tab Not Found"
@@ -18123,7 +18123,7 @@ msgid ""
 msgstr ""
 
 msgid "Context Object Unsupported"
-msgstr ""
+msgstr "Kontextobjekt nicht unterstützt"
 
 #, php-format
 msgid ""
@@ -18157,7 +18157,7 @@ msgstr "Entfernen"
 
 
 msgid "Tab Name"
-msgstr ""
+msgstr "Tab-Name"
 
 
 #, fuzzy
@@ -18181,16 +18181,16 @@ msgstr "Du kannst kein Mitleser für Änderungen dieses Objektes werden."
 
 
 msgid "This is already the last tab. It can not move any farther to the right."
-msgstr ""
+msgstr "Dies ist bereits der letzte Tab. Er kann nicht weiter nach rechts verschoben werden."
 
 msgid "This is already the first tab. It can not move any farther to the left."
-msgstr ""
+msgstr "Dies ist bereits der erste Tab. Er kann nicht weiter nach links verschoben werden."
 
 msgid "Move this tab to the right?"
-msgstr ""
+msgstr "Diesen Tab nach rechts verschieben?"
 
 msgid "Move this tab to the left?"
-msgstr ""
+msgstr "Diesen Tab nach links verschieben?"
 
 #, fuzzy
 msgid "Move Tab"
@@ -18237,11 +18237,11 @@ msgstr "Dashboard \"%s\" ändern"
 
 
 msgid "Name of the dashboard."
-msgstr ""
+msgstr "Name des Dashboards."
 
 
 msgid "Rename the dashboard."
-msgstr ""
+msgstr "Dashboard umbenennen."
 
 
 #, fuzzy
@@ -18265,17 +18265,17 @@ msgstr "Zeige Dashboard"
 
 
 msgid "Layout"
-msgstr ""
+msgstr "Layout"
 
 msgid "Dashboard layout mode."
-msgstr ""
+msgstr "Dashboard-Layout-Modus."
 
 
 msgid "Change the dashboard layout mode."
-msgstr ""
+msgstr "Dashboard-Layout-Modus ändern."
 
 msgid "New dashboard layout mode."
-msgstr ""
+msgstr "Neuer Dashboard-Layout-Modus."
 
 msgid "Dashboard Panels"
 msgstr "Dashboard Panele"
@@ -18286,14 +18286,14 @@ msgstr "Dashboard Panele"
 
 
 msgid "This engine is used to modify dashboard panels."
-msgstr ""
+msgstr "Diese Engine wird zum Ändern von Dashboard-Panels verwendet."
 
 msgid "Create Dashboard Panel"
 msgstr "Neues Dashboard Panel"
 
 #, php-format
 msgid "Edit Panel: %s"
-msgstr ""
+msgstr "Panel bearbeiten: %s"
 
 
 #, fuzzy
@@ -18307,7 +18307,7 @@ msgstr "Wähle ein Panel"
 
 
 msgid "Rename the panel."
-msgstr ""
+msgstr "Panel umbenennen."
 
 
 #, fuzzy
@@ -18321,7 +18321,7 @@ msgstr "Beitrag ändern"
 
 
 msgid "This engine is used to modify portals."
-msgstr ""
+msgstr "Diese Engine wird zum Ändern von Portalen verwendet."
 
 #, fuzzy
 msgid "Create Portal"
@@ -18339,13 +18339,13 @@ msgstr "Beitrag ändern"
 
 
 msgid "Portal"
-msgstr ""
+msgstr "Portal"
 
 msgid "Name of the portal."
-msgstr ""
+msgstr "Name des Portals."
 
 msgid "Rename the portal."
-msgstr ""
+msgstr "Portal umbenennen."
 
 #, fuzzy
 msgid "New portal name."
@@ -18358,7 +18358,7 @@ msgstr "%s hat diese Abstimmung erstellt."
 
 
 msgid "Restricted Panel"
-msgstr ""
+msgstr "Eingeschränktes Panel"
 
 
 #, fuzzy
@@ -18372,15 +18372,15 @@ msgstr "Ungültiges Datum."
 
 
 msgid "This panel is invalid or does not exist. It may have been deleted."
-msgstr ""
+msgstr "Dieses Panel ist ungültig oder existiert nicht. Es wurde möglicherweise gelöscht."
 
 #, php-format
 msgid "This panel has type \"%s\", but that panel type is unknown."
-msgstr ""
+msgstr "Dieses Panel hat den Typ \\\"%s\\\", aber dieser Panel-Typ ist unbekannt."
 
 #, php-format
 msgid "%s %s"
-msgstr ""
+msgstr "%s %s"
 
 #, fuzzy
 msgid "<Rendering Exception>"
@@ -18423,7 +18423,7 @@ msgstr "Neuer Beitrag"
 
 
 msgid "Use \"Edit Menu\" to add menu items to this portal."
-msgstr ""
+msgstr "\\\"Menü bearbeiten\\\" verwenden, um Menüelemente zu diesem Portal hinzuzufügen."
 
 #, fuzzy
 msgid "No Portal Content"
@@ -18431,7 +18431,7 @@ msgstr "Dateiinhalt zeigen"
 
 
 msgid "None of the visible menu items in this portal can render any content."
-msgstr ""
+msgstr "Keines der sichtbaren Menüelemente in diesem Portal kann Inhalte darstellen."
 
 msgid "This column does not have any panels yet."
 msgstr "Diese Spalte enthält bis jetzt noch keine Panele."
@@ -18445,11 +18445,11 @@ msgstr "Dashboard Panele"
 
 
 msgid "Choose Dashboard Icon"
-msgstr ""
+msgstr "Dashboard-Symbol auswählen"
 
 
 msgid "Home"
-msgstr ""
+msgstr "Startseite"
 
 msgid "Blocks"
 msgstr "Verhindert"
@@ -18460,34 +18460,34 @@ msgstr "Seitenformat"
 
 
 msgid "Knowledge"
-msgstr ""
+msgstr "Wissen"
 
 msgid "Kaboom"
-msgstr ""
+msgstr "Kaboom"
 
 msgid "Apple Blueberry"
-msgstr ""
+msgstr "Apfel-Blaubeere"
 
 msgid "Project"
 msgstr "Projekt"
 
 msgid "Ding Ding"
-msgstr ""
+msgstr "Ding Ding"
 
 msgid "Plastic Debt"
-msgstr ""
+msgstr "Plastikschuld"
 
 msgid "PHP is Life"
-msgstr ""
+msgstr "PHP ist Leben"
 
 msgid "To Self"
-msgstr ""
+msgstr "An sich selbst"
 
 msgid "Stay Woke"
-msgstr ""
+msgstr "Wachsam bleiben"
 
 msgid "Metallica"
-msgstr ""
+msgstr "Metallica"
 
 #, fuzzy
 msgid "Corned Beef"
@@ -18498,10 +18498,10 @@ msgid "Tasks"
 msgstr "Aufgaben"
 
 msgid "Wayfinding"
-msgstr ""
+msgstr "Wegfindung"
 
 msgid "Sports"
-msgstr ""
+msgstr "Sport"
 
 #, fuzzy
 msgid "Flag"
@@ -18509,10 +18509,10 @@ msgstr "Markiert"
 
 
 msgid "Water Vessel"
-msgstr ""
+msgstr "Wasserfahrzeug"
 
 msgid "Wireless"
-msgstr ""
+msgstr "Kabellos"
 
 #, fuzzy
 msgid "Announcement"
@@ -18520,16 +18520,16 @@ msgstr "Dokument"
 
 
 msgid "Add to Favorites Menu"
-msgstr ""
+msgstr "Zu Favoritenmenü hinzufügen"
 
 msgid "Add this dashboard to the favorites menu in the main menu bar."
-msgstr ""
+msgstr "Dieses Dashboard zum Favoritenmenü in der Hauptmenüleiste hinzufügen."
 
 msgid "Add Dashboard to Favorites Menu"
-msgstr ""
+msgstr "Dashboard zum Favoritenmenü hinzufügen"
 
 msgid "Add to Personal Favorites"
-msgstr ""
+msgstr "Zu persönlichen Favoriten hinzufügen"
 
 msgid ""
 "Add this dashboard to your list of personal favorite menu items, visible to "
@@ -18537,13 +18537,13 @@ msgid ""
 msgstr ""
 
 msgid "Add to Global Favorites"
-msgstr ""
+msgstr "Zu globalen Favoriten hinzufügen"
 
 msgid "Add this dashboard to the global favorites menu, visible to all users."
-msgstr ""
+msgstr "Dieses Dashboard zum globalen Favoritenmenü hinzufügen, das für alle Benutzer sichtbar ist."
 
 msgid "No Permission"
-msgstr ""
+msgstr "Keine Berechtigung"
 
 #, fuzzy
 msgid ""
@@ -18553,11 +18553,11 @@ msgstr ""
 
 
 msgid "Add Dashboard to Global Favorites"
-msgstr ""
+msgstr "Dashboard zu globalen Favoriten hinzufügen"
 
 #, php-format
 msgid "Add dashboard %s as a global menu item in the favorites menu?"
-msgstr ""
+msgstr "Dashboard %s als globales Menüelement im Favoritenmenü hinzufügen?"
 
 #, fuzzy
 msgid "Add to Favorites"
@@ -18565,11 +18565,11 @@ msgstr "Senf dazugeben"
 
 
 msgid "Add Dashboard to Personal Favorites"
-msgstr ""
+msgstr "Dashboard zu persönlichen Favoriten hinzufügen"
 
 #, php-format
 msgid "Add dashboard %s as a personal menu item in the favorites menu?"
-msgstr ""
+msgstr "Dashboard %s als persönliches Menüelement im Favoritenmenü hinzufügen?"
 
 #, fuzzy
 msgid "Add to Home Page Menu"
@@ -18582,10 +18582,10 @@ msgstr "Dieses Dashboard als Deine Hauptseite setzen?"
 
 
 msgid "Add Dashboard to Home Menu"
-msgstr ""
+msgstr "Dashboard zum Startmenü hinzufügen"
 
 msgid "Add to Personal Home Menu"
-msgstr ""
+msgstr "Zum persönlichen Startmenü hinzufügen"
 
 msgid ""
 "Add this dashboard to your list of personal home menu items, visible to only "
@@ -18593,10 +18593,10 @@ msgid ""
 msgstr ""
 
 msgid "Add to Global Home Menu"
-msgstr ""
+msgstr "Zum globalen Startmenü hinzufügen"
 
 msgid "Add this dashboard to the global home menu, visible to all users."
-msgstr ""
+msgstr "Dieses Dashboard zum globalen Startmenü hinzufügen, das für alle Benutzer sichtbar ist."
 
 #, fuzzy
 msgid "You do not have permission to install items on the global home menu."
@@ -18605,11 +18605,11 @@ msgstr ""
 
 
 msgid "Add Dashboard to Global Home Page"
-msgstr ""
+msgstr "Dashboard zur globalen Startseite hinzufügen"
 
 #, php-format
 msgid "Add dashboard %s as a global menu item on the home page?"
-msgstr ""
+msgstr "Dashboard %s als globales Menüelement auf der Startseite hinzufügen?"
 
 #, fuzzy
 msgid "Add to Home"
@@ -18617,11 +18617,11 @@ msgstr "Kommentar hinzufügen"
 
 
 msgid "Add Dashboard to Personal Home Page"
-msgstr ""
+msgstr "Dashboard zur persönlichen Startseite hinzufügen"
 
 #, php-format
 msgid "Add dashboard %s as a personal menu item on your home page?"
-msgstr ""
+msgstr "Dashboard %s als persönliches Menüelement auf deiner Startseite hinzufügen?"
 
 #, fuzzy
 msgid "Choose a valid object."
@@ -18639,7 +18639,7 @@ msgstr "Wo soll dieses Dashboard erscheinen?"
 
 
 msgid "Add Dashboard to Project Menu"
-msgstr ""
+msgstr "Dashboard zum Projektmenü hinzufügen"
 
 #, fuzzy
 msgid "Add to Portal Menu"
@@ -18647,10 +18647,10 @@ msgstr "Senf dazugeben"
 
 
 msgid "Add this dashboard to the menu on a portal."
-msgstr ""
+msgstr "Dieses Dashboard zum Menü eines Portals hinzufügen."
 
 msgid "Add Dashboard to Portal Menu"
-msgstr ""
+msgstr "Dashboard zum Portalmenü hinzufügen"
 
 #, fuzzy, php-format
 msgid "Add the dashboard %s to portal %s?"
@@ -18664,7 +18664,7 @@ msgstr "Senf dazugeben"
 
 #, php-format
 msgid "Select which portal you want to add the dashboard %s to."
-msgstr ""
+msgstr "Das Portal auswählen, dem das Dashboard %s hinzugefügt werden soll."
 
 #, fuzzy
 msgid "Add to Project Menu"
@@ -18672,11 +18672,11 @@ msgstr "Projekt ändern"
 
 
 msgid "Add this dashboard to the menu for a project."
-msgstr ""
+msgstr "Dieses Dashboard zum Menü eines Projekts hinzufügen."
 
 #, php-format
 msgid "Add the dashboard %s to the menu for project %s?"
-msgstr ""
+msgstr "Dashboard %s zum Menü für Projekt %s hinzufügen?"
 
 #, fuzzy
 msgid "Add to Project"
@@ -18685,23 +18685,23 @@ msgstr "Projekt ändern"
 
 #, php-format
 msgid "Select which project menu you want to add the dashboard %s to."
-msgstr ""
+msgstr "Das Projektmenü auswählen, dem das Dashboard %s hinzugefügt werden soll."
 
 #, php-format
 msgid "One Column: 100%%"
-msgstr ""
+msgstr "Eine Spalte: 100%%"
 
 #, php-format
 msgid "Two Columns: 50%%/50%%"
-msgstr ""
+msgstr "Zwei Spalten: 50%%/50%%"
 
 #, php-format
 msgid "Two Columns: 33%%/66%%"
-msgstr ""
+msgstr "Zwei Spalten: 33%%/66%%"
 
 #, php-format
 msgid "Two Columns: 66%%/33%%"
-msgstr ""
+msgstr "Zwei Spalten: 66%%/33%%"
 
 
 #, fuzzy
@@ -18746,7 +18746,7 @@ msgid "Search For"
 msgstr "Suche nach"
 
 msgid "Limit"
-msgstr ""
+msgstr "Limit"
 
 #, fuzzy
 msgid "You must log in to access this panel."
@@ -18755,7 +18755,7 @@ msgstr "Um weiterzumachen, muß Du angemeldet sein."
 
 #, php-format
 msgid "Query \"%s\" is unknown to application search engine \"%s\"!"
-msgstr ""
+msgstr "Abfrage \\\"%s\\\" ist der Anwendungssuchmaschine \\\"%s\\\" unbekannt!"
 
 #, fuzzy
 msgid "Query Overheated"
@@ -18764,7 +18764,7 @@ msgstr "Abfragename"
 
 #, php-format
 msgid "The application search engine \"%s\" is unknown."
-msgstr ""
+msgstr "Die Anwendungssuchmaschine \\\"%s\\\" ist unbekannt."
 
 #, php-format
 msgid ""
@@ -18781,7 +18781,7 @@ msgid "Tab Panel"
 msgstr "Reiter-Panel"
 
 msgid "Use tabs to switch between several other panels."
-msgstr ""
+msgstr "Tabs verwenden, um zwischen verschiedenen anderen Panels zu wechseln."
 
 #, fuzzy
 msgid "Unnamed Tab"
@@ -18789,10 +18789,10 @@ msgstr "Unbenannte Spalte"
 
 
 msgid "Move Tab Left"
-msgstr ""
+msgstr "Tab nach links verschieben"
 
 msgid "Move Tab Right"
-msgstr ""
+msgstr "Tab nach rechts verschieben"
 
 #, fuzzy
 msgid "Add Tab..."
@@ -18800,7 +18800,7 @@ msgstr "Neue Aufgabe"
 
 
 msgid "(Invalid Panel)"
-msgstr ""
+msgstr "(Ungültiges Panel)"
 
 msgid ""
 "This tab panel does not have any tabs yet. Use \"Add Tab...\" to create or "
@@ -18840,7 +18840,7 @@ msgid "Unknown Type"
 msgstr "Unbekannter Typ"
 
 msgid "No panels found."
-msgstr ""
+msgstr "Keine Panels gefunden."
 
 #, fuzzy
 msgid "Create a Panel"
@@ -18848,7 +18848,7 @@ msgstr "Neues Panel"
 
 
 msgid "Build individual panels to display on your homepage dashboard."
-msgstr ""
+msgstr "Einzelne Panels erstellen, die auf dem Startseiten-Dashboard angezeigt werden."
 
 #, fuzzy
 msgid "All Portals"
@@ -18873,17 +18873,17 @@ msgid "Author: %s"
 msgstr "Autor: %s"
 
 msgid "No Tags"
-msgstr ""
+msgstr "Keine Tags"
 
 msgid "No dashboards found."
-msgstr ""
+msgstr "Keine Dashboards gefunden."
 
 #, php-format
 msgid "Dashboard %d"
 msgstr "Dashboard %d"
 
 msgid "(All Types)"
-msgstr ""
+msgstr "(Alle Typen)"
 
 msgid "(All Panels)"
 msgstr "(Alle Panele)"
@@ -18899,7 +18899,7 @@ msgstr ""
 
 #, php-format
 msgid "Portal %d"
-msgstr ""
+msgstr "Portal %d"
 
 #, fuzzy
 msgid "Browse Dashboards"
@@ -18943,7 +18943,7 @@ msgstr "%s hat den Namen des Termins von %s auf %s geändert."
 
 #, php-format
 msgid "Layout mode \"%s\" is not valid. Supported layout modes are: %s."
-msgstr ""
+msgstr "Layout-Modus \\\"%s\\\" ist ungültig. Unterstützte Layout-Modi: %s."
 
 #, fuzzy, php-format
 msgid "%s renamed this dashboard from %s to %s."
@@ -18957,7 +18957,7 @@ msgstr "Zonen müssen einen Namen haben"
 
 #, php-format
 msgid "Dashboard names must not be longer than %s characters."
-msgstr ""
+msgstr "Dashboard-Namen dürfen nicht länger als %s Zeichen sein."
 
 #, fuzzy, php-format
 msgid "%s changed the panels on this dashboard."
@@ -18965,10 +18965,10 @@ msgstr "%s hat dieses Dashboard erzeugt."
 
 
 msgid "Panels must be a list of panel specifications."
-msgstr ""
+msgstr "Panels müssen eine Liste von Panel-Spezifikationen sein."
 
 msgid "Panels must be a list, not a map."
-msgstr ""
+msgstr "Panels müssen eine Liste sein, keine Zuordnung."
 
 #, php-format
 msgid ""
@@ -18978,7 +18978,7 @@ msgstr ""
 
 #, php-format
 msgid "Panel specification at index \"%s\" is invalid: %s"
-msgstr ""
+msgstr "Panel-Spezifikation bei Index \\\"%s\\\" ist ungültig: %s"
 
 #, php-format
 msgid ""
@@ -19017,7 +19017,7 @@ msgstr "%s hat dieses Dashboard erzeugt."
 
 #, php-format
 msgid "Status \"%s\" is not valid. Supported status constants are: %s."
-msgstr ""
+msgstr "Status \\\"%s\\\" ist ungültig. Unterstützte Statuskonstanten: %s."
 
 #, php-format
 msgid ""
@@ -19037,7 +19037,7 @@ msgstr "Zonen müssen einen Namen haben"
 
 #, php-format
 msgid "Panel names must not be longer than %s characters."
-msgstr ""
+msgstr "Panel-Namen dürfen nicht länger als %s Zeichen sein."
 
 #, php-format
 msgid "%s archived this panel."
@@ -19054,7 +19054,7 @@ msgid ""
 msgstr ""
 
 msgid "Query result limit must be empty, or at least 1."
-msgstr ""
+msgstr "Abfrageergebnis-Limit muss leer oder mindestens 1 sein."
 
 #, fuzzy, php-format
 msgid "%s updated the panel text."
@@ -19073,7 +19073,7 @@ msgstr "Produkte müssen Namen haben"
 
 #, php-format
 msgid "Portal names must not be longer than %s characters."
-msgstr ""
+msgstr "Portal-Namen dürfen nicht länger als %s Zeichen sein."
 
 #, php-format
 msgid "Invalid options file: %s."
@@ -19557,12 +19557,12 @@ msgstr ""
 "SendGrid als Mail-Adapter verwendest."
 
 msgid "Inline patches in email, as body text."
-msgstr ""
+msgstr "Patches in E-Mail einbetten, als Textkörper."
 "Patches an die Emails anfügen, allerdings direkt in die Email nicht als "
 "Anhang."
 
 msgid "Format for inlined or attached patches."
-msgstr ""
+msgstr "Format für eingebettete oder angehängte Patches."
 "Das Format, in dem eingefügte oder angehängte Patches aufbereitet werden: "
 "'git' oder 'unified'."
 
@@ -20401,7 +20401,7 @@ msgstr "%s hat %s Unterversion(en) von %s entfernt: %s."
 
 #, php-format
 msgid "%s edited child revision(s) for %s, added %s: %s; removed %s: %s."
-msgstr ""
+msgstr "%s hat untergeordnete Revision(en) für %s bearbeitet, hinzugefügt %s: %s; entfernt %s: %s."
 "%s hat Unterversionen von %s bearbeitet, %s hinzugefügt: %s; %s entfernt: %s."
 
 msgid "Revision Has Parent"
@@ -20432,7 +20432,7 @@ msgstr "%s hat %s Elternversion(en) von %s entfernt: %s."
 
 #, php-format
 msgid "%s edited parent revision(s) for %s, added %s: %s; removed %s: %s."
-msgstr ""
+msgstr "%s hat übergeordnete Revision(en) für %s bearbeitet, hinzugefügt %s: %s; entfernt %s: %s."
 "%s hat Elternversionen von %s bearbeitet, %s hinzugefügt: %s; %s entfernt: %s."
 
 msgid "Revision Has Commit"
@@ -20517,7 +20517,7 @@ msgstr "%s hat %s Aufgaben von %s entfernt: %s."
 
 #, php-format
 msgid "%s edited %s task(s) for %s, added %s: %s; removed %s: %s."
-msgstr ""
+msgstr "%s hat %s Aufgabe(n) für %s bearbeitet, hinzugefügt %s: %s; entfernt %s: %s."
 "%s hat %s Aufgaben von %s geändert, %s hinzugefügt: %s; %s entfernt: %s."
 
 msgid "Differential Diffs"
@@ -21707,7 +21707,7 @@ msgstr "Diese Binärdatei wurde gelöscht, nachdem sie nach %s kopiert wurde."
 
 #, php-format
 msgid "This symlink was deleted after being copied to %s."
-msgstr ""
+msgstr "Dieser Symlink wurde gelöscht, nachdem er nach %s kopiert wurde."
 "Diese symbolische Verknüpfung wurde gelöscht, nachdem sie nach %s kopiert "
 "wurde."
 
@@ -21993,7 +21993,7 @@ msgstr "Neu geöffnet"
 
 #, php-format
 msgid "Closed by commit %s (authored by %s, committed by %s)."
-msgstr ""
+msgstr "Geschlossen durch Commit %s (verfasst von %s, committed von %s)."
 "Wurde durch Änderung %s (Autor war %s, eingepflegt von %s) geschlossen."
 
 #, php-format
@@ -24765,7 +24765,7 @@ msgstr "%s hat %s Revert-Änderung(en) von %s entfernt: %s."
 
 #, php-format
 msgid "%s edited reverting change(s) for %s, added %s: %s; removed %s: %s."
-msgstr ""
+msgstr "%s hat rückgängig machende Änderung(en) für %s bearbeitet, hinzugefügt %s: %s; entfernt %s: %s."
 "%s hat Revert-Änderungen für %s bearbeitet, %s hinzugefügt: %s; %s entfernt: %s."
 
 #, php-format
@@ -24790,7 +24790,7 @@ msgstr "%s hat %s revertierte Änderung(en) von %s entfernt: %s."
 
 #, php-format
 msgid "%s edited reverted change(s) for %s, added %s: %s; removed %s: %s."
-msgstr ""
+msgstr "%s hat rückgängig gemachte Änderung(en) für %s bearbeitet, hinzugefügt %s: %s; entfernt %s: %s."
 "%s hat revertierte Änderungen für %s bearbeitet, %s hinzugefügt: %s; %s entfernt: %s."
 
 msgid "Edit commits."
@@ -28315,7 +28315,7 @@ msgid "Resources"
 msgstr "Ressourcen"
 
 msgid "Leases"
-msgstr ""
+msgstr "Pachtungen"
 
 #, fuzzy
 msgid "Repository Operations"
@@ -28511,7 +28511,7 @@ msgstr "Name der Blaupause."
 
 #, php-format
 msgid "%s created this blueprint."
-msgstr ""
+msgstr "%s hat diesen Blueprint erstellt."
 
 #, fuzzy, php-format
 msgid "\"%s\" (owned by \"%s\")"
@@ -28520,10 +28520,10 @@ msgstr "%s hat %s als \"%s\" wieder geöffnet."
 
 #, php-format
 msgid "Unable to acquire slot locks: %s."
-msgstr ""
+msgstr "Slot-Sperren konnten nicht erworben werden: %s."
 
 msgid "Unable to acquire slot locks."
-msgstr ""
+msgstr "Slot-Sperren konnten nicht erworben werden."
 
 msgid "Drydock Logs"
 msgstr "Drydock-Protokolle"
@@ -29168,7 +29168,7 @@ msgid "Drydock Repository Operations"
 msgstr "Drydock-Repository-Operationen"
 
 msgid "States"
-msgstr ""
+msgstr "Zustände"
 
 #, fuzzy
 msgid "All Operations"
@@ -29176,7 +29176,7 @@ msgstr "Alle Fragen"
 
 
 msgid "Via:"
-msgstr ""
+msgstr "Über:"
 
 msgid "No matching operations."
 msgstr "Keine passenden Operationen."
@@ -30054,10 +30054,10 @@ msgid "Default view policy for newly created files."
 msgstr "Standard-Anzeigerichtlinie für neu erstellte Dateien."
 
 msgid "Email Commands: Files"
-msgstr ""
+msgstr "E-Mail-Befehle: Dateien"
 
 msgid "Interacting with Files"
-msgstr ""
+msgstr "Mit Dateien interagieren"
 
 msgid "This page documents the commands you can use to interact with files."
 msgstr "Diese Seite dokumentiert die Befehle, die zur Interaktion mit Dateien verwendet werden können."
@@ -30839,7 +30839,7 @@ msgid ""
 msgstr "Dieses Jupyter-Notebook verwendet eine nicht unterstützte Version des Dateiformats (gefunden: Version %s, erwartet: Version 4)."
 
 msgid "This Jupyter notebook does not specify a list of \"cells\"."
-msgstr ""
+msgstr "Dieses Jupyter-Notebook gibt keine Liste von \\\"cells\\\" an."
 
 #, fuzzy
 msgid "This Jupyter notebook does not specify any notebook cells."
@@ -31040,13 +31040,13 @@ msgid "File was only partially transferred, upload did not complete."
 msgstr "Datei wurde nur teilweise übertragen, der Upload wurde nicht abgeschlossen."
 
 msgid "No file was uploaded."
-msgstr ""
+msgstr "Es wurde keine Datei hochgeladen."
 
 msgid "Unable to write file: temporary directory does not exist."
-msgstr ""
+msgstr "Datei konnte nicht geschrieben werden: Temporäres Verzeichnis existiert nicht."
 
 msgid "Unable to write file: failed to write to temporary directory."
-msgstr ""
+msgstr "Datei konnte nicht geschrieben werden: Schreiben ins temporäre Verzeichnis fehlgeschlagen."
 
 msgid "Unable to upload: a PHP extension stopped the upload."
 msgstr "Upload nicht möglich: Eine PHP-Erweiterung hat den Upload gestoppt."
@@ -31255,7 +31255,7 @@ msgstr "Master-Schlüssel für verschlüsselte Dateien rotieren."
 
 #, php-format
 msgid "%s: Uses unknown storage engine \"%s\"."
-msgstr ""
+msgstr "%s: Verwendet unbekannte Speicher-Engine \\\"%s\\\"."
 
 #, php-format
 msgid "%s: Stored as chunks, declining to cycle directly."
@@ -31451,7 +31451,7 @@ msgid "File \"%s\" has a valid integrity hash."
 msgstr "Datei \"%s\" hat einen gültigen Integritäts-Hash."
 
 msgid "MISMATCH"
-msgstr ""
+msgstr "KONFLIKT"
 
 #, php-format
 msgid "File \"%s\" has an invalid integrity hash!"
@@ -31790,7 +31790,7 @@ msgid ""
 msgstr "Die relative TTL darf nicht mehr als \"%s\" Sekunden betragen, aber TTL \"%s\" wurde angegeben."
 
 msgid "The user who uploaded a file can always view and edit it."
-msgstr ""
+msgstr "Der Benutzer, der eine Datei hochgeladen hat, kann sie immer anzeigen und bearbeiten."
 "Der Benutzer, der die Datei hochgeladen hat, darf sie immer ansehen und "
 "verändern."
 
@@ -32062,7 +32062,7 @@ msgstr "Flagge %s"
 
 #, php-format
 msgid "You can flag this %s if you want to remember to look at it later."
-msgstr ""
+msgstr "Dieses %s markieren, um später daran erinnert zu werden."
 "Du kannst diesen %s mit einer Markierung als Gedächtnisstütze versehen."
 
 msgid "Flag Color"
@@ -32248,7 +32248,7 @@ msgid "Edit Initiative: %s"
 msgstr "Initiative bearbeiten: %s"
 
 msgid "Initiative"
-msgstr ""
+msgstr "Initiative"
 
 #, php-format
 msgid "Merchant %d %s"
@@ -33701,7 +33701,7 @@ msgstr "TESTERGEBNIS"
 
 #, php-format
 msgid "Unit %d"
-msgstr ""
+msgstr "Einheit %d"
 
 
 #, fuzzy
@@ -35176,11 +35176,11 @@ msgid "Unknown log chunk encoding (\"%s\")!"
 msgstr "Unbekannte Log-Chunk-Kodierung (\"%s\")!"
 
 msgid "Waiting for Message"
-msgstr ""
+msgstr "Warte auf Nachricht"
 
 #, php-format
 msgid "There is no implementation available for artifacts of type \"%s\"."
-msgstr ""
+msgstr "Für Artefakte vom Typ \\\"%s\\\" ist keine Implementierung verfügbar."
 
 #, php-format
 msgid "Artifact \"%s\" not found!"
@@ -35299,7 +35299,7 @@ msgstr "Die PHID des Build-Plans, zu dem dieser Build-Schritt gehört."
 
 #, php-format
 msgid "%s created this build step."
-msgstr ""
+msgstr "%s hat diesen Build-Schritt erstellt."
 
 msgid "Browse Dependencies"
 msgstr "Abhängigkeiten durchsuchen"
@@ -35635,7 +35635,7 @@ msgstr "%s hat dieses Buildable neu gestartet."
 
 #, php-format
 msgid "%s resumed this buildable."
-msgstr ""
+msgstr "%s hat dieses Buildable fortgesetzt."
 
 #, php-format
 msgid "%s paused this buildable."
@@ -35743,15 +35743,15 @@ msgstr "Diese Aktion hat keine Wirkung."
 
 #, php-format
 msgid "%s target(s) are invalid or of the wrong type: %s."
-msgstr ""
+msgstr "%s Ziel(e) sind ungültig oder vom falschen Typ: %s."
 
 #, php-format
 msgid "%s target(s) could not be loaded: %s."
-msgstr ""
+msgstr "%s Ziel(e) konnten nicht geladen werden: %s."
 
 #, php-format
 msgid "%s target(s) do not have permission to see this object: %s."
-msgstr ""
+msgstr "%s Ziel(e) haben keine Berechtigung, dieses Objekt anzusehen: %s."
 
 
 #, php-format
@@ -35993,7 +35993,7 @@ msgid "Take these actions the first time this rule matches:"
 msgstr "Diese Aktionen ausführen, wenn diese Regel das erste Mal greift:"
 
 msgid "Take these actions if this rule did not match the last time:"
-msgstr ""
+msgstr "Diese Aktionen ausführen, wenn diese Regel beim letzten Mal nicht zutraf:"
 
 
 msgid "Take these actions every time this rule matches:"
@@ -36111,7 +36111,7 @@ msgid "No object exists by that name."
 msgstr "Kein Objekt mit diesem Namen vorhanden."
 
 msgid "You must choose an object to associate this rule with."
-msgstr ""
+msgstr "Ein Objekt auswählen, mit dem diese Regel verknüpft werden soll."
 
 msgid "Choose Object"
 msgstr "Objekt wählen"
@@ -36123,7 +36123,7 @@ msgid "You have permission to create and manage global rules."
 msgstr "Du hast die Berechtigung globale Regeln zu erstellen und zu ändern."
 
 msgid "You do not have permission to create or manage global rules."
-msgstr ""
+msgstr "Du hast keine Berechtigung, globale Regeln zu erstellen oder zu verwalten."
 "Dir fehlt die Berechtigung, globale Regeln zu erstellen oder zu ändern."
 
 msgid "Personal Rule"
@@ -36315,7 +36315,7 @@ msgstr "Ablaufprotokoll %d"
 
 #, php-format
 msgid "Herald Transcript %s"
-msgstr ""
+msgstr "Herald-Transkript %s"
 
 
 #, php-format
@@ -36465,10 +36465,10 @@ msgstr "Entwurf ändern"
 
 
 msgid "View HMAC Key"
-msgstr ""
+msgstr "HMAC-Schlüssel anzeigen"
 
 msgid "No active Herald rules call this webhook."
-msgstr ""
+msgstr "Keine aktiven Herald-Regeln rufen diesen Webhook auf."
 
 #, fuzzy
 msgid "Called By Herald Rules"
@@ -36519,7 +36519,7 @@ msgid "Herald rule \"%s\" does not have an evaluation result."
 msgstr "Herald-Regel \"%s\" hat kein Auswertungsergebnis."
 
 msgid "This was a dry run, so no actions were actually taken."
-msgstr ""
+msgstr "Dies war ein Probelauf, daher wurden keine Aktionen tatsächlich ausgeführt."
 "Dies war ein Testlauf, es wurden daher keine Aktion tatsächlich ausgeführt."
 
 #, php-format
@@ -36588,7 +36588,7 @@ msgid "Is newly created"
 msgstr "Ist neu erstellt worden"
 
 msgid "Related Fields"
-msgstr ""
+msgstr "Verwandte Felder"
 
 #, fuzzy
 msgid "Content type"
@@ -36743,7 +36743,7 @@ msgid "Search for rules with given authors."
 msgstr "Nach Regeln mit bestimmten Autoren suchen."
 
 msgid "Search for rules of given types."
-msgstr ""
+msgstr "Regeln bestimmter Typen suchen."
 
 msgid "Content Type"
 msgstr "Inhaltstyp"
@@ -36858,7 +36858,7 @@ msgid "Sent"
 msgstr "Gesendet"
 
 msgid "In Silent Mode"
-msgstr ""
+msgstr "Im stillen Modus"
 
 #, fuzzy
 msgid "Hook Disabled"
@@ -36923,7 +36923,7 @@ msgstr ""
 
 
 msgid "Rule failed automatically because it has no conditions."
-msgstr ""
+msgstr "Regel ist automatisch fehlgeschlagen, weil sie keine Bedingungen hat."
 "Regel ist automatisch fehlgeschlagen, weil sie keinerlei Bedingungen enthält."
 
 #, fuzzy
@@ -37065,7 +37065,7 @@ msgstr "Zugehöriger Hook (\"%s\") für Webhook-Anfrage (\"%s\") hat eine ungül
 
 #, php-format
 msgid "Unable to load object (\"%s\") for webhook request (\"%s\")."
-msgstr ""
+msgstr "Objekt (\\\"%s\\\") für Webhook-Anfrage (\\\"%s\\\") konnte nicht geladen werden."
 
 #, php-format
 msgid ""
@@ -38249,7 +38249,7 @@ msgid "Send email to these addresses to create tasks. %s"
 msgstr "Schicke eine Email an diese Adressen, um Aufgaben zu erzeugen: %s"
 
 msgid "Default view policy for newly created tasks."
-msgstr ""
+msgstr "Standardanzeigerichtlinie für neu erstellte Aufgaben."
 
 msgid "Default edit policy for newly created tasks."
 msgstr "Vorgabe-Berechtigung zum Editieren von neu erzeugten Aufgaben."
@@ -40063,7 +40063,7 @@ msgstr "%s hat %d Datei(en) von %s getrennt: %s"
 
 #, php-format
 msgid "%s changed file(s) for %s, attached %d: %s; detached %d: %s"
-msgstr ""
+msgstr "%s hat Datei(en) für %s geändert, angehängt %d: %s; entfernt %d: %s"
 "%s hat die Datei(en) für %s geändert, %d verknüpft: %s, %d getrennt: %s"
 
 #, php-format
@@ -40260,7 +40260,7 @@ msgstr "Status verändert"
 
 #, php-format
 msgid "%s closed this task as a duplicate by committing %s."
-msgstr ""
+msgstr "%s hat diese Aufgabe durch Commit von %s als Duplikat geschlossen."
 "%s hat diese Aufgabe als ein Duplikat geschlossen, in dem %s eingepflegt "
 "wurde."
 
@@ -40729,7 +40729,7 @@ msgid "Disabled Sender"
 msgstr "Deaktivierter Absender"
 
 msgid "No Public Mail"
-msgstr ""
+msgstr "Keine öffentliche Mail"
 
 msgid "User Mismatch"
 msgstr "Benutzer passt nicht"
@@ -41420,11 +41420,11 @@ msgid "No special rules affected this mail."
 msgstr "Keine besonderen Regeln haben diese Mail beeinflusst."
 
 msgid "This user is disabled; disabled users do not receive mail."
-msgstr ""
+msgstr "Dieser Benutzer ist deaktiviert; deaktivierte Benutzer erhalten keine Mail."
 "Dieser Benutzer ist deaktiviert; deaktivierte Benutzer bekommen keine Emails."
 
 msgid "This user is a bot; bot accounts do not receive mail."
-msgstr ""
+msgstr "Dieser Benutzer ist ein Bot; Bot-Konten erhalten keine Mail."
 "Dieser Benutzer ist ein Systembenutzer; Systembenutzer bekommen keine Emails."
 
 msgid "Unable to load an email address for this PHID."
@@ -41463,7 +41463,7 @@ msgid ""
 msgstr ""
 
 msgid "Unable to load user record for this PHID."
-msgstr ""
+msgstr "Benutzerdatensatz für diese PHID konnte nicht geladen werden."
 
 msgid ""
 "Delivery of this mail is forced and ignores deliver preferences. Mail which "
@@ -41482,7 +41482,7 @@ msgid ""
 msgstr ""
 
 msgid "This message was upgraded to email by outbound mail rules in Herald."
-msgstr ""
+msgstr "Diese Nachricht wurde durch ausgehende Mail-Regeln in Herald zu einer E-Mail aufgewertet."
 
 #, fuzzy
 msgid "This recipient does not have a verified primary email address."
@@ -41936,7 +41936,7 @@ msgstr ""
 "das nicht rückgängig machen."
 
 msgid "You can't ignore your problems forever, you know."
-msgstr ""
+msgstr "Du kannst deine Probleme nicht ewig ignorieren, weißt du."
 "Du kannst Deine Probleme nicht auf ewig vor Dir herschieben, das weißt Du?"
 
 msgid "Mark All Read"
@@ -42156,26 +42156,26 @@ msgstr ""
 
 #, php-format
 msgid "Respecting \"%s\": waiting for %s second(s) to poll GitHub."
-msgstr ""
+msgstr "\\\"%s\\\" wird respektiert: %s Sekunde(n) warten, um GitHub abzufragen."
 
 #, php-format
 msgid "Polling GitHub Repository API endpoint \"%s\"."
-msgstr ""
+msgstr "GitHub-Repository-API-Endpunkt \\\"%s\\\" wird abgefragt."
 
 msgid "Received a 304 Not Modified from GitHub, no new events."
-msgstr ""
+msgstr "304 Not Modified von GitHub empfangen, keine neuen Ereignisse."
 
 #, php-format
 msgid "Fetched event \"%s\"."
-msgstr ""
+msgstr "Ereignis \\\"%s\\\" abgerufen."
 
 #, php-format
 msgid "Event \"%s\" is previously known."
-msgstr ""
+msgstr "Ereignis \\\"%s\\\" ist bereits bekannt."
 
 #, php-format
 msgid "This key has %s remaining API request(s), limit resets in %s second(s)."
-msgstr ""
+msgstr "Dieser Schlüssel hat noch %s verbleibende API-Anfrage(n), das Limit wird in %s Sekunde(n) zurückgesetzt."
 
 #, fuzzy, php-format
 msgid "ETag for this request was \"%s\"."
@@ -42184,7 +42184,7 @@ msgstr "%s hat diese Pull Anfrage manuell als %s markiert"
 
 #, php-format
 msgid "Set API poll TTL to +%s second(s) (%s second(s) from now)."
-msgstr ""
+msgstr "API-Abfrage-TTL auf +%s Sekunde(n) gesetzt (%s Sekunde(n) ab jetzt)."
 
 msgid "Nuance Items"
 msgstr "Nuance-Elemente"
@@ -42314,7 +42314,7 @@ msgstr ""
 
 #, php-format
 msgid "Exception while decoding test data for test \"%s\"."
-msgstr ""
+msgstr "Ausnahme beim Dekodieren von Testdaten für Test \\\"%s\\\"."
 
 msgid "Form"
 msgstr "Formular"
@@ -42372,7 +42372,7 @@ msgstr "Nuance-Element %d Aufgabe"
 
 #, php-format
 msgid "This item type (\"%s\", of class \"%s\") can not update items."
-msgstr ""
+msgstr "Dieser Elementtyp (\\\"%s\\\", der Klasse \\\"%s\\\") kann keine Elemente aktualisieren."
 
 msgid "Import data from a source."
 msgstr "Daten aus einer Quelle importieren."
@@ -42385,11 +42385,11 @@ msgstr "Nur einen bestimmten Cursor importieren."
 
 #, php-format
 msgid "This source (\"%s\") does not expose import cursors."
-msgstr ""
+msgstr "Diese Quelle (\\\"%s\\\") stellt keine Import-Cursor bereit."
 
 #, php-format
 msgid "This source (\"%s\") does not have any import cursors."
-msgstr ""
+msgstr "Diese Quelle (\\\"%s\\\") hat keine Import-Cursor."
 
 
 #, php-format
@@ -42399,11 +42399,11 @@ msgstr ""
 
 #, php-format
 msgid "Importing cursor \"%s\" only."
-msgstr ""
+msgstr "Nur Cursor \\\"%s\\\" wird importiert."
 
 #, php-format
 msgid "Importing all cursors: %s."
-msgstr ""
+msgstr "Alle Cursor werden importiert: %s."
 
 msgid "(Use --cursor to import only a particular cursor.)"
 msgstr "(Verwende --cursor, um nur einen bestimmten Cursor zu importieren.)"
@@ -42421,17 +42421,17 @@ msgstr "%s hat ein Problem mit %s."
 
 #, php-format
 msgid "No source exists with ID \"%s\"."
-msgstr ""
+msgstr "Keine Quelle mit der ID \\\"%s\\\" vorhanden."
 
 
 #, php-format
 msgid "No source exists with PHID \"%s\"."
-msgstr ""
+msgstr "Keine Quelle mit der PHID \\\"%s\\\" vorhanden."
 
 
 #, php-format
 msgid "No source exists with a name matching \"%s\"."
-msgstr ""
+msgstr "Keine Quelle mit einem Namen, der \\\"%s\\\" entspricht, vorhanden."
 
 
 #, php-format
@@ -42442,7 +42442,7 @@ msgstr ""
 
 #, php-format
 msgid "Specify a item with %s."
-msgstr ""
+msgstr "Ein Element mit %s angeben."
 
 #, php-format
 msgid ""
@@ -42452,12 +42452,12 @@ msgstr ""
 
 #, php-format
 msgid "No item exists with ID \"%s\"."
-msgstr ""
+msgstr "Kein Element mit der ID \\\"%s\\\" vorhanden."
 
 
 #, php-format
 msgid "No item exists with PHID \"%s\"."
-msgstr ""
+msgstr "Kein Element mit der PHID \\\"%s\\\" vorhanden."
 
 
 msgid "Import Cursor"
@@ -42575,7 +42575,7 @@ msgstr ""
 
 #, php-format
 msgid "There is no Nuance item with PHID \"%s\"."
-msgstr ""
+msgstr "Kein Nuance-Element mit der PHID \\\"%s\\\" vorhanden."
 
 #, php-format
 msgid "%s applied a \"%s\" command to this item."
@@ -42699,11 +42699,11 @@ msgstr "Anwendungen"
 
 #, php-format
 msgid "The %s OAuth application has been disabled."
-msgstr ""
+msgstr "Die %s-OAuth-Anwendung wurde deaktiviert."
 
 
 msgid "Invalid Redirect URI"
-msgstr ""
+msgstr "Ungültige Weiterleitungs-URI"
 
 #, php-format
 msgid ""
@@ -42714,14 +42714,14 @@ msgid ""
 msgstr ""
 
 msgid "Invalid Response Type"
-msgstr ""
+msgstr "Ungültiger Antworttyp"
 
 #, php-format
 msgid "Required request parameter %s is missing."
-msgstr ""
+msgstr "Erforderlicher Anfrageparameter %s fehlt."
 
 msgid "Unsupported Response Type"
-msgstr ""
+msgstr "Nicht unterstützter Antworttyp"
 
 #, php-format
 msgid ""
@@ -42730,7 +42730,7 @@ msgid ""
 msgstr ""
 
 msgid "Server Error"
-msgstr ""
+msgstr "Serverfehler"
 
 msgid ""
 "The authorization server encountered an unexpected condition which prevented "
@@ -43507,7 +43507,7 @@ msgstr ""
 
 #, php-format
 msgid "Authority setting \"%s\" is not valid. Valid settings are: %s."
-msgstr ""
+msgstr "Autoritätseinstellung \\\"%s\\\" ist ungültig. Gültige Einstellungen: %s."
 
 #, php-format
 msgid "%s adjusted package authority rules from %s to %s."
@@ -43515,7 +43515,7 @@ msgstr "%s hat die Autoritätsregeln des Pakets von %s auf %s angepasst."
 
 #, php-format
 msgid "Autoreview setting \"%s\" is not valid. Valid settings are: %s."
-msgstr ""
+msgstr "Automatische-Überprüfungs-Einstellung \\\"%s\\\" ist ungültig. Gültige Einstellungen: %s."
 
 #, php-format
 msgid "%s adjusted autoreview from %s to %s."
@@ -43523,14 +43523,14 @@ msgstr "%s hat den automatischen Review von %s auf %s angepasst."
 
 #, php-format
 msgid "%s updated the description for this package."
-msgstr ""
+msgstr "%s hat die Beschreibung für dieses Paket aktualisiert."
 
 msgid "CHANGES TO PACKAGE DESCRIPTION"
 msgstr "ÄNDERUNGEN AN DER PAKETBESCHREIBUNG"
 
 #, php-format
 msgid "Dominion setting \"%s\" is not valid. Valid settings are: %s."
-msgstr ""
+msgstr "Dominanzeinstellung \\\"%s\\\" ist ungültig. Gültige Einstellungen: %s."
 
 #, php-format
 msgid "%s adjusted package dominion rules from %s to %s."
@@ -43542,12 +43542,12 @@ msgstr "%s hat %s ignorierte(s) Attribut(e) geändert, hinzugefügt %s: %s; entf
 
 #, php-format
 msgid "%s changed %s ignored attribute(s), added %s: %s."
-msgstr ""
+msgstr "%s hat %s ignorierte(s) Attribut(e) geändert, hinzugefügt %s: %s."
 
 
 #, php-format
 msgid "%s changed %s ignored attribute(s), removed %s: %s."
-msgstr ""
+msgstr "%s hat %s ignorierte(s) Attribut(e) geändert, entfernt %s: %s."
 
 
 #, php-format
@@ -44840,7 +44840,7 @@ msgid "Create Bot User"
 msgstr "Neuer Automat"
 
 msgid "Create a new user for use with automated scripts."
-msgstr ""
+msgstr "Neuen Benutzer für automatisierte Skripte erstellen."
 "Erstelle einen neuen Benutzer, der ausschließlich für Skripte verwendet wird."
 
 msgid "Create Mailing List User"
@@ -46088,12 +46088,12 @@ msgstr "%s Konto \"%s\" freigegeben"
 
 #, php-format
 msgid "Your %s account (%s) has been approved by %s. You can login here:"
-msgstr ""
+msgstr "Dein %s-Konto (%s) wurde von %s genehmigt. Du kannst dich hier anmelden:"
 "Dein %s-Konto (%s) wurde von %s freigegeben. Du kannst Dich hier anmelden:"
 
 #, php-format
 msgid "[%s] %s"
-msgstr ""
+msgstr "[%s] %s"
 
 #, php-format
 msgid "%s approved this user."
@@ -46257,7 +46257,7 @@ msgstr "Blog verschoben"
 
 
 msgid "View Live"
-msgstr ""
+msgstr "Live anzeigen"
 
 #, fuzzy
 msgid "Manage Blog"
@@ -46265,10 +46265,10 @@ msgstr "Editieren"
 
 
 msgid "Header"
-msgstr ""
+msgstr "Kopfzeile"
 
 msgid "No external domain"
-msgstr ""
+msgstr "Keine externe Domain"
 
 #, fuzzy
 msgid "Full Domain"
@@ -46276,7 +46276,7 @@ msgstr "Eigene Domäne"
 
 
 msgid "No parent site"
-msgstr ""
+msgstr "Keine übergeordnete Website"
 
 #, fuzzy
 msgid "Parent Site"
@@ -46770,7 +46770,7 @@ msgid ""
 msgstr ""
 
 msgid "here"
-msgstr ""
+msgstr "hier"
 
 #, php-format
 msgid ""
@@ -47040,7 +47040,7 @@ msgid "%s published %s."
 msgstr "%s hat %s veröffentlicht."
 
 msgid "Application Email"
-msgstr ""
+msgstr "Anwendungs-E-Mail"
 
 #, php-format
 msgid "Restricted %s"
@@ -47069,26 +47069,26 @@ msgid ""
 msgstr ""
 
 msgid "Retrieve information about an arbitrary PHID."
-msgstr ""
+msgstr "Informationen über eine beliebige PHID abrufen."
 
 msgid "No such object exists."
-msgstr ""
+msgstr "Kein solches Objekt vorhanden."
 
 msgid "Look up objects by name."
-msgstr ""
+msgstr "Objekte nach Namen suchen."
 
 msgid "Must pass names."
-msgstr ""
+msgstr "Namen müssen übergeben werden."
 
 msgid "Retrieve information about arbitrary PHIDs."
-msgstr ""
+msgstr "Informationen über beliebige PHIDs abrufen."
 
 msgid "Must pass PHIDs."
-msgstr ""
+msgstr "PHIDs müssen übergeben werden."
 
 #, php-format
 msgid "Requested handle \"%s\" was not loaded."
-msgstr ""
+msgstr "Angeforderter Handle \\\"%s\\\" wurde nicht geladen."
 
 #, php-format
 msgid ""
@@ -47097,7 +47097,7 @@ msgid ""
 msgstr ""
 
 msgid "Trying to render a handle which does not exist!"
-msgstr ""
+msgstr "Versuch, einen nicht existierenden Handle zu rendern!"
 
 #, php-format
 msgid ""
@@ -47110,7 +47110,7 @@ msgid ""
 msgstr ""
 
 msgid "Handles should use viewer handle pool cache."
-msgstr ""
+msgstr "Handles sollten den Viewer-Handle-Pool-Cache verwenden."
 
 #, php-format
 msgid ""
@@ -47120,11 +47120,11 @@ msgstr ""
 
 #, php-format
 msgid "The objects you have listed include objects of the wrong type (%s)."
-msgstr ""
+msgstr "Die aufgelisteten Objekte enthalten Objekte vom falschen Typ (%s)."
 
 #, php-format
 msgid "The objects you have listed include objects which do not exist (%s)."
-msgstr ""
+msgstr "Die aufgelisteten Objekte enthalten nicht existierende Objekte (%s)."
 
 #, fuzzy
 msgid "Query Test Package"
@@ -47132,7 +47132,7 @@ msgstr "Nach Paket"
 
 
 msgid "Can not generate PHID with no type."
-msgstr ""
+msgstr "PHID ohne Typ kann nicht generiert werden."
 
 #, php-format
 msgid ""
@@ -47141,16 +47141,16 @@ msgid ""
 msgstr ""
 
 msgid "Phlux"
-msgstr ""
+msgstr "Phlux"
 
 msgid "Key/Value Configuration Store"
-msgstr ""
+msgstr "Schlüssel/Wert-Konfigurationsspeicher"
 
 msgid "Create Variable"
-msgstr ""
+msgstr "Variable erstellen"
 
 msgid "Variable key is required."
-msgstr ""
+msgstr "Variablenschlüssel ist erforderlich."
 
 #, php-format
 msgid ""
@@ -47159,19 +47159,19 @@ msgid ""
 msgstr ""
 
 msgid "Variable value must be valid JSON."
-msgstr ""
+msgstr "Variablenwert muss gültiges JSON sein."
 
 msgid "Variable key must be unique."
-msgstr ""
+msgstr "Variablenschlüssel muss eindeutig sein."
 
 msgid "Lowercase letters, digits, dot and hyphen only."
-msgstr ""
+msgstr "Nur Kleinbuchstaben, Ziffern, Punkte und Bindestriche."
 
 msgid "Enter value as JSON."
-msgstr ""
+msgstr "Wert als JSON eingeben."
 
 msgid "Update Variable"
-msgstr ""
+msgstr "Variable aktualisieren"
 
 #, fuzzy, php-format
 msgid "Edit Variable: %s"
@@ -47179,25 +47179,25 @@ msgstr "Regel '%s' verändert."
 
 
 msgid "Variable List"
-msgstr ""
+msgstr "Variablenliste"
 
 msgid "Edit Variable"
-msgstr ""
+msgstr "Variable bearbeiten"
 
 msgid "Phlux Variables"
-msgstr ""
+msgstr "Phlux-Variablen"
 
 #, php-format
 msgid "Variable \"%s\""
-msgstr ""
+msgstr "Variable \\\"%s\\\""
 
 #, php-format
 msgid "%s created this variable."
-msgstr ""
+msgstr "%s hat diese Variable erstellt."
 
 #, php-format
 msgid "%s updated this variable."
-msgstr ""
+msgstr "%s hat diese Variable aktualisiert."
 
 msgid "Pholio"
 msgstr "Pholio"
@@ -47209,10 +47209,10 @@ msgid "Things before they were cool."
 msgstr "Dinge im Entwurfsstadium (bevor sie richtig kewl waren)"
 
 msgid "Email Commands: Mocks"
-msgstr ""
+msgstr "E-Mail-Befehle: Mocks"
 
 msgid "Interacting with Pholio Mocks"
-msgstr ""
+msgstr "Mit Pholio-Mocks interagieren"
 
 msgid ""
 "This page documents the commands you can use to interact with mocks in "
@@ -47223,10 +47223,10 @@ msgid "Create Mock"
 msgstr "Neuer Entwurf"
 
 msgid "File is not viewable."
-msgstr ""
+msgstr "Datei ist nicht anzeigbar."
 
 msgid "Inline Comment"
-msgstr ""
+msgstr "Inline-Kommentar"
 
 #, fuzzy
 msgid "Comment cannot be empty."
@@ -47234,7 +47234,7 @@ msgstr "Der Titel darf nicht leer bleiben."
 
 
 msgid "Edit Inline Comment"
-msgstr ""
+msgstr "Inline-Kommentar bearbeiten"
 
 msgid "Save Draft"
 msgstr "Entwurf speichern"
@@ -47271,14 +47271,14 @@ msgstr "Aufgabe abgeschlossen"
 
 #, php-format
 msgid "Edit Mock: %s"
-msgstr ""
+msgstr "Mock bearbeiten: %s"
 
 
 msgid "You must add at least one image to the mock."
 msgstr "Du mußt mindestens ein Bild zum Entwurf hinzufügen."
 
 msgid "Click here, or drag and drop images to add them to the mock."
-msgstr ""
+msgstr "Hier klicken oder Bilder per Drag-and-Drop hinzufügen."
 
 msgid "Uploading Image..."
 msgstr "Bild wird hochgeladen..."
@@ -47301,26 +47301,26 @@ msgstr "Beschreibung"
 
 
 msgid "History Beckons"
-msgstr ""
+msgstr "Die Geschichte ruft"
 
 #, php-format
 msgid "%s edited task(s), added %s: %s; removed %s: %s."
-msgstr ""
+msgstr "%s hat Aufgabe(n) bearbeitet, hinzugefügt %s: %s; entfernt %s: %s."
 
 #, php-format
 msgid "%s added %s task(s) for %s: %s."
-msgstr ""
+msgstr "%s hat %s Aufgabe(n) für %s hinzugefügt: %s."
 
 #, php-format
 msgid "%s removed %s task(s) for %s: %s."
-msgstr ""
+msgstr "%s hat %s Aufgabe(n) für %s entfernt: %s."
 
 #, php-format
 msgid "%s edited task(s) for %s, added %s: %s; removed %s: %s."
-msgstr ""
+msgstr "%s hat Aufgabe(n) für %s bearbeitet, hinzugefügt %s: %s; entfernt %s: %s."
 
 msgid "Pholio Mocks"
-msgstr ""
+msgstr "Pholio-Mocks"
 
 #, fuzzy, php-format
 msgid "%s created this mock."
@@ -47337,12 +47337,12 @@ msgstr "ENTWURF DETAIL"
 
 #, php-format
 msgid "Unknown (ID %d)"
-msgstr ""
+msgstr "Unbekannt (ID %d)"
 
 
 #, php-format
 msgid "Image \"%s\":"
-msgstr ""
+msgstr "Bild \\\"%s\\\":"
 
 
 #, fuzzy
@@ -47351,43 +47351,43 @@ msgstr "Pholio"
 
 
 msgid "A mock's status changes."
-msgstr ""
+msgstr "Der Status eines Mocks ändert sich."
 
 msgid "Someone comments on a mock."
-msgstr ""
+msgstr "Jemand kommentiert einen Mock."
 
 msgid "Mock images or descriptions change."
-msgstr ""
+msgstr "Mock-Bilder oder -Beschreibungen ändern sich."
 
 msgid "Other mock activity not listed above occurs."
-msgstr ""
+msgstr "Andere, oben nicht aufgeführte Mock-Aktivitäten treten auf."
 
 #, php-format
 msgid "No image exists with PHID \"%s\"."
-msgstr ""
+msgstr "Kein Bild mit PHID \\\"%s\\\" vorhanden."
 
 
 #, php-format
 msgid "Image (\"%s\") belongs to the wrong object (\"%s\", expected \"%s\")."
-msgstr ""
+msgstr "Bild (\\\"%s\\\") gehört zum falschen Objekt (\\\"%s\\\", erwartet \\\"%s\\\")."
 
 msgid "React to mocks being created or updated."
-msgstr ""
+msgstr "Auf erstellte oder aktualisierte Mocks reagieren."
 
 msgid "Test rules which run when a mock is created or updated."
-msgstr ""
+msgstr "Regeln testen, die beim Erstellen oder Aktualisieren eines Mocks ausgeführt werden."
 
 msgid "Mock Fields"
-msgstr ""
+msgstr "Mock-Felder"
 
 msgid "Pholio Mock"
-msgstr ""
+msgstr "Pholio-Mock"
 
 msgid "You can not query for inline comments without also querying for images."
-msgstr ""
+msgstr "Inline-Kommentare können nicht ohne gleichzeitige Abfrage von Bildern abgefragt werden."
 
 msgid "Open Mocks"
-msgstr ""
+msgstr "Offene Mocks"
 
 msgid "All Mocks"
 msgstr "Alle Entwürfe"
@@ -47407,13 +47407,13 @@ msgid "The author of a mock can always view and edit it."
 msgstr "Der Autor eines Mocks kann es immer anzeigen und bearbeiten."
 
 msgid "Current Revision"
-msgstr ""
+msgstr "Aktuelle Revision"
 
 msgid "Mock History"
-msgstr ""
+msgstr "Mock-Verlauf"
 
 msgid "No image attached!"
-msgstr ""
+msgstr "Kein Bild angehängt!"
 
 #, php-format
 msgid "%s updated an image's (%s) description."
@@ -47450,7 +47450,7 @@ msgstr "%s hat die Bildnamen von %s geändert."
 
 #, php-format
 msgid "Mock image titles must not be longer than %s character(s)."
-msgstr ""
+msgstr "Mock-Bildtitel dürfen nicht länger als %s Zeichen sein."
 
 #, fuzzy
 msgid "Mock images must have a title."
@@ -47463,16 +47463,16 @@ msgstr "%s hat %s mit %s ersetzt."
 
 #, php-format
 msgid "Unable to load replacement image (\"%s\"): %s"
-msgstr ""
+msgstr "Ersatzbild (\\\"%s\\\") konnte nicht geladen werden: %s"
 
 
 #, php-format
 msgid "Image (\"%s\") does not specify which image it replaces."
-msgstr ""
+msgstr "Bild (\\\"%s\\\") gibt nicht an, welches Bild es ersetzt."
 
 #, php-format
 msgid "Unable to load replaced image (\"%s\"): %s"
-msgstr ""
+msgstr "Ersetztes Bild (\\\"%s\\\") konnte nicht geladen werden: %s"
 
 
 #, php-format
@@ -47517,7 +47517,7 @@ msgstr "Zonen müssen einen Namen haben"
 
 #, php-format
 msgid "Mock names must not be longer than %s character(s)."
-msgstr ""
+msgstr "Mock-Namen dürfen nicht länger als %s Zeichen sein."
 
 #, fuzzy, php-format
 msgid "%s closed this mock."
@@ -47540,7 +47540,7 @@ msgstr "%s hat %s wieder geöffnet."
 
 
 msgid "Creation of default account for users with no accounts."
-msgstr ""
+msgstr "Erstellung eines Standardkontos für Benutzer ohne Konten."
 
 msgid ""
 "You are making too many attempts to add payment methods in a short period of "
@@ -47548,38 +47548,38 @@ msgid ""
 msgstr ""
 
 msgid "Phortune"
-msgstr ""
+msgstr "Phortune"
 
 msgid "Accounts and Billing"
-msgstr ""
+msgstr "Konten und Abrechnung"
 
 msgid "Merchant accounts can receive payments."
-msgstr ""
+msgstr "Händlerkonten können Zahlungen empfangen."
 
 msgid "Can Create Merchants"
-msgstr ""
+msgstr "Händler anlegen"
 
 msgid "You do not have permission to create Phortune merchant accounts."
-msgstr ""
+msgstr "Du hast keine Berechtigung, Phortune-Händlerkonten zu erstellen."
 
 msgid "Return to Application"
-msgstr ""
+msgstr "Zurück zur Anwendung"
 
 msgid "This order can not be cancelled because it has already been completed."
-msgstr ""
+msgstr "Diese Bestellung kann nicht storniert werden, da sie bereits abgeschlossen wurde."
 
 msgid "Return to Subscription"
-msgstr ""
+msgstr "Zurück zum Abonnement"
 
 msgid "Account members may view and edit payment methods."
-msgstr ""
+msgstr "Kontomitglieder dürfen Zahlungsmethoden anzeigen und bearbeiten."
 
 msgid ""
 "Merchants you have a relationship with may view associated payment methods."
 msgstr ""
 
 msgid "Account members may view and edit subscriptions."
-msgstr ""
+msgstr "Kontomitglieder dürfen Abonnements anzeigen und bearbeiten."
 
 msgid ""
 "Merchants you have a relationship with may view associated subscriptions."
@@ -47591,7 +47591,7 @@ msgstr "Nicht mehr mitlesen"
 
 
 msgid "Updates from subscriptions and payment processors."
-msgstr ""
+msgstr "Aktualisierungen von Abonnements und Zahlungsabwicklern."
 
 msgid ""
 "Choose one or more users to add as account managers. Managers have full "
@@ -47614,19 +47614,19 @@ msgstr "Neues Panel"
 
 
 msgid "Charges"
-msgstr ""
+msgstr "Abbuchungen"
 
 msgid "Orders"
 msgstr "Aufträge"
 
 msgid "Recent Charges"
-msgstr ""
+msgstr "Aktuelle Abbuchungen"
 
 msgid "View All Charges"
-msgstr ""
+msgstr "Alle Abbuchungen anzeigen"
 
 msgid "Unable to \"getAccount()\" before loading or setting account context."
-msgstr ""
+msgstr "\\\"getAccount()\\\" kann nicht aufgerufen werden, bevor der Kontokontext geladen oder gesetzt wurde."
 
 #, php-format
 msgid ""
@@ -47635,7 +47635,7 @@ msgid ""
 msgstr ""
 
 msgid "Unable to \"getMerchants()\" before loading or setting account context."
-msgstr ""
+msgstr "\\\"getMerchants()\\\" kann nicht aufgerufen werden, bevor der Kontokontext geladen oder gesetzt wurde."
 
 #, php-format
 msgid ""
@@ -47657,7 +47657,7 @@ msgstr "Bestellhistorie"
 
 
 msgid "Merchants"
-msgstr ""
+msgstr "Händler"
 
 #, fuzzy
 msgid "Account Name"
@@ -47670,7 +47670,7 @@ msgstr "Branch-Name"
 
 
 msgid "Billing Address"
-msgstr ""
+msgstr "Rechnungsadresse"
 
 #, fuzzy
 msgid "Account Details"
@@ -47693,11 +47693,11 @@ msgstr "Keine Zahlungsmethode ist mit dem Konto verknüpft."
 
 
 msgid "Rotate Access Key"
-msgstr ""
+msgstr "Zugriffsschlüssel rotieren"
 
 #, php-format
 msgid "Rotate the access key for email address %s?"
-msgstr ""
+msgstr "Den Zugriffsschlüssel für E-Mail-Adresse %s rotieren?"
 
 msgid ""
 "Existing access links which have been sent to this email address will stop "
@@ -47710,7 +47710,7 @@ msgstr "Schon unterschrieben"
 
 
 msgid "You can not enable this address because it is already active."
-msgstr ""
+msgstr "Diese Adresse kann nicht aktiviert werden, da sie bereits aktiv ist."
 
 #, fuzzy
 msgid "Permanently Unsubscribed"
@@ -47727,7 +47727,7 @@ msgstr "Schon unterschrieben"
 
 
 msgid "You can not disabled this address because it is already disabled."
-msgstr ""
+msgstr "Diese Adresse kann nicht deaktiviert werden, da sie bereits deaktiviert ist."
 
 msgid ""
 "You can not disable this address because it has been permanently "
@@ -47765,7 +47765,7 @@ msgstr "Ganze Datei zeigen"
 
 
 msgid "Access Key"
-msgstr ""
+msgstr "Zugriffsschlüssel"
 
 #, fuzzy
 msgid "Email Address Details"
@@ -47782,13 +47782,13 @@ msgstr ""
 
 #, php-format
 msgid "Account %d"
-msgstr ""
+msgstr "Konto %d"
 
 msgid "Payment Accounts"
 msgstr "Zahlungskonten"
 
 msgid "Create Account"
-msgstr ""
+msgstr "Konto erstellen"
 
 msgid ""
 "You do not control any merchant accounts. Merchant accounts are used to "
@@ -47797,7 +47797,7 @@ msgstr ""
 
 #, php-format
 msgid "Merchant %d"
-msgstr ""
+msgstr "Händler %d"
 
 msgid "Merchant Accounts"
 msgstr "Händlerkonto"
@@ -47816,17 +47816,17 @@ msgstr "Buchhaltung"
 
 
 msgid "You have no unpaid invoices."
-msgstr ""
+msgstr "Du hast keine unbezahlten Rechnungen."
 
 msgid "Invoices Due"
-msgstr ""
+msgstr "Fällige Rechnungen"
 
 msgid "Switch Accounts"
-msgstr ""
+msgstr "Konten wechseln"
 
 #, php-format
 msgid "You have %d unpaid invoice(s)."
-msgstr ""
+msgstr "Du hast %d unbezahlte(n) Rechnung(en)."
 
 msgid "Payment Methods"
 msgstr "Zahlungsmethoden"
@@ -47862,14 +47862,14 @@ msgstr "Als Mitleser automatisch hinzugefügt"
 
 
 msgid "Customer Account"
-msgstr ""
+msgstr "Kundenkonto"
 
 
 msgid "Payments"
-msgstr ""
+msgstr "Zahlungen"
 
 msgid "Subscriptions"
-msgstr ""
+msgstr "Abonnements"
 
 #, fuzzy
 msgid "Personnel"
@@ -47883,27 +47883,27 @@ msgid "View All Orders"
 msgstr "Alle Aufträge zeigen"
 
 msgid "Stop Autopay"
-msgstr ""
+msgstr "Automatische Zahlung stoppen"
 
 #, php-format
 msgid "Remove %s as the automatic payment method for subscription %s?"
-msgstr ""
+msgstr "%s als automatische Zahlungsmethode für Abonnement %s entfernen?"
 
 msgid "This payment method will no longer be charged automatically."
-msgstr ""
+msgstr "Diese Zahlungsmethode wird nicht mehr automatisch belastet."
 
 msgid "Start Autopay"
-msgstr ""
+msgstr "Automatische Zahlung starten"
 
 #, php-format
 msgid "Set %s as the automatic payment method for subscription %s?"
-msgstr ""
+msgstr "%s als automatische Zahlungsmethode für Abonnement %s festlegen?"
 
 msgid "This payment method will be used to automatically pay future charges."
-msgstr ""
+msgstr "Diese Zahlungsmethode wird für zukünftige automatische Zahlungen verwendet."
 
 msgid "Next Invoice"
-msgstr ""
+msgstr "Nächste Rechnung"
 
 #, fuzzy
 msgid "Subscription Details"
@@ -47911,23 +47911,23 @@ msgstr "Bei dieser Version mitlesen"
 
 
 msgid "Past Invoices"
-msgstr ""
+msgstr "Vergangene Rechnungen"
 
 msgid "View All Invoices"
-msgstr ""
+msgstr "Alle Rechnungen anzeigen"
 
 msgid "Autopay"
-msgstr ""
+msgstr "Automatische Zahlung"
 
 msgid "Payment Method"
 msgstr "Zahlungsmethode"
 
 msgid "Autopay is not currently configured for this subscription."
-msgstr ""
+msgstr "Automatische Zahlung ist für dieses Abonnement derzeit nicht konfiguriert."
 
 #, php-format
 msgid "Autopay is configured using %s."
-msgstr ""
+msgstr "Automatische Zahlung ist mit %s konfiguriert."
 
 msgid "Order Not in Review"
 msgstr ""
