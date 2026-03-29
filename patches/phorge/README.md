@@ -258,3 +258,21 @@ Verification:
 - syntax check of both touched search engine classes
 - code inspection of `getBuiltinQueryNames()` and
   `buildSavedQueryFromBuiltin()`
+
+### `016-avoid-null-viewer-phid-in-people-queries.patch`
+
+This patch avoids passing a null viewer PHID into viewer-scoped People query
+filters.
+
+The affected query paths are:
+
+- `PhabricatorPeopleSearchEngine`
+- `PhabricatorPeopleLogSearchEngine`
+
+For anonymous viewers, these filters should simply not apply, instead of
+building `array(null)` constraints.
+
+Verification:
+
+- syntax check of both touched People query classes
+- code inspection of the viewer-scoped filter guards

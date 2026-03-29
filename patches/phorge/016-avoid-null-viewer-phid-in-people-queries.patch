@@ -1,0 +1,52 @@
+From 34f1edcf5ef50a0ea3989400059627fb0c6a5269 Mon Sep 17 00:00:00 2001
+From: Alicia Codex <alicia@schlaile.de>
+Date: Sun, 29 Mar 2026 16:44:57 +0200
+Subject: [PATCH] PHP 8.5: Avoid null viewer PHID in People queries
+
+---
+ .../people/query/PhabricatorPeopleLogSearchEngine.php        | 5 +++--
+ .../people/query/PhabricatorPeopleSearchEngine.php           | 5 +++--
+ 2 files changed, 6 insertions(+), 4 deletions(-)
+
+diff --git a/src/applications/people/query/PhabricatorPeopleLogSearchEngine.php b/src/applications/people/query/PhabricatorPeopleLogSearchEngine.php
+index 22384b3097..05a8b44aae 100644
+--- a/src/applications/people/query/PhabricatorPeopleLogSearchEngine.php
++++ b/src/applications/people/query/PhabricatorPeopleLogSearchEngine.php
+@@ -24,8 +24,9 @@ final class PhabricatorPeopleLogSearchEngine
+     // large numbers of logs that the user will not be able to see and filter
+     // them in-process.
+     $viewer = $this->requireViewer();
+-    if (!$viewer->getIsAdmin()) {
+-      $query->withRelatedPHIDs(array($viewer->getPHID()));
++    $viewer_phid = $viewer->getPHID();
++    if (!$viewer->getIsAdmin() && $viewer_phid) {
++      $query->withRelatedPHIDs(array($viewer_phid));
+     }
+ 
+     return $query;
+diff --git a/src/applications/people/query/PhabricatorPeopleSearchEngine.php b/src/applications/people/query/PhabricatorPeopleSearchEngine.php
+index 62771f7e48..57f879bf57 100644
+--- a/src/applications/people/query/PhabricatorPeopleSearchEngine.php
++++ b/src/applications/people/query/PhabricatorPeopleSearchEngine.php
+@@ -129,6 +129,7 @@ final class PhabricatorPeopleSearchEngine
+     $query = $this->newQuery();
+ 
+     $viewer = $this->requireViewer();
++    $viewer_phid = $viewer->getPHID();
+ 
+     // If the viewer can't browse the user directory, restrict the query to
+     // just the user's own profile. This is a little bit silly, but serves to
+@@ -138,8 +139,8 @@ final class PhabricatorPeopleSearchEngine
+       $viewer,
+       $this->getApplication(),
+       PeopleBrowseUserDirectoryCapability::CAPABILITY);
+-    if (!$can_browse) {
+-      $query->withPHIDs(array($viewer->getPHID()));
++    if (!$can_browse && $viewer_phid) {
++      $query->withPHIDs(array($viewer_phid));
+     }
+ 
+     if ($map['usernames']) {
+-- 
+2.47.3
+
