@@ -40,16 +40,13 @@ The affected code path historically did this:
 
 On modern PHP versions, `utf8_encode()` is deprecated. In this specific legacy
 Stripe helper, the old behavior is semantically equivalent to converting from
-ISO-8859-1 to UTF-8, so the patch uses:
-
-- `mb_convert_encoding($value, 'UTF-8', 'ISO-8859-1')`
+ISO-8859-1 to UTF-8.
 
 Why this replacement is appropriate here:
 
 - it preserves the old intended conversion model of `utf8_encode()`
 - it avoids the PHP 8.2+ deprecation
-- the surrounding code already depends on `mb_detect_encoding()`, so using
-  `mb_convert_encoding()` does not introduce a new extension family
+- it establishes the intended conversion target and source encodings clearly
 
 Verification:
 
@@ -58,3 +55,30 @@ Verification:
   `Stripe_ApiRequestor::utf8(\"\\xE4\")`
 - before: emitted a deprecation and returned `ä`
 - after: returns `ä` without the deprecation
+
+### `006-use-utf-8-conversion-helper-in-stripe-php.patch`
+
+This follow-up patch keeps the PHP 8 fix above but aligns the implementation
+with the existing project convention for encoding conversions.
+
+Phorge and Arcanist already provide and use:
+
+- `phutil_utf8_convert($string, 'UTF-8', $from_encoding)`
+
+This helper wraps `mb_convert_encoding()` with project-level checks and error
+handling, and it is already used elsewhere in current code.
+
+Why this follow-up exists:
+
+- the first deprecation fix established the correct conversion semantics
+- this second patch replaces the raw `mb_convert_encoding()` call with the
+  established project helper
+- this makes the vendor fix look less ad hoc and more consistent with the rest
+  of the codebase
+
+Verification:
+
+- syntax check of `externals/stripe-php/lib/Stripe/ApiRequestor.php`
+- direct reproducer with `scripts/__init_script__.php` loaded first, so the
+  helper function is available
+- output remains `ä` and no PHP 8.2+ deprecation is emitted
