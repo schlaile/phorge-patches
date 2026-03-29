@@ -21,6 +21,16 @@ Repository-specific working rules for coding agents.
 - do not treat exploratory fixes in standalone `libphutil` as upstream patch
   candidates for current work; check `phorge-arcanist` first
 
+## Translation Format
+
+- PO files in this repository are the main human editing format, but not the
+  final runtime format
+- translation work may use a repository-local PO extension for rare native
+  variant-array cases: `I18N-ARRAY`
+- before editing translation files, read
+  [translation/FORMAT.md](/home/peter/phorge-neu/phorge-patches/translation/FORMAT.md)
+- do not invent alternative escape syntaxes in PO files
+
 ## Commit Message Rules
 
 - write commit messages in English

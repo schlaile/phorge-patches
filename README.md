@@ -43,6 +43,8 @@ Maintain local changes in a way that keeps them:
   `libphutil`; do not assume these map directly to current upstream targets
 - `patches/libphutil-legacy/`: historic patches from the old `libphutil`
 - `translation/de/`: German translation data
+- `translation/FORMAT.md`: repository-wide translation format reference,
+  including the local `I18N-ARRAY` PO extension
 - `translation/import/`: notes and helpers for import/build paths
 - `translation/wikimedia/`: evaluation of the Wikimedia import path
 - `branding/phabricator/`: internal branding overlay for keeping visible "Phabricator" naming
@@ -58,6 +60,15 @@ Maintain local changes in a way that keeps them:
 3. Keep patches small and thematic.
 4. Document upstream-friendly changes separately.
 5. Keep deployment and environment knowledge in `phorge-intern` only.
+
+## Translation Note
+
+This repository uses PO as the main translation working format, but it also
+defines a small local extension for rare native Phorge variant-array entries.
+
+See:
+
+- [translation/FORMAT.md](/home/peter/phorge-neu/phorge-patches/translation/FORMAT.md)
 
 ## Commit Message Rule
 

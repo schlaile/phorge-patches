@@ -3,6 +3,10 @@
 This directory contains generated and hand-curated working files derived from
 the historic German translation corpus.
 
+Before editing `phorge-de-work.po`, read:
+
+- [../../FORMAT.md](/home/peter/phorge-neu/phorge-patches/translation/FORMAT.md)
+
 ## Files
 
 - `phorge-de-work.po`
@@ -29,3 +33,10 @@ the historic German translation corpus.
 2. keep good carry-over translations
 3. discard bad matches
 4. continue translating current Phorge strings in the established German voice
+
+## Format Reminder
+
+- normal entries should stay normal PO entries
+- this repository does define one local PO extension for rare native variant
+  arrays: `I18N-ARRAY`
+- use it only when normal gettext plural handling is not enough
