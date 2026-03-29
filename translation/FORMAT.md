@@ -48,13 +48,13 @@ Rules:
 ## Where This Is Implemented
 
 - policy and rationale:
-  [translation/import/README.md](/home/peter/phorge-neu/phorge-patches/translation/import/README.md)
+  [translation/import/README.md](import/README.md)
 - German translation working area:
-  [translation/de/README.md](/home/peter/phorge-neu/phorge-patches/translation/de/README.md)
+  [translation/de/README.md](de/README.md)
 - current German work file context:
-  [translation/de/work/README.md](/home/peter/phorge-neu/phorge-patches/translation/de/work/README.md)
+  [translation/de/work/README.md](de/work/README.md)
 - generator and validator:
-  [scripts/po_to_translation.php](/home/peter/phorge-neu/phorge-patches/scripts/po_to_translation.php)
+  [scripts/po_to_translation.php](../scripts/po_to_translation.php)
 
 ## Working Rule For Agents
 

@@ -14,7 +14,7 @@ Operational details live in `phorge-intern`.
 
 ## Current Workstreams
 
-- [curation-files-and-calendar.md](/home/peter/phorge-patches/notes/curation-files-and-calendar.md)
-- [curation-i18n-content.md](/home/peter/phorge-patches/notes/curation-i18n-content.md)
-- [curation-i18n-infra.md](/home/peter/phorge-patches/notes/curation-i18n-infra.md)
-- [php8-compatibility-plan.md](/home/peter/phorge-patches/notes/php8-compatibility-plan.md)
+- [curation-files-and-calendar.md](curation-files-and-calendar.md)
+- [curation-i18n-content.md](curation-i18n-content.md)
+- [curation-i18n-infra.md](curation-i18n-infra.md)
+- [php8-compatibility-plan.md](php8-compatibility-plan.md)

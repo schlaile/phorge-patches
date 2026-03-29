@@ -26,8 +26,7 @@ Verification:
 
 - syntax check of `support/startup/PhabricatorStartup.php`
 - a full bootstrap smoke test was not possible in-place because this local
-  `phorge` tree expects a sibling repository named `arcanist/`, while the
-  active workspace uses `phorge-neu/arcanist/`
+  `phorge` tree expects a sibling repository named `arcanist/`
 
 ### `005-replace-deprecated-utf8-encode-in-stripe-php.patch`
 

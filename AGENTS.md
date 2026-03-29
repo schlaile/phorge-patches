@@ -28,7 +28,7 @@ Repository-specific working rules for coding agents.
 - translation work may use a repository-local PO extension for rare native
   variant-array cases: `I18N-ARRAY`
 - before editing translation files, read
-  [translation/FORMAT.md](/home/peter/phorge-neu/phorge-patches/translation/FORMAT.md)
+  [translation/FORMAT.md](translation/FORMAT.md)
 - do not invent alternative escape syntaxes in PO files
 
 ## Commit Message Rules

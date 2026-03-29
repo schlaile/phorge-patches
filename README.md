@@ -68,7 +68,7 @@ defines a small local extension for rare native Phorge variant-array entries.
 
 See:
 
-- [translation/FORMAT.md](/home/peter/phorge-neu/phorge-patches/translation/FORMAT.md)
+- [translation/FORMAT.md](translation/FORMAT.md)
 
 ## Commit Message Rule
 

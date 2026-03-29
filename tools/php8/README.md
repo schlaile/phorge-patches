@@ -15,7 +15,7 @@ only meant to support local discovery and mechanical experiments.
 Install dependencies:
 
 ```bash
-cd /home/peter/phorge-patches/tools/php8
+cd tools/php8
 composer install
 ```
 

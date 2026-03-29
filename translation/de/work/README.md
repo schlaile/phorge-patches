@@ -5,7 +5,7 @@ the historic German translation corpus.
 
 Before editing `phorge-de-work.po`, read:
 
-- [../../FORMAT.md](/home/peter/phorge-neu/phorge-patches/translation/FORMAT.md)
+- [../../FORMAT.md](../../FORMAT.md)
 
 ## Files
 

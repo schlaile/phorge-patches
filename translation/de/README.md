@@ -4,7 +4,7 @@ Collection and later cleanup area for German translation data.
 
 Format reference:
 
-- [../FORMAT.md](/home/peter/phorge-neu/phorge-patches/translation/FORMAT.md)
+- [../FORMAT.md](../FORMAT.md)
 
 Planned contents:
 
@@ -92,4 +92,4 @@ Current plan:
 - reserve a special `I18N-ARRAY` marker for rare entries which need native
   nested variant arrays beyond normal gettext plural forms
 - for the exact repository convention, read
-  [../FORMAT.md](/home/peter/phorge-neu/phorge-patches/translation/FORMAT.md)
+  [../FORMAT.md](../FORMAT.md)
