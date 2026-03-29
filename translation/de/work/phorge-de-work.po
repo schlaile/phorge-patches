@@ -4366,7 +4366,7 @@ msgid "Contact Numbers"
 msgstr "Telefonnummern"
 
 msgid "/settings/panel/contact/"
-msgstr ""
+msgstr "/settings/panel/contact/"
 
 #, fuzzy
 msgid "Changing Status Failed"
@@ -4395,7 +4395,7 @@ msgstr "Abfrage aktivieren"
 
 #, php-format
 msgid "Enable the contact number %s?"
-msgstr ""
+msgstr "Kontaktnummer %s aktivieren?"
 
 #, fuzzy
 msgid "Enable Number"
@@ -4408,13 +4408,13 @@ msgstr "Deaktiviert"
 
 
 msgid "You can not make a disabled number your primary contact number."
-msgstr ""
+msgstr "Eine deaktivierte Nummer kann nicht als primäre Kontaktnummer festgelegt werden."
 
 msgid "Number Already Primary"
-msgstr ""
+msgstr "Nummer bereits primär"
 
 msgid "This contact number is already your primary contact number."
-msgstr ""
+msgstr "Diese Kontaktnummer ist bereits deine primäre Kontaktnummer."
 
 #, fuzzy
 msgid "Unable to Make Primary"
@@ -4422,18 +4422,18 @@ msgstr "Zur primären Adresse machen"
 
 
 msgid "Set Primary Contact Number"
-msgstr ""
+msgstr "Primäre Kontaktnummer festlegen"
 
 #, php-format
 msgid "Designate %s as your primary contact number?"
-msgstr ""
+msgstr "%s als primäre Kontaktnummer festlegen?"
 
 msgid "Make Primary"
 msgstr "Zur primären Adresse machen"
 
 #, php-format
 msgid "This is a terse test text message (from \"%s\")."
-msgstr ""
+msgstr "Dies ist eine kurze Test-SMS (von \\\"%s\\\")."
 
 #, fuzzy
 msgid "Set Test Message"
@@ -4442,7 +4442,7 @@ msgstr "Eine Nachricht senden"
 
 #, php-format
 msgid "Send a test message to %s?"
-msgstr ""
+msgstr "Testnachricht an %s senden?"
 
 
 #, fuzzy
@@ -4457,7 +4457,7 @@ msgid "Owner"
 msgstr "Eigentümer"
 
 msgid "Contact Number"
-msgstr ""
+msgstr "Kontaktnummer"
 
 #, fuzzy
 msgid "Edit Contact Number"
@@ -4517,7 +4517,7 @@ msgstr "Neuer Dienstleister"
 
 
 msgid "You have not configured any multi-factor providers yet."
-msgstr ""
+msgstr "Du hast noch keine Multi-Faktor-Anbieter konfiguriert."
 
 #, fuzzy
 msgid "Add MFA Provider"
@@ -4560,7 +4560,7 @@ msgstr "Commit Nachricht"
 
 
 msgid "Edit MFA Provider"
-msgstr ""
+msgstr "MFA-Anbieter bearbeiten"
 
 
 #, fuzzy
@@ -4569,37 +4569,37 @@ msgstr "Commit Nachricht"
 
 
 msgid "Not a Valid Email Address"
-msgstr ""
+msgstr "Keine gültige E-Mail-Adresse"
 
 msgid "Address Duplicated in Input"
-msgstr ""
+msgstr "Adresse in Eingabe doppelt vorhanden"
 
 msgid "Unverified User Email"
-msgstr ""
+msgstr "Nicht verifizierte Benutzer-E-Mail"
 
 msgid "Verified User Email"
-msgstr ""
+msgstr "Verifizierte Benutzer-E-Mail"
 
 msgid "Previously Invited"
-msgstr ""
+msgstr "Bereits eingeladen"
 
 msgid "Already Accepted Invite"
-msgstr ""
+msgstr "Einladung bereits angenommen"
 
 msgid "Will Send Invite"
-msgstr ""
+msgstr "Einladung wird gesendet"
 
 msgid "Address Error"
-msgstr ""
+msgstr "Adressfehler"
 
 msgid "Will Ignore Address"
-msgstr ""
+msgstr "Adresse wird ignoriert"
 
 msgid "Invite action is not a send action!"
-msgstr ""
+msgstr "Einladungsaktion ist keine Sendeaktion!"
 
 msgid "Invite template does not include invite URI!"
-msgstr ""
+msgstr "Einladungsvorlage enthält keine Einladungs-URI!"
 
 #, fuzzy
 msgid "Edit Contact Numbers"
@@ -4607,7 +4607,7 @@ msgstr "Termin ändern"
 
 
 msgid "This engine is used to edit contact numbers."
-msgstr ""
+msgstr "Diese Engine wird zum Bearbeiten von Kontaktnummern verwendet."
 
 #, fuzzy
 msgid "Create Contact Number"
@@ -4615,7 +4615,7 @@ msgstr "Neues Dokument"
 
 
 msgid "The contact number."
-msgstr ""
+msgstr "Die Kontaktnummer."
 
 #, fuzzy, php-format
 msgid "%s created this contact number."
@@ -4628,11 +4628,11 @@ msgstr "Projektname ist bereits vergeben."
 
 
 msgid "Edit MFA Providers"
-msgstr ""
+msgstr "MFA-Anbieter bearbeiten"
 
 
 msgid "This engine is used to edit MFA providers."
-msgstr ""
+msgstr "Diese Engine wird zum Bearbeiten von MFA-Anbietern verwendet."
 
 #, fuzzy
 msgid "Create MFA Provider"
@@ -4645,14 +4645,14 @@ msgstr "Alle Anbieter"
 
 
 msgid "Type of the MFA provider."
-msgstr ""
+msgstr "Typ des MFA-Anbieters."
 
 msgid "Display name for the MFA provider."
-msgstr ""
+msgstr "Anzeigename für den MFA-Anbieter."
 
 
 msgid "Status of the MFA provider."
-msgstr ""
+msgstr "Status des MFA-Anbieters."
 
 #, fuzzy, php-format
 msgid "%s created this MFA provider."
@@ -4665,7 +4665,7 @@ msgstr "Erste Nachricht"
 
 
 msgid "This engine is used to edit authentication messages."
-msgstr ""
+msgstr "Diese Engine wird zum Bearbeiten von Authentifizierungsnachrichten verwendet."
 
 #, fuzzy
 msgid "Create Auth Message"
@@ -4688,7 +4688,7 @@ msgstr "Nachricht"
 
 
 msgid "Custom text for the message."
-msgstr ""
+msgstr "Benutzerdefinierter Text für die Nachricht."
 
 
 #, fuzzy, php-format
@@ -4707,7 +4707,7 @@ msgstr "%s hat dieses Dashboard erzeugt."
 
 
 msgid "Auth Providers"
-msgstr ""
+msgstr "Auth-Anbieter"
 
 #, fuzzy
 msgid "Config Locked"
@@ -4735,10 +4735,10 @@ msgstr "Email ist zwingend erforderlich."
 
 
 msgid "This key has been revoked. Choose or generate a new, unique key."
-msgstr ""
+msgstr "Dieser Schlüssel wurde widerrufen. Einen neuen eindeutigen Schlüssel auswählen oder generieren."
 
 msgid "SSH keys can not be reactivated."
-msgstr ""
+msgstr "SSH-Schlüssel können nicht reaktiviert werden."
 
 
 msgid ""
@@ -4747,7 +4747,7 @@ msgid ""
 msgstr ""
 
 msgid "[SSH Key]"
-msgstr ""
+msgstr "[SSH-Schlüssel]"
 
 #, fuzzy, php-format
 msgid "SSH Key %d: %s"
@@ -4755,7 +4755,7 @@ msgstr "Bild %d: %s"
 
 
 msgid "SECURITY WARNING"
-msgstr ""
+msgstr "SICHERHEITSWARNUNG"
 
 msgid ""
 "If you do not recognize this change, it may indicate your account has been "
@@ -4768,7 +4768,7 @@ msgstr "AUFGABEN-DETAILS"
 
 
 msgid "Bad Invite Code"
-msgstr ""
+msgstr "Ungültiger Einladungscode"
 
 msgid ""
 "The invite code in the link you clicked is invalid. Check that you followed "
@@ -4776,22 +4776,22 @@ msgid ""
 msgstr ""
 
 msgid "Curses!"
-msgstr ""
+msgstr "Verflixt!"
 
 msgid "Already Accepted"
-msgstr ""
+msgstr "Bereits angenommen"
 
 msgid "You have already accepted this invitation."
-msgstr ""
+msgstr "Du hast diese Einladung bereits angenommen."
 
 msgid "Awesome"
-msgstr ""
+msgstr "Prima"
 
 msgid "The invite code in the link you clicked has already been accepted."
-msgstr ""
+msgstr "Der Einladungscode im Link, auf den du geklickt hast, wurde bereits angenommen."
 
 msgid "Already Registered"
-msgstr ""
+msgstr "Bereits registriert"
 
 #, php-format
 msgid ""
@@ -4806,7 +4806,7 @@ msgid ""
 msgstr ""
 
 msgid "Already Associated"
-msgstr ""
+msgstr "Bereits verknüpft"
 
 #, php-format
 msgid ""
@@ -4819,7 +4819,7 @@ msgid "Register New Account"
 msgstr "Neues Konto anlegen"
 
 msgid "Wrong Account"
-msgstr ""
+msgstr "Falsches Konto"
 
 #, php-format
 msgid ""
@@ -4845,11 +4845,11 @@ msgstr ""
 
 #, php-format
 msgid "Verify this email address (%s) and attach it to your account (%s)?"
-msgstr ""
+msgstr "Diese E-Mail-Adresse (%s) verifizieren und an dein Konto (%s) anhängen?"
 
 #, php-format
 msgid "Email record (\"%s\") has bad associated user PHID (\"%s\")."
-msgstr ""
+msgstr "E-Mail-Datensatz (\\\"%s\\\") hat eine ungültige zugehörige Benutzer-PHID (\\\"%s\\\")."
 
 #, fuzzy
 msgid "You must choose a password or skip this step."
@@ -4915,19 +4915,19 @@ msgstr "Nicht sichtbar"
 
 
 msgid "Requiring a high-security session from a user with no session!"
-msgstr ""
+msgstr "Erhöhte Sicherheitssitzung von einem Benutzer ohne Sitzung angefordert!"
 
 msgid "Upgrading partial session of user with no session!"
-msgstr ""
+msgstr "Teilsitzung eines Benutzers ohne Sitzung wird aufgewertet!"
 
 msgid "Session is not partial!"
-msgstr ""
+msgstr "Sitzung ist nicht partiell!"
 
 msgid "Signing session legalpad documents of user with no session!"
-msgstr ""
+msgstr "Legalpad-Dokumente einer Sitzung eines Benutzers ohne Sitzung werden unterzeichnet!"
 
 msgid "Session has already signed required legalpad documents!"
-msgstr ""
+msgstr "Sitzung hat die erforderlichen Legalpad-Dokumente bereits unterzeichnet!"
 
 #, fuzzy
 msgid "Engine: Session"
@@ -4935,31 +4935,31 @@ msgstr "Aktive Benutzersitzungen"
 
 
 msgid "There are no registered session engine extensions."
-msgstr ""
+msgstr "Keine registrierten Sitzungsengine-Erweiterungen vorhanden."
 
 msgid "Class"
-msgstr ""
+msgstr "Klasse"
 
 msgid "Key"
-msgstr ""
+msgstr "Schlüssel"
 
 msgid "MFA"
-msgstr ""
+msgstr "MFA"
 
 msgid "Sign With MFA"
-msgstr ""
+msgstr "Mit MFA signieren"
 
 msgid "You will be prompted to provide MFA when you submit."
-msgstr ""
+msgstr "Du wirst beim Absenden aufgefordert, MFA anzugeben."
 
 msgid "Sign this transaction group with MFA."
-msgstr ""
+msgstr "Diese Transaktionsgruppe mit MFA signieren."
 
 msgid "True to sign this transaction group with MFA."
-msgstr ""
+msgstr "True, um diese Transaktionsgruppe mit MFA zu signieren."
 
 msgid "Newly issued MFA challenges must have a valid TTL!"
-msgstr ""
+msgstr "Neu ausgestellte MFA-Challenges müssen eine gültige TTL haben!"
 
 #, php-format
 msgid ""
@@ -4996,7 +4996,7 @@ msgstr "Du mußt den Benutzernamen auch korrekt eingeben."
 
 
 msgid "Error"
-msgstr ""
+msgstr "Fehler"
 
 msgid ""
 "Your account has too many outstanding, incomplete MFA synchronization "
@@ -5009,10 +5009,10 @@ msgid ""
 msgstr ""
 
 msgid "MFA Sync"
-msgstr ""
+msgstr "MFA-Synchronisierung"
 
 msgid "MFA Sync Token"
-msgstr ""
+msgstr "MFA-Synchronisierungstoken"
 
 #, fuzzy
 msgid "Duo Security"
@@ -5020,10 +5020,10 @@ msgstr "Sicherheit"
 
 
 msgid "Duo"
-msgstr ""
+msgstr "Duo"
 
 msgid "Support for Duo push authentication."
-msgstr ""
+msgstr "Unterstützung für Duo-Push-Authentifizierung."
 
 msgid ""
 "When you need to authenticate, a request will be pushed to the Duo "
@@ -5047,7 +5047,7 @@ msgstr ""
 
 #, php-format
 msgid "Duo Username: %s"
-msgstr ""
+msgstr "Duo-Benutzername: %s"
 
 
 #, fuzzy
@@ -5056,7 +5056,7 @@ msgstr "LDAP Hostname"
 
 
 msgid "Duo API Credential"
-msgstr ""
+msgstr "Duo-API-Zugangsdaten"
 
 #, fuzzy
 msgid "Duo Username"
@@ -5065,7 +5065,7 @@ msgstr "Benutzername"
 
 #, php-format
 msgid "Use %s Username"
-msgstr ""
+msgstr "%s-Benutzernamen verwenden"
 
 
 #, fuzzy
@@ -5089,7 +5089,7 @@ msgstr "Neues Zahlungskonto "
 
 
 msgid "Not Complete"
-msgstr ""
+msgstr "Nicht abgeschlossen"
 
 
 msgid ""
@@ -5116,18 +5116,18 @@ msgstr ""
 
 #, php-format
 msgid "Duo account (\"%s\") is fully enrolled."
-msgstr ""
+msgstr "Duo-Konto (\\\"%s\\\") ist vollständig registriert."
 
 #, php-format
 msgid "Enroll Duo Account: %s"
-msgstr ""
+msgstr "Duo-Konto registrieren: %s"
 
 
 msgid "Complete enrolling your phone with Duo:"
-msgstr ""
+msgstr "Registrierung deines Telefons bei Duo abschließen:"
 
 msgid "Scan this QR code with the Duo application on your mobile phone:"
-msgstr ""
+msgstr "Diesen QR-Code mit der Duo-App auf deinem Mobiltelefon scannen:"
 
 msgid ""
 "If you are currently using your phone to view this page, click this button "
@@ -5135,7 +5135,7 @@ msgid ""
 msgstr ""
 
 msgid "Once you have completed setup on your phone, click continue."
-msgstr ""
+msgstr "Sobald du die Einrichtung auf deinem Telefon abgeschlossen hast, auf Weiter klicken."
 
 #, php-format
 msgid ""
@@ -5166,7 +5166,7 @@ msgid ""
 msgstr ""
 
 msgid "Domain"
-msgstr ""
+msgstr "Domain"
 
 msgid ""
 "You must approve the challenge which was sent to your phone. Open the Duo "
@@ -5174,15 +5174,15 @@ msgid ""
 msgstr ""
 
 msgid "This request has timed out because you took too long to respond."
-msgstr ""
+msgstr "Diese Anfrage ist abgelaufen, weil du zu lange zum Antworten gebraucht hast."
 
 #, php-format
 msgid "You denied this request. Wait %s second(s) to try again."
-msgstr ""
+msgstr "Du hast diese Anfrage abgelehnt. %s Sekunde(n) warten, bevor du es erneut versuchst."
 
 #, php-format
 msgid "Factor Name: %s"
-msgstr ""
+msgstr "Faktorname: %s"
 
 msgid ""
 "A challenge has been sent to your phone. Open the Duo application and "
@@ -5196,15 +5196,15 @@ msgstr "Konnte Kommentar \"%s\" leider nicht laden."
 
 #, php-format
 msgid "Duo API credential (\"%s\") has no secret key."
-msgstr ""
+msgstr "Duo-API-Zugangsdaten (\\\"%s\\\") haben keinen geheimen Schlüssel."
 
 #, php-format
 msgid "Duo username pairing mode (\"%s\") is not supported."
-msgstr ""
+msgstr "Duo-Benutzername-Kopplungsmodus (\\\"%s\\\") wird nicht unterstützt."
 
 #, php-format
 msgid "Duo enrollment mode (\"%s\") is not supported."
-msgstr ""
+msgstr "Duo-Registrierungsmodus (\\\"%s\\\") wird nicht unterstützt."
 
 #, fuzzy, php-format
 msgid "Duo (%s)"
@@ -5251,7 +5251,7 @@ msgid ""
 msgstr ""
 
 msgid "You already have SMS authentication attached to your account."
-msgstr ""
+msgstr "Dein Konto ist bereits mit SMS-Authentifizierung verknüpft."
 
 msgid ""
 "To verify your phone as an authentication factor, a text message with a "
@@ -5261,7 +5261,7 @@ msgstr ""
 
 #, php-format
 msgid "Send SMS: %s"
-msgstr ""
+msgstr "SMS senden: %s"
 
 msgid ""
 "Enter the code from the text message which was sent to your primary contact "
@@ -5279,7 +5279,7 @@ msgstr "Dein Konto wurde gesperrt"
 
 
 msgid "No outbound mailer which can deliver SMS messages is configured."
-msgstr ""
+msgstr "Kein ausgehender Mailer für SMS-Nachrichten konfiguriert."
 
 msgid ""
 "A text message with an authorization code will be sent to your primary "
@@ -5288,13 +5288,13 @@ msgstr ""
 
 #, php-format
 msgid "%s (%s) MFA Code: %s"
-msgstr ""
+msgstr "%s (%s) MFA-Code: %s"
 
 msgid "Mobile Phone App (TOTP)"
-msgstr ""
+msgstr "Smartphone-App (TOTP)"
 
 msgid "TOTP"
-msgstr ""
+msgstr "TOTP"
 
 msgid ""
 "Allow users to attach a mobile authenticator application (like 2FAS, Aegis, "
@@ -5321,11 +5321,11 @@ msgstr ""
 
 #, php-format
 msgid "%d-Bit Secret"
-msgstr ""
+msgstr "%d-Bit-Geheimnis"
 
 
 msgid "Mobile App (TOTP)"
-msgstr ""
+msgstr "Smartphone-App (TOTP)"
 
 msgid ""
 "Scan the QR code or manually enter the key shown below into the application."
@@ -5343,10 +5343,10 @@ msgid ""
 msgstr ""
 
 msgid "TOTP Code"
-msgstr ""
+msgstr "TOTP-Code"
 
 msgid "App Code"
-msgstr ""
+msgstr "App-Code"
 
 #, php-format
 msgid ""
@@ -5381,30 +5381,30 @@ msgstr ""
 
 #, php-format
 msgid "user=%s, should_verify=%s"
-msgstr ""
+msgstr "user=%s, should_verify=%s"
 
 #, php-format
 msgid "Actual exception: %s"
-msgstr ""
+msgstr "Tatsächliche Ausnahme: %s"
 
 #, php-format
 msgid "user=%s, verified=%s, primary=%s, should_verify=%s"
-msgstr ""
+msgstr "user=%s, verified=%s, primary=%s, should_verify=%s"
 
 #, php-format
 msgid "%s, exception=%s"
-msgstr ""
+msgstr "%s, exception=%s"
 
 #, php-format
 msgid "Expected email address reassignment (%s)."
-msgstr ""
+msgstr "E-Mail-Adresszuweisung erwartet (%s)."
 
 #, php-format
 msgid "Expected invite accepted (%s)."
-msgstr ""
+msgstr "Einladungsannahme erwartet (%s)."
 
 msgid "Expected JSON response from Duo."
-msgstr ""
+msgstr "JSON-Antwort von Duo erwartet."
 
 #, fuzzy
 msgid "Authentication Challenges"
@@ -5468,26 +5468,26 @@ msgid ""
 msgstr ""
 
 msgid "Path to public keyfile."
-msgstr ""
+msgstr "Pfad zur öffentlichen Schlüsseldatei."
 
 msgid "Path to corresponding PKCS8 key."
-msgstr ""
+msgstr "Pfad zum entsprechenden PKCS8-Schlüssel."
 
 #, php-format
 msgid "You must specify the path to a public keyfile with %s."
-msgstr ""
+msgstr "Den Pfad zur öffentlichen Schlüsseldatei mit %s angeben."
 
 #, php-format
 msgid "Specified public keyfile \"%s\" does not exist!"
-msgstr ""
+msgstr "Angegebene öffentliche Schlüsseldatei \\\"%s\\\" existiert nicht!"
 
 #, php-format
 msgid "You must specify the path to a pkcs8 keyfile with %s."
-msgstr ""
+msgstr "Den Pfad zur PKCS8-Schlüsseldatei mit %s angeben."
 
 #, php-format
 msgid "Specified pkcs8 keyfile \"%s\" does not exist!"
-msgstr ""
+msgstr "Angegebene PKCS8-Schlüsseldatei \\\"%s\\\" existiert nicht!"
 
 msgid ""
 "Adding a PKCS8 keyfile to the cache can be very dangerous. If the PKCS8 file "
@@ -5501,53 +5501,53 @@ msgid ""
 msgstr ""
 
 msgid "Really trust this PKCS8 keyfile?"
-msgstr ""
+msgstr "Diese PKCS8-Schlüsseldatei wirklich als vertrauenswürdig einstufen?"
 
 msgid "Aborted workflow."
-msgstr ""
+msgstr "Vorgang abgebrochen."
 
 msgid "Cached PKCS8 key for public key."
-msgstr ""
+msgstr "PKCS8-Schlüssel für öffentlichen Schlüssel zwischengespeichert."
 
 msgid "Analyze and diagnose issues with LDAP configuration."
-msgstr ""
+msgstr "LDAP-Konfigurationsprobleme analysieren und diagnostizieren."
 
 msgid "The LDAP authentication provider is not enabled."
-msgstr ""
+msgstr "Der LDAP-Authentifizierungsanbieter ist nicht aktiviert."
 
 msgid "The LDAP extension is not enabled."
-msgstr ""
+msgstr "Die LDAP-Erweiterung ist nicht aktiviert."
 
 msgid "Enter LDAP Credentials"
-msgstr ""
+msgstr "LDAP-Zugangsdaten eingeben"
 
 msgid "LDAP Username: "
-msgstr ""
+msgstr "LDAP-Benutzername: "
 
 msgid "You must enter an LDAP username."
-msgstr ""
+msgstr "LDAP-Benutzername eingeben."
 
 msgid "LDAP Password: "
-msgstr ""
+msgstr "LDAP-Passwort: "
 
 msgid "You must enter an LDAP password."
-msgstr ""
+msgstr "LDAP-Passwort eingeben."
 
 msgid "Connecting to LDAP..."
-msgstr ""
+msgstr "Verbindung zu LDAP wird hergestellt..."
 
 #, php-format
 msgid "Found LDAP Account: %s"
-msgstr ""
+msgstr "LDAP-Konto gefunden: %s"
 
 msgid "Unable to find LDAP account!"
-msgstr ""
+msgstr "LDAP-Konto konnte nicht gefunden werden!"
 
 msgid "List available multi-factor authentication factors."
-msgstr ""
+msgstr "Verfügbare Multi-Faktor-Authentifizierungsfaktoren auflisten."
 
 msgid "List available multi-factor authentication providers."
-msgstr ""
+msgstr "Verfügbare Multi-Faktor-Authentifizierungsanbieter auflisten."
 
 msgid ""
 "Lock authentication provider config, to prevent changes to the config "
@@ -5560,7 +5560,7 @@ msgstr "Reviews nur nach Authentisierung sichtbar machen"
 
 
 msgid "Recover access to an account if you have locked yourself out."
-msgstr ""
+msgstr "Zugang zu einem Konto wiederherstellen, wenn man sich ausgesperrt hat."
 
 msgid ""
 "Recover directly into a full session without requiring MFA or other login "
@@ -5568,14 +5568,14 @@ msgid ""
 msgstr ""
 
 msgid "You must specify the username of the account to recover."
-msgstr ""
+msgstr "Den Benutzernamen des wiederherzustellenden Kontos angeben."
 
 msgid "You can only recover the username for one account."
-msgstr ""
+msgstr "Es kann jeweils nur ein Konto wiederhergestellt werden."
 
 #, php-format
 msgid "No such user \"%s\" to recover."
-msgstr ""
+msgstr "Kein Benutzer \\\"%s\\\" zur Wiederherstellung vorhanden."
 
 #, php-format
 msgid ""
@@ -5602,52 +5602,52 @@ msgid ""
 msgstr ""
 
 msgid "Refresh tokens for a given user."
-msgstr ""
+msgstr "Token eines bestimmten Benutzers erneuern."
 
 #, php-format
 msgid "No such user \"%s\"!"
-msgstr ""
+msgstr "Kein Benutzer \\\"%s\\\" vorhanden!"
 
 msgid "No accounts match the arguments!"
-msgstr ""
+msgstr "Keine Konten entsprechen den Argumenten!"
 
 #, php-format
 msgid "Found %s account(s) to refresh."
-msgstr ""
+msgstr "%s Konto/Konten zur Aktualisierung gefunden."
 
 #, php-format
 msgid "Refreshing account #%d."
-msgstr ""
+msgstr "Konto #%d wird aktualisiert."
 
 
 msgid "Skipping, provider is not enabled or does not exist."
-msgstr ""
+msgstr "Übersprungen, Anbieter ist nicht aktiviert oder existiert nicht."
 
 msgid "Skipping, provider is not an OAuth2 provider."
-msgstr ""
+msgstr "Übersprungen, Anbieter ist kein OAuth2-Anbieter."
 
 msgid "Skipping, provider does not support token refresh."
-msgstr ""
+msgstr "Übersprungen, Anbieter unterstützt keine Token-Erneuerung."
 
 msgid "Skipping, provider has no stored refresh token."
-msgstr ""
+msgstr "Übersprungen, Anbieter hat keinen gespeicherten Erneuerungstoken."
 
 #, php-format
 msgid "Refreshing token, current token expires in %s seconds."
-msgstr ""
+msgstr "Token wird erneuert, aktueller Token läuft in %s Sekunden ab."
 
 msgid "Unable to refresh token!"
-msgstr ""
+msgstr "Token konnte nicht erneuert werden!"
 
 #, php-format
 msgid "Refreshed token, new token expires in %s seconds."
-msgstr ""
+msgstr "Token erneuert, neuer Token läuft in %s Sekunden ab."
 
 msgid "Done."
-msgstr ""
+msgstr "Fertig."
 
 msgid "Revoke credentials which may have been leaked or disclosed."
-msgstr ""
+msgstr "Zugangsdaten widerrufen, die möglicherweise weitergegeben wurden."
 
 msgid ""
 "Revoke credentials for the specified object. To revoke credentials for a "
@@ -5655,19 +5655,19 @@ msgid ""
 msgstr ""
 
 msgid "Revoke credentials of the given type."
-msgstr ""
+msgstr "Zugangsdaten des angegebenen Typs widerrufen."
 
 msgid "List information about available credential revokers."
-msgstr ""
+msgstr "Informationen über verfügbare Zugangsdaten-Widerrufer auflisten."
 
 msgid "Revoke all credentials types."
-msgstr ""
+msgstr "Alle Zugangsdatentypen widerrufen."
 
 msgid "Revoke from all credential owners."
-msgstr ""
+msgstr "Von allen Zugangsdaten-Inhabern widerrufen."
 
 msgid "Revoke credentials without prompting."
-msgstr ""
+msgstr "Zugangsdaten ohne Rückfrage widerrufen."
 
 msgid ""
 "Specify the credential type to revoke with \"--type\" or specify \"--"
@@ -5681,7 +5681,7 @@ msgstr ""
 
 #, php-format
 msgid "Credential type \"%s\" is not valid. Valid credential types are: %s."
-msgstr ""
+msgstr "Zugangsdatentyp \\\"%s\\\" ist ungültig. Gültige Typen: %s."
 
 msgid ""
 "You can not \"--list\" and revoke credentials (with \"--from\" or \"--"
@@ -5711,20 +5711,20 @@ msgid ""
 msgstr ""
 
 msgid "Really destroy credentials everywhere?"
-msgstr ""
+msgstr "Zugangsdaten wirklich überall vernichten?"
 
 #, php-format
 msgid "Destroyed %s credential(s) of type \"%s\"."
-msgstr ""
+msgstr "%s Zugangsdaten vom Typ \\\"%s\\\" vernichtet."
 
 msgid "Remove multi-factor authentication from an account."
-msgstr ""
+msgstr "Multi-Faktor-Authentifizierung von einem Konto entfernen."
 
 msgid "Strip factors from specified users."
-msgstr ""
+msgstr "Faktoren von bestimmten Benutzern entfernen."
 
 msgid "Strip factors from all users."
-msgstr ""
+msgstr "Faktoren von allen Benutzern entfernen."
 
 msgid ""
 "Strip a specific factor type. Use `bin/auth list-factors` for a list of "
@@ -5732,7 +5732,7 @@ msgid ""
 msgstr ""
 
 msgid "Strip all factors, regardless of type."
-msgstr ""
+msgstr "Alle Faktoren unabhängig vom Typ entfernen."
 
 msgid ""
 "Strip factors for a specific provider. Use `bin/auth list-mfa-providers` for "
@@ -5740,10 +5740,10 @@ msgid ""
 msgstr ""
 
 msgid "Strip factors without prompting."
-msgstr ""
+msgstr "Faktoren ohne Rückfrage entfernen."
 
 msgid "Show factors, but do not strip them."
-msgstr ""
+msgstr "Faktoren anzeigen, aber nicht entfernen."
 
 #, php-format
 msgid ""
@@ -5757,7 +5757,7 @@ msgstr ""
 
 #, php-format
 msgid "No user exists with username \"%s\"."
-msgstr ""
+msgstr "Kein Benutzer mit dem Benutzernamen \\\"%s\\\" vorhanden."
 
 msgid ""
 "Specify either specific factors with \"--type\", or all factors with \"--all-"
@@ -5789,22 +5789,22 @@ msgid ""
 msgstr ""
 
 msgid "There are no configured multi-factor providers."
-msgstr ""
+msgstr "Keine Multi-Faktor-Anbieter konfiguriert."
 
 msgid "There are no matching factors to strip."
-msgstr ""
+msgstr "Keine passenden Faktoren zum Entfernen vorhanden."
 
 msgid "These auth factors will be stripped:"
-msgstr ""
+msgstr "Diese Authentifizierungsfaktoren werden entfernt:"
 
 msgid "End of dry run."
-msgstr ""
+msgstr "Probelauf beendet."
 
 msgid "Strip these authentication factors?"
-msgstr ""
+msgstr "Diese Authentifizierungsfaktoren wirklich entfernen?"
 
 msgid "Stripping authentication factors..."
-msgstr ""
+msgstr "Authentifizierungsfaktoren werden entfernt..."
 
 msgid ""
 "Mark an OAuth client as trusted. Trusted OAuth clients may be reauthorized "
@@ -5812,14 +5812,14 @@ msgid ""
 msgstr ""
 
 msgid "The id of the OAuth client."
-msgstr ""
+msgstr "Die ID des OAuth-Clients."
 
 msgid "Specify an OAuth client id with \"--id\"."
-msgstr ""
+msgstr "Eine OAuth-Client-ID mit \\\"--id\\\" angeben."
 
 #, php-format
 msgid "Failed to find an OAuth client with id %s."
-msgstr ""
+msgstr "Kein OAuth-Client mit der ID %s gefunden."
 
 #, fuzzy, php-format
 msgid "OAuth client \"%s\" is already trusted."
@@ -5828,7 +5828,7 @@ msgstr "Dienst \"%s\" ist bereits gesperrt!"
 
 #, php-format
 msgid "OAuth client \"%s\" is now trusted."
-msgstr ""
+msgstr "OAuth-Client \\\"%s\\\" ist jetzt vertrauenswürdig."
 
 msgid ""
 "Reset action counters so a user can continue taking rate-limited actions."
@@ -5846,11 +5846,11 @@ msgstr "Release-Zähler"
 
 #, php-format
 msgid "Use %s to choose a user to reset actions for."
-msgstr ""
+msgstr "%s verwenden, um einen Benutzer auszuwählen, dessen Aktionen zurückgesetzt werden sollen."
 
 #, php-format
 msgid "Specify %s to reset all action counters."
-msgstr ""
+msgstr "%s angeben, um alle Aktionszähler zurückzusetzen."
 
 #, fuzzy, php-format
 msgid "Reset %s action(s)."
@@ -5864,7 +5864,7 @@ msgid ""
 msgstr ""
 
 msgid "Unlocked the authentication provider configuration."
-msgstr ""
+msgstr "Authentifizierungsanbieter-Konfiguration entsperrt."
 
 msgid ""
 "Remove trust from an OAuth client. Users must manually confirm "
@@ -5873,11 +5873,11 @@ msgstr ""
 
 #, php-format
 msgid "Specify an OAuth client ID with %s."
-msgstr ""
+msgstr "Eine OAuth-Client-ID mit %s angeben."
 
 #, php-format
 msgid "Failed to find an OAuth client with ID %s."
-msgstr ""
+msgstr "Kein OAuth-Client mit der ID %s gefunden."
 
 #, fuzzy, php-format
 msgid "OAuth client \"%s\" is already untrusted."
@@ -5891,20 +5891,20 @@ msgid ""
 msgstr ""
 
 msgid "You must specify the email to verify."
-msgstr ""
+msgstr "Die zu verifizierende E-Mail angeben."
 
 msgid "You can only verify one address at a time."
-msgstr ""
+msgstr "Es kann jeweils nur eine Adresse verifiziert werden."
 
 #, php-format
 msgid "No email exists with address \"%s\"!"
-msgstr ""
+msgstr "Keine E-Mail mit der Adresse \\\"%s\\\" vorhanden!"
 
 msgid "Email record has invalid user PHID!"
-msgstr ""
+msgstr "E-Mail-Datensatz hat eine ungültige Benutzer-PHID!"
 
 msgid "Username Change Instructions"
-msgstr ""
+msgstr "Anleitungen zur Benutzernamenänderung"
 
 msgid ""
 "Guidance in the \"Change Username\" dialog for requesting a username change."
@@ -5921,7 +5921,7 @@ msgid ""
 msgstr ""
 
 msgid "Mail Body: Email Login"
-msgstr ""
+msgstr "Mail-Text: E-Mail-Anmeldung"
 
 msgid ""
 "Guidance in the message body when users request an email link to access "
@@ -5978,7 +5978,7 @@ msgstr ""
 
 #, php-format
 msgid "No message type exists with key \"%s\"."
-msgstr ""
+msgstr "Kein Nachrichtentyp mit dem Schlüssel \\\"%s\\\" vorhanden."
 
 #, fuzzy
 msgid "Wait For Approval Instructions"
@@ -5991,7 +5991,7 @@ msgid ""
 msgstr ""
 
 msgid "Mail Body: Welcome"
-msgstr ""
+msgstr "Mail-Text: Willkommen"
 
 msgid ""
 "Custom instructions included in \"Welcome\" mail when an administrator "
@@ -5999,10 +5999,10 @@ msgid ""
 msgstr ""
 
 msgid "Auth Factor"
-msgstr ""
+msgstr "Authentifizierungsfaktor"
 
 msgid "Auth Provider"
-msgstr ""
+msgstr "Authentifizierungsanbieter"
 
 #, fuzzy
 msgid "Auth Challenge"
@@ -6010,7 +6010,7 @@ msgstr "Änderungen zeigen"
 
 
 msgid "Auth Invite"
-msgstr ""
+msgstr "Authentifizierungseinladung"
 
 #, fuzzy
 msgid "Auth Password"
@@ -6023,10 +6023,10 @@ msgstr "SSH Public Keys"
 
 
 msgid "Session"
-msgstr ""
+msgstr "Sitzung"
 
 msgid "Amazon"
-msgstr ""
+msgstr "Amazon"
 
 msgid ""
 "NOTE: Amazon **requires** HTTPS, but this service does not use HTTPS. **You "
@@ -6051,7 +6051,7 @@ msgid ""
 msgstr ""
 
 msgid "Asana"
-msgstr ""
+msgstr "Asana"
 
 #, php-format
 msgid ""
@@ -6088,7 +6088,7 @@ msgid ""
 msgstr ""
 
 msgid "Refresh Account Link"
-msgstr ""
+msgstr "Kontoverknüpfung aktualisieren"
 
 #, fuzzy
 msgid "Log In or Register"
@@ -6096,7 +6096,7 @@ msgstr "Anmeldung und Registrierung"
 
 
 msgid "Missing Client ID Cookie"
-msgstr ""
+msgstr "Client-ID-Cookie fehlt"
 
 #, php-format
 msgid ""
@@ -6118,7 +6118,7 @@ msgid ""
 msgstr ""
 
 msgid "Bitbucket"
-msgstr ""
+msgstr "Bitbucket"
 
 msgid ""
 "To configure Bitbucket OAuth, log in to Bitbucket and go to **Manage "
@@ -6131,7 +6131,7 @@ msgid ""
 msgstr ""
 
 msgid "Disqus"
-msgstr ""
+msgstr "Disqus"
 
 #, php-format
 msgid ""
@@ -6148,7 +6148,7 @@ msgid ""
 msgstr ""
 
 msgid "Facebook"
-msgstr ""
+msgstr "Facebook"
 
 msgid "No"
 msgstr "Nein"
@@ -6177,7 +6177,7 @@ msgid ""
 msgstr ""
 
 msgid "GitHub"
-msgstr ""
+msgstr "GitHub"
 
 #, php-format
 msgid ""
@@ -6197,7 +6197,7 @@ msgid ""
 msgstr ""
 
 msgid "Google"
-msgstr ""
+msgstr "Google"
 
 #, php-format
 msgid ""
@@ -6223,10 +6223,10 @@ msgid ""
 msgstr ""
 
 msgid "JIRA"
-msgstr ""
+msgstr "JIRA"
 
 msgid "Configure JIRA OAuth. NOTE: Only supports JIRA 6."
-msgstr ""
+msgstr "JIRA OAuth konfigurieren. HINWEIS: Nur JIRA 6 wird unterstützt."
 
 msgid ""
 "**Step 1 of 2**: Provide the name and URI for your JIRA install.\n"
@@ -6263,17 +6263,17 @@ msgid ""
 msgstr ""
 
 msgid "JIRA instance name is required."
-msgstr ""
+msgstr "JIRA-Instanzname ist erforderlich."
 
 msgid ""
 "JIRA instance name must contain only lowercase letters, digits, and period."
 msgstr ""
 
 msgid "JIRA base URI is required."
-msgstr ""
+msgstr "JIRA-Basis-URI ist erforderlich."
 
 msgid "JIRA base URI should include protocol (like \"https://\")."
-msgstr ""
+msgstr "Die JIRA-Basis-URI sollte das Protokoll enthalten (z.B. \\\"https://\\\")."
 
 msgid ""
 "The PHP 'openssl' extension is not installed. You must install this "
@@ -6299,14 +6299,14 @@ msgid ""
 msgstr ""
 
 msgid "JIRA Instance Name"
-msgstr ""
+msgstr "JIRA-Instanzname"
 
 msgid "JIRA Base URI"
-msgstr ""
+msgstr "JIRA-Basis-URI"
 
 #, php-format
 msgid "The URI where JIRA is installed. For example: %s"
-msgstr ""
+msgstr "Die URI, unter der JIRA installiert ist. Zum Beispiel: %s"
 
 msgid ""
 "NOTE: **To complete setup**, copy and paste these keys into JIRA according "
@@ -6314,7 +6314,7 @@ msgid ""
 msgstr ""
 
 msgid "Consumer Key"
-msgstr ""
+msgstr "Consumer Key"
 
 msgid ""
 "= Integration Options = \n"
@@ -6328,7 +6328,7 @@ msgid ""
 msgstr ""
 
 msgid "**Post a comment** in the JIRA task."
-msgstr ""
+msgstr "**Kommentar posten** in der JIRA-Aufgabe."
 
 msgid "LDAP"
 msgstr "LDAP"
@@ -6345,7 +6345,7 @@ msgid "Link Accounts"
 msgstr "Konten verknüpfen"
 
 msgid "Refresh LDAP Account"
-msgstr ""
+msgstr "LDAP-Konto aktualisieren"
 
 #, fuzzy
 msgid "Log In or Register with LDAP"
@@ -6361,10 +6361,10 @@ msgid "Username or password are incorrect."
 msgstr "Benutzername oder Passwort sind nicht korrekt."
 
 msgid "LDAP Username"
-msgstr ""
+msgstr "LDAP-Benutzername"
 
 msgid "LDAP Password"
-msgstr ""
+msgstr "LDAP-Passwort"
 
 msgid "LDAP Hostname"
 msgstr "LDAP Hostname"
@@ -6373,37 +6373,37 @@ msgid "LDAP Port"
 msgstr "LDAP Port"
 
 msgid "Base Distinguished Name"
-msgstr ""
+msgstr "Basis-Distinguished-Name"
 
 msgid "Search Attributes"
-msgstr ""
+msgstr "Suchattribute"
 
 msgid "Always Search"
-msgstr ""
+msgstr "Immer suchen"
 
 msgid "Anonymous Username"
-msgstr ""
+msgstr "Anonymer Benutzername"
 
 msgid "Anonymous Password"
-msgstr ""
+msgstr "Anonymes Passwort"
 
 msgid "Username Attribute"
-msgstr ""
+msgstr "Benutzernamen-Attribut"
 
 msgid "Realname Attributes"
-msgstr ""
+msgstr "Klarname-Attribute"
 
 msgid "LDAP Version"
-msgstr ""
+msgstr "LDAP-Version"
 
 msgid "Enable Referrals"
-msgstr ""
+msgstr "Referrals aktivieren"
 
 msgid "Use TLS"
-msgstr ""
+msgstr "TLS verwenden"
 
 msgid "ActiveDirectory Domain"
-msgstr ""
+msgstr "ActiveDirectory-Domain"
 
 #, php-format
 msgid ""
@@ -6414,36 +6414,36 @@ msgid ""
 msgstr ""
 
 msgid "ldap.example.com"
-msgstr ""
+msgstr "ldap.example.com"
 
 msgid "ldaps://ldaps.example.com/"
-msgstr ""
+msgstr "ldaps://ldaps.example.com/"
 
 #, php-format
 msgid "Example: %s%sFor LDAPS, use: %s"
-msgstr ""
+msgstr "Beispiel: %s%sFür LDAPS verwenden: %s"
 
 msgid "ou=People, dc=example, dc=com"
-msgstr ""
+msgstr "ou=People, dc=example, dc=com"
 
 #, php-format
 msgid "Example: %s"
 msgstr "Beispiel: %s"
 
 msgid "sn"
-msgstr ""
+msgstr "sn"
 
 msgid "firstname, lastname"
-msgstr ""
+msgstr "firstname, lastname"
 
 msgid "Follow referrals. Disable this for Windows AD 2003."
-msgstr ""
+msgstr "Referrals folgen. Für Windows AD 2003 deaktivieren."
 
 msgid "Start TLS after binding to the LDAP server."
-msgstr ""
+msgstr "TLS nach der Bindung an den LDAP-Server starten."
 
 msgid "Always bind and search, even without a username and password."
-msgstr ""
+msgstr "Immer binden und suchen, auch ohne Benutzername und Passwort."
 
 msgid ""
 "When a user provides their LDAP username and password, this software can "
@@ -6532,34 +6532,34 @@ msgstr ""
 
 #, php-format
 msgid "%s updated the \"%s\" value."
-msgstr ""
+msgstr "%s hat den Wert \\\"%s\\\" aktualisiert."
 
 #, php-format
 msgid "%s set the \"%s\" value to \"%s\"."
-msgstr ""
+msgstr "%s hat den Wert \\\"%s\\\" auf \\\"%s\\\" gesetzt."
 
 #, php-format
 msgid "%s changed the \"%s\" value from \"%s\" to \"%s\"."
-msgstr ""
+msgstr "%s hat den Wert \\\"%s\\\" von \\\"%s\\\" auf \\\"%s\\\" geändert."
 
 #, php-format
 msgid "Expected '%s' in request!"
-msgstr ""
+msgstr "'%s' in der Anfrage erwartet!"
 
 msgid "The OAuth provider failed to retrieve an account ID."
-msgstr ""
+msgstr "Dem OAuth-Anbieter ist es nicht gelungen, eine Konto-ID abzurufen."
 
 msgid "Consumer key is required."
-msgstr ""
+msgstr "Consumer Key ist erforderlich."
 
 msgid "Consumer secret is required."
-msgstr ""
+msgstr "Consumer Secret ist erforderlich."
 
 msgid "OAuth Consumer Key"
-msgstr ""
+msgstr "OAuth Consumer Key"
 
 msgid "OAuth Consumer Secret"
-msgstr ""
+msgstr "OAuth Consumer Secret"
 
 #, php-format
 msgid ""
@@ -6568,18 +6568,18 @@ msgstr ""
 
 #, php-format
 msgid "%s set the OAuth consumer key for this provider to \"%s\"."
-msgstr ""
+msgstr "%s hat den OAuth-Consumer-Key für diesen Anbieter auf \\\"%s\\\" gesetzt."
 
 #, php-format
 msgid "%s updated the OAuth consumer secret for this provider."
-msgstr ""
+msgstr "%s hat das OAuth-Consumer-Secret für diesen Anbieter aktualisiert."
 
 #, php-format
 msgid "%s set the OAuth consumer secret for this provider."
-msgstr ""
+msgstr "%s hat das OAuth-Consumer-Secret für diesen Anbieter gesetzt."
 
 msgid "OAuth1 Account"
-msgstr ""
+msgstr "OAuth1-Konto"
 
 msgid ""
 "Unable to load your OAuth1 token secret from storage. It may have expired. "
@@ -6587,29 +6587,29 @@ msgid ""
 msgstr ""
 
 msgid "OAuth1 Handshake Secret"
-msgstr ""
+msgstr "OAuth1-Handshake-Secret"
 
 msgid "OAuth1 Handshake Token"
-msgstr ""
+msgstr "OAuth1-Handshake-Token"
 
 #, php-format
 msgid "The OAuth provider returned an error: %s"
-msgstr ""
+msgstr "Der OAuth-Anbieter hat einen Fehler zurückgegeben: %s"
 
 msgid "The OAuth provider did not return a \"code\" parameter in its response."
-msgstr ""
+msgstr "Der OAuth-Anbieter hat keinen \\\"code\\\"-Parameter in seiner Antwort zurückgegeben."
 
 msgid "Application ID is required."
-msgstr ""
+msgstr "Eine Anwendungs-ID ist erforderlich."
 
 msgid "Application secret is required."
-msgstr ""
+msgstr "Ein Anwendungs-Secret ist erforderlich."
 
 msgid "OAuth App ID"
-msgstr ""
+msgstr "OAuth-App-ID"
 
 msgid "OAuth App Secret"
-msgstr ""
+msgstr "OAuth-App-Secret"
 
 #, php-format
 msgid ""
@@ -6618,46 +6618,46 @@ msgstr ""
 
 #, php-format
 msgid "%s set the OAuth application ID for this provider to \"%s\"."
-msgstr ""
+msgstr "%s hat die OAuth-Anwendungs-ID für diesen Anbieter auf \\\"%s\\\" gesetzt."
 
 #, php-format
 msgid "%s updated the OAuth application secret for this provider."
-msgstr ""
+msgstr "%s hat das OAuth-Anwendungs-Secret für diesen Anbieter aktualisiert."
 
 #, php-format
 msgid "%s set the OAuth application secret for this provider."
-msgstr ""
+msgstr "%s hat das OAuth-Anwendungs-Secret für diesen Anbieter gesetzt."
 
 #, php-format
 msgid "%s updated the OAuth application notes for this provider."
-msgstr ""
+msgstr "%s hat die OAuth-Anwendungsnotizen für diesen Anbieter aktualisiert."
 
 #, php-format
 msgid "%s set the OAuth application notes for this provider."
-msgstr ""
+msgstr "%s hat die OAuth-Anwendungsnotizen für diesen Anbieter gesetzt."
 
 msgid "Account does not match provider!"
-msgstr ""
+msgstr "Konto stimmt nicht mit dem Anbieter überein!"
 
 msgid "OAuth2 Account"
-msgstr ""
+msgstr "OAuth2-Konto"
 
 #, php-format
 msgid "Active OAuth Token (Expires: %s)"
-msgstr ""
+msgstr "Aktives OAuth-Token (läuft ab: %s)"
 
 msgid "Active OAuth Token"
-msgstr ""
+msgstr "Aktives OAuth-Token"
 
 msgid "Invalid OAuth Access Token"
-msgstr ""
+msgstr "Ungültiges OAuth-Zugriffstoken"
 
 msgid "No OAuth Access Token"
-msgstr ""
+msgstr "Kein OAuth-Zugriffstoken"
 
 #, php-format
 msgid "Configure %s OAuth."
-msgstr ""
+msgstr "%s OAuth konfigurieren."
 
 msgid ""
 "Use the **OAuth App Notes** field to record details about which account the "
@@ -6665,7 +6665,7 @@ msgid ""
 msgstr ""
 
 msgid "OAuth App Notes"
-msgstr ""
+msgstr "OAuth-App-Notizen"
 
 msgid "Username/Password"
 msgstr "Benutzername/Passwort"
@@ -6680,22 +6680,22 @@ msgid ""
 msgstr ""
 
 msgid "Not Installed"
-msgstr ""
+msgstr "Nicht installiert"
 
 msgid "Algorithm"
-msgstr ""
+msgstr "Algorithmus"
 
 msgid "Strength"
-msgstr ""
+msgstr "Stärke"
 
 msgid "Installed"
-msgstr ""
+msgstr "Installiert"
 
 msgid "Install Instructions"
-msgstr ""
+msgstr "Installationsanweisungen"
 
 msgid "Password Hash Algorithms"
-msgstr ""
+msgstr "Passwort-Hash-Algorithmen"
 
 msgid ""
 "Stronger algorithms are listed first. The highlighted algorithm will be used "
@@ -6710,10 +6710,10 @@ msgstr ""
 
 
 msgid "Register an Account"
-msgstr ""
+msgstr "Konto registrieren"
 
 msgid "Password providers can't be linked."
-msgstr ""
+msgstr "Passwort-Anbieter können nicht verknüpft werden."
 
 msgid "Forgot your password?"
 msgstr "Passwort vergessen?"
@@ -6762,7 +6762,7 @@ msgstr "Der Termin braucht einen Namen."
 
 
 msgid "Server name must contain only lowercase letters, digits, and periods."
-msgstr ""
+msgstr "Der Servername darf nur Kleinbuchstaben, Ziffern und Punkte enthalten."
 
 #, fuzzy
 msgid "Base URI is required."
@@ -6771,7 +6771,7 @@ msgstr "Ein Name ist zwingend erforderlich."
 
 #, php-format
 msgid "Base URI should include protocol (like \"%s\")."
-msgstr ""
+msgstr "Die Basis-URI sollte das Protokoll enthalten (z.B. \\\"%s\\\")."
 
 #, fuzzy
 msgid "Server Name"
@@ -6780,7 +6780,7 @@ msgstr "Auftragsname"
 
 #, php-format
 msgid "Use lowercase letters, digits, and periods. For example: %s"
-msgstr ""
+msgstr "Kleinbuchstaben, Ziffern und Punkte verwenden. Zum Beispiel: %s"
 
 #, fuzzy
 msgid "Base URI"
@@ -6789,7 +6789,7 @@ msgstr "Basis"
 
 #, php-format
 msgid "The URI where the OAuth server is installed. For example: %s"
-msgstr ""
+msgstr "Die URI, unter der der OAuth-Server installiert ist. Zum Beispiel: %s"
 
 #, fuzzy
 msgid "Slack"
@@ -6812,7 +6812,7 @@ msgid ""
 msgstr ""
 
 msgid "Twitch.tv"
-msgstr ""
+msgstr "Twitch.tv"
 
 #, php-format
 msgid ""
@@ -6847,7 +6847,7 @@ msgid ""
 msgstr ""
 
 msgid "WordPress.com"
-msgstr ""
+msgstr "WordPress.com"
 
 #, php-format
 msgid ""
@@ -6876,23 +6876,23 @@ msgid "All"
 msgstr "Alle"
 
 msgid "Sent By"
-msgstr ""
+msgstr "Gesendet von"
 
 msgid "Accepted By"
-msgstr ""
+msgstr "Angenommen von"
 
 msgid "Invited"
 msgstr "Eingeladen"
 
 msgid "All Keys"
-msgstr ""
+msgstr "Alle Schlüssel"
 
 
 msgid "No matching SSH keys."
-msgstr ""
+msgstr "Keine passenden SSH-Schlüssel."
 
 msgid "Conduit API Tokens"
-msgstr ""
+msgstr "Conduit-API-Tokens"
 
 msgid ""
 "Revokes all Conduit API tokens used to access the API.\n"
@@ -6945,7 +6945,7 @@ msgid ""
 msgstr ""
 
 msgid "Temporary Tokens"
-msgstr ""
+msgstr "Temporäre Tokens"
 
 msgid ""
 "Revokes temporary authentication tokens.\n"
@@ -7002,10 +7002,10 @@ msgid ""
 msgstr ""
 
 msgid "No public key was provided."
-msgstr ""
+msgstr "Es wurde kein öffentlicher Schlüssel angegeben."
 
 msgid "Provide a public key, not a private key!"
-msgstr ""
+msgstr "Einen öffentlichen Schlüssel angeben, keinen privaten!"
 
 msgid "Provided public key is not properly formatted."
 msgstr "Der angegebene Public Key ist nicht richtig formatiert / beschädigt."
@@ -7053,7 +7053,7 @@ msgstr ""
 
 #, php-format
 msgid "Contact Number %d"
-msgstr ""
+msgstr "Kontaktnummer %d"
 
 #, fuzzy
 msgid "Primary Number"
@@ -7071,7 +7071,7 @@ msgstr "Zahlungsdienstleister %d ändern"
 
 
 msgid "Verification code can not be regenerated after an invite is created."
-msgstr ""
+msgstr "Der Verifizierungscode kann nicht mehr neu generiert werden, nachdem eine Einladung erstellt wurde."
 
 msgid ""
 "Invites are visible to administrators, the inviting user, users with an "
@@ -7089,7 +7089,7 @@ msgid ""
 msgstr ""
 
 msgid "Attempting to set an empty password!"
-msgstr ""
+msgstr "Es wird versucht, ein leeres Passwort zu setzen!"
 
 #, php-format
 msgid ""
@@ -7136,49 +7136,49 @@ msgstr "%s hat die Registrierung aktiviert."
 
 #, php-format
 msgid "%s disabled registration."
-msgstr ""
+msgstr "%s hat die Registrierung deaktiviert."
 
 #, php-format
 msgid "%s enabled account linking."
-msgstr ""
+msgstr "%s hat die Kontoverknüpfung aktiviert."
 
 #, php-format
 msgid "%s disabled account linking."
-msgstr ""
+msgstr "%s hat die Kontoverknüpfung deaktiviert."
 
 #, php-format
 msgid "%s enabled account unlinking."
-msgstr ""
+msgstr "%s hat die Kontotrennung aktiviert."
 
 #, php-format
 msgid "%s disabled account unlinking."
-msgstr ""
+msgstr "%s hat die Kontotrennung deaktiviert."
 
 #, php-format
 msgid "%s enabled email trust."
-msgstr ""
+msgstr "%s hat E-Mail-Vertrauen aktiviert."
 
 #, php-format
 msgid "%s disabled email trust."
-msgstr ""
+msgstr "%s hat E-Mail-Vertrauen deaktiviert."
 
 #, php-format
 msgid "%s enabled auto login."
-msgstr ""
+msgstr "%s hat automatische Anmeldung aktiviert."
 
 #, php-format
 msgid "%s disabled auto login."
-msgstr ""
+msgstr "%s hat automatische Anmeldung deaktiviert."
 
 #, php-format
 msgid "%s edited a property of this provider."
-msgstr ""
+msgstr "%s hat eine Eigenschaft dieses Anbieters bearbeitet."
 
 msgid "Revoked SSH keys can not be edited or reinstated."
-msgstr ""
+msgstr "Widerrufene SSH-Schlüssel können nicht bearbeitet oder wiederhergestellt werden."
 
 msgid "SSH keys inherit the policies of the user or object they authenticate."
-msgstr ""
+msgstr "SSH-Schlüssel erben die Richtlinien des Benutzers oder Objekts, das sie authentifizieren."
 
 #, fuzzy, php-format
 msgid "%s created this key."
@@ -7207,7 +7207,7 @@ msgstr "%s hat %s reaktiviert."
 
 #, php-format
 msgid "Unknown session type \"%s\"."
-msgstr ""
+msgstr "Unbekannter Sitzungstyp \\\"%s\\\"."
 
 msgid "A session is visible only to its owner."
 msgstr "Eine Sitzung ist nur für deren Besitzer sichtbar."
@@ -7218,10 +7218,10 @@ msgstr "Login erzwingen"
 
 
 msgid "One-Time Login Token"
-msgstr ""
+msgstr "Einmaliger Anmeldetoken"
 
 msgid "Password Reset Token"
-msgstr ""
+msgstr "Passwort-Zurücksetzungstoken"
 
 #, fuzzy
 msgid "Temporary Token Types"
@@ -7237,16 +7237,16 @@ msgid "\"%s\" Account"
 msgstr "\"%s\" Konto"
 
 msgid "Raw Address"
-msgstr ""
+msgstr "Rohe Adresse"
 
 msgid "Parsed Address"
-msgstr ""
+msgstr "Geparste Adresse"
 
 msgid "User"
 msgstr "Benutzer"
 
 msgid "Issues"
-msgstr ""
+msgstr "Probleme"
 
 msgid "Action"
 msgstr "Aktion"
@@ -7263,7 +7263,7 @@ msgstr "Eigene Aktionen"
 
 
 msgid "Trusted"
-msgstr ""
+msgstr "Vertrauenswürdig"
 
 msgid "Comment"
 msgstr "Kommentar"
@@ -7273,7 +7273,7 @@ msgstr "Hinzugefügt"
 
 #, php-format
 msgid "Invite has invalid author PHID (\"%s\")."
-msgstr ""
+msgstr "Einladung hat eine ungültige Autor-PHID (\\\"%s\\\")."
 
 #, fuzzy, php-format
 msgid "[%s] %s has invited you to join %s"
@@ -7292,11 +7292,11 @@ msgstr "Zonen müssen einen Namen haben"
 
 #, php-format
 msgid "Contact numbers can not be longer than %s characters."
-msgstr ""
+msgstr "Kontaktnummern dürfen nicht länger als %s Zeichen sein."
 
 #, php-format
 msgid "Contact number is invalid: %s"
-msgstr ""
+msgstr "Kontaktnummer ist ungültig: %s"
 
 
 #, fuzzy
@@ -7315,7 +7315,7 @@ msgid ""
 msgstr ""
 
 msgid "You can not make a disabled number a primary contact number."
-msgstr ""
+msgstr "Eine deaktivierte Nummer kann nicht zur primären Kontaktnummer gemacht werden."
 
 #, fuzzy, php-format
 msgid "%s disabled this contact number."
@@ -7353,11 +7353,11 @@ msgstr "%s hat den Namen des Termins von %s auf %s geändert."
 
 
 msgid "Duo providers must have an API credential."
-msgstr ""
+msgstr "Duo-Anbieter müssen API-Zugangsdaten haben."
 
 #, php-format
 msgid "Credential (\"%s\") is not valid."
-msgstr ""
+msgstr "Zugangsdaten (\\\"%s\\\") sind ungültig."
 
 #, fuzzy, php-format
 msgid "%s changed the enrollment policy for this provider from %s to %s."
@@ -7386,7 +7386,7 @@ msgstr "%s hat das Bild für den Chat geändert."
 
 
 msgid "CHANGES TO ENROLL MESSAGE"
-msgstr ""
+msgstr "ÄNDERUNGEN AN DER REGISTRIERUNGSNACHRICHT"
 
 #, fuzzy, php-format
 msgid "%s named this provider %s."
@@ -7405,7 +7405,7 @@ msgstr "%s hat das Projekt von \"%s\" zu \"%s\" umbenannt."
 
 #, php-format
 msgid "Provider names can not be longer than %s characters."
-msgstr ""
+msgstr "Anbieternamen dürfen nicht länger als %s Zeichen sein."
 
 
 #, fuzzy, php-format
@@ -7415,7 +7415,7 @@ msgstr "%s hat den Namen des Termins von %s auf %s geändert."
 
 #, php-format
 msgid "Status \"%s\" is invalid. Valid statuses are: %s."
-msgstr ""
+msgstr "Status \\\"%s\\\" ist ungültig. Gültige Status: %s."
 
 #, php-format
 msgid ""
@@ -7430,7 +7430,7 @@ msgstr "%s hat den Text des Dokumentes geändert."
 
 
 msgid "CHANGES TO MESSAGE"
-msgstr ""
+msgstr "ÄNDERUNGEN AN DER NACHRICHT"
 
 #, fuzzy, php-format
 msgid "%s revoked this password."
@@ -7894,15 +7894,15 @@ msgstr "Entwicklerwerkzeuge"
 
 #, php-format
 msgid "%s Application"
-msgstr ""
+msgstr "%s-Anwendung"
 
 #, php-format
 msgid "No application '%s'!"
-msgstr ""
+msgstr "Keine Anwendung '%s'!"
 
 #, php-format
 msgid "Unknown capability '%s'!"
-msgstr ""
+msgstr "Unbekannte Fähigkeit '%s'!"
 
 msgid "Can Use Application"
 msgstr "Darf die Anwendung verwenden"
@@ -7925,35 +7925,35 @@ msgid ""
 msgstr ""
 
 msgid "No application!"
-msgstr ""
+msgstr "Keine Anwendung!"
 
 #, php-format
 msgid "Unable to find transaction query for object of class \"%s\"."
-msgstr ""
+msgstr "Transaktionsabfrage für Objekt der Klasse \\\"%s\\\" konnte nicht gefunden werden."
 
 msgid "Email Verification Required"
-msgstr ""
+msgstr "E-Mail-Verifizierung erforderlich"
 
 msgid "Email Verification Required, With Exception"
-msgstr ""
+msgstr "E-Mail-Verifizierung erforderlich, mit Ausnahme"
 
 msgid "Admin Required"
-msgstr ""
+msgstr "Administrator erforderlich"
 
 msgid "Allow Disabled"
-msgstr ""
+msgstr "Deaktiviert erlauben"
 
 msgid "No Login Required"
-msgstr ""
+msgstr "Keine Anmeldung erforderlich"
 
 msgid "Public Access"
-msgstr ""
+msgstr "Öffentlicher Zugriff"
 
 msgid "Public + configured"
-msgstr ""
+msgstr "Öffentlich + konfiguriert"
 
 msgid "Application Controller"
-msgstr ""
+msgstr "Anwendungs-Controller"
 
 #, fuzzy
 msgid "Application Controller, No Login Required"
@@ -7962,14 +7962,14 @@ msgstr "Öffentlich (Ohne Login zugänglich!)"
 
 #, php-format
 msgid "Expect user '%s' to be allowed access to '%s'."
-msgstr ""
+msgstr "Benutzer '%s' sollte Zugriff auf '%s' erlaubt sein."
 
 #, php-format
 msgid "Expect user '%s' to be denied access to '%s'."
-msgstr ""
+msgstr "Benutzer '%s' sollte der Zugriff auf '%s' verweigert sein."
 
 msgid "Test"
-msgstr ""
+msgstr "Test"
 
 #, php-format
 msgid ""
@@ -7979,44 +7979,44 @@ msgstr ""
 
 #, php-format
 msgid "%s is not available; unable to read deflated data!"
-msgstr ""
+msgstr "%s ist nicht verfügbar; deflationierte Daten können nicht gelesen werden!"
 
 msgid "Failed to inflate data!"
-msgstr ""
+msgstr "Daten konnten nicht aufgeblasen werden!"
 
 msgid "Only strings may be written to the DB cache!"
-msgstr ""
+msgstr "In den DB-Cache dürfen nur Zeichenketten geschrieben werden!"
 
 msgid "Unknown cache format."
-msgstr ""
+msgstr "Unbekanntes Cache-Format."
 
 #, php-format
 msgid "Serializing cache can not write objects (for key \"%s\")!"
-msgstr ""
+msgstr "Serialisierender Cache kann keine Objekte schreiben (für Schlüssel \\\"%s\\\")!"
 
 msgid "New Value"
 msgstr "Neuer Wert"
 
 msgid "General Cache"
-msgstr ""
+msgstr "Allgemeiner Cache"
 
 msgid "Markup Cache"
-msgstr ""
+msgstr "Markup-Cache"
 
 msgid "General Cache (TTL)"
-msgstr ""
+msgstr "Allgemeiner Cache (TTL)"
 
 msgid "Drop data from readthrough caches."
-msgstr ""
+msgstr "Daten aus Readthrough-Caches löschen."
 
 msgid "Purge all caches."
-msgstr ""
+msgstr "Alle Caches leeren."
 
 msgid "Purge a specific set of caches."
-msgstr ""
+msgstr "Eine bestimmte Menge von Caches leeren."
 
 msgid "Specify either \"--all\" or \"--caches\", not both."
-msgstr ""
+msgstr "Entweder \\\"--all\\\" oder \\\"--caches\\\" angeben, aber nicht beides."
 
 #, php-format
 msgid ""
@@ -8026,7 +8026,7 @@ msgstr ""
 
 #, php-format
 msgid "Cache purger \"%s\" is not recognized. Available caches are: %s."
-msgstr ""
+msgstr "Cache-Bereiniger \\\"%s\\\" wird nicht erkannt. Verfügbare Caches: %s."
 
 msgid ""
 "When using \"--caches\", you must select at least one valid cache to purge."
@@ -8034,10 +8034,10 @@ msgstr ""
 
 #, php-format
 msgid "Purging \"%s\" cache..."
-msgstr ""
+msgstr "\\\"%s\\\"-Cache wird geleert..."
 
 msgid "Enabling APCu will improve performance."
-msgstr ""
+msgstr "Das Aktivieren von APCu verbessert die Leistung."
 
 #, php-format
 msgid ""
@@ -8057,7 +8057,7 @@ msgstr "Beta-Anwendungen sind nicht aktiviert"
 
 
 msgid "APCu"
-msgstr ""
+msgstr "APCu"
 
 msgid ""
 "Installing the \"APCu\" PHP extension will improve performance. This "
@@ -8066,13 +8066,13 @@ msgid ""
 msgstr ""
 
 msgid "PHP Extension \"APCu\" Not Installed"
-msgstr ""
+msgstr "PHP-Erweiterung \\\"APCu\\\" nicht installiert"
 
 msgid "Zend OPcache"
-msgstr ""
+msgstr "Zend OPcache"
 
 msgid "OPcache is not configured properly for development."
-msgstr ""
+msgstr "OPcache ist für die Entwicklung nicht richtig konfiguriert."
 
 #, php-format
 msgid ""
@@ -8082,13 +8082,13 @@ msgid ""
 msgstr ""
 
 msgid "OPcache Config"
-msgstr ""
+msgstr "OPcache-Konfiguration"
 
 msgid "OPcache Not Configured for Development"
-msgstr ""
+msgstr "OPcache nicht für Entwicklung konfiguriert"
 
 msgid "OPcache is not configured ideally for production."
-msgstr ""
+msgstr "OPcache ist für die Produktion nicht optimal konfiguriert."
 
 #, php-format
 msgid ""
@@ -8098,10 +8098,10 @@ msgid ""
 msgstr ""
 
 msgid "OPcache Not Configured for Production"
-msgstr ""
+msgstr "OPcache nicht für Produktion konfiguriert"
 
 msgid "Enabling OPcache will dramatically improve performance."
-msgstr ""
+msgstr "Das Aktivieren von OPcache verbessert die Leistung erheblich."
 
 #, php-format
 msgid ""
@@ -8111,10 +8111,10 @@ msgid ""
 msgstr ""
 
 msgid "OPcache Disabled"
-msgstr ""
+msgstr "OPcache deaktiviert"
 
 msgid "Zend OPcache Not Enabled"
-msgstr ""
+msgstr "Zend OPcache nicht aktiviert"
 
 msgid ""
 "Installing the \"Zend OPcache\" extension will dramatically improve "
@@ -8122,10 +8122,10 @@ msgid ""
 msgstr ""
 
 msgid "OPcache"
-msgstr ""
+msgstr "OPcache"
 
 msgid "Zend OPcache Not Installed"
-msgstr ""
+msgstr "Zend OPcache nicht installiert"
 
 msgid "Calendar"
 msgstr "Kalender"
@@ -8152,10 +8152,10 @@ msgstr "Kommende Termine"
 
 
 msgid "Email Commands: Events"
-msgstr ""
+msgstr "E-Mail-Befehle: Ereignisse"
 
 msgid "Interacting with Calendar Events"
-msgstr ""
+msgstr "Mit Kalender-Ereignissen interagieren"
 
 msgid ""
 "This page documents the commands you can use to interact with events in "
@@ -8172,7 +8172,7 @@ msgid "Default edit policy for newly created events."
 msgstr "Vorgabe Editier-Berechtigung für neu erzeugte Termine."
 
 msgid "Default Edit Policy"
-msgstr ""
+msgstr "Standardbearbeitungsrichtlinie"
 
 msgid "Default View Policy"
 msgstr "Vorgabe Rechte für die Anzeige"
@@ -8203,13 +8203,13 @@ msgstr "Ein verschobenes Dokument kann nicht gelöscht werden."
 
 
 msgid "RSVP to event."
-msgstr ""
+msgstr "Auf Ereignis antworten."
 
 msgid "RSVP"
-msgstr ""
+msgstr "Antworten"
 
 msgid "Keywords"
-msgstr ""
+msgstr "Schlüsselwörter"
 
 #, php-format
 msgid ""
@@ -8223,20 +8223,20 @@ msgid ""
 msgstr ""
 
 msgid "Apply transactions to create a new event or edit an existing one."
-msgstr ""
+msgstr "Transaktionen anwenden, um ein neues Ereignis zu erstellen oder ein bestehendes zu bearbeiten."
 
 msgid "Read information about events."
-msgstr ""
+msgstr "Informationen über Ereignisse lesen."
 
 msgid "Can Not Edit Imported Event"
-msgstr ""
+msgstr "Importiertes Ereignis kann nicht bearbeitet werden"
 
 msgid ""
 "This event has been imported from an external source and can not be edited."
 msgstr ""
 
 msgid "Not Attending Event"
-msgstr ""
+msgstr "Nimmt nicht am Ereignis teil"
 
 
 msgid ""
@@ -8248,7 +8248,7 @@ msgid "Reinstate Event"
 msgstr "Termin wieder aktivieren"
 
 msgid "This event is part of a series. Which events do you want to reinstate?"
-msgstr ""
+msgstr "Dieses Ereignis ist Teil einer Serie. Welche Ereignisse sollen wiederhergestellt werden?"
 
 
 msgid "Reinstate this event?"
@@ -8258,10 +8258,10 @@ msgid "Cancel Event"
 msgstr "Termin absagen"
 
 msgid "This event is part of a series. Which events do you want to cancel?"
-msgstr ""
+msgstr "Dieses Ereignis ist Teil einer Serie. Welche Ereignisse sollen abgesagt werden?"
 
 msgid "Cancel this event?"
-msgstr ""
+msgstr "Dieses Ereignis absagen?"
 
 
 msgid "Back"
@@ -8274,7 +8274,7 @@ msgstr "Den Termin wirklich wieder aktivieren?"
 
 #, php-format
 msgid "Reinstate only the event which occurs on %s."
-msgstr ""
+msgstr "Nur das Ereignis am %s wiederherstellen."
 
 #, fuzzy
 msgid "Reinstate This And All Later Events"
@@ -8293,7 +8293,7 @@ msgstr "Termin absagen"
 
 #, php-format
 msgid "Cancel only the event which occurs on %s."
-msgstr ""
+msgstr "Nur das Ereignis am %s absagen."
 
 #, fuzzy
 msgid "Cancel This And All Later Events"
@@ -8322,10 +8322,10 @@ msgstr "Termin ändern"
 
 #, php-format
 msgid "Edit only the event which occurs at %s."
-msgstr ""
+msgstr "Nur das Ereignis um %s bearbeiten."
 
 msgid "Edit This And All Later Events"
-msgstr ""
+msgstr "Dieses und alle späteren Ereignisse bearbeiten"
 
 #, php-format
 msgid ""
@@ -8337,7 +8337,7 @@ msgid "Edit Event"
 msgstr "Termin ändern"
 
 msgid "This event is part of a series. Which events do you want to edit?"
-msgstr ""
+msgstr "Dieses Ereignis ist Teil einer Serie. Welche Ereignisse sollen bearbeitet werden?"
 
 msgid "Join Event"
 msgstr "An Termin teilnehmen"
@@ -8358,7 +8358,7 @@ msgid "Decline"
 msgstr "Teilnahme absagen"
 
 msgid "Import/Export"
-msgstr ""
+msgstr "Import/Export"
 
 msgid "Cancelled"
 msgstr "Abgesagt"
@@ -8370,7 +8370,7 @@ msgstr "Vollständig importiert"
 
 #, php-format
 msgid "Availability: %s"
-msgstr ""
+msgstr "Verfügbarkeit: %s"
 
 
 #, fuzzy
@@ -8414,36 +8414,36 @@ msgid "Next"
 msgstr "Vorwärts"
 
 msgid "This event repeats every day."
-msgstr ""
+msgstr "Dieses Ereignis wiederholt sich täglich."
 
 
 #, php-format
 msgid "This event is an instance of %s, and repeats every day."
-msgstr ""
+msgstr "Dieses Ereignis ist eine Instanz von %s und wiederholt sich täglich."
 
 msgid "This event repeats every week."
-msgstr ""
+msgstr "Dieses Ereignis wiederholt sich wöchentlich."
 
 
 #, php-format
 msgid "This event is an instance of %s, and repeats every week."
-msgstr ""
+msgstr "Dieses Ereignis ist eine Instanz von %s und wiederholt sich wöchentlich."
 
 msgid "This event repeats every month."
-msgstr ""
+msgstr "Dieses Ereignis wiederholt sich monatlich."
 
 
 #, php-format
 msgid "This event is an instance of %s, and repeats every month."
-msgstr ""
+msgstr "Dieses Ereignis ist eine Instanz von %s und wiederholt sich monatlich."
 
 msgid "This event repeats every year."
-msgstr ""
+msgstr "Dieses Ereignis wiederholt sich jährlich."
 
 
 #, php-format
 msgid "This event is an instance of %s, and repeats every year."
-msgstr ""
+msgstr "Dieses Ereignis ist eine Instanz von %s und wiederholt sich jährlich."
 
 #, fuzzy
 msgid "Event Series"
@@ -8466,7 +8466,7 @@ msgstr "Konto deaktivieren"
 
 
 msgid "Disable this export? The export URI will no longer function."
-msgstr ""
+msgstr "Diesen Export deaktivieren? Die Export-URI funktioniert dann nicht mehr."
 
 #, fuzzy
 msgid "Enable Export"
@@ -8491,7 +8491,7 @@ msgstr "Kommende Termine"
 
 
 msgid "Exports"
-msgstr ""
+msgstr "Exporte"
 
 #, fuzzy, php-format
 msgid "Export %d"
@@ -8500,7 +8500,7 @@ msgstr "Warenkorb %d"
 
 #, php-format
 msgid "Export %d %s"
-msgstr ""
+msgstr "Export %d %s"
 
 #, fuzzy
 msgid "Edit Export"
@@ -8508,13 +8508,13 @@ msgstr "Beitrag ändern"
 
 
 msgid "Mode"
-msgstr ""
+msgstr "Modus"
 
 msgid "Query"
-msgstr ""
+msgstr "Abfrage"
 
 msgid "ICS URI"
-msgstr ""
+msgstr "ICS-URI"
 
 #, fuzzy
 msgid "No Imported Events"
@@ -8527,7 +8527,7 @@ msgid ""
 msgstr ""
 
 msgid "Delete Imported Events"
-msgstr ""
+msgstr "Importierte Ereignisse löschen"
 
 #, fuzzy
 msgid ""
@@ -8553,7 +8553,7 @@ msgstr "Konto deaktivieren"
 
 
 msgid "Disable this import? Events from this source will no longer be updated."
-msgstr ""
+msgstr "Diesen Import deaktivieren? Ereignisse aus dieser Quelle werden nicht mehr aktualisiert."
 
 #, fuzzy
 msgid "Enable Import"
@@ -8561,7 +8561,7 @@ msgstr "Abfrage aktivieren"
 
 
 msgid "Enable this import? Events from this source will be updated again."
-msgstr ""
+msgstr "Diesen Import aktivieren? Ereignisse aus dieser Quelle werden wieder aktualisiert."
 
 #, fuzzy
 msgid "Nothing Uploaded"
@@ -8569,10 +8569,10 @@ msgstr "Habe nichts zum Indexieren!"
 
 
 msgid "Drag and drop .ics files to upload them and import them into Calendar."
-msgstr ""
+msgstr ".ics-Dateien per Drag-and-Drop hochladen und in den Kalender importieren."
 
 msgid "To import events, you must select a source to import from."
-msgstr ""
+msgstr "Zum Importieren von Ereignissen eine Importquelle auswählen."
 
 #, fuzzy
 msgid "Import Type"
@@ -8590,7 +8590,7 @@ msgstr "Icon auswählen"
 
 
 msgid "Import"
-msgstr ""
+msgstr "Import"
 
 #, fuzzy
 msgid "Import Events"
@@ -8603,7 +8603,7 @@ msgstr "Alle Termine"
 
 
 msgid "Reload this source? Events imported from this source will be updated."
-msgstr ""
+msgstr "Diese Quelle neu laden? Ereignisse aus dieser Quelle werden aktualisiert."
 
 #, fuzzy
 msgid "Imports"
@@ -8612,12 +8612,12 @@ msgstr "Importiere"
 
 #, php-format
 msgid "Import %d"
-msgstr ""
+msgstr "Import %d"
 
 
 #, php-format
 msgid "Import %d %s"
-msgstr ""
+msgstr "Import %d %s"
 
 #, fuzzy
 msgid "Edit Import"
@@ -8625,10 +8625,10 @@ msgstr "Beitrag ändern"
 
 
 msgid "Reload Import"
-msgstr ""
+msgstr "Import neu laden"
 
 msgid "Source Type"
-msgstr ""
+msgstr "Quellentyp"
 
 #, fuzzy
 msgid "Import Disabled"
@@ -8636,7 +8636,7 @@ msgstr "Konto gesperrt"
 
 
 msgid "Automatic Updates"
-msgstr ""
+msgstr "Automatische Aktualisierungen"
 
 
 #, fuzzy
@@ -8658,7 +8658,7 @@ msgstr "Nachrichten"
 
 
 msgid "No imported events."
-msgstr ""
+msgstr "Keine importierten Ereignisse."
 
 #, fuzzy
 msgid "Imported Events"
@@ -8674,7 +8674,7 @@ msgstr "Icon für den Termin wählen"
 
 
 msgid "Configure how users create and edit events."
-msgstr ""
+msgstr "Festlegen, wie Benutzer Ereignisse erstellen und bearbeiten."
 
 #, fuzzy
 msgid "Create New Event"
@@ -8683,7 +8683,7 @@ msgstr "Neuer Termin"
 
 #, php-format
 msgid "Edit Event: %s"
-msgstr ""
+msgstr "Ereignis bearbeiten: %s"
 
 
 msgid "Create Event"
@@ -8693,7 +8693,7 @@ msgid "Event"
 msgstr "Termin"
 
 msgid "Name of the event."
-msgstr ""
+msgstr "Name des Ereignisses."
 
 
 #, fuzzy
@@ -8715,26 +8715,26 @@ msgid "All Day Event"
 msgstr "Ganztagesveranstaltung"
 
 msgid "Marks this as an all day event."
-msgstr ""
+msgstr "Markiert dies als ganztägiges Ereignis."
 
 
 msgid "Make the event an all day event."
-msgstr ""
+msgstr "Ereignis als ganztätig markieren."
 
 
 msgid "Mark the event as an all day event."
-msgstr ""
+msgstr "Ereignis als ganztägiges Ereignis markieren."
 
 
 msgid "Start"
 msgstr "Anfang"
 
 msgid "Start time of the event."
-msgstr ""
+msgstr "Startzeit des Ereignisses."
 
 
 msgid "Change the start time of the event."
-msgstr ""
+msgstr "Startzeit des Ereignisses ändern."
 
 
 #, fuzzy
@@ -8746,11 +8746,11 @@ msgid "End"
 msgstr "Ende"
 
 msgid "End time of the event."
-msgstr ""
+msgstr "Endzeit des Ereignisses."
 
 
 msgid "Change the end time of the event."
-msgstr ""
+msgstr "Endzeit des Ereignisses ändern."
 
 
 #, fuzzy
@@ -8764,18 +8764,18 @@ msgstr "Termin absagen"
 
 
 msgid "Cancel or restore the event."
-msgstr ""
+msgstr "Ereignis absagen oder wiederherstellen."
 
 
 msgid "True to cancel the event."
-msgstr ""
+msgstr "True, um das Ereignis abzusagen."
 
 
 msgid "Host"
-msgstr ""
+msgstr "Gastgeber"
 
 msgid "Host of the event."
-msgstr ""
+msgstr "Gastgeber des Ereignisses."
 
 
 #, fuzzy
@@ -8789,7 +8789,7 @@ msgstr "Keine Termine gefunden."
 
 
 msgid "Users invited to the event."
-msgstr ""
+msgstr "Zum Ereignis eingeladene Benutzer."
 
 
 #, fuzzy
@@ -8798,7 +8798,7 @@ msgstr "Veränderte Mitleser"
 
 
 msgid "New event invitees."
-msgstr ""
+msgstr "Neue Ereigniseinladungen."
 
 #, fuzzy
 msgid "Change Invitees"
@@ -8811,19 +8811,19 @@ msgstr "Beschreibungsvorschau"
 
 
 msgid "Update the event description."
-msgstr ""
+msgstr "Ereignisbeschreibung aktualisieren."
 
 
 msgid "New event description."
-msgstr ""
+msgstr "Neue Ereignisbeschreibung."
 
 
 msgid "Event icon."
-msgstr ""
+msgstr "Ereignissymbol."
 
 
 msgid "Change the event icon."
-msgstr ""
+msgstr "Ereignissymbol ändern."
 
 
 #, fuzzy
@@ -8842,15 +8842,15 @@ msgstr "Teilnahme absagen"
 
 
 msgid "One time or recurring event."
-msgstr ""
+msgstr "Einmaliges oder wiederkehrendes Ereignis."
 
 
 msgid "Make the event recurring."
-msgstr ""
+msgstr "Ereignis als wiederkehrend markieren."
 
 
 msgid "Mark the event as a recurring event."
-msgstr ""
+msgstr "Ereignis als wiederkehrendes Ereignis markieren."
 
 
 #, fuzzy
@@ -8874,21 +8874,21 @@ msgstr "Häufigkeit des Termins"
 
 
 msgid "Repeat Until"
-msgstr ""
+msgstr "Wiederholen bis"
 
 msgid "Last instance of the event."
-msgstr ""
+msgstr "Letzte Instanz des Ereignisses."
 
 
 msgid "Change when the event repeats until."
-msgstr ""
+msgstr "Zeitpunkt ändern, bis zu dem das Ereignis wiederholt wird."
 
 
 msgid "New final event time."
-msgstr ""
+msgstr "Neuer Endzeitpunkt des Ereignisses."
 
 msgid "Core"
-msgstr ""
+msgstr "Kern"
 
 #, fuzzy
 msgid "Recurrence"
@@ -8900,13 +8900,13 @@ msgid "%s created this event."
 msgstr "%s hat diesen Termin erzeugt."
 
 msgid "Can not materialize an event stub: this event is not a stub."
-msgstr ""
+msgstr "Ereignis-Stub kann nicht materialisiert werden: Dieses Ereignis ist kein Stub."
 
 msgid "End date must be after start date."
 msgstr "Das Enddatum muß nach dem Anfangsdatum liegen."
 
 msgid "Event must be recurring to have a recurrence end date."
-msgstr ""
+msgstr "Das Ereignis muss wiederkehrend sein, um ein Wiederholungsende zu haben."
 "Nur regelmäßige Termine können auch ein Enddatum für die Regelmäßigkeit "
 "haben :)"
 
@@ -8920,7 +8920,7 @@ msgid "An event's start and end date and cancellation status changes."
 msgstr "Ein Termin wurde verschoben oder abgesagt."
 
 msgid "Other event activity not listed above occurs."
-msgstr ""
+msgstr "Andere, oben nicht aufgeführte Ereignisaktivitäten treten auf."
 
 msgid "EVENT DESCRIPTION"
 msgstr "TERMIN BESCHREIBUNG"
@@ -8934,10 +8934,10 @@ msgstr "Termine im Kalender"
 
 
 msgid "Configure Calendar Export Forms"
-msgstr ""
+msgstr "Kalender-Exportformulare konfigurieren"
 
 msgid "Configure how users create and edit exports."
-msgstr ""
+msgstr "Festlegen, wie Benutzer Exporte erstellen und bearbeiten."
 
 #, fuzzy
 msgid "Create New Export"
@@ -8955,13 +8955,13 @@ msgstr "Neuer Beitrag"
 
 
 msgid "Export"
-msgstr ""
+msgstr "Export"
 
 msgid "Name of the export."
-msgstr ""
+msgstr "Name des Exports."
 
 msgid "Rename the export."
-msgstr ""
+msgstr "Export umbenennen."
 
 #, fuzzy
 msgid "New export name."
@@ -8974,10 +8974,10 @@ msgstr "Deaktivierter Absender"
 
 
 msgid "Disable or restore the export."
-msgstr ""
+msgstr "Export deaktivieren oder wiederherstellen."
 
 msgid "True to cancel the export."
-msgstr ""
+msgstr "True, um den Export abzubrechen."
 
 #, fuzzy
 msgid "Query Key"
@@ -8995,7 +8995,7 @@ msgstr "Ändere die Priorität einer Aufgabe."
 
 
 msgid "New export query key."
-msgstr ""
+msgstr "Neuer Export-Abfrageschlüssel."
 
 #, fuzzy
 msgid "Change the policy mode for the export."
@@ -9003,10 +9003,10 @@ msgstr "Ändere die Priorität einer Aufgabe."
 
 
 msgid "Adjust export mode."
-msgstr ""
+msgstr "Exportmodus anpassen."
 
 msgid "New export mode."
-msgstr ""
+msgstr "Neuer Exportmodus."
 
 #, fuzzy, php-format
 msgid "%s created this export."
@@ -9019,10 +9019,10 @@ msgstr "Termine im Kalender"
 
 
 msgid "Configure Calendar Import Forms"
-msgstr ""
+msgstr "Kalender-Importformulare konfigurieren"
 
 msgid "Configure how users create and edit imports."
-msgstr ""
+msgstr "Festlegen, wie Benutzer Importe erstellen und bearbeiten."
 
 #, fuzzy
 msgid "Create New Import"
@@ -9040,7 +9040,7 @@ msgstr "Neuer Beitrag"
 
 
 msgid "Name of the import."
-msgstr ""
+msgstr "Name des Imports."
 
 #, fuzzy
 msgid "Rename the import."
@@ -9058,22 +9058,22 @@ msgstr "Abfrage deaktivieren"
 
 
 msgid "Disable or restore the import."
-msgstr ""
+msgstr "Import deaktivieren oder wiederherstellen."
 
 msgid "True to cancel the import."
-msgstr ""
+msgstr "True, um den Import abzubrechen."
 
 msgid "Delete all events from this source."
-msgstr ""
+msgstr "Alle Ereignisse aus dieser Quelle löschen."
 
 msgid "True to delete imported events."
-msgstr ""
+msgstr "True, um importierte Ereignisse zu löschen."
 
 msgid "Reload events imported from this source."
-msgstr ""
+msgstr "Aus dieser Quelle importierte Ereignisse neu laden."
 
 msgid "True to reload the import."
-msgstr ""
+msgstr "True, um den Import neu zu laden."
 
 #, fuzzy
 msgid "Update Automatically"
@@ -9081,13 +9081,13 @@ msgstr "Termin ändern"
 
 
 msgid "Configure an automatic update frequency."
-msgstr ""
+msgstr "Automatische Aktualisierungshäufigkeit konfigurieren."
 
 msgid "Set the automatic update frequency."
-msgstr ""
+msgstr "Automatische Aktualisierungshäufigkeit festlegen."
 
 msgid "Update frequency constant."
-msgstr ""
+msgstr "Aktualisierungshäufigkeitskonstante."
 
 #, fuzzy, php-format
 msgid "%s created this import."
@@ -9096,7 +9096,7 @@ msgstr "%s hat diese Abstimmung erstellt."
 
 #, php-format
 msgid "Unknown import trigger frequency \"%s\"."
-msgstr ""
+msgstr "Unbekannte Import-Auslösehäufigkeit \\\"%s\\\"."
 
 #, fuzzy
 msgid "React to events being created or updated."
@@ -9104,10 +9104,10 @@ msgstr "Der regelmäßiger Termin wurde geändert."
 
 
 msgid "Test rules which run when an event is created or updated."
-msgstr ""
+msgstr "Regeln testen, die beim Erstellen oder Aktualisieren eines Ereignisses ausgeführt werden."
 
 msgid "Event Fields"
-msgstr ""
+msgstr "Ereignisfelder"
 
 
 #, fuzzy
@@ -9163,7 +9163,7 @@ msgid "Conference"
 msgstr "Konferenz"
 
 msgid "Import .ics File"
-msgstr ""
+msgstr ".ics-Datei importieren"
 
 #, fuzzy
 msgid ".ics File"
@@ -9171,7 +9171,7 @@ msgstr "Datei ansehen"
 
 
 msgid "Import an event in \".ics\" (iCalendar) format."
-msgstr ""
+msgstr "Ereignis im \\\".ics\\\"-Format (iCalendar) importieren."
 
 #, fuzzy
 msgid "Source File"
@@ -9184,10 +9184,10 @@ msgstr "Datei"
 
 
 msgid "ICS file to import."
-msgstr ""
+msgstr "Zu importierende ICS-Datei."
 
 msgid "File PHID to import."
-msgstr ""
+msgstr "Datei-PHID für den Import."
 
 #, fuzzy
 msgid "File PHID."
@@ -9201,7 +9201,7 @@ msgstr "Datei '%s'"
 
 #, php-format
 msgid "Unable to load file (\"%s\") for import."
-msgstr ""
+msgstr "Datei (\\\"%s\\\") für den Import konnte nicht geladen werden."
 
 msgid ""
 "You can not disable import of an ICS file because the entire import occurs "
@@ -9210,13 +9210,13 @@ msgid ""
 msgstr ""
 
 msgid "Import .ics URI"
-msgstr ""
+msgstr ".ics-URI importieren"
 
 msgid ".ics URI"
-msgstr ""
+msgstr ".ics-URI"
 
 msgid "Import or subscribe to a calendar in .ics format by URI."
-msgstr ""
+msgstr "Kalender im .ics-Format per URI importieren oder abonnieren."
 
 #, fuzzy
 msgid "Source URI"
@@ -9227,7 +9227,7 @@ msgid "URI"
 msgstr "URI"
 
 msgid "URI to import."
-msgstr ""
+msgstr "Zu importierende URI."
 
 #, fuzzy
 msgid "New URI."
@@ -9236,34 +9236,34 @@ msgstr "Neuer Pfad"
 
 #, php-format
 msgid "Private User %d"
-msgstr ""
+msgstr "Privater Benutzer %d"
 
 
 #, php-format
 msgid "Unnamed Event \"%s\""
-msgstr ""
+msgstr "Unbenanntes Ereignis \\\"%s\\\""
 
 
 msgid "Unnamed Imported Event"
-msgstr ""
+msgstr "Unbenanntes importiertes Ereignis"
 
 msgid "alice invites a.lincoln via verified email"
-msgstr ""
+msgstr "alice lädt a.lincoln per verifizierter E-Mail ein"
 
 msgid "a.lincoln self-invite via verified email"
-msgstr ""
+msgstr "a.lincoln-Selbsteinladung per verifizierter E-Mail"
 
 #, php-format
 msgid "Unexpected events in file \"%s\" on test \"%s\""
-msgstr ""
+msgstr "Unerwartete Ereignisse in Datei \\\"%s\\\" bei Test \\\"%s\\\""
 
 #, php-format
 msgid "Unexpected invitees in file \"%s\" on test \"%s\""
-msgstr ""
+msgstr "Unerwartete Eingeladene in Datei \\\"%s\\\" bei Test \\\"%s\\\""
 
 #, php-format
 msgid "Unexpected presence of user \"%s\" in file \"%s\" on test \"%s\""
-msgstr ""
+msgstr "Unerwartete Anwesenheit von Benutzer \\\"%s\\\" in Datei \\\"%s\\\" bei Test \\\"%s\\\""
 
 #, fuzzy, php-format
 msgid "Unknown Message \"%s\""
@@ -9282,7 +9282,7 @@ msgstr "Teilnahme absagen"
 
 #, php-format
 msgid "Deleted event \"%s\" which is no longer present in the source."
-msgstr ""
+msgstr "Ereignis \\\"%s\\\" gelöscht, das in der Quelle nicht mehr vorhanden ist."
 
 #, fuzzy
 msgid "Duplicate Event"
@@ -9291,7 +9291,7 @@ msgstr "Duplikat"
 
 #, php-format
 msgid "Ignored duplicate event \"%s\" present in source."
-msgstr ""
+msgstr "Doppeltes Ereignis \\\"%s\\\" in der Quelle ignoriert."
 
 #, fuzzy
 msgid "No Events Imported"
@@ -9299,10 +9299,10 @@ msgstr "Keine Termine gefunden."
 
 
 msgid "Found no valid events to import."
-msgstr ""
+msgstr "Keine gültigen Ereignisse zum Importieren gefunden."
 
 msgid "Out of Range"
-msgstr ""
+msgstr "Außerhalb des Bereichs"
 
 msgid ""
 "Ignored an event with an out-of-range date. Only dates between 1970 and 2037 "
@@ -9326,18 +9326,18 @@ msgid ""
 msgstr ""
 
 msgid "ICS Parse Error"
-msgstr ""
+msgstr "ICS-Parse-Fehler"
 
 #, php-format
 msgid "Failed to parse ICS data (\"%s\"): %s"
-msgstr ""
+msgstr "ICS-Daten (\\\"%s\\\") konnten nicht geparst werden: %s"
 
 msgid "ICS Parser Warning"
-msgstr ""
+msgstr "ICS-Parser-Warnung"
 
 #, php-format
 msgid "Warning (\"%s\") while parsing ICS data (near line %s): %s"
-msgstr ""
+msgstr "Warnung (\\\"%s\\\") beim Parsen von ICS-Daten (nahe Zeile %s): %s"
 
 #, fuzzy
 msgid "Ignored Node"
@@ -9346,7 +9346,7 @@ msgstr "Ignoriert"
 
 #, php-format
 msgid "Ignored unsupported \"%s\" node present in source."
-msgstr ""
+msgstr "Nicht unterstützten Knoten \\\"%s\\\" in der Quelle ignoriert."
 
 #, fuzzy
 msgid "Original Event"
@@ -9360,14 +9360,14 @@ msgid ""
 msgstr ""
 
 msgid "Orphan"
-msgstr ""
+msgstr "Verwaist"
 
 #, php-format
 msgid "Found orphaned child event (\"%s\") without a parent event (\"%s\")."
-msgstr ""
+msgstr "Verwaistes untergeordnetes Ereignis (\\\"%s\\\") ohne übergeordnetes Ereignis (\\\"%s\\\") gefunden."
 
 msgid "Queued"
-msgstr ""
+msgstr "In Warteschlange"
 
 #, php-format
 msgid ""
@@ -9376,11 +9376,11 @@ msgid ""
 msgstr ""
 
 msgid "Import Triggered"
-msgstr ""
+msgstr "Import ausgelöst"
 
 
 msgid "Started background processing."
-msgstr ""
+msgstr "Hintergrundverarbeitung gestartet."
 
 #, fuzzy
 msgid "Triggered a periodic update."
@@ -9398,7 +9398,7 @@ msgstr "Termin ändern"
 
 
 msgid "Test and debug notifications about upcoming events."
-msgstr ""
+msgstr "Benachrichtigungen über bevorstehende Ereignisse testen und debuggen."
 
 msgid ""
 "Notify about events in the next __N__ minutes (default: 15). Setting this to "
@@ -9411,31 +9411,31 @@ msgid ""
 msgstr ""
 
 msgid "List of import IDs to reload."
-msgstr ""
+msgstr "Liste der neu zu ladenden Import-IDs."
 
 msgid "Specify at least one import ID to reload."
-msgstr ""
+msgstr "Mindestens eine neu zu ladende Import-ID angeben."
 
 #, php-format
 msgid "Unable to load Calendar import with ID \"%s\"."
-msgstr ""
+msgstr "Kalender-Import mit ID \\\"%s\\\" konnte nicht geladen werden."
 
 #, php-format
 msgid "Importing \"%s\"..."
-msgstr ""
+msgstr "\\\"%s\\\" wird importiert..."
 
 
 #, php-format
 msgid "%s is starting in %s minute(s), at %s."
-msgstr ""
+msgstr "%s beginnt in %s Minute(n), um %s."
 
 #, php-format
 msgid "(+%s more...)"
-msgstr ""
+msgstr "(+%s weitere...)"
 
 
 msgid "[Reminder]"
-msgstr ""
+msgstr "[Erinnerung]"
 
 #, php-format
 msgid ""
@@ -9450,18 +9450,18 @@ msgstr ""
 
 #, php-format
 msgid "Unexpected key \"%s\" in datetime dictionary, expected keys: %s."
-msgstr ""
+msgstr "Unerwarteter Schlüssel \\\"%s\\\" im Datums-/Zeitwörterbuch, erwartete Schlüssel: %s."
 
 #, php-format
 msgid "Expected key \"%s\" with value \"%s\" in datetime dictionary."
-msgstr ""
+msgstr "Schlüssel \\\"%s\\\" mit Wert \\\"%s\\\" im Datums-/Zeitwörterbuch erwartet."
 
 #, php-format
 msgid "Expected key \"%s\" in datetime dictionary."
-msgstr ""
+msgstr "Schlüssel \\\"%s\\\" im Datums-/Zeitwörterbuch erwartet."
 
 msgid "Expected \"PhutilCalendarDuration\" object or ISO8601 duration string."
-msgstr ""
+msgstr "\\\"PhutilCalendarDuration\\\"-Objekt oder ISO8601-Dauerzeichenkette erwartet."
 
 #, fuzzy
 msgid "Datetime has no timezone or viewer timezone."
@@ -9470,19 +9470,19 @@ msgstr "Die ausgewählte Zeitzone ist ungültig."
 
 #, php-format
 msgid "Unexpected key \"%s\" in duration dictionary, expected keys: %s."
-msgstr ""
+msgstr "Unerwarteter Schlüssel \\\"%s\\\" im Dauerwörterbuch, erwartete Schlüssel: %s."
 
 #, php-format
 msgid "Expected ISO8601 duration in the format \"P12DT3H4M5S\", found \"%s\"."
-msgstr ""
+msgstr "ISO8601-Dauer im Format \\\"P12DT3H4M5S\\\" erwartet, gefunden: \\\"%s\\\"."
 
 #, php-format
 msgid "RRULE dictionary includes unknown key \"%s\". Expected keys are: %s."
-msgstr ""
+msgstr "RRULE-Wörterbuch enthält unbekannten Schlüssel \\\"%s\\\". Erwartete Schlüssel: %s."
 
 #, php-format
 msgid "Unexpected value \"%s\" in \"%s\" RULE property: expected an integer."
-msgstr ""
+msgstr "Unerwarteter Wert \\\"%s\\\" in RULE-Eigenschaft \\\"%s\\\": Ganzzahl erwartet."
 
 #, php-format
 msgid ""
@@ -9496,19 +9496,19 @@ msgstr ""
 
 #, php-format
 msgid "RRULE COUNT value \"%s\" is invalid: count must be at least 1."
-msgstr ""
+msgstr "RRULE-COUNT-Wert \\\"%s\\\" ist ungültig: Anzahl muss mindestens 1 sein."
 
 #, php-format
 msgid "RRULE FREQ \"%s\" is invalid. Valid frequencies are: %s."
-msgstr ""
+msgstr "RRULE-FREQ \\\"%s\\\" ist ungültig. Gültige Häufigkeiten: %s."
 
 #, php-format
 msgid "RRULE INTERVAL \"%s\" is invalid: interval must be an integer."
-msgstr ""
+msgstr "RRULE-INTERVAL \\\"%s\\\" ist ungültig: Intervall muss eine Ganzzahl sein."
 
 #, php-format
 msgid "RRULE INTERVAL \"%s\" is invalid: interval must be 1 or more."
-msgstr ""
+msgstr "RRULE-INTERVAL \\\"%s\\\" ist ungültig: Intervall muss mindestens 1 sein."
 
 #, php-format
 msgid ""
@@ -9533,7 +9533,7 @@ msgstr ""
 
 #, php-format
 msgid "RRULE specifies BYSETPOS with FREQ \"%s\", but this is invalid."
-msgstr ""
+msgstr "RRULE gibt BYSETPOS mit FREQ \\\"%s\\\" an, was ungültig ist."
 
 msgid ""
 "RRULE evaluation failed to generate more events in the next 100 years. This "
@@ -9542,7 +9542,7 @@ msgstr ""
 
 #, php-format
 msgid "Invalid iteration interval (\"%d\"), must be at least 1."
-msgstr ""
+msgstr "Ungültiges Iterationsintervall (\\\"%d\\\"), muss mindestens 1 sein."
 
 #, php-format
 msgid ""
@@ -9557,16 +9557,16 @@ msgstr ""
 
 #, php-format
 msgid "Value \"%s\" in RRULE \"%s\" parameter is invalid: it must not be zero."
-msgstr ""
+msgstr "Wert \\\"%s\\\" im RRULE-Parameter \\\"%s\\\" ist ungültig: darf nicht null sein."
 
 msgid "Recurring event range queries must have an end date, a limit, or both."
-msgstr ""
+msgstr "Bereichsabfragen für wiederkehrende Ereignisse müssen ein Enddatum, ein Limit oder beides haben."
 
 msgid "Simple daily event."
-msgstr ""
+msgstr "Einfaches tägliches Ereignis."
 
 msgid "Hourly event with BYHOUR."
-msgstr ""
+msgstr "Stündliches Ereignis mit BYHOUR."
 
 #, fuzzy
 msgid "Yearly event."
@@ -9574,16 +9574,16 @@ msgstr "Jährlich"
 
 
 msgid "Secondly event with many constraints."
-msgstr ""
+msgstr "Sekundliches Ereignis mit vielen Einschränkungen."
 
 msgid "Set with no sources."
-msgstr ""
+msgstr "Menge ohne Quellen."
 
 msgid "Set with empty list source."
-msgstr ""
+msgstr "Menge mit leerer Listenquelle."
 
 msgid "Simple date list."
-msgstr ""
+msgstr "Einfache Datumsliste."
 
 #, fuzzy
 msgid "Multiple date lists."
@@ -9591,13 +9591,13 @@ msgstr "Mehrere Empfänger"
 
 
 msgid "Set of all results in multiple lists with exclusions."
-msgstr ""
+msgstr "Menge aller Ergebnisse aus mehreren Listen mit Ausschlüssen."
 
 msgid "Multiple lists, one result."
-msgstr ""
+msgstr "Mehrere Listen, ein Ergebnis."
 
 msgid "Multiple lists, time window."
-msgstr ""
+msgstr "Mehrere Listen, Zeitfenster."
 
 #, fuzzy
 msgid "Correct event indexes with start date."
@@ -9605,7 +9605,7 @@ msgstr "Es existiert kein Objekt mit diesem Namen."
 
 
 msgid "Found unexpected property at ICS document root."
-msgstr ""
+msgstr "Unerwartete Eigenschaft im ICS-Dokumentstamm gefunden."
 
 msgid ""
 "Expected all \"BEGIN:\" sections in ICS document to have corresponding \"END:"
@@ -9619,42 +9619,42 @@ msgstr ""
 
 #, php-format
 msgid "Found unexpected node \"%s\" inside node \"%s\"."
-msgstr ""
+msgstr "Unerwarteten Knoten \\\"%s\\\" in Knoten \\\"%s\\\" gefunden."
 
 msgid "Found unexpected \"END\" without a \"BEGIN\"."
-msgstr ""
+msgstr "Unerwartetes \\\"END\\\" ohne \\\"BEGIN\\\" gefunden."
 
 #, php-format
 msgid "Found mismatched \"BEGIN\" (\"%s\") and \"END\" (\"%s\") sections."
-msgstr ""
+msgstr "Nicht übereinstimmende \\\"BEGIN\\\"- (\\\"%s\\\") und \\\"END\\\"- (\\\"%s\\\") Abschnitte gefunden."
 
 msgid "Found malformed property in ICS document."
-msgstr ""
+msgstr "Fehlerhafte Eigenschaft im ICS-Dokument gefunden."
 
 #, php-format
 msgid "Found malformed property in ICS document: %s"
-msgstr ""
+msgstr "Fehlerhafte Eigenschaft im ICS-Dokument gefunden: %s"
 
 msgid "Found malformed double-quoted string in ICS document parameter value."
-msgstr ""
+msgstr "Fehlerhafte doppelt in Anführungszeichen gesetzte Zeichenkette im ICS-Dokumentparameterwert gefunden."
 
 msgid "Expected \":\" after parameters in ICS document property."
-msgstr ""
+msgstr "\\\":\\\" nach Parametern in ICS-Dokumenteigenschaft erwartet."
 
 #, php-format
 msgid "Found unexpected text (\"%s\") after reading parameter value."
-msgstr ""
+msgstr "Unerwarteten Text (\\\"%s\\\") nach Lesen des Parameterwerts gefunden."
 
 #, php-format
 msgid "Unable to decode base64 data: %s"
-msgstr ""
+msgstr "Base64-Daten konnten nicht dekodiert werden: %s"
 
 #, php-format
 msgid "Unexpected BOOLEAN value \"%s\"."
-msgstr ""
+msgstr "Unerwarteter BOOLEAN-Wert \\\"%s\\\"."
 
 msgid "ICS document contains TEXT value ending with unescaped backslash."
-msgstr ""
+msgstr "ICS-Dokument enthält TEXT-Wert, der mit einem nicht-escapen Backslash endet."
 
 #, php-format
 msgid ""
@@ -9667,13 +9667,13 @@ msgstr ""
 
 #, php-format
 msgid "ICS Parse Error: %s"
-msgstr ""
+msgstr "ICS-Parse-Fehler: %s"
 
 msgid "Expected DATE-TIME to have exactly one value, found none."
-msgstr ""
+msgstr "DATE-TIME sollte genau einen Wert haben, keiner gefunden."
 
 msgid "Expected DATE-TIME to have exactly one value, found more than one."
-msgstr ""
+msgstr "DATE-TIME sollte genau einen Wert haben, mehr als einer gefunden."
 
 #, php-format
 msgid ""
@@ -9688,14 +9688,14 @@ msgstr "Fehler beim Verarbeiten Deiner Mail (%s)"
 
 
 msgid "Expected DURATION to have exactly one value, found none."
-msgstr ""
+msgstr "DURATION sollte genau einen Wert haben, keiner gefunden."
 
 msgid "Expected DURATION to have exactly one value, found more than one."
-msgstr ""
+msgstr "DURATION sollte genau einen Wert haben, mehr als einer gefunden."
 
 #, php-format
 msgid "Invalid DURATION: %s"
-msgstr ""
+msgstr "Ungültige DURATION: %s"
 
 #, php-format
 msgid ""
@@ -9704,11 +9704,11 @@ msgstr ""
 
 #, php-format
 msgid "TZID \"%s\" is unknown, guessing \"%s\" based on pattern \"%s\"."
-msgstr ""
+msgstr "TZID \\\"%s\\\" ist unbekannt, \\\"%s\\\" wird basierend auf Muster \\\"%s\\\" angenommen."
 
 #, php-format
 msgid "TZID \"%s\" is unknown, using UTC instead."
-msgstr ""
+msgstr "TZID \\\"%s\\\" ist unbekannt, stattdessen wird UTC verwendet."
 
 msgid ""
 "Unable to write ICS document: event has no UID, but each event MUST have a "
@@ -9721,7 +9721,7 @@ msgid ""
 msgstr ""
 
 msgid "Expected exception for floating time with no viewer timezone."
-msgstr ""
+msgstr "Ausnahme für ungebundene Zeit ohne Betrachter-Zeitzone erwartet."
 
 #, fuzzy
 msgid "Weekly recurring event."
@@ -9730,15 +9730,15 @@ msgstr "Neuer Regelmäßiger Termin"
 
 #, php-format
 msgid "Expected no exception parsing \"%s\", got: %s"
-msgstr ""
+msgstr "Keine Ausnahme beim Parsen von \\\"%s\\\" erwartet, erhalten: %s"
 
 #, php-format
 msgid "Expected one exception parsing \"%s\", got a different one: %s"
-msgstr ""
+msgstr "Beim Parsen von \\\"%s\\\" eine Ausnahme erwartet, eine andere erhalten: %s"
 
 #, php-format
 msgid "Expected exception parsing \"%s\", got none."
-msgstr ""
+msgstr "Ausnahme beim Parsen von \\\"%s\\\" erwartet, keine erhalten."
 
 #, fuzzy, php-format
 msgid "ICS: %s"
@@ -9752,7 +9752,7 @@ msgstr "Kalendereintrag"
 
 #, php-format
 msgid "Calendar Export %s: %s"
-msgstr ""
+msgstr "Kalenderexport %s: %s"
 
 
 #, fuzzy
@@ -9767,7 +9767,7 @@ msgstr "Kalender"
 
 #, php-format
 msgid "Calendar Import %s: %s"
-msgstr ""
+msgstr "Kalenderimport %s: %s"
 
 #, fuzzy
 msgid "Event Host"
@@ -9816,10 +9816,10 @@ msgstr "Beiträge"
 
 
 msgid "Search for events created by specific hosts."
-msgstr ""
+msgstr "Ereignisse nach bestimmten Gastgebern suchen."
 
 msgid "Search for events with specific invited users."
-msgstr ""
+msgstr "Ereignisse mit bestimmten eingeladenen Benutzern suchen."
 
 msgid "Occurs After"
 msgstr "Termine nach"
@@ -9834,7 +9834,7 @@ msgid "Cancelled Events"
 msgstr "Abgesagte Termine"
 
 msgid "Search for active or cancelled events."
-msgstr ""
+msgstr "Aktive oder abgesagte Ereignisse suchen."
 
 #, fuzzy
 msgid "Import Sources"
@@ -9842,13 +9842,13 @@ msgstr "Quellcode"
 
 
 msgid "Search for events with specific import sources."
-msgstr ""
+msgstr "Ereignisse mit bestimmten Importquellen suchen."
 
 msgid "Display Options"
 msgstr "Anzeigeeinstellungen"
 
 msgid "Display events in a certain display format."
-msgstr ""
+msgstr "Ereignisse in einem bestimmten Anzeigeformat anzeigen."
 
 msgid "Active Events Only"
 msgstr "Nur Aktive Termine"
@@ -9880,10 +9880,10 @@ msgid "No events found."
 msgstr "Keine Termine gefunden."
 
 msgid "Invalid date or time value set as query value."
-msgstr ""
+msgstr "Ungültiger Datums- oder Zeitwert als Abfragewert festgelegt."
 
 msgid "Export Query as .ics"
-msgstr ""
+msgstr "Abfrage als .ics exportieren"
 
 #, fuzzy
 msgid "Drop .ics Files to Import"
@@ -9916,7 +9916,7 @@ msgstr "Termine im Kalender"
 
 
 msgid "All Logs"
-msgstr ""
+msgstr "Alle Protokolle"
 
 #, fuzzy
 msgid "All Imports"
@@ -9934,11 +9934,11 @@ msgid ""
 msgstr ""
 
 msgid "Unable to copy from parent event: this is not a child event."
-msgstr ""
+msgstr "Vom übergeordneten Ereignis kann nicht kopiert werden: Dies ist kein untergeordnetes Ereignis."
 
 #, php-format
 msgid "Sequence \"%s\" is not valid for event!"
-msgstr ""
+msgstr "Sequenz \\\"%s\\\" ist für das Ereignis nicht gültig!"
 
 msgid "Daily"
 msgstr "Täglich"
@@ -9966,10 +9966,10 @@ msgstr "%s - %s"
 
 #, php-format
 msgid "%s"
-msgstr ""
+msgstr "%s"
 
 msgid "Attending"
-msgstr ""
+msgstr "Nimmt teil"
 
 
 #, fuzzy
@@ -9983,26 +9983,26 @@ msgstr "Der neue Pfad des Dokuments."
 
 
 msgid "The event description."
-msgstr ""
+msgstr "Die Ereignisbeschreibung."
 
 
 msgid "True if the event is an all day event."
-msgstr ""
+msgstr "True, wenn das Ereignis ein ganztägiges Ereignis ist."
 
 
 msgid "Start date and time of the event."
-msgstr ""
+msgstr "Startdatum und -uhrzeit des Ereignisses."
 
 
 msgid "End date and time of the event."
-msgstr ""
+msgstr "Enddatum und -uhrzeit des Ereignisses."
 
 
 msgid "Available"
 msgstr "Verfügbar"
 
 msgid "Busy"
-msgstr ""
+msgstr "Beschäftigt"
 
 msgid "Away"
 msgstr "Außer Haus"
@@ -10011,16 +10011,16 @@ msgid "Public"
 msgstr "Öffentlich"
 
 msgid "Export only public data."
-msgstr ""
+msgstr "Nur öffentliche Daten exportieren."
 
 msgid "Only publicly available data is exported."
-msgstr ""
+msgstr "Es werden nur öffentlich verfügbare Daten exportiert."
 
 msgid "Privileged"
-msgstr ""
+msgstr "Privilegiert"
 
 msgid "Export private data."
-msgstr ""
+msgstr "Private Daten exportieren."
 
 msgid ""
 "Anyone who knows the URI for this export can view all event details as "
@@ -10028,7 +10028,7 @@ msgid ""
 msgstr ""
 
 msgid "No Automatic Updates"
-msgstr ""
+msgstr "Keine automatischen Aktualisierungen"
 
 #, fuzzy
 msgid "Update Hourly"
@@ -10051,16 +10051,16 @@ msgstr "Projektnamen oder Funktion eintippen..."
 
 
 msgid "Browse Users"
-msgstr ""
+msgstr "Benutzer durchsuchen"
 
 msgid "Type a user name..."
 msgstr "Benutzername eintippen..."
 
 msgid "Browse Viewer"
-msgstr ""
+msgstr "Betrachter durchsuchen"
 
 msgid "Type viewer()..."
-msgstr ""
+msgstr "viewer() eingeben..."
 
 msgid "Current Viewer"
 msgstr "Aktueller Benutzer"
@@ -10074,7 +10074,7 @@ msgid ""
 msgstr ""
 
 msgid "Events are only rendered indirectly."
-msgstr ""
+msgstr "Ereignisse werden nur indirekt gerendert."
 
 #, fuzzy, php-format
 msgid "Away at %s until %s."
@@ -10142,7 +10142,7 @@ msgstr "%s hat den Termin abgesagt."
 
 #, php-format
 msgid "%s reinstated this event."
-msgstr ""
+msgstr "%s hat dieses Ereignis wiederhergestellt."
 
 #, php-format
 msgid "%s cancelled %s."
@@ -10179,7 +10179,7 @@ msgstr "Die Produktart ist ungültig."
 
 #, php-format
 msgid "Event frequency \"%s\" is not valid. Valid frequencies are: %s."
-msgstr ""
+msgstr "Ereignishäufigkeit \\\"%s\\\" ist ungültig. Gültige Häufigkeiten: %s."
 
 #, php-format
 msgid "%s set this event to repeat daily."
@@ -10350,7 +10350,7 @@ msgstr "%s hat den Namen des Termins von %s auf %s geändert."
 
 #, php-format
 msgid "Mode \"%s\" is not a valid policy mode. Valid modes are: %s."
-msgstr ""
+msgstr "Modus \\\"%s\\\" ist kein gültiger Richtlinienmodus. Gültige Modi: %s."
 
 #, fuzzy, php-format
 msgid "%s renamed this export from %s to %s."
@@ -10369,10 +10369,10 @@ msgstr "%s hat die eigene Auffassung zu diesem Termin nochmal überdacht."
 
 #, php-format
 msgid "Query key \"%s\" does not identify a valid event query."
-msgstr ""
+msgstr "Abfrageschlüssel \\\"%s\\\" identifiziert keine gültige Ereignisabfrage."
 
 msgid "Calendar exports must have a query key."
-msgstr ""
+msgstr "Kalenderexporte müssen einen Abfrageschlüssel haben."
 
 #, fuzzy, php-format
 msgid "%s deleted imported events from this source."
@@ -10396,7 +10396,7 @@ msgstr "%s hat das Startdatum von %s von %s zu %s geändert."
 
 #, php-format
 msgid "Import frequency \"%s\" is not valid. Valid frequencies are: %s."
-msgstr ""
+msgstr "Importhäufigkeit \\\"%s\\\" ist ungültig. Gültige Häufigkeiten: %s."
 
 #, fuzzy, php-format
 msgid "%s imported an ICS file."
@@ -10411,7 +10411,7 @@ msgstr ""
 
 #, php-format
 msgid "File PHID \"%s\" is not valid or not visible."
-msgstr ""
+msgstr "Datei-PHID \\\"%s\\\" ist ungültig oder nicht sichtbar."
 
 #, fuzzy
 msgid "You must select an \".ics\" file to import."
@@ -10456,26 +10456,26 @@ msgstr "%s hat diesen Termin erzeugt."
 
 #, php-format
 msgid "No resource source exists with name \"%s\"!"
-msgstr ""
+msgstr "Keine Ressourcenquelle mit dem Namen \\\"%s\\\" vorhanden!"
 
 #, php-format
 msgid "Attempting to resolve unknown resource, \"%s\"."
-msgstr ""
+msgstr "Es wird versucht, eine unbekannte Ressource \\\"%s\\\" aufzulösen."
 
 #, php-format
 msgid "Found %d binary resources."
-msgstr ""
+msgstr "%d binäre Ressourcen gefunden."
 
 #, php-format
 msgid "Found %d text resources."
-msgstr ""
+msgstr "%d Text-Ressourcen gefunden."
 
 #, php-format
 msgid "Found %d packages."
-msgstr ""
+msgstr "%d Pakete gefunden."
 
 msgid "Binary"
-msgstr ""
+msgstr "Binär"
 
 msgid "Text"
 msgstr "Text"
@@ -10485,7 +10485,7 @@ msgstr "Paket"
 
 #, php-format
 msgid "Writing map \"%s\"."
-msgstr ""
+msgstr "Karte \\\"%s\\\" wird geschrieben."
 
 #, php-format
 msgid ""
@@ -10495,11 +10495,11 @@ msgstr ""
 
 #, php-format
 msgid "Resource \"%s\" must %s at most one Celerity target."
-msgstr ""
+msgstr "Ressource \\\"%s\\\" muss %s höchstens ein Celerity-Ziel."
 
 #, php-format
 msgid "Cycle detected in resource graph: %s"
-msgstr ""
+msgstr "Zyklus im Ressourcengraph erkannt: %s"
 
 #, php-format
 msgid ""
@@ -10529,46 +10529,46 @@ msgid "Expected file '%s' in '%s' to be a sprite source ending in '%s'."
 msgstr ""
 
 msgid "Attempting to add more metadata after metadata has been locked."
-msgstr ""
+msgstr "Es wird versucht, nach dem Sperren weitere Metadaten hinzuzufügen."
 
 #, php-format
 msgid "No resource with symbol \"%s\" exists in source \"%s\"!"
-msgstr ""
+msgstr "Keine Ressource mit dem Symbol \\\"%s\\\" in Quelle \\\"%s\\\" vorhanden!"
 
 #, php-format
 msgid "Unable to render resource \"%s\", which has unknown type \"%s\"."
-msgstr ""
+msgstr "Ressource \\\"%s\\\" kann nicht gerendert werden, da der Typ \\\"%s\\\" unbekannt ist."
 
 #, php-format
 msgid "Literal %s is not allowed inside inline script."
-msgstr ""
+msgstr "Literal %s ist in Inline-Skripts nicht erlaubt."
 
 msgid "Celerity"
-msgstr ""
+msgstr "Celerity"
 
 msgid "Only static resources may be served."
-msgstr ""
+msgstr "Nur statische Ressourcen dürfen bereitgestellt werden."
 
 msgid "Rebuild CSS sprite sheets."
-msgstr ""
+msgstr "CSS-Sprite-Sheets neu aufbauen."
 
 msgid "Force regeneration even no sources have changed."
-msgstr ""
+msgstr "Neuaufbau erzwingen, auch wenn keine Quellen geändert wurden."
 
 #, php-format
 msgid "Do not invoke `%s` after updating sprites"
-msgstr ""
+msgstr "`%s` nach dem Aktualisieren von Sprites nicht aufrufen"
 
 msgid "WARNING"
-msgstr ""
+msgstr "WARNUNG"
 
 #, php-format
 msgid "`%s` not found in PATH."
-msgstr ""
+msgstr "`%s` nicht in PATH gefunden."
 
 #, php-format
 msgid "Sprites will not be optimized! Install `%s`!"
-msgstr ""
+msgstr "Sprites werden nicht optimiert! `%s` installieren!"
 
 #, fuzzy
 msgid "Optimizing..."
@@ -10576,25 +10576,25 @@ msgstr "Importiere..."
 
 
 msgid "Done generating sprites - updating map..."
-msgstr ""
+msgstr "Sprites generiert - Karte wird aktualisiert..."
 
 msgid "Rebuild static resource maps."
-msgstr ""
+msgstr "Statische Ressourcenkarten neu aufbauen."
 
 #, php-format
 msgid "Rebuilding %s resource source(s)."
-msgstr ""
+msgstr "%s Ressourcenquelle(n) wird/werden neu aufgebaut."
 
 #, php-format
 msgid "Rebuilding resource source \"%s\" (%s)..."
-msgstr ""
+msgstr "Ressourcenquelle \\\"%s\\\" (%s) wird neu aufgebaut..."
 
 msgid "Rebuild syntax highlighting CSS."
-msgstr ""
+msgstr "Syntax-Highlighting-CSS neu aufbauen."
 
 #, php-format
 msgid "Rebuilt \"%s\" syntax CSS."
-msgstr ""
+msgstr "\\\"s%\\\"-Syntax-CSS neu aufgebaut."
 
 #, fuzzy
 msgid "Dark Mode (Experimental)"
@@ -10613,7 +10613,7 @@ msgid "Use Larger Font Size"
 msgstr "Große Schrift"
 
 msgid "Use Red/Green (Deuteranopia) Colors"
-msgstr ""
+msgstr "Rot/Grün-Farben (Deuteranopie) verwenden"
 
 #, php-format
 msgid ""
@@ -10627,10 +10627,10 @@ msgstr "Conduit-Zertifikat"
 
 
 msgid "Conduit"
-msgstr ""
+msgstr "Conduit"
 
 msgid "Developer API"
-msgstr ""
+msgstr "Entwickler-API"
 
 #, php-format
 msgid ""
@@ -10640,7 +10640,7 @@ msgstr ""
 
 #, php-format
 msgid "API Method \"%s\" does not define these parameters: %s."
-msgstr ""
+msgstr "API-Methode \\\"%s\\\" definiert diese Parameter nicht: %s."
 
 msgid ""
 "You do not have access to the application which provides this API method."
@@ -10648,19 +10648,19 @@ msgstr ""
 
 #, php-format
 msgid "%s should require authentication."
-msgstr ""
+msgstr "%s sollte Authentifizierung erfordern."
 
 #, php-format
 msgid "Request is missing required \"%s\" parameter."
-msgstr ""
+msgstr "Der Anfrage fehlt der erforderliche Parameter \\\"%s\\\"."
 
 #, php-format
 msgid "Signature verification failure. %s"
-msgstr ""
+msgstr "Signaturüberprüfung fehlgeschlagen. %s"
 
 #, php-format
 msgid "No user or device is associated with the public key \"%s\"."
-msgstr ""
+msgstr "Kein Benutzer oder Gerät ist dem öffentlichen Schlüssel \\\"%s\\\" zugeordnet."
 
 #, php-format
 msgid ""
@@ -10680,7 +10680,7 @@ msgstr ""
 
 #, php-format
 msgid "Provided \"%s\" (\"%s\") is not recognized."
-msgstr ""
+msgstr "Angegebenes \\\"%s\\\" (\\\"%s\\\") wird nicht erkannt."
 
 #, php-format
 msgid ""
@@ -10696,11 +10696,11 @@ msgstr ""
 
 #, php-format
 msgid "API token \"%s\" was previously valid, but has expired."
-msgstr ""
+msgstr "API-Token \\\"%s\\\" war früher gültig, ist aber abgelaufen."
 
 #, php-format
 msgid "API token \"%s\" is not valid."
-msgstr ""
+msgstr "API-Token \\\"%s\\\" ist ungültig."
 
 msgid ""
 "This request originates from outside of the cluster address range. Requests "
@@ -10708,16 +10708,16 @@ msgid ""
 msgstr ""
 
 msgid "API token is not associated with a valid user."
-msgstr ""
+msgstr "API-Token ist keinem gültigen Benutzer zugeordnet."
 
 msgid "Access token does not exist."
-msgstr ""
+msgstr "Zugriffstoken existiert nicht."
 
 msgid "Access token is invalid or expired."
-msgstr ""
+msgstr "Zugriffstoken ist ungültig oder abgelaufen."
 
 msgid "Access token is for invalid user."
-msgstr ""
+msgstr "Zugriffstoken gehört zu einem ungültigen Benutzer."
 
 #, fuzzy
 msgid "You do not have authorization to call this method."
@@ -10725,28 +10725,28 @@ msgstr "Du hast leider keine Berechtigung, dieses Objekt anzusehen."
 
 
 msgid "Authentication is invalid."
-msgstr ""
+msgstr "Authentifizierung ist ungültig."
 
 msgid "Session key is not present."
-msgstr ""
+msgstr "Sitzungsschlüssel ist nicht vorhanden."
 
 msgid "Session key is invalid."
-msgstr ""
+msgstr "Sitzungsschlüssel ist ungültig."
 
 msgid "User account is not permitted to use the API."
-msgstr ""
+msgstr "Das Benutzerkonto darf die API nicht verwenden."
 
 msgid "Method Parameters"
-msgstr ""
+msgstr "Methodenparameter"
 
 msgid "Method Result"
-msgstr ""
+msgstr "Methodenergebnis"
 
 msgid "Call"
-msgstr ""
+msgstr "Aufrufen"
 
 msgid "Method Call Result"
-msgstr ""
+msgstr "Methodenaufruf-Ergebnis"
 
 msgid ""
 "Use form-encoded data to submit parameters to Conduit endpoints. Sending a "
@@ -10763,7 +10763,7 @@ msgstr ""
 
 #, php-format
 msgid "Invalid parameter information was passed to method '%s'."
-msgstr ""
+msgstr "Ungültige Parameterinformationen wurden an Methode '%s' übergeben."
 
 #, php-format
 msgid ""
@@ -10776,20 +10776,20 @@ msgid ""
 msgstr ""
 
 msgid "Output Format"
-msgstr ""
+msgstr "Ausgabeformat"
 
 msgid "Human Readable"
-msgstr ""
+msgstr "Für Menschen lesbar"
 
 msgid "JSON"
-msgstr ""
+msgstr "JSON"
 
 msgid "Call Method"
-msgstr ""
+msgstr "Methode aufrufen"
 
 #, php-format
 msgid "API Method: %s"
-msgstr ""
+msgstr "API-Methode: %s"
 
 #, fuzzy
 msgid "Method Description"
@@ -10797,7 +10797,7 @@ msgstr "Beschreibung der Regel"
 
 
 msgid "Overview"
-msgstr ""
+msgstr "Übersicht"
 
 msgid "Examples"
 msgstr "Beispiele"
@@ -10808,7 +10808,7 @@ msgstr "Zahlungsart deaktivieren"
 
 
 msgid "This method is new and unstable. Its interface is subject to change."
-msgstr ""
+msgstr "Diese Methode ist neu und instabil. Ihre Schnittstelle kann sich ändern."
 
 #, fuzzy
 msgid "Deprecated Method"
@@ -10816,7 +10816,7 @@ msgstr "Von mir erzeugt"
 
 
 msgid "This method is deprecated."
-msgstr ""
+msgstr "Diese Methode ist veraltet."
 
 #, fuzzy
 msgid "Frozen Method"
@@ -10824,28 +10824,28 @@ msgstr "Zahlungsmethode"
 
 
 msgid "This method is frozen and will eventually be deprecated."
-msgstr ""
+msgstr "Diese Methode ist eingefroren und wird schließlich als veraltet markiert."
 
 msgid "Stability"
-msgstr ""
+msgstr "Stabilität"
 
 msgid "Summary"
 msgstr "Zusammenfassung"
 
 msgid "Returns"
-msgstr ""
+msgstr "Gibt zurück"
 
 msgid "See error message for details."
-msgstr ""
+msgstr "Für Details die Fehlermeldung beachten."
 
 msgid "Errors"
 msgstr "Fehler"
 
 msgid "OAuth clients may always call this method."
-msgstr ""
+msgstr "OAuth-Clients dürfen diese Methode immer aufrufen."
 
 msgid "OAuth clients may never call this method."
-msgstr ""
+msgstr "OAuth-Clients dürfen diese Methode niemals aufrufen."
 
 #, php-format
 msgid ""
@@ -10859,11 +10859,11 @@ msgstr "Autoren"
 
 
 msgid "Call Logs"
-msgstr ""
+msgstr "Aufrufprotokolle"
 
 #, php-format
 msgid "Use the %s panel in Settings to generate or manage API tokens."
-msgstr ""
+msgstr "Den Bereich %s in den Einstellungen verwenden, um API-Tokens zu generieren oder zu verwalten."
 
 msgid ""
 "If you submit parameters, these examples will update to show exactly how to "
@@ -10871,23 +10871,23 @@ msgid ""
 msgstr ""
 
 msgid "arc call-conduit"
-msgstr ""
+msgstr "arc call-conduit"
 
 msgid "cURL"
-msgstr ""
+msgstr "cURL"
 
 msgid "PHP"
-msgstr ""
+msgstr "PHP"
 
 #, php-format
 msgid "Conduit client \"%s\" is not known."
-msgstr ""
+msgstr "Conduit-Client \\\"%s\\\" ist nicht bekannt."
 
 msgid "<api-token>"
-msgstr ""
+msgstr "<api-token>"
 
 msgid "<parameters>"
-msgstr ""
+msgstr "<parameters>"
 
 msgid ""
 "Copy and paste this token into the prompt given to you by `arc install-"
@@ -10903,13 +10903,13 @@ msgid "Token"
 msgstr "Trophäe"
 
 msgid "Install Certificate"
-msgstr ""
+msgstr "Zertifikat installieren"
 
 msgid "Certificate Token"
-msgstr ""
+msgstr "Zertifikat-Token"
 
 msgid "Certificate Install Token"
-msgstr ""
+msgstr "Zertifikat-Installationstoken"
 
 #, fuzzy
 msgid "Edit API Token"
@@ -10927,13 +10927,13 @@ msgstr "Sollte mindestens %d Zeichen lang sein."
 
 
 msgid "Generate API Token"
-msgstr ""
+msgstr "API-Token generieren"
 
 msgid "Generate Token"
-msgstr ""
+msgstr "Token generieren"
 
 msgid "Generate a new API token?"
-msgstr ""
+msgstr "Neuen API-Token generieren?"
 
 msgid ""
 "This token is automatically generated, and used to make requests between "
@@ -10941,13 +10941,13 @@ msgid ""
 msgstr ""
 
 msgid "Token Name"
-msgstr ""
+msgstr "Token-Name"
 
 msgid "Copy-paste the API Token below to grant access to your account."
-msgstr ""
+msgstr "Den nachstehenden API-Token kopieren und einfügen, um Zugriff auf dein Konto zu gewähren."
 
 msgid "API Token"
-msgstr ""
+msgstr "API-Token"
 
 msgid ""
 "This will authorize the requesting script to act on your behalf permanently, "
@@ -10960,10 +10960,10 @@ msgid ""
 msgstr ""
 
 msgid "Grant Account Access"
-msgstr ""
+msgstr "Kontozugriff gewähren"
 
 msgid "Terminate API Token"
-msgstr ""
+msgstr "API-Token beenden"
 
 msgid ""
 "Really terminate this token? Any system using this token will no longer be "
@@ -10971,10 +10971,10 @@ msgid ""
 msgstr ""
 
 msgid "Terminate Token"
-msgstr ""
+msgstr "Token beenden"
 
 msgid "Terminate API Tokens"
-msgstr ""
+msgstr "API-Tokens beenden"
 
 msgid ""
 "Really terminate all active API tokens? Any systems using these tokens will "
@@ -10982,16 +10982,16 @@ msgid ""
 msgstr ""
 
 msgid "Terminate Tokens"
-msgstr ""
+msgstr "Tokens beenden"
 
 msgid "No Tokens to Terminate"
-msgstr ""
+msgstr "Keine zu beendenden Tokens"
 
 msgid "There are no API tokens to terminate."
-msgstr ""
+msgstr "Keine API-Tokens zum Beenden vorhanden."
 
 msgid "Conduit Logs"
-msgstr ""
+msgstr "Conduit-Protokolle"
 
 #, fuzzy
 msgid "Conduit Tokens"
@@ -11004,10 +11004,10 @@ msgstr "Nicht alle Bedingungen wurden erfüllt."
 
 
 msgid "Method to call."
-msgstr ""
+msgstr "Aufzurufende Methode."
 
 msgid "File to read parameters from, or \"-\" to read from stdin."
-msgstr ""
+msgstr "Datei, aus der Parameter gelesen werden, oder \\\"-\\\" zum Lesen von stdin."
 
 msgid ""
 "Force the request to execute in this process, rather than proxying to "
@@ -11020,21 +11020,21 @@ msgid ""
 msgstr ""
 
 msgid "Specify a method to call with \"--method\"."
-msgstr ""
+msgstr "Eine aufzurufende Methode mit \\\"--method\\\" angeben."
 
 msgid "Specify a file to read parameters from with \"--input\"."
-msgstr ""
+msgstr "Eine Datei zum Lesen der Parameter mit \\\"--input\\\" angeben."
 
 #, php-format
 msgid "No such user \"%s\" exists."
-msgstr ""
+msgstr "Kein Benutzer \\\"%s\\\" vorhanden."
 
 
 msgid "Reading input from stdin..."
-msgstr ""
+msgstr "Eingabe wird von stdin gelesen..."
 
 msgid "Unknown Error"
-msgstr ""
+msgstr "Unbekannter Fehler"
 
 #, fuzzy
 msgid "Stable"
@@ -11042,7 +11042,7 @@ msgstr "Tabelle"
 
 
 msgid "Unstable"
-msgstr ""
+msgstr "Instabil"
 
 #, php-format
 msgid ""
@@ -11063,23 +11063,23 @@ msgstr ""
 
 
 msgid "Connect a session-based client."
-msgstr ""
+msgstr "Einen sitzungsbasierten Client verbinden."
 
 msgid ""
 "Client/server version mismatch. Upgrade your server or downgrade your client."
 msgstr ""
 
 msgid "Client/server version mismatch. Upgrade your client."
-msgstr ""
+msgstr "Client/Server-Versionskonfllikt. Client aktualisieren."
 
 msgid "Client is unknown."
-msgstr ""
+msgstr "Client ist unbekannt."
 
 msgid "The username you are attempting to authenticate with is not valid."
-msgstr ""
+msgstr "Der Benutzername, mit dem du dich authentifizieren möchtest, ist ungültig."
 
 msgid "Your authentication certificate for this server is invalid."
-msgstr ""
+msgstr "Dein Authentifizierungszertifikat für diesen Server ist ungültig."
 
 msgid ""
 "The challenge token you are authenticating with is outside of the allowed "
@@ -11088,7 +11088,7 @@ msgid ""
 msgstr ""
 
 msgid "This server requires authentication."
-msgstr ""
+msgstr "Dieser Server erfordert Authentifizierung."
 
 #, php-format
 msgid ""
@@ -11117,10 +11117,10 @@ msgid ""
 msgstr ""
 
 msgid "Retrieve certificate information for a user."
-msgstr ""
+msgstr "Zertifikatsinformationen für einen Benutzer abrufen."
 
 msgid "Token does not exist or has expired."
-msgstr ""
+msgstr "Token existiert nicht oder ist abgelaufen."
 
 msgid ""
 "You have made too many invalid token requests recently. Wait before making "
@@ -11128,25 +11128,25 @@ msgid ""
 msgstr ""
 
 msgid "Certificate token points to an invalid user!"
-msgstr ""
+msgstr "Zertifikat-Token verweist auf einen ungültigen Benutzer!"
 
 msgid "Basic ping for monitoring or a health-check."
-msgstr ""
+msgstr "Einfacher Ping für Monitoring oder Gesundheitsprüfung."
 
 msgid "Returns the parameters of the Conduit methods."
-msgstr ""
+msgstr "Gibt die Parameter der Conduit-Methoden zurück."
 
 msgid "A boolean."
-msgstr ""
+msgstr "Ein Boolean."
 
 msgid "Single column PHID."
-msgstr ""
+msgstr "Einzelne Spalten-PHID."
 
 msgid "List of column PHIDs."
-msgstr ""
+msgstr "Liste von Spalten-PHIDs."
 
 msgid "List of position dictionaries."
-msgstr ""
+msgstr "Liste von Positionswörterbüchern."
 
 msgid "List with a mixture of PHIDs and dictionaries."
 msgstr ""
