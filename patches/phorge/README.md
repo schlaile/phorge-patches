@@ -276,3 +276,22 @@ Verification:
 
 - syntax check of both touched People query classes
 - code inspection of the viewer-scoped filter guards
+
+### `017-avoid-null-viewer-phid-in-phortune-searches.patch`
+
+This patch avoids querying account membership with a null viewer PHID in the
+default search paths for:
+
+- `PhortuneCartSearchEngine`
+- `PhortuneChargeSearchEngine`
+- `PhortuneSubscriptionSearchEngine`
+
+For anonymous viewers without an explicit account or merchant context, the
+existing user-facing behavior should simply be "You have no accounts!", without
+issuing a membership query for `null`.
+
+Verification:
+
+- syntax check of all three touched Phortune search engine classes
+- code inspection of the anonymous-viewer guard in
+  `buildQueryFromSavedQuery()`
