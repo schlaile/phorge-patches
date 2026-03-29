@@ -26,6 +26,22 @@ vendor/bin/phpstan --version
 vendor/bin/rector --version
 ```
 
+Use the local configs from this directory:
+
+```bash
+vendor/bin/phpstan analyse -c phpstan.neon /path/to/file.php
+vendor/bin/rector process -c rector.php /path/to/file.php --dry-run
+```
+
+Current notes:
+
+- `phpstan` is currently most useful as a parser-level finder on selected
+  slices
+- the local `phpstan` config uses a very light bootstrap for helper functions
+  instead of the full `__init_script__.php` loader
+- `rector` should stay in explicit `--dry-run` mode with narrow target paths
+- prefer feeding concrete files or small directories over whole trees
+
 Rules:
 
 - prefer `--dry-run` first

@@ -1,0 +1,10 @@
+parameters:
+  level: 0
+  tmpDir: var/phpstan
+  reportUnmatchedIgnoredErrors: false
+  treatPhpDocTypesAsCertain: false
+  bootstrapFiles:
+    - phpstan-bootstrap.php
+  scanDirectories:
+    - ../../../arcanist/src
+    - ../../../phorge/src
