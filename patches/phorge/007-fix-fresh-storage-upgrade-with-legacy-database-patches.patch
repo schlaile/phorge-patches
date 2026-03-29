@@ -1,0 +1,125 @@
+From 4e54d020515e3437bc6b28db0fa7e610088b470c Mon Sep 17 00:00:00 2001
+From: Alicia Codex <alicia@schlaile.de>
+Date: Sun, 29 Mar 2026 15:48:24 +0200
+Subject: [PATCH] Fix fresh storage upgrade with legacy database patches
+
+---
+ resources/sql/autopatches/00.pastebin.0.db    |  2 +-
+ .../sql/autopatches/20130214.chatlog.0.db     |  4 ++++
+ .../sql/autopatches/20130304.releeph.0.db     |  4 ++++
+ .../sql/autopatches/20131206.phragment.0.db   |  4 ++++
+ .../PhabricatorStorageManagementWorkflow.php  |  1 +
+ .../patch/PhabricatorBuiltinPatchList.php     | 21 ++++++++++++++++---
+ 6 files changed, 32 insertions(+), 4 deletions(-)
+ create mode 100644 resources/sql/autopatches/20130214.chatlog.0.db
+ create mode 100644 resources/sql/autopatches/20130304.releeph.0.db
+ create mode 100644 resources/sql/autopatches/20131206.phragment.0.db
+
+diff --git a/resources/sql/autopatches/00.pastebin.0.db b/resources/sql/autopatches/00.pastebin.0.db
+index d42335e244..329e1c432a 100644
+--- a/resources/sql/autopatches/00.pastebin.0.db
++++ b/resources/sql/autopatches/00.pastebin.0.db
+@@ -1,4 +1,4 @@
+ {
+   "name": "pastebin",
+-  "dead": true
++  "after": ["042.commentmetadata.sql"]
+ }
+diff --git a/resources/sql/autopatches/20130214.chatlog.0.db b/resources/sql/autopatches/20130214.chatlog.0.db
+new file mode 100644
+index 0000000000..0e8c471025
+--- /dev/null
++++ b/resources/sql/autopatches/20130214.chatlog.0.db
+@@ -0,0 +1,4 @@
++{
++  "name": "chatlog",
++  "after": ["20130131.conpherencepics.sql"]
++}
+diff --git a/resources/sql/autopatches/20130304.releeph.0.db b/resources/sql/autopatches/20130304.releeph.0.db
+new file mode 100644
+index 0000000000..6aa919ab80
+--- /dev/null
++++ b/resources/sql/autopatches/20130304.releeph.0.db
+@@ -0,0 +1,4 @@
++{
++  "name": "releeph",
++  "after": ["20130304.lintauthor.sql"]
++}
+diff --git a/resources/sql/autopatches/20131206.phragment.0.db b/resources/sql/autopatches/20131206.phragment.0.db
+new file mode 100644
+index 0000000000..7812c0d348
+--- /dev/null
++++ b/resources/sql/autopatches/20131206.phragment.0.db
+@@ -0,0 +1,4 @@
++{
++  "name": "phragment",
++  "after": ["20131205.buildstepordermig.php"]
++}
+diff --git a/src/infrastructure/storage/management/workflow/PhabricatorStorageManagementWorkflow.php b/src/infrastructure/storage/management/workflow/PhabricatorStorageManagementWorkflow.php
+index 28a053f404..8ea50eea6f 100644
+--- a/src/infrastructure/storage/management/workflow/PhabricatorStorageManagementWorkflow.php
++++ b/src/infrastructure/storage/management/workflow/PhabricatorStorageManagementWorkflow.php
+@@ -1184,6 +1184,7 @@ abstract class PhabricatorStorageManagementWorkflow
+         // We applied this everywhere, so we're done with the patch.
+         unset($patches[$key]);
+         $applied_something = true;
++        break;
+       }
+ 
+       if (!$applied_something) {
+diff --git a/src/infrastructure/storage/patch/PhabricatorBuiltinPatchList.php b/src/infrastructure/storage/patch/PhabricatorBuiltinPatchList.php
+index d33ddee163..f408dc7400 100644
+--- a/src/infrastructure/storage/patch/PhabricatorBuiltinPatchList.php
++++ b/src/infrastructure/storage/patch/PhabricatorBuiltinPatchList.php
+@@ -233,6 +233,9 @@ final class PhabricatorBuiltinPatchList extends PhabricatorSQLPatchList {
+       ),
+       '043.pastebin.sql' => array(
+         'legacy' => 43,
++        'after' => array(
++          '00.pastebin.0.db',
++        ),
+       ),
+       '044.countdown.sql' => array(
+         'legacy' => 44,
+@@ -584,7 +587,11 @@ final class PhabricatorBuiltinPatchList extends PhabricatorSQLPatchList {
+       '20130201.revisionunsubscribed.php' => array(),
+       '20130201.revisionunsubscribed.sql' => array(),
+       '20130131.conpherencepics.sql' => array(),
+-      '20130214.chatlogchannel.sql' => array(),
++      '20130214.chatlogchannel.sql' => array(
++        'after' => array(
++          '20130214.chatlog.0.db',
++        ),
++      ),
+       '20130214.chatlogchannelid.sql' => array(),
+       '20130214.token.sql' => array(),
+       '20130215.phabricatorfileaddttl.sql' => array(),
+@@ -597,7 +604,11 @@ final class PhabricatorBuiltinPatchList extends PhabricatorSQLPatchList {
+       '20130226.commitkey.sql' => array(),
+       '20131302.maniphestvalue.sql' => array(),
+       '20130304.lintauthor.sql' => array(),
+-      'releeph.sql' => array(),
++      'releeph.sql' => array(
++        'after' => array(
++          '20130304.releeph.0.db',
++        ),
++      ),
+       '20130319.phabricatorfileexplicitupload.sql' => array(),
+       '20130319.conpherence.sql' => array(),
+       '20130320.phlux.sql' => array(),
+@@ -747,7 +758,11 @@ final class PhabricatorBuiltinPatchList extends PhabricatorSQLPatchList {
+       '20131204.pushlog.sql' => array(),
+       '20131205.buildsteporder.sql' => array(),
+       '20131205.buildstepordermig.php' => array(),
+-      '20131206.phragment.sql' => array(),
++      '20131206.phragment.sql' => array(
++        'after' => array(
++          '20131206.phragment.0.db',
++        ),
++      ),
+       '20131206.phragmentnull.sql' => array(),
+       '20131208.phragmentsnapshot.sql' => array(),
+       '20131211.phragmentedges.sql' => array(),
+-- 
+2.47.3
+

@@ -82,3 +82,38 @@ Verification:
 - direct reproducer with `scripts/__init_script__.php` loaded first, so the
   helper function is available
 - output remains `ä` and no PHP 8.2+ deprecation is emitted
+
+### `007-fix-fresh-storage-upgrade-with-legacy-database-patches.patch`
+
+This patch fixes a fresh-install storage regression introduced by the newer
+`.db` autopatch mechanism.
+
+There were two separate issues:
+
+- some historical application databases still have legacy SQL patches, but no
+  longer had any database-creation patch at all: `chatlog`, `releeph`, and
+  `phragment`
+- `pastebin` did have a new `.db` patch, but it was marked dead, so the first
+  legacy `pastebin` schema patch could run before the database existed
+
+On top of that, the storage upgrade loop could continue scanning later patches
+after applying one patch, instead of restarting from the beginning with the new
+dependency state. This allowed later patches to leapfrog newly-unblocked
+earlier patches during a fresh upgrade.
+
+The patch therefore:
+
+- adds missing `.db` autopatches for `chatlog`, `releeph`, and `phragment`
+- makes the first legacy SQL patch for each of these databases, plus
+  `pastebin`, explicitly depend on the matching `.db` patch
+- treats `00.pastebin.0.db` as a real dependency in the legacy chain instead of
+  a dead patch
+- restarts patch selection after each successful patch application so
+  dependencies are re-evaluated immediately
+
+Verification:
+
+- `bin/storage destroy --force`
+- `php -d error_reporting=E_ALL ./bin/storage upgrade --force`
+- result: fresh storage upgrade completed successfully, including schema
+  adjustments and table analysis
