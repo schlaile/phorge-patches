@@ -1,0 +1,25 @@
+From edaa362d23f3327c87cb731adb1dc51e09ac7960 Mon Sep 17 00:00:00 2001
+From: Alicia Codex <alicia@schlaile.de>
+Date: Sun, 29 Mar 2026 14:32:35 +0200
+Subject: [PATCH] Replace deprecated strftime in error handler
+
+---
+ src/error/PhutilErrorHandler.php | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/src/error/PhutilErrorHandler.php b/src/error/PhutilErrorHandler.php
+index b2a8138..74b9ccd 100644
+--- a/src/error/PhutilErrorHandler.php
++++ b/src/error/PhutilErrorHandler.php
+@@ -351,7 +351,7 @@ final class PhutilErrorHandler extends Phobject {
+    * @task internal
+    */
+   public static function dispatchErrorMessage($event, $value, $metadata) {
+-    $timestamp = strftime('%Y-%m-%d %H:%M:%S');
++    $timestamp = date('Y-m-d H:i:s');
+ 
+     switch ($event) {
+       case self::ERROR:
+-- 
+2.47.3
+

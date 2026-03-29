@@ -69,3 +69,23 @@ API, but makes it optional:
 
 This is a runtime compatibility fix which restores the intended behavior of the
 existing error handler on PHP 8.
+
+### `0004-replace-deprecated-strftime-in-error-handler.patch`
+
+After the callback-signature fix above, the next warning exposed in the same
+error path was a deprecated `strftime()` call.
+
+In this code path, the timestamp is only used for a fixed machine-readable log
+prefix:
+
+- `YYYY-MM-DD HH:MM:SS`
+
+There is no locale-dependent formatting here, so `date('Y-m-d H:i:s')` is a
+direct replacement:
+
+- same output shape for the existing log prefix
+- no dependency on deprecated `strftime()`
+- no additional PHP 8.1+ warnings when the error handler formats a message
+
+This keeps the existing log format while removing another bootstrap/runtime
+deprecation from the central error path.
