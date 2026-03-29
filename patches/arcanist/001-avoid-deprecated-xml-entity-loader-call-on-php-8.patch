@@ -1,0 +1,25 @@
+From 224e0c6d9499ac9327805db46eb9a76c2480b211 Mon Sep 17 00:00:00 2001
+From: Alicia Codex <alicia@schlaile.de>
+Date: Sun, 29 Mar 2026 14:43:24 +0200
+Subject: [PATCH] Avoid deprecated XML entity loader call on PHP 8
+
+---
+ support/init/init-script.php | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/support/init/init-script.php b/support/init/init-script.php
+index 96b7d8f6..7942f127 100644
+--- a/support/init/init-script.php
++++ b/support/init/init-script.php
+@@ -102,7 +102,7 @@ function __arcanist_init_script__() {
+   // PHP 8 deprecates this function and disables this by default; remove once
+   // PHP 7 is no longer supported or a future version has removed the function
+   // entirely.
+-  if (function_exists('libxml_disable_entity_loader')) {
++  if (PHP_VERSION_ID < 80000 && function_exists('libxml_disable_entity_loader')) {
+     @libxml_disable_entity_loader(true);
+   }
+ 
+-- 
+2.47.3
+

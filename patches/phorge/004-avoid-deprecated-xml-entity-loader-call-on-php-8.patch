@@ -1,0 +1,25 @@
+From dc2bb0998970faa5a5f4ffc7bcc12b5da4ca52aa Mon Sep 17 00:00:00 2001
+From: Alicia Codex <alicia@schlaile.de>
+Date: Sun, 29 Mar 2026 14:43:24 +0200
+Subject: [PATCH] Avoid deprecated XML entity loader call on PHP 8
+
+---
+ support/startup/PhabricatorStartup.php | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/support/startup/PhabricatorStartup.php b/support/startup/PhabricatorStartup.php
+index cdd25af0be..25da582f8b 100644
+--- a/support/startup/PhabricatorStartup.php
++++ b/support/startup/PhabricatorStartup.php
+@@ -394,7 +394,7 @@ final class PhabricatorStartup {
+     // PHP 8 deprecates this function and disables this by default; remove once
+     // PHP 7 is no longer supported or a future version has removed the function
+     // entirely.
+-    if (function_exists('libxml_disable_entity_loader')) {
++    if (PHP_VERSION_ID < 80000 && function_exists('libxml_disable_entity_loader')) {
+       @libxml_disable_entity_loader(true);
+     }
+ 
+-- 
+2.47.3
+
