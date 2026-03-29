@@ -1,0 +1,84 @@
+From 7079e62c22b44c19cbca9d01fd800f36cef00f1b Mon Sep 17 00:00:00 2001
+From: Alicia Codex <alicia@schlaile.de>
+Date: Sun, 29 Mar 2026 16:52:40 +0200
+Subject: [PATCH] PHP 8.5: Guard authored builtin search queries
+
+---
+ .../conduit/query/PhabricatorConduitLogSearchEngine.php     | 6 ++++++
+ .../query/PhabricatorDashboardPanelSearchEngine.php         | 6 +++++-
+ .../dashboard/query/PhabricatorDashboardSearchEngine.php    | 6 +++++-
+ 3 files changed, 16 insertions(+), 2 deletions(-)
+
+diff --git a/src/applications/conduit/query/PhabricatorConduitLogSearchEngine.php b/src/applications/conduit/query/PhabricatorConduitLogSearchEngine.php
+index 6cbf9ad91f..310cedbd26 100644
+--- a/src/applications/conduit/query/PhabricatorConduitLogSearchEngine.php
++++ b/src/applications/conduit/query/PhabricatorConduitLogSearchEngine.php
+@@ -117,9 +117,15 @@ final class PhabricatorConduitLogSearchEngine
+ 
+     switch ($query_key) {
+       case 'viewer':
++        if (!$viewer_phid) {
++          return $query;
++        }
+         return $query
+           ->setParameter('callerPHIDs', array($viewer_phid));
+       case 'viewerdeprecated':
++        if (!$viewer_phid) {
++          return $query;
++        }
+         return $query
+           ->setParameter('callerPHIDs', array($viewer_phid))
+           ->setParameter('statuses', $deprecated);
+diff --git a/src/applications/dashboard/query/PhabricatorDashboardPanelSearchEngine.php b/src/applications/dashboard/query/PhabricatorDashboardPanelSearchEngine.php
+index c4b30652b9..4006346982 100644
+--- a/src/applications/dashboard/query/PhabricatorDashboardPanelSearchEngine.php
++++ b/src/applications/dashboard/query/PhabricatorDashboardPanelSearchEngine.php
+@@ -88,15 +88,19 @@ final class PhabricatorDashboardPanelSearchEngine
+     $query = $this->newSavedQuery();
+     $query->setQueryKey($query_key);
+     $viewer = $this->requireViewer();
++    $viewer_phid = $viewer->getPHID();
+ 
+     switch ($query_key) {
+       case 'active':
+         return $query->setParameter('status', 'active');
+       case 'authored':
++        if (!$viewer_phid) {
++          return $query;
++        }
+         return $query->setParameter(
+           'authorPHIDs',
+           array(
+-            $viewer->getPHID(),
++            $viewer_phid,
+           ));
+       case 'all':
+         return $query;
+diff --git a/src/applications/dashboard/query/PhabricatorDashboardSearchEngine.php b/src/applications/dashboard/query/PhabricatorDashboardSearchEngine.php
+index c02778c77d..c9c12a421c 100644
+--- a/src/applications/dashboard/query/PhabricatorDashboardSearchEngine.php
++++ b/src/applications/dashboard/query/PhabricatorDashboardSearchEngine.php
+@@ -57,15 +57,19 @@ final class PhabricatorDashboardSearchEngine
+     $query = $this->newSavedQuery();
+     $query->setQueryKey($query_key);
+     $viewer = $this->requireViewer();
++    $viewer_phid = $viewer->getPHID();
+ 
+     switch ($query_key) {
+       case 'all':
+         return $query;
+       case 'authored':
++        if (!$viewer_phid) {
++          return $query;
++        }
+         return $query->setParameter(
+           'authorPHIDs',
+           array(
+-            $viewer->getPHID(),
++            $viewer_phid,
+           ));
+       case 'open':
+         return $query->setParameter(
+-- 
+2.47.3
+

@@ -327,3 +327,20 @@ Verification:
 - syntax check of all three touched search engine classes
 - code inspection of the viewer-specific builtin branches in
   `buildSavedQueryFromBuiltin()`
+
+### `020-guard-signed-and-authored-search-queries.patch`
+
+This patch adds the same builtin-query guard pattern to two more search
+engines:
+
+- `LegalpadDocumentSearchEngine`
+- `PhabricatorPhurlURLSearchEngine`
+
+In both cases, the affected builtin query is viewer-specific and should not
+construct query parameters from a null viewer PHID.
+
+Verification:
+
+- syntax check of both touched search engine classes
+- code inspection of `getBuiltinQueryNames()` and
+  `buildSavedQueryFromBuiltin()`
