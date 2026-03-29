@@ -74,3 +74,16 @@ This is especially important for:
 3. derive a cleaner consolidated German translation corpus from the legacy data
 4. separate pure content from old `gettext` runtime assumptions
 5. evaluate import/build integration against `wikimedia/phabricator-translations`
+
+## Planned Native Export Path
+
+Once the working PO is clean enough, the preferred target is a native
+`PhutilTranslation` PHP class, not a gettext runtime integration.
+
+Current plan:
+
+- use PO as the main editing and review format
+- generate PHP translation maps as a build artifact
+- keep ordinary entries as ordinary `msgstr` values
+- reserve a special `I18N-ARRAY` marker for rare entries which need native
+  nested variant arrays beyond normal gettext plural forms
