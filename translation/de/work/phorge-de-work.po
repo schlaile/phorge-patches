@@ -49372,17 +49372,17 @@ msgid "Refunded"
 msgstr "Erstattet"
 
 msgid "Charging"
-msgstr ""
+msgstr "Wird abgebucht"
 
 msgid "Refund"
-msgstr ""
+msgstr "Erstattung"
 
 msgid "Fully Refunded"
-msgstr ""
+msgstr "Vollständig erstattet"
 
 #, php-format
 msgid "%s Refunded"
-msgstr ""
+msgstr "%s erstattet"
 
 #, fuzzy
 msgid "A merchant's members can always view and edit it."
@@ -49396,7 +49396,7 @@ msgstr "Ändere %s %s"
 
 #, php-format
 msgid "Payment Method %d"
-msgstr ""
+msgstr "Zahlungsmethode %d"
 
 
 #, fuzzy, php-format
@@ -49405,29 +49405,29 @@ msgstr "Zahlungsdienstleister %d ändern"
 
 
 msgid "Providers have the policies of their merchant."
-msgstr ""
+msgstr "Anbieter erben die Richtlinien ihres Händlers."
 
 #, php-format
 msgid "%s created this payment provider."
-msgstr ""
+msgstr "%s hat diesen Zahlungsanbieter erstellt."
 
 #, php-format
 msgid "%s enabled this payment provider."
-msgstr ""
+msgstr "%s hat diesen Zahlungsanbieter aktiviert."
 
 #, php-format
 msgid "%s disabled this payment provider."
-msgstr ""
+msgstr "%s hat diesen Zahlungsanbieter deaktiviert."
 
 #, php-format
 msgid "%s edited a property of this payment provider."
-msgstr ""
+msgstr "%s hat eine Eigenschaft dieses Zahlungsanbieters bearbeitet."
 
 msgid "Purchases have the policies of their cart."
-msgstr ""
+msgstr "Käufe erben die Richtlinien ihres Warenkorbs."
 
 msgid "Subscription"
-msgstr ""
+msgstr "Abonnement"
 
 #, fuzzy
 msgid "No charges found."
@@ -49435,22 +49435,22 @@ msgstr "Keine Gesprächsbeiträge gefunden."
 
 
 msgid "Cart"
-msgstr ""
+msgstr "Warenkorb"
 
 msgid "Card Number"
-msgstr ""
+msgstr "Kartennummer"
 
 msgid "CVC"
-msgstr ""
+msgstr "CVC"
 
 msgid "Expiration"
-msgstr ""
+msgstr "Ablaufdatum"
 
 msgid "Qty."
 msgstr "Menge"
 
 msgid "This invoice is ready for payment."
-msgstr ""
+msgstr "Diese Rechnung ist zahlungsbereit."
 
 #, php-format
 msgid ""
@@ -49487,7 +49487,7 @@ msgid ""
 msgstr ""
 
 msgid "This purchase has been completed."
-msgstr ""
+msgstr "Dieser Kauf wurde abgeschlossen."
 
 msgid "Order Name"
 msgstr "Auftragsname"
@@ -49498,19 +49498,19 @@ msgstr "Neuer Termin"
 
 
 msgid "Bill To:"
-msgstr ""
+msgstr "Rechnung an:"
 
 msgid "From:"
-msgstr ""
+msgstr "Von:"
 
 msgid "Invoice"
-msgstr ""
+msgstr "Rechnung"
 
 msgid "Purchase"
 msgstr "Kaufen"
 
 msgid "Invoice Date"
-msgstr ""
+msgstr "Rechnungsdatum"
 
 #, php-format
 msgid ""
@@ -49526,7 +49526,7 @@ msgstr ""
 
 #, php-format
 msgid "The account (\"%s\") for this subscription (\"%s\") has no members."
-msgstr ""
+msgstr "Das Konto (\\\"%s\\\") für dieses Abonnement (\\\"%s\\\") hat keine Mitglieder."
 
 #, php-format
 msgid ""
@@ -49548,17 +49548,17 @@ msgstr ""
 
 #, php-format
 msgid "Automatic billing failed: %s"
-msgstr ""
+msgstr "Automatische Abbuchung fehlgeschlagen: %s"
 
 #, php-format
 msgid "Failed to load subscription with PHID \"%s\"."
-msgstr ""
+msgstr "Abonnement mit PHID \\\"%s\\\" konnte nicht geladen werden."
 
 msgid "Subscription is missing billing period information."
-msgstr ""
+msgstr "Abonnement fehlen Abrechnungszeitrauminformationen."
 
 msgid "Subscription has invalid billing period."
-msgstr ""
+msgstr "Abonnement hat einen ungültigen Abrechnungszeitraum."
 
 msgid ""
 "Refusing to generate a subscription invoice for a billing period which ends "
@@ -49571,7 +49571,7 @@ msgstr "%s hat die Teilnehmerliste geändert."
 
 
 msgid "CHANGES TO BILLING ADDRESS"
-msgstr ""
+msgstr "ÄNDERUNGEN AN DER RECHNUNGSADRESSE"
 
 #, fuzzy, php-format
 msgid "%s changed the billing name for this account from %s to %s."
@@ -49590,11 +49590,11 @@ msgstr "%s hat die Zeichencodierung für das Repository auf \"%s\" gesetzt."
 
 #, php-format
 msgid "The billing name can be no longer than %s characters."
-msgstr ""
+msgstr "Der Abrechnungsname darf nicht länger als %s Zeichen sein."
 
 #, php-format
 msgid "The address can be no longer than %s characters."
-msgstr ""
+msgstr "Die Adresse darf nicht länger als %s Zeichen sein."
 
 msgid ""
 "Account email addresses can not be edited once they are created. To change "
@@ -49604,7 +49604,7 @@ msgstr ""
 
 #, php-format
 msgid "%s rotated the access key for this email address."
-msgstr ""
+msgstr "%s hat den Zugriffsschlüssel für diese E-Mail-Adresse rotiert."
 
 #, fuzzy, php-format
 msgid "%s changed the status for this address to %s."
@@ -49636,7 +49636,7 @@ msgstr "%s hat die Beschreibung von %s verändert."
 
 
 msgid "CHANGES TO MERCHANT CONTACT INFO"
-msgstr ""
+msgstr "ÄNDERUNGEN AN DEN HÄNDLERKONTAKTINFORMATIONEN"
 
 #, fuzzy, php-format
 msgid "%s updated the merchant description."
@@ -49685,11 +49685,11 @@ msgstr "%s hat das Symbol für %s auf %s gesetzt."
 
 #, php-format
 msgid "Invoice email \"%s\" must be a valid email."
-msgstr ""
+msgstr "Rechnungs-E-Mail \\\"%s\\\" muss eine gültige E-Mail sein."
 
 #, php-format
 msgid "The email can be no longer than %s characters."
-msgstr ""
+msgstr "Die E-Mail darf nicht länger als %s Zeichen sein."
 
 #, fuzzy, php-format
 msgid "%s updated the merchant invoice footer."
@@ -49702,7 +49702,7 @@ msgstr "%s hat das Bild für %s geändert."
 
 
 msgid "CHANGES TO MERCHANT INVOICE FOOTER"
-msgstr ""
+msgstr "ÄNDERUNGEN AN DER HÄNDLER-RECHNUNGSFUSSZEILE"
 
 #, fuzzy, php-format
 msgid "%s renamed this merchant from %s to %s."
@@ -49751,40 +49751,40 @@ msgstr "%s hat die eigene Auffassung zu diesem Termin nochmal überdacht."
 
 #, php-format
 msgid "%s changed the automatic payment method for this subscription."
-msgstr ""
+msgstr "%s hat die automatische Zahlungsmethode für dieses Abonnement geändert."
 
 #, php-format
 msgid "%s configured an automatic payment method for this subscription."
-msgstr ""
+msgstr "%s hat eine automatische Zahlungsmethode für dieses Abonnement konfiguriert."
 
 #, php-format
 msgid "%s stopped automatic payments for this subscription."
-msgstr ""
+msgstr "%s hat automatische Zahlungen für dieses Abonnement gestoppt."
 
 msgid "PHPAST"
-msgstr ""
+msgstr "PHPAST"
 
 msgid "Visual PHP Parser"
-msgstr ""
+msgstr "Visueller PHP-Parser"
 
 msgid "XHPAST View"
-msgstr ""
+msgstr "XHPAST-Ansicht"
 
 msgid "No such AST!"
-msgstr ""
+msgstr "Kein solcher AST!"
 
 msgid "Use PHPAST"
-msgstr ""
+msgstr "PHPAST verwenden"
 
 msgid "Parse"
-msgstr ""
+msgstr "Parsen"
 
 msgid "Generate XHP AST"
-msgstr ""
+msgstr "XHP-AST generieren"
 
 #, php-format
 msgid "Token %d: %s"
-msgstr ""
+msgstr "Token %d: %s"
 
 
 #, fuzzy, php-format
@@ -49793,13 +49793,13 @@ msgstr "Bild %d: %s"
 
 
 msgid "PHPAST View"
-msgstr ""
+msgstr "PHPAST-Ansicht"
 
 msgid "Generate PHP AST"
-msgstr ""
+msgstr "PHP-AST generieren"
 
 msgid "Use XHPAST"
-msgstr ""
+msgstr "XHPAST verwenden"
 
 msgid "Phrequent"
 msgstr "Zeiterfassung"
@@ -49808,13 +49808,13 @@ msgid "Track Time Spent"
 msgstr "Zeiterfassung"
 
 msgid "Stop tracking time on an object by popping it from the stack."
-msgstr ""
+msgstr "Zeiterfassung für ein Objekt beenden, indem es vom Stack entfernt wird."
 
 msgid "Start tracking time on an object by pushing it on the tracking stack."
-msgstr ""
+msgstr "Zeiterfassung für ein Objekt starten, indem es auf den Erfassungs-Stack geschoben wird."
 
 msgid "Returns current objects being tracked in Phrequent."
-msgstr ""
+msgstr "Gibt aktuell in Phrequent erfasste Objekte zurück."
 
 msgid "Start Tracking"
 msgstr "Zeiterfassung starten"
@@ -49847,13 +49847,13 @@ msgid "Stop Time"
 msgstr "Endzeit"
 
 msgid "Not Tracking Time"
-msgstr ""
+msgstr "Keine Zeiterfassung"
 
 msgid "You are not currently tracking time on this object."
-msgstr ""
+msgstr "Du erfasst derzeit keine Zeit für dieses Objekt."
 
 msgid "Please choose a valid date."
-msgstr ""
+msgstr "Bitte ein gültiges Datum wählen."
 
 msgid ""
 "You can not stop tracking time at a future time. Enter the current time, or "
@@ -49866,14 +49866,14 @@ msgid ""
 msgstr ""
 
 msgid "Stop time must be after start time."
-msgstr ""
+msgstr "Endzeit muss nach Startzeit liegen."
 
 #, php-format
 msgid "%s (%s ago)"
-msgstr ""
+msgstr "%s (vor %s)"
 
 msgid "Started At"
-msgstr ""
+msgstr "Gestartet um"
 
 msgid "Working Now"
 msgstr "Arbeitete gerade daran"
@@ -49888,7 +49888,7 @@ msgid "Time Spent"
 msgstr "Verbrauchte Zeit"
 
 msgid "Phrequent Time"
-msgstr ""
+msgstr "Phrequent-Zeit"
 
 msgid "Ended"
 msgstr "Endet"
@@ -49920,11 +49920,11 @@ msgstr "Stoppen"
 
 #, php-format
 msgid "Unknown order \"%s\"."
-msgstr ""
+msgstr "Unbekannte Sortierung \\\"%s\\\"."
 
 #, php-format
 msgid "Unknown ended '%s'!"
-msgstr ""
+msgstr "Unbekanntes Ende '%s'!"
 
 msgid "by furthest start date"
 msgstr "größte Entfernung zum Startzeitpunkt"
@@ -49945,7 +49945,7 @@ msgid "Wiki Documents"
 msgstr "Wiki-Dokumente"
 
 msgid "Phriction User Guide"
-msgstr ""
+msgstr "Phriction-Benutzerhandbuch"
 
 #, php-format
 msgid ""
@@ -49977,7 +49977,7 @@ msgid "Document already exists!"
 msgstr "Dokument existiert bereits!"
 
 msgid "Apply transactions to edit an existing phriction document."
-msgstr ""
+msgstr "Transaktionen anwenden, um ein bestehendes Phriction-Dokument zu bearbeiten."
 
 #, fuzzy
 msgid "Read information about Phriction documents."
@@ -49991,7 +49991,7 @@ msgid "No such document exists."
 msgstr "Dokument existiert nicht."
 
 msgid "Retrieve history about a Phriction document."
-msgstr ""
+msgstr "Verlauf eines Phriction-Dokuments abrufen."
 
 msgid ""
 "This method is frozen and will eventually be deprecated. New code should use "
@@ -49999,7 +49999,7 @@ msgid ""
 msgstr ""
 
 msgid "Retrieve information about a Phriction document."
-msgstr ""
+msgstr "Informationen über ein Phriction-Dokument abrufen."
 
 msgid ""
 "This method is frozen and will eventually be deprecated. New code should use "
@@ -50016,16 +50016,16 @@ msgid "Created through child"
 msgstr "Durch Unterdokument erzeugt"
 
 msgid "Moved"
-msgstr ""
+msgstr "Verschoben"
 
 msgid "Stub"
-msgstr ""
+msgstr "Stub"
 
 msgid "New Document"
 msgstr "Neues Dokument"
 
 msgid "Can Not Delete Document!"
-msgstr ""
+msgstr "Dokument kann nicht gelöscht werden!"
 
 msgid "Delete Document?"
 msgstr "Dokument löschen?"
@@ -50068,7 +50068,7 @@ msgstr "Dokumentenhistorie"
 
 #, php-format
 msgid "Edit Current Version %s..."
-msgstr ""
+msgstr "Aktuelle Version %s bearbeiten..."
 
 
 #, fuzzy, php-format
@@ -50109,7 +50109,7 @@ msgstr "Neues Dokument"
 
 
 msgid "There is no document here, but you may create it."
-msgstr ""
+msgstr "Es gibt hier kein Dokument, aber du kannst eines erstellen."
 
 msgid "Page Not Found"
 msgstr "Seite nicht gefunden"
@@ -50132,12 +50132,12 @@ msgstr "Du kannst keine nichtveröffentlichten Entwürfe."
 
 
 msgid "You are viewing the current published version of this document."
-msgstr ""
+msgstr "Du siehst die aktuelle veröffentlichte Version dieses Dokuments."
 
 
 #, php-format
 msgid "Version %d of %d: "
-msgstr ""
+msgstr "Version %d von %d: "
 
 
 #, fuzzy
@@ -50207,7 +50207,7 @@ msgstr "Unveröffentlichte Entwürfe"
 
 
 msgid "Publish Older Version"
-msgstr ""
+msgstr "Ältere Version veröffentlichen"
 
 msgid "Move Document"
 msgstr "Dokument verschieben"
@@ -50216,7 +50216,7 @@ msgid "Delete Document"
 msgstr "Dokument löschen"
 
 msgid "Printable Page"
-msgstr ""
+msgstr "Druckbare Seite"
 
 msgid "More..."
 msgstr "Weiter..."
@@ -50228,7 +50228,7 @@ msgid "(Untitled Document)"
 msgstr "(unbenanntes Dokument)"
 
 msgid "Overwrite Changes"
-msgstr ""
+msgstr "Änderungen überschreiben"
 
 #, fuzzy
 msgid "Save and Publish"
@@ -50248,17 +50248,17 @@ msgstr "Entwurf speichern"
 
 #, php-format
 msgid "Draft %d"
-msgstr ""
+msgstr "Entwurf %d"
 
 
 #, php-format
 msgid "Version %d"
-msgstr ""
+msgstr "Version %d"
 
 
 #, php-format
 msgid "Document History: %s"
-msgstr ""
+msgstr "Dokumentverlauf: %s"
 
 
 msgid "Adjust Path"
@@ -50290,7 +50290,7 @@ msgstr "Bestehendes Dokument ändern?"
 
 #, php-format
 msgid "The document %s already exists. Do you want to edit it instead?"
-msgstr ""
+msgstr "Das Dokument %s existiert bereits. Stattdessen bearbeiten?"
 "Das Dokument %s existiert bereits. Möchtest Du es stattdessen einfach ändern?"
 
 msgid "Create a new document at"
@@ -50302,16 +50302,16 @@ msgstr "Schon unterschrieben"
 
 
 msgid "This version of the document is already the published version."
-msgstr ""
+msgstr "Diese Version des Dokuments ist bereits die veröffentlichte Version."
 
 msgid "Publish Older Version?"
-msgstr ""
+msgstr "Ältere Version veröffentlichen?"
 
 msgid "Revert the published version of this document to an older version?"
-msgstr ""
+msgstr "Die veröffentlichte Version dieses Dokuments auf eine ältere Version zurücksetzen?"
 
 msgid "Revert"
-msgstr ""
+msgstr "Zurücksetzen"
 
 #, fuzzy
 msgid "Publish Draft?"
@@ -50319,7 +50319,7 @@ msgstr "Unveröffentlichte Entwürfe"
 
 
 msgid "Update the published version of this document to this newer version?"
-msgstr ""
+msgstr "Die veröffentlichte Version dieses Dokuments auf diese neuere Version aktualisieren?"
 
 #, fuzzy
 msgid "Phriction Document"
@@ -50352,7 +50352,7 @@ msgid "A document's subscribers change."
 msgstr "Der Mitleser eines Dokumentes wurde geändert."
 
 msgid "Other document activity not listed above occurs."
-msgstr ""
+msgstr "Andere, oben nicht aufgeführte Dokumentaktivitäten treten auf."
 
 msgid "DOCUMENT CONTENT"
 msgstr "DOKUMENTENINHALT"
@@ -50361,7 +50361,7 @@ msgid "DOCUMENT DIFF"
 msgstr "DOKUMENTENÄNDERUNG"
 
 msgid "EDIT NOTES"
-msgstr ""
+msgstr "BEARBEITUNGSNOTIZEN"
 
 msgid ""
 "You can not move a document to its existing location. Choose a different "
@@ -50387,7 +50387,7 @@ msgid ""
 msgstr ""
 
 msgid "Missing Ancestor"
-msgstr ""
+msgstr "Fehlender Vorfahre"
 
 msgid "Edit Conflict"
 msgstr "Änderungskonflikt"
@@ -50411,23 +50411,23 @@ msgstr "Dokument verschoben"
 
 
 msgid "Get the content of documents or document histories."
-msgstr ""
+msgstr "Inhalt von Dokumenten oder Dokumentverläufen abrufen."
 
 msgid "Wiki Document"
 msgstr "Wiki Dokument"
 
 msgid "React to wiki documents being created or updated."
-msgstr ""
+msgstr "Auf erstellte oder aktualisierte Wiki-Dokumente reagieren."
 
 msgid "Test rules which run when a wiki document is created or updated."
-msgstr ""
+msgstr "Regeln testen, die beim Erstellen oder Aktualisieren eines Wiki-Dokuments ausgeführt werden."
 
 #, php-format
 msgid "Wiki Document %d"
-msgstr ""
+msgstr "Wiki-Dokument %d"
 
 msgid "Document Fields"
-msgstr ""
+msgstr "Dokumentfelder"
 
 #, fuzzy
 msgid "Published document changed"
@@ -50441,7 +50441,7 @@ msgstr "\"%s\" Benutzer"
 
 #, php-format
 msgid "<%s>"
-msgstr ""
+msgstr "<%s>"
 
 #, fuzzy
 msgid "Phriction Content"
@@ -50457,10 +50457,10 @@ msgstr "Wiki Dokumente"
 
 
 msgid "Search for documents with specific PHIDs."
-msgstr ""
+msgstr "Dokumente mit bestimmten PHIDs suchen."
 
 msgid "Search for documents with specific versions."
-msgstr ""
+msgstr "Dokumente mit bestimmten Versionen suchen."
 
 #, fuzzy
 msgid "All Content"
@@ -50484,10 +50484,10 @@ msgstr "Dokumentenbaum"
 
 
 msgid "Find documents with specified paths (slugs)."
-msgstr ""
+msgstr "Dokumente mit bestimmten Pfaden (Slugs) suchen."
 
 msgid "Find documents beneath specified parent paths."
-msgstr ""
+msgstr "Dokumente unter bestimmten übergeordneten Pfaden suchen."
 
 #, fuzzy
 msgid "Parent Paths"
@@ -50495,7 +50495,7 @@ msgstr "Übergeordnete Aufgabe"
 
 
 msgid "Find documents beneath specified ancestor paths."
-msgstr ""
+msgstr "Dokumente unter bestimmten Vorfahrenpfaden suchen."
 
 #, fuzzy
 msgid "Ancestor Paths"
@@ -50518,7 +50518,7 @@ msgstr "Aktuelle Version"
 
 #, php-format
 msgid "Unknown URI type '%s'!"
-msgstr ""
+msgstr "Unbekannter URI-Typ '%s'!"
 
 #, fuzzy
 msgid "The path to the document."
@@ -50553,7 +50553,7 @@ msgid "A moved document can not be deleted."
 msgstr "Ein verschobenes Dokument kann nicht gelöscht werden."
 
 msgid "A stub document can not be deleted."
-msgstr ""
+msgstr "Ein Stub-Dokument kann nicht gelöscht werden."
 
 #, fuzzy, php-format
 msgid "%s edited the content of this document."
@@ -50596,11 +50596,11 @@ msgid "A moved document can not be moved again."
 msgstr "Ein verschobenes Dokument kann nicht nochmal verschoben werden."
 
 msgid "A stub document can not be moved."
-msgstr ""
+msgstr "Ein Stub-Dokument kann nicht verschoben werden."
 
 #, php-format
 msgid "%s published a new version of this document."
-msgstr ""
+msgstr "%s hat eine neue Version dieses Dokuments veröffentlicht."
 
 
 #, fuzzy, php-format
@@ -50610,7 +50610,7 @@ msgstr "%s hat die Beschreibung von %s geändert."
 
 #, php-format
 msgid "Unable to load Content object with PHID \"%s\"."
-msgstr ""
+msgstr "Content-Objekt mit PHID \\\"%s\\\" konnte nicht geladen werden."
 
 #, php-format
 msgid ""
@@ -50629,7 +50629,7 @@ msgstr "Du kannst kein leeres Dokument erstellen"
 
 
 msgid "Phurl"
-msgstr ""
+msgstr "Phurl"
 
 #, fuzzy
 msgid "URL Shortener"
@@ -50637,7 +50637,7 @@ msgstr "Kurze Notiz"
 
 
 msgid "Shorten your favorite URL."
-msgstr ""
+msgstr "Lieblingslink kürzen."
 
 #, fuzzy
 msgid "Can Create Phurl URLs"
@@ -50650,19 +50650,19 @@ msgstr "Du hast keine Berechtigung, um Zonen zu erzeugen."
 
 
 msgid "Apply transactions to create a new Phurl URL or edit an existing one."
-msgstr ""
+msgstr "Transaktionen anwenden, um eine neue Phurl-URL zu erstellen oder eine bestehende zu bearbeiten."
 
 msgid "Read information about Phurl URLS."
-msgstr ""
+msgstr "Informationen über Phurl-URLs lesen."
 
 msgid "Options for Phurl."
-msgstr ""
+msgstr "Optionen für Phurl."
 
 msgid "URI that Phurl will use to shorten URLs."
-msgstr ""
+msgstr "URI, die Phurl zum Kürzen von URLs verwendet."
 
 msgid "Set the URI that Phurl will use to share shortened URLs."
-msgstr ""
+msgstr "URI festlegen, die Phurl zum Teilen gekürzter URLs verwendet."
 
 #, fuzzy
 msgid "Invalid URL"
@@ -50676,10 +50676,10 @@ msgid ""
 msgstr ""
 
 msgid "This URL is invalid due to a bad protocol."
-msgstr ""
+msgstr "Diese URL ist wegen eines ungültigen Protokolls ungültig."
 
 msgid "Visit URL"
-msgstr ""
+msgstr "URL besuchen"
 
 #, fuzzy
 msgid "Edit Phurl"
@@ -50697,7 +50697,7 @@ msgstr "Ursprünglicher Autor"
 
 
 msgid "Alias"
-msgstr ""
+msgstr "Alias"
 
 #, fuzzy
 msgid "Configure Phurl Forms"
@@ -50705,7 +50705,7 @@ msgstr "Pholio konfigurieren"
 
 
 msgid "Configure creation and editing forms in Phurl."
-msgstr ""
+msgstr "Erstellungs- und Bearbeitungsformulare in Phurl konfigurieren."
 
 #, fuzzy
 msgid "Create New URL"
@@ -50736,7 +50736,7 @@ msgstr "Neuer Benutzername"
 
 
 msgid "The URL to shorten."
-msgstr ""
+msgstr "Die zu kürzende URL."
 
 #, fuzzy
 msgid "New URL."
@@ -50744,7 +50744,7 @@ msgstr "Neuer Pfad"
 
 
 msgid "The alias to give the URL."
-msgstr ""
+msgstr "Der der URL zu gebende Alias."
 
 #, fuzzy
 msgid "New alias."
@@ -50772,7 +50772,7 @@ msgstr "Der Status einer Aufgabe wurde verändert."
 
 
 msgid "[Phurl]"
-msgstr ""
+msgstr "[Phurl]"
 
 #, fuzzy
 msgid "URL DESCRIPTION"
@@ -50790,16 +50790,16 @@ msgstr "Diese Email-Adresse wurde bereits bestätigt."
 
 
 msgid "Phurl URLs"
-msgstr ""
+msgstr "Phurl-URLs"
 
 msgid "Created By"
 msgstr "Erstellt von"
 
 msgid "Search for Phurl URLs created by specific authors."
-msgstr ""
+msgstr "Phurl-URLs bestimmter Autoren suchen."
 
 msgid "Search for Phurl URLs by name substring."
-msgstr ""
+msgstr "Phurl-URLs anhand eines Namensausschnitts suchen."
 
 msgid "Search for Phurl URLs by alias."
 msgstr ""
