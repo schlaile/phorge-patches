@@ -10,6 +10,23 @@ This repository does not contain full upstream trees. It only contains:
 - branding overlays
 - technical inventories and upstream candidates
 
+## Active Working Trees
+
+For current work, the authoritative repositories are:
+
+- `phorge`: active server/core tree
+- `phorge-arcanist`: active Arcanist tree, including functionality that used
+  to live in standalone `libphutil`
+
+Reference-only trees:
+
+- old `phabricator`
+- standalone `libphutil`
+
+These older trees may still be useful for archaeology, but fixes intended for
+current upstreaming should be checked against `phorge` or `phorge-arcanist`
+before they are curated as candidate patches here.
+
 ## Goal
 
 Maintain local changes in a way that keeps them:
@@ -22,7 +39,8 @@ Maintain local changes in a way that keeps them:
 
 - `patches/phorge/`: curated patches against `phorge`
 - `patches/arcanist/`: curated patches against `phorge-arcanist`
-- `patches/libphutil/`: curated patches against the current `libphutil`
+- `patches/libphutil/`: legacy or reference patches against standalone
+  `libphutil`; do not assume these map directly to current upstream targets
 - `patches/libphutil-legacy/`: historic patches from the old `libphutil`
 - `translation/de/`: German translation data
 - `translation/import/`: notes and helpers for import/build paths
@@ -52,3 +70,5 @@ Maintain local changes in a way that keeps them:
 - `phorge`: target fork for server/core work
 - `phorge-arcanist`: target fork for Arcanist, including later ports of former `libphutil` functionality
 - `phorge-intern`: private operations, migration, and rollout documentation
+- standalone `libphutil`: legacy/reference tree for archaeology, not the
+  default target for current upstream-oriented fixes

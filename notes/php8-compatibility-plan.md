@@ -2,17 +2,18 @@
 
 Internal tracking task: `T1371`
 
-This note tracks the local battle plan for getting `libphutil`, `phorge`,
-and `phorge-arcanist` into good shape on modern PHP 8.x runtimes while keeping
-the resulting patch series easy to port upstream.
+This note tracks the local battle plan for getting `phorge` and
+`phorge-arcanist` into good shape on modern PHP 8.x runtimes while keeping the
+resulting patch series easy to port upstream.
 
 ## Current Read
 
 - upstream is already landing small PHP 8.1+ and PHP 8.5 fixes instead of one
   large migration branch
 - local testing currently runs on PHP `8.4.x`
-- bootstrap blockers may live in `libphutil` or `arcanist`, not only in
-  `phorge`
+- many former `libphutil` components now live in `phorge-arcanist`
+- standalone `libphutil` is useful as a reference tree, but not the default
+  patch target for current upstream work
 
 ## Working Assumptions
 
@@ -21,6 +22,8 @@ the resulting patch series easy to port upstream.
 - keep PHP 8 compatibility notes and patch exports tied to `T1371`
 - keep normal migration-history commits in `phorge-patches` aligned with the
   broader `T1369` project rule
+- if an exploratory fix was first prototyped in standalone `libphutil`, do not
+  keep it as an upstream candidate patch unless the real target is confirmed
 - export upstreamable fixes as patch series as they stabilize
 
 ## Work Phases
@@ -40,9 +43,8 @@ Typical fixes:
 
 Target order:
 
-1. `libphutil`
-2. `phorge-arcanist`
-3. `phorge`
+1. `phorge-arcanist`
+2. `phorge`
 
 ### Phase 2: High-Volume Runtime Deprecations
 
@@ -80,7 +82,7 @@ separate vendor and automation questions from core compatibility work.
 
 Rules:
 
-- handle bundled third-party code separately from Phorge/libphutil core logic
+- handle bundled third-party code separately from Phorge/Arcanist core logic
 - prefer upstream/library updates over deep local rewrites where realistic
 - use tooling like Rector or PHPStan only as assistants for mechanical work,
   not as an unreviewed bulk rewrite path
@@ -105,7 +107,8 @@ For each fix series:
 
 ## Near-Term Backlog
 
-- unblock startup/runtime fatals in `libphutil`
+- check `phorge-arcanist` first for bootstrap/runtime fatals in code that used
+  to live in standalone `libphutil`
 - inventory remaining PHP 8.4 blockers in `phorge-arcanist`
 - cluster `phorge` issues into bootstrap, runtime, test, and externals buckets
 - identify which fixes are already solved upstream and can simply be merged or

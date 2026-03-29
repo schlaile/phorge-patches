@@ -10,6 +10,17 @@ Repository-specific working rules for coding agents.
 - however, parts of the work here may later be ported into `phorge` or
   `phorge-arcanist`
 
+## Repository Roles
+
+- active upstream-facing server/core work happens in `phorge`
+- active upstream-facing Arcanist/libphutil-derived work happens in
+  `phorge-arcanist`
+- `phorge-intern` holds private rollout, migration, and operations notes
+- legacy working trees like old `phabricator` or standalone `libphutil` are
+  reference material only unless the user explicitly says otherwise
+- do not treat exploratory fixes in standalone `libphutil` as upstream patch
+  candidates for current work; check `phorge-arcanist` first
+
 ## Commit Message Rules
 
 - write commit messages in English
@@ -31,6 +42,8 @@ Repository-specific working rules for coding agents.
 - keep patches small and thematic
 - document PHP 8 compatibility work against `T1371` in notes and exported
   patch series
+- remove or downgrade exploratory patches if the real fix location turns out to
+  be `phorge` or `phorge-arcanist` instead
 - prefer wording and structure that will be easy to port or split later
 - document upstream-friendly candidates separately from local-only work
 
