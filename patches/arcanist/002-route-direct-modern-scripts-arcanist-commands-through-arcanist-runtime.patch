@@ -1,7 +1,7 @@
 From 6bc5ae0d03060730dd22e4ffdfb27c877037bb07 Mon Sep 17 00:00:00 2001
 From: Alicia Codex <alicia@schlaile.de>
 Date: Sun, 29 Mar 2026 15:27:10 +0200
-Subject: [PATCH] Keep legacy launcher fix local to scripts/arcanist.php
+Subject: [PATCH] Route direct modern scripts/arcanist.php commands through ArcanistRuntime
 
 ---
  scripts/arcanist.php | 17 +++++++++++++++++
@@ -44,4 +44,3 @@ index 8bf3828a..8e95b4b1 100755
    $workflow->setCommand($command);
 -- 
 2.47.3
-

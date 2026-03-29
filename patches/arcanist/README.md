@@ -27,7 +27,7 @@ Verification:
 - bootstrap smoke test via `require_once "scripts/__init_script__.php"` under
   PHP 8.4 without additional warnings
 
-### `002-keep-direct-command-routing-fix-local-to-legacy-script.patch`
+### `002-route-direct-modern-scripts-arcanist-commands-through-arcanist-runtime.patch`
 
 This patch fixes a launcher split between the legacy `scripts/arcanist.php`
 entry point and the newer `ArcanistRuntime` toolset dispatcher.
