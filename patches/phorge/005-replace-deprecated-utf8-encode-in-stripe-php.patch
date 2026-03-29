@@ -1,0 +1,25 @@
+From fc727f8352349c535a7579ab180b777d6436959f Mon Sep 17 00:00:00 2001
+From: Alicia Codex <alicia@schlaile.de>
+Date: Sun, 29 Mar 2026 14:57:31 +0200
+Subject: [PATCH] Replace deprecated utf8_encode in stripe-php
+
+---
+ externals/stripe-php/lib/Stripe/ApiRequestor.php | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/externals/stripe-php/lib/Stripe/ApiRequestor.php b/externals/stripe-php/lib/Stripe/ApiRequestor.php
+index aae8215f4b..486d7b7c60 100644
+--- a/externals/stripe-php/lib/Stripe/ApiRequestor.php
++++ b/externals/stripe-php/lib/Stripe/ApiRequestor.php
+@@ -43,7 +43,7 @@ class Stripe_ApiRequestor
+   {
+     if (is_string($value)
+         && mb_detect_encoding($value, "UTF-8", TRUE) != "UTF-8") {
+-      return utf8_encode($value);
++      return mb_convert_encoding($value, 'UTF-8', 'ISO-8859-1');
+     } else {
+       return $value;
+     }
+-- 
+2.47.3
+
