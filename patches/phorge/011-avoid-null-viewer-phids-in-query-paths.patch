@@ -1,0 +1,89 @@
+From dd71bab5404fd477ca8c93a546890b12ecbccc85 Mon Sep 17 00:00:00 2001
+From: Alicia Codex <alicia@schlaile.de>
+Date: Sun, 29 Mar 2026 16:25:30 +0200
+Subject: [PATCH] PHP 8.5: Avoid null viewer PHIDs in query paths
+
+---
+ .../query/DifferentialRevisionQuery.php       | 16 +++++++-----
+ .../query/PhabricatorSlowvoteQuery.php        | 26 ++++++++++++-------
+ 2 files changed, 26 insertions(+), 16 deletions(-)
+
+diff --git a/src/applications/differential/query/DifferentialRevisionQuery.php b/src/applications/differential/query/DifferentialRevisionQuery.php
+index d1724e0f3b..0d976b8928 100644
+--- a/src/applications/differential/query/DifferentialRevisionQuery.php
++++ b/src/applications/differential/query/DifferentialRevisionQuery.php
+@@ -431,14 +431,18 @@ final class DifferentialRevisionQuery
+ 
+   protected function didFilterPage(array $revisions) {
+     $viewer = $this->getViewer();
++    $viewer_phid = $viewer->getPHID();
+ 
+     if ($this->needFlags) {
+-      $flags = id(new PhabricatorFlagQuery())
+-        ->setViewer($viewer)
+-        ->withOwnerPHIDs(array($viewer->getPHID()))
+-        ->withObjectPHIDs(mpull($revisions, 'getPHID'))
+-        ->execute();
+-      $flags = mpull($flags, null, 'getObjectPHID');
++      $flags = array();
++      if ($viewer_phid) {
++        $flags = id(new PhabricatorFlagQuery())
++          ->setViewer($viewer)
++          ->withOwnerPHIDs(array($viewer_phid))
++          ->withObjectPHIDs(mpull($revisions, 'getPHID'))
++          ->execute();
++        $flags = mpull($flags, null, 'getObjectPHID');
++      }
+       foreach ($revisions as $revision) {
+         $revision->attachFlag(
+           $viewer,
+diff --git a/src/applications/slowvote/query/PhabricatorSlowvoteQuery.php b/src/applications/slowvote/query/PhabricatorSlowvoteQuery.php
+index 7ddb121d8d..29b0e496cb 100644
+--- a/src/applications/slowvote/query/PhabricatorSlowvoteQuery.php
++++ b/src/applications/slowvote/query/PhabricatorSlowvoteQuery.php
+@@ -68,6 +68,7 @@ final class PhabricatorSlowvoteQuery
+ 
+     $ids = mpull($polls, 'getID');
+     $viewer = $this->getViewer();
++    $viewer_phid = $viewer->getPHID();
+ 
+     if ($this->needOptions) {
+       $options = id(new PhabricatorSlowvoteOption())->loadAllWhere(
+@@ -96,19 +97,24 @@ final class PhabricatorSlowvoteQuery
+         foreach ($polls as $poll) {
+           $poll->attachViewerChoices(
+             $viewer,
+-            idx(
+-              mgroup($poll->getChoices(), 'getAuthorPHID'),
+-              $viewer->getPHID(),
+-              array()));
++            ($viewer_phid
++              ? idx(
++                  mgroup($poll->getChoices(), 'getAuthorPHID'),
++                  $viewer_phid,
++                  array())
++              : array()));
+         }
+       }
+     } else if ($this->needViewerChoices) {
+-      $choices = id(new PhabricatorSlowvoteChoice())->loadAllWhere(
+-        'pollID IN (%Ld) AND authorPHID = %s',
+-        $ids,
+-        $viewer->getPHID());
+-
+-      $choices = mgroup($choices, 'getPollID');
++      $choices = array();
++      if ($viewer_phid) {
++        $choices = id(new PhabricatorSlowvoteChoice())->loadAllWhere(
++          'pollID IN (%Ld) AND authorPHID = %s',
++          $ids,
++          $viewer_phid);
++
++        $choices = mgroup($choices, 'getPollID');
++      }
+       foreach ($polls as $poll) {
+         $poll->attachViewerChoices(
+           $viewer,
+-- 
+2.47.3
+

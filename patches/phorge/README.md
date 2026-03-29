@@ -171,3 +171,23 @@ Verification:
 
 - syntax check of `src/applications/slowvote/view/SlowvoteEmbedView.php`
 - code inspection of the anonymous-viewer branch in `areResultsVisible()`
+
+### `011-avoid-null-viewer-phids-in-query-paths.patch`
+
+This patch avoids carrying anonymous viewer PHIDs into query-side lookups in:
+
+- `DifferentialRevisionQuery`
+- `PhabricatorSlowvoteQuery`
+
+For anonymous viewers, these paths can not produce viewer-owned flags or viewer
+choices anyway, so the correct behavior is simply:
+
+- skip the owner-specific query
+- attach empty viewer-specific results
+
+This avoids both null array keys and unnecessary database work.
+
+Verification:
+
+- syntax check of both touched query classes
+- code inspection of the anonymous-viewer branches in the query postprocessing
