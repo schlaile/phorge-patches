@@ -36,9 +36,9 @@ Planned contents:
   - first merged working PO derived from the historic local corpus and the
     current `phorge` POT snapshot
   - current `msgfmt --statistics` result:
-    - translated: 1,877
-    - fuzzy: 4,578
-    - untranslated: 10,805
+    - translated: 11,233
+    - fuzzy: 2,129
+    - untranslated: 3,898
 
 ## Important Caveat
 
