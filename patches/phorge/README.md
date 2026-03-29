@@ -390,3 +390,16 @@ Verification:
 
 - syntax check of both touched controller classes
 - code inspection of the viewer-scoped query and config branches
+
+### `024-guard-null-viewer-phids-in-saved-query-paths.patch`
+
+This patch closes two remaining null-viewer paths related to saved queries and
+viewer-specific search attachments:
+
+- `PhabricatorSearchEditController`
+- `PhabricatorSubscriptionsSearchEngineAttachment`
+
+Verification:
+
+- syntax check of both touched classes
+- code inspection of the null-viewer guard branches

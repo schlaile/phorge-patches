@@ -1,0 +1,101 @@
+From 3e4fb80a3c11c608bb1c96f9b001b611d0c7622e Mon Sep 17 00:00:00 2001
+From: Alicia Codex <alicia@schlaile.de>
+Date: Sun, 29 Mar 2026 16:58:56 +0200
+Subject: [PATCH] PHP 8.5: Guard viewer-scoped search controller queries
+
+---
+ .../PhabricatorSearchDefaultController.php    | 22 +++++++++++++------
+ ...atorSearchRelationshipSourceController.php |  9 ++++++--
+ 2 files changed, 22 insertions(+), 9 deletions(-)
+
+diff --git a/src/applications/search/controller/PhabricatorSearchDefaultController.php b/src/applications/search/controller/PhabricatorSearchDefaultController.php
+index 61fa3105bc..46135b8698 100644
+--- a/src/applications/search/controller/PhabricatorSearchDefaultController.php
++++ b/src/applications/search/controller/PhabricatorSearchDefaultController.php
+@@ -5,6 +5,7 @@ final class PhabricatorSearchDefaultController
+ 
+   public function handleRequest(AphrontRequest $request) {
+     $viewer = $this->getViewer();
++    $viewer_phid = $viewer->getPHID();
+     $engine_class = $request->getURIData('engine');
+ 
+     $base_class = PhabricatorApplicationSearchEngine::class;
+@@ -17,15 +18,18 @@ final class PhabricatorSearchDefaultController
+ 
+     $key = $request->getURIData('queryKey');
+ 
++    $user_phids = array(
++      PhabricatorNamedQuery::SCOPE_GLOBAL,
++    );
++    if ($viewer_phid) {
++      array_unshift($user_phids, $viewer_phid);
++    }
++
+     $named_query = id(new PhabricatorNamedQueryQuery())
+       ->setViewer($viewer)
+       ->withEngineClassNames(array($engine_class))
+       ->withQueryKeys(array($key))
+-      ->withUserPHIDs(
+-        array(
+-          $viewer->getPHID(),
+-          PhabricatorNamedQuery::SCOPE_GLOBAL,
+-        ))
++      ->withUserPHIDs($user_phids)
+       ->executeOne();
+ 
+     if (!$named_query && $engine->isBuiltinQuery($key)) {
+@@ -44,15 +48,19 @@ final class PhabricatorSearchDefaultController
+     }
+ 
+     if ($request->isFormPost()) {
++      if (!$viewer_phid) {
++        return new Aphront403Response();
++      }
++
+       $config = id(new PhabricatorNamedQueryConfigQuery())
+         ->setViewer($viewer)
+         ->withEngineClassNames(array($engine_class))
+-        ->withScopePHIDs(array($viewer->getPHID()))
++        ->withScopePHIDs(array($viewer_phid))
+         ->executeOne();
+       if (!$config) {
+         $config = PhabricatorNamedQueryConfig::initializeNewQueryConfig()
+           ->setEngineClassName($engine_class)
+-          ->setScopePHID($viewer->getPHID());
++          ->setScopePHID($viewer_phid);
+       }
+ 
+       $config->setConfigProperty(
+diff --git a/src/applications/search/controller/PhabricatorSearchRelationshipSourceController.php b/src/applications/search/controller/PhabricatorSearchRelationshipSourceController.php
+index 52cdec57be..48d7cf4e51 100644
+--- a/src/applications/search/controller/PhabricatorSearchRelationshipSourceController.php
++++ b/src/applications/search/controller/PhabricatorSearchRelationshipSourceController.php
+@@ -5,6 +5,7 @@ final class PhabricatorSearchRelationshipSourceController
+ 
+   public function handleRequest(AphrontRequest $request) {
+     $viewer = $request->getViewer();
++    $viewer_phid = $viewer->getPHID();
+ 
+     $object = $this->loadRelationshipObject();
+     if (!$object) {
+@@ -33,11 +34,15 @@ final class PhabricatorSearchRelationshipSourceController
+ 
+     switch ($filter) {
+       case 'assigned':
+-        $query->setParameter('ownerPHIDs', array($viewer->getPHID()));
++        if ($viewer_phid) {
++          $query->setParameter('ownerPHIDs', array($viewer_phid));
++        }
+         $query->setParameter('statuses', array($status_open));
+         break;
+       case 'created':
+-        $query->setParameter('authorPHIDs', array($viewer->getPHID()));
++        if ($viewer_phid) {
++          $query->setParameter('authorPHIDs', array($viewer_phid));
++        }
+         $query->setParameter('statuses', array($status_open));
+         break;
+       case 'open':
+-- 
+2.47.3
+
