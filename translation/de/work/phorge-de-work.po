@@ -47930,13 +47930,13 @@ msgid "Autopay is configured using %s."
 msgstr "Automatische Zahlung ist mit %s konfiguriert."
 
 msgid "Order Not in Review"
-msgstr ""
+msgstr "Bestellung nicht in Überprüfung"
 
 msgid "This order does not need manual review, so you can not accept it."
-msgstr ""
+msgstr "Diese Bestellung benötigt keine manuelle Überprüfung, daher kann sie nicht angenommen werden."
 
 msgid "Accept Order?"
-msgstr ""
+msgstr "Bestellung annehmen?"
 
 msgid ""
 "This order has been flagged for manual review. You should review it "
@@ -47944,13 +47944,13 @@ msgid ""
 msgstr ""
 
 msgid "Accept Order"
-msgstr ""
+msgstr "Bestellung annehmen"
 
 msgid "Unable to Refund Order"
-msgstr ""
+msgstr "Bestellung kann nicht erstattet werden"
 
 msgid "Unable to Cancel Order"
-msgstr ""
+msgstr "Bestellung kann nicht storniert werden"
 
 #, fuzzy
 msgid "Rats"
@@ -47958,10 +47958,10 @@ msgstr "Ihr Ratten!"
 
 
 msgid "Unable to load provider for charge!"
-msgstr ""
+msgstr "Anbieter für Abbuchung konnte nicht geladen werden!"
 
 msgid "Unable to refund some charges!"
-msgstr ""
+msgstr "Einige Abbuchungen konnten nicht erstattet werden!"
 
 msgid "Refund Order?"
 msgstr "Auftrag rückabwickeln?"
@@ -47970,13 +47970,13 @@ msgid "Really refund this order?"
 msgstr "Wirklich diesen Auftrag rückabwickeln?"
 
 msgid "Refund Order"
-msgstr ""
+msgstr "Bestellung erstatten"
 
 msgid "Cancel Order?"
 msgstr "Auftrag stornieren?"
 
 msgid "Really cancel this order? Any payment will be refunded."
-msgstr ""
+msgstr "Diese Bestellung wirklich stornieren? Alle Zahlungen werden erstattet."
 "Wirklich diesen Auftrag stornieren? Etwaige Zahlungen werden rückerstattet."
 
 msgid "Cancel Order"
@@ -47986,7 +47986,7 @@ msgid "Do Not Cancel Order"
 msgstr "Auftrag nicht stornieren"
 
 msgid "Incomplete Cart"
-msgstr ""
+msgstr "Unvollständiger Warenkorb"
 
 msgid ""
 "The application that created this cart did not finish putting products in "
@@ -47995,17 +47995,17 @@ msgstr ""
 
 #, php-format
 msgid "Unknown cart status \"%s\"!"
-msgstr ""
+msgstr "Unbekannter Warenkorbstatus \\\"%s\\\"!"
 
 msgid "You must choose a payment method."
-msgstr ""
+msgstr "Eine Zahlungsmethode auswählen."
 
 msgid "Charge Failed"
-msgstr ""
+msgstr "Abbuchung fehlgeschlagen"
 
 #, php-format
 msgid "Unable to make payment: %s"
-msgstr ""
+msgstr "Zahlung nicht möglich: %s"
 
 msgid "No payment methods configured."
 msgstr "Keine Zahlungsmethoden konfiguriert"
@@ -48017,10 +48017,10 @@ msgid "Submit Payment"
 msgstr "Zahlung abschicken"
 
 msgid "Pay With"
-msgstr ""
+msgstr "Bezahlen mit"
 
 msgid "Choose Payment Method"
-msgstr ""
+msgstr "Zahlungsmethode auswählen"
 
 #, fuzzy
 msgid "Printable Version"
@@ -48028,13 +48028,13 @@ msgstr "Aktuelle Version"
 
 
 msgid "Pay Now"
-msgstr ""
+msgstr "Jetzt bezahlen"
 
 msgid "Update Status"
 msgstr "Termin ändern"
 
 msgid "Continue Checkout"
-msgstr ""
+msgstr "Kasse fortsetzen"
 
 #, fuzzy
 msgid "Void Invoice"
@@ -48047,7 +48047,7 @@ msgstr "Anmeldung fehlgeschlagen"
 
 
 msgid "Void Invoice?"
-msgstr ""
+msgstr "Rechnung stornieren?"
 
 msgid ""
 "Really void this invoice? The customer will no longer be asked to submit "
@@ -48055,14 +48055,14 @@ msgid ""
 msgstr ""
 
 msgid "Email Access Link Out of Date"
-msgstr ""
+msgstr "E-Mail-Zugriffslink veraltet"
 
 #, php-format
 msgid "You are trying to access this payment account as: %s"
-msgstr ""
+msgstr "Du versuchst, auf dieses Zahlungskonto zuzugreifen als: %s"
 
 msgid "The access link you have followed is out of date and no longer works."
-msgstr ""
+msgstr "Der Link, dem du gefolgt bist, ist veraltet und funktioniert nicht mehr."
 
 #, php-format
 msgid ""
@@ -48071,7 +48071,7 @@ msgid ""
 msgstr ""
 
 msgid "Continue to Updated Link"
-msgstr ""
+msgstr "Zum aktualisierten Link weiter"
 
 msgid ""
 "To access information about this payment account, follow a more recent link "
@@ -48097,7 +48097,7 @@ msgstr ""
 
 #, php-format
 msgid "Payment Account: %s"
-msgstr ""
+msgstr "Zahlungskonto: %s"
 
 
 #, fuzzy
@@ -48107,12 +48107,12 @@ msgstr "Externes Konto"
 
 #, php-format
 msgid "You are viewing this payment account as: %s"
-msgstr ""
+msgstr "Du siehst dieses Zahlungskonto als: %s"
 
 
 #, php-format
 msgid "This email address was added to this payment account by: %s"
-msgstr ""
+msgstr "Diese E-Mail-Adresse wurde diesem Zahlungskonto hinzugefügt von: %s"
 
 msgid ""
 "Anyone who has a link to this page can view order history for this payment "
@@ -48121,20 +48121,20 @@ msgstr ""
 
 #, php-format
 msgid "Viewing As \"%s\""
-msgstr ""
+msgstr "Anzeige als \\\"%s\\\""
 
 #, php-format
 msgid "Invoices and Receipts: %s"
-msgstr ""
+msgstr "Rechnungen und Quittungen: %s"
 
 msgid "Unsubscribe"
 msgstr "Nicht mehr mitlesen"
 
 msgid "Invoices and Receipts"
-msgstr ""
+msgstr "Rechnungen und Quittungen"
 
 msgid "Invoices"
-msgstr ""
+msgstr "Rechnungen"
 
 #, fuzzy
 msgid "Receipts"
@@ -48143,7 +48143,7 @@ msgstr "Keine Empfänger"
 
 #, php-format
 msgid "Permanently Unsubscribe (%s)"
-msgstr ""
+msgstr "Dauerhaft abmelden (%s)"
 
 #, fuzzy
 msgid "Permanently Unsubscribe"
@@ -48187,7 +48187,7 @@ msgstr "Keine Email-Adresse"
 
 
 msgid "Invoice From"
-msgstr ""
+msgstr "Rechnung von"
 
 #, fuzzy
 msgid "Contact Information"
@@ -48195,10 +48195,10 @@ msgstr "Konteninformationen"
 
 
 msgid "Invoice Footer"
-msgstr ""
+msgstr "Rechnungsfußzeile"
 
 msgid "Edit Merchant"
-msgstr ""
+msgstr "Händler bearbeiten"
 
 #, fuzzy
 msgid "Edit Logo"
@@ -48206,52 +48206,52 @@ msgstr "Log ändern"
 
 
 msgid "Choose a user to invoice."
-msgstr ""
+msgstr "Einen zu fakturierenden Benutzer auswählen."
 
 msgid "Choose User"
-msgstr ""
+msgstr "Benutzer auswählen"
 
 msgid "Choose which account to invoice."
-msgstr ""
+msgstr "Das zu fakturierende Konto auswählen."
 
 msgid "Choose Account"
-msgstr ""
+msgstr "Konto auswählen"
 
 msgid "New Invoice"
-msgstr ""
+msgstr "Neue Rechnung"
 
 msgid "You must title this invoice."
-msgstr ""
+msgstr "Diese Rechnung muss einen Titel haben."
 
 msgid "You must provide a name for this purchase."
-msgstr ""
+msgstr "Einen Namen für diesen Kauf angeben."
 
 msgid "You must provide a cost for this purchase."
-msgstr ""
+msgstr "Einen Preis für diesen Kauf angeben."
 
 msgid "Quantity must be a positive integer."
-msgstr ""
+msgstr "Menge muss eine positive Ganzzahl sein."
 
 msgid "Invoice Title"
-msgstr ""
+msgstr "Rechnungstitel"
 
 msgid "Purchase Name"
-msgstr ""
+msgstr "Kaufname"
 
 msgid "Purchase Cost"
-msgstr ""
+msgstr "Kaufpreis"
 
 msgid "Quantity"
-msgstr ""
+msgstr "Menge"
 
 msgid "Invoice Description"
-msgstr ""
+msgstr "Rechnungsbeschreibung"
 
 msgid "Send Invoice"
-msgstr ""
+msgstr "Rechnung senden"
 
 msgid "Create Merchant"
-msgstr ""
+msgstr "Händler erstellen"
 
 #, fuzzy
 msgid "New Manager"
@@ -48269,31 +48269,31 @@ msgstr "Händlerkonto"
 
 
 msgid "Accepts Payments"
-msgstr ""
+msgstr "Akzeptiert Zahlungen"
 
 msgid "This merchant can accept payments."
-msgstr ""
+msgstr "Dieser Händler kann Zahlungen akzeptieren."
 
 msgid "Test Mode"
-msgstr ""
+msgstr "Testmodus"
 
 msgid "This merchant is accepting test payments."
-msgstr ""
+msgstr "Dieser Händler akzeptiert Testzahlungen."
 
 msgid "Live Mode"
-msgstr ""
+msgstr "Live-Modus"
 
 msgid "This merchant is accepting live payments."
-msgstr ""
+msgstr "Dieser Händler akzeptiert echte Zahlungen."
 
 msgid "No Enabled Providers"
-msgstr ""
+msgstr "Keine aktivierten Anbieter"
 
 msgid "All of the payment providers for this merchant are disabled."
-msgstr ""
+msgstr "Alle Zahlungsanbieter für diesen Händler sind deaktiviert."
 
 msgid "No Providers"
-msgstr ""
+msgstr "Keine Anbieter"
 
 msgid ""
 "This merchant does not have any payment providers configured yet, so it can "
@@ -48313,7 +48313,7 @@ msgstr "Aktiv"
 
 
 msgid "Use Logo"
-msgstr ""
+msgstr "Logo verwenden"
 
 #, fuzzy
 msgid "Upload Logo"
@@ -48349,28 +48349,28 @@ msgid "Edit Payment Provider %d %s"
 msgstr "Zahlungsdienstleister %d %s ändern"
 
 msgid "Unable to connect to payment provider:"
-msgstr ""
+msgstr "Verbindung zum Zahlungsanbieter nicht möglich:"
 
 #, php-format
 msgid "Edit Provider %d"
 msgstr "Zahlungsdienstleister %d ändern"
 
 msgid "You must select a valid provider type."
-msgstr ""
+msgstr "Einen gültigen Anbietertyp auswählen."
 
 msgid ""
 "This merchant already has a payment account configured with this provider."
 msgstr ""
 
 msgid "Choose the type of payment provider to add:"
-msgstr ""
+msgstr "Den Typ des hinzuzufügenden Zahlungsanbieters auswählen:"
 
 msgid "Add Payment Provider"
 msgstr "Neuer Zahlungsdienstleister"
 
 #, php-format
 msgid "Payment Provider: %s"
-msgstr ""
+msgstr "Zahlungsanbieter: %s"
 
 
 #, fuzzy
@@ -48379,13 +48379,13 @@ msgstr "Zahlungsdienstleister"
 
 
 msgid "This merchant has no payment providers."
-msgstr ""
+msgstr "Dieser Händler hat keine Zahlungsanbieter."
 
 msgid "This payment provider is disabled."
-msgstr ""
+msgstr "Dieser Zahlungsanbieter ist deaktiviert."
 
 msgid "View All Subscriptions"
-msgstr ""
+msgstr "Alle Abonnements anzeigen"
 
 #, fuzzy
 msgid "No Merchants"
@@ -48398,7 +48398,7 @@ msgid ""
 msgstr ""
 
 msgid "Choose the merchant you want to pay."
-msgstr ""
+msgstr "Den Händler auswählen, an den du zahlen möchtest."
 
 #, fuzzy
 msgid "Choose a Merchant"
@@ -48406,7 +48406,7 @@ msgstr "Wähle ein Paket"
 
 
 msgid "There are no payment providers enabled that can add payment methods."
-msgstr ""
+msgstr "Es sind keine Zahlungsanbieter aktiviert, die Zahlungsmethoden hinzufügen können."
 
 #, fuzzy
 msgid "Choose a Payment Method"
@@ -48414,7 +48414,7 @@ msgstr "Zahlungsmethode"
 
 
 msgid "nothing"
-msgstr ""
+msgstr "nichts"
 
 #, php-format
 msgid ""
@@ -48460,7 +48460,7 @@ msgstr ""
 
 #, php-format
 msgid "There was an unexpected error ('%s') processing payment information."
-msgstr ""
+msgstr "Beim Verarbeiten der Zahlungsinformationen ist ein unerwarteter Fehler aufgetreten ('%s')."
 
 #, fuzzy, php-format
 msgid "Remove the payment method %s from your account?"
@@ -48468,7 +48468,7 @@ msgstr "Die Zahlungsart \"%s\" deaktivieren?"
 
 
 msgid "You will no longer be able to make payments using this payment method."
-msgstr ""
+msgstr "Du kannst mit dieser Zahlungsmethode keine Zahlungen mehr vornehmen."
 
 msgid "Product List"
 msgstr "Produktangebot"
@@ -48495,34 +48495,34 @@ msgstr "Preis"
 
 #, php-format
 msgid "Unsupported currency '%s'!"
-msgstr ""
+msgstr "Nicht unterstützte Währung '%s'!"
 
 #, php-format
 msgid "Unsupported currency (\"%s\")!"
-msgstr ""
+msgstr "Nicht unterstützte Währung (\\\"%s\\\")!"
 
 msgid "Unexpected currency!"
-msgstr ""
+msgstr "Unerwartete Währung!"
 
 #, php-format
 msgid "Invalid currency format ('%s')."
-msgstr ""
+msgstr "Ungültiges Währungsformat ('%s')."
 
 #, php-format
 msgid "Trying to operate on unlike currencies (\"%s\" and \"%s\")!"
-msgstr ""
+msgstr "Versuch, mit unterschiedlichen Währungen zu operieren (\\\"%s\\\" und \\\"%s\\\")!"
 
 #, php-format
 msgid "Range (%s - %s) is not valid!"
-msgstr ""
+msgstr "Bereich (%s - %s) ist ungültig!"
 
 #, php-format
 msgid "Minimum allowed amount is %s."
-msgstr ""
+msgstr "Mindestbetrag ist %s."
 
 #, php-format
 msgid "Maximum allowed amount is %s."
-msgstr ""
+msgstr "Höchstbetrag ist %s."
 
 #, php-format
 msgid ""
@@ -48532,12 +48532,12 @@ msgstr ""
 
 #, php-format
 msgid "%s added %s account manager(s): %s."
-msgstr ""
+msgstr "%s hat %s Kontomanager hinzugefügt: %s."
 
 
 #, php-format
 msgid "%s removed %s account manager(s): %s."
-msgstr ""
+msgstr "%s hat %s Kontomanager entfernt: %s."
 
 
 #, fuzzy, php-format
@@ -48563,12 +48563,12 @@ msgstr ""
 
 #, php-format
 msgid "%s added %s merchant manager(s): %s."
-msgstr ""
+msgstr "%s hat %s Händlermanager hinzugefügt: %s."
 
 
 #, php-format
 msgid "%s removed %s merchant manager(s): %s."
-msgstr ""
+msgstr "%s hat %s Händlermanager entfernt: %s."
 
 
 #, fuzzy, php-format
@@ -48593,7 +48593,7 @@ msgstr ""
 
 
 msgid "Phortune Accounts"
-msgstr ""
+msgstr "Phortune-Konten"
 
 #, fuzzy
 msgid "Configure Phortune Account Forms"
@@ -48601,14 +48601,14 @@ msgstr "Zeiterfassung konfigurieren"
 
 
 msgid "Configure creation and editing forms in Phortune Accounts."
-msgstr ""
+msgstr "Erstellungs- und Bearbeitungsformulare in Phortune-Konten konfigurieren."
 
 msgid "Create Payment Account"
 msgstr "Neues Zahlungskonto "
 
 #, php-format
 msgid "Edit Account: %s"
-msgstr ""
+msgstr "Konto bearbeiten: %s"
 
 
 #, fuzzy
@@ -48622,7 +48622,7 @@ msgstr "Den Namen eines Dokumentes eintippen..."
 
 
 msgid "Initial account managers."
-msgstr ""
+msgstr "Initiale Kontomanager."
 
 #, fuzzy
 msgid "Set account managers."
@@ -48630,13 +48630,13 @@ msgstr "Konteneinstellungen speichern"
 
 
 msgid "New list of managers."
-msgstr ""
+msgstr "Neue Managerliste."
 
 msgid "Account name for billing purposes."
-msgstr ""
+msgstr "Kontoname für Abrechnungszwecke."
 
 msgid "New account billing name."
-msgstr ""
+msgstr "Neuer Abrechnungsname des Kontos."
 
 #, fuzzy
 msgid "Account billing address."
@@ -48644,7 +48644,7 @@ msgstr "Konteneinstellungen"
 
 
 msgid "New account billing address."
-msgstr ""
+msgstr "Neue Rechnungsadresse des Kontos."
 
 #, fuzzy, php-format
 msgid "%s created this payment account."
@@ -48653,7 +48653,7 @@ msgstr "%s hat dieses Konto erstellt."
 
 #, php-format
 msgid "Account managers must be valid users, \"%s\" is not."
-msgstr ""
+msgstr "Kontomanager müssen gültige Benutzer sein, \\\"%s\\\" ist es nicht."
 
 #, fuzzy
 msgid "You can not remove yourself as an account manager."
@@ -48661,10 +48661,10 @@ msgstr "Du kannst Dein eigenes Konto nicht löschen."
 
 
 msgid "Phortune Account Emails"
-msgstr ""
+msgstr "Phortune-Konto-E-Mails"
 
 msgid "Configure Phortune Account Email Forms"
-msgstr ""
+msgstr "Phortune-Konto-E-Mail-Formulare konfigurieren"
 
 msgid ""
 "Configure creation and editing forms for Phortune Account Email Addresses."
@@ -48677,7 +48677,7 @@ msgstr "Keine Email-Adresse"
 
 #, php-format
 msgid "Edit Account Email: %s"
-msgstr ""
+msgstr "Konto-E-Mail bearbeiten: %s"
 
 
 #, fuzzy
@@ -48702,14 +48702,14 @@ msgstr "%s hat dieses Konto erstellt."
 
 #, php-format
 msgid "The email address \"%s\" is already attached to this account."
-msgstr ""
+msgstr "Die E-Mail-Adresse \\\"%s\\\" ist bereits mit diesem Konto verknüpft."
 
 msgid "Phortune Carts"
-msgstr ""
+msgstr "Phortune-Warenkörbe"
 
 #, php-format
 msgid "Order %d: %s"
-msgstr ""
+msgstr "Bestellung %d: %s"
 
 #, php-format
 msgid ""
@@ -48719,23 +48719,23 @@ msgid ""
 msgstr ""
 
 msgid "PAY NOW"
-msgstr ""
+msgstr "JETZT BEZAHLEN"
 
 msgid "ORDER CONTENTS"
-msgstr ""
+msgstr "BESTELLINHALT"
 
 msgid "SUBSCRIPTION"
-msgstr ""
+msgstr "ABONNEMENT"
 
 msgid "ORDER DETAIL"
-msgstr ""
+msgstr "BESTELLDETAIL"
 
 msgid "ACCOUNT OVERVIEW"
-msgstr ""
+msgstr "KONTOÜBERSICHT"
 
 #, php-format
 msgid "[Invoice #%d] %s"
-msgstr ""
+msgstr "[Rechnung #%d] %s"
 
 #, fuzzy
 msgid "INVOICE DETAIL"
@@ -48744,18 +48744,18 @@ msgstr "DATEI DETAILS"
 
 #, php-format
 msgid "[Order #%d] %s"
-msgstr ""
+msgstr "[Bestellung #%d] %s"
 
 
 #, php-format
 msgid "This email address (%s) was added to a payment account (%s) by %s."
-msgstr ""
+msgstr "Diese E-Mail-Adresse (%s) wurde von %s einem Zahlungskonto (%s) hinzugefügt."
 
 msgid "FULL ORDER HISTORY"
-msgstr ""
+msgstr "VOLLSTÄNDIGE BESTELLHISTORIE"
 
 msgid "UNSUBSCRIBE"
-msgstr ""
+msgstr "ABMELDEN"
 
 #, fuzzy
 msgid "Configure Phortune Merchant Forms"
@@ -48763,7 +48763,7 @@ msgstr "Phabricator konfigurieren"
 
 
 msgid "Configure creation and editing forms for Phortune Merchants."
-msgstr ""
+msgstr "Erstellungs- und Bearbeitungsformulare für Phortune-Händler konfigurieren."
 
 #, fuzzy
 msgid "Create New Merchant"
@@ -48786,10 +48786,10 @@ msgstr "Neuer Benutzername"
 
 
 msgid "Initial merchant managers."
-msgstr ""
+msgstr "Initiale Händlermanager."
 
 msgid "Set merchant managers."
-msgstr ""
+msgstr "Händlermanager festlegen."
 
 #, fuzzy
 msgid "Merchant description."
@@ -48817,20 +48817,20 @@ msgstr "Aus Email"
 
 
 msgid "Email address invoices are sent from."
-msgstr ""
+msgstr "E-Mail-Adresse, von der Rechnungen gesendet werden."
 
 msgid "Footer on invoice forms."
-msgstr ""
+msgstr "Fußzeile auf Rechnungsformularen."
 
 msgid "Phortune Merchants"
-msgstr ""
+msgstr "Phortune-Händler"
 
 #, php-format
 msgid "%s created this merchant."
-msgstr ""
+msgstr "%s hat diesen Händler erstellt."
 
 msgid "You can not remove yourself as an merchant manager."
-msgstr ""
+msgstr "Du kannst dich nicht selbst als Händlermanager entfernen."
 
 #, fuzzy
 msgid "Phortune Payment Methods"
@@ -48843,10 +48843,10 @@ msgstr "%s hat dieses Panel erzeugt."
 
 
 msgid "Phortune Payment Providers"
-msgstr ""
+msgstr "Phortune-Zahlungsanbieter"
 
 msgid "Phortune Subscriptions"
-msgstr ""
+msgstr "Phortune-Abonnements"
 
 #, fuzzy, php-format
 msgid "%s created this subscription."
@@ -48859,19 +48859,19 @@ msgid ""
 msgstr ""
 
 msgid "Subscription to invoice."
-msgstr ""
+msgstr "Zu fakturierendes Abonnement."
 
 msgid "Bill as though the current time is a specific time."
-msgstr ""
+msgstr "Abrechnen, als wäre die aktuelle Zeit ein bestimmter Zeitpunkt."
 
 msgid "Set the start of the billing period."
-msgstr ""
+msgstr "Beginn des Abrechnungszeitraums festlegen."
 
 msgid "Set the end of the billing period."
-msgstr ""
+msgstr "Ende des Abrechnungszeitraums festlegen."
 
 msgid "Automatically use the current billing period."
-msgstr ""
+msgstr "Automatisch den aktuellen Abrechnungszeitraum verwenden."
 
 msgid ""
 "Skip the prompt warning you that this operation is potentially dangerous."
@@ -48879,19 +48879,19 @@ msgstr ""
 
 #, php-format
 msgid "Specify which subscription to invoice with %s."
-msgstr ""
+msgstr "Mit %s angeben, welches Abonnement fakturiert werden soll."
 
 #, php-format
 msgid "Unable to load subscription with PHID \"%s\"."
-msgstr ""
+msgstr "Abonnement mit PHID \\\"%s\\\" konnte nicht geladen werden."
 
 #, php-format
 msgid "Set current time to %s."
-msgstr ""
+msgstr "Aktuelle Zeit auf %s setzen."
 
 #, php-format
 msgid "Specify a billing range with %s and %s, or use %s."
-msgstr ""
+msgstr "Abrechnungszeitraum mit %s und %s angeben oder %s verwenden."
 
 #, php-format
 msgid ""
@@ -48901,7 +48901,7 @@ msgstr ""
 
 #, php-format
 msgid "Use either %s or %s and %s to specify the billing range, but not both."
-msgstr ""
+msgstr "Entweder %s oder %s und %s für den Abrechnungszeitraum angeben, aber nicht beides."
 
 #, php-format
 msgid ""
@@ -48910,11 +48910,11 @@ msgid ""
 msgstr ""
 
 msgid "subscription creation"
-msgstr ""
+msgstr "Abonnement-Erstellung"
 
 #, php-format
 msgid "Preparing to invoice subscription \"%s\" from %s to %s."
-msgstr ""
+msgstr "Abonnement \\\"%s\\\" wird von %s bis %s vorbereitet für Fakturierung."
 
 msgid ""
 "Manually invoicing will double bill payment accounts if the range overlaps "
@@ -48924,10 +48924,10 @@ msgid ""
 msgstr ""
 
 msgid "Really invoice this subscription?"
-msgstr ""
+msgstr "Dieses Abonnement wirklich fakturieren?"
 
 msgid "Declining to invoice."
-msgstr ""
+msgstr "Fakturierung wird abgelehnt."
 
 msgid ""
 "This generator has already emitted an iterator. You can not modify the PDF "
@@ -48940,7 +48940,7 @@ msgid ""
 msgstr ""
 
 msgid "This PDF iterator has no associated PDF generator."
-msgstr ""
+msgstr "Dieser PDF-Iterator hat keinen zugehörigen PDF-Generator."
 
 msgid ""
 "PDF iterators may not be rewound. Create a new iterator to emit another PDF."
@@ -48963,58 +48963,58 @@ msgid ""
 msgstr ""
 
 msgid "Phortune Account Email"
-msgstr ""
+msgstr "Phortune-Konto-E-Mail"
 
 msgid "Phortune Account"
-msgstr ""
+msgstr "Phortune-Konto"
 
 msgid "Phortune Cart"
-msgstr ""
+msgstr "Phortune-Warenkorb"
 
 msgid "Phortune Charge"
-msgstr ""
+msgstr "Phortune-Abbuchung"
 
 #, php-format
 msgid "Charge %d"
-msgstr ""
+msgstr "Abbuchung %d"
 
 msgid "Phortune Merchant"
-msgstr ""
+msgstr "Phortune-Händler"
 
 msgid "Phortune Payment Method"
-msgstr ""
+msgstr "Phortune-Zahlungsmethode"
 
 msgid "Phortune Payment Provider"
-msgstr ""
+msgstr "Phortune-Zahlungsanbieter"
 
 msgid "Phortune Product"
-msgstr ""
+msgstr "Phortune-Produkt"
 
 #, php-format
 msgid "Product %d"
-msgstr ""
+msgstr "Produkt %d"
 
 msgid "Phortune Purchase"
-msgstr ""
+msgstr "Phortune-Kauf"
 
 msgid "Phortune Subscription"
-msgstr ""
+msgstr "Phortune-Abonnement"
 
 msgid "Ad-Hoc Product"
-msgstr ""
+msgstr "Ad-hoc-Produkt"
 
 msgid "PayPal"
-msgstr ""
+msgstr "PayPal"
 
 msgid "Add PayPal Payments Account"
-msgstr ""
+msgstr "PayPal-Zahlungskonto hinzufügen"
 
 msgid ""
 "Allows you to accept various payment instruments with a paypal.com account."
 msgstr ""
 
 msgid "This merchant accepts payments via PayPal."
-msgstr ""
+msgstr "Dieser Händler akzeptiert Zahlungen über PayPal."
 
 msgid ""
 "To configure PayPal, register or log into an existing account on [[https://"
@@ -49035,87 +49035,87 @@ msgid ""
 msgstr ""
 
 msgid "PayPal API Username is required."
-msgstr ""
+msgstr "PayPal-API-Benutzername ist erforderlich."
 
 msgid "PayPal API Password is required."
-msgstr ""
+msgstr "PayPal-API-Passwort ist erforderlich."
 
 msgid "PayPal API Signature is required."
-msgstr ""
+msgstr "PayPal-API-Signatur ist erforderlich."
 
 msgid "Mode is required."
-msgstr ""
+msgstr "Modus ist erforderlich."
 
 msgid "Paypal API Username"
-msgstr ""
+msgstr "PayPal-API-Benutzername"
 
 msgid "Paypal API Password"
-msgstr ""
+msgstr "PayPal-API-Passwort"
 
 msgid "Paypal API Signature"
-msgstr ""
+msgstr "PayPal-API-Signatur"
 
 msgid "Credit Card or PayPal Account"
-msgstr ""
+msgstr "Kreditkarte oder PayPal-Konto"
 
 msgid "Charge has no transaction ID!"
-msgstr ""
+msgstr "Abbuchung hat keine Transaktions-ID!"
 
 msgid "Cart is already charging!"
-msgstr ""
+msgstr "Warenkorb wird bereits abgebucht!"
 
 msgid "Cart is not charging yet!"
-msgstr ""
+msgstr "Warenkorb wird noch nicht abgebucht!"
 
 msgid "Paypal checkout does not match Phortune charge!"
-msgstr ""
+msgstr "PayPal-Checkout stimmt nicht mit Phortune-Abbuchung überein!"
 
 msgid "Payment Already Processed"
-msgstr ""
+msgstr "Zahlung bereits verarbeitet"
 
 msgid ""
 "The payment response for this charge attempt has already been processed."
 msgstr ""
 
 msgid "Charge On Hold"
-msgstr ""
+msgstr "Abbuchung in der Warteschleife"
 
 msgid "Your charge is on hold, for reasons?"
-msgstr ""
+msgstr "Deine Abbuchung ist aus Gründen in der Warteschleife?"
 
 msgid "Stripe"
-msgstr ""
+msgstr "Stripe"
 
 msgid "Add Stripe Payments Account"
-msgstr ""
+msgstr "Stripe-Zahlungskonto hinzufügen"
 
 msgid ""
 "Allows you to accept credit or debit card payments with a stripe.com account."
 msgstr ""
 
 msgid "This merchant accepts credit and debit cards via Stripe."
-msgstr ""
+msgstr "Dieser Händler akzeptiert Kredit- und Debitkarten über Stripe."
 
 msgid "Add Credit or Debit Card (US and Canada)"
-msgstr ""
+msgstr "Kredit- oder Debitkarte hinzufügen (USA und Kanada)"
 
 msgid "Processed by Stripe"
-msgstr ""
+msgstr "Verarbeitet von Stripe"
 
 msgid "Credit/Debit Card"
-msgstr ""
+msgstr "Kredit-/Debitkarte"
 
 msgid "Stripe Secret Key is required."
-msgstr ""
+msgstr "Stripe-Geheimschlüssel ist erforderlich."
 
 msgid "Stripe Publishable Key is required."
-msgstr ""
+msgstr "Stripe-öffentlicher Schlüssel ist erforderlich."
 
 msgid "Stripe Secret Key"
-msgstr ""
+msgstr "Stripe-Geheimschlüssel"
 
 msgid "Stripe Publishable Key"
-msgstr ""
+msgstr "Stripe-öffentlicher Schlüssel"
 
 msgid ""
 "To configure Stripe, register or log in to an existing account on [[https://"
@@ -49129,31 +49129,31 @@ msgid ""
 msgstr ""
 
 msgid "Stripe charge call did not return an ID!"
-msgstr ""
+msgstr "Stripe-Abbuchungsaufruf hat keine ID zurückgegeben!"
 
 msgid "Unable to refund charge; no Stripe chargeID!"
-msgstr ""
+msgstr "Abbuchung kann nicht erstattet werden; keine Stripe-Abbuchungs-ID!"
 
 msgid "Stripe refund call did not return an ID!"
-msgstr ""
+msgstr "Stripe-Erstattungsaufruf hat keine ID zurückgegeben!"
 
 msgid "Unable to update charge; no Stripe chargeID!"
-msgstr ""
+msgstr "Abbuchung kann nicht aktualisiert werden; keine Stripe-Abbuchungs-ID!"
 
 msgid "Payments are processed securely by Stripe."
-msgstr ""
+msgstr "Zahlungen werden sicher von Stripe verarbeitet."
 
 msgid "Invalid or incorrect credit card number."
-msgstr ""
+msgstr "Ungültige oder falsche Kreditkartennummer."
 
 msgid "Card CVC is invalid or incorrect."
-msgstr ""
+msgstr "Karten-CVC ist ungültig oder falsch."
 
 msgid "Card expiration date is invalid or incorrect."
-msgstr ""
+msgstr "Ablaufdatum der Karte ist ungültig oder falsch."
 
 msgid "Additional details about this error:"
-msgstr ""
+msgstr "Weitere Details zu diesem Fehler:"
 
 #, fuzzy
 msgid "Error Code"
@@ -49176,7 +49176,7 @@ msgstr "Teilnahme absagen"
 
 
 msgid "Test Payments"
-msgstr ""
+msgstr "Testzahlungen"
 
 msgid ""
 "Adds a test provider to allow you to test payments. This allows users to "
@@ -49184,138 +49184,138 @@ msgid ""
 msgstr ""
 
 msgid "This merchant accepts test payments."
-msgstr ""
+msgstr "Dieser Händler akzeptiert Testzahlungen."
 
 msgid "This provider does not require any special configuration."
-msgstr ""
+msgstr "Dieser Anbieter benötigt keine besondere Konfiguration."
 
 msgid "Add Mountain of Virtual Wealth"
-msgstr ""
+msgstr "Berg virtuellen Reichtums hinzufügen"
 
 msgid "Infinite Free Money"
-msgstr ""
+msgstr "Unendlich viel kostenloses Geld"
 
 msgid "Vast Wealth"
-msgstr ""
+msgstr "Enormer Reichtum"
 
 msgid "This is a test payment provider."
-msgstr ""
+msgstr "Dies ist ein Test-Zahlungsanbieter."
 
 msgid "Phortune Orders"
-msgstr ""
+msgstr "Phortune-Bestellungen"
 
 msgid "You have no accounts!"
-msgstr ""
+msgstr "Du hast keine Konten!"
 
 msgid "Order History"
 msgstr "Bestellhistorie"
 
 msgid "Unpaid Invoices"
-msgstr ""
+msgstr "Unbezahlte Rechnungen"
 
 msgid "No orders match the query."
-msgstr ""
+msgstr "Keine Bestellungen entsprechen der Abfrage."
 
 #, php-format
 msgid "Orders for %s"
-msgstr ""
+msgstr "Bestellungen für %s"
 
 msgid "Your Orders"
-msgstr ""
+msgstr "Deine Bestellungen"
 
 msgid "Phortune Charges"
-msgstr ""
+msgstr "Phortune-Abbuchungen"
 
 msgid "All Charges"
-msgstr ""
+msgstr "Alle Abbuchungen"
 
 msgid "All Merchants"
-msgstr ""
+msgstr "Alle Händler"
 
 msgid "No merchants found."
-msgstr ""
+msgstr "Keine Händler gefunden."
 
 msgid "You can not query subscriptions for a merchant you do not control."
-msgstr ""
+msgstr "Du kannst keine Abonnements für einen Händler abfragen, den du nicht kontrollierst."
 
 msgid "You can not query subscriptions for an account you are not a member of."
-msgstr ""
+msgstr "Du kannst keine Abonnements für ein Konto abfragen, dessen Mitglied du nicht bist."
 
 msgid "All Subscriptions"
-msgstr ""
+msgstr "Alle Abonnements"
 
 #, php-format
 msgid "Subscriptions for %s"
-msgstr ""
+msgstr "Abonnements für %s"
 
 msgid "Your Subscriptions"
-msgstr ""
+msgstr "Deine Abonnements"
 
 msgid "Default Account"
-msgstr ""
+msgstr "Standardkonto"
 
 msgid "Members of an account can always view and edit it."
-msgstr ""
+msgstr "Mitglieder eines Kontos können es immer anzeigen und bearbeiten."
 
 msgid "Merchants an account has established a relationship can view it."
-msgstr ""
+msgstr "Händler, mit denen ein Konto eine Beziehung aufgebaut hat, können es anzeigen."
 
 #, php-format
 msgid "Account Email %d"
-msgstr ""
+msgstr "Konto-E-Mail %d"
 
 
 msgid "Ready"
 msgstr "Bereit"
 
 msgid "Purchasing"
-msgstr ""
+msgstr "Wird gekauft"
 
 msgid "Charged"
-msgstr ""
+msgstr "Abgebucht"
 
 msgid "Hold"
-msgstr ""
+msgstr "Warteschleife"
 
 msgid "Review"
-msgstr ""
+msgstr "Überprüfung"
 
 msgid "Purchased"
-msgstr ""
+msgstr "Gekauft"
 
 #, php-format
 msgid "Cart has wrong status (\"%s\") to call %s."
-msgstr ""
+msgstr "Warenkorb hat falschen Status (\\\"%s\\\") für den Aufruf von %s."
 
 #, php-format
 msgid "Attempting to apply a charge using an inactive payment method (\"%s\")!"
-msgstr ""
+msgstr "Versuch, eine Abbuchung mit einer inaktiven Zahlungsmethode (\\\"%s\\\") durchzuführen!"
 
 #, php-format
 msgid "Cart has wrong status (\"%s\") to call %s, expected \"%s\"."
-msgstr ""
+msgstr "Warenkorb hat falschen Status (\\\"%s\\\") für den Aufruf von %s, erwartet \\\"%s\\\"."
 
 #, php-format
 msgid "Cart has wrong status (\"%s\") to call %s!"
-msgstr ""
+msgstr "Warenkorb hat falschen Status (\\\"%s\\\") für den Aufruf von %s!"
 
 msgid "Trying to refund non-positive amount of money!"
-msgstr ""
+msgstr "Versuch, einen nicht positiven Geldbetrag zu erstatten!"
 
 msgid "Trying to refund more money than remaining on charge!"
-msgstr ""
+msgstr "Versuch, mehr Geld zu erstatten, als auf der Abbuchung verbleibt!"
 
 msgid "Trying to refund a refund!"
-msgstr ""
+msgstr "Versuch, eine Erstattung zu erstatten!"
 
 msgid "Trying to refund an uncharged charge!"
-msgstr ""
+msgstr "Versuch, eine nicht abgebuchte Abbuchung zu erstatten!"
 
 msgid "Trying to refund a charge which is already refunding!"
-msgstr ""
+msgstr "Versuch, eine Abbuchung zu erstatten, die bereits erstattet wird!"
 
 msgid "Charge is in the wrong refunding state!"
-msgstr ""
+msgstr "Abbuchung befindet sich im falschen Erstattungsstatus!"
 
 msgid ""
 "This order can not be cancelled because the application has not finished "
@@ -49323,7 +49323,7 @@ msgid ""
 msgstr ""
 
 msgid "This order can not be cancelled because it has not been placed."
-msgstr ""
+msgstr "Diese Bestellung kann nicht storniert werden, da sie noch nicht aufgegeben wurde."
 
 msgid ""
 "This order can not be refunded because the application has not finished "
@@ -49331,45 +49331,45 @@ msgid ""
 msgstr ""
 
 msgid "This order can not be refunded because it has not been placed."
-msgstr ""
+msgstr "Diese Bestellung kann nicht erstattet werden, da sie noch nicht aufgegeben wurde."
 
 msgid "This order can not be voided because it is not an invoice."
-msgstr ""
+msgstr "Diese Bestellung kann nicht storniert werden, da sie keine Rechnung ist."
 
 msgid "This order can not be voided because it is not ready for payment."
-msgstr ""
+msgstr "Diese Bestellung kann nicht storniert werden, da sie nicht zahlungsbereit ist."
 
 #, php-format
 msgid "Order %d"
-msgstr ""
+msgstr "Bestellung %d"
 
 
 msgid "This order was created."
-msgstr ""
+msgstr "Diese Bestellung wurde erstellt."
 
 msgid "This order was put on hold until payment clears."
-msgstr ""
+msgstr "Diese Bestellung wurde in die Warteschleife gelegt, bis die Zahlung abgewickelt ist."
 
 msgid "This order was flagged for manual processing by the merchant."
-msgstr ""
+msgstr "Diese Bestellung wurde vom Händler zur manuellen Bearbeitung markiert."
 
 msgid "This order was cancelled."
-msgstr ""
+msgstr "Diese Bestellung wurde storniert."
 
 msgid "This order was refunded."
-msgstr ""
+msgstr "Diese Bestellung wurde erstattet."
 
 msgid "Payment for this order was completed."
-msgstr ""
+msgstr "Die Zahlung für diese Bestellung wurde abgeschlossen."
 
 msgid "This order was invoiced."
-msgstr ""
+msgstr "Diese Bestellung wurde fakturiert."
 
 msgid "You have a new invoice due."
-msgstr ""
+msgstr "Du hast eine neue fällige Rechnung."
 
 msgid "Refunded"
-msgstr ""
+msgstr "Erstattet"
 
 msgid "Charging"
 msgstr ""
