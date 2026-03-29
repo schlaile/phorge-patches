@@ -24,18 +24,18 @@ msgid ""
 msgstr ""
 
 msgid "In test cases, all applications should default to installed."
-msgstr ""
+msgstr "In Testfällen sollten alle Anwendungen standardmäßig als installiert gelten."
 
 msgid "i18n validation errors found!"
-msgstr ""
+msgstr "i18n-Validierungsfehler gefunden!"
 
 #, php-format
 msgid "Controllers must implement either %s (recommended) or %s (deprecated)."
-msgstr ""
+msgstr "Controller müssen entweder %s (empfohlen) oder %s (veraltet) implementieren."
 
 #, php-format
 msgid "A Controller must implement %s before you can invoke %s or %s."
-msgstr ""
+msgstr "Ein Controller muss %s implementieren, bevor %s oder %s aufgerufen werden kann."
 
 #, php-format
 msgid ""
@@ -56,16 +56,16 @@ msgid ""
 msgstr ""
 
 msgid "This was an Ajax request."
-msgstr ""
+msgstr "Dies war eine Ajax-Anfrage."
 
 msgid "This was a Web request."
-msgstr ""
+msgstr "Dies war eine Web-Anfrage."
 
 msgid "This request had an invalid CSRF token."
-msgstr ""
+msgstr "Diese Anfrage enthielt ein ungültiges CSRF-Token."
 
 msgid "This request had no CSRF token."
-msgstr ""
+msgstr "Diese Anfrage enthielt kein CSRF-Token."
 
 #, php-format
 msgid ""
@@ -84,10 +84,10 @@ msgid ""
 msgstr ""
 
 msgid "Invalid Request (CSRF)"
-msgstr ""
+msgstr "Ungültige Anfrage (CSRF)"
 
 msgid "Bad Host Header"
-msgstr ""
+msgstr "Ungültiger Host-Header"
 
 #, php-format
 msgid ""
@@ -99,7 +99,7 @@ msgstr ""
 
 #, php-format
 msgid "Unable to resolve domain \"%s\"!"
-msgstr ""
+msgstr "Domain \\\"%s\\\" konnte nicht aufgelöst werden!"
 
 #, php-format
 msgid ""
@@ -110,10 +110,10 @@ msgstr ""
 
 #, php-format
 msgid "Host: %s"
-msgstr ""
+msgstr "Host: %s"
 
 msgid "No sites define any routing rules."
-msgstr ""
+msgstr "Keine Website hat Routing-Regeln definiert."
 
 #, php-format
 msgid ""
@@ -123,7 +123,7 @@ msgstr ""
 
 #, php-format
 msgid "Routing rule (\"%s\", for site \"%s\") does not have any targets."
-msgstr ""
+msgstr "Routing-Regel (\\\"%s\\\", für Website \\\"%s\\\") hat keine Ziele."
 
 #, php-format
 msgid ""
@@ -151,7 +151,7 @@ msgstr ""
 
 #, php-format
 msgid "No %s"
-msgstr ""
+msgstr "Kein %s"
 
 #, php-format
 msgid ""
@@ -161,7 +161,7 @@ msgid ""
 msgstr ""
 
 msgid "External Interface"
-msgstr ""
+msgstr "Externe Schnittstelle"
 
 #, php-format
 msgid ""
@@ -181,7 +181,7 @@ msgstr ""
 
 #, php-format
 msgid "Aphront site (\"%s\") failed to build a 404 controller."
-msgstr ""
+msgstr "Aphront-Website (\\\"%s\\\") konnte keinen 404-Controller erstellen."
 
 #, fuzzy
 msgid "Site Not Found"
@@ -222,13 +222,13 @@ msgid ""
 msgstr ""
 
 msgid "Responds to requests made by AJAX clients."
-msgstr ""
+msgstr "Beantwortet Anfragen von AJAX-Clients."
 
 msgid "Responds to requests made by Conduit clients."
-msgstr ""
+msgstr "Beantwortet Anfragen von Conduit-Clients."
 
 msgid "Handles all other exceptions."
-msgstr ""
+msgstr "Behandelt alle übrigen Ausnahmen."
 
 #, php-format
 msgid ""
@@ -238,7 +238,7 @@ msgstr ""
 
 #, php-format
 msgid "Unhandled Exception (\"%s\")"
-msgstr ""
+msgstr "Unbehandelte Ausnahme (\\\"%s\\\")"
 
 msgid "Close"
 msgstr "Schließen"
@@ -249,10 +249,10 @@ msgid ""
 msgstr ""
 
 msgid "Enter High Security"
-msgstr ""
+msgstr "Erhöhte Sicherheit aktivieren"
 
 msgid "Provide MFA Credentials"
-msgstr ""
+msgstr "MFA-Zugangsdaten eingeben"
 
 msgid "Wait Patiently"
 msgstr "Übe Dich In Geduld"
@@ -261,13 +261,13 @@ msgid "Continue"
 msgstr "Fortsetzen"
 
 msgid "Security Checkpoint"
-msgstr ""
+msgstr "Sicherheitsprüfung"
 
 msgid "You are taking an action which requires you to enter high security."
-msgstr ""
+msgstr "Du führst eine Aktion aus, die erhöhte Sicherheit erfordert."
 
 msgid "To enter high security mode, confirm your credentials:"
-msgstr ""
+msgstr "Um den Modus für erhöhte Sicherheit zu aktivieren, bestätige deine Zugangsdaten:"
 
 msgid ""
 "Your account will remain in high security mode for a short period of time. "
@@ -290,7 +290,7 @@ msgid "Users with the \"%s\" capability:"
 msgstr "Benutzer mit der \"%s\" Berechtigung:"
 
 msgid "OK"
-msgstr ""
+msgstr "OK"
 
 msgid ""
 "Handles action rate limiting exceptions which occur when a user does "
@@ -298,21 +298,21 @@ msgid ""
 msgstr ""
 
 msgid "Slow Down!"
-msgstr ""
+msgstr "Langsamer!"
 
 msgid "You are being rate limited."
-msgstr ""
+msgstr "Du wirst gerade durch ein Anfragenlimit gedrosselt."
 
 msgid "Okaaaaaaaaaaaaaay..."
 msgstr "Okaaaaaaaaaaaaaaaay..."
 
 #, php-format
 msgid "Header has unterminated double quote for key \"%s\"."
-msgstr ""
+msgstr "Header enthält ein nicht abgeschlossenes doppeltes Anführungszeichen für Schlüssel \\\"%s\\\"."
 
 #, php-format
 msgid "Header name for: %s"
-msgstr ""
+msgstr "Headername für: %s"
 
 #, fuzzy, php-format
 msgid "Header content for: %s"
@@ -321,7 +321,7 @@ msgstr "%s hat den Inhalt von %s geändert."
 
 #, php-format
 msgid "Expect exception for header pairs of: %s"
-msgstr ""
+msgstr "Erwartete Ausnahme für Header-Paare von: %s"
 
 #, fuzzy, php-format
 msgid "Header pairs for: %s"
@@ -339,23 +339,23 @@ msgstr "Der Wert muß eine Ganzzahl sein."
 
 
 msgid "An absolute date, as a string."
-msgstr ""
+msgstr "Absolutes Datum als Zeichenkette."
 
 msgid "A relative date, as a string."
-msgstr ""
+msgstr "Relatives Datum als Zeichenkette."
 
 msgid "Separate date and time inputs, as strings."
-msgstr ""
+msgstr "Getrennte Datums- und Uhrzeiteingaben als Zeichenketten."
 
 msgid "A file PHID."
-msgstr ""
+msgstr "Eine Datei-PHID."
 
 msgid "An integer."
-msgstr ""
+msgstr "Eine ganze Zahl."
 
 
 msgid "A JSON-encoded object."
-msgstr ""
+msgstr "Ein JSON-kodiertes Objekt."
 
 #, fuzzy
 msgid "A single object PHID."
@@ -363,56 +363,56 @@ msgstr "Releeph Projekt PHID"
 
 
 msgid "Comma-separated list of PHIDs."
-msgstr ""
+msgstr "Kommagetrennte Liste von PHIDs."
 
 msgid "List of PHIDs, as array."
-msgstr ""
+msgstr "Liste von PHIDs als Array."
 
 msgid "Comma-separated list of project PHIDs."
-msgstr ""
+msgstr "Kommagetrennte Liste von Projekt-PHIDs."
 
 msgid "List of project PHIDs, as array."
-msgstr ""
+msgstr "Liste von Projekt-PHIDs als Array."
 
 msgid "Comma-separated list of project hashtags."
-msgstr ""
+msgstr "Kommagetrennte Liste von Projekt-Hashtags."
 
 msgid "List of project hashtags, as array."
-msgstr ""
+msgstr "Liste von Projekt-Hashtags als Array."
 
 
 msgid "Mixture of hashtags and PHIDs."
-msgstr ""
+msgstr "Mischung aus Hashtags und PHIDs."
 
 msgid "Remarkup text."
-msgstr ""
+msgstr "Remarkup-Text."
 
 msgid "A single value from the allowed set."
-msgstr ""
+msgstr "Ein einzelner Wert aus der erlaubten Menge."
 
 msgid "A URL-encoded string."
-msgstr ""
+msgstr "Eine URL-kodierte Zeichenkette."
 
 msgid "Comma-separated list of strings."
-msgstr ""
+msgstr "Kommagetrennte Liste von Zeichenketten."
 
 msgid "List of strings, as array."
-msgstr ""
+msgstr "Liste von Zeichenketten als Array."
 
 msgid "Comma-separated list of user PHIDs."
-msgstr ""
+msgstr "Kommagetrennte Liste von Benutzer-PHIDs."
 
 msgid "List of user PHIDs, as array."
-msgstr ""
+msgstr "Liste von Benutzer-PHIDs als Array."
 
 msgid "Comma-separated list of usernames."
-msgstr ""
+msgstr "Kommagetrennte Liste von Benutzernamen."
 
 msgid "List of usernames, as array."
-msgstr ""
+msgstr "Liste von Benutzernamen als Array."
 
 msgid "Mixture of usernames and PHIDs."
-msgstr ""
+msgstr "Mischung aus Benutzernamen und PHIDs."
 
 msgid ""
 "Expected \"multipart/form-data\" content type when executing a multipart "
@@ -420,10 +420,10 @@ msgid ""
 msgstr ""
 
 msgid "Received \"multipart/form-data\" request with no \"boundary\"."
-msgstr ""
+msgstr "\\\"multipart/form-data\\\"-Anfrage ohne \\\"boundary\\\" empfangen."
 
 msgid "Expected \"\\r\\n\" or \"--\" after multipart data boundary."
-msgstr ""
+msgstr "Nach der Multipart-Datengrenze wurde \\\"\\\\r\\\\n\\\" oder \\\"--\\\" erwartet."
 
 #, fuzzy, php-format
 msgid "Unknown parser state \"%s\".\\n"
@@ -431,7 +431,7 @@ msgstr "Unbekannter Absender: %s"
 
 
 msgid "Expected \"multipart/form-data\" parse to end in state \"epilogue\"."
-msgstr ""
+msgstr "Das Parsen von \\\"multipart/form-data\\\" sollte im Zustand \\\"epilogue\\\" enden."
 
 #, fuzzy
 msgid "This part is not a variable!"
@@ -440,7 +440,7 @@ msgstr "Das Konto kann nicht verknüpft werden."
 
 #, php-format
 msgid "Failed to open stream \"%s\" for reading."
-msgstr ""
+msgstr "Stream \\\"%s\\\" konnte nicht zum Lesen geöffnet werden."
 
 #, php-format
 msgid ""
@@ -449,43 +449,43 @@ msgid ""
 msgstr ""
 
 msgid "You do not have privileges to access the requested page."
-msgstr ""
+msgstr "Du hast keine Berechtigung, auf die angeforderte Seite zuzugreifen."
 
 msgid "403 Forbidden"
 msgstr "403 Zugriff verweigert"
 
 msgid "Yikes!"
-msgstr ""
+msgstr "Mist!"
 
 msgid "404 Not Found"
-msgstr ""
+msgstr "404 Nicht gefunden"
 
 msgid "Return to Charted Waters"
-msgstr ""
+msgstr "Zurück zu sicherem Fahrwasser"
 
 msgid "You arrive at your destination, but there is nothing here."
-msgstr ""
+msgstr "Du erreichst dein Ziel, aber hier ist nichts."
 
 msgid "Perhaps the real treasure was the friends you made along the way."
-msgstr ""
+msgstr "Vielleicht waren die echten Schätze die Freunde, die du unterwegs gefunden hast."
 
 #, php-format
 msgid "%s must implement %s."
-msgstr ""
+msgstr "%s muss %s implementieren."
 
 msgid "Debug"
-msgstr ""
+msgstr "Debug"
 
 msgid "Stopped on Redirect"
-msgstr ""
+msgstr "Bei Weiterleitung angehalten"
 
 #, php-format
 msgid "You were stopped here because %s is set in your configuration."
-msgstr ""
+msgstr "Du wurdest hier angehalten, weil %s in deiner Konfiguration gesetzt ist."
 
 #, php-format
 msgid "You are being redirected to: %s"
-msgstr ""
+msgstr "Du wirst weitergeleitet zu: %s"
 
 #, php-format
 msgid ""
@@ -515,7 +515,7 @@ msgstr ""
 
 #, php-format
 msgid "Unknown Content-Security-Policy URI kind \"%s\"."
-msgstr ""
+msgstr "Unbekannte Content-Security-Policy-URI-Art \\\"%s\\\"."
 
 #, php-format
 msgid ""
@@ -532,22 +532,22 @@ msgstr "%s: %s"
 
 #, php-format
 msgid "Malformed HTTP status code '%s'!"
-msgstr ""
+msgstr "Fehlerhafter HTTP-Statuscode '%s'!"
 
 msgid "Malformed header."
-msgstr ""
+msgstr "Fehlerhafter Header."
 
 #, php-format
 msgid "Declining to emit response with malformed HTTP header name: %s"
-msgstr ""
+msgstr "Antwort mit fehlerhaftem HTTP-Headernamen wird nicht gesendet: %s"
 
 #, php-format
 msgid "Declining to emit response with unsafe HTTP header: %s"
-msgstr ""
+msgstr "Antwort mit unsicherem HTTP-Header wird nicht gesendet: %s"
 
 #, php-format
 msgid "%s should prevent content-sniffing attacks."
-msgstr ""
+msgstr "%s sollte Content-Sniffing-Angriffe verhindern."
 
 #, fuzzy, php-format
 msgid "Routing fragment \"%s\" is not a valid regular expression."
@@ -555,25 +555,25 @@ msgstr "Der neue Chat-Teilnehmer \"%s\" ist kein gültiger Benutzer."
 
 
 msgid "Serves the core platform and applications."
-msgstr ""
+msgstr "Stellt die Kernplattform und Anwendungen bereit."
 
 msgid "Serves static resources like images, CSS and JS."
-msgstr ""
+msgstr "Stellt statische Ressourcen wie Bilder, CSS und JS bereit."
 
 msgid "Serves shortened URLs."
-msgstr ""
+msgstr "Stellt gekürzte URLs bereit."
 
 #, php-format
 msgid "No source file for scale '%s'!"
-msgstr ""
+msgstr "Keine Quelldatei für Skalierung '%s'!"
 
 #, php-format
 msgid "All sprites in a '%s' sheet must have the same width."
-msgstr ""
+msgstr "Alle Sprites in einem '%s'-Sheet müssen die gleiche Breite haben."
 
 #, php-format
 msgid "All sprites in a '%s' sheet must have the same height."
-msgstr ""
+msgstr "Alle Sprites in einem '%s'-Sheet müssen die gleiche Höhe haben."
 
 #, fuzzy, php-format
 msgid "Unknown sprite sheet type '%s'!"
@@ -582,7 +582,7 @@ msgstr "Unbekannter Status des Dokumentes '%s'!"
 
 #, php-format
 msgid "Writing sprite '%s'..."
-msgstr ""
+msgstr "Schreibe Sprite '%s'..."
 
 #, fuzzy, php-format
 msgid "Writing CSS '%s'..."
@@ -591,11 +591,11 @@ msgstr "Indexiere '%s'..."
 
 #, php-format
 msgid "Sprite source for '%s' is too small (expected width %d, found %d)."
-msgstr ""
+msgstr "Sprite-Quelle für '%s' ist zu klein (erwartete Breite %d, gefunden %d)."
 
 #, php-format
 msgid "Sprite source for '%s' is too small (expected height %d, found %d)."
-msgstr ""
+msgstr "Sprite-Quelle für '%s' ist zu klein (erwartete Höhe %d, gefunden %d)."
 
 #, php-format
 msgid ""
@@ -610,15 +610,15 @@ msgid ""
 msgstr ""
 
 msgid "Attempting to dispose of write guard, but no write guard is active!"
-msgstr ""
+msgstr "Versuch, Write-Guard zu beenden, aber kein Write-Guard ist aktiv!"
 
 #, php-format
 msgid "Imbalanced %s: more %s calls than %s calls."
-msgstr ""
+msgstr "Unausgeglichenes %s: mehr %s-Aufrufe als %s-Aufrufe."
 
 #, php-format
 msgid "Unguarded write! There must be an active %s to perform writes."
-msgstr ""
+msgstr "Ungesicherter Schreibvorgang! Für Schreibvorgänge muss ein aktives %s vorhanden sein."
 
 #, php-format
 msgid ""
@@ -627,10 +627,10 @@ msgid ""
 msgstr ""
 
 msgid "Almanac"
-msgstr ""
+msgstr "Almanac"
 
 msgid "Service Directory"
-msgstr ""
+msgstr "Diensteverzeichnis"
 
 #, fuzzy
 msgid "Almanac User Guide"
@@ -638,17 +638,17 @@ msgstr "Benutzerhandbuch für Zonen"
 
 
 msgid "Learn More"
-msgstr ""
+msgstr "Mehr erfahren"
 
 #, php-format
 msgid "This permission is very dangerous. %s"
-msgstr ""
+msgstr "Diese Berechtigung ist sehr gefährlich. %s"
 
 msgid "Can Create Devices"
-msgstr ""
+msgstr "Geräte anlegen"
 
 msgid "You do not have permission to create Almanac devices."
-msgstr ""
+msgstr "Du hast keine Berechtigung, Almanac-Geräte anzulegen."
 
 #, fuzzy
 msgid "Can Create Namespaces"
@@ -661,16 +661,16 @@ msgstr "Du hast keine Berechtigung, um Zonen zu erzeugen."
 
 
 msgid "Can Create Networks"
-msgstr ""
+msgstr "Netzwerke anlegen"
 
 msgid "You do not have permission to create Almanac networks."
-msgstr ""
+msgstr "Du hast keine Berechtigung, Almanac-Netzwerke anzulegen."
 
 msgid "Can Create Services"
-msgstr ""
+msgstr "Dienste anlegen"
 
 msgid "You do not have permission to create Almanac services."
-msgstr ""
+msgstr "Du hast keine Berechtigung, Almanac-Dienste anzulegen."
 
 #, fuzzy
 msgid "Can Manage Cluster Services"
@@ -683,44 +683,44 @@ msgstr "Du hast keine Berechtigung, um globale Herald-Regeln zu verändern."
 
 
 msgid "Apply transactions to create a new binding or edit an existing one."
-msgstr ""
+msgstr "Transaktionen anwenden, um eine neue Bindung zu erstellen oder eine bestehende zu bearbeiten."
 
 msgid "Read information about Almanac bindings."
-msgstr ""
+msgstr "Informationen über Almanac-Bindungen lesen."
 
 msgid "Apply transactions to create a new device or edit an existing one."
-msgstr ""
+msgstr "Transaktionen anwenden, um ein neues Gerät zu erstellen oder ein bestehendes zu bearbeiten."
 
 msgid "Read information about Almanac devices."
-msgstr ""
+msgstr "Informationen über Almanac-Geräte lesen."
 
 msgid "Apply transactions to create a new interface or edit an existing one."
-msgstr ""
+msgstr "Transaktionen anwenden, um eine neue Schnittstelle zu erstellen oder eine bestehende zu bearbeiten."
 
 msgid "Read information about Almanac interfaces."
-msgstr ""
+msgstr "Informationen über Almanac-Schnittstellen lesen."
 
 msgid "Apply transactions to create a new namespace or edit an existing one."
-msgstr ""
+msgstr "Transaktionen anwenden, um einen neuen Namensraum zu erstellen oder einen bestehenden zu bearbeiten."
 
 msgid "Read information about Almanac namespaces."
-msgstr ""
+msgstr "Informationen über Almanac-Namensräume lesen."
 
 msgid "Apply transactions to create a new network or edit an existing one."
-msgstr ""
+msgstr "Transaktionen anwenden, um ein neues Netzwerk zu erstellen oder ein bestehendes zu bearbeiten."
 
 msgid "Read information about Almanac networks."
-msgstr ""
+msgstr "Informationen über Almanac-Netzwerke lesen."
 
 msgid "Apply transactions to create a new service or edit an existing one."
-msgstr ""
+msgstr "Transaktionen anwenden, um einen neuen Dienst zu erstellen oder einen bestehenden zu bearbeiten."
 
 msgid "Read information about Almanac services."
-msgstr ""
+msgstr "Informationen über Almanac-Dienste lesen."
 
 #, php-format
 msgid "Unknown Almanac Device Status (\"%s\")"
-msgstr ""
+msgstr "Unbekannter Almanac-Gerätestatus (\\\"%s\\\")"
 
 msgid "Active"
 msgstr "Aktiv"
@@ -734,7 +734,7 @@ msgstr "Deaktiviert"
 
 
 msgid "Disable this binding?"
-msgstr ""
+msgstr "Diese Bindung deaktivieren?"
 
 #, fuzzy
 msgid "Enable Binding"
@@ -742,19 +742,19 @@ msgstr "Aktiviert"
 
 
 msgid "Enable this binding?"
-msgstr ""
+msgstr "Diese Bindung aktivieren?"
 
 msgid "Edit Binding"
-msgstr ""
+msgstr "Bindung bearbeiten"
 
 msgid "Save Changes"
 msgstr "Änderungen speichern"
 
 msgid "Create Binding"
-msgstr ""
+msgstr "Bindung erstellen"
 
 msgid "Interface"
-msgstr ""
+msgstr "Schnittstelle"
 
 #, fuzzy
 msgid "Binding"
@@ -763,10 +763,10 @@ msgstr "Zeichenkodierung ändern"
 
 #, php-format
 msgid "Binding %s"
-msgstr ""
+msgstr "Bindung %s"
 
 msgid "The service for this binding is a cluster service."
-msgstr ""
+msgstr "Der Dienst für diese Bindung ist ein Cluster-Dienst."
 
 msgid ""
 "The service for this binding is a cluster service. You do not have "
@@ -774,34 +774,34 @@ msgid ""
 msgstr ""
 
 msgid "Details"
-msgstr ""
+msgstr "Details"
 
 msgid "Service"
-msgstr ""
+msgstr "Dienst"
 
 msgid "Device"
-msgstr ""
+msgstr "Gerät"
 
 msgid "Network"
-msgstr ""
+msgstr "Netzwerk"
 
 msgid "Devices"
-msgstr ""
+msgstr "Geräte"
 
 msgid "Create an inventory of physical and virtual hosts and devices."
-msgstr ""
+msgstr "Inventar physischer und virtueller Hosts und Geräte anlegen."
 
 msgid "Services"
-msgstr ""
+msgstr "Dienste"
 
 msgid "Create and update services, and map them to interfaces on devices."
-msgstr ""
+msgstr "Dienste erstellen und aktualisieren und ihnen Schnittstellen auf Geräten zuweisen."
 
 msgid "Networks"
-msgstr ""
+msgstr "Netzwerke"
 
 msgid "Manage public and private networks."
-msgstr ""
+msgstr "Öffentliche und private Netzwerke verwalten."
 
 #, fuzzy
 msgid "Namespaces"
@@ -809,34 +809,34 @@ msgstr "Namensräume für Berechtigungen"
 
 
 msgid "Control who can create new named services and devices."
-msgstr ""
+msgstr "Steuern, wer neue benannte Dienste und Geräte erstellen darf."
 
 msgid "Documentation"
-msgstr ""
+msgstr "Dokumentation"
 
 msgid "Browse documentation for Almanac."
-msgstr ""
+msgstr "Dokumentation für Almanac durchsuchen."
 
 msgid "Console"
-msgstr ""
+msgstr "Konsole"
 
 msgid "Almanac Console"
-msgstr ""
+msgstr "Almanac-Konsole"
 
 msgid "Builtin Property"
-msgstr ""
+msgstr "Eingebaute Eigenschaft"
 
 msgid "Custom Property"
-msgstr ""
+msgstr "Benutzerdefinierte Eigenschaft"
 
 msgid "Reset"
-msgstr ""
+msgstr "Zurücksetzen"
 
 msgid "Delete"
 msgstr "Löschen"
 
 msgid "No properties."
-msgstr ""
+msgstr "Keine Eigenschaften."
 
 msgid "Name"
 msgstr "Name"
@@ -845,17 +845,17 @@ msgid "Value"
 msgstr "Wert"
 
 msgid "Add Property"
-msgstr ""
+msgstr "Eigenschaft hinzufügen"
 
 msgid "Properties"
 msgstr "Eigenschaften"
 
 #, php-format
 msgid "Device %s"
-msgstr ""
+msgstr "Gerät %s"
 
 msgid "This device is bound to a cluster service."
-msgstr ""
+msgstr "Dieses Gerät ist an einen Cluster-Dienst gebunden."
 
 msgid ""
 "This device is bound to a cluster service. You do not have permission to "
@@ -863,28 +863,28 @@ msgid ""
 msgstr ""
 
 msgid "Edit Device"
-msgstr ""
+msgstr "Gerät bearbeiten"
 
 msgid "Device Interfaces"
-msgstr ""
+msgstr "Geräteschnittstellen"
 
 msgid "Add Interface"
-msgstr ""
+msgstr "Schnittstelle hinzufügen"
 
 msgid "This device has no associated SSH public keys."
-msgstr ""
+msgstr "Diesem Gerät sind keine öffentlichen SSH-Schlüssel zugeordnet."
 
 msgid "SSH Public Keys"
 msgstr "SSH Public Keys"
 
 msgid "No services are bound to this device."
-msgstr ""
+msgstr "Diesem Gerät sind keine Dienste zugeordnet."
 
 msgid "Bound Services"
-msgstr ""
+msgstr "Gebundene Dienste"
 
 msgid "Interface In Use"
-msgstr ""
+msgstr "Schnittstelle in Verwendung"
 
 msgid ""
 "You can not delete this interface because it is currently in use. One or "
@@ -898,11 +898,11 @@ msgstr "Benutzer löschen"
 
 #, php-format
 msgid "Remove interface %s on device %s?"
-msgstr ""
+msgstr "Schnittstelle %s auf Gerät %s entfernen?"
 
 #, php-format
 msgid "Namespace %s"
-msgstr ""
+msgstr "Namensraum %s"
 
 
 #, fuzzy
@@ -911,24 +911,24 @@ msgstr "Zone ändern"
 
 
 msgid "Create Network"
-msgstr ""
+msgstr "Netzwerk erstellen"
 
 #, php-format
 msgid "Network %s"
-msgstr ""
+msgstr "Netzwerk %s"
 
 msgid "Edit Network"
-msgstr ""
+msgstr "Netzwerk bearbeiten"
 
 msgid "Reset Property"
-msgstr ""
+msgstr "Eigenschaft zurücksetzen"
 
 #, php-format
 msgid "Reset property \"%s\" to its default value?"
-msgstr ""
+msgstr "Eigenschaft \\\"%s\\\" auf Standardwert zurücksetzen?"
 
 msgid "Delete Property"
-msgstr ""
+msgstr "Eigenschaft löschen"
 
 #, fuzzy, php-format
 msgid "Delete property \"%s\"?"
@@ -942,7 +942,7 @@ msgstr "Diese Eigenschaft"
 
 #, php-format
 msgid "The property name \"%s\" is invalid. This property can not be edited."
-msgstr ""
+msgstr "Der Eigenschaftsname \\\"%s\\\" ist ungültig. Diese Eigenschaft kann nicht bearbeitet werden."
 
 msgid "Invalid"
 msgstr "Ungültig"
@@ -951,26 +951,26 @@ msgid "Required"
 msgstr "Pflichtfeld"
 
 msgid "To create a new service, you must select a service type."
-msgstr ""
+msgstr "Um einen neuen Dienst zu erstellen, muss ein Diensttyp ausgewählt werden."
 
 msgid "You have permission to create cluster services."
-msgstr ""
+msgstr "Du hast die Berechtigung, Cluster-Dienste zu erstellen."
 
 msgid "You do not have permission to create new cluster services."
-msgstr ""
+msgstr "Du hast keine Berechtigung, neue Cluster-Dienste zu erstellen."
 
 msgid "Service Type"
-msgstr ""
+msgstr "Diensttyp"
 
 msgid "Create Service"
-msgstr ""
+msgstr "Dienst erstellen"
 
 msgid "Choose Service Type"
-msgstr ""
+msgstr "Diensttyp auswählen"
 
 #, php-format
 msgid "Service %s"
-msgstr ""
+msgstr "Dienst %s"
 
 #, fuzzy
 msgid "This is a cluster service."
@@ -983,25 +983,25 @@ msgid ""
 msgstr ""
 
 msgid "Edit Service"
-msgstr ""
+msgstr "Dienst bearbeiten"
 
 msgid "This service has not been bound to any device interfaces yet."
-msgstr ""
+msgstr "Dieser Dienst wurde noch keinen Geräteschnittstellen zugeordnet."
 
 msgid "Service Bindings"
-msgstr ""
+msgstr "Dienst-Bindungen"
 
 msgid "Add Binding"
-msgstr ""
+msgstr "Bindung hinzufügen"
 
 msgid "Almanac Bindings"
-msgstr ""
+msgstr "Almanac-Bindungen"
 
 msgid "Edit Almanac Binding Configurations"
-msgstr ""
+msgstr "Almanac-Bindungskonfigurationen bearbeiten"
 
 msgid "This engine is used to edit Almanac bindings."
-msgstr ""
+msgstr "Diese Engine wird zum Bearbeiten von Almanac-Bindungen verwendet."
 
 msgid ""
 "When creating a new Almanac binding via the Conduit API, you must provide a "
@@ -1015,7 +1015,7 @@ msgid ""
 msgstr ""
 
 msgid "Service to create a binding for."
-msgstr ""
+msgstr "Dienst, für den eine Bindung erstellt werden soll."
 
 #, fuzzy
 msgid "Select the service to bind."
@@ -1023,56 +1023,56 @@ msgstr "Hinzuzufügendes Panel auswählen"
 
 
 msgid "Service PHID."
-msgstr ""
+msgstr "Dienst-PHID."
 
 msgid "Interface to bind the service to."
-msgstr ""
+msgstr "Schnittstelle, an die der Dienst gebunden werden soll."
 
 msgid "Set the interface to bind."
-msgstr ""
+msgstr "Zu bindende Schnittstelle festlegen."
 
 msgid "Interface PHID."
-msgstr ""
+msgstr "Schnittstellen-PHID."
 
 msgid "Disable or enable the binding."
-msgstr ""
+msgstr "Bindung deaktivieren oder aktivieren."
 
 msgid "True to disable the binding."
-msgstr ""
+msgstr "True, um die Bindung zu deaktivieren."
 
 msgid "Almanac Binding"
-msgstr ""
+msgstr "Almanac-Bindung"
 
 #, php-format
 msgid "%s created this binding."
-msgstr ""
+msgstr "%s hat diese Bindung erstellt."
 
 #, php-format
 msgid "%s created %s."
 msgstr "%s hat %s erzeugt."
 
 msgid "Property"
-msgstr ""
+msgstr "Eigenschaft"
 
 msgid "Almanac Devices"
-msgstr ""
+msgstr "Almanac-Geräte"
 
 msgid "Edit Almanac Device Configurations"
-msgstr ""
+msgstr "Almanac-Gerätekonfigurationen bearbeiten"
 
 msgid "This engine is used to edit Almanac devices."
-msgstr ""
+msgstr "Diese Engine wird zum Bearbeiten von Almanac-Geräten verwendet."
 
 msgid "Create Device"
-msgstr ""
+msgstr "Gerät erstellen"
 
 #, php-format
 msgid "Edit Device: %s"
-msgstr ""
+msgstr "Gerät bearbeiten: %s"
 
 
 msgid "Name of the device."
-msgstr ""
+msgstr "Name des Geräts."
 
 msgid "Status"
 msgstr "Status"
@@ -1083,20 +1083,20 @@ msgstr "Termin löschen"
 
 
 msgid "Almanac Device"
-msgstr ""
+msgstr "Almanac-Gerät"
 
 #, php-format
 msgid "%s created this device."
-msgstr ""
+msgstr "%s hat dieses Gerät erstellt."
 
 msgid "Almanac Interfaces"
-msgstr ""
+msgstr "Almanac-Schnittstellen"
 
 msgid "Edit Almanac Interface Configurations"
-msgstr ""
+msgstr "Almanac-Schnittstellenkonfigurationen bearbeiten"
 
 msgid "This engine is used to edit Almanac interfaces."
-msgstr ""
+msgstr "Diese Engine wird zum Bearbeiten von Almanac-Schnittstellen verwendet."
 
 msgid ""
 "When creating a new Almanac interface via the Conduit API, you must provide "
@@ -1110,16 +1110,16 @@ msgid ""
 msgstr ""
 
 msgid "Create Interface"
-msgstr ""
+msgstr "Schnittstelle erstellen"
 
 msgid "Edit Interface"
-msgstr ""
+msgstr "Schnittstelle bearbeiten"
 
 msgid "When creating an interface, set the device."
-msgstr ""
+msgstr "Beim Erstellen einer Schnittstelle das Gerät festlegen."
 
 msgid "Set the device."
-msgstr ""
+msgstr "Gerät festlegen."
 
 #, fuzzy
 msgid "Device PHID."
@@ -1127,10 +1127,10 @@ msgstr "Objekt PHID"
 
 
 msgid "Network for the interface."
-msgstr ""
+msgstr "Netzwerk für die Schnittstelle."
 
 msgid "Address"
-msgstr ""
+msgstr "Adresse"
 
 #, fuzzy
 msgid "Address of the service."
@@ -1138,13 +1138,13 @@ msgstr "Grund für die Umbenennung"
 
 
 msgid "Port"
-msgstr ""
+msgstr "Port"
 
 msgid "Port of the service."
-msgstr ""
+msgstr "Port des Dienstes."
 
 msgid "Almanac Interface"
-msgstr ""
+msgstr "Almanac-Schnittstelle"
 
 #, fuzzy, php-format
 msgid "%s created this interface."
@@ -1162,10 +1162,10 @@ msgstr "Namensräume für Berechtigungen"
 
 
 msgid "Edit Almanac Namespace Configurations"
-msgstr ""
+msgstr "Almanac-Namensraumkonfigurationen bearbeiten"
 
 msgid "This engine is used to edit Almanac namespaces."
-msgstr ""
+msgstr "Diese Engine wird zum Bearbeiten von Almanac-Namensräumen verwendet."
 
 #, fuzzy
 msgid "Create Namespace"
@@ -1174,7 +1174,7 @@ msgstr "Zone erzeugen"
 
 #, php-format
 msgid "Edit Namespace: %s"
-msgstr ""
+msgstr "Namensraum bearbeiten: %s"
 
 
 #, fuzzy
@@ -1183,7 +1183,7 @@ msgstr "Namensräume für Berechtigungen"
 
 
 msgid "Name of the namespace."
-msgstr ""
+msgstr "Name des Namensraums."
 
 #, fuzzy
 msgid "Almanac Namespace"
@@ -1205,7 +1205,7 @@ msgstr ""
 
 
 msgid "Almanac Networks"
-msgstr ""
+msgstr "Almanac-Netzwerke"
 
 #, fuzzy
 msgid "Edit Almanac Network Configurations"
@@ -1213,7 +1213,7 @@ msgstr "Phabricator Konfiguration"
 
 
 msgid "This engine is used to edit Almanac networks."
-msgstr ""
+msgstr "Diese Engine wird zum Bearbeiten von Almanac-Netzwerken verwendet."
 
 #, fuzzy, php-format
 msgid "Edit Network: %s"
@@ -1221,14 +1221,14 @@ msgstr "Prüfer: %s"
 
 
 msgid "Name of the network."
-msgstr ""
+msgstr "Name des Netzwerks."
 
 msgid "Almanac Network"
-msgstr ""
+msgstr "Almanac-Netzwerk"
 
 #, php-format
 msgid "%s created this network."
-msgstr ""
+msgstr "%s hat dieses Netzwerk erstellt."
 
 #, fuzzy
 msgid "Almanac Properties"
@@ -1236,10 +1236,10 @@ msgstr "Eigenschaften"
 
 
 msgid "Edit Almanac Property Configurations"
-msgstr ""
+msgstr "Almanac-Eigenschaftskonfigurationen bearbeiten"
 
 msgid "This engine is used to edit Almanac properties."
-msgstr ""
+msgstr "Diese Engine wird zum Bearbeiten von Almanac-Eigenschaften verwendet."
 
 #, fuzzy
 msgid "Create Property"
@@ -1248,14 +1248,14 @@ msgstr "Neues Projekt"
 
 #, php-format
 msgid "Edit Property: %s"
-msgstr ""
+msgstr "Eigenschaft bearbeiten: %s"
 
 
 msgid "Edit Property"
-msgstr ""
+msgstr "Eigenschaft bearbeiten"
 
 msgid "Almanac Services"
-msgstr ""
+msgstr "Almanac-Dienste"
 
 #, fuzzy
 msgid "Edit Almanac Service Configurations"
@@ -1263,7 +1263,7 @@ msgstr "Phabricator Konfiguration"
 
 
 msgid "This engine is used to edit Almanac services."
-msgstr ""
+msgstr "Diese Engine wird zum Bearbeiten von Almanac-Diensten verwendet."
 
 msgid ""
 "When creating a new Almanac service via the Conduit API, you must provide a "
@@ -1272,11 +1272,11 @@ msgstr ""
 
 #, php-format
 msgid "Service type \"%s\" is unrecognized. Valid types are: %s."
-msgstr ""
+msgstr "Diensttyp \\\"%s\\\" ist unbekannt. Gültige Typen: %s."
 
 #, php-format
 msgid "Edit Service: %s"
-msgstr ""
+msgstr "Dienst bearbeiten: %s"
 
 
 #, fuzzy
@@ -1288,23 +1288,23 @@ msgid "Type"
 msgstr "Art"
 
 msgid "When creating a service, set the type."
-msgstr ""
+msgstr "Beim Erstellen eines Dienstes den Typ festlegen."
 
 msgid "Set the service type."
-msgstr ""
+msgstr "Diensttyp festlegen."
 
 msgid "Service type."
-msgstr ""
+msgstr "Diensttyp."
 
 msgid "Almanac Service"
-msgstr ""
+msgstr "Almanac-Dienst"
 
 #, php-format
 msgid "%s created this service."
-msgstr ""
+msgstr "%s hat diesen Dienst erstellt."
 
 msgid "Restricted"
-msgstr ""
+msgstr "Eingeschränkt"
 
 
 #, fuzzy
@@ -1313,7 +1313,7 @@ msgstr "Du hast keine Berechtigung, um globale Herald-Regeln zu verändern."
 
 
 msgid "Get Almanac bindings for the service."
-msgstr ""
+msgstr "Almanac-Bindungen für den Dienst abrufen."
 
 #, fuzzy
 msgid "Almanac Core Objects"
@@ -1332,19 +1332,19 @@ msgid ""
 msgstr ""
 
 msgid "Pass a map of values to set one or more properties."
-msgstr ""
+msgstr "Eine Wertzuordnung übergeben, um eine oder mehrere Eigenschaften zu setzen."
 
 msgid "Map of property names to values."
-msgstr ""
+msgstr "Zuordnung von Eigenschaftsnamen zu Werten."
 
 msgid "Pass a list of property names to delete properties."
-msgstr ""
+msgstr "Eine Liste von Eigenschaftsnamen übergeben, um Eigenschaften zu löschen."
 
 msgid "List of property names."
-msgstr ""
+msgstr "Liste von Eigenschaftsnamen."
 
 msgid "Get Almanac properties for the object."
-msgstr ""
+msgstr "Almanac-Eigenschaften des Objekts abrufen."
 
 msgid ""
 "Transaction value when setting Almanac properties must be a map with "
@@ -1352,13 +1352,13 @@ msgid ""
 msgstr ""
 
 msgid "Register this host as an Almanac device."
-msgstr ""
+msgstr "Diesen Host als Almanac-Gerät registrieren."
 
 msgid "Almanac device name to register."
-msgstr ""
+msgstr "Name des zu registrierenden Almanac-Geräts."
 
 msgid "Path to a private key for the host."
-msgstr ""
+msgstr "Pfad zu einem privaten Schlüssel für den Host."
 
 msgid ""
 "Specify an alternate host identity. This is an advanced feature which allows "
@@ -1366,21 +1366,21 @@ msgid ""
 msgstr ""
 
 msgid "Register this host even if keys already exist on disk."
-msgstr ""
+msgstr "Diesen Host auch dann registrieren, wenn bereits Schlüssel auf der Festplatte vorhanden sind."
 
 msgid "Specify a device with --device."
-msgstr ""
+msgstr "Ein Gerät mit --device angeben."
 
 #, php-format
 msgid "No such device \"%s\" exists!"
-msgstr ""
+msgstr "Kein Gerät \\\"%s\\\" vorhanden!"
 
 msgid "Specify a private key with --private-key."
-msgstr ""
+msgstr "Einen privaten Schlüssel mit --private-key angeben."
 
 #, php-format
 msgid "No private key exists at path \"%s\"!"
-msgstr ""
+msgstr "Kein privater Schlüssel unter Pfad \\\"%s\\\" vorhanden!"
 
 msgid ""
 "Config option \"phd.user\" is not set. You must set this option so the "
@@ -1425,17 +1425,17 @@ msgid ""
 msgstr ""
 
 msgid "Installing public key..."
-msgstr ""
+msgstr "Öffentlicher Schlüssel wird installiert..."
 
 msgid "Installing private key..."
-msgstr ""
+msgstr "Privater Schlüssel wird installiert..."
 
 #, php-format
 msgid "Installing device %s..."
-msgstr ""
+msgstr "Gerät %s wird installiert..."
 
 msgid "HOST REGISTERED"
-msgstr ""
+msgstr "HOST REGISTRIERT"
 
 #, php-format
 msgid ""
@@ -1444,31 +1444,31 @@ msgid ""
 msgstr ""
 
 msgid "Mark a public key as trusted."
-msgstr ""
+msgstr "Einen öffentlichen Schlüssel als vertrauenswürdig markieren."
 
 msgid "ID of the key to trust."
-msgstr ""
+msgstr "ID des als vertrauenswürdig einzustufenden Schlüssels."
 
 msgid "Specify a public key to trust with --id."
-msgstr ""
+msgstr "Einen als vertrauenswürdig einzustufenden öffentlichen Schlüssel mit --id angeben."
 
 #, php-format
 msgid "No public key exists with ID \"%s\"."
-msgstr ""
+msgstr "Kein öffentlicher Schlüssel mit der ID \\\"%s\\\" vorhanden."
 
 #, php-format
 msgid "Public key \"%s\" is not an active key."
-msgstr ""
+msgstr "Der öffentliche Schlüssel \\\"%s\\\" ist kein aktiver Schlüssel."
 
 #, php-format
 msgid "Public key with ID %s is already trusted."
-msgstr ""
+msgstr "Der öffentliche Schlüssel mit der ID %s ist bereits als vertrauenswürdig eingestuft."
 
 msgid "You can only trust keys associated with Almanac devices."
-msgstr ""
+msgstr "Nur Schlüssel, die Almanac-Geräten zugeordnet sind, können als vertrauenswürdig eingestuft werden."
 
 msgid "IMPORTANT!"
-msgstr ""
+msgstr "WICHTIG!"
 
 msgid ""
 "Trusting a public key gives anyone holding the corresponding private key "
@@ -1483,79 +1483,79 @@ msgstr ""
 
 #, php-format
 msgid "This key is associated with device \"%s\"."
-msgstr ""
+msgstr "Dieser Schlüssel ist dem Gerät \\\"%s\\\" zugeordnet."
 
 msgid "Really trust this key?"
-msgstr ""
+msgstr "Diesen Schlüssel wirklich als vertrauenswürdig einstufen?"
 
 msgid "User aborted workflow."
-msgstr ""
+msgstr "Benutzer hat den Vorgang abgebrochen."
 
 msgid "TRUSTED"
-msgstr ""
+msgstr "VERTRAUENSWÜRDIG"
 
 #, php-format
 msgid "Key %s has been marked as trusted."
-msgstr ""
+msgstr "Schlüssel %s wurde als vertrauenswürdig markiert."
 
 msgid "Revoke trust of a public key."
-msgstr ""
+msgstr "Vertrauen in einen öffentlichen Schlüssel widerrufen."
 
 msgid "ID of the key to revoke trust for."
-msgstr ""
+msgstr "ID des Schlüssels, dessen Vertrauen widerrufen werden soll."
 
 msgid "Specify a public key to revoke trust for with --id."
-msgstr ""
+msgstr "Einen öffentlichen Schlüssel, dessen Vertrauen widerrufen werden soll, mit --id angeben."
 
 #, php-format
 msgid "Public key with ID %s is not trusted."
-msgstr ""
+msgstr "Der öffentliche Schlüssel mit der ID %s ist nicht als vertrauenswürdig eingestuft."
 
 msgid "TRUST REVOKED"
-msgstr ""
+msgstr "VERTRAUEN WIDERRUFEN"
 
 #, php-format
 msgid "Trust has been revoked for public key %s."
-msgstr ""
+msgstr "Das Vertrauen in den öffentlichen Schlüssel %s wurde widerrufen."
 
 #, php-format
 msgid "Service \"%s\" does not exist or could not be loaded!"
-msgstr ""
+msgstr "Dienst \\\"%s\\\" existiert nicht oder konnte nicht geladen werden!"
 
 #, php-format
 msgid "Binding %d"
-msgstr ""
+msgstr "Bindung %d"
 
 #, php-format
 msgid "Device %d"
-msgstr ""
+msgstr "Gerät %d"
 
 #, php-format
 msgid "%s:%s (%s on %s)"
-msgstr ""
+msgstr "%s:%s (%s auf %s)"
 
 #, php-format
 msgid "Interface %d"
-msgstr ""
+msgstr "Schnittstelle %d"
 
 #, php-format
 msgid "Namespace %d"
-msgstr ""
+msgstr "Namensraum %d"
 
 
 #, php-format
 msgid "Network %d"
-msgstr ""
+msgstr "Netzwerk %d"
 
 #, php-format
 msgid "Service %d"
-msgstr ""
+msgstr "Dienst %d"
 
 msgid "Search for bindings on particular services."
-msgstr ""
+msgstr "Bindungen für bestimmte Dienste suchen."
 
 msgid "Search for bindings on particular devices."
-msgstr ""
+msgstr "Bindungen für bestimmte Geräte suchen."
 
 #, fuzzy
 msgid "All Bindings"
@@ -1568,34 +1568,34 @@ msgstr "Name der Regel"
 
 
 msgid "Name Contains"
-msgstr ""
+msgstr "Name enthält"
 
 msgid "Search for devices by name substring."
-msgstr ""
+msgstr "Geräte anhand eines Namensausschnitts suchen."
 
 msgid "Exact Names"
-msgstr ""
+msgstr "Genaue Namen"
 
 msgid "Search for devices with specific names."
-msgstr ""
+msgstr "Geräte mit bestimmten Namen suchen."
 
 msgid "Statuses"
 msgstr "Status(e)"
 
 msgid "Search for devices with given statuses."
-msgstr ""
+msgstr "Geräte mit bestimmten Status suchen."
 
 msgid "Cluster Device"
-msgstr ""
+msgstr "Cluster-Gerät"
 
 msgid "Both Cluster and Non-cluster Devices"
-msgstr ""
+msgstr "Cluster- und Nicht-Cluster-Geräte"
 
 msgid "Cluster Devices Only"
-msgstr ""
+msgstr "Nur Cluster-Geräte"
 
 msgid "Non-cluster Devices Only"
-msgstr ""
+msgstr "Nur Nicht-Cluster-Geräte"
 
 #, fuzzy
 msgid "Active Devices"
@@ -1603,13 +1603,13 @@ msgstr "Aktive Zonen"
 
 
 msgid "All Devices"
-msgstr ""
+msgstr "Alle Geräte"
 
 msgid "No Almanac Devices found."
-msgstr ""
+msgstr "Keine Almanac-Geräte gefunden."
 
 msgid "See Networks"
-msgstr ""
+msgstr "Netzwerke anzeigen"
 
 #, fuzzy
 msgid "Create a Device"
@@ -1618,7 +1618,7 @@ msgstr "Zone erzeugen"
 
 #, php-format
 msgid "Welcome to %s"
-msgstr ""
+msgstr "Willkommen bei %s"
 
 
 msgid ""
@@ -1627,7 +1627,7 @@ msgid ""
 msgstr ""
 
 msgid "Search for interfaces on particular devices."
-msgstr ""
+msgstr "Schnittstellen auf bestimmten Geräten suchen."
 
 #, fuzzy
 msgid "All Interfaces"
@@ -1640,7 +1640,7 @@ msgstr "Voller Name"
 
 
 msgid "Search for namespaces by name substring."
-msgstr ""
+msgstr "Namensräume anhand eines Namensausschnitts suchen."
 
 #, fuzzy
 msgid "All Namespaces"
@@ -1653,13 +1653,13 @@ msgstr "Keine Zonen gefunden."
 
 
 msgid "Search for networks by name substring."
-msgstr ""
+msgstr "Netzwerke anhand eines Namensausschnitts suchen."
 
 msgid "All Networks"
-msgstr ""
+msgstr "Alle Netzwerke"
 
 msgid "No Almanac Networks found."
-msgstr ""
+msgstr "Keine Almanac-Netzwerke gefunden."
 
 #, fuzzy
 msgid "Create a Network"
@@ -1667,16 +1667,16 @@ msgstr "Neues Projekt erstellen"
 
 
 msgid "Use Almanac networks to catalogue private and public computer networks."
-msgstr ""
+msgstr "Almanac-Netzwerke zur Erfassung privater und öffentlicher Computernetzwerke verwenden."
 
 msgid "Service Name"
-msgstr ""
+msgstr "Dienstname"
 
 msgid "Search for services by name substring."
-msgstr ""
+msgstr "Dienste anhand eines Namensausschnitts suchen."
 
 msgid "Search for services with specific names."
-msgstr ""
+msgstr "Dienste mit bestimmten Namen suchen."
 
 #, fuzzy
 msgid "Service Types"
@@ -1684,19 +1684,19 @@ msgstr "Mimetyp"
 
 
 msgid "Find services by type."
-msgstr ""
+msgstr "Dienste nach Typ suchen."
 
 msgid "Search for services bound to particular devices."
-msgstr ""
+msgstr "Dienste suchen, die an bestimmte Geräte gebunden sind."
 
 msgid "All Services"
-msgstr ""
+msgstr "Alle Dienste"
 
 msgid "No Almanac Services found."
-msgstr ""
+msgstr "Keine Almanac-Dienste gefunden."
 
 msgid "See Devices"
-msgstr ""
+msgstr "Geräte anzeigen"
 
 #, fuzzy
 msgid "Create a Service"
@@ -1709,7 +1709,7 @@ msgid ""
 msgstr ""
 
 msgid "Cluster Database"
-msgstr ""
+msgstr "Cluster-Datenbank"
 
 #, fuzzy
 msgid "Cluster: Database"
@@ -1717,10 +1717,10 @@ msgstr "Datenbank"
 
 
 msgid "Defines a database service for use in a cluster."
-msgstr ""
+msgstr "Definiert einen Datenbankdienst für die Verwendung in einem Cluster."
 
 msgid "Cluster Repository"
-msgstr ""
+msgstr "Cluster-Repository"
 
 #, fuzzy
 msgid "Cluster: Repository"
@@ -1728,7 +1728,7 @@ msgstr "Neues Repository"
 
 
 msgid "Defines a repository service for use in a cluster."
-msgstr ""
+msgstr "Definiert einen Repository-Dienst für die Verwendung in einem Cluster."
 
 #, fuzzy
 msgid "Allow New Repositories"
@@ -1746,41 +1746,41 @@ msgstr "zurückgerollt"
 
 
 msgid "Allow Writes"
-msgstr ""
+msgstr "Schreibvorgänge erlauben"
 
 msgid "Custom"
-msgstr ""
+msgstr "Benutzerdefiniert"
 
 msgid "Custom Service"
-msgstr ""
+msgstr "Benutzerdefinierter Dienst"
 
 msgid "Defines a unstructured custom service."
-msgstr ""
+msgstr "Definiert einen unstrukturierten benutzerdefinierten Dienst."
 
 msgid "Drydock Pool"
-msgstr ""
+msgstr "Drydock-Pool"
 
 msgid "Drydock: Resource Pool"
-msgstr ""
+msgstr "Drydock: Ressourcenpool"
 
 msgid "Defines a pool of hosts which Drydock can allocate."
-msgstr ""
+msgstr "Definiert einen Pool von Hosts, den Drydock zuweisen kann."
 
 msgid "A binding inherits the policies of its service."
-msgstr ""
+msgstr "Eine Bindung erbt die Richtlinien ihres Dienstes."
 
 msgid ""
 "To view a binding, you must also be able to view its device and interface."
 msgstr ""
 
 msgid "The bound service."
-msgstr ""
+msgstr "Der gebundene Dienst."
 
 msgid "The device the service is bound to."
-msgstr ""
+msgstr "Das Gerät, an das der Dienst gebunden ist."
 
 msgid "The interface the service is bound to."
-msgstr ""
+msgstr "Die Schnittstelle, an die der Dienst gebunden ist."
 
 #, fuzzy
 msgid "Interface status."
@@ -1798,10 +1798,10 @@ msgstr "Grundeinstellungen"
 
 
 msgid "True if device is disabled."
-msgstr ""
+msgstr "True, wenn das Gerät deaktiviert ist."
 
 msgid "An interface inherits the policies of the device it belongs to."
-msgstr ""
+msgstr "Eine Schnittstelle erbt die Richtlinien des Geräts, zu dem sie gehört."
 
 msgid ""
 "You must be able to view the network an interface resides on to view the "
@@ -1809,29 +1809,29 @@ msgid ""
 msgstr ""
 
 msgid "The device the interface is on."
-msgstr ""
+msgstr "Das Gerät, auf dem sich die Schnittstelle befindet."
 
 msgid "The network the interface is part of."
-msgstr ""
+msgstr "Das Netzwerk, zu dem die Schnittstelle gehört."
 
 msgid "The address of the interface."
-msgstr ""
+msgstr "Die Adresse der Schnittstelle."
 
 msgid "The port number of the interface."
-msgstr ""
+msgstr "Die Portnummer der Schnittstelle."
 
 msgid "The name of the namespace."
-msgstr ""
+msgstr "Der Name des Namensraums."
 
 msgid "The name of the network."
-msgstr ""
+msgstr "Der Name des Netzwerks."
 
 msgid "Properties inherit the policies of their object."
-msgstr ""
+msgstr "Eigenschaften erben die Richtlinien ihres Objekts."
 
 #, php-format
 msgid "No Almanac service type \"%s\" exists!"
-msgstr ""
+msgstr "Kein Almanac-Diensttyp \\\"%s\\\" vorhanden!"
 
 #, fuzzy
 msgid "The name of the service."
@@ -1839,19 +1839,19 @@ msgstr "Eine Datei auf den Server hochladen."
 
 
 msgid "The service type constant."
-msgstr ""
+msgstr "Die Diensttyp-Konstante."
 
 msgid "Browse Interfaces"
-msgstr ""
+msgstr "Schnittstellen durchsuchen"
 
 msgid "Type an interface name..."
-msgstr ""
+msgstr "Schnittstellenname eingeben..."
 
 msgid "Browse Services"
-msgstr ""
+msgstr "Dienste durchsuchen"
 
 msgid "Type a service name..."
-msgstr ""
+msgstr "Dienstname eingeben..."
 
 #, fuzzy
 msgid "Browse Service Types"
@@ -1946,13 +1946,13 @@ msgstr "%s hat den Namen des Termins von %s auf %s geändert."
 
 
 msgid "Bindings must specify an interface."
-msgstr ""
+msgstr "Bindungen müssen eine Schnittstelle angeben."
 
 msgid "You can not bind a service to an invalid or restricted interface."
-msgstr ""
+msgstr "Ein Dienst kann nicht an eine ungültige oder eingeschränkte Schnittstelle gebunden werden."
 
 msgid "You can not bind a service to the same interface multiple times."
-msgstr ""
+msgstr "Ein Dienst kann nicht mehrfach an dieselbe Schnittstelle gebunden werden."
 
 #, fuzzy
 msgid "Bindings must have a service."
@@ -1960,10 +1960,10 @@ msgstr "Zonen müssen einen Namen haben"
 
 
 msgid "The service for a binding can not be changed once it has been created."
-msgstr ""
+msgstr "Der Dienst einer Bindung kann nach der Erstellung nicht geändert werden."
 
 msgid "You can not bind a nonexistent or restricted service."
-msgstr ""
+msgstr "Ein nicht vorhandener oder eingeschränkter Dienst kann nicht gebunden werden."
 
 #, fuzzy
 msgid "You can not bind a service which you do not have permission to edit."
@@ -1976,10 +1976,10 @@ msgstr "%s hat diese Zone von \"%s\" nach \"%s\" umbenannt."
 
 
 msgid "Device name is required."
-msgstr ""
+msgstr "Ein Gerätename ist erforderlich."
 
 msgid "Almanac devices must have unique names."
-msgstr ""
+msgstr "Almanac-Geräte müssen eindeutige Namen haben."
 
 #, php-format
 msgid ""
@@ -2004,7 +2004,7 @@ msgstr "%s hat den Namen des Termins von %s auf %s geändert."
 
 
 msgid "Interfaces must have an address."
-msgstr ""
+msgstr "Schnittstellen müssen eine Adresse haben."
 
 #, fuzzy, php-format
 msgid "%s changed the device for this interface from %s to %s."
@@ -2021,7 +2021,7 @@ msgid ""
 msgstr ""
 
 msgid "You can not attach an interface to a nonexistent or restricted device."
-msgstr ""
+msgstr "Eine Schnittstelle kann nicht an ein nicht vorhandenes oder eingeschränktes Gerät angehängt werden."
 
 msgid ""
 "You can not attach an interface to a device which you do not have permission "
@@ -2044,7 +2044,7 @@ msgstr "Zonen müssen einen Namen haben"
 
 
 msgid "You can not put an interface on a nonexistent or restricted network."
-msgstr ""
+msgstr "Eine Schnittstelle kann nicht in einem nicht vorhandenen oder eingeschränkten Netzwerk platziert werden."
 
 #, fuzzy, php-format
 msgid "%s changed the port for this interface from %s to %s."
@@ -2057,7 +2057,7 @@ msgstr "Zonen müssen einen Namen haben"
 
 
 msgid "Port numbers must be between 1 and 65535, inclusive."
-msgstr ""
+msgstr "Portnummern müssen zwischen 1 und 65535 (einschließlich) liegen."
 
 #, fuzzy, php-format
 msgid "%s renamed this namespace from %s to %s."
@@ -2093,7 +2093,7 @@ msgstr "%s hat den Entwurf von \"%s\" zu \"%s\" umbenannt."
 
 
 msgid "Network name is required."
-msgstr ""
+msgstr "Ein Netzwerkname ist erforderlich."
 
 #, fuzzy
 msgid "Almanac networks must have unique names."
@@ -2111,7 +2111,7 @@ msgstr "Zonen müssen einen Namen haben"
 
 
 msgid "Almanac services must have unique names."
-msgstr ""
+msgstr "Almanac-Dienste müssen eindeutige Namen haben."
 
 #, php-format
 msgid ""
@@ -2126,11 +2126,11 @@ msgstr "Du mußt einen Panel-Typ auswählen."
 
 
 msgid "The type of a service can not be changed once it has been created."
-msgstr ""
+msgstr "Der Typ eines Dienstes kann nach der Erstellung nicht geändert werden."
 
 #, php-format
 msgid "Service type \"%s\" is not valid. Valid types are: %s."
-msgstr ""
+msgstr "Diensttyp \\\"%s\\\" ist ungültig. Gültige Typen: %s."
 
 #, fuzzy, php-format
 msgid "%s updated the property %s."
@@ -2139,12 +2139,12 @@ msgstr "%s hat das Diff für %s geändert."
 
 #, php-format
 msgid "%s removed the property %s."
-msgstr ""
+msgstr "%s hat die Eigenschaft %s entfernt."
 
 
 #, php-format
 msgid "Almanac property values must be representable in JSON. %s"
-msgstr ""
+msgstr "Almanac-Eigenschaftswerte müssen in JSON darstellbar sein. %s"
 
 msgid ""
 "Start the notifications server in the foreground and print large volumes of "
@@ -2157,7 +2157,7 @@ msgstr "Sende mir Email Benachrichtigungen"
 
 
 msgid "User to notify."
-msgstr ""
+msgstr "Zu benachrichtigender Benutzer."
 
 #, fuzzy
 msgid "Message to send."
@@ -2165,7 +2165,7 @@ msgstr "Nachrichten"
 
 
 msgid "Specify a user to notify with \"--user\"."
-msgstr ""
+msgstr "Einen zu benachrichtigenden Benutzer mit \\\"--user\\\" angeben."
 
 #, fuzzy, php-format
 msgid "No user with username \"%s\" exists."
@@ -2173,7 +2173,7 @@ msgstr "Benutzer mit dem Namen \"%s\" existiert nicht!"
 
 
 msgid "Specify a message to send with \"--message\"."
-msgstr ""
+msgstr "Eine zu sendende Nachricht mit \\\"--message\\\" angeben."
 
 #, fuzzy
 msgid "Sent notification."
@@ -2186,7 +2186,7 @@ msgstr "Du hast keine ungelesenen Benachrichtigungen."
 
 
 msgid "Start the notifications server."
-msgstr ""
+msgstr "Benachrichtigungsserver starten."
 
 #, fuzzy
 msgid "Show the status of the notification server."
@@ -2194,11 +2194,11 @@ msgstr "Keine Benachrichtungen für Dich."
 
 
 msgid "Aphlict is not running."
-msgstr ""
+msgstr "Aphlict läuft nicht."
 
 #, php-format
 msgid "Aphlict (%s) is running."
-msgstr ""
+msgstr "Aphlict (%s) läuft."
 
 #, fuzzy
 msgid "Stop the notification server."
@@ -2206,25 +2206,25 @@ msgstr "Keine Benachrichtigungen."
 
 
 msgid "Use a specific configuration file instead of the default configuration."
-msgstr ""
+msgstr "Eine bestimmte Konfigurationsdatei anstatt der Standardkonfiguration verwenden."
 
 #, php-format
 msgid "Reading configuration from: %s"
-msgstr ""
+msgstr "Konfiguration wird gelesen aus: %s"
 
 #, php-format
 msgid "Failed to read configuration file. %s"
-msgstr ""
+msgstr "Konfigurationsdatei konnte nicht gelesen werden. %s"
 
 
 #, php-format
 msgid "Configuration file is not properly formatted JSON. %s"
-msgstr ""
+msgstr "Konfigurationsdatei enthält kein korrekt formatiertes JSON. %s"
 
 
 #, php-format
 msgid "Configuration file has improper configuration keys at top level. %s"
-msgstr ""
+msgstr "Konfigurationsdatei enthält ungültige Konfigurationsschlüssel auf oberster Ebene. %s"
 
 #, php-format
 msgid ""
@@ -2317,40 +2317,40 @@ msgid ""
 msgstr ""
 
 msgid "The notification server should not be run as root."
-msgstr ""
+msgstr "Der Benachrichtigungsserver sollte nicht als root ausgeführt werden."
 
 msgid "Starting Aphlict server in foreground..."
-msgstr ""
+msgstr "Aphlict-Server wird im Vordergrund gestartet..."
 
 msgid "Launching server:"
-msgstr ""
+msgstr "Server wird gestartet:"
 
 msgid "Server exited!"
-msgstr ""
+msgstr "Server wurde beendet!"
 
 #, php-format
 msgid "Writing logs to: %s"
-msgstr ""
+msgstr "Protokolle werden geschrieben nach: %s"
 
 
 #, php-format
 msgid "Failed to %s!"
-msgstr ""
+msgstr "%s fehlgeschlagen!"
 
 msgid "Aphlict Server started."
-msgstr ""
+msgstr "Aphlict-Server gestartet."
 
 #, php-format
 msgid "Stopping Aphlict Server (%s)..."
-msgstr ""
+msgstr "Aphlict-Server (%s) wird gestoppt..."
 
 #, php-format
 msgid "Aphlict Server (%s) exited normally."
-msgstr ""
+msgstr "Aphlict-Server (%s) wurde normal beendet."
 
 #, php-format
 msgid "Sending %s a SIGKILL."
-msgstr ""
+msgstr "Sende SIGKILL an %s."
 
 #, php-format
 msgid ""
@@ -2360,7 +2360,7 @@ msgstr ""
 
 #, php-format
 msgid "You must %s first!"
-msgstr ""
+msgstr "Zuerst muss %s ausgeführt werden!"
 
 msgid "Audit"
 msgstr "Prüfung"
@@ -2369,7 +2369,7 @@ msgid "Browse and Audit Commits"
 msgstr "Commits ansehen und überprüfen"
 
 msgid "Query audit requests."
-msgstr ""
+msgstr "Audit-Anfragen abfragen."
 
 msgid ""
 "This method is frozen and will eventually be deprecated. New code should use "
@@ -2377,7 +2377,7 @@ msgid ""
 msgstr ""
 
 msgid "Audit configuration."
-msgstr ""
+msgstr "Audit-Konfiguration."
 
 
 #, fuzzy
@@ -2418,13 +2418,13 @@ msgstr "Hingeschmissen"
 
 #, php-format
 msgid "Commit %s"
-msgstr ""
+msgstr "Commit %s"
 
 msgid "Audits"
 msgstr "Prüfungen"
 
 msgid "Failed to load commit during transaction finalization!"
-msgstr ""
+msgstr "Commit konnte beim Abschluss der Transaktion nicht geladen werden!"
 
 #, fuzzy
 msgid "[Diffusion]"
@@ -2446,7 +2446,7 @@ msgid "Author"
 msgstr "Autor"
 
 msgid "Committer"
-msgstr ""
+msgstr "Committer"
 
 msgid "Auditor"
 msgstr "Prüfer"
@@ -2456,31 +2456,31 @@ msgid "%s (%s)"
 msgstr "%s (%s)"
 
 msgid "USERS"
-msgstr ""
+msgstr "BENUTZER"
 
 msgid "COMMIT"
-msgstr ""
+msgstr "COMMIT"
 
 msgid "A commit is created."
-msgstr ""
+msgstr "Ein Commit wird erstellt."
 
 msgid "A commit has a concern raised against it."
-msgstr ""
+msgstr "Für einen Commit wird ein Problem gemeldet."
 
 msgid "A commit is accepted."
-msgstr ""
+msgstr "Ein Commit wird akzeptiert."
 
 msgid "A commit has an auditor resign."
-msgstr ""
+msgstr "Ein Auditor tritt von einem Commit zurück."
 
 msgid "A commit is closed."
-msgstr ""
+msgstr "Ein Commit wird geschlossen."
 
 msgid "A commit has auditors added."
-msgstr ""
+msgstr "Einem Commit werden Auditoren hinzugefügt."
 
 msgid "A commit's subscribers change."
-msgstr ""
+msgstr "Die Abonnenten eines Commits ändern sich."
 
 #, fuzzy
 msgid "A commit's associated projects change."
@@ -2488,10 +2488,10 @@ msgstr "Die einer Aufgabe zugeordenten Projekte wurden verändert."
 
 
 msgid "Someone comments on a commit."
-msgstr ""
+msgstr "Jemand kommentiert einen Commit."
 
 msgid "Other commit activity not listed above occurs."
-msgstr ""
+msgstr "Andere, oben nicht aufgeführte Commit-Aktivitäten treten auf."
 
 #, php-format
 msgid ""
@@ -2506,28 +2506,28 @@ msgstr "Konnte Kommentar \"%s\" leider nicht laden."
 
 #, php-format
 msgid "Mail receiver is not a %s!"
-msgstr ""
+msgstr "Mailempfänger ist kein %s!"
 
 msgid "Delete audit requests matching parameters."
-msgstr ""
+msgstr "Audit-Anfragen löschen, die den Parametern entsprechen."
 
 msgid "Show what would be deleted, but do not actually delete anything."
-msgstr ""
+msgstr "Anzeigen, was gelöscht würde, ohne tatsächlich etwas zu löschen."
 
 msgid "Select only audits by a given list of users."
-msgstr ""
+msgstr "Nur Audits einer bestimmten Benutzerliste auswählen."
 
 msgid "Select only audits in a given list of repositories."
-msgstr ""
+msgstr "Nur Audits in einer bestimmten Repository-Liste auswählen."
 
 msgid "Select only audits for the given commits."
-msgstr ""
+msgstr "Nur Audits für die angegebenen Commits auswählen."
 
 msgid "Select only audits for commits on or after the given date."
-msgstr ""
+msgstr "Nur Audits für Commits ab dem angegebenen Datum auswählen."
 
 msgid "Select only audits for commits on or before the given date."
-msgstr ""
+msgstr "Nur Audits für Commits bis zum angegebenen Datum auswählen."
 
 msgid ""
 "Select only audits in the given status. By default, only open audits are "
@@ -2535,13 +2535,13 @@ msgid ""
 msgstr ""
 
 msgid "Select only audits with the given IDs."
-msgstr ""
+msgstr "Nur Audits mit den angegebenen IDs auswählen."
 
 msgid "Specified maximum date must come after specified minimum date."
-msgstr ""
+msgstr "Das angegebene Höchstdatum muss nach dem angegebenen Mindestdatum liegen."
 
 msgid "No audits match the query."
-msgstr ""
+msgstr "Keine Audits entsprechen der Abfrage."
 
 #, fuzzy
 msgid "This is a dry run, so no changes will be made."
@@ -2556,11 +2556,11 @@ msgid ""
 msgstr ""
 
 msgid "User aborted the workflow."
-msgstr ""
+msgstr "Benutzer hat den Vorgang abgebrochen."
 
 #, php-format
 msgid "Deleting audit %d..."
-msgstr ""
+msgstr "Audit %d wird gelöscht..."
 
 #, php-format
 msgid "No such user with username \"%s\"!"
@@ -2568,21 +2568,21 @@ msgstr "Benutzer mit dem Namen \"%s\" existiert nicht!"
 
 #, php-format
 msgid "No repository \"%s\" exists!"
-msgstr ""
+msgstr "Kein Repository \\\"%s\\\" vorhanden!"
 
 #, php-format
 msgid "Unable to parse date \"%s\". Use a format like \"%s\"."
-msgstr ""
+msgstr "Datum \\\"%s\\\" konnte nicht geparst werden. Ein Format wie \\\"%s\\\" verwenden."
 
 #, php-format
 msgid "No such commit \"%s\"!"
 msgstr "Änderung \"%s\" existiert nicht!"
 
 msgid "Update all commits in all repositories."
-msgstr ""
+msgstr "Alle Commits in allen Repositories aktualisieren."
 
 msgid "Update named commits and repositories."
-msgstr ""
+msgstr "Benannte Commits und Repositories aktualisieren."
 
 msgid ""
 "Specify \"--all\" to affect everything, or a list of specific commits or "
@@ -2590,7 +2590,7 @@ msgid ""
 msgstr ""
 
 msgid "Specify either a list of objects to affect or \"--all\", but not both."
-msgstr ""
+msgstr "Entweder eine Liste betroffener Objekte oder \\\"--all\\\" angeben, aber nicht beides."
 
 #, fuzzy, php-format
 msgid "Object \"%s\" is not a valid object."
@@ -2599,15 +2599,15 @@ msgstr "Der neue Chat-Teilnehmer \"%s\" ist kein gültiger Benutzer."
 
 #, php-format
 msgid "Object \"%s\" is not a valid repository or commit."
-msgstr ""
+msgstr "Objekt \\\"%s\\\" ist kein gültiges Repository oder Commit."
 
 #, php-format
 msgid "No synchronization changes for \"%s\"."
-msgstr ""
+msgstr "Keine Synchronisierungsänderungen für \\\"%s\\\"."
 
 #, php-format
 msgid "Synchronizing \"%s\": \"%s\" -> \"%s\"."
-msgstr ""
+msgstr "\\\"%s\\\" wird synchronisiert: \\\"%s\\\" -> \\\"%s\\\"."
 
 msgid ""
 "Update commits to make their summary audit state reflect the state of their "
@@ -2616,10 +2616,10 @@ msgid ""
 msgstr ""
 
 msgid "Update package relationships for commits."
-msgstr ""
+msgstr "Paketbeziehungen für Commits aktualisieren."
 
 msgid "none"
-msgstr ""
+msgstr "keine"
 
 #, fuzzy, php-format
 msgid "Updating \"%s\" (%s)..."
@@ -2635,7 +2635,7 @@ msgid "Repositories"
 msgstr "Repositories"
 
 msgid "Find commits in particular repositories."
-msgstr ""
+msgstr "Commits in bestimmten Repositories suchen."
 
 #, fuzzy
 msgid "Diffusion Commits"
@@ -2654,26 +2654,26 @@ msgid "Authors"
 msgstr "Autoren"
 
 msgid "Find commits authored by particular users."
-msgstr ""
+msgstr "Commits bestimmter Autoren suchen."
 
 
 msgid "Auditors"
 msgstr "Prüfer"
 
 msgid "Find commits where given users, projects, or packages are auditors."
-msgstr ""
+msgstr "Commits suchen, bei denen bestimmte Benutzer, Projekte oder Pakete Auditoren sind."
 
 msgid "Audit Status"
-msgstr ""
+msgstr "Auditstatus"
 
 msgid "Find commits with given audit statuses."
-msgstr ""
+msgstr "Commits mit bestimmten Auditstatus suchen."
 
 msgid "Packages"
-msgstr ""
+msgstr "Pakete"
 
 msgid "Find commits which affect given packages."
-msgstr ""
+msgstr "Commits suchen, die bestimmte Pakete betreffen."
 
 #, fuzzy
 msgid "Unreachable"
@@ -2704,7 +2704,7 @@ msgstr "Permanentes Feld"
 
 
 msgid "Show Only Permanent Commits"
-msgstr ""
+msgstr "Nur dauerhafte Commits anzeigen"
 
 #, fuzzy
 msgid "Hide Permanent Commits"
@@ -2717,13 +2717,13 @@ msgid ""
 msgstr ""
 
 msgid "Ancestors Of"
-msgstr ""
+msgstr "Vorfahren von"
 
 msgid "Find commits which are ancestors of a particular ref, like \"master\"."
-msgstr ""
+msgstr "Commits suchen, die Vorfahren eines bestimmten Refs sind, z.B. \\\"master\\\"."
 
 msgid "Identifiers"
-msgstr ""
+msgstr "Bezeichner"
 
 msgid ""
 "Find commits with particular identifiers (usually, hashes). Supports full or "
@@ -2766,10 +2766,10 @@ msgstr "In Diffusion anschauen"
 
 
 msgid "Your authored repository commits will appear here."
-msgstr ""
+msgstr "Deine verfassten Repository-Commits erscheinen hier."
 
 msgid "Raised Concern"
-msgstr ""
+msgstr "Problem gemeldet"
 
 msgid "Closed"
 msgstr "Geschlossen"
@@ -2877,10 +2877,10 @@ msgid "%s closed the audit of %s."
 msgstr "%s hat die Prüfung von %s geschlossen."
 
 msgid "Unknown grouped transaction type!"
-msgstr ""
+msgstr "Unbekannter gruppierter Transaktionstyp!"
 
 msgid "Good password should match."
-msgstr ""
+msgstr "Ein gültiges Passwort sollte übereinstimmen."
 
 #, fuzzy
 msgid "Bad password should not match."
@@ -2932,23 +2932,23 @@ msgid ""
 msgstr ""
 
 msgid "Expected valid JSON response from Amazon account data request."
-msgstr ""
+msgstr "Gültige JSON-Antwort auf Amazon-Kontodatenanfrage erwartet."
 
 msgid "Expected valid JSON response from Disqus account data request."
-msgstr ""
+msgstr "Gültige JSON-Antwort auf Disqus-Kontodatenanfrage erwartet."
 
 msgid "Expected valid JSON response from Facebook account data request."
-msgstr ""
+msgstr "Gültige JSON-Antwort auf Facebook-Kontodatenanfrage erwartet."
 
 msgid "Expected valid JSON response from GitHub account data request."
-msgstr ""
+msgstr "Gültige JSON-Antwort auf GitHub-Kontodatenanfrage erwartet."
 
 msgid "Expected valid JSON response from Google account data request."
-msgstr ""
+msgstr "Gültige JSON-Antwort auf Google-Kontodatenanfrage erwartet."
 
 #, php-format
 msgid "%s failed!"
-msgstr ""
+msgstr "%s fehlgeschlagen!"
 
 #, php-format
 msgid ""
@@ -2965,14 +2965,14 @@ msgstr ""
 
 #, php-format
 msgid "Unable to connect to LDAP server (%s:%d)."
-msgstr ""
+msgstr "Verbindung zum LDAP-Server (%s:%d) nicht möglich."
 
 #, php-format
 msgid "Unable to set LDAP option '%s' to value '%s'!"
-msgstr ""
+msgstr "LDAP-Option '%s' konnte nicht auf Wert '%s' gesetzt werden!"
 
 msgid "Unable to start TLS connection when connecting to LDAP."
-msgstr ""
+msgstr "TLS-Verbindung beim LDAP-Verbindungsaufbau konnte nicht gestartet werden."
 
 msgid ""
 "LDAP record query returned more than one result. The query must uniquely "
@@ -2980,10 +2980,10 @@ msgid ""
 msgstr ""
 
 msgid "LDAP search failed."
-msgstr ""
+msgstr "LDAP-Suche fehlgeschlagen."
 
 msgid "Failed to get LDAP entries from search result."
-msgstr ""
+msgstr "LDAP-Einträge aus dem Suchergebnis konnten nicht abgerufen werden."
 
 #, php-format
 msgid ""
@@ -2998,10 +2998,10 @@ msgstr "Dauer: %s"
 
 #, php-format
 msgid "Failed to bind to LDAP server (as user \"%s\")."
-msgstr ""
+msgstr "Anmeldung am LDAP-Server (als Benutzer \\\"%s\\\") fehlgeschlagen."
 
 msgid "Failed to bind to LDAP server (without username)."
-msgstr ""
+msgstr "Anmeldung am LDAP-Server (ohne Benutzernamen) fehlgeschlagen."
 
 #, fuzzy, php-format
 msgid "%s is required!"
@@ -3010,17 +3010,17 @@ msgstr "%s ist ein Pflichtfeld."
 
 #, php-format
 msgid "Expected '%s' to be '%s'!"
-msgstr ""
+msgstr "Erwartet, dass '%s' gleich '%s' ist!"
 
 msgid "Expected token to finish OAuth handshake!"
-msgstr ""
+msgstr "Token zum Abschluss des OAuth-Handshakes erwartet!"
 
 msgid "Expected verifier to finish OAuth handshake!"
-msgstr ""
+msgstr "Verifier zum Abschluss des OAuth-Handshakes erwartet!"
 
 #, php-format
 msgid "Expected '%s' in response!"
-msgstr ""
+msgstr "'%s' in der Antwort erwartet!"
 
 #, fuzzy, php-format
 msgid "Access token error: %s"
@@ -3029,22 +3029,22 @@ msgstr "Zugriff verweigert: %s"
 
 #, php-format
 msgid "Failed to decode OAuth access token response: %s"
-msgstr ""
+msgstr "OAuth-Zugriffstoken-Antwort konnte nicht dekodiert werden: %s"
 
 msgid "Expected valid JSON response from \"user.whoami\" request."
-msgstr ""
+msgstr "Gültige JSON-Antwort auf \\\"user.whoami\\\"-Anfrage erwartet."
 
 msgid "Auth"
-msgstr ""
+msgstr "Authentifizierung"
 
 msgid "Login/Registration"
 msgstr "Login/Anmeldung"
 
 msgid "Can Manage Auth Providers"
-msgstr ""
+msgstr "Auth-Provider verwalten"
 
 msgid "You do not have permission to manage authentication providers."
-msgstr ""
+msgstr "Du hast keine Berechtigung, Authentifizierungsanbieter zu verwalten."
 
 #, fuzzy
 msgid "Terminate all login sessions."
@@ -3060,20 +3060,20 @@ msgid ""
 msgstr ""
 
 msgid "Query public keys."
-msgstr ""
+msgstr "Öffentliche Schlüssel abfragen."
 
 msgid "Deprecated"
-msgstr ""
+msgstr "Veraltet"
 
 msgid "This account is not linkable."
 msgstr "Das Konto kann nicht verknüpft werden."
 
 #, php-format
 msgid "Confirm %s Account Link"
-msgstr ""
+msgstr "%s-Kontoverknüpfung bestätigen"
 
 msgid "Confirm Account Link"
-msgstr ""
+msgstr "Kontoverknüpfung bestätigen"
 
 #, php-format
 msgid ""
@@ -3082,19 +3082,19 @@ msgid ""
 msgstr ""
 
 msgid "Confirm Link"
-msgstr ""
+msgstr "Verknüpfung bestätigen"
 
 msgid "Confirm External Account Link"
-msgstr ""
+msgstr "Externe Kontoverknüpfung bestätigen"
 
 msgid "Authentication Error"
-msgstr ""
+msgstr "Authentifizierungsfehler"
 
 msgid "Request did not include account key."
-msgstr ""
+msgstr "Anfrage enthielt keinen Kontoschlüssel."
 
 msgid "No valid linkable account."
-msgstr ""
+msgstr "Kein gültiges verknüpfbares Konto."
 
 msgid ""
 "The account you are attempting to register or link is already linked to "
@@ -3129,7 +3129,7 @@ msgstr ""
 
 #, php-format
 msgid "Welcome to %s!"
-msgstr ""
+msgstr "Willkommen bei %s!"
 
 
 #, fuzzy, php-format
@@ -3138,16 +3138,16 @@ msgstr "%s hat %s zu %s eingeladen."
 
 
 msgid "Normal Security Restored"
-msgstr ""
+msgstr "Normale Sicherheitsstufe wiederhergestellt"
 
 msgid "Your session is no longer in high security."
-msgstr ""
+msgstr "Deine Sitzung befindet sich nicht mehr im Modus für erhöhte Sicherheit."
 
 msgid "Leaving High Security"
-msgstr ""
+msgstr "Erhöhte Sicherheit verlassen"
 
 msgid "Leave high security and return your session to normal security levels?"
-msgstr ""
+msgstr "Erhöhte Sicherheit verlassen und Sitzung auf normale Sicherheitsstufe zurücksetzen?"
 
 msgid ""
 "If you leave high security, you will need to authenticate again the next "
@@ -3155,19 +3155,19 @@ msgid ""
 msgstr ""
 
 msgid "On the plus side, that purple notification bubble will disappear."
-msgstr ""
+msgstr "Auf der Plusseite: Diese lila Benachrichtigungsblase verschwindet dann."
 
 msgid "Leave High Security"
-msgstr ""
+msgstr "Erhöhte Sicherheit verlassen"
 
 msgid "Stay"
-msgstr ""
+msgstr "Bleiben"
 
 msgid "Provide Multi-Factor Credentials"
-msgstr ""
+msgstr "Multi-Faktor-Zugangsdaten eingeben"
 
 msgid "Multi-Factor Login"
-msgstr ""
+msgstr "Multi-Faktor-Anmeldung"
 
 #, php-format
 msgid ""
@@ -3179,13 +3179,13 @@ msgid "Account Not Linkable"
 msgstr "Konto nicht verknüpfbar"
 
 msgid "This provider is not configured to allow linking."
-msgstr ""
+msgstr "Dieser Anbieter ist nicht für das Verknüpfen konfiguriert."
 
 msgid "Account Not Refreshable"
-msgstr ""
+msgstr "Konto nicht aktualisierbar"
 
 msgid "This provider does not allow refreshing."
-msgstr ""
+msgstr "Dieser Anbieter erlaubt keine Aktualisierung."
 
 msgid "Account Already Linked"
 msgstr "Konto bereits verknüpft"
@@ -3218,17 +3218,17 @@ msgstr "Konto aktualisieren"
 
 #, php-format
 msgid "Refresh %s Account"
-msgstr ""
+msgstr "%s-Konto aktualisieren"
 
 msgid "Authentication Canceled"
-msgstr ""
+msgstr "Authentifizierung abgebrochen"
 
 msgid "You canceled authentication."
 msgstr "Du hast die Anmeldung abgebrochen."
 
 #, php-format
 msgid "Auth provider failed to load an account from %s!"
-msgstr ""
+msgstr "Auth-Anbieter konnte kein Konto von %s laden!"
 
 #, php-format
 msgid ""
@@ -3274,7 +3274,7 @@ msgstr ""
 
 
 msgid "Account is already registered or linked."
-msgstr ""
+msgstr "Konto ist bereits registriert oder verknüpft."
 
 #, php-format
 msgid ""
@@ -3313,17 +3313,17 @@ msgid "Wait For Approval"
 msgstr "Warte auf Freischaltung"
 
 msgid "Add Multi-Factor Auth"
-msgstr ""
+msgstr "Multi-Faktor-Auth hinzufügen"
 
 msgid "Add Multi-Factor Authentication"
-msgstr ""
+msgstr "Multi-Faktor-Authentifizierung hinzufügen"
 
 #, php-format
 msgid "Two settings panels share the same panel key ('%s'): %s, %s."
-msgstr ""
+msgstr "Zwei Einstellungsbereiche teilen denselben Bereichsschlüssel ('%s'): %s, %s."
 
 msgid "Enroll in MFA"
-msgstr ""
+msgstr "MFA einrichten"
 
 msgid "Settings"
 msgstr "Einstellungen"
@@ -3338,7 +3338,7 @@ msgid ""
 msgstr ""
 
 msgid "Multi-Factor Authentication Setup Complete"
-msgstr ""
+msgstr "Multi-Faktor-Authentifizierung eingerichtet"
 
 msgid ""
 "Before you can use this software, you need to add multi-factor "
@@ -3348,7 +3348,7 @@ msgid ""
 msgstr ""
 
 msgid "Add Multi-Factor Authentication To Your Account"
-msgstr ""
+msgstr "Multi-Faktor-Authentifizierung zum Konto hinzufügen"
 
 #, php-format
 msgid ""
@@ -3359,7 +3359,7 @@ msgid ""
 msgstr ""
 
 msgid "Multi-Factor Authentication is Misconfigured"
-msgstr ""
+msgstr "Multi-Faktor-Authentifizierung ist falsch konfiguriert"
 
 msgid "You are already logged in."
 msgstr "Du bist bereits angemeldet"
@@ -3382,13 +3382,13 @@ msgid ""
 msgstr ""
 
 msgid "You can try again, or request a new link via email."
-msgstr ""
+msgstr "Du kannst es erneut versuchen oder einen neuen Link per E-Mail anfordern."
 
 msgid "Send Another Email"
 msgstr "Nochmals eine Überprüfungs-Email senden."
 
 msgid "Unable to Establish Web Session"
-msgstr ""
+msgstr "Web-Sitzung konnte nicht hergestellt werden"
 
 #, php-format
 msgid ""
@@ -3402,7 +3402,7 @@ msgid ""
 msgstr ""
 
 msgid "Account Recovery"
-msgstr ""
+msgstr "Kontowiederherstellung"
 
 #, fuzzy, php-format
 msgid "Log in to %s"
@@ -3411,11 +3411,11 @@ msgstr "Kopiert nach %s"
 
 #, php-format
 msgid "Use the button below to log in as: %s"
-msgstr ""
+msgstr "Die untenstehende Schaltfläche verwenden, um dich anzumelden als: %s"
 
 #, php-format
 msgid "Logging in will verify %s as an email address you own."
-msgstr ""
+msgstr "Mit der Anmeldung wird %s als deine E-Mail-Adresse verifiziert."
 
 msgid ""
 "After logging in you should set a password for your account, or link your "
@@ -3425,7 +3425,7 @@ msgstr ""
 
 #, php-format
 msgid "Log In (%s)"
-msgstr ""
+msgstr "Anmelden (%s)"
 
 
 #, php-format
@@ -3524,7 +3524,7 @@ msgid "Email is required."
 msgstr "Email ist zwingend erforderlich."
 
 msgid "Disallowed"
-msgstr ""
+msgstr "Nicht erlaubt"
 
 msgid "Real name is required."
 msgstr "Ohne Angabe des vollen Namens geht es nicht."
@@ -3558,7 +3558,7 @@ msgid "Minimum length of %d characters."
 msgstr "Sollte mindestens %d Zeichen lang sein."
 
 msgid "Email"
-msgstr ""
+msgstr "E-Mail"
 
 msgid "Captcha"
 msgstr "Captcha"
@@ -3567,7 +3567,7 @@ msgid "Create Admin Account"
 msgstr "Neues Administratorkonto"
 
 msgid "Register Account"
-msgstr ""
+msgstr "Konto registrieren"
 
 msgid "Setup Admin Account"
 msgstr "Administrator-Konto anlegen"
@@ -3593,10 +3593,10 @@ msgstr ""
 
 
 msgid "There are no configured default registration providers."
-msgstr ""
+msgstr "Es sind keine Standard-Registrierungsanbieter konfiguriert."
 
 msgid "There are too many configured default registration providers."
-msgstr ""
+msgstr "Es sind zu viele Standard-Registrierungsanbieter konfiguriert."
 
 msgid "Registration Failed"
 msgstr "Registrierung fehlgeschlagen"
@@ -3621,10 +3621,10 @@ msgid "DISABLE APPROVAL QUEUE"
 msgstr "FREIGABE-WARTESCHLANGE DEAKTIVIEREN"
 
 msgid "No Matching Tokens"
-msgstr ""
+msgstr "Keine passenden Token"
 
 msgid "There are no matching tokens to revoke."
-msgstr ""
+msgstr "Es sind keine passenden Token zum Widerrufen vorhanden."
 
 msgid ""
 "(Some types of token can not be revoked, and you can not revoke tokens which "
@@ -3632,10 +3632,10 @@ msgid ""
 msgstr ""
 
 msgid "Revoke Tokens?"
-msgstr ""
+msgstr "Token widerrufen?"
 
 msgid "Revoke Tokens"
-msgstr ""
+msgstr "Token widerrufen"
 
 msgid ""
 "Really revoke all tokens? Among other temporary authorizations, this will "
@@ -3643,10 +3643,10 @@ msgid ""
 msgstr ""
 
 msgid "Revoke Token?"
-msgstr ""
+msgstr "Token widerrufen?"
 
 msgid "Revoke Token"
-msgstr ""
+msgstr "Token widerrufen"
 
 msgid ""
 "Really revoke this token? Any temporary authorization it enables will be "
@@ -3654,10 +3654,10 @@ msgid ""
 msgstr ""
 
 msgid "Revoke"
-msgstr ""
+msgstr "Widerrufen"
 
 msgid "Can Not Edit Trusted Key"
-msgstr ""
+msgstr "Vertrauenswürdiger Schlüssel kann nicht bearbeitet werden"
 
 #, php-format
 msgid ""
@@ -3669,10 +3669,10 @@ msgid "Okay"
 msgstr "Okay"
 
 msgid "Public Key"
-msgstr ""
+msgstr "Öffentlicher Schlüssel"
 
 msgid "Upload SSH Public Key"
-msgstr ""
+msgstr "Öffentlichen SSH-Schlüssel hochladen"
 
 msgid "Upload Public Key"
 msgstr "Public Key Hochladen"
@@ -3681,15 +3681,15 @@ msgid "Edit SSH Public Key"
 msgstr "SSH Public Key ändern"
 
 msgid "Generated"
-msgstr ""
+msgstr "Generiert"
 
 #, php-format
 msgid "Download Private Key (%s)"
-msgstr ""
+msgstr "Privaten Schlüssel herunterladen (%s)"
 
 
 msgid "Download Private Key"
-msgstr ""
+msgstr "Privaten Schlüssel herunterladen"
 
 msgid ""
 "A keypair has been generated, and the public key has been added as a "
@@ -3713,7 +3713,7 @@ msgid ""
 msgstr ""
 
 msgid "The private key will not be retained."
-msgstr ""
+msgstr "Der private Schlüssel wird nicht gespeichert."
 
 msgid "Unable to Generate Keys"
 msgstr "Konnte Schlüssel nicht erzeugen"
@@ -3739,10 +3739,10 @@ msgstr "Public Key löschen"
 
 #, php-format
 msgid "SSH Key %d"
-msgstr ""
+msgstr "SSH-Schlüssel %d"
 
 msgid "Revoked"
-msgstr ""
+msgstr "Widerrufen"
 
 #, fuzzy
 msgid "View Active Keys"
@@ -3755,7 +3755,7 @@ msgstr "SSH Public Key ändern"
 
 
 msgid "Revoke SSH Key"
-msgstr ""
+msgstr "SSH-Schlüssel widerrufen"
 
 msgid "Created"
 msgstr "Erzeugt"
@@ -3778,10 +3778,10 @@ msgid ""
 msgstr ""
 
 msgid "Skip This Step"
-msgstr ""
+msgstr "Diesen Schritt überspringen"
 
 msgid "Link External Account"
-msgstr ""
+msgstr "Externes Konto verknüpfen"
 
 #, php-format
 msgid "Minimum password length: %d characters."
@@ -3842,26 +3842,26 @@ msgid "Authentication Failure"
 msgstr "Anmeldefehler"
 
 msgid "Trouble logging in?"
-msgstr ""
+msgstr "Probleme beim Anmelden?"
 
 msgid "Send a login link to your email address."
-msgstr ""
+msgstr "Anmeldelink an deine E-Mail-Adresse senden."
 
 msgid "No Matching Sessions"
-msgstr ""
+msgstr "Keine passenden Sitzungen"
 
 msgid "There are no matching sessions to terminate."
-msgstr ""
+msgstr "Keine passenden Sitzungen zum Beenden vorhanden."
 
 msgid ""
 "(You can not terminate your current login session. To terminate it, log out.)"
 msgstr ""
 
 msgid "Terminate Sessions?"
-msgstr ""
+msgstr "Sitzungen beenden?"
 
 msgid "Terminate Sessions"
-msgstr ""
+msgstr "Sitzungen beenden"
 
 msgid ""
 "Really terminate all sessions? (Your current login session will not be "
@@ -3869,20 +3869,20 @@ msgid ""
 msgstr ""
 
 msgid "Terminate Session?"
-msgstr ""
+msgstr "Sitzung beenden?"
 
 msgid "Terminate Session"
-msgstr ""
+msgstr "Sitzung beenden"
 
 #, php-format
 msgid "Really terminate session %s?"
-msgstr ""
+msgstr "Sitzung %s wirklich beenden?"
 
 msgid "Terminate"
 msgstr "Beenden"
 
 msgid "Permanent Account Link"
-msgstr ""
+msgstr "Permanente Kontoverknüpfung"
 
 #, php-format
 msgid ""
@@ -3891,7 +3891,7 @@ msgid ""
 msgstr ""
 
 msgid "Unlink Your Only Login Account?"
-msgstr ""
+msgstr "Einziges Anmeldekonto trennen?"
 
 msgid ""
 "This is the only external login account linked to your account. If you "
@@ -3910,7 +3910,7 @@ msgstr "Externes Konto"
 
 #, php-format
 msgid "Unlink \"%s\" Account?"
-msgstr ""
+msgstr "\\\"%s\\\"-Konto trennen?"
 
 #, fuzzy, php-format
 msgid "You will no longer be able to use your %s account to log in."
@@ -3925,11 +3925,11 @@ msgid ""
 msgstr ""
 
 msgid "Unlink Account"
-msgstr ""
+msgstr "Konto trennen"
 
 #, php-format
 msgid "Login validation is missing expected parameter (\"%s\")."
-msgstr ""
+msgstr "Anmeldevalidierung fehlt der erwartete Parameter (\\\"%s\\\")."
 
 #, php-format
 msgid ""
@@ -4030,13 +4030,13 @@ msgid ""
 msgstr ""
 
 msgid "Email Address"
-msgstr ""
+msgstr "E-Mail-Adresse"
 
 msgid "Send Email"
 msgstr "Email senden"
 
 msgid "Unable to Verify Email"
-msgstr ""
+msgstr "E-Mail konnte nicht verifiziert werden"
 
 msgid ""
 "The verification code you provided is incorrect, or the email address has "
@@ -4059,18 +4059,18 @@ msgstr "Emailadresse wurde verifiziert"
 
 #, php-format
 msgid "The email address %s is now verified."
-msgstr ""
+msgstr "Die E-Mail-Adresse %s ist jetzt verifiziert."
 
 msgid "Verify Email Address"
-msgstr ""
+msgstr "E-Mail-Adresse verifizieren"
 
 #, php-format
 msgid "Verify this email address (%s) and attach it to your account?"
-msgstr ""
+msgstr "Diese E-Mail-Adresse (%s) verifizieren und an dein Konto anhängen?"
 
 #, php-format
 msgid "Verify %s"
-msgstr ""
+msgstr "%s verifizieren"
 
 msgid "Verify Email"
 msgstr "Emailadresse verifizieren"
@@ -4111,7 +4111,7 @@ msgstr "Abmelden"
 
 #, php-format
 msgid "Another verification email was sent to %s."
-msgstr ""
+msgstr "Eine weitere Bestätigungsmail wurde an %s gesendet."
 
 #, fuzzy, php-format
 msgid ""
@@ -4134,7 +4134,7 @@ msgid "Must Verify Email"
 msgstr "Die Email-Adresse muß verifiziert werden"
 
 msgid "Enable Provider?"
-msgstr ""
+msgstr "Anbieter aktivieren?"
 
 msgid ""
 "Do you want to enable this provider? Users will be able to use their "
@@ -4148,10 +4148,10 @@ msgid ""
 msgstr ""
 
 msgid "Enable Provider"
-msgstr ""
+msgstr "Anbieter aktivieren"
 
 msgid "Disable Provider?"
-msgstr ""
+msgstr "Anbieter deaktivieren?"
 
 msgid ""
 "Do you want to disable this provider? Users will not be able to register or "
@@ -4161,10 +4161,10 @@ msgid ""
 msgstr ""
 
 msgid "Disable Provider"
-msgstr ""
+msgstr "Anbieter deaktivieren"
 
 msgid "Provider Already Configured"
-msgstr ""
+msgstr "Anbieter bereits konfiguriert"
 
 #, php-format
 msgid ""
@@ -4174,13 +4174,13 @@ msgid ""
 msgstr ""
 
 msgid "Edit Existing Provider"
-msgstr ""
+msgstr "Vorhandenen Anbieter bearbeiten"
 
 msgid "Next Step"
 msgstr "Nächster Schritt"
 
 msgid "Add Provider"
-msgstr ""
+msgstr "Anbieter hinzufügen"
 
 #, fuzzy
 msgid "Add Auth Provider"
@@ -4191,10 +4191,10 @@ msgid "Save"
 msgstr "Speichern"
 
 msgid "Edit Provider"
-msgstr ""
+msgstr "Anbieter bearbeiten"
 
 msgid "Edit Auth Provider"
-msgstr ""
+msgstr "Auth-Anbieter bearbeiten"
 
 
 msgid "Enabled"
@@ -4218,7 +4218,7 @@ msgstr ""
 
 
 msgid "Allow Login:"
-msgstr ""
+msgstr "Anmeldung erlauben:"
 
 msgid ""
 "Allow users to log in using this provider. If you disable login, users can "
@@ -4226,7 +4226,7 @@ msgid ""
 msgstr ""
 
 msgid "Allow Registration:"
-msgstr ""
+msgstr "Registrierung erlauben:"
 
 msgid ""
 "Allow users to register new accounts using this provider. If you disable "
@@ -4235,7 +4235,7 @@ msgid ""
 msgstr ""
 
 msgid "Allow Linking Accounts"
-msgstr ""
+msgstr "Kontenverknüpfung erlauben"
 
 msgid ""
 "Allow users to link account credentials for this provider to existing "
@@ -4245,7 +4245,7 @@ msgid ""
 msgstr ""
 
 msgid "Allow Unlinking Accounts"
-msgstr ""
+msgstr "Kontentrennung erlauben"
 
 msgid ""
 "Allow users to unlink account credentials for this provider from existing "
@@ -4254,13 +4254,13 @@ msgid ""
 msgstr ""
 
 msgid "Trust Email Addresses"
-msgstr ""
+msgstr "E-Mail-Adressen vertrauen"
 
 msgid "Skip email verification for accounts registered through this provider."
-msgstr ""
+msgstr "E-Mail-Verifizierung für über diesen Anbieter registrierte Konten überspringen."
 
 msgid "Allow Auto Login"
-msgstr ""
+msgstr "Automatische Anmeldung erlauben"
 
 msgid ""
 "Automatically log in with this provider if it is the only available provider."
@@ -4276,16 +4276,16 @@ msgid ""
 msgstr ""
 
 msgid "Provider"
-msgstr ""
+msgstr "Anbieter"
 
 msgid "Allows Registration"
-msgstr ""
+msgstr "Erlaubt Registrierung"
 
 msgid "Does Not Allow Registration"
-msgstr ""
+msgstr "Erlaubt keine Registrierung"
 
 msgid "No Providers Configured:"
-msgstr ""
+msgstr "Keine Anbieter konfiguriert:"
 
 #, php-format
 msgid ""
@@ -4320,7 +4320,7 @@ msgid "Authentication"
 msgstr "Authentisierung"
 
 msgid "Multi-Factor"
-msgstr ""
+msgstr "Multi-Faktor"
 
 #, fuzzy
 msgid "Onboarding"
@@ -4338,10 +4338,10 @@ msgstr "Autor: %s"
 
 
 msgid "Provider Type"
-msgstr ""
+msgstr "Anbietertyp"
 
 msgid "Provider Enabled"
-msgstr ""
+msgstr "Anbieter aktiviert"
 
 
 #, fuzzy
@@ -4350,7 +4350,7 @@ msgstr "Alle Benutzer erlauben"
 
 
 msgid "Allow Registration"
-msgstr ""
+msgstr "Registrierung erlauben"
 
 #, fuzzy
 msgid "Allow Account Linking"
@@ -4363,7 +4363,7 @@ msgstr "Es ist kein Konto verknüpft"
 
 
 msgid "Contact Numbers"
-msgstr ""
+msgstr "Telefonnummern"
 
 msgid "/settings/panel/contact/"
 msgstr ""
