@@ -374,3 +374,19 @@ Verification:
 
 - syntax check of `src/applications/search/engine/PhabricatorApplicationSearchEngine.php`
 - code inspection of `loadAllNamedQueries()` and `getDefaultQueryKey()`
+
+### `023-guard-viewer-scoped-search-controller-queries.patch`
+
+This patch applies the same null-viewer guard pattern to two search-related
+controllers:
+
+- `PhabricatorSearchRelationshipSourceController`
+- `PhabricatorSearchDefaultController`
+
+These paths were still constructing viewer-scoped query filters or scope lists
+even when no viewer PHID exists.
+
+Verification:
+
+- syntax check of both touched controller classes
+- code inspection of the viewer-scoped query and config branches
