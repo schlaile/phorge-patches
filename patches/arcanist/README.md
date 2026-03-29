@@ -60,8 +60,9 @@ obsolete entry point and avoids changing the primary `./bin/arc` path at all.
 
 Verification:
 
-- syntax checks of `scripts/arcanist.php` and `src/runtime/ArcanistRuntime.php`
+- syntax check of `scripts/arcanist.php`
 - `php scripts/arcanist.php version`
 - `php scripts/arcanist.php help`
+- `php scripts/arcanist.php help diff`
 - `php scripts/arcanist.php diff --help`
 - `./bin/arc version`
