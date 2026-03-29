@@ -1,6 +1,6 @@
 # PHP 8 Compatibility Plan
 
-Internal tracking task: `T1369`
+Internal tracking task: `T1371`
 
 This note tracks the local battle plan for getting `libphutil`, `phorge`,
 and `phorge-arcanist` into good shape on modern PHP 8.x runtimes while keeping
@@ -18,7 +18,9 @@ the resulting patch series easy to port upstream.
 
 - prefer small, thematic fixes over large automated rewrites
 - keep `phorge` commit messages neutral and upstream-friendly
-- keep `Ref T1369 ...` tracking in `phorge-patches`
+- keep PHP 8 compatibility notes and patch exports tied to `T1371`
+- keep normal migration-history commits in `phorge-patches` aligned with the
+  broader `T1369` project rule
 - export upstreamable fixes as patch series as they stabilize
 
 ## Work Phases
@@ -97,7 +99,8 @@ For each fix series:
 - reproduce locally on PHP 8.4 when feasible
 - land the change in the target repository with an upstream-friendly commit
   message
-- export or mirror the change into `phorge-patches` with `Ref T1369 ...`
+- export or mirror the change into `phorge-patches` and reference `T1371` in
+  notes or patch metadata
 - record any remaining blockers that prevent broader test execution
 
 ## Near-Term Backlog

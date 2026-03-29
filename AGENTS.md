@@ -13,8 +13,8 @@ Repository-specific working rules for coding agents.
 ## Commit Message Rules
 
 - write commit messages in English
-- the active PHP 8 compatibility and migration effort in this repository is
-  tracked in `T1369`
+- the active migration project in this repository is tracked in `T1369`
+- the PHP 8 compatibility subtask is tracked in `T1371`
 - for the active migration project in this repository, internal task
   references like `T1369` are expected in commit messages
 - prefer the `Ref T1369 ...` style for normal curation and translation commits
@@ -27,7 +27,7 @@ Repository-specific working rules for coding agents.
 ## Patch Curation
 
 - keep patches small and thematic
-- document PHP 8 compatibility work against `T1369` in notes and exported
+- document PHP 8 compatibility work against `T1371` in notes and exported
   patch series
 - prefer wording and structure that will be easy to port or split later
 - document upstream-friendly candidates separately from local-only work
