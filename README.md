@@ -22,6 +22,7 @@ Maintain local changes in a way that keeps them:
 
 - `patches/phorge/`: curated patches against `phorge`
 - `patches/arcanist/`: curated patches against `phorge-arcanist`
+- `patches/libphutil/`: curated patches against the current `libphutil`
 - `patches/libphutil-legacy/`: historic patches from the old `libphutil`
 - `translation/de/`: German translation data
 - `translation/import/`: notes and helpers for import/build paths

@@ -1,0 +1,81 @@
+From 55803d548b134c22486e356f273e017a898e6410 Mon Sep 17 00:00:00 2001
+From: Alicia Codex <alicia@schlaile.de>
+Date: Sun, 29 Mar 2026 13:57:11 +0200
+Subject: [PATCH] Add German plural translation support
+
+---
+ src/internationalization/PhutilTranslator.php |  1 +
+ .../__tests__/PhutilPhtTestCase.php           | 10 ++++++++
+ .../__tests__/PhutilTranslatorTestCase.php    | 23 +++++++++++++++++++
+ 3 files changed, 34 insertions(+)
+
+diff --git a/src/internationalization/PhutilTranslator.php b/src/internationalization/PhutilTranslator.php
+index 19d2701..a7b2bca 100644
+--- a/src/internationalization/PhutilTranslator.php
++++ b/src/internationalization/PhutilTranslator.php
+@@ -172,6 +172,7 @@ final class PhutilTranslator extends Phobject {
+       case 'en_W*':
+       case 'en_R*':
+       case 'en_A*':
++      case 'de_DE':
+         list($singular, $plural) = $translations;
+         if ($variant == 1) {
+           return $singular;
+diff --git a/src/internationalization/__tests__/PhutilPhtTestCase.php b/src/internationalization/__tests__/PhutilPhtTestCase.php
+index fed12b1..185a238 100644
+--- a/src/internationalization/__tests__/PhutilPhtTestCase.php
++++ b/src/internationalization/__tests__/PhutilPhtTestCase.php
+@@ -28,6 +28,16 @@ final class PhutilPhtTestCase extends PhutilTestCase {
+       ));
+ 
+     $this->assertEqual('5 piv', pht('%d beer(s)', 5));
++
++    $german_locale = PhutilLocale::loadLocale('de_DE');
++    PhutilTranslator::getInstance()->setLocale($german_locale);
++    PhutilTranslator::getInstance()->setTranslations(
++      array(
++        '%d beer(s)' => array('%d Bier', '%d Biere'),
++      ));
++
++    $this->assertEqual('1 Bier', pht('%d beer(s)', 1));
++    $this->assertEqual('4 Biere', pht('%d beer(s)', 4));
+   }
+ 
+   public function getDateTranslations() {
+diff --git a/src/internationalization/__tests__/PhutilTranslatorTestCase.php b/src/internationalization/__tests__/PhutilTranslatorTestCase.php
+index 2d7ffd5..fa06b85 100644
+--- a/src/internationalization/__tests__/PhutilTranslatorTestCase.php
++++ b/src/internationalization/__tests__/PhutilTranslatorTestCase.php
+@@ -67,6 +67,29 @@ final class PhutilTranslatorTestCase extends PhutilTestCase {
+     $this->assertEqual('1 line(s)', $translator->translate('%d line(s)', 1));
+   }
+ 
++  public function testGerman() {
++    $translator = $this->newTranslator('de_DE');
++    $translator->setTranslations(
++      array(
++        '%d beer(s)' => array('%d Bier', '%d Biere'),
++        '%d char(s) on %d row(s)' => array(
++          array('%d Zeichen auf %d Zeile', '%d Zeichen auf %d Zeilen'),
++          array('%d Zeichen auf %d Zeile', '%d Zeichen auf %d Zeilen'),
++        ),
++      ));
++
++    $this->assertEqual('0 Biere', $translator->translate('%d beer(s)', 0));
++    $this->assertEqual('1 Bier', $translator->translate('%d beer(s)', 1));
++    $this->assertEqual('2 Biere', $translator->translate('%d beer(s)', 2));
++
++    $this->assertEqual(
++      '1 Zeichen auf 1 Zeile',
++      $translator->translate('%d char(s) on %d row(s)', 1, 1));
++    $this->assertEqual(
++      '5 Zeichen auf 2 Zeilen',
++      $translator->translate('%d char(s) on %d row(s)', 5, 2));
++  }
++
+   public function testPerson() {
+     $translator = $this->newTranslator('cs_CZ');
+     $translator->setTranslations(
+-- 
+2.47.3
+
