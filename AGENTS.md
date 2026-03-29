@@ -12,6 +12,7 @@ Repository-specific working rules for coding agents.
 
 ## Commit Message Rules
 
+- write commit messages in English
 - for the active migration project in this repository, internal task
   references like `T1369` are expected in commit messages
 - prefer the `Ref T1369 ...` style for normal curation and translation commits
