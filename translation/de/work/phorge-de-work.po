@@ -3790,9 +3790,8 @@ msgstr "Minimale Passwort-Länge: %d Zeichen."
 msgid "Reset Password"
 msgstr "Passwort zurücksetzen"
 
-#, fuzzy
 msgid "Set Password"
-msgstr "Passwort zurücksetzen"
+msgstr "Passwort festlegen"
 
 
 #, fuzzy
@@ -55744,7 +55743,7 @@ msgstr ""
 
 
 msgid "Identity"
-msgstr ""
+msgstr "Identität"
 
 msgid "Override this identity's assignment."
 msgstr ""
@@ -59910,13 +59909,13 @@ msgid "Unable to load object \"%s\" to rebuild indexes."
 msgstr ""
 
 msgid "You are adding too many email addresses to your account too quickly."
-msgstr ""
+msgstr "Du fügst Deinem Konto zu schnell zu viele E-Mail-Adressen hinzu."
 
 msgid "User Preferences"
 msgstr "Benutzereinstellungen"
 
 msgid "Primary Email Unverified"
-msgstr ""
+msgstr "Primäre E-Mail-Adresse nicht bestätigt"
 
 msgid ""
 "Your primary email address is unverified. You will not be able to receive "
@@ -59924,115 +59923,104 @@ msgid ""
 msgstr ""
 
 msgid "You have no account setup issues."
-msgstr ""
+msgstr "Dein Konto hat keine Einrichtungsprobleme."
 
 
-#, fuzzy
 msgid "Account Setup Issues"
-msgstr "Probleme bei der Installation"
+msgstr "Probleme bei der Kontoeinrichtung"
 
 
-#, fuzzy
 msgid "Create Global Defaults"
-msgstr "Globale Vorgabe"
+msgstr "Globale Standardwerte erstellen"
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "Edit Settings: %s"
-msgstr "Ändere %s %s"
+msgstr "Einstellungen bearbeiten: %s"
 
 
-#, fuzzy
 msgid "Edit Global Settings"
-msgstr "Alle Einstellungen"
+msgstr "Globale Einstellungen bearbeiten"
 
 
 msgid "No settings panels are available."
-msgstr ""
+msgstr "Keine Einstellungsseiten verfügbar."
 
-#, fuzzy
 msgid "Ignore Conflict"
-msgstr "Änderungskonflikt"
+msgstr "Konflikt ignorieren"
 
 
 msgid "You can change your date and time preferences in Settings."
-msgstr ""
+msgstr "Datum- und Zeiteinstellungen können unter Einstellungen angepasst werden."
 
-#, fuzzy
 msgid "Conflict Ignored"
-msgstr "Ignoriert"
+msgstr "Konflikt ignoriert"
 
 
 msgid ""
 "The conflict between your browser and profile timezone settings will be "
 "ignored."
-msgstr ""
+msgstr "Der Konflikt zwischen Browser- und Profil-Zeitzone wird ignoriert."
 
 msgid "Timezone Calibrated"
-msgstr ""
+msgstr "Zeitzone kalibriert"
 
 #, php-format
 msgid "Your browser timezone and profile timezone are now in agreement (%s)."
 msgstr ""
 
-#, fuzzy
 msgid "Current Setting"
-msgstr "Aktuelle Version"
+msgstr "Aktuelle Einstellung"
 
 
-#, fuzzy
 msgid "New Setting"
-msgstr "Einstellungen"
+msgstr "Neue Einstellung"
 
 
 #, php-format
 msgid "Ignore new setting and keep %s"
-msgstr ""
+msgstr "Neue Einstellung ignorieren und %s beibehalten"
 
 msgid "Adjust Timezone"
-msgstr ""
+msgstr "Zeitzone anpassen"
 
 #, php-format
 msgid ""
 "Your browser timezone (%s) differs from your profile timezone (%s). You can "
 "adjust your profile setting to match your browser, or ignore this conflict "
 "to keep your current profile setting."
-msgstr ""
+msgstr "Die Browser-Zeitzone (%s) weicht von der Profil-Zeitzone (%s) ab. Du kannst die Profileinstellung an den Browser anpassen oder den Konflikt ignorieren, um die aktuelle Profileinstellung beizubehalten."
 
 msgid "UTC%+d:%02d"
-msgstr ""
+msgstr "UTC%+d:%02d"
 
 msgid "UTC%+d"
-msgstr ""
+msgstr "UTC%+d"
 
 msgid "Edit Settings Configurations"
-msgstr ""
+msgstr "Einstellungskonfigurationen bearbeiten"
 
 
 msgid "This engine is used to edit settings."
-msgstr ""
+msgstr "Diese Engine dient zum Bearbeiten von Einstellungen."
 
-#, fuzzy
 msgid "Create Settings"
-msgstr "Neuer Termin"
+msgstr "Einstellungen erstellen"
 
 
-#, fuzzy
 msgid "Global Defaults"
-msgstr "Globale Vorgabe"
+msgstr "Globale Standardwerte"
 
 
-#, fuzzy
 msgid "Personal Settings"
-msgstr "Alle Einstellungen"
+msgstr "Persönliche Einstellungen"
 
 
 msgid "Account Settings"
 msgstr "Konteneinstellungen"
 
-#, fuzzy
 msgid "Extra Settings"
-msgstr "Einstellungen"
+msgstr "Zusätzliche Einstellungen"
 
 
 msgid "Changes saved."
@@ -60040,23 +60028,21 @@ msgstr "Änderungen gespeichert."
 
 #, php-format
 msgid "There is no known application setting with key \"%s\"."
-msgstr ""
+msgstr "Es gibt keine bekannte Anwendungseinstellung mit dem Schlüssel „%s\"."
 
 msgid "Account Activity Logs"
 msgstr "Protokoll der Kontenaktivitäten"
 
-#, fuzzy
 msgid "You haven't added any contact numbers to your account."
-msgstr "Du hast noch keine SSH Public Keys hinzugefügt."
+msgstr "Du hast noch keine Kontaktnummern zu Deinem Konto hinzugefügt."
 
 
-#, fuzzy
 msgid "Number"
-msgstr "Numerierte Liste"
+msgstr "Nummer"
 
 
 msgid "Add Contact Number"
-msgstr ""
+msgstr "Kontaktnummer hinzufügen"
 
 msgid "Date and Time"
 msgstr "Datum und Uhrzeit"
@@ -60098,37 +60084,36 @@ msgstr ""
 msgid ""
 "Note: Removing an email address from your account will invalidate any "
 "outstanding password reset links."
-msgstr ""
+msgstr "Hinweis: Das Entfernen einer E-Mail-Adresse macht alle offenen Links zum Zurücksetzen des Passworts ungültig."
 
 msgid "Send Another Verification Email?"
 msgstr "Noch eine Bestätigungsemail verschicken?"
 
 #, php-format
 msgid "Send another copy of the verification email to %s?"
-msgstr ""
+msgstr "Noch eine Bestätigungs-E-Mail an %s senden?"
 
 msgid "Change primary email address?"
 msgstr "Die primäre Email-Adresse ändern?"
 
 #, php-format
 msgid "If you change your primary address, %s will send all email to %s."
-msgstr ""
+msgstr "Wenn Du die primäre Adresse änderst, sendet %s alle E-Mails an %s."
 
 msgid ""
 "Note: Changing your primary email address will invalidate any outstanding "
 "password reset links."
-msgstr ""
+msgstr "Hinweis: Das Ändern der primären E-Mail-Adresse macht alle offenen Links zum Zurücksetzen des Passworts ungültig."
 
 msgid "Change Primary Address"
 msgstr "Primäre Adresse ändern"
 
-#, fuzzy
 msgid "Email Delivery"
-msgstr "Email-Benutzer"
+msgstr "E-Mail-Zustellung"
 
 
 msgid "Email Format"
-msgstr ""
+msgstr "E-Mail-Format"
 
 msgid "Email Preferences"
 msgstr "Emaileinstellungen"
@@ -60154,42 +60139,53 @@ msgid ""
 "receive email alerts when other objects are created, configure [[ /herald/ | "
 "Herald Rules ]]."
 msgstr ""
+"Unter **Anwendungseinstellungen** lässt sich festlegen, wann E-Mails und Benachrichtigungen gesendet werden.\n"
+"\n"
+"| Einstellung | Wirkung\n"
+"| ----------- | -------\n"
+"| E-Mail | Du erhältst eine E-Mail und eine Benachrichtigung, die als 'gelesen' markiert wird.\n"
+"| Benachrichtigen | Du erhältst nur eine ungelesene Benachrichtigung.\n"
+"| Ignorieren | Du erhältst nichts.\n"
+"\n"
+"\n"
+"Wenn eine Aktualisierung mehrere Änderungen enthält (z. B. CCs hinzufügen, Aufgabe schließen und Kommentar verfassen), erhältst Du die stärkste Benachrichtigung, die für eine der Änderungen konfiguriert ist.\n"
+"\n"
+"Diese Einstellungen gelten **nur** für Objekte, mit denen Du verbunden bist (z. B. Revisionen, bei denen Du Prüfer bist, oder Aufgaben, für die Du als CC eingetragen bist). Um E-Mail-Benachrichtigungen über neu erstellte Objekte zu erhalten, konfiguriere [[ /herald/ | Herald-Regeln ]]."
 
 msgid "Save Preferences"
 msgstr "Einstellungen speichern"
 
 msgid "⚫ Email"
-msgstr ""
+msgstr "⚫ E-Mail"
 
 msgid "◐ Notify"
-msgstr ""
+msgstr "◐ Benachrichtigen"
 
 msgid "⚪ Ignore"
-msgstr ""
+msgstr "⚪ Ignorieren"
 
 msgid "External Accounts"
 msgstr "Externe Konten"
 
 msgid "Linked Accounts and Authentication"
-msgstr ""
+msgstr "Verknüpfte Konten und Authentifizierung"
 
 msgid "You have no linked accounts."
-msgstr ""
+msgstr "Du hast keine verknüpften Konten."
 
 msgid "Permanently Linked"
-msgstr ""
+msgstr "Dauerhaft verknüpft"
 
 msgid ""
 "Disabled (an administrator has disabled login for this account provider)."
 msgstr ""
 
-#, fuzzy
 msgid "Refresh"
-msgstr "Konto aktualisieren"
+msgstr "Aktualisieren"
 
 
 msgid "Unlink"
-msgstr ""
+msgstr "Verknüpfung aufheben"
 
 msgid "Add External Account"
 msgstr "Neues externes Konto"
@@ -60197,182 +60193,172 @@ msgstr "Neues externes Konto"
 msgid "Your account is linked with all available providers."
 msgstr "Dein Konto ist mit allen verfügbaren Zugangsanbietern verbunden."
 
-#, fuzzy
 msgid "External Editor"
-msgstr "Externes Konto"
+msgstr "Externer Editor"
 
 
 msgid "Replaced With"
-msgstr ""
+msgstr "Ersetzt durch"
 
 
 msgid "External Editor URI Variables"
-msgstr ""
+msgstr "URI-Variablen für externen Editor"
 
 msgid "Hypertext Transfer Protocol"
-msgstr ""
+msgstr "Hypertext Transfer Protocol"
 
 msgid "Hypertext Transfer Protocol over SSL"
-msgstr ""
+msgstr "Hypertext Transfer Protocol over SSL"
 
-#, fuzzy
 msgid "TextMate"
-msgstr "Text"
+msgstr "TextMate"
 
 
 msgid "MacVim"
-msgstr ""
+msgstr "MacVim"
 
-#, fuzzy
 msgid "Sublime Text"
-msgstr "Unformatierter Text"
+msgstr "Sublime Text"
 
 
 msgid "Vim"
-msgstr ""
+msgstr "Vim"
 
 msgid "Emacs"
-msgstr ""
+msgstr "Emacs"
 
 msgid "Visual Studio Code"
-msgstr ""
+msgstr "Visual Studio Code"
 
-#, fuzzy
 msgid "Generic Editor"
-msgstr "In Editor öffnen"
+msgstr "Generischer Editor"
 
 
 msgid "IntelliJ IDEA"
-msgstr ""
+msgstr "IntelliJ IDEA"
 
-#, fuzzy
 msgid "Zed"
-msgstr "Rot"
+msgstr "Zed"
 
 
 msgid "Supported Protocol"
-msgstr ""
+msgstr "Unterstütztes Protokoll"
 
 
-#, fuzzy
 msgid "No allowed editor protocols are configured."
-msgstr "Keine Zahlungsmethoden konfiguriert"
+msgstr "Keine erlaubten Editor-Protokolle konfiguriert."
 
 
 msgid "View Configuration"
-msgstr ""
+msgstr "Konfiguration anzeigen"
 
 
 msgid "Supported Editor Protocols"
-msgstr ""
+msgstr "Unterstützte Editor-Protokolle"
 
 msgid "Multi-Factor Auth"
-msgstr ""
+msgstr "Mehrfaktor-Authentifizierung"
 
 #, php-format
 msgid "Provider: %s"
-msgstr ""
+msgstr "Anbieter: %s"
 
 
 msgid "You haven't added any authentication factors to your account yet."
-msgstr ""
+msgstr "Du hast noch keine Authentifizierungsfaktoren zu Deinem Konto hinzugefügt."
 
-#, fuzzy
 msgid "Add Auth Factor"
-msgstr "Prüfer hinzufügen"
+msgstr "Authentifizierungsfaktor hinzufügen"
 
 
 msgid "Authentication Factors"
-msgstr ""
+msgstr "Authentifizierungsfaktoren"
 
-#, fuzzy
 msgid "No MFA Providers"
-msgstr "Alle Anbieter"
+msgstr "Keine MFA-Anbieter"
 
 
 msgid ""
 "This install does not have any active MFA providers configured. At least one "
 "provider must be configured and active before you can add new MFA factors."
-msgstr ""
+msgstr "Diese Installation hat keine aktiven MFA-Anbieter konfiguriert. Mindestens ein Anbieter muss konfiguriert und aktiv sein, bevor neue MFA-Faktoren hinzugefügt werden können."
 
-#, fuzzy
 msgid "Choose Factor Type"
-msgstr "Icon auswählen"
+msgstr "Faktortyp auswählen"
 
 
 msgid ""
 "NOTE: You already have an Auth Factor configured. Adding another factor will "
 "require you to always provide all Auth Factors instead of selecting one of "
 "your Auth Factors."
-msgstr ""
+msgstr "HINWEIS: Du hast bereits einen Authentifizierungsfaktor konfiguriert. Das Hinzufügen eines weiteren Faktors erfordert, dass künftig immer alle Faktoren angegeben werden, statt einen auszuwählen."
 
 msgid "Add Authentication Factor"
-msgstr ""
+msgstr "Authentifizierungsfaktor hinzufügen"
 
 msgid "Authentication factors must have a name to identify them."
-msgstr ""
+msgstr "Authentifizierungsfaktoren müssen einen Namen zur Identifikation haben."
 
 msgid "Edit Authentication Factor"
-msgstr ""
+msgstr "Authentifizierungsfaktor bearbeiten"
 
 msgid "Delete Authentication Factor"
-msgstr ""
+msgstr "Authentifizierungsfaktor löschen"
 
 #, php-format
 msgid "Really remove the authentication factor %s from your account?"
-msgstr ""
+msgstr "Den Authentifizierungsfaktor %s wirklich aus Deinem Konto entfernen?"
 
 msgid "Remove Factor"
-msgstr ""
+msgstr "Faktor entfernen"
 
 msgid ""
 "The dialog asking for permission to send desktop notifications was closed "
 "without granting permission. Only application notifications will be sent."
-msgstr ""
+msgstr "Der Dialog zum Erteilen der Berechtigung für Desktop-Benachrichtigungen wurde ohne Bestätigung geschlossen. Es werden nur Anwendungsbenachrichtigungen gesendet."
 
 msgid "Click \"Save Preference\" to persist these changes."
-msgstr ""
+msgstr "Auf „Einstellung speichern\" klicken, um die Änderungen zu übernehmen."
 
 msgid ""
 "Permission for desktop notifications was denied. Only application "
 "notifications will be sent."
-msgstr ""
+msgstr "Die Berechtigung für Desktop-Benachrichtigungen wurde verweigert. Es werden nur Anwendungsbenachrichtigungen gesendet."
 
 msgid ""
 "This web browser does not support desktop notifications. Only application "
 "notifications will be sent for this browser regardless of this preference."
-msgstr ""
+msgstr "Dieser Webbrowser unterstützt keine Desktop-Benachrichtigungen. Unabhängig von dieser Einstellung werden für diesen Browser nur Anwendungsbenachrichtigungen gesendet."
 
 msgid ""
 "Your browser has not yet granted this server permission to send desktop "
 "notifications."
-msgstr ""
+msgstr "Dieser Browser hat dem Server noch keine Berechtigung zum Senden von Desktop-Benachrichtigungen erteilt."
 
 msgid ""
 "Your browser has granted this server permission to send desktop "
 "notifications."
-msgstr ""
+msgstr "Dieser Browser hat dem Server die Berechtigung zum Senden von Desktop-Benachrichtigungen erteilt."
 
 msgid ""
 "This browser has denied permission to send desktop notifications to this "
 "server. Consult your browser settings / documentation to figure out how to "
 "clear this setting, do so, and then re-visit this page to grant permission."
-msgstr ""
+msgstr "Dieser Browser hat die Berechtigung für Desktop-Benachrichtigungen verweigert. Bitte prüfe die Browsereinstellungen oder die Dokumentation, um diese Einstellung zurückzusetzen, und lade diese Seite anschließend neu, um die Berechtigung zu erteilen."
 
 msgid ""
 "This server can send real-time notifications to your web browser or to your "
 "desktop. Select where you want to receive these real-time updates."
-msgstr ""
+msgstr "Dieser Server kann Echtzeit-Benachrichtigungen an den Webbrowser oder den Desktop senden. Hier kann ausgewählt werden, wo diese Benachrichtigungen empfangen werden sollen."
 
 msgid "Save Preference"
-msgstr ""
+msgstr "Einstellung speichern"
 
 msgid "Send Test Notification"
-msgstr ""
+msgstr "Test-Benachrichtigung senden"
 
-#, fuzzy
 msgid "You must enter your current password."
-msgstr "Du mußt ein Passwort wählen"
+msgstr "Du musst Dein aktuelles Passwort eingeben."
 
 
 msgid "The old password you entered is incorrect."
@@ -60402,7 +60388,7 @@ msgstr ""
 msgid ""
 "The strength of your stored password hash can be upgraded. To upgrade, "
 "either: log out and log in using your password; or change your password."
-msgstr ""
+msgstr "Die Stärke des gespeicherten Passwort-Hashes kann verbessert werden. Dazu entweder ab- und wieder anmelden oder das Passwort ändern."
 
 msgid "Old Password"
 msgstr "Altes Passwort"
@@ -60415,15 +60401,14 @@ msgstr ""
 "Sitzung beenden!"
 
 
-#, fuzzy
 msgid "Password Algorithms"
-msgstr "Aktueller Algorithmus"
+msgstr "Passwort-Algorithmen"
 
 
 msgid ""
 "Your account does not currently have a password set. You can choose a "
 "password by performing a password reset."
-msgstr ""
+msgstr "Für Dein Konto ist noch kein Passwort festgelegt. Du kannst über einen Passwort-Reset ein Passwort wählen."
 
 msgid "You haven't added any SSH Public Keys."
 msgstr "Du hast noch keine SSH Public Keys hinzugefügt."
@@ -60432,7 +60417,7 @@ msgid "You don't have any active sessions."
 msgstr "Du hast keine aktiven Sitzungen."
 
 msgid "HiSec"
-msgstr ""
+msgstr "HiSec"
 
 msgid "Terminate All Sessions"
 msgstr "Alle aktiven Sitzungen beenden"
@@ -60442,129 +60427,117 @@ msgstr "Aktive Benutzersitzungen"
 
 #, php-format
 msgid "No settings panel group with key \"%s\" exists!"
-msgstr ""
+msgstr "Keine Einstellungsgruppe mit dem Schlüssel „%s\" vorhanden!"
 
 msgid "Expired"
-msgstr ""
+msgstr "Abgelaufen"
 
 msgid "You don't have any active tokens."
-msgstr ""
+msgstr "Du hast keine aktiven Token."
 
 msgid "Revoke All"
-msgstr ""
+msgstr "Alle widerrufen"
 
 msgid "Sessions and Logs"
 msgstr "Sitzungen und Protokolle"
 
 #, php-format
 msgid "Settings %d"
-msgstr ""
+msgstr "Einstellungen %d"
 
 
 msgid "Edit global default settings for all users."
-msgstr ""
+msgstr "Globale Standardeinstellungen für alle Benutzer bearbeiten."
 
-#, fuzzy
 msgid "Personal Account Settings"
-msgstr "Konteneinstellungen speichern"
+msgstr "Persönliche Kontoeinstellungen"
 
 
 msgid "Edit settings for your personal account."
-msgstr ""
+msgstr "Einstellungen für Dein persönliches Konto bearbeiten."
 
 msgid "If you have difficulty reading the UI, this setting may help."
-msgstr ""
+msgstr "Wenn die Benutzeroberfläche schwer lesbar ist, kann diese Einstellung helfen."
 
-#, fuzzy
 msgid "Conpherence Column Minimize"
-msgstr "Conpherence Chat"
+msgstr "Conpherence-Spalte minimieren"
 
 
-#, fuzzy
 msgid "Conpherence Column Visible"
-msgstr "Chat-Räume"
+msgstr "Conpherence-Spalte sichtbar"
 
 
 msgid "Conpherence Notifications"
-msgstr ""
+msgstr "Conpherence-Benachrichtigungen"
 
 msgid "Choose the default notification behavior for Conpherence rooms."
-msgstr ""
+msgstr "Standard-Benachrichtigungsverhalten für Conpherence-Räume festlegen."
 
-#, fuzzy
 msgid "Send Notifications"
-msgstr "Ungelesene Benachrichtigungen"
+msgstr "Benachrichtigungen senden"
 
 
-#, fuzzy
 msgid "Conpherence Sound"
-msgstr "Conpherence Chat"
+msgstr "Conpherence-Töne"
 
 
 msgid "Choose the default sound behavior for new Conpherence rooms."
-msgstr ""
+msgstr "Standard-Töneverhalten für neue Conpherence-Räume festlegen."
 
-#, fuzzy
 msgid "No Sounds"
-msgstr "Seite nicht gefunden"
+msgstr "Keine Töne"
 
 
-#, fuzzy
 msgid "All Messages"
-msgstr "Nachrichten"
+msgstr "Alle Nachrichten"
 
 
 msgid "Conpherence Widget Pane Visible"
-msgstr ""
+msgstr "Conpherence-Widget sichtbar"
 
-#, fuzzy
 msgid "DarkConsole"
-msgstr "Dunkle(tm) Konsole"
+msgstr "Dunkle™-Konsole"
 
 
 msgid ""
 "DarkConsole is a debugging console for developing and troubleshooting "
 "applications. After enabling DarkConsole, press the {nav `} key on your "
 "keyboard to toggle it on or off."
-msgstr ""
+msgstr "Die Dunkle™-Konsole ist eine Debugging-Konsole für Entwicklung und Fehleranalyse. Nach dem Aktivieren kann sie mit der Taste {nav `} ein- und ausgeblendet werden."
 
-#, fuzzy
 msgid "DarkConsole Tab"
-msgstr "Dunkle(tm) Konsole"
+msgstr "Dunkle™-Konsole-Tab"
 
 
-#, fuzzy
 msgid "DarkConsole Visible"
-msgstr "Dunkle(tm) Konsole"
+msgstr "Dunkle™-Konsole sichtbar"
 
 
 msgid "Date Format"
 msgstr "Datumsformat"
 
 msgid "Select the format you prefer for editing dates."
-msgstr ""
+msgstr "Format für die Eingabe von Datumsangaben auswählen."
 
 msgid "ISO 8601: 2000-02-28"
-msgstr ""
+msgstr "ISO 8601: 2000-02-28"
 
 msgid "US: 2/28/2000"
-msgstr ""
+msgstr "US: 2/28/2000"
 
-#, fuzzy
 msgid "Europe: 28-02-2000"
 msgstr "Europäisch (28-02-2000)"
 
 
-#, fuzzy
 msgid "Diffusion Blame"
-msgstr "Diffusion"
+msgstr "Diffusion Blame"
 
 
 msgid "Editor Link"
-msgstr ""
+msgstr "Editor-Link"
 
 msgid "User Guide: Configuring an External Editor"
-msgstr ""
+msgstr "Benutzerhandbuch: Externen Editor konfigurieren"
 
 #, php-format
 msgid ""
@@ -60585,20 +60558,32 @@ msgid ""
 "\n"
 "See the tables below for a list of supported variables and protocols."
 msgstr ""
+"Viele Texteditoren können als URI-Handler für spezielle Protokolle wie `editor://` konfiguriert werden. Wer einen solchen Editor installiert und konfiguriert hat, kann in einigen Anwendungen Links anklicken, um Dateien direkt lokal zu öffnen.\n"
+"\n"
+"Gib ein URI-Muster für den externen Editor in Deiner Umgebung an. Für TextMate unter macOS könnte das Muster beispielsweise so aussehen:\n"
+"\n"
+"```name=\"Beispiel: TextMate unter macOS\"\n"
+"%s\n"
+"```\n"
+"\n"
+"\n"
+"Vollständige Anweisungen zur Editor-Konfiguration findest Du unter **[[ %s | %s ]]**.\n"
+"\n"
+"Die untenstehenden Tabellen enthalten die unterstützten Variablen und Protokolle."
 
 msgid "HTML Email"
-msgstr ""
+msgstr "HTML-E-Mail"
 
 msgid ""
 "You can opt to receive plain text email instead of HTML email. Plain text "
 "email works better with some clients."
-msgstr ""
+msgstr "Statt HTML-E-Mails können auch Nur-Text-E-Mails empfangen werden. Für manche E-Mail-Clients funktioniert das besser."
 
 msgid "Send HTML Email"
-msgstr ""
+msgstr "HTML-E-Mail senden"
 
 msgid "Send Plain Text Email"
-msgstr ""
+msgstr "Nur-Text-E-Mail senden"
 
 msgid "Email Notifications"
 msgstr "Email Benachrichtungen"
@@ -60610,19 +60595,20 @@ msgid ""
 "//You will still receive some administrative email, like password reset "
 "email.//"
 msgstr ""
+"Wenn **E-Mail-Benachrichtigungen** deaktiviert sind, sendet dieser Server keine Benachrichtigungs-E-Mails mehr. Diese Einstellung überschreibt alle anderen.\n"
+"\n"
+"//Bestimmte administrative E-Mails, z. B. zum Zurücksetzen des Passworts, werden weiterhin gesendet.//"
 
-#, fuzzy
 msgid "Enable Email Notifications"
-msgstr "Email Benachrichtungen"
+msgstr "E-Mail-Benachrichtigungen aktivieren"
 
 
-#, fuzzy
 msgid "Disable Email Notifications"
-msgstr "Email Benachrichtungen"
+msgstr "E-Mail-Benachrichtigungen deaktivieren"
 
 
 msgid "Add \"Re:\" Prefix"
-msgstr ""
+msgstr "\"Re:\"-Präfix hinzufügen"
 
 msgid ""
 "The **Add \"Re:\" Prefix** setting adds \"Re:\" in front of all messages, "
@@ -60635,41 +60621,40 @@ msgid ""
 "Revision`\n"
 "| Disable \"Re:\" Prefix | `[Differential] [Accepted] D123: Example Revision`"
 msgstr ""
+"Die Einstellung **\"Re:\"-Präfix hinzufügen** setzt „Re:\" vor alle Nachrichten, auch wenn es keine Antworten sind. Dies kann das Threading in **Mail.app** unter Mac OS X verbessern.\n"
+"\n"
+"| Einstellung              | Beispiel-Betreff\n"
+"|--------------------------|----------------\n"
+"| „Re:\"-Präfix aktivieren  | `Re: [Differential] [Akzeptiert] D123: Beispiel`\n"
+"| „Re:\"-Präfix deaktivieren | `[Differential] [Akzeptiert] D123: Beispiel`"
 
-#, fuzzy
 msgid "Enable \"Re:\" Prefix"
-msgstr "Test-Zahlungsdienstleister aktivieren"
+msgstr "\"Re:\"-Präfix aktivieren"
 
 
-#, fuzzy
 msgid "Disable \"Re:\" Prefix"
-msgstr "Test-Zahlungsdienstleister deaktivieren"
+msgstr "\"Re:\"-Präfix deaktivieren"
 
 
 msgid "Self Actions"
 msgstr "Eigene Aktionen"
 
-#, fuzzy
 msgid ""
 "If you disable **Self Actions**, this server will not notify you about "
 "actions you take."
-msgstr ""
-"Wenn Du **Eigene Aktionen** abschaltest, wird Dich Phabricator nicht mehr "
-"bei von Dir selbst durchgeführten Änderungen benachrichtigen."
+msgstr "Wenn **Eigene Aktionen** deaktiviert sind, wirst Du nicht mehr über Aktionen benachrichtigt, die Du selbst durchgeführt hast."
 
 
-#, fuzzy
 msgid "Enable Self Action Mail"
-msgstr "Eigene Aktionen"
+msgstr "E-Mails bei eigenen Aktionen aktivieren"
 
 
-#, fuzzy
 msgid "Disable Self Action Mail"
-msgstr "Konto deaktivieren"
+msgstr "E-Mails bei eigenen Aktionen deaktivieren"
 
 
 msgid "Send Stamps"
-msgstr ""
+msgstr "Stempel senden"
 
 msgid ""
 "Outgoing mail is stamped with labels like `actor(alice)` which can be used "
@@ -60684,13 +60669,13 @@ msgid ""
 msgstr ""
 
 msgid "Mail Headers"
-msgstr ""
+msgstr "Mail-Header"
 
 msgid "Mail Headers and Body"
-msgstr ""
+msgstr "Mail-Header und -Text"
 
 msgid "Vary Subjects"
-msgstr ""
+msgstr "Betreffs variieren"
 
 msgid ""
 "With **Vary Subjects** enabled, most mail subject lines will include a brief "
@@ -60706,106 +60691,107 @@ msgid ""
 "these messages. Disabling this option may improve threading at the cost of "
 "making subject lines less useful."
 msgstr ""
+"Mit aktivierten **Betreffs variieren** enthalten die meisten E-Mail-Betreffs eine kurze Inhaltsbeschreibung, z. B. `[Geschlossen]` bei der Benachrichtigung über eine geschlossene Aufgabe.\n"
+"\n"
+"| Einstellung            | Beispiel-Betreff\n"
+"|------------------------|----------------\n"
+"| Betreffs variieren     | `[Maniphest] [Geschlossen] T123: Beispielaufgabe`\n"
+"| Betreffs nicht variieren | `[Maniphest] T123: Beispielaufgabe`\n"
+"\n"
+"Dies macht E-Mails nützlicher, kann aber das Threading in manchen Clients beeinträchtigen. Das Deaktivieren dieser Option kann das Threading verbessern, macht Betreffzeilen jedoch weniger aussagekräftig."
 
 msgid "Enable Vary Subjects"
-msgstr ""
+msgstr "Unterschiedliche Betreffs aktivieren"
 
-#, fuzzy
 msgid "Disable Vary Subjects"
-msgstr "Regel deaktivieren"
+msgstr "Unterschiedliche Betreffs deaktivieren"
 
 
-#, fuzzy
 msgid "Filetree Visible"
-msgstr "Nicht sichtbar"
+msgstr "Dateibaum sichtbar"
 
 
 msgid "Filetree Width"
-msgstr ""
+msgstr "Dateibaum-Breite"
 
 msgid "Monospaced Font"
-msgstr ""
+msgstr "Monospace-Schrift"
 
 msgid ""
 "You can customize the font used when showing monospaced text, including "
 "source code. You should enter a valid CSS font declaration like: `13px "
 "Consolas`"
-msgstr ""
+msgstr "Die Schrift für Monospace-Darstellungen (z. B. Quellcode) kann angepasst werden. Gib eine gültige CSS-Schriftdeklaration ein, zum Beispiel: `13px Consolas`"
 
 #, php-format
 msgid ""
 "Monospaced font value \"%s\" is unsafe. You may only enter letters, numbers, "
 "spaces, commas, periods, hyphens, forward slashes, and double quotes"
-msgstr ""
+msgstr "Der Monospace-Schriftwert „%s\" ist nicht zulässig. Erlaubt sind nur Buchstaben, Ziffern, Leerzeichen, Kommas, Punkte, Bindestriche, Schrägstriche und Anführungszeichen."
 
 msgid "Monospaced Textareas"
-msgstr ""
+msgstr "Monospace-Textfelder"
 
 msgid ""
 "You can choose to use either a monospaced or variable-width font in "
 "textareas in the UI. Textareas are used for editing descriptions and writing "
 "comments, among other things."
-msgstr ""
+msgstr "In Textfeldern der Oberfläche kann entweder eine Monospace- oder eine proportionale Schrift verwendet werden. Textfelder werden u. a. zum Bearbeiten von Beschreibungen und zum Schreiben von Kommentaren genutzt."
 
 msgid "Use Variable-Width Font"
-msgstr ""
+msgstr "Proportionale Schrift verwenden"
 
-#, fuzzy
 msgid "Use Monospaced Font"
-msgstr "feste Breite"
+msgstr "Monospace-Schrift verwenden"
 
 
-#, fuzzy
 msgid "Web Only"
-msgstr "Nur Lesen"
+msgstr "Nur Web"
 
 
 msgid "Web and Desktop"
-msgstr ""
+msgstr "Web und Desktop"
 
 msgid "Desktop Only"
-msgstr ""
+msgstr "Nur Desktop"
 
-#, fuzzy
 msgid "No Notifications"
-msgstr "Keine Benachrichtigungen."
+msgstr "Keine Benachrichtigungen"
 
 
 msgid "Show Older Inlines"
-msgstr ""
+msgstr "Ältere Inline-Kommentare anzeigen"
 
 msgid ""
 "When a revision is updated, this software attempts to bring inline comments "
 "on the older version forward to the new changes. You can disable this "
 "behavior if you prefer comments stay anchored in one place."
-msgstr ""
+msgstr "Wenn eine Revision aktualisiert wird, versucht Phorge, Inline-Kommentare der älteren Version auf die neuen Änderungen zu übertragen. Dieses Verhalten kann deaktiviert werden, wenn Kommentare an ihrem ursprünglichen Ort bleiben sollen."
 
 #, php-format
 msgid "Default (%s)"
-msgstr ""
+msgstr "Standard (%s)"
 
 #, php-format
 msgid "Default (Unknown, \"%s\")"
-msgstr ""
+msgstr "Standard (Unbekannt, „%s\")"
 
 #, php-format
 msgid "Value \"%s\" is not valid for setting \"%s\": valid values are %s."
-msgstr ""
+msgstr "Der Wert „%s\" ist für die Einstellung „%s\" ungültig: gültige Werte sind %s."
 
 msgid "Pinned Applications"
 msgstr "Hauptseiten-Anwendungen"
 
-#, fuzzy
 msgid "Policy Favorites"
-msgstr "Richtlinienverstoß"
+msgstr "Bevorzugte Richtlinien"
 
 
 msgid "Pronoun"
-msgstr ""
+msgstr "Anrede"
 
-#, fuzzy
 msgid "Choose the pronoun you prefer."
-msgstr "**Wähle Deine Anrede:**"
+msgstr "Bevorzugte Anrede auswählen."
 
 
 #, php-format
@@ -60820,45 +60806,41 @@ msgstr "%s hat ihr Profil geändert"
 msgid "%s updated his profile"
 msgstr "%s hat sein Profil geändert"
 
-#, fuzzy
 msgid "Search Scope"
-msgstr "Suche nach"
+msgstr "Suchbereich"
 
 
 msgid "Choose the default behavior of the global search in the main menu."
-msgstr ""
+msgstr "Standardverhalten der globalen Suche im Hauptmenü festlegen."
 
 #, php-format
 msgid "Empty string is not a valid setting for \"%s\"."
-msgstr ""
+msgstr "Ein leerer Wert ist für die Einstellung „%s\" nicht gültig."
 
-#, fuzzy
 msgid "Time Format"
-msgstr "Zeitformatierung"
+msgstr "Zeitformat"
 
 
 msgid "Select the format you prefer for editing and displaying time."
-msgstr ""
+msgstr "Format für die Anzeige und Eingabe von Uhrzeiten auswählen."
 
-#, fuzzy
 msgid "12 Hour, 2:34 PM"
 msgstr "12-Stunden (2:34 PM)"
 
 
-#, fuzzy
 msgid "24 Hour, 14:34"
 msgstr "24-Stunden (14:34)"
 
 
 msgid "Timezone Ignored Offset"
-msgstr ""
+msgstr "Ignorierter Zeitzonenversatz"
 
 msgid "Select your local timezone."
-msgstr ""
+msgstr "Lokale Zeitzone auswählen."
 
 #, php-format
 msgid "Timezone \"%s\" is not a valid timezone identifier."
-msgstr ""
+msgstr "Zeitzone „%s\" ist kein gültiger Zeitzonenbezeichner."
 
 
 msgid "Page Titles"
@@ -60868,53 +60850,50 @@ msgid ""
 "Some applications use unicode glyphs in page titles to provide a compact "
 "representation of the current application. You can substitute plain text "
 "instead if these glyphs do not display on your system."
-msgstr ""
+msgstr "Einige Anwendungen verwenden Unicode-Symbole in Seitentiteln als kompakte Darstellung der aktuellen Anwendung. Falls diese Symbole auf Deinem System nicht korrekt angezeigt werden, kann stattdessen reiner Text verwendet werden."
 
 msgid "Use Unicode Glyphs: ⚙"
-msgstr ""
+msgstr "Unicode-Symbole: ⚙"
 
 msgid "Use Plain Text: [Differential]"
-msgstr ""
+msgstr "Nur Text: [Differential]"
 
 msgid "Translation"
 msgstr "Sprache"
 
 msgid "Choose which language you would like the UI to use."
-msgstr ""
+msgstr "Sprache der Benutzeroberfläche auswählen."
 
-#, fuzzy
 msgid "Limited Translations"
-msgstr "Sprache"
+msgstr "Eingeschränkte Übersetzungen"
 
 
-#, fuzzy
 msgid "Silly Translations"
-msgstr "Sprache"
+msgstr "Spaß-Übersetzungen"
 
 
-#, fuzzy
 msgid "Developer/Test Translations"
-msgstr "Entwicklerwerkzeuge"
+msgstr "Entwickler-/Test-Übersetzungen"
 
 
 msgid "Show Unified Diffs"
-msgstr ""
+msgstr "Unified Diffs anzeigen"
 
 msgid ""
 "Diffs are normally shown in a side-by-side layout on large screens and "
 "automatically switched to a unified view on small screens (like mobile "
 "phones). If you prefer unified diffs even on large screens, you can select "
 "them for use on all displays."
-msgstr ""
+msgstr "Diffs werden auf großen Bildschirmen normalerweise nebeneinander angezeigt und auf kleinen Bildschirmen (z. B. Mobiltelefonen) automatisch in eine einheitliche Ansicht umgeschaltet. Wer Unified Diffs auch auf großen Bildschirmen bevorzugt, kann sie für alle Anzeigen aktivieren."
 
 msgid "On Small Screens"
-msgstr ""
+msgstr "Auf kleinen Bildschirmen"
 
 msgid "Week Starts On"
 msgstr "Die Woche startet mit"
 
 msgid "Choose which day a calendar week should begin on."
-msgstr ""
+msgstr "Ersten Wochentag im Kalender festlegen."
 
 msgid "Sunday"
 msgstr "Sonntag"
@@ -60937,9 +60916,8 @@ msgstr "Freitag"
 msgid "Saturday"
 msgstr "Samstag"
 
-#, fuzzy
 msgid "Global Default Settings"
-msgstr "Globale Vorgabe"
+msgstr "Globale Standardeinstellungen"
 
 
 msgid "Slowvote"
