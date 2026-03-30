@@ -52368,11 +52368,11 @@ msgid "Exploration Only"
 msgstr "Nur Exploration"
 
 msgid "Warp to New Planet"
-msgstr "Zu neuem Planeten warpen"
+msgstr "Warp zum neuen Planeten"
 
 
 msgid "Scan Diplomat"
-msgstr "Scan-Diplomat"
+msgstr "Diplomaten scannen"
 
 msgid "Diplomatic Meeting"
 msgstr "Diplomatisches Treffen"
@@ -52381,10 +52381,10 @@ msgid "Scan Warp Drives"
 msgstr "Warpantriebe scannen"
 
 msgid "All Engineering"
-msgstr "Gesamte Engineering"
+msgstr "Alles aus Engineering"
 
 msgid "All Scan"
-msgstr "Alle Scan"
+msgstr "Alles aus Scan"
 
 
 msgid "Engineering + Exploration"
@@ -52394,7 +52394,7 @@ msgid "Engineering + Scan"
 msgstr "Engineering + Scan"
 
 msgid "Simple move"
-msgstr "Einfacher Schritt"
+msgstr "Einfaches Verschieben"
 
 msgid "With afterPHIDs"
 msgstr "Mit afterPHIDs"
@@ -55167,7 +55167,7 @@ msgstr "Auslösernamen dürfen nicht länger als %s Zeichen sein."
 
 #, php-format
 msgid "%s updated the ruleset for this trigger."
-msgstr "%s hat den Regelwerk dieses Auslösers aktualisiert."
+msgstr "%s hat das Regelwerk dieses Auslösers aktualisiert."
 
 
 #, php-format
@@ -60561,10 +60561,10 @@ msgstr "Bevorzugte Richtlinien"
 
 
 msgid "Pronoun"
-msgstr "Anrede"
+msgstr "Pronomen"
 
 msgid "Choose the pronoun you prefer."
-msgstr "Bevorzugte Anrede auswählen."
+msgstr "Bevorzugtes Pronomen auswählen."
 
 
 #, php-format

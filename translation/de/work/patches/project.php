@@ -260,7 +260,7 @@ return [
   '%s stripped the name %s from this trigger.'
     => '%s hat den Namen %s von diesem Auslöser entfernt.',
   '%s updated the ruleset for this trigger.'
-    => '%s hat den Regelwerk dieses Auslösers aktualisiert.',
+    => '%s hat das Regelwerk dieses Auslösers aktualisiert.',
   '%s created this trigger.'          => '%s hat diesen Auslöser erstellt.',
   '%s changed project hashtag(s), added %d: %s; removed %d: %s.'
     => '%s hat Projekt-Hashtags geändert, hinzugefügt %d: %s; entfernt %d: %s.',

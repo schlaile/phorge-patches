@@ -160,8 +160,8 @@ return [
 
   // --- Pronoun ---
 
-  'Pronoun' => 'Anrede',
-  'Choose the pronoun you prefer.' => 'Bevorzugte Anrede auswählen.',
+  'Pronoun' => 'Pronomen',
+  'Choose the pronoun you prefer.' => 'Bevorzugtes Pronomen auswählen.',
 
   // --- Notifications (desktop / web) ---
 

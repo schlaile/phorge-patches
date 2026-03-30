@@ -50,7 +50,7 @@ function main(array $argv): void {
     return;
   }
 
-  file_put_contents($opts['po'], $result);
+  write_file_atomically($opts['po'], $result);
   echo "Written: {$opts['po']}\n";
 }
 
@@ -270,6 +270,28 @@ function encode_msgstr(string $str): array {
 function po_escape(string $s): string {
   return str_replace(['\\', '"', "\n", "\t"],
                      ['\\\\', '\\"', '\\n', '\\t'], $s);
+}
+
+function write_file_atomically(string $path, string $content): void {
+  $dir = dirname($path);
+  $tmp = tempnam($dir, '.patch-po-');
+  if ($tmp === false) {
+    fwrite(STDERR, "Failed to create temporary file in: {$dir}\n");
+    exit(1);
+  }
+
+  $ok = file_put_contents($tmp, $content);
+  if ($ok === false) {
+    @unlink($tmp);
+    fwrite(STDERR, "Failed to write temporary file: {$tmp}\n");
+    exit(1);
+  }
+
+  if (!rename($tmp, $path)) {
+    @unlink($tmp);
+    fwrite(STDERR, "Failed to replace target file: {$path}\n");
+    exit(1);
+  }
 }
 
 // ---------------------------------------------------------------------------

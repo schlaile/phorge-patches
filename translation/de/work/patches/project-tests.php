@@ -12,19 +12,19 @@ return [
   'Unit Test User %d'  => 'Testbenutzer %d',
 
   // Sci-fi test project names (used in policy unit tests)
-  'Warp to New Planet'    => 'Zu neuem Planeten warpen',
-  'All Scan'              => 'Alle Scan',
+  'Warp to New Planet'    => 'Warp zum neuen Planeten',
+  'All Scan'              => 'Alles aus Scan',
   'Engineering Only'      => 'Nur Engineering',
   'Exploration Only'      => 'Nur Exploration',
-  'Scan Diplomat'         => 'Scan-Diplomat',
+  'Scan Diplomat'         => 'Diplomaten scannen',
   'Diplomatic Meeting'    => 'Diplomatisches Treffen',
   'Scan Warp Drives'      => 'Warpantriebe scannen',
-  'All Engineering'       => 'Gesamte Engineering',
+  'All Engineering'       => 'Alles aus Engineering',
   'Engineering + Exploration' => 'Engineering + Exploration',
   'Engineering + Scan'    => 'Engineering + Scan',
 
   // Workboard move test labels
-  'Simple move'           => 'Einfacher Schritt',
+  'Simple move'           => 'Einfaches Verschieben',
   'With afterPHIDs'       => 'Mit afterPHIDs',
   'With beforePHIDs'      => 'Mit beforePHIDs',
 
