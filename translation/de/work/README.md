@@ -13,6 +13,14 @@ Before editing `phorge-de-work.po`, read:
   - first merged working PO created from:
     - `translation/de/legacy/phabricator-de.po`
     - `translation/import/current/phorge-current.pot`
+  - source of truth for current German translation work in this repository
+
+## Working Rule
+
+- edit `phorge-de-work.po` directly for translation changes
+- do not maintain parallel hand-edited per-module patch files alongside it
+- if module-specific review slices are needed, generate or derive them
+  temporarily from the PO instead of treating them as a second source of truth
 
 ## Status
 

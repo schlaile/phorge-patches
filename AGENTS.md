@@ -25,11 +25,15 @@ Repository-specific working rules for coding agents.
 
 - PO files in this repository are the main human editing format, but not the
   final runtime format
+- `translation/de/work/phorge-de-work.po` is the translation source of truth
+  for the current German work area
 - translation work may use a repository-local PO extension for rare native
   variant-array cases: `I18N-ARRAY`
 - before editing translation files, read
   [translation/FORMAT.md](translation/FORMAT.md)
 - do not invent alternative escape syntaxes in PO files
+- do not introduce or maintain parallel hand-edited per-module patch files for
+  translations unless the user explicitly asks for a temporary export format
 
 ## Commit Message Rules
 

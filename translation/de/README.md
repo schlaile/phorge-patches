@@ -35,6 +35,7 @@ Planned contents:
 - `work/phorge-de-work.po`
   - first merged working PO derived from the historic local corpus and the
     current `phorge` POT snapshot
+  - source of truth for ongoing German translation work in this repository
   - current `msgfmt --statistics` result:
     - translated: 11,233
     - fuzzy: 2,129
