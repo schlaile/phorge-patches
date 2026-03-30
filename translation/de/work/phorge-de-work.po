@@ -8978,9 +8978,8 @@ msgstr "Export deaktivieren oder wiederherstellen."
 msgid "True to cancel the export."
 msgstr "True, um den Export abzubrechen."
 
-#, fuzzy
 msgid "Query Key"
-msgstr "Abfragename"
+msgstr "Abfrageschlüssel"
 
 
 #, fuzzy
@@ -14434,9 +14433,8 @@ msgid "Clustering Introduction"
 msgstr "Pick Anweisungen"
 
 
-#, fuzzy
 msgid "Cluster: Search"
-msgstr "Suche in der Anleitung"
+msgstr "Cluster: Suche"
 
 
 #, php-format
@@ -51318,9 +51316,8 @@ msgstr "Benutzerdefinierte \"%s\"-Richtlinie"
 msgid "Save Policy"
 msgstr "Richtlinie speichern"
 
-#, fuzzy
 msgid "You must choose a project."
-msgstr "Du mußt ein Passwort wählen"
+msgstr "Du musst ein Projekt auswählen."
 
 
 #, fuzzy
@@ -57923,7 +57920,7 @@ msgid "Find stuff in big piles."
 msgstr "Krempel in großen Datenhalden finden."
 
 msgid "N/A"
-msgstr ""
+msgstr "k. A."
 
 #, php-format
 msgid ""
@@ -57932,89 +57929,94 @@ msgid ""
 msgstr ""
 
 msgid "No search engines available."
-msgstr ""
+msgstr "Keine Such-Engines verfügbar."
 
-#, fuzzy
 msgid "Engine Name"
-msgstr "System"
+msgstr "Engine-Name"
 
 
-#, fuzzy
 msgid "Readable"
-msgstr "Tabelle"
+msgstr "Lesbar"
 
 
 msgid "Search Engines"
-msgstr ""
+msgstr "Such-Engines"
 
 #, php-format
 msgid ""
 "Query is too long (%s bytes, maximum is %s bytes). Please use more specific "
 "search criteria."
 msgstr ""
+"Die Abfrage ist zu lang (%s Byte, maximal sind %s Byte). Bitte verwende "
+"spezifischere Suchkriterien."
 
 msgid "Query contains unmatched double quotes."
-msgstr ""
+msgstr "Die Abfrage enthält nicht geschlossene doppelte Anführungszeichen."
 
 #, php-format
 msgid ""
 "Query has too many search tokens (%s tokens, maximum is %s tokens). Please "
 "use more specific search criteria."
 msgstr ""
+"Die Abfrage enthält zu viele Such-Tokens (%s Tokens, maximal sind %s "
+"Tokens). Bitte verwende spezifischere Suchkriterien."
 
 #, php-format
 msgid "Query has an invalid sequence of operators (\"%s\")."
-msgstr ""
+msgstr "Die Abfrage enthält eine ungültige Folge von Operatoren („%s\")."
 
 #, php-format
 msgid ""
 "Query contains a token (\"%s\") with no search term. Query tokens specify "
 "text to search for."
 msgstr ""
+"Die Abfrage enthält ein Token („%s\") ohne Suchbegriff. Abfrage-Tokens "
+"geben an, nach welchem Text gesucht werden soll."
 
 #, php-format
 msgid ""
 "Query field must be absent (\"%s\") and present (\"%s\"). This is "
 "impossible, so the query is not valid."
 msgstr ""
+"Ein Abfragefeld soll gleichzeitig fehlen („%s\") und vorhanden sein "
+"(„%s\"). Das ist unmöglich, daher ist die Abfrage ungültig."
 
 #, php-format
 msgid "Unsupported operator prefix \"%s\"."
-msgstr ""
+msgstr "Nicht unterstütztes Operatorpräfix „%s\"."
 
 #, php-format
 msgid "Compilation of query: %s"
-msgstr ""
+msgstr "Kompilierung der Abfrage: %s"
 
 #, php-format
 msgid "Stemmed compilation of query: %s"
-msgstr ""
+msgstr "Auf Wortstämme reduzierte Abfrage: %s"
 
 #, php-format
 msgid "Function compilation of query: %s"
-msgstr ""
+msgstr "Funktionskompilierung der Abfrage: %s"
 
-#, fuzzy, php-format
+#, php-format
 msgid "Token stem of \"%s\"."
-msgstr "Repository \"%s\" testen"
+msgstr "Wortstamm von „%s\"."
 
 
 #, php-format
 msgid "Corpus stem of: %s"
-msgstr ""
+msgstr "Wortstamm im Korpus von: %s"
 
 msgid "There is no active query yet."
-msgstr ""
+msgstr "Es gibt noch keine aktive Abfrage."
 
 msgid "You must delegate to this controller, not invoke it directly."
-msgstr ""
+msgstr "Du musst an diesen Controller delegieren und darfst ihn nicht direkt aufrufen."
 
 msgid "Save Query"
 msgstr "Abfrage speichern"
 
-#, fuzzy
 msgid "Global Search"
-msgstr "Globale Vorgabe"
+msgstr "Globale Suche"
 
 
 msgid "Edit Query"
@@ -58033,6 +58035,8 @@ msgid ""
 "This query specifies an invalid parameter. Review the query parameters and "
 "correct errors."
 msgstr ""
+"Diese Abfrage verwendet einen ungültigen Parameter. Prüfe die "
+"Abfrageparameter und korrigiere die Fehler."
 
 msgid "Query Errors"
 msgstr "Abfragefehler"
@@ -58043,36 +58047,32 @@ msgstr "Abfrage: %s"
 
 #, php-format
 msgid "%s (Not Available)"
-msgstr ""
+msgstr "%s (Nicht verfügbar)"
 
 
-#, fuzzy
 msgid "Export Format Not Available"
-msgstr "Kontext nicht verfügbar."
+msgstr "Exportformat nicht verfügbar"
 
 
 msgid "Choose a valid export format."
-msgstr ""
+msgstr "Wähle ein gültiges Exportformat."
 
 msgid "Format"
 msgstr "Format"
 
 msgid "Download Data"
-msgstr ""
+msgstr "Daten herunterladen"
 
-#, fuzzy
 msgid "Export Results"
-msgstr "Weitere Ergebnisse"
+msgstr "Ergebnisse exportieren"
 
 
-#, fuzzy
 msgid "Personal Saved Queries"
-msgstr "Gespeicherte Abfragen"
+msgstr "Persönlich gespeicherte Abfragen"
 
 
-#, fuzzy
 msgid "System Saved Queries"
-msgstr "Gespeicherte Abfragen"
+msgstr "Systemweit gespeicherte Abfragen"
 
 
 msgid "Saved Queries"
@@ -58081,9 +58081,8 @@ msgstr "Gespeicherte Abfragen"
 msgid "No saved queries."
 msgstr "Keine gespeicherten Abfragen."
 
-#, fuzzy
 msgid "Use Results"
-msgstr "Weitere Ergebnisse"
+msgstr "Ergebnisse verwenden"
 
 
 msgid ""
@@ -58091,49 +58090,49 @@ msgid ""
 "before bucketing, so later pages may contain additional results in any "
 "bucket."
 msgstr ""
+"Die Abfrage hat mehr als eine Ergebnisseite geliefert. Die Ergebnisse "
+"werden vor der Gruppierung paginiert, daher können spätere Seiten in jeder "
+"Gruppe zusätzliche Treffer enthalten."
 
 msgid "Buckets Overflowing"
-msgstr ""
+msgstr "Weitere Treffer in den Gruppen"
 
 #, php-format
 msgid "This query took too long, so only some results are shown. %s"
 msgstr ""
+"Diese Abfrage hat zu lange gedauert, daher werden nur einige Ergebnisse "
+"angezeigt. %s"
 
 #, php-format
 msgid "This query took too long. %s"
-msgstr ""
+msgstr "Diese Abfrage hat zu lange gedauert. %s"
 
 
-#, fuzzy
 msgid "Add to Dashboard"
-msgstr "Dashboard ändern"
+msgstr "Zu Dashboard hinzufügen"
 
 
-#, fuzzy
 msgid "Export Data"
-msgstr "Nach Excel exportieren"
+msgstr "Daten exportieren"
 
 
-#, fuzzy
 msgid "DEV: New User State"
-msgstr "Neuer Benutzername"
+msgstr "DEV: Zustand für neue Benutzer"
 
 
 msgid "DEV: Overheated State"
-msgstr ""
+msgstr "DEV: Überhitzter Zustand"
 
-#, fuzzy, php-format
 msgid "Customize Query: %s"
-msgstr "Individuelle Abfrage (\"%s\")"
+msgstr "Abfrage anpassen: %s"
 
 
-#, fuzzy
 msgid "Set Default Query"
-msgstr "Abfrage löschen"
+msgstr "Standardabfrage festlegen"
 
 
 msgid "This query will become your default query in the current application."
-msgstr ""
+msgstr "Diese Abfrage wird in der aktuellen Anwendung zu Deiner Standardabfrage."
 
 msgid "Enable Query?"
 msgstr "Abfrage aktivieren?"
@@ -58191,16 +58190,14 @@ msgid "Edit Saved Query"
 msgstr "Gespeicherte Abfragen ändern"
 
 msgid "PHID"
-msgstr ""
+msgstr "PHID"
 
-#, fuzzy
 msgid "PHID Type"
-msgstr "Panel-Typ"
+msgstr "PHID-Typ"
 
 
-#, fuzzy
 msgid "Full Name"
-msgstr "Name der Regel"
+msgstr "Vollständiger Name"
 
 
 msgid "Link"
@@ -58208,7 +58205,7 @@ msgstr "Link"
 
 #, php-format
 msgid "Handle: %s"
-msgstr ""
+msgstr "Handle: %s"
 
 
 #, php-format
@@ -58239,51 +58236,45 @@ msgid ""
 msgstr ""
 
 
-#, fuzzy
 msgid "Circular Dependency"
-msgstr "Aktuelle Abhängigkeiten"
+msgstr "Zirkuläre Abhängigkeit"
 
 
-#, fuzzy
 msgid "Invalid Relationship"
-msgstr "Ungültiges Datum."
+msgstr "Ungültige Beziehung."
 
 
 msgid "Profile Menu Items"
-msgstr ""
+msgstr "Profilmenüpunkte"
 
 msgid "Edit Profile Menu Item Configurations"
-msgstr ""
+msgstr "Konfigurationen von Profilmenüpunkten bearbeiten"
 
 msgid "This engine is used to modify menu items on profiles."
-msgstr ""
+msgstr "Diese Engine dient zum Bearbeiten von Menüpunkten in Profilen."
 
 msgid "Profile menu items can not be generated without an object context."
 msgstr ""
 
-#, fuzzy
 msgid "Edit Builtin Item"
-msgstr "Mailing-Liste verändern"
+msgstr "Systemeintrag bearbeiten"
 
 
-#, fuzzy
 msgid "Create Menu Item"
-msgstr "Neuer Termin"
+msgstr "Menüpunkt erstellen"
 
 
 #, php-format
 msgid "Edit Menu Item: %s"
-msgstr ""
+msgstr "Menüpunkt bearbeiten: %s"
 
 
-#, fuzzy
 msgid "Edit Menu Item"
-msgstr "Termin ändern"
+msgstr "Menüpunkt bearbeiten"
 
 
-#, fuzzy
 msgid "Menu Item"
-msgstr "Artikel"
+msgstr "Menüpunkt"
 
 
 #, php-format
@@ -58291,30 +58282,33 @@ msgid ""
 "Query (with ID \"%s\") has already been saved. Queries are immutable once "
 "saved."
 msgstr ""
+"Die Abfrage (mit der ID „%s\") wurde bereits gespeichert. Gespeicherte "
+"Abfragen sind unveränderlich."
 
 msgid "Order By"
 msgstr "Sortierung"
 
 msgid "No Bucketing"
-msgstr ""
+msgstr "Keine Gruppierung"
 
 msgid "Bucket"
-msgstr ""
+msgstr "Gruppieren nach"
 
 #, php-format
 msgid ""
 "Two fields in this SearchEngine use the same key (\"%s\"), but each field "
 "must use a unique key."
 msgstr ""
+"Zwei Felder in dieser SearchEngine verwenden denselben Schlüssel („%s\"), "
+"aber jedes Feld muss einen eindeutigen Schlüssel haben."
 
-#, fuzzy
 msgid "Global Queries"
-msgstr "Globale Regel"
+msgstr "Globale Abfragen"
 
 
 #, php-format
 msgid "%s Queries"
-msgstr ""
+msgstr "%s-Abfragen"
 
 
 msgid "Edit Queries..."
@@ -58322,21 +58316,21 @@ msgstr "Abfragen ändern..."
 
 #, php-format
 msgid "%s Search"
-msgstr ""
+msgstr "%s-Suche"
 
 
 #, php-format
 msgid "Application \"%s\" is not enabled!"
-msgstr ""
+msgstr "Anwendung „%s\" ist nicht aktiviert!"
 
 
 #, php-format
 msgid "'%s' is not a builtin!"
-msgstr ""
+msgstr "„%s\" ist kein Systemeintrag!"
 
 #, php-format
 msgid "Builtin '%s' is not supported!"
-msgstr ""
+msgstr "Systemeintrag „%s\" wird nicht unterstützt!"
 
 #, php-format
 msgid "\"%s\" date can not be parsed."
@@ -58351,238 +58345,248 @@ msgid ""
 "SearchFields \"%s\" (of class \"%s\") and \"%s\" (of class \"%s\") both "
 "define the same Conduit key (\"%s\"). Keys must be unique."
 msgstr ""
+"Die SearchFields „%s\" (der Klasse „%s\") und „%s\" (der Klasse „%s\") "
+"definieren beide denselben Conduit-Schlüssel („%s\"). Schlüssel müssen "
+"eindeutig sein."
 
 #, php-format
 msgid "Query key \"%s\" does not correspond to a valid query."
-msgstr ""
+msgstr "Abfrageschlüssel „%s\" entspricht keiner gültigen Abfrage."
 
 #, php-format
 msgid "Parameter \"constraints\" must be a map of constraints, got \"%s\"."
-msgstr ""
+msgstr "Parameter „constraints\" muss eine Map von Einschränkungen sein, erhalten: „%s\"."
 
 #, php-format
 msgid "Constraint \"%s\" is not a valid constraint for this query."
-msgstr ""
+msgstr "Einschränkung „%s\" ist keine gültige Einschränkung für diese Abfrage."
 
 #, php-format
 msgid "Parameter \"attachments\" must be a map of attachments, got \"%s\"."
-msgstr ""
+msgstr "Parameter „attachments\" muss eine Map von Zusatzdaten sein, erhalten: „%s\"."
 
 #, php-format
 msgid "Attachment key \"%s\" is not a valid attachment for this query."
-msgstr ""
+msgstr "Schlüssel für Zusatzdaten „%s\" ist für diese Abfrage ungültig."
 
 #, php-format
 msgid ""
 "Two field specifications share the same key (\"%s\"). Each specification "
 "must have a unique key."
 msgstr ""
+"Zwei Feldspezifikationen verwenden denselben Schlüssel („%s\"). Jede "
+"Spezifikation muss einen eindeutigen Schlüssel haben."
 
 #, php-format
 msgid ""
 "Maximum page size for Conduit API method calls is 100, but this call "
 "specified %s."
 msgstr ""
+"Die maximale Seitengröße für Aufrufe von Conduit-API-Methoden beträgt 100, "
+"dieser Aufruf hat jedoch %s angegeben."
 
 #, php-format
 msgid "Minimum page size for API searches is 1, but this call specified %s."
 msgstr ""
+"Die minimale Seitengröße für API-Suchen beträgt 1, dieser Aufruf hat "
+"jedoch %s angegeben."
 
 #, php-format
 msgid ""
 "Two search engine attachments (of classes \"%s\" and \"%s\") specify the "
 "same attachment key (\"%s\"); keys must be unique."
 msgstr ""
+"Zwei Zusatzdaten der Search Engine (der Klassen „%s\" und „%s\") verwenden "
+"denselben Zusatzdaten-Schlüssel („%s\"); Schlüssel müssen eindeutig sein."
 
 #, php-format
 msgid ""
 "Search engine (\"%s\") defines an export field with a key (\"%s\") that "
 "collides with another field. Each field must have a unique key."
 msgstr ""
+"Die Search Engine („%s\") definiert ein Exportfeld mit einem Schlüssel "
+"(„%s\"), der mit einem anderen Feld kollidiert. Jedes Feld muss einen "
+"eindeutigen Schlüssel haben."
 
 #, php-format
 msgid ""
 "Export engine extension (\"%s\") defines an export field with a key (\"%s\") "
 "that collides with another field. Each field must have a unique key."
 msgstr ""
+"Die Export-Engine-Erweiterung („%s\") definiert ein Exportfeld mit einem "
+"Schlüssel („%s\"), der mit einem anderen Feld kollidiert. Jedes Feld muss "
+"einen eindeutigen Schlüssel haben."
 
 #, php-format
 msgid ""
 "Search engine (\"%s\") exported the wrong number of objects, expected %s but "
 "got %s."
 msgstr ""
+"Die Search Engine („%s\") hat die falsche Anzahl an Objekten exportiert: "
+"erwartet wurden %s, erhalten wurden %s."
 
 #, php-format
 msgid ""
 "Export engine extension (\"%s\") exported the wrong number of objects, "
 "expected %s but got %s."
 msgstr ""
+"Die Export-Engine-Erweiterung („%s\") hat die falsche Anzahl an Objekten "
+"exportiert: erwartet wurden %s, erhalten wurden %s."
 
-#, fuzzy
 msgid "Configure Menu"
-msgstr "SMS konfigurieren."
+msgstr "Menü konfigurieren"
 
 
-#, fuzzy
 msgid "Unable to Render Dashboard"
-msgstr "Konnte Schlüssel nicht erzeugen"
+msgstr "Dashboard konnte nicht gerendert werden"
 
 
 msgid "There is nothing here."
-msgstr ""
+msgstr "Hier gibt es nichts."
 
-#, fuzzy, php-format
 msgid "Unsupported item action \"%s\"."
-msgstr "%s hat die Beschreibung von %s geändert."
+msgstr "Nicht unterstützte Eintragsaktion „%s\"."
 
 
 msgid ""
 "Object produced a builtin item with no builtin item key! Builtin items must "
 "have a unique key."
 msgstr ""
+"Ein Objekt hat einen Systemeintrag ohne Schlüssel für Systemeinträge "
+"erzeugt. Systemeinträge müssen einen eindeutigen Schlüssel haben."
 
 #, php-format
 msgid ""
 "Object produced two items with the same builtin key (\"%s\"). Each item must "
 "have a unique builtin key."
 msgstr ""
+"Ein Objekt hat zwei Einträge mit demselben Systemeintrags-Schlüssel "
+"(„%s\") erzeugt. Jeder Eintrag muss einen eindeutigen Schlüssel für "
+"Systemeinträge haben."
 
 #, php-format
 msgid ""
 "Builtin item (\"%s\") specifies a bad item key (\"%s\"); there is no "
 "corresponding item implementation available."
 msgstr ""
+"Der Systemeintrag („%s\") verwendet einen ungültigen Eintragsschlüssel "
+"(„%s\"); es gibt keine passende Implementierung für diesen Eintrag."
 
-#, fuzzy, php-format
+#, php-format
 msgid "Failed to load custom PHID \"%s\"!"
-msgstr "Konnte Kommentar \"%s\" leider nicht laden."
+msgstr "Benutzerdefinierte PHID „%s\" konnte nicht geladen werden!"
 
 
 msgid "Personal Menu Items"
-msgstr ""
+msgstr "Persönliche Menüpunkte"
 
 msgid "Edit the menu for your personal account."
-msgstr ""
+msgstr "Menü für Dein persönliches Konto bearbeiten."
 
-#, fuzzy
 msgid "Global Menu Items"
-msgstr "Globale Vorgabe"
+msgstr "Globale Menüpunkte"
 
 
 msgid "Edit the global default menu for all users."
-msgstr ""
+msgstr "Globales Standardmenü für alle Benutzer bearbeiten."
 
-#, fuzzy
 msgid "Manage Menu"
-msgstr "Editieren"
+msgstr "Menü verwalten"
 
 
-#, fuzzy
 msgid "This menu currently has no items."
-msgstr "Dieses Repository hat keine Branches."
+msgstr "Dieses Menü hat derzeit keine Einträge."
 
 
 #, php-format
 msgid "Untitled \"%s\" Item"
-msgstr ""
+msgstr "Unbenannter „%s\"-Eintrag"
 
-#, fuzzy
 msgid "Current Default"
-msgstr "Aktueller Pfad"
+msgstr "Aktuelle Vorgabe"
 
 
-#, fuzzy
 msgid "Add New Menu Item..."
-msgstr "Neues Panel"
+msgstr "Neuen Menüpunkt hinzufügen..."
 
 
-#, fuzzy
 msgid "Profile Menu User Guide"
-msgstr "Benutzerhandbuch für Zonen"
+msgstr "Benutzerhandbuch für Profilmenüs"
 
 
 msgid "Menu Items"
-msgstr ""
+msgstr "Menüpunkte"
 
 msgid "Current Menu Items"
-msgstr ""
+msgstr "Aktuelle Menüpunkte"
 
 
 msgid "Drag items in this list to reorder them."
-msgstr ""
+msgstr "Einträge in dieser Liste ziehen, um sie neu anzuordnen."
 
-#, fuzzy
 msgid "Mandatory Item"
-msgstr "Neuer Kalendereintrag"
+msgstr "Pflichteintrag"
 
 
 msgid "This menu item is very important, and can not be disabled."
-msgstr ""
+msgstr "Dieser Menüpunkt ist sehr wichtig und kann nicht deaktiviert werden."
 
-#, fuzzy
 msgid "Delete Menu Item"
-msgstr "Dokument löschen"
+msgstr "Menüpunkt löschen"
 
 
 msgid "Delete this menu item?"
-msgstr ""
+msgstr "Diesen Menüpunkt löschen?"
 
 
-#, fuzzy
 msgid "Enable Menu Item"
-msgstr "Regel aktivieren"
+msgstr "Menüpunkt aktivieren"
 
 
 msgid "Enable this menu item? It will appear in the menu again."
-msgstr ""
+msgstr "Diesen Menüpunkt aktivieren? Er erscheint dann wieder im Menü."
 
 
-#, fuzzy
 msgid "Disable Menu Item"
-msgstr "Regel deaktivieren"
+msgstr "Menüpunkt deaktivieren"
 
 
 msgid ""
 "Disable this menu item? It will no longer appear in the menu, but you can re-"
 "enable it later."
-msgstr ""
+msgstr "Diesen Menüpunkt deaktivieren? Er erscheint dann nicht mehr im Menü, kann aber später wieder aktiviert werden."
 
-#, fuzzy
 msgid "Not Defaultable"
-msgstr "Vorgabezone"
+msgstr "Nicht als Vorgabe geeignet"
 
 
 msgid ""
 "This item can not be set as the default item. This is usually because the "
 "item has no page of its own, or links to an external page."
-msgstr ""
+msgstr "Dieser Eintrag kann nicht als Vorgabe festgelegt werden. Das liegt meist daran, dass er keine eigene Seite hat oder auf eine externe Seite verweist."
 
-#, fuzzy
 msgid "Already Default"
-msgstr "Globale Vorgabe"
+msgstr "Bereits Vorgabe"
 
 
-#, fuzzy
 msgid "This item is already set as the default item for this menu."
-msgstr "Dieser Text wird als Spaltentitel angezeigt werden."
+msgstr "Dieser Eintrag ist bereits als Vorgabe für dieses Menü festgelegt."
 
 
 msgid ""
 "Set this item as the default for this menu? Users arriving on this page will "
 "be shown the content of this item by default."
-msgstr ""
+msgstr "Diesen Eintrag als Vorgabe für dieses Menü festlegen? Benutzern, die diese Seite aufrufen, wird dann standardmäßig der Inhalt dieses Eintrags angezeigt."
 
-#, fuzzy
 msgid "No Content"
-msgstr "Inhalt"
+msgstr "Kein Inhalt"
 
 
 msgid "No visible menu items can render content."
-msgstr ""
+msgstr "Keine sichtbaren Menüpunkte können Inhalte anzeigen."
 
-#, fuzzy
 msgid "Profile picture"
-msgstr "Bild"
+msgstr "Profilbild"
 
 
 msgid ""
@@ -58592,7 +58596,7 @@ msgstr ""
 
 #, php-format
 msgid "No views match identifier \"%s\"!"
-msgstr ""
+msgstr "Keine Ansichten passen zum Bezeichner „%s\"!"
 
 #, php-format
 msgid ""
@@ -58630,9 +58634,8 @@ msgid ""
 "EOTEXT"
 msgstr ""
 
-#, fuzzy
 msgid "Prebuilt Queries"
-msgstr "Abfragen ändern..."
+msgstr "Vordefinierte Abfragen"
 
 
 msgid ""
@@ -58670,19 +58673,18 @@ msgid ""
 msgstr ""
 
 msgid "(See table below.)"
-msgstr ""
+msgstr "(Siehe Tabelle unten.)"
 
-#, fuzzy
 msgid "Not supported."
 msgstr "Nicht unterstützt."
 
 
 #, php-format
 msgid "Constants supported by the `%s` constraint:"
-msgstr ""
+msgstr "Von der Einschränkung `%s` unterstützte Konstanten:"
 
 msgid "Constraints"
-msgstr ""
+msgstr "Einschränkungen"
 
 msgid ""
 "Use `order` to choose an ordering for the results.\n"
@@ -58733,9 +58735,8 @@ msgid ""
 "EOTEXT"
 msgstr ""
 
-#, fuzzy
 msgid "Result Ordering"
-msgstr "Neueste Aufträge"
+msgstr "Ergebnissortierung"
 
 
 msgid ""
@@ -58780,9 +58781,8 @@ msgid ""
 "EOTEXT"
 msgstr ""
 
-#, fuzzy
 msgid "Object Fields"
-msgstr "Objekttyp"
+msgstr "Objektfelder"
 
 
 msgid ""
@@ -58840,14 +58840,12 @@ msgid ""
 "EOTEXT"
 msgstr ""
 
-#, fuzzy
 msgid "This call does not support any attachments."
-msgstr "Dieses Panel erscheint bis jetzt auf keinem Dashboard."
+msgstr "Dieser Aufruf unterstützt keine Zusatzdaten."
 
 
-#, fuzzy
 msgid "Attachments"
-msgstr "Verknüpft"
+msgstr "Zusatzdaten"
 
 
 msgid ""
@@ -58920,7 +58918,7 @@ msgid ""
 msgstr ""
 
 msgid "Paging and Limits"
-msgstr ""
+msgstr "Paginierung und Limits"
 
 msgid "Ferret Fulltext Engine"
 msgstr ""
@@ -58971,7 +58969,7 @@ msgstr "System"
 
 
 msgid "Profile Menu Item"
-msgstr ""
+msgstr "Profilmenüeintrag"
 
 #, fuzzy
 msgid "Engine: Search"
@@ -58996,11 +58994,11 @@ msgstr ""
 
 #, php-format
 msgid "Terms corpus for: %s"
-msgstr ""
+msgstr "Termkorpus für: %s"
 
 #, php-format
 msgid "Term ngrams for: %s."
-msgstr ""
+msgstr "Term-N-Gramme für: %s."
 
 #, php-format
 msgid ""
@@ -59083,14 +59081,13 @@ msgid "Elasticsearch server returned invalid JSON!"
 msgstr ""
 
 msgid "Ferret Engine Ngrams"
-msgstr ""
+msgstr "Ferret-Engine-N-Gramme"
 
 msgid "Engine: Fulltext"
-msgstr ""
+msgstr "Engine: Volltext"
 
-#, fuzzy
 msgid "Engine: Index"
-msgstr "System"
+msgstr "Engine: Index"
 
 
 msgid "Build or rebuild search indexes."
@@ -59100,7 +59097,7 @@ msgid "Reindex all documents."
 msgstr "Reindexiere alle Dokumente."
 
 msgid "Object types to reindex, like \"task\", \"commit\" or \"revision\"."
-msgstr ""
+msgstr "Objekttypen zum Neuindizieren, etwa „task“, „commit“ oder „revision“."
 
 msgid ""
 "Instead of indexing in this process, queue tasks for the daemons. This can "
@@ -59298,11 +59295,10 @@ msgid "Setting \"%s\" is misconfigured: %s"
 msgstr ""
 
 msgid "(Restricted/Invalid Application)"
-msgstr ""
+msgstr "(Eingeschränkte/ungültige Anwendung)"
 
-#, fuzzy
 msgid "You must choose an application."
-msgstr "Du mußt ein Passwort wählen"
+msgstr "Du musst eine Anwendung auswählen."
 
 
 #, php-format
@@ -59312,42 +59308,37 @@ msgid ""
 msgstr ""
 
 msgid "(Restricted/Invalid Conpherence)"
-msgstr ""
+msgstr "(Eingeschränkte/ungültige Conpherence)"
 
-#, fuzzy
 msgid "You must choose a room."
-msgstr "Du mußt ein Passwort wählen"
+msgstr "Du musst einen Raum auswählen."
 
 
 #, php-format
 msgid "Room \"%s\" is not a valid room which you have permission to see."
 msgstr ""
 
-#, fuzzy
 msgid "Invalid Dashboard"
-msgstr "Dashboard installieren"
+msgstr "Ungültiges Dashboard"
 
 
 msgid "This dashboard is invalid and could not be loaded."
-msgstr ""
+msgstr "Dieses Dashboard ist ungültig und konnte nicht geladen werden."
 
-#, fuzzy
 msgid "Archived Dashboard"
-msgstr "Zeige Dashboard"
+msgstr "Archiviertes Dashboard"
 
 
-#, fuzzy
 msgid "This dashboard has been archived."
-msgstr "Dein Passwort wurde aktualisiert."
+msgstr "Dieses Dashboard wurde archiviert."
 
 
 msgid "Restricted Dashboard"
-msgstr ""
+msgstr "Eingeschränktes Dashboard"
 
 
-#, fuzzy
 msgid "You must choose a dashboard."
-msgstr "Du mußt ein Passwort wählen"
+msgstr "Du musst ein Dashboard auswählen."
 
 
 #, php-format
@@ -59356,10 +59347,10 @@ msgid ""
 msgstr ""
 
 msgid "Divider"
-msgstr ""
+msgstr "Trenner"
 
 msgid "—"
-msgstr ""
+msgstr "—"
 
 msgid ""
 "This is a visual divider which you can use to separate sections in the menu. "
@@ -59367,33 +59358,29 @@ msgid ""
 msgstr ""
 
 msgid "(Restricted/Invalid Form)"
-msgstr ""
+msgstr "(Eingeschränktes/ungültiges Formular)"
 
-#, fuzzy
 msgid "You must choose a form."
-msgstr "Du mußt ein Passwort wählen"
+msgstr "Du musst ein Formular auswählen."
 
 
 #, php-format
 msgid "Form \"%s\" is not a valid form which you have permission to see."
 msgstr ""
 
-#, fuzzy
 msgid "You must choose a label name."
-msgstr "Du mußt ein Passwort wählen"
+msgstr "Du musst einen Namen für das Label auswählen."
 
 
 msgid "Tooltip"
-msgstr ""
+msgstr "Tooltip"
 
-#, fuzzy
 msgid "You must choose a link name."
-msgstr "Du mußt ein Passwort wählen"
+msgstr "Du musst einen Linknamen auswählen."
 
 
-#, fuzzy
 msgid "You must choose a URI to link to."
-msgstr "Du mußt ein Passwort wählen"
+msgstr "Du musst eine URI zum Verlinken auswählen."
 
 
 #, php-format
@@ -59403,121 +59390,124 @@ msgid ""
 msgstr ""
 
 msgid "Motivator"
-msgstr ""
+msgstr "Motivator"
 
-#, fuzzy, php-format
+#, php-format
 msgid "Motivator: %s"
-msgstr "Prüfer: %s"
+msgstr "Motivator: %s"
 
 
 msgid ""
 "Motivate your team with inspirational quotes from great minds. This menu "
 "item shows a new quote every day."
 msgstr ""
+"Motiviere Dein Team mit inspirierenden Zitaten großer Denker. Dieser "
+"Menüeintrag zeigt jeden Tag ein neues Zitat."
 
-#, fuzzy
 msgid "Cat Facts"
-msgstr "Fakten"
+msgstr "Katzenfakten"
 
 
 msgid "Cats purr when they are happy, upset, or asleep."
-msgstr ""
+msgstr "Katzen schnurren, wenn sie zufrieden, verstimmt oder eingeschlafen sind."
 
 msgid "The first cats evolved on the savannah about 8,000 years ago."
-msgstr ""
+msgstr "Die ersten Katzen entwickelten sich vor etwa 8.000 Jahren in der Savanne."
 
 msgid ""
 "Cats have a tail, two feet, between one and three ears, and two other feet."
-msgstr ""
+msgstr "Katzen haben einen Schwanz, zwei Pfoten, ein bis drei Ohren und noch zwei weitere Pfoten."
 
 msgid "Cats use their keen sense of smell to avoid feeling empathy."
-msgstr ""
+msgstr "Katzen nutzen ihren feinen Geruchssinn, um Mitgefühl zuverlässig zu vermeiden."
 
 msgid "The first cats evolved in swamps about 65 years ago."
-msgstr ""
+msgstr "Die ersten Katzen entwickelten sich vor etwa 65 Jahren in Sümpfen."
 
 msgid ""
 "You can tell how warm a cat is by examining the coloration: cooler areas are "
 "darker."
-msgstr ""
+msgstr "Wie warm eine Katze ist, erkennt man an ihrer Färbung: Kühlere Stellen sind dunkler."
 
 msgid "Cat tails are flexible because they contain thousands of tiny bones."
-msgstr ""
+msgstr "Katzenschwänze sind so beweglich, weil sie tausende winzige Knochen enthalten."
 
 msgid ""
 "A cattail is a wetland plant with an appearance that resembles the tail of a "
 "cat."
-msgstr ""
+msgstr "Ein Rohrkolben ist eine Sumpfpflanze, die dem Schwanz einer Katze erstaunlich ähnlich sieht."
 
 msgid ""
 "Cats must eat a diet rich in fish to replace the tiny bones in their tails."
-msgstr ""
+msgstr "Katzen müssen viel Fisch essen, um die winzigen Knochen in ihren Schwänzen zu ersetzen."
 
 msgid "Cats are stealthy predators and nearly invisible to radar."
-msgstr ""
+msgstr "Katzen sind lautlose Jäger und für Radar praktisch unsichtbar."
 
 msgid "Cats use a special type of magnetism to help them land on their feet."
-msgstr ""
+msgstr "Katzen nutzen eine besondere Form des Magnetismus, um immer auf den Pfoten zu landen."
 
 msgid ""
 "A cat can run seven times faster than a human, but only for a short distance."
-msgstr ""
+msgstr "Eine Katze kann siebenmal schneller laufen als ein Mensch, aber nur über kurze Strecken."
 
 msgid "The largest recorded cat was nearly 11 inches long from nose to tail."
-msgstr ""
+msgstr "Die größte jemals gemessene Katze war von der Nase bis zur Schwanzspitze fast 28 Zentimeter lang."
 
 msgid "Not all cats can retract their claws, but most of them can."
-msgstr ""
+msgstr "Nicht alle Katzen können ihre Krallen einziehen, aber die meisten schon."
 
 msgid "In the wild, cats and raccoons sometimes hunt together in packs."
-msgstr ""
+msgstr "In freier Wildbahn jagen Katzen und Waschbären gelegentlich gemeinsam im Rudel."
 
 msgid ""
 "The Spanish word for cat is \"cato\". The biggest cat is called \"el cato\"."
-msgstr ""
+msgstr "Das spanische Wort für Katze ist „cato“. Die größte Katze heißt folgerichtig „el cato“."
 
 msgid ""
 "The Japanese word for cat is \"kome\", which is also the word for rice. "
 "Japanese cats love to eat rice, so the two are synonymous."
 msgstr ""
+"Das japanische Wort für Katze ist „kome“, was zugleich Reis bedeutet. "
+"Japanische Katzen essen bekanntlich sehr gern Reis, daher ist das praktisch dasselbe."
 
 msgid "Cats have five pointy ends."
-msgstr ""
+msgstr "Katzen haben fünf spitze Enden."
 
 msgid "cat -A can find mice hiding in files."
-msgstr ""
+msgstr "`cat -A` findet Mäuse, die sich in Dateien verstecken."
 
 msgid ""
 "A cat's visual, olfactory, and auditory senses, Contribute to their hunting "
 "skills and natural defenses."
-msgstr ""
+msgstr "Sehvermögen, Geruchssinn und Gehör der Katze tragen zu ihren Jagdfähigkeiten und natürlichen Abwehrmechanismen bei."
 
 msgid ""
 "Cats with high self-esteem seek out high perches to launch their attacks. "
 "Watch out!"
-msgstr ""
+msgstr "Katzen mit gesundem Selbstbewusstsein suchen hohe Plätze auf, um von dort ihre Angriffe zu starten. Vorsicht!"
 
 msgid "Cats prefer vanilla ice cream."
-msgstr ""
+msgstr "Katzen bevorzugen Vanilleeis."
 
 msgid "Taco cat spelled backwards is taco cat."
-msgstr ""
+msgstr "„Taco Cat“ ist vorwärts wie rückwärts „Taco Cat“."
 
 msgid ""
 "Cats will often bring you their prey because they feel sorry for your "
 "inability to hunt."
-msgstr ""
+msgstr "Katzen bringen Dir oft ihre Beute, weil sie Mitleid mit Deiner mangelnden Jagdbegabung haben."
 
 msgid "Cats spend most of their time plotting to kill their owner."
-msgstr ""
+msgstr "Katzen verbringen den Großteil ihrer Zeit damit, den Mord an ihrem Besitzer zu planen."
 
 msgid ""
 "Outside of the CAT scan, cats have made almost no contributions to modern "
 "medicine."
-msgstr ""
+msgstr "Abgesehen vom CAT-Scan haben Katzen zur modernen Medizin bislang kaum etwas beigetragen."
 
 msgid "In ancient Egypt, the cat-god Horus watched over all cats."
-msgstr ""
+msgstr "Im alten Ägypten wachte der Katzengott Horus über alle Katzen."
 
 msgid ""
 "The word \"catastrophe\" has no etymological relationship to the word "
@@ -59539,14 +59529,12 @@ msgid ""
 "it returned something else (\"%s\")."
 msgstr ""
 
-#, fuzzy
 msgid "Choose Item Icon"
-msgstr "Icon auswählen"
+msgstr "Eintragssymbol auswählen"
 
 
-#, fuzzy
 msgid "(Restricted/Invalid Project)"
-msgstr "Teilnehmer: ungültiges Projekt"
+msgstr "(Eingeschränktes/ungültiges Projekt)"
 
 
 #, php-format
@@ -59554,75 +59542,67 @@ msgid "Project \"%s\" is not a valid project which you have permission to see."
 msgstr ""
 
 msgid "Ignored Short Word"
-msgstr ""
+msgstr "Ignoriertes kurzes Wort"
 
 msgid "Ignored Common Word"
-msgstr ""
+msgstr "Ignoriertes häufiges Wort"
 
 msgid "Excluding Search"
-msgstr ""
+msgstr "Ausschließende Suche"
 
 msgid "Substring Search"
-msgstr ""
+msgstr "Teilstringsuche"
 
-#, fuzzy
 msgid "Exact Search"
-msgstr "Erweiterte Suche"
+msgstr "Exakte Suche"
 
 
 #, php-format
 msgid "Field Present: %s"
-msgstr ""
+msgstr "Feld vorhanden: %s"
 
 #, php-format
 msgid "Field Absent: %s"
-msgstr ""
+msgstr "Feld nicht vorhanden: %s"
 
 
-#, fuzzy
 msgid "Fulltext Search Results"
-msgstr "Volltext-Ergebnisse"
+msgstr "Volltext-Suchergebnisse"
 
 
-#, fuzzy
 msgid "Item Status"
-msgstr "Neuer Termin"
+msgstr "Elementstatus"
 
 
-#, fuzzy
 msgid "Item Types"
-msgstr "Abstimmungsart"
+msgstr "Elementtypen"
 
 
-#, fuzzy
 msgid "Open Items"
-msgstr "Offene Prüflinge"
+msgstr "Offene Elemente"
 
 
-#, fuzzy
 msgid "Searched For:"
-msgstr "Suche nach"
+msgstr "Gesucht nach:"
 
 
 #, php-format
 msgid "No object relationship of type \"%s\" exists."
-msgstr ""
+msgstr "Es gibt keine Objektbeziehung vom Typ „%s\"."
 
-#, fuzzy
 msgid "Edit Related Objects..."
-msgstr "Releeph Projekt ändern"
+msgstr "Verknüpfte Objekte bearbeiten..."
 
 
 msgid "Created By Me"
 msgstr "Von mir erzeugt"
 
 msgid "All Open Objects"
-msgstr ""
+msgstr "Alle offenen Objekte"
 
 
-#, fuzzy
 msgid "All Objects"
-msgstr "Alle Objekttypen"
+msgstr "Alle Objekte"
 
 
 msgid "The queries you have saved are private. Only you can view or edit them."
@@ -59630,39 +59610,35 @@ msgstr ""
 "Die Abfragen, die Du gespeichert hast, sind privat. Nur Du kannst Sie "
 "ansehen oder verändern."
 
-#, fuzzy
 msgid "Home Menu"
-msgstr "Hauptseite"
+msgstr "Startmenü"
 
 
-#, fuzzy
 msgid "Project Menu"
-msgstr "Projektdetails"
+msgstr "Projektmenü"
 
 
 msgid "Portal Menu"
-msgstr ""
+msgstr "Portalmenü"
 
 msgid "Profile Menu"
-msgstr ""
+msgstr "Profilmenü"
 
 msgid "Engine class is null."
-msgstr ""
+msgstr "Engine-Klasse ist null."
 
 msgid "Browse Results"
-msgstr ""
+msgstr "Ergebnisse durchsuchen"
 
 msgid "Type an object name..."
-msgstr ""
+msgstr "Objektnamen eingeben..."
 
-#, fuzzy
 msgid "Browse Item Types"
-msgstr "Teilnehmer durchsuchen"
+msgstr "Elementtypen durchsuchen"
 
 
-#, fuzzy
 msgid "Select an item type..."
-msgstr "Wähle eine Dokumentenart..."
+msgstr "Elementtyp auswählen..."
 
 
 msgid "No results found for this query."
@@ -59670,15 +59646,15 @@ msgstr "Keine Ergebnisse mittels dieser Abfrage gefunden."
 
 #, php-format
 msgid "Unable to instantiate query class \"%s\": %s"
-msgstr ""
+msgstr "Abfrageklasse „%s\" konnte nicht instanziiert werden: %s"
 
 #, php-format
 msgid "Failed to update search index for document \"%s\": %s"
-msgstr ""
+msgstr "Suchindex für Dokument „%s\" konnte nicht aktualisiert werden: %s"
 
 #, php-format
 msgid "Unable to load object \"%s\" to rebuild indexes."
-msgstr ""
+msgstr "Objekt „%s\" konnte zum Neuaufbau der Indizes nicht geladen werden."
 
 msgid "You are adding too many email addresses to your account too quickly."
 msgstr "Du fügst Deinem Konto zu schnell zu viele E-Mail-Adressen hinzu."
