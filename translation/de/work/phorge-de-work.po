@@ -13135,7 +13135,6 @@ msgstr "Komprimierte Anfragen werden nicht korrekt empfangen"
 msgid "Your webserver is not handling compressed request bodies properly."
 msgstr "Dein Webserver verarbeitet komprimierte Anfragekörper nicht korrekt."
 
-#, fuzzy
 msgid "<empty>"
 msgstr "(leer)"
 
@@ -51029,9 +51028,9 @@ msgstr "Der angegebene Alias (%s) muss mindestens einen Buchstaben enthalten."
 msgid "The alias you provided (%s) may only contain letters and numbers."
 msgstr "Der angegebene Alias (%s) darf nur Buchstaben und Ziffern enthalten."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s updated the description."
-msgstr "%s hat die Beschreibung von %s geändert."
+msgstr "%s hat die Beschreibung aktualisiert."
 
 
 #, fuzzy
@@ -61945,122 +61944,115 @@ msgid "Browse Tokens"
 msgstr "In Projekten suchen"
 
 
-#, fuzzy
 msgid "Bulk Editor"
-msgstr "Prüfer"
+msgstr "Stapel-Editor"
 
 
-#, fuzzy
 msgid "Working Set"
-msgstr "Arbeitete gerade daran"
+msgstr "Arbeitsmenge"
 
 
 msgid "Bulk Edit"
-msgstr ""
+msgstr "Stapelbearbeitung"
 
 msgid "Expected a query key or a set of query constraints."
-msgstr ""
+msgstr "Ein Abfrageschlüssel oder eine Menge von Abfragebeschränkungen wurde erwartet."
 
-#, fuzzy
 msgid "Bulk Edit Actions"
-msgstr "Eigene Aktionen"
+msgstr "Stapelbearbeitungsaktionen"
 
 
 msgid "Add Another Action"
-msgstr ""
+msgstr "Weitere Aktion hinzufügen"
 
-#, fuzzy
 msgid "Query does not match any objects."
-msgstr "An Objekte vergebene Trophäen abfragen."
+msgstr "Die Abfrage liefert keine Ergebnisse."
 
 
-#, fuzzy
 msgid "Query does not match any objects you have permission to edit."
-msgstr "Du hast leider keine Berechtigung, dieses Objekt zu verändern."
+msgstr "Die Abfrage liefert keine Objekte, die Du bearbeiten darfst."
 
 
-#, fuzzy
 msgid "You have not selected any objects to edit."
-msgstr "Du hast noch keine Beiträge geschrieben."
+msgstr "Du hast keine Objekte zur Bearbeitung ausgewählt."
 
 
-#, fuzzy
 msgid "You have not chosen any edits to apply."
-msgstr "Du hast noch keine Beiträge geschrieben."
+msgstr "Du hast keine Bearbeitungen zum Anwenden ausgewählt."
 
 
 #, php-format
 msgid "You are about to apply a bulk edit which will affect %s object(s)."
-msgstr ""
+msgstr "Du bist dabei, eine Stapelbearbeitung anzuwenden, die %s Objekt(e) betrifft."
 
 msgid ""
 "If you start work now, this edit will be applied silently: it will not send "
 "mail or publish notifications."
-msgstr ""
+msgstr "Wenn Du jetzt startest, wird diese Bearbeitung still angewendet: Es werden keine E-Mails gesendet oder Benachrichtigungen veröffentlicht."
 
 msgid ""
 "If you start work now, this edit will send mail and publish notifications "
 "normally."
-msgstr ""
+msgstr "Wenn Du jetzt startest, werden E-Mails gesendet und Benachrichtigungen normal veröffentlicht."
 
 msgid "To silence this edit, run this command:"
-msgstr ""
+msgstr "Um diese Bearbeitung zu stillen, diesen Befehl ausführen:"
 
 msgid "After running this command, reload this page to see the new setting."
-msgstr ""
+msgstr "Nach dem Ausführen dieses Befehls die Seite neu laden, um die neue Einstellung zu sehen."
 
 msgid "Export data to a flat file (JSON, CSV, Excel, etc.)."
-msgstr ""
+msgstr "Daten in eine flache Datei exportieren (JSON, CSV, Excel usw.)."
 
 msgid "SearchEngine class to export data from."
-msgstr ""
+msgstr "SearchEngine-Klasse, aus der Daten exportiert werden sollen."
 
 msgid "Export format."
-msgstr ""
+msgstr "Exportformat."
 
 
 msgid "Export the data selected by one or more queries."
-msgstr ""
+msgstr "Die durch eine oder mehrere Abfragen ausgewählten Daten exportieren."
 
 msgid "Write output to a file. If omitted, output will be sent to stdout."
-msgstr ""
+msgstr "Ausgabe in eine Datei schreiben. Ohne Angabe wird auf stdout ausgegeben."
 
 msgid ""
 "If the output file already exists, overwrite it instead of raising an error."
-msgstr ""
+msgstr "Wenn die Ausgabedatei bereits existiert, wird sie überschrieben statt einen Fehler zu melden."
 
 msgid "Specify an export format with \"--format\"."
-msgstr ""
+msgstr "Ein Exportformat mit „--format\" angeben."
 
 #, php-format
 msgid "Unknown export format (\"%s\"). Known formats are: %s."
-msgstr ""
+msgstr "Unbekanntes Exportformat („%s\"). Bekannte Formate sind: %s."
 
 #, php-format
 msgid "Export format (\"%s\") is not enabled."
-msgstr ""
+msgstr "Exportformat „%s\" ist nicht aktiviert."
 
 msgid ""
 "Use \"--output <path>\" to specify an output file, or \"--output -\" to "
 "print to stdout."
-msgstr ""
+msgstr "„--output <Pfad>\" für eine Ausgabedatei angeben oder „--output -\" für die Ausgabe auf stdout."
 
 msgid "Flag \"--overwrite\" has no effect when outputting to stdout."
-msgstr ""
+msgstr "Die Option „--overwrite\" hat bei der Ausgabe auf stdout keine Wirkung."
 
 msgid "Output path already exists. Use \"--overwrite\" to overwrite it."
-msgstr ""
+msgstr "Der Ausgabepfad existiert bereits. „--overwrite\" verwenden, um zu überschreiben."
 
 msgid "export"
-msgstr ""
+msgstr "export"
 
-#, fuzzy, php-format
+#, php-format
 msgid "Exported data to \"%s\"."
-msgstr "Unteraufgabe von %s wurde erzeugt."
+msgstr "Daten nach „%s\" exportiert."
 
 
 msgid "Specify one or more queries to export with \"--query\"."
-msgstr ""
+msgstr "Eine oder mehrere Abfragen mit „--query\" zum Exportieren angeben."
 
 #, php-format
 msgid ""
@@ -62070,7 +62062,7 @@ msgstr ""
 
 #, php-format
 msgid "Multiple search engines match \"%s\": %s."
-msgstr ""
+msgstr "Mehrere Suchmaschinen passen zu „%s\": %s."
 
 #, php-format
 msgid ""
@@ -62080,7 +62072,7 @@ msgstr ""
 
 #, php-format
 msgid "Query \"%s\" is not a recognized query for class \"%s\"."
-msgstr ""
+msgstr "Abfrage „%s\" ist keine bekannte Abfrage für Klasse „%s\"."
 
 #, php-format
 msgid ""
@@ -62090,10 +62082,10 @@ msgstr ""
 
 #, php-format
 msgid "SearchEngine class (\"%s\") does not support data export."
-msgstr ""
+msgstr "SearchEngine-Klasse „%s\" unterstützt keinen Datenexport."
 
 msgid "Configure a bulk job to execute silently."
-msgstr ""
+msgstr "Einen Stapeljob zum stillen Ausführen konfigurieren."
 
 msgid ""
 "Configure bulk job __id__ to run silently (without sending mail or "
@@ -62101,14 +62093,14 @@ msgid ""
 msgstr ""
 
 msgid "Use \"--id\" to choose a bulk job to make silent."
-msgstr ""
+msgstr "„--id\" verwenden, um einen Stapeljob auszuwählen, der still ausgeführt werden soll."
 
 #, php-format
 msgid "Unable to load bulk job with ID \"%s\"."
-msgstr ""
+msgstr "Stapeljob mit der ID „%s\" konnte nicht geladen werden."
 
 msgid "This job is already configured to run silently."
-msgstr ""
+msgstr "Dieser Job ist bereits zum stillen Ausführen konfiguriert."
 
 #, php-format
 msgid ""
@@ -62118,7 +62110,7 @@ msgstr ""
 
 #, php-format
 msgid "Configured job \"%s\" to run silently."
-msgstr ""
+msgstr "Job „%s\" wurde zum stillen Ausführen konfiguriert."
 
 msgid ""
 "Read transactions and comments for a particular object or an entire object "
@@ -62210,9 +62202,8 @@ msgid ""
 "EOREMARKUP"
 msgstr ""
 
-#, fuzzy
 msgid "Method Details"
-msgstr "(Zeige Details)"
+msgstr "Methoden-Details"
 
 
 msgid ""
@@ -62259,9 +62250,8 @@ msgid ""
 "implement \"%s\", so transactions can not be loaded for it."
 msgstr ""
 
-#, fuzzy
 msgid "Conversation Locked"
-msgstr "Konfiguration gesperrt"
+msgstr "Konversation gesperrt"
 
 
 msgid "You can not edit this comment because the conversation is locked."
@@ -62287,20 +62277,20 @@ msgid "%s wrote:"
 msgstr "%s schrieb:"
 
 msgid "Raw Comment"
-msgstr ""
+msgstr "Rohkommentar"
 
 msgid "Email Body Text"
-msgstr ""
+msgstr "E-Mail-Nachrichtentext"
 
 #, php-format
 msgid "For full details, run `/bin/mail show-inbound --id %d`"
-msgstr ""
+msgstr "Für vollständige Details: `/bin/mail show-inbound --id %d`"
 
 msgid "You can not remove this comment because the conversation is locked."
 msgstr ""
 
 msgid "Remove Comment"
-msgstr ""
+msgstr "Kommentar entfernen"
 
 msgid ""
 "Removing a comment prevents anyone (including you) from reading it. Removing "
@@ -62312,7 +62302,7 @@ msgid "Really remove this comment?"
 msgstr "Diesen Kommentar wirklich entfernen?"
 
 msgid "Unmark as Create Form"
-msgstr ""
+msgstr "Markierung als Erstellungsformular entfernen"
 
 msgid ""
 "Unmark this form as a create form? It will still function properly, but no "
@@ -62320,11 +62310,10 @@ msgid ""
 msgstr ""
 
 msgid "Unmark Form"
-msgstr ""
+msgstr "Formularmarkierung entfernen"
 
-#, fuzzy
 msgid "Mark as Create Form"
-msgstr "Neuer Chat"
+msgstr "Als Erstellungsformular markieren"
 
 
 msgid ""
@@ -62332,36 +62321,32 @@ msgid ""
 "\"Create\" menus by default."
 msgstr ""
 
-#, fuzzy
 msgid "Mark Form"
-msgstr "Suche nach"
+msgstr "Formular markieren"
 
 
-#, fuzzy
 msgid "Edit Form Defaults"
-msgstr "Details ändern"
+msgstr "Formular-Standardwerte bearbeiten"
 
 
 msgid "Save Defaults"
-msgstr ""
+msgstr "Standardwerte speichern"
 
 
 msgid "You are editing the default values for this form."
-msgstr ""
+msgstr "Du bearbeitest die Standardwerte für dieses Formular."
 
 #, php-format
 msgid "Form %d"
-msgstr ""
+msgstr "Formular %d"
 
 
-#, fuzzy
 msgid "Edit Defaults"
-msgstr "Details ändern"
+msgstr "Standardwerte bearbeiten"
 
 
-#, fuzzy
 msgid "Enable Form"
-msgstr "Aktivieren"
+msgstr "Formular aktivieren"
 
 
 msgid ""
@@ -62369,17 +62354,16 @@ msgid ""
 "objects."
 msgstr ""
 
-#, fuzzy
 msgid "Disable Form"
-msgstr "Deaktivieren"
+msgstr "Formular deaktivieren"
 
 
 msgid "Disable this form? Users will no longer be able to use it."
-msgstr ""
+msgstr "Dieses Formular deaktivieren? Benutzer können es dann nicht mehr verwenden."
 
 
 msgid "Unmark as Edit Form"
-msgstr ""
+msgstr "Markierung als Bearbeitungsformular entfernen"
 
 msgid ""
 "Unmark this form as an edit form? It will no longer be able to be used to "
@@ -62387,26 +62371,23 @@ msgid ""
 msgstr ""
 
 msgid "Mark as Edit Form"
-msgstr ""
+msgstr "Als Bearbeitungsformular markieren"
 
 msgid ""
 "Mark this form as an edit form? Users who can view it will be able to use it "
 "to edit objects."
 msgstr ""
 
-#, fuzzy
 msgid "Form Order"
-msgstr "Formularfehler"
+msgstr "Formularreihenfolge"
 
 
-#, fuzzy
 msgid "Reorder Create Forms"
-msgstr "Spalten neu anordnen"
+msgstr "Erstellungsformulare neu sortieren"
 
 
-#, fuzzy
 msgid "Reorder Edit Forms"
-msgstr "Spalten neu anordnen"
+msgstr "Bearbeitungsformulare neu sortieren"
 
 
 msgid ""
@@ -62422,53 +62403,45 @@ msgid ""
 "EOTEXT"
 msgstr ""
 
-#, fuzzy
 msgid "🔒 Locked"
-msgstr "Gesperrt"
+msgstr "🔒 Gesperrt"
 
 
-#, fuzzy
 msgid "✘ Hidden"
-msgstr "Versteckt"
+msgstr "✘ Ausgeblendet"
 
 
-#, fuzzy
 msgid "Lock / Hide Fields"
-msgstr "Host-Felder verstecken"
+msgstr "Felder sperren/ausblenden"
 
 
-#, fuzzy
 msgid "Drag and drop fields to reorder them."
-msgstr "Hier ein Bild draufziehen, um es hochzuladen."
+msgstr "Felder per Drag & Drop neu anordnen."
 
 
-#, fuzzy
 msgid "Reorder Fields"
-msgstr "Spalten neu anordnen"
+msgstr "Felder neu anordnen"
 
 
-#, fuzzy
 msgid "Already Editable"
-msgstr "Schon unterschrieben"
+msgstr "Bereits bearbeitbar"
 
 
 msgid "This form configuration is already editable."
-msgstr ""
+msgstr "Diese Formularkonfiguration ist bereits bearbeitbar."
 
 msgid "Make Builtin Editable"
-msgstr ""
+msgstr "Integriertes Formular bearbeitbar machen"
 
 msgid "Make this builtin form editable?"
-msgstr ""
+msgstr "Dieses integrierte Formular bearbeitbar machen?"
 
-#, fuzzy
 msgid "Make Editable"
-msgstr "Editierbar von"
+msgstr "Bearbeitbar machen"
 
 
-#, fuzzy
 msgid "Save Create Order"
-msgstr "Erstellungsdatum"
+msgstr "Erstellen-Reihenfolge speichern"
 
 
 msgid ""
@@ -62477,7 +62450,7 @@ msgid ""
 msgstr ""
 
 msgid "Save Edit Order"
-msgstr ""
+msgstr "Bearbeiten-Reihenfolge speichern"
 
 msgid ""
 "Drag and drop fields to change their priority for edits. When a user edits "
@@ -62490,189 +62463,179 @@ msgid ""
 "EOTEXT"
 msgstr ""
 
-#, fuzzy
 msgid "Change Form Subtype"
-msgstr "Priorität ändern"
+msgstr "Formular-Untertyp ändern"
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "Edit Form: %s"
-msgstr "Prüfer: %s"
+msgstr "Formular bearbeiten: %s"
 
 
-#, fuzzy
 msgid "Edit Form Configuration"
-msgstr "Phabricator Konfiguration"
+msgstr "Formularkonfiguration bearbeiten"
 
 
-#, fuzzy
 msgid "Use Form"
-msgstr "Datumsformat"
+msgstr "Formular verwenden"
 
 
-#, fuzzy
 msgid "Change Default Values"
-msgstr "Änderungen im Detail"
+msgstr "Standardwerte ändern"
 
 
-#, fuzzy
 msgid "Change Field Order"
-msgstr "Auftrag stornieren"
+msgstr "Feldreihenfolge ändern"
 
 
 msgid "Unmark as \"Create\" Form"
-msgstr ""
+msgstr "Markierung als „Erstellen\"-Formular entfernen"
 
 msgid "Mark as \"Create\" Form"
-msgstr ""
+msgstr "Als „Erstellen\"-Formular markieren"
 
 msgid "Unmark as \"Edit\" Form"
-msgstr ""
+msgstr "Markierung als „Bearbeiten\"-Formular entfernen"
 
 msgid "Mark as \"Edit\" Form"
-msgstr ""
+msgstr "Als „Bearbeiten\"-Formular markieren"
 
 msgid "This is a preview of the current form configuration."
-msgstr ""
+msgstr "Dies ist eine Vorschau der aktuellen Formularkonfiguration."
 
-#, fuzzy
 msgid "Form Preview"
-msgstr "Vorschau"
+msgstr "Formularvorschau"
 
 
-#, fuzzy
 msgid "Edit Engines"
-msgstr "Zeichenkodierung ändern"
+msgstr "Bearbeitungs-Engines"
 
 
 #, php-format
 msgid "%s added %s contributor(s): %s."
-msgstr ""
+msgstr "%s hat %s Mitwirkende hinzugefügt: %s."
 
 #, php-format
 msgid "%s removed %s contributor(s): %s."
-msgstr ""
+msgstr "%s hat %s Mitwirkende entfernt: %s."
 
 #, php-format
 msgid "%s edited contributor(s), added %s: %s; removed %s: %s."
-msgstr ""
+msgstr "%s hat Mitwirkende geändert, hinzugefügt %s: %s; entfernt %s: %s."
 
 #, php-format
 msgid "%s added %s contributor(s) for %s: %s."
-msgstr ""
+msgstr "%s hat %s Mitwirkende für %s hinzugefügt: %s."
 
 #, php-format
 msgid "%s removed %s contributor(s) for %s: %s."
-msgstr ""
+msgstr "%s hat %s Mitwirkende für %s entfernt: %s."
 
 #, php-format
 msgid "%s edited contributor(s) for %s, added %s: %s; removed %s: %s."
-msgstr ""
+msgstr "%s hat Mitwirkende für %s geändert, hinzugefügt %s: %s; entfernt %s: %s."
 
 #, php-format
 msgid "%s added %s subscriber(s): %s."
-msgstr ""
+msgstr "%s hat %s Mitleser hinzugefügt: %s."
 
 #, php-format
 msgid "%s removed %s subscriber(s): %s."
-msgstr ""
+msgstr "%s hat %s Mitleser entfernt: %s."
 
 #, php-format
 msgid "%s edited subscriber(s), added %s: %s; removed %s: %s."
-msgstr ""
+msgstr "%s hat Mitleser geändert, hinzugefügt %s: %s; entfernt %s: %s."
 
 #, php-format
 msgid "%s added %s subscriber(s) for %s: %s."
-msgstr ""
+msgstr "%s hat %s Mitleser für %s hinzugefügt: %s."
 
 #, php-format
 msgid "%s removed %s subscriber(s) for %s: %s."
-msgstr ""
+msgstr "%s hat %s Mitleser für %s entfernt: %s."
 
 #, php-format
 msgid "%s edited subscriber(s) for %s, added %s: %s; removed %s: %s."
-msgstr ""
+msgstr "%s hat Mitleser für %s geändert, hinzugefügt %s: %s; entfernt %s: %s."
 
 #, php-format
 msgid "%s added %s unsubscriber(s): %s."
-msgstr ""
+msgstr "%s hat %s Abgemeldete hinzugefügt: %s."
 
 #, php-format
 msgid "%s removed %s unsubscriber(s): %s."
-msgstr ""
+msgstr "%s hat %s Abgemeldete entfernt: %s."
 
 #, php-format
 msgid "%s edited unsubscriber(s), added %s: %s; removed %s: %s."
-msgstr ""
+msgstr "%s hat Abgemeldete geändert, hinzugefügt %s: %s; entfernt %s: %s."
 
 #, php-format
 msgid "%s added %s unsubscriber(s) for %s: %s."
-msgstr ""
+msgstr "%s hat %s Abgemeldete für %s hinzugefügt: %s."
 
 #, php-format
 msgid "%s removed %s unsubscriber(s) for %s: %s."
-msgstr ""
+msgstr "%s hat %s Abgemeldete für %s entfernt: %s."
 
 #, php-format
 msgid "%s edited unsubscriber(s) for %s, added %s: %s; removed %s: %s."
-msgstr ""
+msgstr "%s hat Abgemeldete für %s geändert, hinzugefügt %s: %s; entfernt %s: %s."
 
 #, php-format
 msgid "%s added %s watcher(s): %s."
-msgstr ""
+msgstr "%s hat %s Beobachter hinzugefügt: %s."
 
 #, php-format
 msgid "%s removed %s watcher(s): %s."
-msgstr ""
+msgstr "%s hat %s Beobachter entfernt: %s."
 
 #, php-format
 msgid "%s edited watcher(s), added %s: %s; removed %s: %s."
-msgstr ""
+msgstr "%s hat Beobachter geändert, hinzugefügt %s: %s; entfernt %s: %s."
 
 #, php-format
 msgid "%s added %s watcher(s) for %s: %s."
-msgstr ""
+msgstr "%s hat %s Beobachter für %s hinzugefügt: %s."
 
 #, php-format
 msgid "%s removed %s watcher(s) for %s: %s."
-msgstr ""
+msgstr "%s hat %s Beobachter für %s entfernt: %s."
 
 #, php-format
 msgid "%s edited watcher(s) for %s, added %s: %s; removed %s: %s."
-msgstr ""
+msgstr "%s hat Beobachter für %s geändert, hinzugefügt %s: %s; entfernt %s: %s."
 
 #, php-format
 msgid "%s mentioned this in %s."
 msgstr "%s hat hierauf in %s Bezug genommen."
 
-#, fuzzy
 msgid "Mention In"
-msgstr "Aktions-Symbole!"
+msgstr "Erwähnt in"
 
 
 msgid "The source object is mentioned in a comment on the destination object."
-msgstr ""
+msgstr "Das Quellobjekt wird in einem Kommentar des Zielobjektes erwähnt."
 
-#, fuzzy
 msgid "Mention"
-msgstr "Frage"
+msgstr "Erwähnung"
 
 
 msgid "The source object has a comment which mentions the destination object."
-msgstr ""
+msgstr "Das Quellobjekt hat einen Kommentar, der das Zielobjekt erwähnt."
 
 #, php-format
 msgid "EditEngine (\"%s\") contains an invalid key character \"/\"."
-msgstr ""
+msgstr "EditEngine „%s\" enthält ein ungültiges Schlüsselzeichen „/\"."
 
-#, fuzzy, php-format
+#, php-format
 msgid "Create %s"
-msgstr "Erstellt von %s"
+msgstr "%s erstellen"
 
 
-#, fuzzy
 msgid "Take Action"
-msgstr "Neue Aktion"
+msgstr "Aktion ausführen"
 
 
 #, php-format
@@ -62705,17 +62668,17 @@ msgstr ""
 
 #, php-format
 msgid "No object exists with ID \"%s\"."
-msgstr ""
+msgstr "Es existiert kein Objekt mit der ID „%s\"."
 
 
 #, php-format
 msgid "No object exists with PHID \"%s\"."
-msgstr ""
+msgstr "Es existiert kein Objekt mit der PHID „%s\"."
 
 
 #, php-format
 msgid "Monogram \"%s\" does not identify a valid object."
-msgstr ""
+msgstr "Monogramm „%s\" bezeichnet kein gültiges Objekt."
 
 #, php-format
 msgid ""
@@ -62742,33 +62705,31 @@ msgstr ""
 
 msgid ""
 "You will be required to provide multi-factor credentials to make changes."
-msgstr ""
+msgstr "Du musst Mehrfaktor-Anmeldedaten angeben, um Änderungen vorzunehmen."
 
-#, fuzzy
 msgid "Configure Form"
-msgstr "Editor konfigurieren"
+msgstr "Formular konfigurieren"
 
 
 msgid "View Form Configurations"
-msgstr ""
+msgstr "Formularkonfigurationen anzeigen"
 
 
 msgid "Using HTTP Parameters"
-msgstr ""
+msgstr "HTTP-Parameter verwenden"
 
 msgid "User Guide: Customizing Forms"
-msgstr ""
+msgstr "Benutzerhandbuch: Formulare anpassen"
 
 msgid "HTTP Parameters"
-msgstr ""
+msgstr "HTTP-Parameter"
 
 #, php-format
 msgid "HTTP Parameters: %s"
-msgstr ""
+msgstr "HTTP-Parameter: %s"
 
-#, fuzzy
 msgid "No Default Create Forms"
-msgstr "Standard-Farbpalette"
+msgstr "Keine Standard-Erstellungsformulare"
 
 
 msgid ""
@@ -62776,19 +62737,16 @@ msgid ""
 "are visible to you and enabled."
 msgstr ""
 
-#, fuzzy
 msgid "No Create Permission"
-msgstr "Frage stellen"
+msgstr "Keine Erstellungsberechtigung"
 
 
-#, fuzzy
 msgid "You do not have permission to create these objects."
-msgstr "Du hast keine Berechtigung, um neue Projekt zu erstellen."
+msgstr "Du hast keine Berechtigung, diese Objekte zu erstellen."
 
 
-#, fuzzy
 msgid "No Manage Permission"
-msgstr "Keine Version wartet auf Freigabe"
+msgstr "Keine Verwaltungsberechtigung"
 
 
 #, fuzzy
@@ -62796,9 +62754,8 @@ msgid "You do not have permission to configure forms for this application."
 msgstr "Du hast leider keine Berechtigung, dieses Objekt anzusehen."
 
 
-#, fuzzy
 msgid "No Edit Forms"
-msgstr "Keine Änderungen"
+msgstr "Keine Bearbeitungsformulare"
 
 
 msgid ""
@@ -62806,9 +62763,8 @@ msgid ""
 "forms."
 msgstr ""
 
-#, fuzzy
 msgid "Not an Edit Form"
-msgstr "In Editor öffnen"
+msgstr "Kein Bearbeitungsformular"
 
 
 #, php-format
@@ -62817,22 +62773,21 @@ msgid ""
 "edit objects."
 msgstr ""
 
-#, fuzzy
 msgid "Form Disabled"
-msgstr "Deaktivierung bestätigen"
+msgstr "Formular deaktiviert"
 
 
 #, php-format
 msgid "This form (\"%s\") has been disabled, so it can not be used."
-msgstr ""
+msgstr "Dieses Formular („%s\") wurde deaktiviert und kann nicht verwendet werden."
 
 #, php-format
 msgid "Unable to load configuration for this EditEngine (\"%s\")."
-msgstr ""
+msgstr "Konfiguration für diese EditEngine („%s\") konnte nicht geladen werden."
 
 #, php-format
 msgid "Parameter \"%s\" is not a list of transactions."
-msgstr ""
+msgstr "Parameter „%s\" ist keine Transaktionsliste."
 
 #, php-format
 msgid ""
@@ -62862,7 +62817,7 @@ msgstr ""
 
 #, php-format
 msgid "Exception when processing transaction of type \"%s\": %s"
-msgstr ""
+msgstr "Ausnahme beim Verarbeiten der Transaktion vom Typ „%s\": %s"
 
 #, php-format
 msgid ""
@@ -62877,18 +62832,16 @@ msgid ""
 "key."
 msgstr ""
 
-#, fuzzy
 msgid "Primary Fields"
-msgstr "Permanentes Feld"
+msgstr "Primärfelder"
 
 
-#, fuzzy
 msgid "Support Applications"
-msgstr "Kern-Anwendungen"
+msgstr "Hilfsprogramme"
 
 
 msgid "No default edit engine configuration for bulk edit."
-msgstr ""
+msgstr "Keine Standard-EditEngine-Konfiguration für die Stapelbearbeitung."
 
 #, php-format
 msgid ""
@@ -62898,7 +62851,7 @@ msgstr ""
 
 #, php-format
 msgid "Unsupported bulk edit type \"%s\"."
-msgstr ""
+msgstr "Nicht unterstützter Stapelbearbeitungstyp „%s\"."
 
 #, php-format
 msgid ""
@@ -62912,39 +62865,32 @@ msgid ""
 "information about each transaction type."
 msgstr ""
 
-#, fuzzy
 msgid "Transaction Summary"
-msgstr "Transaktion"
+msgstr "Transaktionszusammenfassung"
 
 
-#, fuzzy
 msgid "Edit Locked Object"
-msgstr "Projekt ändern"
+msgstr "Gesperrtes Objekt bearbeiten"
 
 
-#, fuzzy
 msgid "This object is locked. Edit it anyway?"
-msgstr "Dieses Objekt ist öffentlich."
+msgstr "Dieses Objekt ist gesperrt. Trotzdem bearbeiten?"
 
 
-#, fuzzy
 msgid "Override Lock"
-msgstr "Ersetzte Konfiguration"
+msgstr "Sperre übergehen"
 
 
-#, fuzzy
 msgid "Object Locked"
-msgstr "Objekt Link"
+msgstr "Objekt gesperrt"
 
 
-#, fuzzy
 msgid "You can not interact with this object because it is locked."
-msgstr "Du kannst kein Mitleser für Änderungen dieses Objektes werden."
+msgstr "Du kannst mit diesem Objekt nicht interagieren, weil es gesperrt ist."
 
 
-#, fuzzy
 msgid "This object has been locked."
-msgstr "Dieser Kommentar wurde gelöscht"
+msgstr "Dieses Objekt wurde gesperrt."
 
 
 #, php-format
@@ -63001,19 +62947,19 @@ msgstr ""
 
 #, php-format
 msgid "Subtype key \"%s\" does not identify a valid subtype."
-msgstr ""
+msgstr "Untertyp-Schlüssel „%s\" bezeichnet keinen gültigen Untertyp."
 
 #, php-format
 msgid "Subtype Key \"%s\""
-msgstr ""
+msgstr "Untertyp-Schlüssel „%s\""
 
 #, php-format
 msgid "This EditField does not provide a Conduit EditType with key \"%s\"."
-msgstr ""
+msgstr "Dieses EditField stellt keinen Conduit-EditType mit Schlüssel „%s\" bereit."
 
 #, php-format
 msgid "This EditField does not provide a Bulk EditType with key \"%s\"."
-msgstr ""
+msgstr "Dieses EditField stellt keinen Stapel-EditType mit Schlüssel „%s\" bereit."
 
 #, php-format
 msgid ""
@@ -63022,23 +62968,23 @@ msgid ""
 msgstr ""
 
 msgid "List of PHIDs to add."
-msgstr ""
+msgstr "Liste der hinzuzufügenden PHIDs."
 
 msgid "List of PHIDs to remove."
-msgstr ""
+msgstr "Liste der zu entfernenden PHIDs."
 
 msgid "List of PHIDs to set."
-msgstr ""
+msgstr "Liste der zu setzenden PHIDs."
 
 #, php-format
 msgid "Transaction must have a PHID before calling %s!"
-msgstr ""
+msgstr "Die Transaktion muss vor dem Aufruf von %s eine PHID haben!"
 
 msgid "Transaction comment must not yet have a PHID!"
-msgstr ""
+msgstr "Der Transaktionskommentar darf noch keine PHID haben!"
 
 msgid "No MFA"
-msgstr ""
+msgstr "Kein MFA"
 
 msgid ""
 "This comment was signed with MFA, so edits to it must also be signed with "
@@ -63053,18 +62999,18 @@ msgstr ""
 
 #, php-format
 msgid "Edge transaction has no '%s'!"
-msgstr ""
+msgstr "Verknüpfungstransaktion hat kein „%s\"!"
 
 msgid "Capability not supported!"
-msgstr ""
+msgstr "Funktion wird nicht unterstützt!"
 
 #, php-format
 msgid "Transaction type '%s' is missing an internal apply implementation!"
-msgstr ""
+msgstr "Transaktionstyp „%s\" hat keine interne Implementierung!"
 
 #, php-format
 msgid "Transaction type '%s' is missing an external apply implementation!"
-msgstr ""
+msgstr "Transaktionstyp „%s\" hat keine externe Implementierung!"
 
 msgid ""
 "Editor method \"queuePublishing()\" was called, but no publishable object is "
@@ -63072,18 +63018,18 @@ msgid ""
 msgstr ""
 
 msgid "You can not apply transactions which already have IDs/PHIDs!"
-msgstr ""
+msgstr "Du kannst keine Transaktionen mit bereits vorhandenen IDs/PHIDs anwenden!"
 
 #, php-format
 msgid "You can not apply transactions which already have %s!"
-msgstr ""
+msgstr "Du kannst keine Transaktionen anwenden, die bereits %s haben!"
 
 msgid "You can not apply transactions which already have commentVersions!"
 msgstr ""
 
 #, php-format
 msgid "This transaction is supposed to have an %s set, but it does not!"
-msgstr ""
+msgstr "Diese Transaktion sollte ein %s haben, hat es aber nicht!"
 
 #, php-format
 msgid ""
@@ -63128,7 +63074,7 @@ msgstr ""
 
 #, php-format
 msgid "Transaction edge specification contains unexpected key \"%s\"."
-msgstr ""
+msgstr "Die Verknüpfungskanten-Spezifikation enthält einen unerwarteten Schlüssel „%s\"."
 
 #, php-format
 msgid ""
@@ -63173,7 +63119,7 @@ msgid ""
 msgstr ""
 
 msgid "You must choose a space for this object."
-msgstr ""
+msgstr "Du musst einen Bereich für dieses Objekt auswählen."
 
 msgid ""
 "You can not shift this object in the selected space, because the space does "
@@ -63185,9 +63131,9 @@ msgid ""
 "archived. Objects can not be created inside (or moved into) archived spaces."
 msgstr ""
 
-#, fuzzy, php-format
+#, php-format
 msgid "The subtype \"%s\" is not a valid subtype."
-msgstr "Der neue Chat-Teilnehmer \"%s\" ist kein gültiger Benutzer."
+msgstr "Der Untertyp „%s\" ist kein gültiger Untertyp."
 
 
 #, php-format
@@ -63197,7 +63143,7 @@ msgid ""
 msgstr ""
 
 msgid "Capability not supported."
-msgstr ""
+msgstr "Funktion wird nicht unterstützt."
 
 msgid ""
 "The object being edited does not implement any standard interfaces (like "
@@ -63209,17 +63155,16 @@ msgstr ""
 msgid "EMAIL PREFERENCES"
 msgstr "EMAIL EINSTELLUNGEN"
 
-#, fuzzy
 msgid "EDIT DETAILS"
-msgstr "TERMIN DETAILS"
+msgstr "BEARBEITUNGSDETAILS"
 
 
 msgid "No herald adapter specified."
-msgstr ""
+msgstr "Kein Herald-Adapter angegeben."
 
 #, php-format
 msgid "Custom field transaction has no '%s'!"
-msgstr ""
+msgstr "Benutzerdefinierte Feldtransaktion hat kein „%s\"!"
 
 #, php-format
 msgid ""
@@ -63233,24 +63178,24 @@ msgstr ""
 
 #, php-format
 msgid "Failed to serialize() value for key \"%s\"."
-msgstr ""
+msgstr "Fehler beim Serialisieren des Wertes für Schlüssel „%s\"."
 
 #, php-format
 msgid "Failed to base64 encode value for key \"%s\"."
-msgstr ""
+msgstr "Fehler beim Base64-Kodieren des Wertes für Schlüssel „%s\"."
 
 #, php-format
 msgid "Failed to base64_decode() value for key \"%s\"."
-msgstr ""
+msgstr "Fehler beim Base64-Dekodieren des Wertes für Schlüssel „%s\"."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s created this object."
-msgstr "%s hat das Projekt erstellt."
+msgstr "%s hat dieses Objekt erstellt."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s created an object: %s."
-msgstr "%s hat das Projekt erstellt."
+msgstr "%s hat ein Objekt erstellt: %s."
 
 
 #, php-format
@@ -63261,7 +63206,7 @@ msgstr ""
 
 #, php-format
 msgid "Editor (\"%s\") has no mail stamp template with provided key (\"%s\")."
-msgstr ""
+msgstr "Editor „%s\" hat keine Mail-Stempel-Vorlage mit dem Schlüssel „%s\"."
 
 msgid ""
 "This transaction group requires MFA to apply, but you can not provide an MFA "
@@ -63279,45 +63224,43 @@ msgid ""
 msgstr ""
 
 msgid "Edit Configurations"
-msgstr ""
+msgstr "Konfigurationen bearbeiten"
 
 
 msgid "Configure Forms for Configuring Forms"
-msgstr ""
+msgstr "Formulare zur Formularkonfiguration konfigurieren"
 
 msgid ""
 "Change how forms in other applications are created and edited. Advanced!"
 msgstr ""
 
-#, fuzzy
 msgid "Create New Form"
-msgstr "Neuen Benutzer anlegen"
+msgstr "Neues Formular erstellen"
 
 
 #, php-format
 msgid "Edit Form %d: %s"
-msgstr ""
+msgstr "Formular %d bearbeiten: %s"
 
 
-#, fuzzy
 msgid "Create Form"
-msgstr "Neuer Chat"
+msgstr "Erstellungsformular"
 
 
 msgid "Name of the form."
-msgstr ""
+msgstr "Name des Formulars."
 
 msgid "Optional instructions, shown above the form."
-msgstr ""
+msgstr "Optionale Anweisungen, die über dem Formular angezeigt werden."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s created this form."
-msgstr "%s hat diese Spalte erzeugt."
+msgstr "%s hat dieses Formular erstellt."
 
 
 #, php-format
 msgid "Edit type (with key \"%s\") is missing a Conduit parameter type."
-msgstr ""
+msgstr "Bearbeitungstyp (Schlüssel „%s\") hat keinen Conduit-Parametertyp."
 
 #, php-format
 msgid ""
@@ -63325,70 +63268,60 @@ msgid ""
 "engine \"%s\")."
 msgstr ""
 
-#, fuzzy
 msgid "Object Monogram"
-msgstr "Objekt Link"
+msgstr "Objekt-Monogramm"
 
 
-#, fuzzy
 msgid "Make comments."
-msgstr "Alle Kommentare zeigen."
+msgstr "Kommentare hinzufügen."
 
 
 msgid "Comment to add, formatted as remarkup."
-msgstr ""
+msgstr "Hinzuzufügender Kommentar, formatiert als Remarkup."
 
-#, fuzzy
 msgid "Engine: Edit"
-msgstr "System"
+msgstr "Engine: Bearbeiten"
 
 
-#, fuzzy
 msgid "Engine: Editor"
-msgstr "In Editor öffnen"
+msgstr "Engine: Editor"
 
 
 msgid "Via Content Source"
-msgstr ""
+msgstr "Über Inhaltsquelle"
 
-#, fuzzy
 msgid "Silent Edit"
-msgstr "Darf ändern"
+msgstr "Stille Bearbeitung"
 
 
-#, fuzzy
 msgid "Encryption Required"
-msgstr "Eingriff notwendig"
+msgstr "Verschlüsselung erforderlich"
 
 
-#, fuzzy
 msgid "New Object"
-msgstr "Neues Projekt"
+msgstr "Neues Objekt"
 
 
-#, fuzzy
 msgid "Mentioned User"
-msgstr "Benutzer löschen"
+msgstr "Erwähnter Benutzer"
 
 
 msgid "Recipient Removed"
-msgstr ""
+msgstr "Empfänger entfernt"
 
-#, fuzzy
 msgid "Change the object subtype."
-msgstr "Projektzuordnung verändert"
+msgstr "Objekt-Untertyp ändern."
 
 
 msgid "New object subtype key."
-msgstr ""
+msgstr "Neuer Objekt-Untertyp-Schlüssel."
 
-#, fuzzy
 msgid "Change Subtype"
-msgstr "Status ändern"
+msgstr "Untertyp ändern"
 
 
 msgid "Transactions have no effect:"
-msgstr ""
+msgstr "Transaktionen haben keine Wirkung:"
 
 #, php-format
 msgid ""
@@ -63397,70 +63330,59 @@ msgid ""
 msgstr ""
 
 msgid "Validation errors:"
-msgstr ""
+msgstr "Validierungsfehler:"
 
 msgid "Edit Configuration"
-msgstr ""
+msgstr "Konfiguration bearbeiten"
 
 
-#, fuzzy
 msgid "Forms"
-msgstr "Format"
+msgstr "Formulare"
 
 
-#, fuzzy
 msgid "Hide Create Forms"
-msgstr "Neuer Beitrag"
+msgstr "Erstellungsformulare ausblenden"
 
 
-#, fuzzy
 msgid "Show Only Create Forms"
-msgstr "Nur aktive Projekte zeigen"
+msgstr "Nur Erstellungsformulare anzeigen"
 
 
-#, fuzzy
 msgid "Hide Edit Forms"
-msgstr "Änderungshistorie zeigen"
+msgstr "Bearbeitungsformulare ausblenden"
 
 
-#, fuzzy
 msgid "Show Only Edit Forms"
-msgstr "Nur Administratoren zeigen"
+msgstr "Nur Bearbeitungsformulare anzeigen"
 
 
-#, fuzzy
 msgid "All Forms"
-msgstr "Alle Chats"
+msgstr "Alle Formulare"
 
 
-#, fuzzy
 msgid "Create Forms"
-msgstr "Autoren"
+msgstr "Erstellungsformulare"
 
 
-#, fuzzy
 msgid "Edit Forms"
-msgstr "Beitrag ändern"
+msgstr "Bearbeitungsformulare"
 
 
-#, fuzzy
 msgid "Default Create Form"
-msgstr "Erstellungsdatum"
+msgstr "Standard-Erstellungsformular"
 
 
-#, fuzzy
 msgid "Edit Form"
-msgstr "Chat ändern"
+msgstr "Bearbeitungsformular"
 
 
-#, fuzzy
 msgid "All Edit Engines"
-msgstr "Zeichenkodierung ändern"
+msgstr "Alle Bearbeitungs-Engines"
 
 
 #, php-format
 msgid "!%s (or %s)"
-msgstr ""
+msgstr "!%s (oder %s)"
 
 #, php-format
 msgid ""
@@ -63470,26 +63392,26 @@ msgstr ""
 
 #, php-format
 msgid "%s Action(s) With No Effect"
-msgstr ""
+msgstr "%s Aktion(en) ohne Wirkung"
 
 
 #, php-format
 msgid "%s of your actions have no effect:"
-msgstr ""
+msgstr "%s Deiner Aktionen haben keine Wirkung:"
 
 
 msgid "Apply remaining actions?"
-msgstr ""
+msgstr "Verbleibende Aktionen anwenden?"
 
 msgid "Apply Remaining Actions"
-msgstr ""
+msgstr "Verbleibende Aktionen anwenden"
 
 msgid "Post as Comment"
 msgstr "Als Kommentar posten"
 
 #, php-format
 msgid "The %s action(s) you are taking have no effect:"
-msgstr ""
+msgstr "Die %s Aktion(en), die Du durchführst, haben keine Wirkung:"
 
 msgid "Do you want to post your comment anyway?"
 msgstr "Möchtest Du Deinen Kommentar trotzdem abgeben?"
@@ -63502,16 +63424,15 @@ msgstr "Leerer Kommentar"
 
 #, php-format
 msgid "%s Action(s) Have No Effect"
-msgstr ""
+msgstr "%s Aktion(en) haben keine Wirkung"
 
 
-#, fuzzy
 msgid "Comment Preview"
-msgstr "Dokumentenvorschau"
+msgstr "Kommentarvorschau"
 
 
 msgid "Validation Errors"
-msgstr ""
+msgstr "Validierungsfehler"
 
 #, php-format
 msgid ""
@@ -63521,11 +63442,11 @@ msgid ""
 msgstr ""
 
 msgid "Warnings"
-msgstr ""
+msgstr "Warnungen"
 
 
 msgid "Comment for this transaction was not loaded."
-msgstr ""
+msgstr "Der Kommentar zu dieser Transaktion wurde nicht geladen."
 
 #, php-format
 msgid ""
@@ -63534,7 +63455,7 @@ msgid ""
 msgstr ""
 
 msgid "Transaction requires handles and it did not load them."
-msgstr ""
+msgstr "Die Transaktion benötigt Handles, hat sie aber nicht geladen."
 
 msgid "(Show Details)"
 msgstr "(Zeige Details)"
@@ -63544,19 +63465,19 @@ msgstr "Du kannst keine leeren Kommentare abgeben."
 
 #, php-format
 msgid "This %s already has that view policy."
-msgstr ""
+msgstr "Dieses %s hat diese Anzeigerichtlinie bereits."
 
 #, php-format
 msgid "This %s already has that edit policy."
-msgstr ""
+msgstr "Dieses %s hat diese Bearbeitungsrichtlinie bereits."
 
 #, php-format
 msgid "This %s already has that join policy."
-msgstr ""
+msgstr "Dieses %s hat diese Beitrittsrichtlinie bereits."
 
 #, php-format
 msgid "This %s already has that interact policy."
-msgstr ""
+msgstr "Dieses %s hat diese Interaktionsrichtlinie bereits."
 
 
 #, php-format
@@ -63564,77 +63485,74 @@ msgid "All users are already subscribed to this %s."
 msgstr "Alle Benutzer sind bereits Mitleser des Objekts %s."
 
 msgid "This object is already in that space."
-msgstr ""
+msgstr "Dieses Objekt befindet sich bereits in diesem Bereich."
 
 msgid "Edges already exist; transaction has no effect."
-msgstr ""
+msgstr "Verknüpfungskanten existieren bereits; Transaktion hat keine Wirkung."
 
 msgid "You have not moved this object to any columns it is not already in."
-msgstr ""
+msgstr "Du hast dieses Objekt nicht in neue Spalten verschoben."
 
 msgid "You can not sign a transaction group that has no other effects."
-msgstr ""
+msgstr "Du kannst keine Transaktionsgruppe ohne weitere Auswirkungen mit MFA bestätigen."
 
 #, php-format
 msgid "Transaction (of type \"%s\") has no effect."
-msgstr ""
+msgstr "Transaktion (Typ „%s\") hat keine Wirkung."
 
 
 #, php-format
 msgid "%s added a comment."
 msgstr "%s hat einen Kommentar hinzugefügt."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s created this object with visibility \"%s\"."
-msgstr "%s hat die Sichtbarkeit von %s verändert."
+msgstr "%s hat dieses Objekt mit der Sichtbarkeit „%s\" erstellt."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s changed the visibility from \"%s\" to \"%s\"."
-msgstr "%s hat die Sichtbarkeit des Objekts %s von \"%s\" auf \"%s\" geändert."
+msgstr "%s hat die Sichtbarkeit von „%s\" auf „%s\" geändert."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s created this object with edit policy \"%s\"."
-msgstr "%s hat die Editier-Rechte von %s verändert."
+msgstr "%s hat dieses Objekt mit der Bearbeitungsrichtlinie „%s\" erstellt."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s changed the edit policy from \"%s\" to \"%s\"."
-msgstr ""
-"%s hat die Editier-Rechte des Objekts %s von \"%s\" auf \"%s\" geändert."
+msgstr "%s hat die Bearbeitungsrichtlinie von „%s\" auf „%s\" geändert."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s created this object with join policy \"%s\"."
-msgstr "%s hat die Rechte zum Zusammenführen von %s verändert."
+msgstr "%s hat dieses Objekt mit der Beitrittsrichtlinie „%s\" erstellt."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s changed the join policy from \"%s\" to \"%s\"."
-msgstr ""
-"%s hat die Teilnahme-Berechtigung dieses Chats von \"%s\" auf \"%s\" "
-"geändert."
+msgstr "%s hat die Beitrittsrichtlinie von „%s\" auf „%s\" geändert."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s created this object with interact policy \"%s\"."
-msgstr "%s hat das Projekt von \"%s\" zu \"%s\" umbenannt."
+msgstr "%s hat dieses Objekt mit der Interaktionsrichtlinie „%s\" erstellt."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s changed the interact policy from \"%s\" to \"%s\"."
-msgstr "%s hat den Titel von \"%s\" nach \"%s\" geändert."
+msgstr "%s hat die Interaktionsrichtlinie von „%s\" auf „%s\" geändert."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s created this object in space %s."
-msgstr "%s hat diese Zone erzeugt."
+msgstr "%s hat dieses Objekt im Bereich %s erstellt."
 
 
 #, php-format
 msgid "%s shifted this object from the %s space to the %s space."
-msgstr ""
+msgstr "%s hat dieses Objekt vom Bereich %s in den Bereich %s verschoben."
 
 #, php-format
 msgid "%s edited subscriber(s), added %d: %s; removed %d: %s."
@@ -63642,7 +63560,7 @@ msgstr "%s hat die Mitleser verändert, %d hinzugefügt: %s, %d entfernt: %s."
 
 #, php-format
 msgid "%s subscribed."
-msgstr ""
+msgstr "%s liest jetzt mit."
 
 
 #, php-format
@@ -63651,7 +63569,7 @@ msgstr "%s hat %d Mitleser hinzugefügt: %s."
 
 #, php-format
 msgid "%s unsubscribed."
-msgstr ""
+msgstr "%s liest nicht mehr mit."
 
 
 #, php-format
@@ -63664,54 +63582,54 @@ msgstr "%s hat die Mitleser verändert..."
 
 #, php-format
 msgid "%s attached %s referenced file(s): %s."
-msgstr ""
+msgstr "%s hat %s referenzierte Datei(en) angehängt: %s."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid ""
 "%s updated %s attached file(s), added %s: %s; removed %s: %s; modified %s: "
 "%s."
-msgstr "%s hat Dateien geändert, %s hinzugefügt: %s; %s entfernt: %s."
+msgstr "%s hat %s angehängte Datei(en) geändert, hinzugefügt %s: %s; entfernt %s: %s; geändert %s: %s."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s updated %s attached file(s), added %s: %s; removed %s: %s."
-msgstr "%s hat Dateien geändert, %s hinzugefügt: %s; %s entfernt: %s."
+msgstr "%s hat %s angehängte Datei(en) geändert, hinzugefügt %s: %s; entfernt %s: %s."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s updated %s attached file(s), added %s: %s; modified %s: %s."
-msgstr "%s hat Dateien geändert, %s hinzugefügt: %s; %s entfernt: %s."
+msgstr "%s hat %s angehängte Datei(en) geändert, hinzugefügt %s: %s; geändert %s: %s."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s updated %s attached file(s), removed %s: %s; modified %s: %s."
-msgstr "%s hat Dateien geändert, %s hinzugefügt: %s; %s entfernt: %s."
+msgstr "%s hat %s angehängte Datei(en) geändert, entfernt %s: %s; geändert %s: %s."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s removed %s attached file(s): %s."
-msgstr "%s hat %s Dateien entfernt: %s."
+msgstr "%s hat %s angehängte Datei(en) entfernt: %s."
 
 
 #, php-format
 msgid "%s modified %s attached file(s): %s."
-msgstr ""
+msgstr "%s hat %s angehängte Datei(en) geändert: %s."
 
 
 #, php-format
 msgid "%s attached files..."
-msgstr ""
+msgstr "%s hat Dateien angehängt..."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s edited an edge."
-msgstr "%s hat %s geändert."
+msgstr "%s hat eine Verknüpfungskante bearbeitet."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s edited a custom field (with key \"%s\")."
-msgstr "%s hat ein benutzerdefiniertes Feld von %s verändert."
+msgstr "%s hat ein benutzerdefiniertes Feld (Schlüssel „%s\") bearbeitet."
 
 
 #, php-format
@@ -63733,39 +63651,39 @@ msgstr "%s hat eine Trophäe verliehen."
 #, php-format
 msgid ""
 "%s marked %s inline comment(s) as done and %s inline comment(s) as not done."
-msgstr ""
+msgstr "%s hat %s Inline-Kommentar(e) als erledigt und %s Inline-Kommentar(e) als nicht erledigt markiert."
 
 #, php-format
 msgid "%s marked %s inline comment(s) as done."
-msgstr ""
+msgstr "%s hat %s Inline-Kommentar(e) als erledigt markiert."
 
 #, php-format
 msgid "%s marked %s inline comment(s) as not done."
-msgstr ""
+msgstr "%s hat %s Inline-Kommentar(e) als nicht erledigt markiert."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s moved this task from %s to %s on the %s board."
-msgstr "%s hat diese Aufgabe nach %s auf der %s Arbeitsfläche verschoben."
+msgstr "%s hat diese Aufgabe von %s nach %s auf der %s Arbeitsfläche verschoben."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s moved this task to %s on the %s board."
 msgstr "%s hat diese Aufgabe nach %s auf der %s Arbeitsfläche verschoben."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s moved this task on %s board(s): %s."
-msgstr "%s hat diese Aufgabe nach %s auf der %s Arbeitsfläche verschoben."
+msgstr "%s hat diese Aufgabe auf %s Arbeitsfläche(n) verschoben: %s."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s signed these changes with MFA."
-msgstr "%s hat diese Aufgabe %s zugewiesen."
+msgstr "%s hat diese Änderungen mit MFA bestätigt."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s edited this object (transaction type \"%s\")."
-msgstr "%s hat das Icon des Projektes auf %s gesetzt."
+msgstr "%s hat dieses Objekt bearbeitet (Transaktionstyp „%s\")."
 
 
 #, php-format
@@ -63788,45 +63706,45 @@ msgstr "%s hat die Editier-Rechte von %s verändert."
 msgid "%s changed the join policy for %s."
 msgstr "%s hat die Rechte zum Zusammenführen von %s verändert."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s changed the interact policy for %s."
-msgstr "%s hat die Editier-Rechte von %s verändert."
+msgstr "%s hat die Interaktionsrichtlinie für %s geändert."
 
 
 #, php-format
 msgid "%s updated subscribers of %s."
 msgstr "%s hat die Mitleser von %s verändert."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s created %s in the %s space."
-msgstr "%s hat diese Zone erzeugt."
+msgstr "%s hat %s im Bereich %s erstellt."
 
 
 #, php-format
 msgid "%s shifted %s from the %s space to the %s space."
-msgstr ""
+msgstr "%s hat %s vom Bereich %s in den Bereich %s verschoben."
 
 #, php-format
 msgid "%s edited edge metadata for %s."
-msgstr ""
+msgstr "%s hat Verknüpfungsmetadaten für %s bearbeitet."
 
 #, php-format
 msgid "%s edited a custom field on %s."
 msgstr "%s hat ein benutzerdefiniertes Feld von %s verändert."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s moved %s from %s to %s on the %s board."
-msgstr "%s hat %s nach %s auf der %s Arbeitsfläche verschoben."
+msgstr "%s hat %s von %s nach %s auf der %s Arbeitsfläche verschoben."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s moved %s to %s on the %s board."
 msgstr "%s hat %s nach %s auf der %s Arbeitsfläche verschoben."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s moved %s on %s board(s): %s."
-msgstr "%s hat %s Aufgaben entfernt: %s."
+msgstr "%s hat %s auf %s Arbeitsfläche(n) verschoben: %s."
 
 
 msgid "Changed Policy"
@@ -63838,62 +63756,55 @@ msgstr "Veränderte Mitleser"
 msgid "View Herald Transcript"
 msgstr "Herald-Protokoll ansehen"
 
-#, fuzzy
 msgid "Detached"
-msgstr "Verknüpft"
+msgstr "Getrennt"
 
 
-#, fuzzy
 msgid "Old Mode"
-msgstr "Altes Passwort"
+msgstr "Alter Modus"
 
 
-#, fuzzy
 msgid "New Mode"
-msgstr "Neue Nachricht"
+msgstr "Neuer Modus"
 
 
 msgid ""
 "Transactions are visible to users that can see the object which was acted "
 "upon. Some transactions - in particular, comments - are editable by the "
 "transaction author."
-msgstr ""
+msgstr "Transaktionen sind für Benutzer sichtbar, die das betreffende Objekt sehen können. Einige Transaktionen – insbesondere Kommentare – können vom Autor der Transaktion bearbeitet werden."
 
 msgid ""
 "Comments are visible to users who can see the object which was commented on. "
 "Comments can be edited by their authors."
-msgstr ""
+msgstr "Kommentare sind für Benutzer sichtbar, die das kommentierte Objekt sehen können. Kommentare können von ihren Autoren bearbeitet werden."
 
 msgid "EditEngine BuiltinKey contains an invalid key character \"/\"."
-msgstr ""
+msgstr "EditEngine-BuiltinKey enthält ein ungültiges Schlüsselzeichen „/\"."
 
 #, php-format
 msgid "Builtin Form \"%s\""
-msgstr ""
+msgstr "Integriertes Formular „%s\""
 
-#, fuzzy
 msgid "Untitled Form"
-msgstr "Unbenanntes Dokument"
+msgstr "Unbenanntes Formular"
 
 
-#, fuzzy
 msgid "Browse Forms"
-msgstr "Teilnehmer durchsuchen"
+msgstr "Formulare durchsuchen"
 
 
-#, fuzzy
 msgid "Type a form name..."
-msgstr "Benutzername eintippen..."
+msgstr "Formularnamen eingeben..."
 
 
-#, fuzzy
 msgid "Type an object type name..."
-msgstr "Projektnamen eintippen..."
+msgstr "Objekttypnamen eingeben..."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s (\"%s\")"
-msgstr "%s (%s)"
+msgstr "%s („%s\")"
 
 
 #, php-format
@@ -63981,9 +63892,8 @@ msgid ""
 "EOTEXT"
 msgstr ""
 
-#, fuzzy
 msgid "This object has no fields with aliases."
-msgstr "An diesem Objekt kann niemand teilnehmen."
+msgstr "Dieses Objekt hat keine Felder mit Aliasen."
 
 
 #, php-format
@@ -64016,10 +63926,10 @@ msgid ""
 msgstr ""
 
 msgid "None of the fields on this object support templating."
-msgstr ""
+msgstr "Keines der Felder dieses Objektes unterstützt Vorlagen."
 
 msgid "Will Copy"
-msgstr ""
+msgstr "Wird kopiert"
 
 msgid ""
 "Select Fields\n"
@@ -64034,9 +63944,8 @@ msgid ""
 "EOTEXT"
 msgstr ""
 
-#, fuzzy
 msgid "This object has no select fields."
-msgstr "Dieser Kommentar wurde gelöscht"
+msgstr "Dieses Objekt hat keine Auswahlfelder."
 
 
 msgid ""
@@ -64051,152 +63960,145 @@ msgstr ""
 msgid ""
 "You must provide multi-factor credentials to comment or make changes, but "
 "you do not have multi-factor authentication configured on your account."
-msgstr ""
+msgstr "Du musst Mehrfaktor-Anmeldedaten angeben, um zu kommentieren oder Änderungen vorzunehmen. Dein Konto hat jedoch keine Mehrfaktor-Authentifizierung konfiguriert."
 
 msgid "To continue, configure multi-factor authentication in Settings."
-msgstr ""
+msgstr "Um fortzufahren, konfiguriere Mehrfaktor-Authentifizierung in den Einstellungen."
 
 #, php-format
 msgid "Remove Action: %s"
-msgstr ""
+msgstr "Aktion entfernen: %s"
 
 
 msgid "Comment Action Options"
-msgstr ""
+msgstr "Kommentaraktions-Optionen"
 
 msgid ""
 "You will be required to provide multi-factor credentials to comment or make "
 "changes."
-msgstr ""
+msgstr "Du musst Mehrfaktor-Anmeldedaten angeben, um zu kommentieren oder Änderungen vorzunehmen."
 
-#, fuzzy
 msgid "Add Action..."
-msgstr "Aktion"
+msgstr "Aktion hinzufügen..."
 
 
 #, php-format
 msgid "This comment was removed by %s."
-msgstr ""
+msgstr "Dieser Kommentar wurde von %s entfernt."
 
 msgid "This comment has been deleted."
 msgstr "Dieser Kommentar wurde gelöscht"
 
-#, fuzzy
 msgid "Mentioned In"
-msgstr "Mit abgestimmt"
+msgstr "Erwähnt in"
 
 
-#, fuzzy
 msgid "Mentioned Here"
-msgstr "Hergeschoben"
+msgstr "Hier erwähnt"
 
 
 msgid "Task has invalid task data."
-msgstr ""
+msgstr "Die Aufgabe hat ungültige Daten."
 
 msgid "Task has no object PHID!"
-msgstr ""
+msgstr "Die Aufgabe hat keine Objekt-PHID!"
 
 #, php-format
 msgid "Unable to load object with PHID \"%s\"!"
-msgstr ""
+msgstr "Objekt mit PHID „%s\" konnte nicht geladen werden!"
 
 #, php-format
 msgid "Unable to load query for transaction object \"%s\"!"
-msgstr ""
+msgstr "Abfrage für Transaktionsobjekt „%s\" konnte nicht geladen werden!"
 
 #, php-format
 msgid "Unable to load transactions: %s."
-msgstr ""
+msgstr "Transaktionen konnten nicht geladen werden: %s."
 
 #, php-format
 msgid "%s changed the order in which this form appears in the \"Create\" menu."
-msgstr ""
+msgstr "%s hat die Reihenfolge dieses Formulars im „Erstellen\"-Menü geändert."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s added this form to the \"Create\" menu."
-msgstr "%s hat diese Zone zur Vorgabezone gemacht."
+msgstr "%s hat dieses Formular zum „Erstellen\"-Menü hinzugefügt."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s removed this form from the \"Create\" menu."
-msgstr "%s hat diesen Chat von \"%s\" in \"%s\" umbenannt."
+msgstr "%s hat dieses Formular aus dem „Erstellen\"-Menü entfernt."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s changed the default values for field %s."
-msgstr "%s hat den Vorgabe-Branch von \"%s\" nach \"%s\" geändert."
+msgstr "%s hat die Standardwerte für Feld %s geändert."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s changed the default value for field %s."
-msgstr "%s hat den Vorgabe-Branch von \"%s\" nach \"%s\" geändert."
+msgstr "%s hat den Standardwert für Feld %s geändert."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s disabled this form."
-msgstr "%s hat diese Regel deaktiviert."
+msgstr "%s hat dieses Formular deaktiviert."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s enabled this form."
-msgstr "%s hat diese Regel aktiviert."
+msgstr "%s hat dieses Formular aktiviert."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s changed the order in which this form appears in the \"Edit\" menu."
-msgstr ""
-"%s hat die Teilnahme-Berechtigung dieses Chats von \"%s\" auf \"%s\" "
-"geändert."
+msgstr "%s hat die Reihenfolge dieses Formulars im „Bearbeiten\"-Menü geändert."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s marked this form as an edit form."
-msgstr "%s hat diese Spalte als unsichtbar gekennzeichnet."
+msgstr "%s hat dieses Formular als Bearbeitungsformular markiert."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s unmarked this form as an edit form."
-msgstr "%s hat diese Spalte als unsichtbar gekennzeichnet."
+msgstr "%s hat die Markierung als Bearbeitungsformular entfernt."
 
 
 #, php-format
 msgid "%s changed locked and hidden fields."
-msgstr ""
+msgstr "%s hat gesperrte und ausgeblendete Felder geändert."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s renamed this form from %s to %s."
-msgstr "%s hat diesen Chat von \"%s\" in \"%s\" umbenannt."
+msgstr "%s hat dieses Formular von %s in %s umbenannt."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s named this form %s."
-msgstr "%s hat diesen Chat \"%s\" genannt."
+msgstr "%s hat dieses Formular „%s\" genannt."
 
 
-#, fuzzy
 msgid "Form name is required."
-msgstr "Ein Spaltenname ist notwendig."
+msgstr "Ein Formularname ist erforderlich."
 
 
-#, fuzzy
 msgid "Forms must have a name."
-msgstr "Zonen müssen einen Namen haben"
+msgstr "Formulare müssen einen Namen haben."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s reordered the fields in this form."
-msgstr "%s hat den individuellen Namen dieser Spalte entfernt."
+msgstr "%s hat die Felder in diesem Formular neu angeordnet."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s updated the preamble for this form."
-msgstr "%s hat das Bild für %s geändert."
+msgstr "%s hat die Einleitung dieses Formulars aktualisiert."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s changed the subtype of this form from %s to %s."
-msgstr "%s hat die Sichtbarkeit dieses Chats von \"%s\" auf \"%s\" geändert."
+msgstr "%s hat den Untertyp dieses Formulars von %s auf %s geändert."
 
 
 #, php-format
@@ -64205,34 +64107,34 @@ msgid ""
 "transactions can not be applied to it."
 msgstr ""
 
-#, fuzzy, php-format
+#, php-format
 msgid "Subtype \"%s\" is not a valid subtype."
-msgstr "Der neue Chat-Teilnehmer \"%s\" ist kein gültiger Benutzer."
+msgstr "Untertyp „%s\" ist kein gültiger Untertyp."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s updated the description for %s %s."
-msgstr "%s hat die Beschreibung von %s verändert."
+msgstr "%s hat die Beschreibung von %s %s aktualisiert."
 
 
 #, php-format
 msgid "CHANGES TO %s DESCRIPTION"
-msgstr ""
+msgstr "ÄNDERUNGEN AN DER %s BESCHREIBUNG"
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s renamed this %s from %s to %s."
-msgstr "%s hat diese Zone von \"%s\" nach \"%s\" umbenannt."
+msgstr "%s hat %s von %s in %s umbenannt."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s created %s %s."
-msgstr "%s hat %s erzeugt."
+msgstr "%s hat %s %s erstellt."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s renamed %s %s from %s to %s."
-msgstr "%s hat %s von \"%s\" nach \"%s\" umbenannt."
+msgstr "%s hat %s %s von %s in %s umbenannt."
 
 
 msgid "Name is required."
@@ -64240,7 +64142,7 @@ msgstr "Ein Name ist zwingend erforderlich."
 
 #, php-format
 msgid "Name for a %s can be no longer than %s characters."
-msgstr ""
+msgstr "Ein Name für %s darf maximal %s Zeichen lang sein."
 
 msgid "Typeahead"
 msgstr ""
