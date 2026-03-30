@@ -57285,10 +57285,10 @@ msgid "Information about builtin URIs."
 msgstr ""
 
 msgid "Epoch timestamp when the object was created."
-msgstr ""
+msgstr "Epoch-Zeitstempel, wann das Objekt erstellt wurde."
 
 msgid "Epoch timestamp when the object was last updated."
-msgstr ""
+msgstr "Epoch-Zeitstempel, wann das Objekt zuletzt aktualisiert wurde."
 
 #, fuzzy, php-format
 msgid "%s changed this URI from \"%s\" to \"%s\"."
@@ -58921,9 +58921,8 @@ msgid "Paging and Limits"
 msgstr "Paginierung und Limits"
 
 msgid "Ferret Fulltext Engine"
-msgstr ""
+msgstr "Ferret-Volltext-Engine"
 
-#, fuzzy
 msgid "Fulltext Search"
 msgstr "Volltextsuche"
 
@@ -58932,58 +58931,53 @@ msgid ""
 "Find objects matching a fulltext search query. See \"Search User Guide\" in "
 "the documentation for details."
 msgstr ""
+"Objekte finden, die zu einer Volltext-Suchabfrage passen. Details stehen im "
+"„Benutzerhandbuch Suche“ in der Dokumentation."
 
-#, fuzzy
 msgid "Fulltext Engine"
-msgstr "Volltext-Ergebnisse"
+msgstr "Volltext-Engine"
 
 
 msgid "Engine: Hovercards"
-msgstr ""
+msgstr "Engine: Hovercards"
 
 msgid "Supports ID/PHID Queries"
-msgstr ""
+msgstr "Unterstützt ID-/PHID-Abfragen"
 
-#, fuzzy
 msgid "IDs"
-msgstr "ID"
+msgstr "IDs"
 
 
 msgid "Search for objects with specific IDs."
-msgstr ""
+msgstr "Nach Objekten mit bestimmten IDs suchen."
 
 msgid "PHIDs"
-msgstr ""
+msgstr "PHIDs"
 
 msgid "Search for objects with specific PHIDs."
-msgstr ""
+msgstr "Nach Objekten mit bestimmten PHIDs suchen."
 
-#, fuzzy
 msgid "Lisk Builtin Properties"
-msgstr "Eigenschaften"
+msgstr "Eingebaute Lisk-Eigenschaften"
 
 
-#, fuzzy
 msgid "Ngrams Engine"
-msgstr "System"
+msgstr "N-Gramm-Engine"
 
 
 msgid "Profile Menu Item"
 msgstr "Profilmenüeintrag"
 
-#, fuzzy
 msgid "Engine: Search"
-msgstr "Suche in der Anleitung"
+msgstr "Engine: Suche"
 
 
-#, fuzzy
 msgid "Search Index Versions"
-msgstr "Offene Versionen durchsuchen"
+msgstr "Versionen des Suchindex"
 
 
-#, fuzzy
 msgid "Search Ngram"
-msgstr "Suche nach"
+msgstr "Such-N-Gramm"
 
 
 #, php-format
@@ -59045,40 +59039,39 @@ msgid ""
 "key."
 msgstr ""
 
-#, fuzzy, php-format
+#, php-format
 msgid "Deprecated alias for \"%s\"."
-msgstr "Unteraufgabe von %s wurde erzeugt."
+msgstr "Veralteter Alias für „%s\"."
 
 
 msgid "\"2022-12-25\" or \"7 days ago\"..."
-msgstr ""
+msgstr "\"2022-12-25\" oder \"vor 7 Tagen\"..."
 
 #, php-format
 msgid "Date value for \"%s\" can not be parsed."
-msgstr ""
+msgstr "\"%s\": der Datumswert kann nicht verarbeitet werden."
 
-#, fuzzy, php-format
+#, php-format
 msgid "Text value for \"%s\" can not be parsed."
-msgstr "\"%s\": das Datum kann ich nicht verstehen. "
+msgstr "\"%s\": der Textwert kann nicht verarbeitet werden."
 
 
 #, php-format
 msgid "Query offset is too large. offset+limit=%s (max=%s)"
-msgstr ""
+msgstr "Der Abfrage-Offset ist zu groß. offset+limit=%s (max=%s)"
 
 msgid "All Fulltext Search hosts failed:"
-msgstr ""
+msgstr "Alle Hosts der Volltextsuche sind fehlgeschlagen:"
 
 msgid "Queries"
 msgstr "Abfragen"
 
-#, fuzzy
 msgid "Storage Used"
-msgstr "Speicherort"
+msgstr "Belegter Speicher"
 
 
 msgid "Elasticsearch server returned invalid JSON!"
-msgstr ""
+msgstr "Der Elasticsearch-Server hat ungültiges JSON zurückgegeben!"
 
 msgid "Ferret Engine Ngrams"
 msgstr "Ferret-Engine-N-Gramme"
@@ -59103,196 +59096,216 @@ msgid ""
 "Instead of indexing in this process, queue tasks for the daemons. This can "
 "improve performance, but makes it more difficult to debug search indexing."
 msgstr ""
+"Statt in diesem Prozess zu indizieren, Aufgaben für die Daemons in die "
+"Warteschlange stellen. Das kann die Leistung verbessern, erschwert aber das "
+"Debuggen der Suchindizierung."
 
 msgid ""
 "Force a complete rebuild of the entire index instead of an incremental "
 "update."
 msgstr ""
+"Einen vollständigen Neuaufbau des gesamten Index erzwingen statt einer "
+"inkrementellen Aktualisierung."
 
 msgid ""
 "Reindex objects previously indexed with a particular version of the indexer."
 msgstr ""
+"Objekte neu indizieren, die zuvor mit einer bestimmten Version des "
+"Indexers indiziert wurden."
 
 msgid "Reindex objects previously indexed on or after a given date."
-msgstr ""
+msgstr "Objekte neu indizieren, die an oder nach einem angegebenen Datum indiziert wurden."
 
 msgid "Reindex objects previously indexed on or before a given date."
-msgstr ""
+msgstr "Objekte neu indizieren, die an oder vor einem angegebenen Datum indiziert wurden."
 
 msgid ""
 "You can not use query constraint flags (like \"--version\", \"--type\", or a "
 "list of specific objects) with \"--all\"."
 msgstr ""
+"Du kannst Abfrage-Einschränkungsflags (wie \"--version\", \"--type\" oder "
+"eine Liste bestimmter Objekte) nicht zusammen mit \"--all\" verwenden."
 
 msgid ""
 "Provide a list of objects to index (like \"D123\"), or a set of query "
 "constraint flags (like \"--type\"), or \"--all\" to index all objects."
 msgstr ""
+"Gib eine Liste zu indizierender Objekte an (etwa \"D123\"), oder einen Satz "
+"von Abfrage-Einschränkungsflags (wie \"--type\"), oder \"--all\", um alle "
+"Objekte zu indizieren."
 
 msgid "NOTE"
-msgstr ""
+msgstr "HINWEIS"
 
 msgid ""
 "Run this workflow with \"--background\" to queue tasks for the daemon "
 "workers."
 msgstr ""
+"Führe diesen Workflow mit \"--background\" aus, um Aufgaben für die "
+"Daemon-Worker in die Warteschlange zu stellen."
 
 msgid "SELECT"
-msgstr ""
+msgstr "AUSWAHL"
 
 msgid "Selecting objects to index..."
-msgstr ""
+msgstr "Objekte zum Indizieren werden ausgewählt..."
 
 msgid "NO OBJECTS"
-msgstr ""
+msgstr "KEINE OBJEKTE"
 
 msgid "No objects selected to index."
-msgstr ""
+msgstr "Es wurden keine Objekte zum Indizieren ausgewählt."
 
 msgid "INDEXING"
-msgstr ""
+msgstr "INDIZIERUNG"
 
 #, php-format
 msgid "Indexing %s object(s)."
-msgstr ""
+msgstr "%s Objekt(e) werden indiziert."
 
 
-#, fuzzy
 msgid "Failed to rebuild search index for any documents."
-msgstr "Erstelle (erneut) die Suchindices."
+msgstr "Der Suchindex konnte für kein Dokument neu aufgebaut werden."
 
 
 #, php-format
 msgid "Updated search indexes for %s document(s)."
-msgstr ""
+msgstr "Suchindizes für %s Dokument(e) aktualisiert."
 
 
 #, php-format
 msgid ""
 "Skipped %s document(s) which have not updated since they were last indexed."
 msgstr ""
+"%s Dokument(e) wurden übersprungen, weil sie seit der letzten Indizierung "
+"nicht aktualisiert wurden."
 
 msgid "Use \"--force\" to force the index to update these documents."
-msgstr ""
+msgstr "Verwende \"--force\", um die Aktualisierung des Index für diese Dokumente zu erzwingen."
 
 #, php-format
 msgid "Queued %s document(s) for background indexing."
-msgstr ""
+msgstr "%s Dokument(e) zur Hintergrundindizierung in die Warteschlange gestellt."
 
 #, php-format
 msgid "Forced search index updates for %s document(s)."
-msgstr ""
+msgstr "Erzwungene Suchindex-Aktualisierungen für %s Dokument(e)."
 
 #, php-format
 msgid "'%s' is not the name of a known object."
-msgstr ""
+msgstr "„%s\" ist nicht der Name eines bekannten Objekts."
 
 #, php-format
 msgid ""
 "Type specification \"%s\" duplicates type specification \"%s\". Specify each "
 "type only once."
 msgstr ""
+"Die Typspezifikation „%s\" dupliziert die Typspezifikation „%s\". Gib jeden "
+"Typ nur einmal an."
 
 #, php-format
 msgid "Type \"%s\" matches no indexable objects. Supported types are: %s."
-msgstr ""
+msgstr "Typ „%s\" passt zu keinen indizierbaren Objekten. Unterstützte Typen sind: %s."
 
 #, php-format
 msgid ""
 "Type \"%s\" matches multiple indexable objects. Use a more specific string. "
 "Matching objects are: %s."
 msgstr ""
+"Typ „%s\" passt zu mehreren indizierbaren Objekten. Verwende eine "
+"spezifischere Zeichenkette. Passende Objekte sind: %s."
 
-#, fuzzy
 msgid "Initialize or repair a search service."
-msgstr "Einen Index initialisieren oder reparieren."
+msgstr "Einen Suchdienst initialisieren oder reparieren."
 
 
 #, php-format
 msgid "Initializing search service \"%s\"."
-msgstr ""
+msgstr "Suchdienst „%s\" wird initialisiert."
 
 #, php-format
 msgid "Skipping service \"%s\" because it is not writable."
-msgstr ""
+msgstr "Dienst „%s\" wird übersprungen, weil er nicht beschreibbar ist."
 
-#, fuzzy
 msgid "Service index does not exist, creating..."
-msgstr "Index existiert nicht, erstelle einen..."
+msgstr "Dienstindex existiert nicht, wird erstellt..."
 
 
 msgid "Service index is out of date, repairing..."
-msgstr ""
+msgstr "Dienstindex ist veraltet, wird repariert..."
 
 msgid "Service index is already up to date."
-msgstr ""
+msgstr "Dienstindex ist bereits aktuell."
 
 
 msgid "No services need initialization."
-msgstr ""
+msgstr "Keine Dienste müssen initialisiert werden."
 
 msgid "Service initialization complete."
-msgstr ""
+msgstr "Initialisierung der Dienste abgeschlossen."
 
 msgid ""
 "Recompute common ngrams. This is an advanced workflow that can harm search "
 "quality if used improperly."
 msgstr ""
+"Häufige N-Gramme neu berechnen. Das ist ein fortgeschrittener Workflow, der "
+"bei falscher Verwendung die Suchqualität verschlechtern kann."
 
 msgid "Reset all common ngram records."
-msgstr ""
+msgstr "Alle Datensätze zu häufigen N-Grammen zurücksetzen."
 
 msgid ""
 "Prune ngrams present in more than this fraction of documents. Provide a "
 "value between 0.0 and 1.0."
 msgstr ""
+"N-Gramme entfernen, die in mehr als diesem Anteil der Dokumente vorkommen. "
+"Gib einen Wert zwischen 0.0 und 1.0 an."
 
 msgid "Specify either --reset or --threshold, not both."
-msgstr ""
+msgstr "Gib entweder --reset oder --threshold an, aber nicht beides."
 
 msgid "Specify either --reset or --threshold."
-msgstr ""
+msgstr "Gib entweder --reset oder --threshold an."
 
 msgid "Specify a numeric threshold between 0 and 1."
-msgstr ""
+msgstr "Gib einen numerischen Schwellenwert zwischen 0 und 1 an."
 
 msgid "Threshold must be greater than 0.0 and less than 1.0."
-msgstr ""
+msgstr "Der Schwellenwert muss größer als 0.0 und kleiner als 1.0 sein."
 
 #, php-format
 msgid "Resetting common ngrams for \"%s\"."
-msgstr ""
+msgstr "Häufige N-Gramme für „%s\" werden zurückgesetzt."
 
 #, php-format
 msgid "Too few documents of type \"%s\" for any ngrams to be common."
-msgstr ""
+msgstr "Zu wenige Dokumente vom Typ „%s\", als dass N-Gramme häufig sein könnten."
 
 #, php-format
 msgid "No new common ngrams exist for \"%s\"."
-msgstr ""
+msgstr "Für „%s\" gibt es keine neuen häufigen N-Gramme."
 
-#, fuzzy, php-format
+#, php-format
 msgid "Updated common ngrams for \"%s\"."
-msgstr "%s hat die Commit(s) von %s verändert."
+msgstr "Häufige N-Gramme für „%s\" wurden aktualisiert."
 
 
 msgid "Run a search query. Intended for debugging and development."
-msgstr ""
+msgstr "Eine Suchabfrage ausführen. Gedacht für Debugging und Entwicklung."
 
 msgid "Raw query to execute."
-msgstr ""
+msgstr "Rohabfrage, die ausgeführt werden soll."
 
 msgid "Specify a query with --query."
-msgstr ""
+msgstr "Gib eine Abfrage mit --query an."
 
-#, fuzzy
 msgid "No results."
-msgstr "Weitere Ergebnisse"
+msgstr "Keine Ergebnisse."
 
 
 #, php-format
 msgid "Setting \"%s\" is misconfigured: %s"
-msgstr ""
+msgstr "Einstellung „%s\" ist falsch konfiguriert: %s"
 
 msgid "(Restricted/Invalid Application)"
 msgstr "(Eingeschränkte/ungültige Anwendung)"
@@ -59589,6 +59602,10 @@ msgstr "Gesucht nach:"
 #, php-format
 msgid "No object relationship of type \"%s\" exists."
 msgstr "Es gibt keine Objektbeziehung vom Typ „%s\"."
+
+#, php-format
+msgid "Too many relationships (%s, of type \"%s\")."
+msgstr "Zu viele Beziehungen (%s vom Typ „%s\")."
 
 msgid "Edit Related Objects..."
 msgstr "Verknüpfte Objekte bearbeiten..."
