@@ -8135,19 +8135,16 @@ msgstr "Kommende Termine"
 msgid "Never miss an episode ever again."
 msgstr "Verpasse keine aktuelle Folge mehr..."
 
-#, fuzzy
 msgid "Calendar User Guide"
-msgstr "Benutzerhandbuch für Zonen"
+msgstr "Kalender-Benutzerhandbuch"
 
 
-#, fuzzy
 msgid "Importing Events"
-msgstr "Kommende Termine"
+msgstr "Termine importieren"
 
 
-#, fuzzy
 msgid "Exporting Events"
-msgstr "Kommende Termine"
+msgstr "Termine exportieren"
 
 
 msgid "Email Commands: Events"
@@ -8162,9 +8159,8 @@ msgid ""
 "replying to existing tasks."
 msgstr ""
 
-#, fuzzy
 msgid "Default view policy for newly created events."
-msgstr "Vorgabe Editier-Berechtigung für neu erzeugte Termine."
+msgstr "Standard-Ansichtsrichtlinie für neu erstellte Termine."
 
 
 msgid "Default edit policy for newly created events."
@@ -8176,29 +8172,24 @@ msgstr "Standardbearbeitungsrichtlinie"
 msgid "Default View Policy"
 msgstr "Vorgabe Rechte für die Anzeige"
 
-#, fuzzy
 msgid "Uses Import Policy"
-msgstr "Benutzer-Policies"
+msgstr "Verwendet Import-Richtlinie"
 
 
-#, fuzzy
 msgid "The host of an event can always view and edit it."
-msgstr "Der Autor einer Frage darf sie immer ansehen und verändern."
+msgstr "Der Gastgeber eines Termins kann ihn immer ansehen und bearbeiten."
 
 
-#, fuzzy
 msgid "Users who are invited to an event can always view it."
-msgstr ""
-"Benutzer, die ein Projekt verändern dürfen, dürfen immer daran teilnehmen."
+msgstr "Zu einem Termin eingeladene Benutzer können ihn immer ansehen."
 
 
 msgid ""
 "Imported events can only be viewed by users who can view the import source."
 msgstr ""
 
-#, fuzzy
 msgid "Imported events can not be edited."
-msgstr "Ein verschobenes Dokument kann nicht gelöscht werden."
+msgstr "Importierte Termine können nicht bearbeitet werden."
 
 
 msgid "RSVP to event."
@@ -8220,6 +8211,11 @@ msgid ""
 "If you specify an invalid rsvp, the command is ignored. This command has no "
 "effect if you do not specify an rsvp."
 msgstr ""
+"Um auf einen Termin zu antworten, den gewünschten RSVP-Befehl eingeben, z. B. `!rsvp yes`. Diese Tabelle zeigt die konfigurierten RSVP-Namen.\n"
+"\n"
+"%s\n"
+"\n"
+"Bei einem ungültigen RSVP-Befehl wird dieser ignoriert. Der Befehl hat keine Wirkung, wenn kein RSVP angegeben wird."
 
 msgid "Apply transactions to create a new event or edit an existing one."
 msgstr "Transaktionen anwenden, um ein neues Ereignis zu erstellen oder ein bestehendes zu bearbeiten."
@@ -8232,7 +8228,7 @@ msgstr "Importiertes Ereignis kann nicht bearbeitet werden"
 
 msgid ""
 "This event has been imported from an external source and can not be edited."
-msgstr ""
+msgstr "Dieser Termin wurde aus einer externen Quelle importiert und kann nicht bearbeitet werden."
 
 msgid "Not Attending Event"
 msgstr "Nimmt nicht am Ereignis teil"
@@ -8241,13 +8237,13 @@ msgstr "Nimmt nicht am Ereignis teil"
 msgid ""
 "You can not change your display availability for events you are not "
 "attending."
-msgstr ""
+msgstr "Du kannst deine angezeigte Verfügbarkeit nicht für Termine ändern, an denen du nicht teilnimmst."
 
 msgid "Reinstate Event"
 msgstr "Termin wieder aktivieren"
 
 msgid "This event is part of a series. Which events do you want to reinstate?"
-msgstr "Dieses Ereignis ist Teil einer Serie. Welche Ereignisse sollen wiederhergestellt werden?"
+msgstr "Dieser Termin ist Teil einer Terminserie. Welche Termine sollen wieder aktiviert werden?"
 
 
 msgid "Reinstate this event?"
@@ -8257,7 +8253,7 @@ msgid "Cancel Event"
 msgstr "Termin absagen"
 
 msgid "This event is part of a series. Which events do you want to cancel?"
-msgstr "Dieses Ereignis ist Teil einer Serie. Welche Ereignisse sollen abgesagt werden?"
+msgstr "Dieser Termin ist Teil einer Terminserie. Welche Termine sollen abgesagt werden?"
 
 msgid "Cancel this event?"
 msgstr "Dieses Ereignis absagen?"
@@ -8266,57 +8262,51 @@ msgstr "Dieses Ereignis absagen?"
 msgid "Back"
 msgstr "Zurück"
 
-#, fuzzy
 msgid "Reinstate Only This Event"
-msgstr "Den Termin wirklich wieder aktivieren?"
+msgstr "Nur diesen Termin wieder aktivieren"
 
 
 #, php-format
 msgid "Reinstate only the event which occurs on %s."
 msgstr "Nur das Ereignis am %s wiederherstellen."
 
-#, fuzzy
 msgid "Reinstate This And All Later Events"
-msgstr "Den Termin wirklich wieder aktivieren?"
+msgstr "Diesen und alle späteren Termine wieder aktivieren"
 
 
 #, php-format
 msgid ""
 "Reinstate this event and all events in the series which occur on or after %s."
-msgstr ""
+msgstr "Diesen Termin und alle Termine der Reihe ab %s wieder aktivieren."
 
-#, fuzzy
 msgid "Cancel Only This Event"
-msgstr "Termin absagen"
+msgstr "Nur diesen Termin absagen"
 
 
 #, php-format
 msgid "Cancel only the event which occurs on %s."
 msgstr "Nur das Ereignis am %s absagen."
 
-#, fuzzy
 msgid "Cancel This And All Later Events"
-msgstr "Sowohl abgesagte als auch aktive Termine"
+msgstr "Diesen und alle späteren Termine absagen"
 
 
 #, php-format
 msgid ""
 "Cancel this event and all events in the series which occur on or after %s."
-msgstr ""
+msgstr "Diesen Termin und alle Termine der Reihe ab %s absagen."
 
-#, fuzzy
 msgid "Series Event"
-msgstr "Teilnahme absagen"
+msgstr "Serientermin"
 
 
 msgid ""
 "This event is an instance in an event series. To change the behavior for the "
 "series, edit the parent event."
-msgstr ""
+msgstr "Dieser Termin ist ein Element einer Terminserie. Um das Verhalten der gesamten Serie zu ändern, den Elterntermin bearbeiten."
 
-#, fuzzy
 msgid "Edit Only This Event"
-msgstr "Termin ändern"
+msgstr "Nur diesen Termin bearbeiten"
 
 
 #, php-format
@@ -8330,13 +8320,13 @@ msgstr "Dieses und alle späteren Ereignisse bearbeiten"
 msgid ""
 "Edit this event and all events in the series which occur on or after %s. "
 "This will overwrite previous edits!"
-msgstr ""
+msgstr "Diesen Termin und alle Termine der Reihe ab %s bearbeiten. Dabei werden frühere Bearbeitungen überschrieben!"
 
 msgid "Edit Event"
 msgstr "Termin ändern"
 
 msgid "This event is part of a series. Which events do you want to edit?"
-msgstr "Dieses Ereignis ist Teil einer Serie. Welche Ereignisse sollen bearbeitet werden?"
+msgstr "Dieser Termin ist Teil einer Terminserie. Welche Termine sollen bearbeitet werden?"
 
 msgid "Join Event"
 msgstr "An Termin teilnehmen"
@@ -8362,9 +8352,8 @@ msgstr "Import/Export"
 msgid "Cancelled"
 msgstr "Abgesagt"
 
-#, fuzzy
 msgid "Imported"
-msgstr "Vollständig importiert"
+msgstr "Importiert"
 
 
 #, php-format
@@ -8372,32 +8361,28 @@ msgid "Availability: %s"
 msgstr "Verfügbarkeit: %s"
 
 
-#, fuzzy
 msgid "Edit Recurrence"
-msgstr "Regelmäßigkeit aufheben"
+msgstr "Wiederholung bearbeiten"
 
 
-#, fuzzy
 msgid "Make Recurring"
-msgstr "Neuer Regelmäßiger Termin"
+msgstr "Als wiederkehrend festlegen"
 
 
-#, fuzzy
 msgid "Export as .ics"
-msgstr "Aufgaben nach Excel exportieren"
+msgstr "Als .ics exportieren"
 
 
 msgid "None"
 msgstr "Keine"
 
-#, fuzzy
 msgid "Imported By"
-msgstr "Erstellt von"
+msgstr "Importiert von"
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s from %s"
-msgstr "Kopiert von %s"
+msgstr "%s von %s"
 
 
 msgid "Invitees"
@@ -8444,13 +8429,12 @@ msgstr "Dieses Ereignis wiederholt sich jährlich."
 msgid "This event is an instance of %s, and repeats every year."
 msgstr "Dieses Ereignis ist eine Instanz von %s und wiederholt sich jährlich."
 
-#, fuzzy
 msgid "Event Series"
-msgstr "Termine"
+msgstr "Terminserie"
 
 
 msgid "This event instance has not been created yet. Log in to create it."
-msgstr "Diese Termininstanz wurde noch nicht erstellt. Melde Dich an, um sie zu erstellen."
+msgstr "Dieser Termin wurde noch nicht erstellt. Zum Erstellen bitte anmelden."
 
 #, php-format
 msgid "Hosted by %s on %s."
@@ -8459,51 +8443,45 @@ msgstr "Veranstaltet von %s am %s."
 msgid "Accept"
 msgstr "Annehmen"
 
-#, fuzzy
 msgid "Disable Export"
-msgstr "Konto deaktivieren"
+msgstr "Export deaktivieren"
 
 
 msgid "Disable this export? The export URI will no longer function."
 msgstr "Diesen Export deaktivieren? Die Export-URI funktioniert dann nicht mehr."
 
-#, fuzzy
 msgid "Enable Export"
-msgstr "Abfrage aktivieren"
+msgstr "Export aktivieren"
 
 
 msgid ""
 "Enable this export? Anyone who knows the export URI will be able to export "
 "the data."
-msgstr ""
+msgstr "Diesen Export aktivieren? Jeder, der die Export-URI kennt, kann die Daten exportieren."
 
-#, fuzzy, php-format
+#, php-format
 msgid "This export has an invalid mode (\"%s\")."
-msgstr ""
-"Dieses Objekt hat eine unbekannte oder ungültige Sichtbarkeitskonfiguration "
-"(\"%s\")."
+msgstr "Dieser Export hat einen ungültigen Modus („%s\")."
 
 
-#, fuzzy
 msgid "Guide: Exporting Events"
-msgstr "Kommende Termine"
+msgstr "Leitfaden: Termine exportieren"
 
 
 msgid "Exports"
 msgstr "Exporte"
 
-#, fuzzy, php-format
+#, php-format
 msgid "Export %d"
-msgstr "Warenkorb %d"
+msgstr "Export %d"
 
 
 #, php-format
 msgid "Export %d %s"
 msgstr "Export %d %s"
 
-#, fuzzy
 msgid "Edit Export"
-msgstr "Beitrag ändern"
+msgstr "Export bearbeiten"
 
 
 msgid "Mode"
@@ -8515,56 +8493,48 @@ msgstr "Abfrage"
 msgid "ICS URI"
 msgstr "ICS-URI"
 
-#, fuzzy
 msgid "No Imported Events"
-msgstr "Neuer Termin"
+msgstr "Keine importierten Termine"
 
 
 msgid ""
 "No events from this source currently exist. They may have failed to import, "
 "have been updated by another source, or already have been deleted."
-msgstr ""
+msgstr "Zurzeit sind keine Termine aus dieser Quelle vorhanden. Möglicherweise ist der Import fehlgeschlagen, eine andere Quelle hat sie aktualisiert, oder sie wurden bereits gelöscht."
 
 msgid "Delete Imported Events"
 msgstr "Importierte Ereignisse löschen"
 
-#, fuzzy
 msgid ""
 "Delete all the events that were imported from this source? This action can "
 "not be undone."
-msgstr ""
-"Diesen Termin endgültig löschen? Man kann dies nicht rückgängig machen."
+msgstr "Alle aus dieser Quelle importierten Termine löschen? Diese Aktion kann nicht rückgängig gemacht werden."
 
 
-#, fuzzy
 msgid "Delete Events"
-msgstr "Teilnahme absagen"
+msgstr "Termine löschen"
 
 
-#, fuzzy
 msgid "Unable to Disable"
-msgstr "Anmeldung fehlgeschlagen"
+msgstr "Deaktivieren nicht möglich"
 
 
-#, fuzzy
 msgid "Disable Import"
-msgstr "Konto deaktivieren"
+msgstr "Import deaktivieren"
 
 
 msgid "Disable this import? Events from this source will no longer be updated."
-msgstr "Diesen Import deaktivieren? Ereignisse aus dieser Quelle werden nicht mehr aktualisiert."
+msgstr "Diesen Import deaktivieren? Termine aus dieser Quelle werden nicht mehr aktualisiert."
 
-#, fuzzy
 msgid "Enable Import"
-msgstr "Abfrage aktivieren"
+msgstr "Import aktivieren"
 
 
 msgid "Enable this import? Events from this source will be updated again."
 msgstr "Diesen Import aktivieren? Ereignisse aus dieser Quelle werden wieder aktualisiert."
 
-#, fuzzy
 msgid "Nothing Uploaded"
-msgstr "Habe nichts zum Indexieren!"
+msgstr "Nichts hochgeladen"
 
 
 msgid "Drag and drop .ics files to upload them and import them into Calendar."
@@ -8573,40 +8543,34 @@ msgstr ".ics-Dateien per Drag-and-Drop hochladen und in den Kalender importieren
 msgid "To import events, you must select a source to import from."
 msgstr "Zum Importieren von Ereignissen eine Importquelle auswählen."
 
-#, fuzzy
 msgid "Import Type"
-msgstr "Abstimmungsart"
+msgstr "Import-Typ"
 
 
-#, fuzzy
 msgid "New Import"
-msgstr "Neuer Beitrag"
+msgstr "Neuer Import"
 
 
-#, fuzzy
 msgid "Choose Import Type"
-msgstr "Icon auswählen"
+msgstr "Import-Typ auswählen"
 
 
 msgid "Import"
 msgstr "Import"
 
-#, fuzzy
 msgid "Import Events"
-msgstr "Kommende Termine"
+msgstr "Termine importieren"
 
 
-#, fuzzy
 msgid "Reload Events"
-msgstr "Alle Termine"
+msgstr "Termine neu laden"
 
 
 msgid "Reload this source? Events imported from this source will be updated."
-msgstr "Diese Quelle neu laden? Ereignisse aus dieser Quelle werden aktualisiert."
+msgstr "Diese Quelle neu laden? Aus dieser Quelle importierte Termine werden aktualisiert."
 
-#, fuzzy
 msgid "Imports"
-msgstr "Importiere"
+msgstr "Importe"
 
 
 #, php-format
@@ -8618,9 +8582,8 @@ msgstr "Import %d"
 msgid "Import %d %s"
 msgstr "Import %d %s"
 
-#, fuzzy
 msgid "Edit Import"
-msgstr "Beitrag ändern"
+msgstr "Import bearbeiten"
 
 
 msgid "Reload Import"
@@ -8629,53 +8592,46 @@ msgstr "Import neu laden"
 msgid "Source Type"
 msgstr "Quellentyp"
 
-#, fuzzy
 msgid "Import Disabled"
-msgstr "Konto gesperrt"
+msgstr "Import deaktiviert"
 
 
 msgid "Automatic Updates"
 msgstr "Automatische Aktualisierungen"
 
 
-#, fuzzy
 msgid "Invalid Trigger"
-msgstr "Ungültiges Datum."
+msgstr "Ungültiger Auslöser"
 
 
-#, fuzzy
 msgid "Next Update"
-msgstr "Änderung übernehmen"
+msgstr "Nächste Aktualisierung"
 
 
 msgid "View All"
 msgstr "Alles zeigen"
 
-#, fuzzy
 msgid "Log Messages"
-msgstr "Nachrichten"
+msgstr "Protokollmeldungen"
 
 
 msgid "No imported events."
 msgstr "Keine importierten Ereignisse."
 
-#, fuzzy
 msgid "Imported Events"
-msgstr "Neuer Termin"
+msgstr "Importierte Termine"
 
 
 msgid "Calendar Events"
 msgstr "Termine im Kalender"
 
-#, fuzzy
 msgid "Configure Calendar Event Forms"
-msgstr "Icon für den Termin wählen"
+msgstr "Kalender-Terminformulare konfigurieren"
 
 
 msgid "Configure how users create and edit events."
 msgstr "Festlegen, wie Benutzer Ereignisse erstellen und bearbeiten."
 
-#, fuzzy
 msgid "Create New Event"
 msgstr "Neuer Termin"
 
@@ -8695,19 +8651,16 @@ msgid "Name of the event."
 msgstr "Name des Ereignisses."
 
 
-#, fuzzy
 msgid "Rename the event."
-msgstr "Den Termin wirklich wieder aktivieren?"
+msgstr "Den Termin umbenennen."
 
 
-#, fuzzy
 msgid "New event name."
-msgstr "Neuer Benutzername"
+msgstr "Neuer Terminname."
 
 
-#, fuzzy
 msgid "Normal Event"
-msgstr "Normaler Benutzer"
+msgstr "Normaler Termin"
 
 
 msgid "All Day Event"
@@ -8736,9 +8689,8 @@ msgid "Change the start time of the event."
 msgstr "Startzeit des Ereignisses ändern."
 
 
-#, fuzzy
 msgid "New event start time."
-msgstr "nächst gelegener Startzeitpunkt"
+msgstr "Neuer Terminbeginn."
 
 
 msgid "End"
@@ -8752,14 +8704,12 @@ msgid "Change the end time of the event."
 msgstr "Endzeit des Ereignisses ändern."
 
 
-#, fuzzy
 msgid "New event end time."
-msgstr "Keine Termine gefunden."
+msgstr "Neues Terminende."
 
 
-#, fuzzy
 msgid "Cancel the event."
-msgstr "Termin absagen"
+msgstr "Den Termin absagen."
 
 
 msgid "Cancel or restore the event."
@@ -8777,36 +8727,31 @@ msgid "Host of the event."
 msgstr "Gastgeber des Ereignisses."
 
 
-#, fuzzy
 msgid "Change the host of the event."
-msgstr "Ändere den Status einer Aufgabe."
+msgstr "Den Gastgeber des Termins ändern."
 
 
-#, fuzzy
 msgid "New event host."
-msgstr "Keine Termine gefunden."
+msgstr "Neuer Gastgeber des Termins."
 
 
 msgid "Users invited to the event."
 msgstr "Zum Ereignis eingeladene Benutzer."
 
 
-#, fuzzy
 msgid "Change invited users."
-msgstr "Veränderte Mitleser"
+msgstr "Eingeladene Benutzer ändern."
 
 
 msgid "New event invitees."
 msgstr "Neue Ereigniseinladungen."
 
-#, fuzzy
 msgid "Change Invitees"
-msgstr "Veränderte Dateien"
+msgstr "Eingeladene ändern"
 
 
-#, fuzzy
 msgid "Description of the event."
-msgstr "Beschreibungsvorschau"
+msgstr "Beschreibung des Termins."
 
 
 msgid "Update the event description."
@@ -8825,19 +8770,16 @@ msgid "Change the event icon."
 msgstr "Ereignissymbol ändern."
 
 
-#, fuzzy
 msgid "New event icon."
-msgstr "Keine Termine gefunden."
+msgstr "Neues Icon für den Termin."
 
 
-#, fuzzy
 msgid "Recurring"
-msgstr "Regelmäßiger Termin"
+msgstr "Wiederkehrend"
 
 
-#, fuzzy
 msgid "One-Time Event"
-msgstr "Teilnahme absagen"
+msgstr "Einmaliger Termin"
 
 
 msgid "One time or recurring event."
@@ -8852,24 +8794,20 @@ msgid "Mark the event as a recurring event."
 msgstr "Ereignis als wiederkehrendes Ereignis markieren."
 
 
-#, fuzzy
 msgid "Frequency"
-msgstr "Zeiterfassung"
+msgstr "Häufigkeit"
 
 
-#, fuzzy
 msgid "Recurring event frequency."
-msgstr "Häufigkeit des Termins"
+msgstr "Häufigkeit des wiederkehrenden Termins."
 
 
-#, fuzzy
 msgid "Change the event frequency."
-msgstr "Häufigkeit des Termins"
+msgstr "Die Häufigkeit des Termins ändern."
 
 
-#, fuzzy
 msgid "New event frequency."
-msgstr "Häufigkeit des Termins"
+msgstr "Neue Häufigkeit des Termins."
 
 
 msgid "Repeat Until"
@@ -8889,9 +8827,8 @@ msgstr "Neuer Endzeitpunkt des Ereignisses."
 msgid "Core"
 msgstr "Kern"
 
-#, fuzzy
 msgid "Recurrence"
-msgstr "Ende der Regelmäßigkeit"
+msgstr "Wiederholung"
 
 
 #, php-format
@@ -8913,10 +8850,10 @@ msgid "[Calendar]"
 msgstr "[Kalender]"
 
 msgid "An event's name, status, invite list, icon, and description changes."
-msgstr "Die Beschreibung eines Termins hat sich geändert."
+msgstr "Name, Status, Teilnehmerliste, Icon oder Beschreibung eines Termins ändern sich."
 
 msgid "An event's start and end date and cancellation status changes."
-msgstr "Ein Termin wurde verschoben oder abgesagt."
+msgstr "Beginn, Ende oder Absagestatus eines Termins ändern sich."
 
 msgid "Other event activity not listed above occurs."
 msgstr "Andere, oben nicht aufgeführte Ereignisaktivitäten treten auf."
@@ -8927,9 +8864,8 @@ msgstr "TERMIN BESCHREIBUNG"
 msgid "EVENT DETAIL"
 msgstr "TERMIN DETAILS"
 
-#, fuzzy
 msgid "Calendar Exports"
-msgstr "Termine im Kalender"
+msgstr "Kalender-Exporte"
 
 
 msgid "Configure Calendar Export Forms"
@@ -8938,19 +8874,17 @@ msgstr "Kalender-Exportformulare konfigurieren"
 msgid "Configure how users create and edit exports."
 msgstr "Festlegen, wie Benutzer Exporte erstellen und bearbeiten."
 
-#, fuzzy
 msgid "Create New Export"
-msgstr "Neuen Benutzer anlegen"
+msgstr "Neuen Export anlegen"
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "Edit Export: %s"
-msgstr "Prüfer: %s"
+msgstr "Export bearbeiten: %s"
 
 
-#, fuzzy
 msgid "Create Export"
-msgstr "Neuer Beitrag"
+msgstr "Export anlegen"
 
 
 msgid "Export"
@@ -8962,14 +8896,12 @@ msgstr "Name des Exports."
 msgid "Rename the export."
 msgstr "Export umbenennen."
 
-#, fuzzy
 msgid "New export name."
-msgstr "Neuer Benutzername"
+msgstr "Neuer Export-Name."
 
 
-#, fuzzy
 msgid "Disable the export."
-msgstr "Deaktivierter Absender"
+msgstr "Den Export deaktivieren."
 
 
 msgid "Disable or restore the export."
@@ -8982,22 +8914,19 @@ msgid "Query Key"
 msgstr "Abfrageschlüssel"
 
 
-#, fuzzy
 msgid "Query to execute."
-msgstr "Trophäen abfragen."
+msgstr "Auszuführende Abfrage."
 
 
-#, fuzzy
 msgid "Change the export query key."
-msgstr "Ändere die Priorität einer Aufgabe."
+msgstr "Den Abfrageschlüssel des Exports ändern."
 
 
 msgid "New export query key."
 msgstr "Neuer Export-Abfrageschlüssel."
 
-#, fuzzy
 msgid "Change the policy mode for the export."
-msgstr "Ändere die Priorität einer Aufgabe."
+msgstr "Den Richtlinienmodus des Exports ändern."
 
 
 msgid "Adjust export mode."
@@ -9006,14 +8935,13 @@ msgstr "Exportmodus anpassen."
 msgid "New export mode."
 msgstr "Neuer Exportmodus."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s created this export."
-msgstr "%s hat diese Abstimmung erstellt."
+msgstr "%s hat diesen Export erstellt."
 
 
-#, fuzzy
 msgid "Calendar Imports"
-msgstr "Termine im Kalender"
+msgstr "Kalender-Importe"
 
 
 msgid "Configure Calendar Import Forms"
@@ -9022,37 +8950,32 @@ msgstr "Kalender-Importformulare konfigurieren"
 msgid "Configure how users create and edit imports."
 msgstr "Festlegen, wie Benutzer Importe erstellen und bearbeiten."
 
-#, fuzzy
 msgid "Create New Import"
-msgstr "Neuen Benutzer anlegen"
+msgstr "Neuen Import anlegen"
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "Edit Import: %s"
-msgstr "Prüfer: %s"
+msgstr "Import bearbeiten: %s"
 
 
-#, fuzzy
 msgid "Create Import"
-msgstr "Neuer Beitrag"
+msgstr "Import anlegen"
 
 
 msgid "Name of the import."
 msgstr "Name des Imports."
 
-#, fuzzy
 msgid "Rename the import."
-msgstr "Über den Dateiinhalt diskutieren"
+msgstr "Den Import umbenennen."
 
 
-#, fuzzy
 msgid "New import name."
-msgstr "Neuer Benutzername"
+msgstr "Neuer Import-Name."
 
 
-#, fuzzy
 msgid "Disable the import."
-msgstr "Abfrage deaktivieren"
+msgstr "Den Import deaktivieren."
 
 
 msgid "Disable or restore the import."
@@ -9073,9 +8996,8 @@ msgstr "Aus dieser Quelle importierte Ereignisse neu laden."
 msgid "True to reload the import."
 msgstr "True, um den Import neu zu laden."
 
-#, fuzzy
 msgid "Update Automatically"
-msgstr "Termin ändern"
+msgstr "Automatisch aktualisieren"
 
 
 msgid "Configure an automatic update frequency."
@@ -9087,18 +9009,17 @@ msgstr "Automatische Aktualisierungshäufigkeit festlegen."
 msgid "Update frequency constant."
 msgstr "Aktualisierungshäufigkeitskonstante."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s created this import."
-msgstr "%s hat diese Abstimmung erstellt."
+msgstr "%s hat diesen Import erstellt."
 
 
 #, php-format
 msgid "Unknown import trigger frequency \"%s\"."
 msgstr "Unbekannte Import-Auslösehäufigkeit \\\"%s\\\"."
 
-#, fuzzy
 msgid "React to events being created or updated."
-msgstr "Der regelmäßiger Termin wurde geändert."
+msgstr "Auf erstellte oder aktualisierte Termine reagieren."
 
 
 msgid "Test rules which run when an event is created or updated."
@@ -9108,7 +9029,6 @@ msgid "Event Fields"
 msgstr "Ereignisfelder"
 
 
-#, fuzzy
 msgid "Choose Event Icon"
 msgstr "Icon für den Termin wählen"
 
@@ -9122,9 +9042,8 @@ msgstr "Reise"
 msgid "Health / Appointment"
 msgstr "Arzt-Termin"
 
-#, fuzzy
 msgid "Sabbatical / Leave"
-msgstr "Sabatical"
+msgstr "Sabbatical / Urlaub"
 
 
 msgid "Working From Home"
@@ -9163,22 +9082,19 @@ msgstr "Konferenz"
 msgid "Import .ics File"
 msgstr ".ics-Datei importieren"
 
-#, fuzzy
 msgid ".ics File"
-msgstr "Datei ansehen"
+msgstr ".ics-Datei"
 
 
 msgid "Import an event in \".ics\" (iCalendar) format."
 msgstr "Ereignis im \\\".ics\\\"-Format (iCalendar) importieren."
 
-#, fuzzy
 msgid "Source File"
-msgstr "Quellcode"
+msgstr "Quelldatei"
 
 
-#, fuzzy
 msgid "ICS File"
-msgstr "Datei"
+msgstr "ICS-Datei"
 
 
 msgid "ICS file to import."
@@ -9187,14 +9103,13 @@ msgstr "Zu importierende ICS-Datei."
 msgid "File PHID to import."
 msgstr "Datei-PHID für den Import."
 
-#, fuzzy
 msgid "File PHID."
-msgstr "Dateiinfo"
+msgstr "Datei-PHID."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "ICS File \"%s\""
-msgstr "Datei '%s'"
+msgstr "ICS-Datei „%s\""
 
 
 #, php-format
@@ -9205,7 +9120,7 @@ msgid ""
 "You can not disable import of an ICS file because the entire import occurs "
 "immediately when you upload the file. There is no further activity to "
 "disable."
-msgstr ""
+msgstr "Der Import einer ICS-Datei kann nicht deaktiviert werden, da der gesamte Import sofort beim Hochladen der Datei erfolgt. Es gibt keine weitere Aktivität, die deaktiviert werden könnte."
 
 msgid "Import .ics URI"
 msgstr ".ics-URI importieren"
@@ -9216,9 +9131,8 @@ msgstr ".ics-URI"
 msgid "Import or subscribe to a calendar in .ics format by URI."
 msgstr "Kalender im .ics-Format per URI importieren oder abonnieren."
 
-#, fuzzy
 msgid "Source URI"
-msgstr "Quellcode"
+msgstr "Quell-URI"
 
 
 msgid "URI"
@@ -9227,9 +9141,8 @@ msgstr "URI"
 msgid "URI to import."
 msgstr "Zu importierende URI."
 
-#, fuzzy
 msgid "New URI."
-msgstr "Neuer Pfad"
+msgstr "Neue URI."
 
 
 #, php-format
@@ -9263,37 +9176,33 @@ msgstr "Unerwartete Eingeladene in Datei \\\"%s\\\" bei Test \\\"%s\\\""
 msgid "Unexpected presence of user \"%s\" in file \"%s\" on test \"%s\""
 msgstr "Unerwartete Anwesenheit von Benutzer \\\"%s\\\" in Datei \\\"%s\\\" bei Test \\\"%s\\\""
 
-#, fuzzy, php-format
+#, php-format
 msgid "Unknown Message \"%s\""
-msgstr "Unbekannter Absender: %s"
+msgstr "Unbekannte Nachricht „%s\""
 
 
-#, fuzzy
 msgid "Unknown Message"
-msgstr "Neue Nachricht"
+msgstr "Unbekannte Nachricht"
 
 
-#, fuzzy
 msgid "Deleted Event"
-msgstr "Teilnahme absagen"
+msgstr "Gelöschter Termin"
 
 
 #, php-format
 msgid "Deleted event \"%s\" which is no longer present in the source."
 msgstr "Ereignis \\\"%s\\\" gelöscht, das in der Quelle nicht mehr vorhanden ist."
 
-#, fuzzy
 msgid "Duplicate Event"
-msgstr "Duplikat"
+msgstr "Doppelter Termin"
 
 
 #, php-format
 msgid "Ignored duplicate event \"%s\" present in source."
 msgstr "Doppeltes Ereignis \\\"%s\\\" in der Quelle ignoriert."
 
-#, fuzzy
 msgid "No Events Imported"
-msgstr "Keine Termine gefunden."
+msgstr "Keine Termine importiert."
 
 
 msgid "Found no valid events to import."
@@ -9305,23 +9214,21 @@ msgstr "Außerhalb des Bereichs"
 msgid ""
 "Ignored an event with an out-of-range date. Only dates between 1970 and 2037 "
 "are supported."
-msgstr ""
+msgstr "Ein Termin mit einem Datum außerhalb des unterstützten Bereichs wurde ignoriert. Nur Daten zwischen 1970 und 2037 werden unterstützt."
 
-#, fuzzy
 msgid "Fetched Calendar"
-msgstr "Kalender"
+msgstr "Kalender abgerufen"
 
 
-#, fuzzy
 msgid "Too Frequent"
-msgstr "Zeiterfassung"
+msgstr "Zu häufig"
 
 
 #, php-format
 msgid ""
 "Ignored an event with an unsupported frequency rule (\"%s\"). Events which "
 "repeat more frequently than daily are not supported."
-msgstr ""
+msgstr "Ein Termin mit einer nicht unterstützten Häufigkeitsregel („%s\") wurde ignoriert. Termine, die häufiger als täglich wiederkehren, werden nicht unterstützt."
 
 msgid "ICS Parse Error"
 msgstr "ICS-Parse-Fehler"
@@ -9337,25 +9244,23 @@ msgstr "ICS-Parser-Warnung"
 msgid "Warning (\"%s\") while parsing ICS data (near line %s): %s"
 msgstr "Warnung (\\\"%s\\\") beim Parsen von ICS-Daten (nahe Zeile %s): %s"
 
-#, fuzzy
 msgid "Ignored Node"
-msgstr "Ignoriert"
+msgstr "Ignorierter Knoten"
 
 
 #, php-format
 msgid "Ignored unsupported \"%s\" node present in source."
 msgstr "Nicht unterstützten Knoten \\\"%s\\\" in der Quelle ignoriert."
 
-#, fuzzy
 msgid "Original Event"
-msgstr "Ursprünglicher Autor"
+msgstr "Ursprünglicher Termin"
 
 
 #, php-format
 msgid ""
 "Ignored an event (%s) because the original version of this event was created "
 "here."
-msgstr ""
+msgstr "Ein Termin (%s) wurde ignoriert, weil die ursprüngliche Version dieses Termins hier erstellt wurde."
 
 msgid "Orphan"
 msgstr "Verwaist"
@@ -9371,7 +9276,7 @@ msgstr "In Warteschlange"
 msgid ""
 "Queued for background import: data size (%s) exceeds limit for immediate "
 "processing (%s)."
-msgstr ""
+msgstr "Zur Hintergrundverarbeitung in Warteschlange gestellt: Datengröße (%s) überschreitet das Limit für sofortige Verarbeitung (%s)."
 
 msgid "Import Triggered"
 msgstr "Import ausgelöst"
@@ -9380,19 +9285,16 @@ msgstr "Import ausgelöst"
 msgid "Started background processing."
 msgstr "Hintergrundverarbeitung gestartet."
 
-#, fuzzy
 msgid "Triggered a periodic update."
-msgstr "Eine Prüfung ist nun erforderlich."
+msgstr "Periodische Aktualisierung ausgelöst."
 
 
-#, fuzzy
 msgid "Imported Event"
-msgstr "Neuer Termin"
+msgstr "Importierter Termin"
 
 
-#, fuzzy
 msgid "Updated Event"
-msgstr "Termin ändern"
+msgstr "Aktualisierter Termin"
 
 
 msgid "Test and debug notifications about upcoming events."
@@ -9401,12 +9303,12 @@ msgstr "Benachrichtigungen über bevorstehende Ereignisse testen und debuggen."
 msgid ""
 "Notify about events in the next __N__ minutes (default: 15). Setting this to "
 "a larger value makes testing easier."
-msgstr ""
+msgstr "Über Termine in den nächsten __N__ Minuten benachrichtigen (Standard: 15). Ein größerer Wert erleichtert das Testen."
 
 msgid ""
 "Reload event imports from the command line. Useful for testing and debugging "
 "importers."
-msgstr ""
+msgstr "Kalender-Importe von der Kommandozeile neu laden. Nützlich zum Testen und Debuggen von Importern."
 
 msgid "List of import IDs to reload."
 msgstr "Liste der neu zu ladenden Import-IDs."
@@ -9438,13 +9340,13 @@ msgstr "[Erinnerung]"
 #, php-format
 msgid ""
 "Expected ISO8601 datetime in the format \"19990105T112233Z\", found \"%s\"."
-msgstr ""
+msgstr "ISO8601-Datum/Uhrzeit im Format „19990105T112233Z\" erwartet, gefunden: „%s\"."
 
 #, php-format
 msgid ""
 "ISO8601 date ends in \"Z\" indicating UTC, but a timezone other than UTC "
 "(\"%s\") was specified."
-msgstr ""
+msgstr "ISO8601-Datum endet auf „Z\" (UTC), aber es wurde eine andere Zeitzone angegeben: „%s\"."
 
 #, php-format
 msgid "Unexpected key \"%s\" in datetime dictionary, expected keys: %s."
@@ -9461,9 +9363,8 @@ msgstr "Schlüssel \\\"%s\\\" im Datums-/Zeitwörterbuch erwartet."
 msgid "Expected \"PhutilCalendarDuration\" object or ISO8601 duration string."
 msgstr "\\\"PhutilCalendarDuration\\\"-Objekt oder ISO8601-Dauerzeichenkette erwartet."
 
-#, fuzzy
 msgid "Datetime has no timezone or viewer timezone."
-msgstr "Die ausgewählte Zeitzone ist ungültig."
+msgstr "Datum/Uhrzeit hat keine Zeitzone, und die Benutzer-Zeitzone ist nicht gesetzt."
 
 
 #, php-format
@@ -9476,21 +9377,21 @@ msgstr "ISO8601-Dauer im Format \\\"P12DT3H4M5S\\\" erwartet, gefunden: \\\"%s\\
 
 #, php-format
 msgid "RRULE dictionary includes unknown key \"%s\". Expected keys are: %s."
-msgstr "RRULE-Wörterbuch enthält unbekannten Schlüssel \\\"%s\\\". Erwartete Schlüssel: %s."
+msgstr "RRULE-Dictionary enthält unbekannten Schlüssel „%s\". Erwartete Schlüssel: %s."
 
 #, php-format
 msgid "Unexpected value \"%s\" in \"%s\" RULE property: expected an integer."
-msgstr "Unerwarteter Wert \\\"%s\\\" in RULE-Eigenschaft \\\"%s\\\": Ganzzahl erwartet."
+msgstr "Unerwarteter Wert „%s\" in der RULE-Eigenschaft „%s\": Ganzzahl erwartet."
 
 #, php-format
 msgid ""
 "Unexpected value \"%s\" in \"%s\" RRULE property: expected only integers."
-msgstr ""
+msgstr "Unerwarteter Wert „%s\" in der RRULE-Eigenschaft „%s\": Nur Ganzzahlen erwartet."
 
 #, php-format
 msgid ""
 "Weekday \"%s\" is not a valid weekday constant. Valid constants are: %s."
-msgstr ""
+msgstr "Wochentag „%s\" ist kein gültiger Wochentag-Bezeichner. Gültige Bezeichner: %s."
 
 #, php-format
 msgid "RRULE COUNT value \"%s\" is invalid: count must be at least 1."
@@ -9512,22 +9413,22 @@ msgstr "RRULE-INTERVAL \\\"%s\\\" ist ungültig: Intervall muss mindestens 1 sei
 msgid ""
 "RRULE BYDAY value \"%s\" is invalid: rule part must be in the expected form "
 "(like \"MO\", \"-3TH\", or \"+2SU\")."
-msgstr ""
+msgstr "RRULE-BYDAY-Wert „%s\" ist ungültig: Der Regelanteil muss das erwartete Format haben (z. B. „MO\", „-3TH\" oder „+2SU\")."
 
 #, php-format
 msgid ""
 "RRULE BYDAY value \"%s\" has an offset with magnitude \"%s\", but the "
 "maximum permitted value is \"%s\"."
-msgstr ""
+msgstr "RRULE-BYDAY-Wert „%s\" hat einen Versatz mit dem Betrag „%s\", der Maximalwert ist jedoch „%s\"."
 
 msgid ""
 "RRULE specifies BYMONTHDAY with FREQ set to WEEKLY, which violates RFC5545."
-msgstr ""
+msgstr "RRULE gibt BYMONTHDAY an, während FREQ auf WEEKLY gesetzt ist – das verstößt gegen RFC5545."
 
 msgid ""
 "RRULE specifies BYYEARDAY with FREQ of DAILY, WEEKLY or MONTHLY, which "
 "violates RFC5545."
-msgstr ""
+msgstr "RRULE gibt BYYEARDAY an, während FREQ DAILY, WEEKLY oder MONTHLY ist – das verstößt gegen RFC5545."
 
 #, php-format
 msgid "RRULE specifies BYSETPOS with FREQ \"%s\", but this is invalid."
@@ -9536,7 +9437,7 @@ msgstr "RRULE gibt BYSETPOS mit FREQ \\\"%s\\\" an, was ungültig ist."
 msgid ""
 "RRULE evaluation failed to generate more events in the next 100 years. This "
 "RRULE is likely invalid or degenerate."
-msgstr ""
+msgstr "Die RRULE-Auswertung konnte in den nächsten 100 Jahren keine weiteren Termine erzeugen. Diese RRULE ist wahrscheinlich ungültig oder entartet."
 
 #, php-format
 msgid "Invalid iteration interval (\"%d\"), must be at least 1."
@@ -9545,20 +9446,20 @@ msgstr "Ungültiges Iterationsintervall (\\\"%d\\\"), muss mindestens 1 sein."
 #, php-format
 msgid ""
 "Value \"%s\" in RRULE \"%s\" parameter is invalid: values must be integers."
-msgstr ""
+msgstr "Wert „%s\" im RRULE-Parameter „%s\" ist ungültig: Werte müssen Ganzzahlen sein."
 
 #, php-format
 msgid ""
 "Value \"%s\" in RRULE \"%s\" parameter is invalid: it must be between %s and "
 "%s."
-msgstr ""
+msgstr "Wert „%s\" im RRULE-Parameter „%s\" ist ungültig: Er muss zwischen %s und %s liegen."
 
 #, php-format
 msgid "Value \"%s\" in RRULE \"%s\" parameter is invalid: it must not be zero."
-msgstr "Wert \\\"%s\\\" im RRULE-Parameter \\\"%s\\\" ist ungültig: darf nicht null sein."
+msgstr "Wert „%s\" im RRULE-Parameter „%s\" ist ungültig: Er darf nicht null sein."
 
 msgid "Recurring event range queries must have an end date, a limit, or both."
-msgstr "Bereichsabfragen für wiederkehrende Ereignisse müssen ein Enddatum, ein Limit oder beides haben."
+msgstr "Bereichsabfragen für wiederkehrende Termine müssen ein Enddatum, ein Limit oder beides haben."
 
 msgid "Simple daily event."
 msgstr "Einfaches tägliches Ereignis."
@@ -9566,9 +9467,8 @@ msgstr "Einfaches tägliches Ereignis."
 msgid "Hourly event with BYHOUR."
 msgstr "Stündliches Ereignis mit BYHOUR."
 
-#, fuzzy
 msgid "Yearly event."
-msgstr "Jährlich"
+msgstr "Jährlicher Termin."
 
 
 msgid "Secondly event with many constraints."
@@ -9583,9 +9483,8 @@ msgstr "Menge mit leerer Listenquelle."
 msgid "Simple date list."
 msgstr "Einfache Datumsliste."
 
-#, fuzzy
 msgid "Multiple date lists."
-msgstr "Mehrere Empfänger"
+msgstr "Mehrere Datumslisten."
 
 
 msgid "Set of all results in multiple lists with exclusions."
@@ -9597,9 +9496,8 @@ msgstr "Mehrere Listen, ein Ergebnis."
 msgid "Multiple lists, time window."
 msgstr "Mehrere Listen, Zeitfenster."
 
-#, fuzzy
 msgid "Correct event indexes with start date."
-msgstr "Es existiert kein Objekt mit diesem Namen."
+msgstr "Terminindizes mit Startdatum korrigieren."
 
 
 msgid "Found unexpected property at ICS document root."
@@ -9608,12 +9506,12 @@ msgstr "Unerwartete Eigenschaft im ICS-Dokumentstamm gefunden."
 msgid ""
 "Expected all \"BEGIN:\" sections in ICS document to have corresponding \"END:"
 "\" sections."
-msgstr ""
+msgstr "Es wird erwartet, dass alle „BEGIN:\"-Abschnitte im ICS-Dokument entsprechende „END:\"-Abschnitte haben."
 
 msgid ""
 "First line of ICS file begins with a space or tab, but this marks a line "
 "which should be unfolded."
-msgstr ""
+msgstr "Die erste Zeile der ICS-Datei beginnt mit einem Leerzeichen oder Tabulator, was eine entfaltete Zeile kennzeichnet."
 
 #, php-format
 msgid "Found unexpected node \"%s\" inside node \"%s\"."
@@ -9662,6 +9560,11 @@ msgid ""
 "\n"
 "%s"
 msgstr ""
+"ICS-Parse-Fehler in der Nähe von Zeile %s:\n"
+"\n"
+">>> %s\n"
+"\n"
+"%s"
 
 #, php-format
 msgid "ICS Parse Error: %s"
@@ -9680,9 +9583,9 @@ msgid ""
 "value will be interpreted as UTC."
 msgstr ""
 
-#, fuzzy, php-format
+#, php-format
 msgid "Error parsing DATE-TIME: %s"
-msgstr "Fehler beim Verarbeiten Deiner Mail (%s)"
+msgstr "Fehler beim Auswerten von DATE-TIME: %s"
 
 
 msgid "Expected DURATION to have exactly one value, found none."
@@ -9711,19 +9614,18 @@ msgstr "TZID \\\"%s\\\" ist unbekannt, stattdessen wird UTC verwendet."
 msgid ""
 "Unable to write ICS document: event has no UID, but each event MUST have a "
 "UID."
-msgstr ""
+msgstr "ICS-Dokument kann nicht geschrieben werden: Termin hat keine UID, aber jeder Termin MUSS eine UID haben."
 
 msgid ""
 "Unable to write ICS document: event has no modified time, but each event "
 "MUST have a modified time."
-msgstr ""
+msgstr "ICS-Dokument kann nicht geschrieben werden: Termin hat keine Änderungszeit, aber jeder Termin MUSS eine Änderungszeit haben."
 
 msgid "Expected exception for floating time with no viewer timezone."
 msgstr "Ausnahme für ungebundene Zeit ohne Betrachter-Zeitzone erwartet."
 
-#, fuzzy
 msgid "Weekly recurring event."
-msgstr "Neuer Regelmäßiger Termin"
+msgstr "Wöchentlich wiederkehrender Termin."
 
 
 #, php-format
@@ -9738,14 +9640,13 @@ msgstr "Beim Parsen von \\\"%s\\\" eine Ausnahme erwartet, eine andere erhalten:
 msgid "Expected exception parsing \"%s\", got none."
 msgstr "Ausnahme beim Parsen von \\\"%s\\\" erwartet, keine erhalten."
 
-#, fuzzy, php-format
+#, php-format
 msgid "ICS: %s"
-msgstr "Sortierung: %s"
+msgstr "ICS: %s"
 
 
-#, fuzzy
 msgid "Calendar Export"
-msgstr "Kalendereintrag"
+msgstr "Kalender-Export"
 
 
 #, php-format
@@ -9753,64 +9654,54 @@ msgid "Calendar Export %s: %s"
 msgstr "Kalenderexport %s: %s"
 
 
-#, fuzzy
 msgid "External Invitee"
-msgstr "Externes Konto"
+msgstr "Externer Eingeladener"
 
 
-#, fuzzy
 msgid "Calendar Import"
-msgstr "Kalender"
+msgstr "Kalender-Import"
 
 
 #, php-format
 msgid "Calendar Import %s: %s"
 msgstr "Kalenderimport %s: %s"
 
-#, fuzzy
 msgid "Event Host"
-msgstr "Termine"
+msgstr "Gastgeber"
 
 
-#, fuzzy
 msgid "The host of this event can take this action."
-msgstr "Teilnehmer dieses Chats können diese Aktion ausführen."
+msgstr "Der Gastgeber dieses Termins kann diese Aktion ausführen."
 
 
-#, fuzzy
 msgid "event host"
-msgstr "Termine"
+msgstr "Gastgeber"
 
 
-#, fuzzy
 msgid "Event Invitees"
-msgstr "Teilnehmer"
+msgstr "Mögliche Teilnehmer"
 
 
-#, fuzzy
 msgid "Users invited to this event can take this action."
-msgstr "Teilnehmer dieses Chats können diese Aktion ausführen."
+msgstr "Zu diesem Termin eingeladene Benutzer können diese Aktion ausführen."
 
 
-#, fuzzy
 msgid "event invitees"
-msgstr "Teilnehmer"
+msgstr "Mögliche Teilnehmer"
 
 
-#, fuzzy
 msgid "Event Start"
-msgstr "Termin ändern"
+msgstr "Terminbeginn"
 
 
 msgid ""
 "Event queries which generate ghost events must include either a result limit "
 "or an end date, because they may otherwise generate an infinite number of "
 "results. This query has neither."
-msgstr ""
+msgstr "Terminabfragen, die Geister-Termine erzeugen, müssen entweder ein Ergebnislimit oder ein Enddatum enthalten, da sie sonst eine unbegrenzte Anzahl von Ergebnissen erzeugen könnten. Diese Abfrage enthält beides nicht."
 
-#, fuzzy
 msgid "Hosts"
-msgstr "Beiträge"
+msgstr "Gastgeber"
 
 
 msgid "Search for events created by specific hosts."
@@ -9834,9 +9725,8 @@ msgstr "Abgesagte Termine"
 msgid "Search for active or cancelled events."
 msgstr "Aktive oder abgesagte Ereignisse suchen."
 
-#, fuzzy
 msgid "Import Sources"
-msgstr "Quellcode"
+msgstr "Importquellen"
 
 
 msgid "Search for events with specific import sources."
@@ -9869,9 +9759,9 @@ msgstr "Listenansicht"
 msgid "All Events"
 msgstr "Alle Termine"
 
-#, fuzzy, php-format
+#, php-format
 msgid "Hosted by %s"
-msgstr "gefragt von %s"
+msgstr "Gastgeber: %s"
 
 
 msgid "No events found."
@@ -9883,53 +9773,46 @@ msgstr "Ungültiger Datums- oder Zeitwert als Abfragewert festgelegt."
 msgid "Export Query as .ics"
 msgstr "Abfrage als .ics exportieren"
 
-#, fuzzy
 msgid "Drop .ics Files to Import"
-msgstr "⇪ Dateien zum Hochladen hier ablegen"
+msgstr ".ics-Dateien zum Importieren hier ablegen"
 
 
-#, fuzzy
 msgid "All Exports"
-msgstr "Alle Beiträge"
+msgstr "Alle Exporte"
 
 
-#, fuzzy
 msgid "No exports found."
-msgstr "Eine Umfragen gefunden."
+msgstr "Keine Exporte gefunden."
 
 
-#, fuzzy
 msgid "No Exports Configured"
-msgstr "Keine Zahlungsmethoden konfiguriert"
+msgstr "Keine Exporte konfiguriert"
 
 
 msgid ""
 "You have not set up any events for export from Calendar yet. See the "
 "documentation for instructions on how to get started."
-msgstr ""
+msgstr "Es wurden noch keine Termine für den Kalender-Export eingerichtet. Anleitungen zum Einstieg finden sich in der Dokumentation."
 
-#, fuzzy
 msgid "Calendar Import Logs"
-msgstr "Termine im Kalender"
+msgstr "Kalender-Import-Protokolle"
 
 
 msgid "All Logs"
 msgstr "Alle Protokolle"
 
-#, fuzzy
 msgid "All Imports"
-msgstr "Vollständig importiert"
+msgstr "Alle Importe"
 
 
-#, fuzzy
 msgid "No imports found."
-msgstr "Eine Umfragen gefunden."
+msgstr "Keine Importe gefunden."
 
 
 msgid ""
 "Unable to generate a new child event for an event which is not a recurring "
 "parent event!"
-msgstr ""
+msgstr "Es kann kein untergeordneter Termin für einen Termin erzeugt werden, der kein wiederkehrender Elterntermin ist!"
 
 msgid "Unable to copy from parent event: this is not a child event."
 msgstr "Vom übergeordneten Ereignis kann nicht kopiert werden: Dies ist kein untergeordnetes Ereignis."
@@ -9970,14 +9853,12 @@ msgid "Attending"
 msgstr "Nimmt teil"
 
 
-#, fuzzy
 msgid "Declined"
-msgstr "Teilnahme absagen"
+msgstr "Abgelehnt"
 
 
-#, fuzzy
 msgid "The name of the event."
-msgstr "Der neue Pfad des Dokuments."
+msgstr "Der Name des Termins."
 
 
 msgid "The event description."
@@ -10023,29 +9904,25 @@ msgstr "Private Daten exportieren."
 msgid ""
 "Anyone who knows the URI for this export can view all event details as "
 "though they were logged in with your account."
-msgstr ""
+msgstr "Jeder, der die URI dieses Exports kennt, kann alle Termindetails so ansehen, als wäre er mit deinem Konto angemeldet."
 
 msgid "No Automatic Updates"
 msgstr "Keine automatischen Aktualisierungen"
 
-#, fuzzy
 msgid "Update Hourly"
-msgstr "Geändert durch"
+msgstr "Stündlich aktualisieren"
 
 
-#, fuzzy
 msgid "Update Daily"
-msgstr "Geändert durch"
+msgstr "Täglich aktualisieren"
 
 
-#, fuzzy
 msgid "Browse Invitees"
-msgstr "Teilnehmer"
+msgstr "Eingeladene durchsuchen"
 
 
-#, fuzzy
 msgid "Type a user or project name, or function..."
-msgstr "Projektnamen oder Funktion eintippen..."
+msgstr "Benutzernamen, Projektnamen oder Funktion eingeben..."
 
 
 msgid "Browse Users"
@@ -10069,29 +9946,29 @@ msgstr "Den aktuell angemeldeten Benutzer verwenden."
 msgid ""
 "Show invites the current viewer is invited to. This function includes events "
 "the user is invited to because a project they are a member of is invited."
-msgstr ""
+msgstr "Zeigt Termine an, zu denen der aktuelle Benutzer eingeladen ist. Dazu gehören auch Termine, zu denen ein Projekt eingeladen wurde, dem der Benutzer angehört."
 
 msgid "Events are only rendered indirectly."
 msgstr "Ereignisse werden nur indirekt gerendert."
 
-#, fuzzy, php-format
+#, php-format
 msgid "Away at %s until %s."
-msgstr "Abwesend bis %s"
+msgstr "Außer Haus (%s) bis %s."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "Away until %s."
-msgstr "Abwesend bis %s"
+msgstr "Außer Haus bis %s."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "Busy at %s until %s."
-msgstr "%s hat %s auf %s geändert."
+msgstr "Beschäftigt (%s) bis %s."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "Busy until %s."
-msgstr "Abwesend bis %s"
+msgstr "Beschäftigt bis %s."
 
 
 msgid "Source"
@@ -10103,9 +9980,9 @@ msgstr "Nachricht"
 msgid "Date"
 msgstr "Datum"
 
-#, fuzzy, php-format
+#, php-format
 msgid "Failed to load import with PHID \"%s\"."
-msgstr "Konnte Kommentar \"%s\" leider nicht laden."
+msgstr "Import mit PHID „%s\" konnte nicht geladen werden."
 
 
 #, php-format
@@ -10116,18 +9993,18 @@ msgstr "%s nimmt an diesem Termin teil."
 msgid "%s is attending %s."
 msgstr "%s nimmt an %s teil."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s changed this to an all day event."
-msgstr "%s hat diesen Termin zu einem Ganztagesereignis gemacht."
+msgstr "%s hat diesen Termin zu einem Ganztagstermin gemacht."
 
 
 #, php-format
 msgid "%s converted this from an all day event."
 msgstr "%s hat diesen Termin von einem Ganztagestermin zurückgeändert."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s changed %s to an all day event."
-msgstr "%s hat %s zu einem Ganztagestermin gemacht."
+msgstr "%s hat %s zu einem Ganztagstermin gemacht."
 
 
 #, php-format
@@ -10150,29 +10027,28 @@ msgstr "%s hat %s abgesagt."
 msgid "%s reinstated %s."
 msgstr "%s hat %s reaktiviert."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s declined this event."
-msgstr "%s hat die Teilnahme an diesem Termin abgesagt."
+msgstr "%s hat die Teilnahme an diesem Termin abgelehnt."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s declined %s."
-msgstr "%s hat die Teilnahme an %s abgesagt."
+msgstr "%s hat die Teilnahme an %s abgelehnt."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s changed the end date for this event from %s to %s."
-msgstr "%s hat den Namen des Termins von %s auf %s geändert."
+msgstr "%s hat das Ende dieses Termins von %s auf %s geändert."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s changed the end date for %s from %s to %s."
-msgstr "%s hat den Namen von %s von %s auf %s geändert."
+msgstr "%s hat das Ende von %s von %s auf %s geändert."
 
 
-#, fuzzy
 msgid "End date is invalid."
-msgstr "Die Produktart ist ungültig."
+msgstr "Das Enddatum ist ungültig."
 
 
 #, php-format
@@ -10211,159 +10087,150 @@ msgstr "%s hat %s auf monatlich geändert."
 msgid "%s set %s to repeat yearly."
 msgstr "%s hat %s auf jährlich geändert."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s changed the host of this event from %s to %s."
-msgstr "%s hat den Namen des Termins von %s auf %s geändert."
+msgstr "%s hat den Gastgeber dieses Termins von %s auf %s geändert."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s changed the host of %s from %s to %s."
-msgstr "%s hat den Namen von %s von %s auf %s geändert."
+msgstr "%s hat den Gastgeber von %s von %s auf %s geändert."
 
 
-#, fuzzy
 msgid "Event host is required."
-msgstr "Der Termin braucht einen Namen."
+msgstr "Ein Gastgeber für den Termin ist erforderlich."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "Host PHID \"%s\" is not a valid user PHID."
-msgstr "PID '%s' ist keine gültige PID."
+msgstr "Gastgeber-PHID „%s\" ist keine gültige Benutzer-PHID."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s changed the event icon from %s to %s."
-msgstr "%s hat den Namen von %s von %s auf %s geändert."
+msgstr "%s hat das Icon dieses Termins von %s auf %s geändert."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s changed the icon for %s from %s to %s."
-msgstr "%s hat den Namen von %s von %s auf %s geändert."
+msgstr "%s hat das Icon für %s von %s auf %s geändert."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid ""
 "Invitee \"%s\" identifies an object that does not exist or which you do not "
 "have permission to view."
-msgstr ""
-"Einige der JIRA Tickets konnten nicht geladen werden. Möglicherweise "
-"existieren sie nicht, oder Du hast keine Berechtigung, sie Dir anzusehen: %s"
+msgstr "Eingeladene(r) „%s\" bezeichnet ein Objekt, das nicht existiert oder für das keine Leseberechtigung besteht."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s invited %s attendee(s): %s."
-msgstr "%s hat %s zu %s eingeladen."
+msgstr "%s hat %s Teilnehmer eingeladen: %s."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s uninvited %s attendee(s): %s."
-msgstr "%s hat %s zu %s ausgeladen."
+msgstr "%s hat %s Teilnehmer ausgeladen: %s."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s invited %s attendee(s): %s; uninvited %s attendee(s): %s."
-msgstr "%s hat %s ein- und %s zu %s ausgeladen."
+msgstr "%s hat %s Teilnehmer eingeladen: %s; %s Teilnehmer ausgeladen: %s."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s invited %s attendee(s) to %s: %s."
-msgstr "%s hat %s Aufgaben zu %s hinzugefügt: %s."
+msgstr "%s hat %s Teilnehmer zu %s eingeladen: %s."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s uninvited %s attendee(s) to %s: %s."
-msgstr "%s hat %s zu %s ausgeladen."
+msgstr "%s hat %s Teilnehmer von %s ausgeladen: %s."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s updated the invite list for %s, invited %s: %s; uninvited %s: %s."
-msgstr ""
-"%s hat die Einladungsliste für %s aktualisiert, %s eingeladen: %s; %s "
-"ausgeladen: %s."
+msgstr "%s hat die Teilnehmerliste für %s aktualisiert; eingeladen %s: %s; ausgeladen %s: %s."
 
 
 msgid ""
 "An event can not be stopped from recurring once it has been made recurring. "
 "You can cancel the event."
-msgstr ""
+msgstr "Ein Termin kann nicht aus der Wiederholung herausgenommen werden, sobald er als wiederkehrend festgelegt wurde. Du kannst den Termin jedoch absagen."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s changed the start date for this event from %s to %s."
-msgstr "%s hat den Namen des Termins von %s auf %s geändert."
+msgstr "%s hat den Beginn dieses Termins von %s auf %s geändert."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s changed the start date for %s from %s to %s."
-msgstr "%s hat das Startdatum von %s von %s zu %s geändert."
+msgstr "%s hat den Beginn von %s von %s auf %s geändert."
 
 
-#, fuzzy
 msgid "Start date is invalid."
-msgstr "Die Produktart ist ungültig."
+msgstr "Das Startdatum ist ungültig."
 
 
-#, fuzzy
 msgid "event"
 msgstr "Termin"
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s changed this event to repeat until %s."
-msgstr "%s hat diesen Termin auf monatlich geändert."
+msgstr "%s hat diesen Termin auf Wiederholung bis %s geändert."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s changed this event to repeat forever."
-msgstr "%s hat diesen Termin auf wöchentlich geändert."
+msgstr "%s hat diesen Termin auf unbegrenzte Wiederholung geändert."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s changed %s to repeat until %s."
-msgstr "%s hat %s von %s nach %s geändert."
+msgstr "%s hat %s auf Wiederholung bis %s geändert."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s changed %s to repeat forever."
-msgstr "%s hat %s auf wöchentlich geändert."
+msgstr "%s hat %s auf unbegrenzte Wiederholung geändert."
 
 
-#, fuzzy
 msgid "Repeat until date is invalid."
-msgstr "Die Produktart ist ungültig."
+msgstr "Das Wiederholungs-Enddatum ist ungültig."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s disabled this export."
-msgstr "%s hat diesen Dienstleister deaktiviert."
+msgstr "%s hat diesen Export deaktiviert."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s enabled this export."
-msgstr "%s hat diesen Dienstleister aktiviert."
+msgstr "%s hat diesen Export aktiviert."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s changed the policy mode for this export from %s to %s."
-msgstr "%s hat den Namen des Termins von %s auf %s geändert."
+msgstr "%s hat den Richtlinienmodus dieses Exports von %s auf %s geändert."
 
 
 #, php-format
 msgid "Mode \"%s\" is not a valid policy mode. Valid modes are: %s."
 msgstr "Modus \\\"%s\\\" ist kein gültiger Richtlinienmodus. Gültige Modi: %s."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s renamed this export from %s to %s."
-msgstr "%s hat das Projekt von \"%s\" zu \"%s\" umbenannt."
+msgstr "%s hat diesen Export von „%s\" in „%s\" umbenannt."
 
 
-#, fuzzy
 msgid "Calendar exports must have a name."
-msgstr "Zonen müssen einen Namen haben"
+msgstr "Kalender-Exporte müssen einen Namen haben."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s changed the query for this export."
-msgstr "%s hat die eigene Auffassung zu diesem Termin nochmal überdacht."
+msgstr "%s hat die Abfrage für diesen Export geändert."
 
 
 #, php-format
@@ -10373,84 +10240,82 @@ msgstr "Abfrageschlüssel \\\"%s\\\" identifiziert keine gültige Ereignisabfrag
 msgid "Calendar exports must have a query key."
 msgstr "Kalenderexporte müssen einen Abfrageschlüssel haben."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s deleted imported events from this source."
-msgstr "%s hat die Beschreibung dieser Zone geändert."
+msgstr "%s hat importierte Termine aus dieser Quelle gelöscht."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s disabled this import."
-msgstr "%s hat diesen Dienstleister deaktiviert."
+msgstr "%s hat diesen Import deaktiviert."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s enabled this import."
-msgstr "%s hat diesen Dienstleister aktiviert."
+msgstr "%s hat diesen Import aktiviert."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s changed the automatic update frequency for this import."
-msgstr "%s hat das Startdatum von %s von %s zu %s geändert."
+msgstr "%s hat die automatische Aktualisierungshäufigkeit dieses Imports geändert."
 
 
 #, php-format
 msgid "Import frequency \"%s\" is not valid. Valid frequencies are: %s."
 msgstr "Importhäufigkeit \\\"%s\\\" ist ungültig. Gültige Häufigkeiten: %s."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s imported an ICS file."
-msgstr "%s hat ein benutzerdefiniertes Feld verändert."
+msgstr "%s hat eine ICS-Datei importiert."
 
 
 #, php-format
 msgid ""
 "You can not attach an ICS file to an import type other than an ICS import "
 "(type is \"%s\")."
-msgstr ""
+msgstr "Eine ICS-Datei kann nur an einen ICS-Import angehängt werden (Typ ist „%s\")."
 
 #, php-format
 msgid "File PHID \"%s\" is not valid or not visible."
 msgstr "Datei-PHID \\\"%s\\\" ist ungültig oder nicht sichtbar."
 
-#, fuzzy
 msgid "You must select an \".ics\" file to import."
-msgstr "Du mußt eine Datei zum Hochladen auswählen."
+msgstr "Zum Importieren muss eine „.ics\"-Datei ausgewählt werden."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s updated the import URI."
-msgstr "%s hat das Bild für %s geändert."
+msgstr "%s hat die Import-URI aktualisiert."
 
 
 #, php-format
 msgid ""
 "You can not attach an ICS URI to an import type other than an ICS URI import "
 "(type is \"%s\")."
-msgstr ""
+msgstr "Eine ICS-URI kann nur an einen ICS-URI-Import angehängt werden (Typ ist „%s\")."
 
-#, fuzzy
 msgid "You must select an \".ics\" URI to import."
-msgstr "Du mußt eine Datei zum Hochladen auswählen."
+msgstr "Zum Importieren muss eine „.ics\"-URI ausgewählt werden."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s named this import %s."
-msgstr "%s hat diesen Chat \"%s\" genannt."
+msgstr "%s hat diesen Import „%s\" benannt."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s removed the name of this import (was: %s)."
-msgstr "%s hat den individuellen Namen dieser Spalte entfernt."
+msgstr "%s hat den Namen dieses Imports entfernt (war: %s)."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s renamed this import from %s to %s."
-msgstr "%s hat den Entwurf von \"%s\" zu \"%s\" umbenannt."
+msgstr "%s hat diesen Import von „%s\" in „%s\" umbenannt."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s reloaded this event source."
-msgstr "%s hat diesen Termin erzeugt."
+msgstr "%s hat diese Terminquelle neu geladen."
 
 
 #, php-format
@@ -58207,10 +58072,6 @@ msgstr "Link"
 msgid "Handle: %s"
 msgstr "Handle: %s"
 
-
-#, php-format
-msgid "Too many relationships (%s, of type \"%s\")."
-msgstr ""
 
 #, php-format
 msgid ""
