@@ -13672,9 +13672,8 @@ msgstr "Alle Einstellungen"
 msgid "Settings History"
 msgstr "Einstellungsverlauf"
 
-#, fuzzy
 msgid "Editable"
-msgstr "Editierbar von"
+msgstr "Bearbeitbar"
 
 
 #, php-format
@@ -17780,17 +17779,13 @@ msgstr "Dashboards"
 msgid "Create Custom Pages"
 msgstr "Individuelle Seiten erstellen"
 
-#, fuzzy
 msgid "Default create policy for Dashboards."
-msgstr "Vorgabe Anzeige-Benutzerrichtlinie für neue Umfragen."
+msgstr "Standard-Erstellungsrichtlinie für Dashboards."
 
 
-#, fuzzy
 msgid ""
 "Apply transactions to create a new dashboard panel or edit an existing one."
-msgstr ""
-"Du hast bis jetzt noch keine Dashboard Panele erzeugt, daher kannst Du auch "
-"keine existierenden Panels hinzufügen."
+msgstr "Transaktionen anwenden, um ein neues Dashboard-Panel zu erstellen oder ein bestehendes zu bearbeiten."
 
 
 msgid "Apply transactions to create a new portal or edit an existing one."
@@ -17805,11 +17800,11 @@ msgstr "Portale"
 msgid ""
 "Portals are collections of dashboards, links, and other resources that can "
 "provide a high-level overview of a project."
-msgstr ""
+msgstr "Portale sind Sammlungen von Dashboards, Links und anderen Ressourcen, die einen Überblick über ein Projekt geben können."
 
 msgid ""
 "Dashboards organize panels, creating a cohesive page for analysis or action."
-msgstr ""
+msgstr "Dashboards organisieren Panele zu einer übersichtlichen Seite für Analysen oder Aktionen."
 
 msgid "Panels"
 msgstr "Panele"
@@ -17817,52 +17812,44 @@ msgstr "Panele"
 msgid ""
 "Panels show queries, charts, and other information to provide insight on a "
 "particular topic."
-msgstr ""
+msgstr "Panele zeigen Abfragen, Diagramme und andere Informationen zu einem bestimmten Thema."
 
-#, fuzzy
 msgid "Dashboard Console"
-msgstr "Dunkle(tm) Konsole"
+msgstr "Dashboard-Konsole"
 
 
-#, fuzzy
 msgid "You must provide a name for this panel."
-msgstr "Du mußt eine Email-Adresse angeben."
+msgstr "Du musst einen Namen für dieses Panel angeben."
 
 
-#, fuzzy
 msgid "You must select a dashboard."
-msgstr "Du mußt ein Passwort wählen"
+msgstr "Du musst ein Dashboard auswählen."
 
 
-#, fuzzy
 msgid "You must select a valid dashboard."
-msgstr "Du mußt eine Datei zum Hochladen auswählen."
+msgstr "Du musst ein gültiges Dashboard auswählen."
 
 
-#, fuzzy
 msgid "You must select a dashboard you have permission to edit."
-msgstr "Du hast leider keine Berechtigung, dieses Objekt zu verändern."
+msgstr "Du musst ein Dashboard auswählen, für das du die Bearbeitungsberechtigung hast."
 
 
 msgid "Dashboard"
 msgstr "Dashboard"
 
-#, fuzzy
 msgid "Add Panel to Dashboard"
-msgstr "Dashboards editieren"
+msgstr "Panel zum Dashboard hinzufügen"
 
 
 msgid "Add Panel"
 msgstr "Panel hinzufügen"
 
-#, fuzzy
 msgid "You must choose a panel to add to the dashboard."
-msgstr "Du mußt ein Passwort wählen"
+msgstr "Du musst ein Panel auswählen, das dem Dashboard hinzugefügt werden soll."
 
 
-#, fuzzy
 msgid "You must choose a valid panel."
-msgstr "Du mußt ein Passwort wählen"
+msgstr "Du musst ein gültiges Panel auswählen."
 
 
 msgid "Choose a panel to add to this dashboard:"
@@ -17871,32 +17858,28 @@ msgstr "Ein Panel auswählen, das diesem Dashboard hinzugefügt werden soll:"
 msgid "Panel"
 msgstr "Panel"
 
-#, fuzzy, php-format
+#, php-format
 msgid "Remove panel %s from dashboard %s?"
-msgstr "Eine Kopie des Dashboards \"%s\" erstellen?"
+msgstr "Panel %s von Dashboard %s entfernen?"
 
 
-#, fuzzy
 msgid "Remove Dashboard Panel"
-msgstr "Neues Dashboard Panel"
+msgstr "Dashboard-Panel entfernen"
 
 
 msgid "Remove Panel"
 msgstr "Panel entfernen"
 
-#, fuzzy
 msgid "Activate Dashboard"
-msgstr "Dashboard erzeugen"
+msgstr "Dashboard aktivieren"
 
 
-#, fuzzy
 msgid "This dashboard will become active again."
-msgstr "Diese Regel wird dann wieder aktiv sein."
+msgstr "Dieses Dashboard wird wieder aktiv."
 
 
-#, fuzzy
 msgid "Archive Dashboard"
-msgstr "Zeige Dashboard"
+msgstr "Dashboard archivieren"
 
 
 msgid "This dashboard will be marked as archived."
@@ -17918,9 +17901,8 @@ msgstr "Dieses Dashboard wurde noch keinen Menüs hinzugefügt."
 msgid "Menu"
 msgstr "Menü"
 
-#, fuzzy
 msgid "Global/Personal"
-msgstr "Persönlich"
+msgstr "Global/Persönlich"
 
 
 msgid "Dashboard Used By"
@@ -17933,7 +17915,7 @@ msgstr "Panel aktivieren?"
 msgid ""
 "This panel will be reactivated and appear in other interfaces as an active "
 "panel."
-msgstr ""
+msgstr "Dieses Panel wird wieder aktiviert und erscheint in anderen Ansichten als aktives Panel."
 
 msgid "Activate Panel"
 msgstr "Panel aktivieren"
@@ -17950,9 +17932,8 @@ msgstr ""
 msgid "Archive Panel"
 msgstr "Panel archivieren"
 
-#, fuzzy
 msgid "Choose Panel Type"
-msgstr "Panel-Typ"
+msgstr "Panel-Typ auswählen"
 
 
 msgid "Create Panel"
@@ -17964,25 +17945,23 @@ msgstr "Erforderlicher Parameter `parentPanelPHIDs` ist in der Anfrage nicht vor
 msgid "Standalone View"
 msgstr "Eigenständige Ansicht"
 
-#, fuzzy
 msgid "Adjacent Tab Not Found"
-msgstr "Seite nicht gefunden"
+msgstr "Benachbarter Tab nicht gefunden"
 
 
 #, php-format
 msgid ""
 "Adjacent tab (\"%s\") was not found on this panel. It may have been removed."
-msgstr ""
+msgstr "Benachbarter Tab („%s\") wurde auf diesem Panel nicht gefunden. Er wurde möglicherweise entfernt."
 
-#, fuzzy
 msgid "Target Tab Not Found"
-msgstr "Seite nicht gefunden"
+msgstr "Ziel-Tab nicht gefunden"
 
 
 #, php-format
 msgid ""
 "Target tab (\"%s\") was not found on this panel. It may have been removed."
-msgstr ""
+msgstr "Ziel-Tab („%s\") wurde auf diesem Panel nicht gefunden. Er wurde möglicherweise entfernt."
 
 msgid "Context Object Unsupported"
 msgstr "Kontextobjekt nicht unterstützt"
@@ -17991,55 +17970,46 @@ msgstr "Kontextobjekt nicht unterstützt"
 msgid ""
 "Context object (\"%s\") has unsupported type. Panels should be rendered from "
 "the context of a dashboard or another panel."
-msgstr ""
+msgstr "Kontextobjekt („%s\") hat einen nicht unterstützten Typ. Panele sollten aus dem Kontext eines Dashboards oder eines anderen Panels heraus dargestellt werden."
 
-#, fuzzy
 msgid "You must select a valid panel."
-msgstr "Du mußt eine Datei zum Hochladen auswählen."
+msgstr "Du musst ein gültiges Panel auswählen."
 
 
-#, fuzzy
 msgid "Choose Dashboard Panel"
-msgstr "Neues Dashboard Panel"
+msgstr "Dashboard-Panel auswählen"
 
 
-#, fuzzy
 msgid "Remove tab?"
-msgstr "Entfernen"
+msgstr "Tab entfernen?"
 
 
-#, fuzzy
 msgid "Really remove this tab?"
-msgstr "Diesen Kommentar wirklich entfernen?"
+msgstr "Diesen Tab wirklich entfernen?"
 
 
-#, fuzzy
 msgid "Remove Tab"
-msgstr "Entfernen"
+msgstr "Tab entfernen"
 
 
 msgid "Tab Name"
 msgstr "Tab-Name"
 
 
-#, fuzzy
 msgid "Rename Panel"
-msgstr "Panel entfernen"
+msgstr "Panel umbenennen"
 
 
-#, fuzzy
 msgid "Rename Tab"
-msgstr "Namenloser Reiter"
+msgstr "Tab umbenennen"
 
 
-#, fuzzy
 msgid "Impossible!"
-msgstr "Unsichtbar"
+msgstr "Unmöglich!"
 
 
-#, fuzzy
 msgid "You can not move a tab relative to itself."
-msgstr "Du kannst kein Mitleser für Änderungen dieses Objektes werden."
+msgstr "Ein Tab kann nicht relativ zu sich selbst verschoben werden."
 
 
 msgid "This is already the last tab. It can not move any farther to the right."
@@ -18054,23 +18024,20 @@ msgstr "Diesen Tab nach rechts verschieben?"
 msgid "Move this tab to the left?"
 msgstr "Diesen Tab nach links verschieben?"
 
-#, fuzzy
 msgid "Move Tab"
-msgstr "Weggeschoben"
+msgstr "Tab verschieben"
 
 
 msgid "Edit Panel"
 msgstr "Panel ändern"
 
-#, fuzzy
 msgid ""
 "This panel is not used on any dashboard or inside any other panel container."
-msgstr "Dieses Panel erscheint bis jetzt auf keinem Dashboard."
+msgstr "Dieses Panel wird auf keinem Dashboard und in keinem anderen Panel-Container verwendet."
 
 
-#, fuzzy
 msgid "Panel Used By"
-msgstr "Panele"
+msgstr "Verwendet von"
 
 
 #, php-format
@@ -18080,22 +18047,20 @@ msgstr "Individuelle Abfrage (\"%s\")"
 msgid "(None)"
 msgstr "(Nichts)"
 
-#, fuzzy
 msgid "Edit Dashboards"
-msgstr "Dashboard ändern"
+msgstr "Dashboards bearbeiten"
 
 
-#, fuzzy
 msgid "This engine is used to modify dashboards."
-msgstr "Dieses Panel erscheint bis jetzt auf keinem Dashboard."
+msgstr "Diese Engine wird zum Bearbeiten von Dashboards verwendet."
 
 
 msgid "Create Dashboard"
 msgstr "Dashboard erzeugen"
 
-#, fuzzy, php-format
+#, php-format
 msgid "Edit Dashboard: %s"
-msgstr "Dashboard \"%s\" ändern"
+msgstr "Dashboard bearbeiten: %s"
 
 
 msgid "Name of the dashboard."
@@ -18106,24 +18071,20 @@ msgid "Rename the dashboard."
 msgstr "Dashboard umbenennen."
 
 
-#, fuzzy
 msgid "New dashboard name."
-msgstr "Zeige Dashboard"
+msgstr "Neuer Dashboard-Name."
 
 
-#, fuzzy
 msgid "Dashboard icon."
-msgstr "Dashboard"
+msgstr "Dashboard-Icon."
 
 
-#, fuzzy
 msgid "Change the dashboard icon."
-msgstr "Ändere den Status einer Aufgabe."
+msgstr "Das Dashboard-Icon ändern."
 
 
-#, fuzzy
 msgid "New dashboard icon."
-msgstr "Zeige Dashboard"
+msgstr "Neues Dashboard-Icon."
 
 
 msgid "Layout"
@@ -18142,9 +18103,8 @@ msgstr "Neuer Dashboard-Layout-Modus."
 msgid "Dashboard Panels"
 msgstr "Dashboard Panele"
 
-#, fuzzy
 msgid "Edit Dashboard Panels"
-msgstr "Dashboard Panele"
+msgstr "Dashboard-Panele bearbeiten"
 
 
 msgid "This engine is used to modify dashboard panels."
@@ -18158,46 +18118,40 @@ msgid "Edit Panel: %s"
 msgstr "Panel bearbeiten: %s"
 
 
-#, fuzzy
 msgid "Dashboard Panel"
-msgstr "Dashboard Panele"
+msgstr "Dashboard-Panel"
 
 
-#, fuzzy
 msgid "Name of the panel."
-msgstr "Wähle ein Panel"
+msgstr "Name des Panels."
 
 
 msgid "Rename the panel."
 msgstr "Panel umbenennen."
 
 
-#, fuzzy
 msgid "New panel name."
-msgstr "Neuer Benutzername"
+msgstr "Neuer Panel-Name."
 
 
-#, fuzzy
 msgid "Edit Portals"
-msgstr "Beitrag ändern"
+msgstr "Portale bearbeiten"
 
 
 msgid "This engine is used to modify portals."
 msgstr "Diese Engine wird zum Ändern von Portalen verwendet."
 
-#, fuzzy
 msgid "Create Portal"
-msgstr "Neuer Beitrag"
+msgstr "Portal erstellen"
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "Edit Portal: %s"
-msgstr "Prüfer: %s"
+msgstr "Portal bearbeiten: %s"
 
 
-#, fuzzy
 msgid "Edit Portal"
-msgstr "Beitrag ändern"
+msgstr "Portal bearbeiten"
 
 
 msgid "Portal"
@@ -18209,28 +18163,25 @@ msgstr "Name des Portals."
 msgid "Rename the portal."
 msgstr "Portal umbenennen."
 
-#, fuzzy
 msgid "New portal name."
-msgstr "Neuer Benutzername"
+msgstr "Neuer Portal-Name."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s created this portal."
-msgstr "%s hat diese Abstimmung erstellt."
+msgstr "%s hat dieses Portal erstellt."
 
 
 msgid "Restricted Panel"
 msgstr "Eingeschränktes Panel"
 
 
-#, fuzzy
 msgid "You do not have permission to see this panel."
-msgstr "Du hast keine Berechtigung, um Zonen zu erzeugen."
+msgstr "Du hast keine Berechtigung, dieses Panel zu sehen."
 
 
-#, fuzzy
 msgid "Invalid Panel"
-msgstr "Ungültiges Datum."
+msgstr "Ungültiges Panel"
 
 
 msgid "This panel is invalid or does not exist. It may have been deleted."
@@ -18244,19 +18195,16 @@ msgstr "Dieses Panel hat den Typ \\\"%s\\\", aber dieser Panel-Typ ist unbekannt
 msgid "%s %s"
 msgstr "%s %s"
 
-#, fuzzy
 msgid "<Rendering Exception>"
-msgstr "Unerwarteter Fehler"
+msgstr "<Rendering-Ausnahme>"
 
 
-#, fuzzy
 msgid "View Panel Details"
-msgstr "Änderungen im Detail"
+msgstr "Panel-Details anzeigen"
 
 
-#, fuzzy
 msgid "Manage Panel"
-msgstr "Panele Verwalten"
+msgstr "Panel verwalten"
 
 
 #, fuzzy, php-format
@@ -18272,24 +18220,17 @@ msgid ""
 "You awake in a twisting maze of mirrors, all alike. You are likely to be "
 "eaten by a graph cycle. Should you escape alive, you resolve to be more "
 "careful about putting dashboard panels inside themselves."
-msgstr ""
-"Du schläfst ein und wachst in einem bizarren Spiegellabyrinth auf, in dem "
-"sich alle Spiegel irgendwie ähneln. Du weißt jetzt schon: Du wirst aller "
-"Wahrscheinlichkeit nach von einem zyklischen Graphen verspeist werden. "
-"Solltest Du wider Erwarten lebend rauskommen, versuchst Du in Zukunft keine "
-"Dashboard Panele mehr in sich selbst zu verschachteln."
+msgstr "Du erwachst in einem verworrenen Spiegellabyrinth, alle gleich. Du wirst wahrscheinlich von einem Graphzyklus aufgefressen. Solltest du lebend entkommen, nimmst du dir vor, vorsichtiger zu sein beim Einbetten von Dashboard-Panelen in sich selbst."
 
-#, fuzzy
 msgid "New Portal"
-msgstr "Neuer Beitrag"
+msgstr "Neues Portal"
 
 
 msgid "Use \"Edit Menu\" to add menu items to this portal."
 msgstr "\\\"Menü bearbeiten\\\" verwenden, um Menüelemente zu diesem Portal hinzuzufügen."
 
-#, fuzzy
 msgid "No Portal Content"
-msgstr "Dateiinhalt zeigen"
+msgstr "Kein Portal-Inhalt"
 
 
 msgid "None of the visible menu items in this portal can render any content."
@@ -18301,9 +18242,8 @@ msgstr "Diese Spalte enthält bis jetzt noch keine Panele."
 msgid "Add Existing Panel"
 msgstr "Ein verfügbares Panel hinzufügen"
 
-#, fuzzy
 msgid "Dashboard Panel Containers"
-msgstr "Dashboard Panele"
+msgstr "Dashboard-Panel-Container"
 
 
 msgid "Choose Dashboard Icon"
@@ -18316,9 +18256,8 @@ msgstr "Startseite"
 msgid "Blocks"
 msgstr "Verhindert"
 
-#, fuzzy
 msgid "Page Saver"
-msgstr "Seitenformat"
+msgstr "Lesezeichen"
 
 
 msgid "Knowledge"
@@ -18351,9 +18290,8 @@ msgstr "Wachsam bleiben"
 msgid "Metallica"
 msgstr "Metallica"
 
-#, fuzzy
 msgid "Corned Beef"
-msgstr "Registriert vor"
+msgstr "Corned Beef"
 
 
 msgid "Tasks"
@@ -18365,9 +18303,8 @@ msgstr "Wegfindung"
 msgid "Sports"
 msgstr "Sport"
 
-#, fuzzy
 msgid "Flag"
-msgstr "Markiert"
+msgstr "Flagge"
 
 
 msgid "Water Vessel"
@@ -18376,9 +18313,8 @@ msgstr "Wasserfahrzeug"
 msgid "Wireless"
 msgstr "Kabellos"
 
-#, fuzzy
 msgid "Announcement"
-msgstr "Dokument"
+msgstr "Ankündigung"
 
 
 msgid "Add to Favorites Menu"
@@ -18396,7 +18332,7 @@ msgstr "Zu persönlichen Favoriten hinzufügen"
 msgid ""
 "Add this dashboard to your list of personal favorite menu items, visible to "
 "only you."
-msgstr ""
+msgstr "Dieses Dashboard zur persönlichen Favoritenliste hinzufügen (nur für dich sichtbar)."
 
 msgid "Add to Global Favorites"
 msgstr "Zu globalen Favoriten hinzufügen"
@@ -18407,11 +18343,9 @@ msgstr "Dieses Dashboard zum globalen Favoritenmenü hinzufügen, das für alle 
 msgid "No Permission"
 msgstr "Keine Berechtigung"
 
-#, fuzzy
 msgid ""
 "You do not have permission to install items on the global favorites menu."
-msgstr ""
-"Dir fehlt die Berechtigung, globale Regeln zu erstellen oder zu ändern."
+msgstr "Du hast keine Berechtigung, Einträge zum globalen Favoritenmenü hinzuzufügen."
 
 
 msgid "Add Dashboard to Global Favorites"
@@ -18421,9 +18355,8 @@ msgstr "Dashboard zu globalen Favoriten hinzufügen"
 msgid "Add dashboard %s as a global menu item in the favorites menu?"
 msgstr "Dashboard %s als globales Menüelement im Favoritenmenü hinzufügen?"
 
-#, fuzzy
 msgid "Add to Favorites"
-msgstr "Senf dazugeben"
+msgstr "Zu Favoriten hinzufügen"
 
 
 msgid "Add Dashboard to Personal Favorites"
@@ -18433,14 +18366,12 @@ msgstr "Dashboard zu persönlichen Favoriten hinzufügen"
 msgid "Add dashboard %s as a personal menu item in the favorites menu?"
 msgstr "Dashboard %s als persönliches Menüelement im Favoritenmenü hinzufügen?"
 
-#, fuzzy
 msgid "Add to Home Page Menu"
-msgstr "Hauptseite"
+msgstr "Zum Startseiten-Menü hinzufügen"
 
 
-#, fuzzy
 msgid "Add this dashboard to the menu on the home page."
-msgstr "Dieses Dashboard als Deine Hauptseite setzen?"
+msgstr "Dieses Dashboard zum Menü auf der Startseite hinzufügen."
 
 
 msgid "Add Dashboard to Home Menu"
@@ -18452,7 +18383,7 @@ msgstr "Zum persönlichen Startmenü hinzufügen"
 msgid ""
 "Add this dashboard to your list of personal home menu items, visible to only "
 "you."
-msgstr ""
+msgstr "Dieses Dashboard zur persönlichen Startseiten-Menüliste hinzufügen (nur für dich sichtbar)."
 
 msgid "Add to Global Home Menu"
 msgstr "Zum globalen Startmenü hinzufügen"
@@ -18460,10 +18391,8 @@ msgstr "Zum globalen Startmenü hinzufügen"
 msgid "Add this dashboard to the global home menu, visible to all users."
 msgstr "Dieses Dashboard zum globalen Startmenü hinzufügen, das für alle Benutzer sichtbar ist."
 
-#, fuzzy
 msgid "You do not have permission to install items on the global home menu."
-msgstr ""
-"Dir fehlt die Berechtigung, globale Regeln zu erstellen oder zu ändern."
+msgstr "Du hast keine Berechtigung, Einträge zum globalen Startmenü hinzuzufügen."
 
 
 msgid "Add Dashboard to Global Home Page"
@@ -18473,9 +18402,8 @@ msgstr "Dashboard zur globalen Startseite hinzufügen"
 msgid "Add dashboard %s as a global menu item on the home page?"
 msgstr "Dashboard %s als globales Menüelement auf der Startseite hinzufügen?"
 
-#, fuzzy
 msgid "Add to Home"
-msgstr "Kommentar hinzufügen"
+msgstr "Zur Startseite hinzufügen"
 
 
 msgid "Add Dashboard to Personal Home Page"
@@ -18485,27 +18413,24 @@ msgstr "Dashboard zur persönlichen Startseite hinzufügen"
 msgid "Add dashboard %s as a personal menu item on your home page?"
 msgstr "Dashboard %s als persönliches Menüelement auf deiner Startseite hinzufügen?"
 
-#, fuzzy
 msgid "Choose a valid object."
-msgstr "Wähle ein Projekt"
+msgstr "Ein gültiges Objekt auswählen."
 
 
 msgid ""
 "You do not have permission to edit the selected object. You can only install "
 "dashboards on objects you can edit."
-msgstr ""
+msgstr "Du hast keine Berechtigung, das ausgewählte Objekt zu bearbeiten. Dashboards können nur auf Objekten installiert werden, die du bearbeiten darfst."
 
-#, fuzzy
 msgid "Choose an object to install this dashboard on."
-msgstr "Wo soll dieses Dashboard erscheinen?"
+msgstr "Ein Objekt auswählen, auf dem dieses Dashboard installiert werden soll."
 
 
 msgid "Add Dashboard to Project Menu"
 msgstr "Dashboard zum Projektmenü hinzufügen"
 
-#, fuzzy
 msgid "Add to Portal Menu"
-msgstr "Senf dazugeben"
+msgstr "Zum Portal-Menü hinzufügen"
 
 
 msgid "Add this dashboard to the menu on a portal."
@@ -18514,23 +18439,21 @@ msgstr "Dieses Dashboard zum Menü eines Portals hinzufügen."
 msgid "Add Dashboard to Portal Menu"
 msgstr "Dashboard zum Portalmenü hinzufügen"
 
-#, fuzzy, php-format
+#, php-format
 msgid "Add the dashboard %s to portal %s?"
-msgstr "%s hat Dashboard Panel %s erstellt."
+msgstr "Dashboard %s zu Portal %s hinzufügen?"
 
 
-#, fuzzy
 msgid "Add to Portal"
-msgstr "Senf dazugeben"
+msgstr "Zum Portal hinzufügen"
 
 
 #, php-format
 msgid "Select which portal you want to add the dashboard %s to."
 msgstr "Das Portal auswählen, dem das Dashboard %s hinzugefügt werden soll."
 
-#, fuzzy
 msgid "Add to Project Menu"
-msgstr "Projekt ändern"
+msgstr "Zum Projektmenü hinzufügen"
 
 
 msgid "Add this dashboard to the menu for a project."
@@ -18540,9 +18463,8 @@ msgstr "Dieses Dashboard zum Menü eines Projekts hinzufügen."
 msgid "Add the dashboard %s to the menu for project %s?"
 msgstr "Dashboard %s zum Menü für Projekt %s hinzufügen?"
 
-#, fuzzy
 msgid "Add to Project"
-msgstr "Projekt ändern"
+msgstr "Zum Projekt hinzufügen"
 
 
 #, php-format
@@ -18566,32 +18488,27 @@ msgid "Two Columns: 66%%/33%%"
 msgstr "Zwei Spalten: 66%%/33%%"
 
 
-#, fuzzy
 msgid "Manage Portal"
-msgstr "Panele Verwalten"
+msgstr "Portal verwalten"
 
 
-#, fuzzy
 msgid "Chart Panel"
-msgstr "Neues Panel"
+msgstr "Diagramm-Panel"
 
 
-#, fuzzy
 msgid "Show a chart."
-msgstr "Alle Änderungen zeigen."
+msgstr "Ein Diagramm anzeigen."
 
 
 msgid "Chart"
 msgstr "Diagramm"
 
-#, fuzzy
 msgid "no such chart!"
-msgstr "Panel existiert nicht!"
+msgstr "Kein solches Diagramm!"
 
 
-#, fuzzy
 msgid "View Chart"
-msgstr "Diagramm"
+msgstr "Diagramm anzeigen"
 
 
 msgid "Query Panel"
@@ -18600,9 +18517,7 @@ msgstr "Abfrage Panel"
 msgid ""
 "Show results of a search query, like the most recently filed tasks or "
 "revisions you need to review."
-msgstr ""
-"Zeige das Ergebnis von Suchabfragen, wie die kürzlich erzeugten Aufgaben "
-"oder Versionen, die Du bearbeiten solltest."
+msgstr "Ergebnisse einer Suchabfrage anzeigen, z. B. zuletzt erstellte Aufgaben oder zur Überprüfung anstehende Revisionen."
 
 msgid "Search For"
 msgstr "Suche nach"
@@ -18610,9 +18525,8 @@ msgstr "Suche nach"
 msgid "Limit"
 msgstr "Limit"
 
-#, fuzzy
 msgid "You must log in to access this panel."
-msgstr "Um weiterzumachen, muß Du angemeldet sein."
+msgstr "Du musst angemeldet sein, um auf dieses Panel zugreifen zu können."
 
 
 #, php-format
@@ -18631,11 +18545,10 @@ msgstr "Die Anwendungssuchmaschine \\\"%s\\\" ist unbekannt."
 msgid ""
 "Application search engines of class \"%s\" can not be used to build "
 "dashboard panels."
-msgstr ""
+msgstr "Suchanbieter der Klasse „%s\" können nicht zum Erstellen von Dashboard-Panelen verwendet werden."
 
-#, fuzzy
 msgid "Customize Query"
-msgstr "Angepasst"
+msgstr "Abfrage anpassen"
 
 
 msgid "Tab Panel"
@@ -18644,9 +18557,8 @@ msgstr "Reiter-Panel"
 msgid "Use tabs to switch between several other panels."
 msgstr "Tabs verwenden, um zwischen verschiedenen anderen Panels zu wechseln."
 
-#, fuzzy
 msgid "Unnamed Tab"
-msgstr "Unbenannte Spalte"
+msgstr "Unbenannter Tab"
 
 
 msgid "Move Tab Left"
@@ -18655,9 +18567,8 @@ msgstr "Tab nach links verschieben"
 msgid "Move Tab Right"
 msgstr "Tab nach rechts verschieben"
 
-#, fuzzy
 msgid "Add Tab..."
-msgstr "Neue Aufgabe"
+msgstr "Tab hinzufügen..."
 
 
 msgid "(Invalid Panel)"
@@ -18666,26 +18577,21 @@ msgstr "(Ungültiges Panel)"
 msgid ""
 "This tab panel does not have any tabs yet. Use \"Add Tab...\" to create or "
 "place a tab."
-msgstr ""
+msgstr "Dieses Tab-Panel hat noch keine Tabs. Mit „Tab hinzufügen...\" einen Tab erstellen oder hinzufügen."
 
-#, fuzzy
 msgid "This tab panel does not have any tabs yet."
-msgstr "Diese Spalte enthält bis jetzt noch keine Panele."
+msgstr "Dieses Tab-Panel hat noch keine Tabs."
 
 
 msgid "Text Panel"
 msgstr "Text-Panel"
 
-#, fuzzy
 msgid "Add a text panel to the dashboard to provide instructions or context."
-msgstr ""
-"Füge eine allgemeine Beschreibung zum Dashboard hinzu. Das können "
-"Anweisungen sein oder etwas mehr Kontext."
+msgstr "Einen Text-Panel zum Dashboard hinzufügen, um Anleitungen oder Kontext bereitzustellen."
 
 
-#, fuzzy
 msgid "Authored By"
-msgstr "Autoren"
+msgstr "Erstellt von"
 
 
 msgid "Panel Type"
@@ -18703,27 +18609,23 @@ msgstr "Unbekannter Typ"
 msgid "No panels found."
 msgstr "Keine Panels gefunden."
 
-#, fuzzy
 msgid "Create a Panel"
-msgstr "Neues Panel"
+msgstr "Panel erstellen"
 
 
 msgid "Build individual panels to display on your homepage dashboard."
 msgstr "Einzelne Panels erstellen, die auf dem Startseiten-Dashboard angezeigt werden."
 
-#, fuzzy
 msgid "All Portals"
-msgstr "Alle Beiträge"
+msgstr "Alle Portale"
 
 
-#, fuzzy
 msgid "No portals found."
-msgstr "Eine Umfragen gefunden."
+msgstr "Keine Portale gefunden."
 
 
-#, fuzzy
 msgid "Active Dashboards"
-msgstr "Alle Dashboards"
+msgstr "Aktive Dashboards"
 
 
 msgid "All Dashboards"
@@ -18756,73 +18658,66 @@ msgstr "Archivierte Panele"
 msgid ""
 "Attempting to use a panel in a way that requires an implementation, but the "
 "panel implementation (\"%s\") is unknown."
-msgstr ""
+msgstr "Es wird versucht, ein Panel auf eine Weise zu verwenden, die eine Implementierung erfordert, aber die Panel-Implementierung („%s\") ist unbekannt."
 
 #, php-format
 msgid "Portal %d"
 msgstr "Portal %d"
 
-#, fuzzy
 msgid "Browse Dashboards"
-msgstr "Dashboards"
+msgstr "Dashboards durchsuchen"
 
 
-#, fuzzy
 msgid "Type a dashboard name..."
-msgstr "Einen Symbolnamen eintippen..."
+msgstr "Dashboard-Namen eingeben..."
 
 
-#, fuzzy
 msgid "Browse Dashboard Panels"
-msgstr "Dashboard Panele"
+msgstr "Dashboard-Panele durchsuchen"
 
 
-#, fuzzy
 msgid "Type a panel name..."
-msgstr "Einen Zonennamen eintippen..."
+msgstr "Panel-Namen eingeben..."
 
 
-#, fuzzy
 msgid "Browse Portals"
-msgstr "In Projekten suchen"
+msgstr "Portale durchsuchen"
 
 
-#, fuzzy
 msgid "Type a portal name..."
-msgstr "Projektnamen eintippen..."
+msgstr "Portal-Namen eingeben..."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s changed the icon for this dashboard from %s to %s."
-msgstr "%s hat den Namen des Termins von %s auf %s geändert."
+msgstr "%s hat das Icon dieses Dashboards von %s auf %s geändert."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s changed the layout mode for this dashboard from %s to %s."
-msgstr "%s hat den Namen des Termins von %s auf %s geändert."
+msgstr "%s hat den Layout-Modus dieses Dashboards von %s auf %s geändert."
 
 
 #, php-format
 msgid "Layout mode \"%s\" is not valid. Supported layout modes are: %s."
-msgstr "Layout-Modus \\\"%s\\\" ist ungültig. Unterstützte Layout-Modi: %s."
+msgstr "Layout-Modus „%s\" ist ungültig. Unterstützte Layout-Modi: %s."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s renamed this dashboard from %s to %s."
-msgstr "%s hat dieses Dashboard von \"%s\" nach \"%s\" umbenannt."
+msgstr "%s hat dieses Dashboard von „%s\" in „%s\" umbenannt."
 
 
-#, fuzzy
 msgid "Dashboards must have a name."
-msgstr "Zonen müssen einen Namen haben"
+msgstr "Dashboards müssen einen Namen haben."
 
 
 #, php-format
 msgid "Dashboard names must not be longer than %s characters."
 msgstr "Dashboard-Namen dürfen nicht länger als %s Zeichen sein."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s changed the panels on this dashboard."
-msgstr "%s hat dieses Dashboard erzeugt."
+msgstr "%s hat die Panele dieses Dashboards geändert."
 
 
 msgid "Panels must be a list of panel specifications."
@@ -18835,7 +18730,7 @@ msgstr "Panels müssen eine Liste sein, keine Zuordnung."
 msgid ""
 "Each panel specification must be a map of panel attributes. Panel "
 "specification at index \"%s\" is \"%s\"."
-msgstr ""
+msgstr "Jede Panel-Spezifikation muss eine Zuordnung von Panel-Attributen sein. Panel-Spezifikation an Index „%s\" ist „%s\"."
 
 #, php-format
 msgid "Panel specification at index \"%s\" is invalid: %s"
@@ -18845,35 +18740,35 @@ msgstr "Panel-Spezifikation bei Index \\\"%s\\\" ist ungültig: %s"
 msgid ""
 "Panel specification at index \"%s\" has bad panel key \"%s\". Panel keys "
 "must be nonempty."
-msgstr ""
+msgstr "Panel-Spezifikation an Index „%s\" hat einen ungültigen Panel-Schlüssel „%s\". Panel-Schlüssel dürfen nicht leer sein."
 
 #, php-format
 msgid ""
 "Panel specification at index \"%s\" has duplicate panel key \"%s\". Each "
 "panel must have a unique panel key."
-msgstr ""
+msgstr "Panel-Spezifikation an Index „%s\" hat einen doppelten Panel-Schlüssel „%s\". Jedes Panel muss einen eindeutigen Schlüssel haben."
 
 #, php-format
 msgid ""
 "Panel specification at index \"%s\" has bad column key \"%s\", valid column "
 "keys are: %s."
-msgstr ""
+msgstr "Panel-Spezifikation an Index „%s\" hat einen ungültigen Spalten-Schlüssel „%s\". Gültige Spalten-Schlüssel sind: %s."
 
 #, php-format
 msgid ""
 "Panel specification adds panel \"%s\", but this is not a valid panel or not "
 "a visible panel. You can only add valid panels which you have permission to "
 "see to a dashboard."
-msgstr ""
+msgstr "Die Panel-Spezifikation fügt Panel „%s\" hinzu, aber dies ist kein gültiges oder sichtbares Panel. Einem Dashboard können nur gültige Panele hinzugefügt werden, für die eine Leseberechtigung besteht."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s activated this dashboard."
-msgstr "%s hat dieses Dashboard erzeugt."
+msgstr "%s hat dieses Dashboard aktiviert."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s archived this dashboard."
-msgstr "%s hat dieses Dashboard erzeugt."
+msgstr "%s hat dieses Dashboard archiviert."
 
 
 #, php-format
@@ -18884,16 +18779,15 @@ msgstr "Status \\\"%s\\\" ist ungültig. Unterstützte Statuskonstanten: %s."
 msgid ""
 "Chart with this key does not exist. A chart must be specified by its %d "
 "character long key."
-msgstr ""
+msgstr "Ein Diagramm mit diesem Schlüssel existiert nicht. Ein Diagramm muss über seinen %d Zeichen langen Schlüssel angegeben werden."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s renamed this panel from %s to %s."
-msgstr "%s hat dieses Panel von \"%s\" nach \"%s\" umbenannt."
+msgstr "%s hat dieses Panel von „%s\" in „%s\" umbenannt."
 
 
-#, fuzzy
 msgid "Panels must have a title."
-msgstr "Zonen müssen einen Namen haben"
+msgstr "Panele müssen einen Titel haben."
 
 
 #, php-format
@@ -18912,24 +18806,23 @@ msgstr "%s hat dieses Panel aktiviert."
 msgid ""
 "Application search engine class \"%s\" is unknown. Query panels must use a "
 "known search engine class."
-msgstr ""
+msgstr "Suchanbieter-Klasse „%s\" ist unbekannt. Abfrage-Panele müssen eine bekannte Suchanbieter-Klasse verwenden."
 
 msgid "Query result limit must be empty, or at least 1."
 msgstr "Abfrageergebnis-Limit muss leer oder mindestens 1 sein."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s updated the panel text."
-msgstr "%s hat den Text des Dokumentes geändert."
+msgstr "%s hat den Panel-Text aktualisiert."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s renamed this portal from %s to %s."
-msgstr "%s hat dieses Panel von \"%s\" nach \"%s\" umbenannt."
+msgstr "%s hat dieses Portal von „%s\" in „%s\" umbenannt."
 
 
-#, fuzzy
 msgid "Portals must have a title."
-msgstr "Produkte müssen Namen haben"
+msgstr "Portale müssen einen Titel haben."
 
 
 #, php-format
