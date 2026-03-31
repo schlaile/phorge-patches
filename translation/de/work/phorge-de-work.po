@@ -2167,9 +2167,9 @@ msgstr "Nachrichten"
 msgid "Specify a user to notify with \"--user\"."
 msgstr "Einen zu benachrichtigenden Benutzer mit \\\"--user\\\" angeben."
 
-#, fuzzy, php-format
+#, php-format
 msgid "No user with username \"%s\" exists."
-msgstr "Benutzer mit dem Namen \"%s\" existiert nicht!"
+msgstr "Es gibt keinen Benutzer mit dem Benutzernamen „%s\"."
 
 
 msgid "Specify a message to send with \"--message\"."
@@ -50961,9 +50961,8 @@ msgstr "Du hast leider keine Berechtigung, dieses Objekt zu verändern."
 msgid "Can Interact"
 msgstr "Kann interagieren"
 
-#, fuzzy
 msgid "You do not have permission to interact with this object."
-msgstr "Du hast leider keine Berechtigung, dieses Objekt anzusehen."
+msgstr "Du hast keine Berechtigung, mit diesem Objekt zu interagieren."
 
 
 msgid "Can Join"
@@ -50979,32 +50978,29 @@ msgstr "Darf sehen"
 msgid "You do not have permission to view this object."
 msgstr "Du hast leider keine Berechtigung, dieses Objekt anzusehen."
 
-#, fuzzy
 msgid "Effective Policy"
-msgstr "Richtlinie speichern"
+msgstr "Effektive Richtlinie"
 
 
-#, fuzzy
 msgid "Can Create Named Policies"
-msgstr "Darf Zonen erzeugen"
+msgstr "Darf Benannte Richtlinien erstellen"
 
 
-#, fuzzy
 msgid "You do not have permission to create named policies."
-msgstr "Du hast keine Berechtigung, um neue Projekt zu erstellen."
+msgstr "Du hast keine Berechtigung, Benannte Richtlinien zu erstellen."
 
 
 #, php-format
 msgid ""
 "Object (of class \"%s\") implements interface \"%s\", but must also "
 "implement interface \"%s\"."
-msgstr ""
+msgstr "Objekt (der Klasse „%s\") implementiert das Interface „%s\", muss aber auch das Interface „%s\" implementieren."
 
 #, php-format
 msgid ""
 "Object (of class \"%s\") implements interface \"%s\", but defines method "
 "\"%s\" incorrectly: this method must return an object of class \"%s\"."
-msgstr ""
+msgstr "Objekt (der Klasse „%s\") implementiert das Interface „%s\", definiert aber die Methode „%s\" falsch: Diese Methode muss ein Objekt der Klasse „%s\" zurückgeben."
 
 msgid "Options relating to object visibility."
 msgstr "Optionen zur Objektsichtbarkeit."
@@ -51035,6 +51031,13 @@ msgid ""
 "most open policy is 'All Users' (which means users must have accounts and be "
 "logged in to view things)."
 msgstr ""
+"Diese Software ermöglicht es, die Sichtbarkeit von Objekten (wie Repositories und Aufgaben) auf 'Öffentlich' zu setzen, was bedeutet, dass **jeder im Internet sie einsehen kann, ohne sich anmelden oder ein Konto benötigen zu müssen**.\n"
+"\n"
+"Dies ist für Open-Source-Projekte gedacht. Viele Installationen werden nie etwas öffentlich machen wollen, daher ist diese Richtlinie standardmäßig deaktiviert. Hier kann sie aktiviert werden, um die Richtlinie für Objekte auf 'Öffentlich' zu setzen.\n"
+"\n"
+"Das Aktivieren dieser Einstellung öffnet sofort einige Funktionen, wie das Benutzerverzeichnis. Jeder im Internet kann dann auf diese Funktionen zugreifen.\n"
+"\n"
+"Wenn diese Einstellung deaktiviert ist, ist die Richtlinie 'Öffentlich' nicht verfügbar, und die offenste Richtlinie ist 'Alle Benutzer' (d. h. Benutzer müssen ein Konto haben und angemeldet sein, um Inhalte ansehen zu können)."
 
 msgid "Lock specific application policies so they can not be edited."
 msgstr "Bestimmte Anwendungsrichtlinien sperren, damit sie nicht bearbeitet werden können."
@@ -51046,6 +51049,9 @@ msgid ""
 "This setting allows for \"locking\" these policies such that no further "
 "edits can be made on a per-policy basis."
 msgstr ""
+"Diese Software verfügt über Anwendungsrichtlinien, die festlegen können, ob Benutzer bestimmte Aktionen ausführen dürfen, z. B. neue Benutzer anlegen.\n"
+"\n"
+"Mit dieser Einstellung können diese Richtlinien „gesperrt\" werden, sodass keine weiteren Änderungen auf Richtlinienebene vorgenommen werden können."
 
 msgid "Lock Create User Policy To Admins"
 msgstr "Benutzer-Erstellen-Richtlinie auf Administratoren beschränken"
@@ -51081,17 +51087,15 @@ msgstr "Erweitert"
 msgid "Members of Project..."
 msgstr "Mitglieder eines Projekts..."
 
-#, fuzzy
 msgid "Named Policies"
-msgstr "Benutzer-Policies"
+msgstr "Benannte Richtlinien"
 
 
 msgid "Other Policies"
 msgstr "Andere Richtlinien"
 
-#, fuzzy
 msgid "Named Policy"
-msgstr "Richtlinie speichern"
+msgstr "Benannte Richtlinie"
 
 
 msgid "Deny"
@@ -51138,45 +51142,39 @@ msgid "You must choose a project."
 msgstr "Du musst ein Projekt auswählen."
 
 
-#, fuzzy
 msgid "Members Of"
-msgstr "Mitglieder"
+msgstr "Mitglieder von"
 
 
-#, fuzzy
 msgid "Select Project"
-msgstr "Releeph Projekt"
+msgstr "Projekt auswählen"
 
 
-#, fuzzy
 msgid "You must choose a policy."
-msgstr "Du mußt ein Passwort wählen"
+msgstr "Du musst eine Richtlinie wählen."
 
 
-#, fuzzy
 msgid "Select Named Policy"
-msgstr "Richtlinie speichern"
+msgstr "Benannte Richtlinie auswählen"
 
 
 #, php-format
 msgid "Policy Details: %s"
 msgstr "Richtlinien-Details: %s"
 
-#, fuzzy
 msgid "Spaces Documentation"
-msgstr "Dokument speichern"
+msgstr "Zonen-Dokumentation"
 
 
-#, fuzzy
 msgid "Space:"
-msgstr "Zonen"
+msgstr "Zone:"
 
 
 #, php-format
 msgid ""
 "This object is in %s and can only be seen or edited by users with access to "
 "view objects in the space."
-msgstr ""
+msgstr "Dieses Objekt befindet sich in %s und kann nur von Benutzern gesehen oder bearbeitet werden, die Zugriff auf Objekte in dieser Zone haben."
 
 msgid "Users who can see objects in this space:"
 msgstr "Benutzer, die Objekte in diesem Bereich sehen können:"
@@ -51186,12 +51184,12 @@ msgid ""
 "The space this object is in has a more restrictive view policy (\"%s\") than "
 "the object does (\"%s\"), so the space's view policy is shown as a hint "
 "instead of the object policy."
-msgstr ""
+msgstr "Die Zone, in der sich dieses Objekt befindet, hat eine restriktivere Anzeigerichtlinie („%s\") als das Objekt selbst („%s\"). Daher wird die Anzeigerichtlinie der Zone als Hinweis angezeigt."
 
 msgid ""
 "After a user passes space policy checks, they must still pass object policy "
 "checks."
-msgstr ""
+msgstr "Nachdem ein Benutzer die Zonenrichtlinienprüfungen bestanden hat, muss er noch die Objektrichtlinienprüfungen bestehen."
 
 msgid "Required Capabilities on Other Objects"
 msgstr "Erforderliche Fähigkeiten auf anderen Objekten"
@@ -51199,48 +51197,42 @@ msgstr "Erforderliche Fähigkeiten auf anderen Objekten"
 msgid ""
 "To access this object, users must have first have access capabilities on "
 "these other objects:"
-msgstr ""
+msgstr "Um auf dieses Objekt zugreifen zu können, müssen Benutzer zunächst Zugriffsrechte auf folgende andere Objekte haben:"
 
-#, fuzzy
 msgid "Special Rules"
-msgstr "Herald Regeln"
+msgstr "Besondere Regeln"
 
 
 msgid ""
 "This object has special rules which override normal object policy rules:"
-msgstr ""
+msgstr "Dieses Objekt hat besondere Regeln, die die normalen Objektrichtlinien überschreiben:"
 
-#, fuzzy
 msgid "Object Policy"
-msgstr "Objekt PHID"
+msgstr "Objektrichtlinie"
 
 
 msgid ""
 "In detail, this means that these users can take this action, provided they "
 "pass all of the checks described above first:"
-msgstr ""
+msgstr "Im Einzelnen bedeutet das, dass diese Benutzer die Aktion ausführen können, sofern sie alle zuvor beschriebenen Prüfungen bestehen:"
 
-#, fuzzy
 msgid "Edit Named Policy"
-msgstr "Richtlinie ändern"
+msgstr "Benannte Richtlinie bearbeiten"
 
 
-#, fuzzy
 msgid "All object types"
 msgstr "Alle Objekttypen"
 
 
-#, fuzzy
 msgid "Applicable To"
-msgstr "Anwendung"
+msgstr "Anwendbar auf"
 
 
 msgid "Controls who can view the object."
 msgstr "Legt fest, wer das Objekt ansehen kann."
 
-#, fuzzy
 msgid "Change the view policy of the object."
-msgstr "Ändere die Priorität einer Aufgabe."
+msgstr "Die Anzeigerichtlinie des Objekts ändern."
 
 
 msgid "Edit Policy"
@@ -51253,9 +51245,8 @@ msgid "Change the edit policy of the object."
 msgstr "Bearbeitungsrichtlinie des Objekts ändern."
 
 
-#, fuzzy
 msgid "Join Policy"
-msgstr "Richtlinie ändern"
+msgstr "Beitrittsrichtlinie"
 
 
 msgid "Controls who can join the object."
@@ -51265,22 +51256,19 @@ msgid "Change the join policy of the object."
 msgstr "Beitrittsrichtlinie des Objekts ändern."
 
 
-#, fuzzy
 msgid "Interact Policy"
-msgstr "Veränderte Rechte"
+msgstr "Interaktionsrichtlinie"
 
 
 msgid "Controls who can interact with the object."
 msgstr "Legt fest, wer mit dem Objekt interagieren kann."
 
-#, fuzzy
 msgid "Change the interaction policy of the object."
-msgstr "Ändere die Priorität einer Aufgabe."
+msgstr "Die Interaktionsrichtlinie des Objekts ändern."
 
 
-#, fuzzy
 msgid "Select a space for the object."
-msgstr "Hinzuzufügendes Panel auswählen"
+msgstr "Eine Zone für das Objekt auswählen."
 
 
 msgid "Shift the object between spaces."
@@ -51289,14 +51277,13 @@ msgstr "Objekt zwischen Bereichen verschieben."
 msgid "New space PHID."
 msgstr "PHID des neuen Bereichs."
 
-#, fuzzy, php-format
+#, php-format
 msgid "Edit %s: %s"
-msgstr "Ändere %s %s"
+msgstr "%s bearbeiten: %s"
 
 
-#, fuzzy
 msgid "Name of the Policy."
-msgstr "Richtlinie speichern"
+msgstr "Name der Richtlinie."
 
 
 msgid "Rename the policy."
@@ -51312,10 +51299,14 @@ msgid ""
 "You may need to save the Named Policy and edit it again for changes to take "
 "effect."
 msgstr ""
+"Der Typ der Objekte, auf die diese Richtlinie angewendet werden kann. Wenn gesetzt, kann diese Richtlinie nur auf Objekte dieses Typs angewendet werden, aber Objektregeln für diesen Typ nutzen.\n"
+"\n"
+"Wenn nicht gesetzt, kann diese Richtlinie auf beliebige Objekte angewendet werden.\n"
+"\n"
+"Möglicherweise muss die Benannte Richtlinie gespeichert und erneut bearbeitet werden, damit Änderungen wirksam werden."
 
-#, fuzzy
 msgid "Target Object Type"
-msgstr "Objekttyp"
+msgstr "Zielobjekttyp"
 
 
 msgid ""
@@ -51325,20 +51316,21 @@ msgid ""
 "**Visible To** and **Editable By** are the policies controlling access to "
 "the Named Policy itself."
 msgstr ""
+"Wenn diese Richtlinie für andere Objekte ausgewählt wird, verhält sie sich wie die **Effektive Richtlinie**.\n"
+"\n"
+"**Sichtbar für** und **Bearbeitbar von** sind die Richtlinien, die den Zugriff auf die Benannte Richtlinie selbst steuern."
 
 #, php-format
 msgid "Named Policy %d: %s"
 msgstr "Benannte Richtlinie %d: %s"
 
 
-#, fuzzy
 msgid "POLICY DETAIL"
-msgstr "ENTWURF DETAIL"
+msgstr "RICHTLINIENDETAIL"
 
 
-#, fuzzy
 msgid "[Policy]"
-msgstr "Richtlinie"
+msgstr "[Richtlinie]"
 
 
 msgid "Support for Policies"
@@ -51352,19 +51344,19 @@ msgstr "Zuordnung von Fähigkeiten zu aktuellen Richtlinien."
 msgid ""
 "You can not make that edit, because it would remove your ability to '%s' the "
 "object."
-msgstr ""
+msgstr "Diese Bearbeitung ist nicht möglich, da sie die eigene Berechtigung zum „%s\" des Objekts entziehen würde."
 
 #, php-format
 msgid ""
 "Testing for capability \"%s\" on an object (\"%s\") which does not support "
 "that capability."
-msgstr ""
+msgstr "Fähigkeitsprüfung für „%s\" auf einem Objekt („%s\"), das diese Fähigkeit nicht unterstützt."
 
 #, php-format
 msgid ""
 "You do not have the required capability (\"%s\") to do whatever you are "
 "trying to do."
-msgstr ""
+msgstr "Du besitzt nicht die erforderliche Fähigkeit („%s\") für die gewünschte Aktion."
 
 #, php-format
 msgid "[%s] (%s) %s // %s"
@@ -51385,13 +51377,13 @@ msgstr "Dieses Objekt befindet sich in einem Bereich, auf den Du keinen Zugriff 
 msgid ""
 "Capability \"%s\" for user \"%s\" on object \"%s\" is being resolved, but "
 "was never queued with \"addCapability()\"."
-msgstr ""
+msgstr "Fähigkeit „%s\" für Benutzer „%s\" auf Objekt „%s\" wird aufgelöst, wurde aber nie mit „addCapability()\" in die Warteschlange gestellt."
 
 #, php-format
 msgid ""
 "Unable to perform capability tests on an object (of class \"%s\") with no "
 "PHID."
-msgstr ""
+msgstr "Fähigkeitsprüfungen können nicht auf einem Objekt (der Klasse „%s\") ohne PHID ausgeführt werden."
 
 msgid "Show policy information about an object."
 msgstr "Richtlinieninformationen zu einem Objekt anzeigen."
@@ -51411,7 +51403,7 @@ msgstr "FÄHIGKEITEN"
 msgid ""
 "Unlock one or more objects by changing their view policies, edit policies, "
 "or owners."
-msgstr ""
+msgstr "Ein oder mehrere Objekte entsperren, indem ihre Anzeigerichtlinien, Bearbeitungsrichtlinien oder Eigentümer geändert werden."
 
 msgid ""
 "Identify each __object__ by passing an object name (like \"T123\") or a PHID "
@@ -51420,14 +51412,17 @@ msgid ""
 "Not every type of object has an editable view policy, edit policy, or owner, "
 "so not all modes will work with all objects. "
 msgstr ""
+"Jedes __Objekt__ kann über seinen Namen (z. B. „T123\") oder eine PHID (z. B. „PHID-ABCD-1234...\") angegeben werden.\n"
+"\n"
+"Nicht jeder Objekttyp hat eine bearbeitbare Anzeigerichtlinie, Bearbeitungsrichtlinie oder einen Eigentümer – daher funktionieren nicht alle Modi mit allen Objekten."
 
 msgid ""
 "Change the view policy of an object so that the specified user may view it."
-msgstr ""
+msgstr "Die Anzeigerichtlinie eines Objekts ändern, sodass der angegebene Benutzer es einsehen kann."
 
 msgid ""
 "Change the edit policy of an object so that the specified user may edit it."
-msgstr ""
+msgstr "Die Bearbeitungsrichtlinie eines Objekts ändern, sodass der angegebene Benutzer es bearbeiten kann."
 
 msgid "Change the owner of an object to the specified user."
 msgstr "Den Eigentümer eines Objekts auf den angegebenen Benutzer ändern."
@@ -51445,7 +51440,7 @@ msgstr "Es konnte kein Objekt mit dem angegebenen Namen (\"%s\") gefunden werden
 msgid ""
 "Choose which capabilities to unlock with \"--view\", \"--edit\", or \"--"
 "owner\"."
-msgstr ""
+msgstr "Mit „--view\", „--edit\" oder „--owner\" auswählen, welche Fähigkeiten entsperrt werden sollen."
 
 msgid "UNLOCKING"
 msgstr "ENTSPERREN"
@@ -51460,9 +51455,8 @@ msgstr "ENTSPERRT"
 msgid "Modified object policies."
 msgstr "Objektrichtlinien geändert."
 
-#, fuzzy
 msgid "Object URI"
-msgstr "Objekt PHID"
+msgstr "Objekt-URI"
 
 
 #, php-format
@@ -51490,16 +51484,14 @@ msgstr "Benannte Richtlinie hat eine ungültige effektive Richtlinie: %s -> %s"
 msgid ""
 "Two policy rules (of classes \"%s\" and \"%s\") define the same object "
 "policy key (\"%s\"), but each object policy rule must use a unique key."
-msgstr ""
+msgstr "Zwei Richtlinienregeln (der Klassen „%s\" und „%s\") definieren denselben Objektrichtlinien-Schlüssel („%s\"), aber jede Objektrichtlinienregel muss einen eindeutigen Schlüssel verwenden."
 
-#, fuzzy
 msgid "No objects found."
-msgstr "Keine Termine gefunden."
+msgstr "Keine Objekte gefunden."
 
 
-#, fuzzy
 msgid "All Named Policies"
-msgstr "Benutzer-Policies"
+msgstr "Alle Benannten Richtlinien"
 
 
 msgid "when the moon"
@@ -51521,7 +51513,7 @@ msgstr "abnimmt"
 msgid ""
 "This policy rule (of class \"%s\") does not have an associated object policy "
 "key."
-msgstr ""
+msgstr "Diese Richtlinienregel (der Klasse „%s\") hat keinen zugehörigen Objektrichtlinien-Schlüssel."
 
 msgid "Implementation of the Global rules"
 msgstr "Implementierung der globalen Regeln"
@@ -51530,13 +51522,13 @@ msgstr "Implementierung der globalen Regeln"
 msgid ""
 "Policy identifier is an object PHID ('%s'), but no object handle was "
 "provided. A handle must be provided for object policies."
-msgstr ""
+msgstr "Die Richtlinienkennung ist eine Objekt-PHID ('%s'), aber es wurde kein Objekt-Handle angegeben. Für Objektrichtlinien muss ein Handle angegeben werden."
 
 #, php-format
 msgid ""
 "Policy identifier is an object PHID ('%s'), but the provided handle has a "
 "different PHID ('%s'). The handle must correspond to the policy identifier."
-msgstr ""
+msgstr "Die Richtlinienkennung ist eine Objekt-PHID ('%s'), aber das angegebene Handle hat eine andere PHID ('%s'). Das Handle muss der Richtlinienkennung entsprechen."
 
 #, php-format
 msgid "Members of the project \"%s\" can take this action."
@@ -51545,7 +51537,7 @@ msgstr "Mitglieder des Projekts \"%s\" können diese Aktion ausführen."
 msgid ""
 "This object is public and can be viewed by anyone, even if they do not have "
 "an account on this server."
-msgstr ""
+msgstr "Dieses Objekt ist öffentlich und kann von jedem eingesehen werden, auch ohne Konto auf diesem Server."
 
 msgid "Logged in users can take this action."
 msgstr "Angemeldete Benutzer können diese Aktion ausführen."
@@ -51559,7 +51551,7 @@ msgstr "Standardmäßig kann niemand diese Aktion ausführen."
 msgid ""
 "Members of a particular project can take this action. (You can not see this "
 "object, so the name of this project is restricted.)"
-msgstr ""
+msgstr "Mitglieder eines bestimmten Projekts können diese Aktion ausführen. (Das Objekt ist nicht sichtbar, daher ist der Projektname eingeschränkt.)"
 
 #, php-format
 msgid "%s can take this action."
@@ -51581,30 +51573,27 @@ msgstr "Mitglieder des Projekts: %s"
 msgid "Other: %s"
 msgstr "Andere: %s"
 
-#, fuzzy, php-format
+#, php-format
 msgid "Only User: %s"
-msgstr "Andere: %s"
+msgstr "Nur Benutzer: %s"
 
 
 #, php-format
 msgid ""
 "Failed to create usable reference object for named policy %s - target type "
 "is %s"
-msgstr ""
+msgstr "Konnte kein verwendbares Referenzobjekt für die Benannte Richtlinie %s erstellen – Zieltyp ist %s"
 
-#, fuzzy
 msgid "Browse Named Policies"
-msgstr "Benutzer-Policies"
+msgstr "Benannte Richtlinien durchsuchen"
 
 
-#, fuzzy
 msgid "Type Named Policy's name..."
-msgstr "Einen Symbolnamen eintippen..."
+msgstr "Namen der Benannten Richtlinie eingeben..."
 
 
-#, fuzzy
 msgid "Note:"
-msgstr "Notiz"
+msgstr "Hinweis:"
 
 
 msgid "You do not have permission to view policy details."
@@ -51618,47 +51607,43 @@ msgstr "Diese Regeln werden in folgender Reihenfolge verarbeitet:"
 msgid "If no rules match, %s all other users."
 msgstr "Wenn keine Regel zutrifft, %s alle anderen Benutzer."
 
-#, fuzzy
 msgid "Effective Policy is required."
-msgstr "Email ist zwingend erforderlich."
+msgstr "Effektive Richtlinie ist erforderlich."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "A %s cannot be used as an effective policy for a %s"
-msgstr "%s hat die Editier-Rechte von %s verändert."
+msgstr "Ein %s kann nicht als effektive Richtlinie für ein %s verwendet werden"
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s set the effective policy to %s."
-msgstr "%s hat das Symbol dieses Termins auf %s geändert."
+msgstr "%s hat die effektive Richtlinie auf %s gesetzt."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s changed the effective policy from %s to %s."
-msgstr "%s hat den Titel von \"%s\" nach \"%s\" geändert."
+msgstr "%s hat die effektive Richtlinie von %s auf %s geändert."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s set the effective policy of %s to %s"
-msgstr "%s hat das Symbol für %s auf %s gesetzt."
+msgstr "%s hat die effektive Richtlinie von %s auf %s gesetzt"
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s changed the effective policy of %s from %s to %s"
-msgstr ""
-"%s hat die Editier-Rechte des Objekts %s von \"%s\" auf \"%s\" geändert."
+msgstr "%s hat die effektive Richtlinie von %s von %s auf %s geändert"
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s changed the objects type this policy is applicable to from %s to %s"
-msgstr ""
-"%s hat die Editier-Berechtigung dieses Chats von \"%s\" auf \"%s\" geändert."
+msgstr "%s hat den Objekttyp, auf den diese Richtlinie anwendbar ist, von %s auf %s geändert"
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s changed the objects type policy %s is applicable to from %s to %s"
-msgstr ""
-"%s hat die Editier-Berechtigung dieses Chats von \"%s\" auf \"%s\" geändert."
+msgstr "%s hat den Objekttyp, auf den die Richtlinie %s anwendbar ist, von %s auf %s geändert"
 
 
 #, php-format
