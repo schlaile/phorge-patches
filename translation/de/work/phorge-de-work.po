@@ -60972,7 +60972,7 @@ msgid "%s, %s, %s and %s"
 msgstr "%s, %s, %s und %s"
 
 msgid "You are performing too many actions too quickly."
-msgstr ""
+msgstr "Du führst zu viele Aktionen in zu kurzer Zeit aus."
 
 #, php-format
 msgid ""
@@ -60993,24 +60993,22 @@ msgid "%d / hour"
 msgstr "%d / Stunde"
 
 msgid "System"
-msgstr ""
+msgstr "System"
 
-#, fuzzy
 msgid "No Object URI"
-msgstr "Objekt PHID"
+msgstr "Keine Objekt-URI"
 
 
 #, php-format
 msgid "Object \"%s\" exists, but does not have a URI to redirect to."
-msgstr ""
+msgstr "Objekt „%s\" existiert, hat aber keine URI für eine Weiterleitung."
 
-#, fuzzy
 msgid "Administrative Read-Only Mode"
-msgstr "Administration"
+msgstr "Administrativer Nur-Lese-Modus"
 
 
 msgid "An Administrator has placed this server into read-only mode."
-msgstr ""
+msgstr "Ein Administrator hat diesen Server in den Nur-Lese-Modus versetzt."
 
 msgid ""
 "This mode may be used to perform temporary maintenance, test configuration, "
@@ -61030,9 +61028,8 @@ msgid ""
 "This mode is active because it is enabled in the configuration option \"%s\"."
 msgstr ""
 
-#, fuzzy
 msgid "No Writable Database"
-msgstr "Keine änderbaren Aufgaben"
+msgstr "Keine beschreibbare Datenbank"
 
 
 msgid ""
@@ -61052,9 +61049,8 @@ msgid ""
 "configuration option \"%s\"."
 msgstr ""
 
-#, fuzzy
 msgid "Unable to Reach Master"
-msgstr "Recaptcha aktivieren"
+msgstr "Master nicht erreichbar"
 
 
 msgid ""
@@ -61076,10 +61072,10 @@ msgid ""
 msgstr ""
 
 msgid "Quite Unsettling"
-msgstr ""
+msgstr "Ziemlich beunruhigend"
 
 msgid "Severed From Master"
-msgstr ""
+msgstr "Vom Master getrennt"
 
 msgid ""
 "This server has consistently been unable to reach the writable (\"master\") "
@@ -61104,7 +61100,7 @@ msgid ""
 msgstr ""
 
 msgid "Panic!"
-msgstr ""
+msgstr "Panik!"
 
 msgid ""
 "This request was served from a replica database. Replica databases may lag "
@@ -61118,9 +61114,8 @@ msgid ""
 "able to edit objects or create new objects until this mode is disabled."
 msgstr ""
 
-#, fuzzy
 msgid "Cluster Database Status"
-msgstr "Neuer Termin"
+msgstr "Cluster-Datenbankstatus"
 
 
 #, php-format
@@ -61130,7 +61125,7 @@ msgid ""
 msgstr ""
 
 msgid "No Encoding Support"
-msgstr ""
+msgstr "Keine Kodierungsunterstützung"
 
 #, php-format
 msgid ""
@@ -61139,44 +61134,40 @@ msgid ""
 msgstr ""
 
 msgid "Choose a text encoding to use."
-msgstr ""
+msgstr "Zeichenkodierung auswählen."
 
 msgid "Select Character Encoding"
-msgstr ""
+msgstr "Zeichenkodierung wählen"
 
 msgid "Choose Encoding"
-msgstr ""
+msgstr "Kodierung wählen"
 
 msgid "Choose a syntax highlighting to use."
-msgstr ""
+msgstr "Syntaxhervorhebung auswählen."
 
 msgid "Highlighting"
-msgstr ""
+msgstr "Hervorhebung"
 
 msgid "Select Syntax Highlighting"
-msgstr ""
+msgstr "Syntaxhervorhebung wählen"
 
 msgid "Choose Highlighting"
-msgstr ""
+msgstr "Hervorhebung wählen"
 
-#, fuzzy
 msgid "Choose a document engine to use."
-msgstr "Einen Dokumententitel eintippen..."
+msgstr "Document-Engine auswählen."
 
 
-#, fuzzy
 msgid "View As"
-msgstr "Alles zeigen"
+msgstr "Anzeigen als"
 
 
-#, fuzzy
 msgid "Select Document Engine"
-msgstr "Dokument löschen"
+msgstr "Document-Engine wählen"
 
 
-#, fuzzy
 msgid "Choose Engine"
-msgstr "Icon auswählen"
+msgstr "Engine wählen"
 
 
 #, php-format
@@ -61188,9 +61179,8 @@ msgid ""
 "Cache engine extension \"%s\" returned object (of class \"%s\") with no PHID."
 msgstr ""
 
-#, fuzzy
 msgid "Engine: Destruction"
-msgstr "Mit abstimmen"
+msgstr "Engine: Vernichtung"
 
 
 #, php-format
@@ -61215,61 +61205,55 @@ msgid ""
 "object does not implement an owner unlocking mechanism."
 msgstr ""
 
-#, fuzzy
 msgid "View Handle"
-msgstr "Einzeln zeigen"
+msgstr "Handle anzeigen"
 
 
-#, fuzzy
 msgid "View Hovercard"
-msgstr "Zeige Dashboard"
+msgstr "Hovercard anzeigen"
 
 
-#, fuzzy
 msgid "View full transaction history"
-msgstr "Komplettes Ablaufprotokoll zeigen"
+msgstr "Vollständiges Transaktionsprotokoll anzeigen"
 
 
 msgid "View Affected Path Index"
-msgstr ""
+msgstr "Betroffenen Pfadindex anzeigen"
 
-#, fuzzy
 msgid "Advanced/Developer..."
-msgstr "Erweiterte Filter"
+msgstr "Erweitert/Entwickler …"
 
 
-#, fuzzy
 msgid "Rate Limiting Actions"
-msgstr "Chat Aktionen"
+msgstr "Aktionen mit Ratenbegrenzung"
 
 
-#, fuzzy
 msgid "Destruction Logs"
-msgstr "Pick Anweisungen"
+msgstr "Vernichtungsprotokolle"
 
 
 msgid "Permanently destroy objects."
-msgstr ""
+msgstr "Objekte dauerhaft vernichten."
 
 msgid "Destroy objects without prompting."
-msgstr ""
+msgstr "Objekte ohne Rückfrage vernichten."
 
 msgid "Specify one or more objects to destroy."
-msgstr ""
+msgstr "Ein oder mehrere zu vernichtende Objekte angeben."
 
 #, php-format
 msgid "No such object \"%s\" exists!"
-msgstr ""
+msgstr "Kein Objekt „%s\" gefunden!"
 
 #, php-format
 msgid "Object \"%s\" can not be destroyed (it does not implement %s)."
-msgstr ""
+msgstr "Objekt „%s\" kann nicht vernichtet werden (implementiert %s nicht)."
 
 msgid "IMPORTANT"
-msgstr ""
+msgstr "WICHTIG"
 
 msgid "DATA WILL BE PERMANENTLY DESTROYED"
-msgstr ""
+msgstr "DATEN WERDEN DAUERHAFT VERNICHTET"
 
 msgid ""
 "Objects will be permanently destroyed. There is no way to undo this "
@@ -61277,7 +61261,7 @@ msgid ""
 msgstr ""
 
 msgid "DELETING OBJECTS OFTEN BREAKS THINGS"
-msgstr ""
+msgstr "DAS LÖSCHEN VON OBJEKTEN KANN VIELES KAPUTT MACHEN"
 
 msgid ""
 "Destroying objects may cause related objects to stop working, and may leave "
@@ -61293,28 +61277,30 @@ msgstr ""
 
 #, php-format
 msgid "These %s object(s) will be destroyed forever:"
-msgstr ""
+msgstr "Diese %s Objekt(e) werden dauerhaft vernichtet:"
 
 #, php-format
 msgid "Are you absolutely certain you want to destroy these %s object(s)?"
-msgstr ""
+msgstr "Bist Du absolut sicher, dass Du diese %s Objekt(e) vernichten möchtest?"
 
 msgid "Aborted, your objects are safe."
-msgstr ""
+msgstr "Abgebrochen, Deine Objekte sind sicher."
 
 msgid "Destroying objects..."
-msgstr ""
+msgstr "Objekte werden vernichtet …"
 
 #, php-format
 msgid "Destroying %s **%s**...\n"
 msgstr ""
+"%s **%s** wird vernichtet …\n"
+""
 
 #, php-format
 msgid "Permanently destroyed %s object(s)."
-msgstr ""
+msgstr "%s Objekt(e) dauerhaft vernichtet."
 
 msgid "Show a log of permanently destroyed objects."
-msgstr ""
+msgstr "Protokoll dauerhaft vernichteter Objekte anzeigen."
 
 msgid "Tokens"
 msgstr "Trophäen"
