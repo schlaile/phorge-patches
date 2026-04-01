@@ -31731,9 +31731,8 @@ msgstr "Lila"
 msgid "Checkered"
 msgstr "Gescheckt"
 
-#, fuzzy
 msgid "Temporary Object"
-msgstr "Temporär"
+msgstr "Temporäres Objekt"
 
 
 msgid "This object is temporary and cannot be flagged."
@@ -60554,16 +60553,16 @@ msgstr "%s hat den Namen von %s von %s auf %s geändert."
 
 
 msgid "Test Space"
-msgstr ""
+msgstr "Testbereich"
 
 msgid "Default Space"
 msgstr "Vorgabezone"
 
 msgid "Alternate Space"
-msgstr ""
+msgstr "Alternativer Bereich"
 
 msgid "Default Space #2"
-msgstr ""
+msgstr "Standardbereich #2"
 
 msgid "Spaces"
 msgstr "Zonen"
@@ -60572,7 +60571,7 @@ msgid "Policy Namespaces"
 msgstr "Namensräume für Berechtigungen"
 
 msgid "Control access to groups of objects."
-msgstr ""
+msgstr "Zugriff auf Gruppen von Objekten steuern."
 
 msgid "Spaces User Guide"
 msgstr "Benutzerhandbuch für Zonen"
@@ -60591,7 +60590,7 @@ msgstr "Du hast keine Berechtigung, um Zonen zu erzeugen."
 
 #, php-format
 msgid "Archive Space: %s"
-msgstr ""
+msgstr "Bereich archivieren: %s"
 
 msgid ""
 "If you archive this Space, you will no longer be able to create new objects "
@@ -60639,7 +60638,7 @@ msgid "No Access to Spaces"
 msgstr "Keine Berechtigung für Zonen"
 
 msgid "Drift Aimlessly"
-msgstr ""
+msgstr "Ziellos weitertreiben"
 
 msgid ""
 "This install uses spaces to organize objects, but your account does not have "
@@ -60673,20 +60672,20 @@ msgstr ""
 msgid "%s created this space."
 msgstr "%s hat diese Zone erzeugt."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s created space %s."
-msgstr "%s hat %s erzeugt."
+msgstr "%s hat den Bereich %s erstellt."
 
 
 msgid "Support for Spaces"
-msgstr ""
+msgstr "Unterstützung für Bereiche"
 
 
 msgid "Search for objects in certain spaces."
-msgstr ""
+msgstr "Nach Objekten in bestimmten Bereichen suchen."
 
 msgid "PHID of the policy space this object is part of."
-msgstr ""
+msgstr "PHID des Richtlinienbereichs, zu dem dieses Objekt gehört."
 
 #, php-format
 msgid "Space %s: %s"
@@ -60707,9 +60706,8 @@ msgstr "Alle Zonen"
 msgid "No spaces found."
 msgstr "Keine Zonen gefunden."
 
-#, fuzzy
 msgid "Create a Space"
-msgstr "Zone erzeugen"
+msgstr "Neuen Bereich erstellen"
 
 
 #, fuzzy
@@ -60733,23 +60731,23 @@ msgstr "%s hat diese Zone archiviert."
 msgid "%s activated this space."
 msgstr "%s hat diese Zone aktiviert."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s archived space %s."
-msgstr "%s hat diese Zone archiviert."
+msgstr "%s hat den Bereich %s archiviert."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s activated space %s."
-msgstr "%s hat diese Zone aktiviert."
+msgstr "%s hat den Bereich %s aktiviert."
 
 
 #, php-format
 msgid "%s made this the default space."
 msgstr "%s hat diese Zone zur Vorgabezone gemacht."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s made space %s the default space."
-msgstr "%s hat diese Zone zur Vorgabezone gemacht."
+msgstr "%s hat %s als Standardbereich festgelegt."
 
 
 msgid ""
@@ -60759,29 +60757,28 @@ msgstr ""
 "Nur die erste erzeugte Zone kann die Vorgabezone sein, und sie muß es auch "
 "für immer bleiben."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s updated the space description."
-msgstr "%s hat die Entwurfsbeschreibung geändert."
+msgstr "%s hat die Bereichsbeschreibung geändert."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s updated the space description for %s."
-msgstr "%s hat die Beschreibung von %s verändert."
+msgstr "%s hat die Beschreibung von %s geändert."
 
 
-#, fuzzy
 msgid "CHANGES TO SPACE DESCRIPTION"
-msgstr "AUFGABEN-BESCHREIBUNG"
+msgstr "ÄNDERUNGEN AN DER BEREICHSBESCHREIBUNG"
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s renamed this space from %s to %s."
-msgstr "%s hat diese Zone von \"%s\" nach \"%s\" umbenannt."
+msgstr "%s hat diesen Bereich von %s in %s umbenannt."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s renamed space %s from %s to %s."
-msgstr "%s hat %s von \"%s\" nach \"%s\" umbenannt."
+msgstr "%s hat den Bereich %s von %s in %s umbenannt."
 
 
 msgid "Spaces must have a name."
@@ -61323,14 +61320,14 @@ msgid "Tokens"
 msgstr "Trophäen"
 
 msgid "Award and Acquire Trinkets"
-msgstr ""
+msgstr "Trophäen vergeben und ergattern"
 
 msgid "Give or change a token."
 msgstr "Eine Trophäe verleihen oder ändern."
 
 #, php-format
 msgid "Must pass a PHID for parameter \"%s\"."
-msgstr ""
+msgstr "Für Parameter „%s\" muss eine PHID übergeben werden."
 
 msgid "Query tokens given to objects."
 msgstr "An Objekte vergebene Trophäen abfragen."
@@ -61345,7 +61342,7 @@ msgid "Leader Board"
 msgstr "Rangliste"
 
 msgid "This object is temporary and cannot receive tokens."
-msgstr ""
+msgstr "Dieses Objekt ist temporär und kann keine Trophäen erhalten."
 
 msgid "Rescind Token"
 msgstr "Trophäe entreissen"
@@ -61355,7 +61352,7 @@ msgstr "Trophäe vergeben"
 
 #, php-format
 msgid "Award \"%s\" Token"
-msgstr ""
+msgstr "Trophäe „%s\" vergeben"
 
 msgid "Really rescind this lovely token?"
 msgstr "Diese wunderschöne Trophäe wirklich zurücknehmen?"
@@ -61369,15 +61366,15 @@ msgstr "Trophäen Rangliste"
 
 #, php-format
 msgid "No such token \"%s\"!"
-msgstr ""
+msgstr "Keine Trophäe „%s\" gefunden!"
 
 #, php-format
 msgid "No such object \"%s\"!"
-msgstr ""
+msgstr "Kein Objekt „%s\" gefunden!"
 
 #, php-format
 msgid "\"%s\" token, awarded by %s."
-msgstr ""
+msgstr "Trophäe „%s\", vergeben von %s."
 
 msgid "Award Token"
 msgstr "Preistrophäe"
@@ -61388,20 +61385,18 @@ msgstr "%s verlieh %s eine %s Trophäe."
 
 #, php-format
 msgid "%s Token"
-msgstr ""
+msgstr "%s-Trophäe"
 
-#, fuzzy
 msgid "Token used"
-msgstr "Trophäen"
+msgstr "Trophäe vergeben"
 
 
 #, php-format
 msgid "Given by %s on %s"
 msgstr "Von %s verliehen für %s"
 
-#, fuzzy
 msgid "All Tokens Given"
-msgstr "Vergebene Trophäen"
+msgstr "Alle vergebenen Trophäen"
 
 
 msgid "Like"
@@ -61453,34 +61448,31 @@ msgid "The World Burns"
 msgstr "Brennende Welten"
 
 msgid "100"
-msgstr ""
+msgstr "100"
 
-#, fuzzy
 msgid "Party Time"
-msgstr "Anfangszeit"
+msgstr "Partyzeit"
 
 
 msgid "Y So Serious"
-msgstr ""
+msgstr "Warum so ernst?"
 
 msgid "Dat Boi"
-msgstr ""
+msgstr "Dat Boi"
 
 msgid "Cup of Joe"
-msgstr ""
+msgstr "Tasse Kaffee"
 
 
 msgid "Hungry Hippo"
-msgstr ""
+msgstr "Hungriges Nilpferd"
 
-#, fuzzy
 msgid "Burninate"
-msgstr "Beenden"
+msgstr "Abfackeln!"
 
 
-#, fuzzy
 msgid "Pirate Logo"
-msgstr "Privater Chat"
+msgstr "Piraten-Logo"
 
 
 msgid "A token inherits the policies of the object it is awarded to."
@@ -61490,22 +61482,19 @@ msgstr ""
 msgid "The user who gave a token can always edit it."
 msgstr "Der Benutzer, der eine Trophäe verliehen hat, darf sie auch ändern."
 
-#, fuzzy
 msgid "The name of the token."
-msgstr "Der neue Pfad des Dokuments."
+msgstr "Der Name der Trophäe."
 
 
 msgid "Token flavor."
-msgstr ""
+msgstr "Art der Trophäe."
 
-#, fuzzy
 msgid "Type a Token name..."
-msgstr "Den Namen eines Dokumentes eintippen..."
+msgstr "Trophäenname eingeben …"
 
 
-#, fuzzy
 msgid "Browse Tokens"
-msgstr "In Projekten suchen"
+msgstr "Trophäen durchsuchen"
 
 
 msgid "Bulk Editor"
