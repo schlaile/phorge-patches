@@ -27812,9 +27812,8 @@ msgstr "Ressourcen"
 msgid "Leases"
 msgstr "Pachtungen"
 
-#, fuzzy
 msgid "Repository Operations"
-msgstr "Repository-Verfolgung ändern"
+msgstr "Repository-Operationen"
 
 
 msgid ""
@@ -28008,9 +28007,9 @@ msgstr "Name der Blaupause."
 msgid "%s created this blueprint."
 msgstr "%s hat diesen Blueprint erstellt."
 
-#, fuzzy, php-format
+#, php-format
 msgid "\"%s\" (owned by \"%s\")"
-msgstr "%s hat %s als \"%s\" wieder geöffnet."
+msgstr "„%s\" (im Besitz von „%s\")"
 
 
 #, php-format
@@ -28414,9 +28413,8 @@ msgid ""
 "associated with a tracked repository can be landed automatically."
 msgstr ""
 
-#, fuzzy
 msgid "No Repository Automation"
-msgstr "Repository-Verfolgung ändern"
+msgstr "Keine Repository-Automatisierung"
 
 
 #, php-format
@@ -28665,9 +28663,8 @@ msgstr "Drydock-Repository-Operationen"
 msgid "States"
 msgstr "Zustände"
 
-#, fuzzy
 msgid "All Operations"
-msgstr "Alle Fragen"
+msgstr "Alle Operationen"
 
 
 msgid "Via:"
@@ -30336,24 +30333,20 @@ msgstr "Dieses Jupyter-Notebook verwendet eine nicht unterstützte Version des D
 msgid "This Jupyter notebook does not specify a list of \"cells\"."
 msgstr "Dieses Jupyter-Notebook gibt keine Liste von \\\"cells\\\" an."
 
-#, fuzzy
 msgid "This Jupyter notebook does not specify any notebook cells."
-msgstr "Dieses Projekt hat keine Mitglieder."
+msgstr "Dieses Jupyter-Notebook enthält keine Notebook-Zellen."
 
 
-#, fuzzy
 msgid "<Invalid Output>"
-msgstr "Ungültiges Datum."
+msgstr "<Ungültige Ausgabe>"
 
 
-#, fuzzy
 msgid "View as PDF"
-msgstr "Aufgabe zeigen"
+msgstr "Als PDF anzeigen"
 
 
-#, fuzzy
 msgid "View as Remarkup"
-msgstr "Als Remarkup ansehen"
+msgstr "Als Remarkup anzeigen"
 
 
 msgid "View as Source"
@@ -33361,9 +33354,8 @@ msgid "Unit %d"
 msgstr "Einheit %d"
 
 
-#, fuzzy
 msgid "Run At"
-msgstr "Ausführungszeitpunkt"
+msgstr "Ausgeführt um"
 
 
 msgid "View Build"
@@ -36117,9 +36109,8 @@ msgstr "Neuere Anfragen"
 msgid "Webhook %d"
 msgstr "Webhook %d"
 
-#, fuzzy
 msgid "Edit Webhook"
-msgstr "Entwurf ändern"
+msgstr "Webhook bearbeiten"
 
 
 msgid "View HMAC Key"
@@ -36128,9 +36119,8 @@ msgstr "HMAC-Schlüssel anzeigen"
 msgid "No active Herald rules call this webhook."
 msgstr "Keine aktiven Herald-Regeln rufen diesen Webhook auf."
 
-#, fuzzy
 msgid "Called By Herald Rules"
-msgstr "Durch Herald-Regeln aufgerufen"
+msgstr "Aufgerufen durch Herald-Regeln"
 
 
 msgid "[Herald]"
@@ -36248,9 +36238,8 @@ msgstr "Ist neu erstellt worden"
 msgid "Related Fields"
 msgstr "Verwandte Felder"
 
-#, fuzzy
 msgid "Content type"
-msgstr "Inhalt"
+msgstr "Inhaltstyp"
 
 
 msgid "Rule Fields"
@@ -36518,14 +36507,12 @@ msgstr "Gesendet"
 msgid "In Silent Mode"
 msgstr "Im stillen Modus"
 
-#, fuzzy
 msgid "Hook Disabled"
-msgstr "Deaktiviert"
+msgstr "Hook deaktiviert"
 
 
-#, fuzzy
 msgid "Invalid URI"
-msgstr "Ungültig"
+msgstr "Ungültige URI"
 
 
 msgid "Invalid Object"
@@ -36584,9 +36571,8 @@ msgid "Rule failed automatically because it has no conditions."
 msgstr "Regel ist automatisch fehlgeschlagen, weil sie keine Bedingungen hat."
 "Regel ist automatisch fehlgeschlagen, weil sie keinerlei Bedingungen enthält."
 
-#, fuzzy
 msgid "Rule Author"
-msgstr "Autor"
+msgstr "Regelautor"
 
 
 #, fuzzy
@@ -36624,9 +36610,8 @@ msgstr "Regel ist fehlgeschlagen, weil beim Auswerten eine Ausnahme aufgetreten 
 msgid "Rule evaluation result is unknown."
 msgstr "Regelauswertungsergebnis ist unbekannt."
 
-#, fuzzy
 msgid "Already Applied"
-msgstr "Schon unterschrieben"
+msgstr "Bereits angewendet"
 
 
 msgid ""
@@ -41139,9 +41124,8 @@ msgstr ""
 msgid "This message was upgraded to email by outbound mail rules in Herald."
 msgstr "Diese Nachricht wurde durch ausgehende Mail-Regeln in Herald zu einer E-Mail aufgewertet."
 
-#, fuzzy
 msgid "This recipient does not have a verified primary email address."
-msgstr "Dieser Empfänger hat keine bestätigte primäre Email-Adresse."
+msgstr "Dieser Empfänger hat keine bestätigte primäre E-Mail-Adresse."
 
 
 msgid "This recipient has muted notifications for this object."
@@ -42349,9 +42333,8 @@ msgstr "Ungültige Client-Anwendung"
 msgid "Request parameter %s does not specify a valid client application."
 msgstr "Anfrageparameter %s gibt keine gültige Client-Anwendung an."
 
-#, fuzzy
 msgid "Application Disabled"
-msgstr "Anwendungen"
+msgstr "Anwendung deaktiviert"
 
 
 #, php-format
