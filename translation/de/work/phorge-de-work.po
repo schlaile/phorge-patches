@@ -46962,9 +46962,8 @@ msgstr "Die aufgelisteten Objekte enthalten Objekte vom falschen Typ (%s)."
 msgid "The objects you have listed include objects which do not exist (%s)."
 msgstr "Die aufgelisteten Objekte enthalten nicht existierende Objekte (%s)."
 
-#, fuzzy
 msgid "Query Test Package"
-msgstr "Nach Paket"
+msgstr "Abfrage-Testpaket"
 
 
 msgid "Can not generate PHID with no type."
