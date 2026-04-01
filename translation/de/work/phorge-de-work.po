@@ -47206,9 +47206,8 @@ msgid ""
 "Merchants you have a relationship with may view associated subscriptions."
 msgstr ""
 
-#, fuzzy
 msgid "Unsubscribed"
-msgstr "Nicht mehr mitlesen"
+msgstr "Abgemeldet"
 
 
 msgid "Updates from subscriptions and payment processors."
@@ -47219,19 +47218,16 @@ msgid ""
 "control of the account."
 msgstr ""
 
-#, fuzzy
 msgid "Payment Account"
-msgstr "Zahlungskonten"
+msgstr "Zahlungskonto"
 
 
-#, fuzzy
 msgid "Add Managers"
-msgstr "Mitglieder hinzufügen"
+msgstr "Manager hinzufügen"
 
 
-#, fuzzy
 msgid "Add New Managers"
-msgstr "Neues Panel"
+msgstr "Neue Manager hinzufügen"
 
 
 msgid "Charges"
@@ -47267,45 +47263,38 @@ msgstr ""
 msgid "Edit Account"
 msgstr "Konto editieren"
 
-#, fuzzy
 msgid "Managers"
-msgstr "Editieren"
+msgstr "Manager"
 
 
-#, fuzzy
 msgid "No purchase history."
-msgstr "Bestellhistorie"
+msgstr "Keine Kaufhistorie."
 
 
 msgid "Merchants"
 msgstr "Händler"
 
-#, fuzzy
 msgid "Account Name"
-msgstr "Konto"
+msgstr "Kontoname"
 
 
-#, fuzzy
 msgid "Billing Name"
-msgstr "Branch-Name"
+msgstr "Rechnungsname"
 
 
 msgid "Billing Address"
 msgstr "Rechnungsadresse"
 
-#, fuzzy
 msgid "Account Details"
-msgstr "Konteneinstellungen"
+msgstr "Kontodetails"
 
 
-#, fuzzy
 msgid "Add Address"
-msgstr "Neue Adresse hinzufügen"
+msgstr "Adresse hinzufügen"
 
 
-#, fuzzy
 msgid "Billing Email Addresses"
-msgstr "Emailadressen"
+msgstr "Rechnungs-E-Mail-Adressen"
 
 
 #, fuzzy
@@ -47325,26 +47314,23 @@ msgid ""
 "working."
 msgstr ""
 
-#, fuzzy
 msgid "Already Enabled"
-msgstr "Schon unterschrieben"
+msgstr "Bereits aktiviert"
 
 
 msgid "You can not enable this address because it is already active."
 msgstr "Diese Adresse kann nicht aktiviert werden, da sie bereits aktiv ist."
 
-#, fuzzy
 msgid "Permanently Unsubscribed"
-msgstr "Permanentes Feld"
+msgstr "Dauerhaft abgemeldet"
 
 
 msgid ""
 "You can not enable this address because it has been permanently unsubscribed."
 msgstr ""
 
-#, fuzzy
 msgid "Already Disabled"
-msgstr "Schon unterschrieben"
+msgstr "Bereits deaktiviert"
 
 
 msgid "You can not disabled this address because it is already disabled."
@@ -47355,9 +47341,8 @@ msgid ""
 "unsubscribed."
 msgstr ""
 
-#, fuzzy
 msgid "Disable Address"
-msgstr "Deaktiviert"
+msgstr "Adresse deaktivieren"
 
 
 msgid ""
@@ -47365,9 +47350,8 @@ msgid ""
 "function."
 msgstr ""
 
-#, fuzzy
 msgid "Enable Address"
-msgstr "Emailadressen"
+msgstr "Adresse aktivieren"
 
 
 msgid ""
@@ -47375,22 +47359,20 @@ msgid ""
 "history will work again."
 msgstr ""
 
-#, fuzzy, php-format
+#, php-format
 msgid "Account Email: %s"
-msgstr "Konto (%s)"
+msgstr "Konto-E-Mail: %s"
 
 
-#, fuzzy
 msgid "Show External View"
-msgstr "Ganze Datei zeigen"
+msgstr "Externe Ansicht anzeigen"
 
 
 msgid "Access Key"
 msgstr "Zugriffsschlüssel"
 
-#, fuzzy
 msgid "Email Address Details"
-msgstr "Emailadressen"
+msgstr "E-Mail-Adress-Details"
 
 
 msgid "Accounts"
@@ -47426,14 +47408,12 @@ msgstr "Händlerkonto"
 msgid "View All Merchants"
 msgstr "Alle Händler zeigen"
 
-#, fuzzy
 msgid "Account Managers"
-msgstr "Buchhaltung"
+msgstr "Konto-Manager"
 
 
-#, fuzzy
 msgid "Account Manager"
-msgstr "Buchhaltung"
+msgstr "Konto-Manager"
 
 
 msgid "You have no unpaid invoices."
@@ -47455,31 +47435,27 @@ msgstr "Zahlungsmethoden"
 msgid "Add Payment Method"
 msgstr "Neue Zahlungsmethode"
 
-#, fuzzy
 msgid "There are no payment methods associated with this account."
-msgstr "Keine Zahlungsmethode ist mit dem Konto verknüpft."
+msgstr "Mit diesem Konto sind keine Zahlungsmethoden verknüpft."
 
 
 msgid "Edit Payment Method"
 msgstr "Zahlungsart ändern"
 
-#, fuzzy
 msgid "Remove Payment Method"
-msgstr "Zahlungsmethode"
+msgstr "Zahlungsmethode entfernen"
 
 
-#, fuzzy
 msgid "Payment Method Details"
-msgstr "Zahlungsmethoden"
+msgstr "Details zur Zahlungsmethode"
 
 
 msgid ""
 "This payment method is not the default payment method for any subscriptions."
 msgstr ""
 
-#, fuzzy
 msgid "Autopay Subscriptions"
-msgstr "Als Mitleser automatisch hinzugefügt"
+msgstr "Autopay-Abonnements"
 
 
 msgid "Customer Account"
@@ -47492,9 +47468,8 @@ msgstr "Zahlungen"
 msgid "Subscriptions"
 msgstr "Abonnements"
 
-#, fuzzy
 msgid "Personnel"
-msgstr "Persönlich"
+msgstr "Personal"
 
 
 msgid "Recent Orders"
@@ -47526,9 +47501,8 @@ msgstr "Diese Zahlungsmethode wird für zukünftige automatische Zahlungen verwe
 msgid "Next Invoice"
 msgstr "Nächste Rechnung"
 
-#, fuzzy
 msgid "Subscription Details"
-msgstr "Bei dieser Version mitlesen"
+msgstr "Abonnementdetails"
 
 
 msgid "Past Invoices"
@@ -47573,9 +47547,8 @@ msgstr "Bestellung kann nicht erstattet werden"
 msgid "Unable to Cancel Order"
 msgstr "Bestellung kann nicht storniert werden"
 
-#, fuzzy
 msgid "Rats"
-msgstr "Ihr Ratten!"
+msgstr "Mist!"
 
 
 msgid "Unable to load provider for charge!"
@@ -47643,9 +47616,8 @@ msgstr "Bezahlen mit"
 msgid "Choose Payment Method"
 msgstr "Zahlungsmethode auswählen"
 
-#, fuzzy
 msgid "Printable Version"
-msgstr "Aktuelle Version"
+msgstr "Druckbare Version"
 
 
 msgid "Pay Now"
@@ -47657,14 +47629,12 @@ msgstr "Termin ändern"
 msgid "Continue Checkout"
 msgstr "Kasse fortsetzen"
 
-#, fuzzy
 msgid "Void Invoice"
-msgstr "Mit abgestimmt"
+msgstr "Rechnung stornieren"
 
 
-#, fuzzy
 msgid "Unable to Void Invoice"
-msgstr "Anmeldung fehlgeschlagen"
+msgstr "Rechnung kann nicht storniert werden"
 
 
 msgid "Void Invoice?"
@@ -47699,9 +47669,8 @@ msgid ""
 "or ask a user with access to give you an updated link."
 msgstr ""
 
-#, fuzzy
 msgid "Address Disabled"
-msgstr "Emailadresse wurde verifiziert"
+msgstr "Adresse deaktiviert"
 
 
 #, php-format
@@ -47721,9 +47690,8 @@ msgid "Payment Account: %s"
 msgstr "Zahlungskonto: %s"
 
 
-#, fuzzy
 msgid "External Account View"
-msgstr "Externes Konto"
+msgstr "Externe Kontoansicht"
 
 
 #, php-format
@@ -47757,18 +47725,16 @@ msgstr "Rechnungen und Quittungen"
 msgid "Invoices"
 msgstr "Rechnungen"
 
-#, fuzzy
 msgid "Receipts"
-msgstr "Keine Empfänger"
+msgstr "Quittungen"
 
 
 #, php-format
 msgid "Permanently Unsubscribe (%s)"
 msgstr "Dauerhaft abmelden (%s)"
 
-#, fuzzy
 msgid "Permanently Unsubscribe"
-msgstr "Nicht mehr mitlesen"
+msgstr "Dauerhaft abmelden"
 
 
 #, php-format
@@ -47781,19 +47747,16 @@ msgid ""
 "You will no longer receive email and access links will no longer function."
 msgstr ""
 
-#, fuzzy
 msgid "This action is permanent and can not be undone."
-msgstr "Diese Spalte kann nicht verschoben werden:"
+msgstr "Diese Aktion ist dauerhaft und kann nicht rückgängig gemacht werden."
 
 
-#, fuzzy
 msgid "New Managers"
-msgstr "Neue Nachricht"
+msgstr "Neue Manager"
 
 
-#, fuzzy
 msgid "Add Manager"
-msgstr "Editieren"
+msgstr "Manager hinzufügen"
 
 
 #, php-format
@@ -47802,17 +47765,15 @@ msgid ""
 "\"merchantID\" in URI."
 msgstr ""
 
-#, fuzzy
 msgid "No email address set"
-msgstr "Keine Email-Adresse"
+msgstr "Keine E-Mail-Adresse festgelegt"
 
 
 msgid "Invoice From"
 msgstr "Rechnung von"
 
-#, fuzzy
 msgid "Contact Information"
-msgstr "Konteninformationen"
+msgstr "Kontaktdaten"
 
 
 msgid "Invoice Footer"
@@ -47821,9 +47782,8 @@ msgstr "Rechnungsfußzeile"
 msgid "Edit Merchant"
 msgstr "Händler bearbeiten"
 
-#, fuzzy
 msgid "Edit Logo"
-msgstr "Log ändern"
+msgstr "Logo bearbeiten"
 
 
 msgid "Choose a user to invoice."
@@ -47874,19 +47834,16 @@ msgstr "Rechnung senden"
 msgid "Create Merchant"
 msgstr "Händler erstellen"
 
-#, fuzzy
 msgid "New Manager"
-msgstr "Neue Nachricht"
+msgstr "Neuer Manager"
 
 
-#, fuzzy
 msgid "Merchant Account Managers"
-msgstr "Händlerkonto"
+msgstr "Händler-Konto-Manager"
 
 
-#, fuzzy
 msgid "Merchant Manager"
-msgstr "Händlerkonto"
+msgstr "Händler-Manager"
 
 
 msgid "Accepts Payments"
@@ -47921,29 +47878,23 @@ msgid ""
 "not accept payments. Add a provider."
 msgstr ""
 
-#, fuzzy
 msgid "You must choose a file when uploading a merchant logo."
-msgstr ""
-"Du mußt einen Dateinamen auswählen, wenn Du ein neues Projektbild hochladen "
-"möchtest."
+msgstr "Du musst eine Datei auswählen, wenn Du ein Händlerlogo hochladen möchtest."
 
 
-#, fuzzy
 msgid "Current Logo"
-msgstr "Aktiv"
+msgstr "Aktuelles Logo"
 
 
 msgid "Use Logo"
 msgstr "Logo verwenden"
 
-#, fuzzy
 msgid "Upload Logo"
-msgstr "Hochladen"
+msgstr "Logo hochladen"
 
 
-#, fuzzy
 msgid "Upload New Logo"
-msgstr "Neue Bilder hochladen"
+msgstr "Neues Logo hochladen"
 
 
 msgid "Payment Providers"
@@ -47994,9 +47945,8 @@ msgid "Payment Provider: %s"
 msgstr "Zahlungsanbieter: %s"
 
 
-#, fuzzy
 msgid "Payment Provider Details"
-msgstr "Zahlungsdienstleister"
+msgstr "Zahlungsanbieter-Details"
 
 
 msgid "This merchant has no payment providers."
@@ -48008,9 +47958,8 @@ msgstr "Dieser Zahlungsanbieter ist deaktiviert."
 msgid "View All Subscriptions"
 msgstr "Alle Abonnements anzeigen"
 
-#, fuzzy
 msgid "No Merchants"
-msgstr "Keine neueren Änderungen"
+msgstr "Keine Händler"
 
 
 msgid ""
@@ -48021,17 +47970,15 @@ msgstr ""
 msgid "Choose the merchant you want to pay."
 msgstr "Den Händler auswählen, an den du zahlen möchtest."
 
-#, fuzzy
 msgid "Choose a Merchant"
-msgstr "Wähle ein Paket"
+msgstr "Händler auswählen"
 
 
 msgid "There are no payment providers enabled that can add payment methods."
 msgstr "Es sind keine Zahlungsanbieter aktiviert, die Zahlungsmethoden hinzufügen können."
 
-#, fuzzy
 msgid "Choose a Payment Method"
-msgstr "Zahlungsmethode"
+msgstr "Zahlungsmethode auswählen"
 
 
 msgid "nothing"
@@ -48049,9 +47996,8 @@ msgid ""
 "a valid dictionary, received: %s."
 msgstr ""
 
-#, fuzzy
 msgid "There was an error adding this payment method:"
-msgstr "Es gab einen Fehler beim Anlegen der Zahlungsmethode"
+msgstr "Beim Hinzufügen dieser Zahlungsmethode ist ein Fehler aufgetreten:"
 
 
 msgid "Error Adding Payment Method"
@@ -48083,9 +48029,9 @@ msgstr ""
 msgid "There was an unexpected error ('%s') processing payment information."
 msgstr "Beim Verarbeiten der Zahlungsinformationen ist ein unerwarteter Fehler aufgetreten ('%s')."
 
-#, fuzzy, php-format
+#, php-format
 msgid "Remove the payment method %s from your account?"
-msgstr "Die Zahlungsart \"%s\" deaktivieren?"
+msgstr "Zahlungsmethode %s von Deinem Konto entfernen?"
 
 
 msgid "You will no longer be able to make payments using this payment method."
@@ -48161,26 +48107,24 @@ msgid "%s removed %s account manager(s): %s."
 msgstr "%s hat %s Kontomanager entfernt: %s."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s edited %s account manager(s), added %s: %s; removed %s: %s."
-msgstr "%s hat %s Commit(s) verändert, %s hinzugefügt: %s; %s entfernt: %s."
+msgstr "%s hat %s Konto-Manager bearbeitet, hinzugefügt %s: %s; entfernt %s: %s."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s added %s account manager(s) to %s: %s."
-msgstr "%s hat %s Commit(s) in %s hinzugefügt: %s."
+msgstr "%s hat %s Konto-Manager zu %s hinzugefügt: %s."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s removed %s account manager(s) from %s: %s."
-msgstr "%s hat %s Commit(s) von %s entfernt: %s."
+msgstr "%s hat %s Konto-Manager von %s entfernt: %s."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s edited %s account manager(s) for %s, added %s: %s; removed %s: %s."
-msgstr ""
-"%s hat %s Account-Manager für %s bearbeitet, %s hinzugefügt: %s; %s "
-"entfernt: %s."
+msgstr "%s hat %s Konto-Manager für %s bearbeitet, hinzugefügt %s: %s; entfernt %s: %s."
 
 
 #, php-format
@@ -48193,33 +48137,31 @@ msgid "%s removed %s merchant manager(s): %s."
 msgstr "%s hat %s Händlermanager entfernt: %s."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s edited %s merchant manager(s), added %s: %s; removed %s: %s."
-msgstr "%s hat %s Aufgaben geändert, %s hinzugefügt; %s entfernt: %s."
+msgstr "%s hat %s Händler-Manager bearbeitet, hinzugefügt %s: %s; entfernt %s: %s."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s added %s merchant manager(s) to %s: %s."
-msgstr "%s hat %s Aufgaben zu %s hinzugefügt: %s."
+msgstr "%s hat %s Händler-Manager zu %s hinzugefügt: %s."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s removed %s merchant manager(s) from %s: %s."
-msgstr "%s hat %s Aufgaben von %s entfernt: %s."
+msgstr "%s hat %s Händler-Manager von %s entfernt: %s."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s edited %s merchant manager(s) for %s, added %s: %s; removed %s: %s."
-msgstr ""
-"%s hat %s Aufgaben von %s geändert, %s hinzugefügt: %s; %s entfernt: %s."
+msgstr "%s hat %s Händler-Manager für %s bearbeitet, hinzugefügt %s: %s; entfernt %s: %s."
 
 
 msgid "Phortune Accounts"
 msgstr "Phortune-Konten"
 
-#, fuzzy
 msgid "Configure Phortune Account Forms"
-msgstr "Zeiterfassung konfigurieren"
+msgstr "Phortune-Kontoformulare konfigurieren"
 
 
 msgid "Configure creation and editing forms in Phortune Accounts."
@@ -48233,22 +48175,19 @@ msgid "Edit Account: %s"
 msgstr "Konto bearbeiten: %s"
 
 
-#, fuzzy
 msgid "Account name."
-msgstr "Konto"
+msgstr "Kontoname."
 
 
-#, fuzzy
 msgid "New account name."
-msgstr "Den Namen eines Dokumentes eintippen..."
+msgstr "Neuer Kontoname."
 
 
 msgid "Initial account managers."
 msgstr "Initiale Kontomanager."
 
-#, fuzzy
 msgid "Set account managers."
-msgstr "Konteneinstellungen speichern"
+msgstr "Konto-Manager festlegen."
 
 
 msgid "New list of managers."
@@ -48260,26 +48199,24 @@ msgstr "Kontoname für Abrechnungszwecke."
 msgid "New account billing name."
 msgstr "Neuer Abrechnungsname des Kontos."
 
-#, fuzzy
 msgid "Account billing address."
-msgstr "Konteneinstellungen"
+msgstr "Rechnungsadresse des Kontos."
 
 
 msgid "New account billing address."
 msgstr "Neue Rechnungsadresse des Kontos."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s created this payment account."
-msgstr "%s hat dieses Konto erstellt."
+msgstr "%s hat dieses Zahlungskonto erstellt."
 
 
 #, php-format
 msgid "Account managers must be valid users, \"%s\" is not."
 msgstr "Kontomanager müssen gültige Benutzer sein, \\\"%s\\\" ist es nicht."
 
-#, fuzzy
 msgid "You can not remove yourself as an account manager."
-msgstr "Du kannst Dein eigenes Konto nicht löschen."
+msgstr "Du kannst Dich nicht selbst als Konto-Manager entfernen."
 
 
 msgid "Phortune Account Emails"
@@ -48292,9 +48229,8 @@ msgid ""
 "Configure creation and editing forms for Phortune Account Email Addresses."
 msgstr ""
 
-#, fuzzy
 msgid "Add Email Address"
-msgstr "Keine Email-Adresse"
+msgstr "E-Mail-Adresse hinzufügen"
 
 
 #, php-format
@@ -48302,24 +48238,21 @@ msgid "Edit Account Email: %s"
 msgstr "Konto-E-Mail bearbeiten: %s"
 
 
-#, fuzzy
 msgid "Account Email"
-msgstr "Konto"
+msgstr "Konto-E-Mail"
 
 
-#, fuzzy
 msgid "Email address."
-msgstr "Emailadressen"
+msgstr "E-Mail-Adresse."
 
 
-#, fuzzy
 msgid "New email address."
-msgstr "Keine Email-Adresse"
+msgstr "Neue E-Mail-Adresse."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s created this account email."
-msgstr "%s hat dieses Konto erstellt."
+msgstr "%s hat diese Konto-E-Mail erstellt."
 
 
 #, php-format
@@ -48359,9 +48292,8 @@ msgstr "KONTOÜBERSICHT"
 msgid "[Invoice #%d] %s"
 msgstr "[Rechnung #%d] %s"
 
-#, fuzzy
 msgid "INVOICE DETAIL"
-msgstr "DATEI DETAILS"
+msgstr "RECHNUNGSDETAILS"
 
 
 #, php-format
@@ -48379,32 +48311,28 @@ msgstr "VOLLSTÄNDIGE BESTELLHISTORIE"
 msgid "UNSUBSCRIBE"
 msgstr "ABMELDEN"
 
-#, fuzzy
 msgid "Configure Phortune Merchant Forms"
-msgstr "Phabricator konfigurieren"
+msgstr "Phortune-Händlerformulare konfigurieren"
 
 
 msgid "Configure creation and editing forms for Phortune Merchants."
 msgstr "Erstellungs- und Bearbeitungsformulare für Phortune-Händler konfigurieren."
 
-#, fuzzy
 msgid "Create New Merchant"
-msgstr "Neuen Benutzer anlegen"
+msgstr "Neuen Händler erstellen"
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "Edit Merchant: %s"
-msgstr "Branch %s ändern"
+msgstr "Händler bearbeiten: %s"
 
 
-#, fuzzy
 msgid "Merchant name."
-msgstr "Händlerkonto"
+msgstr "Name des Händlers."
 
 
-#, fuzzy
 msgid "New Merchant name."
-msgstr "Neuer Benutzername"
+msgstr "Neuer Händlername."
 
 
 msgid "Initial merchant managers."
@@ -48413,29 +48341,24 @@ msgstr "Initiale Händlermanager."
 msgid "Set merchant managers."
 msgstr "Händlermanager festlegen."
 
-#, fuzzy
 msgid "Merchant description."
-msgstr "Projekt Kurzbeschreibung."
+msgstr "Händlerbeschreibung."
 
 
-#, fuzzy
 msgid "New merchant description."
-msgstr "Projekt Kurzbeschreibung."
+msgstr "Neue Händlerbeschreibung."
 
 
-#, fuzzy
 msgid "Contact Info"
-msgstr "Projektdetails"
+msgstr "Kontaktdaten"
 
 
-#, fuzzy
 msgid "Merchant contact information."
-msgstr "Konteninformationen"
+msgstr "Händler-Kontaktdaten."
 
 
-#, fuzzy
 msgid "Invoice From Email"
-msgstr "Aus Email"
+msgstr "Rechnungs-E-Mail-Absender"
 
 
 msgid "Email address invoices are sent from."
@@ -48454,14 +48377,13 @@ msgstr "%s hat diesen Händler erstellt."
 msgid "You can not remove yourself as an merchant manager."
 msgstr "Du kannst dich nicht selbst als Händlermanager entfernen."
 
-#, fuzzy
 msgid "Phortune Payment Methods"
-msgstr "Zahlungsmethoden"
+msgstr "Phortune-Zahlungsmethoden"
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s created this payment method."
-msgstr "%s hat dieses Panel erzeugt."
+msgstr "%s hat diese Zahlungsmethode erstellt."
 
 
 msgid "Phortune Payment Providers"
@@ -48470,9 +48392,9 @@ msgstr "Phortune-Zahlungsanbieter"
 msgid "Phortune Subscriptions"
 msgstr "Phortune-Abonnements"
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s created this subscription."
-msgstr "%s hat diese Spalte erzeugt."
+msgstr "%s hat dieses Abonnement erstellt."
 
 
 msgid ""
@@ -48777,24 +48699,20 @@ msgstr "Ablaufdatum der Karte ist ungültig oder falsch."
 msgid "Additional details about this error:"
 msgstr "Weitere Details zu diesem Fehler:"
 
-#, fuzzy
 msgid "Error Code"
-msgstr "Fehlerprotokoll"
+msgstr "Fehlercode"
 
 
-#, fuzzy
 msgid "Error Type"
-msgstr "Fehlerprotokoll"
+msgstr "Fehlertyp"
 
 
-#, fuzzy
 msgid "Error Param"
-msgstr "Fehlerprotokoll"
+msgstr "Fehlerparameter"
 
 
-#, fuzzy
 msgid "Decline Code"
-msgstr "Teilnahme absagen"
+msgstr "Ablehnungscode"
 
 
 msgid "Test Payments"
@@ -49006,14 +48924,13 @@ msgstr "Vollständig erstattet"
 msgid "%s Refunded"
 msgstr "%s erstattet"
 
-#, fuzzy
 msgid "A merchant's members can always view and edit it."
-msgstr "Der Besitzer eines Enwurf kann ihn immer anschauen und ändern."
+msgstr "Mitglieder eines Händlers können ihn immer einsehen und bearbeiten."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "Expires %s · %s"
-msgstr "Ändere %s %s"
+msgstr "Läuft ab %s · %s"
 
 
 #, php-format
@@ -49021,9 +48938,9 @@ msgid "Payment Method %d"
 msgstr "Zahlungsmethode %d"
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "Provider %d"
-msgstr "Zahlungsdienstleister %d ändern"
+msgstr "Anbieter %d"
 
 
 msgid "Providers have the policies of their merchant."
@@ -49051,9 +48968,8 @@ msgstr "Käufe erben die Richtlinien ihres Warenkorbs."
 msgid "Subscription"
 msgstr "Abonnement"
 
-#, fuzzy
 msgid "No charges found."
-msgstr "Keine Gesprächsbeiträge gefunden."
+msgstr "Keine Abbuchungen gefunden."
 
 
 msgid "Cart"
@@ -49114,9 +49030,8 @@ msgstr "Dieser Kauf wurde abgeschlossen."
 msgid "Order Name"
 msgstr "Auftragsname"
 
-#, fuzzy
 msgid "Order Status"
-msgstr "Neuer Termin"
+msgstr "Auftragsstatus"
 
 
 msgid "Bill To:"
@@ -49187,27 +49102,27 @@ msgid ""
 "in the future."
 msgstr ""
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s updated the account billing address."
-msgstr "%s hat die Teilnehmerliste geändert."
+msgstr "%s hat die Rechnungsadresse des Kontos aktualisiert."
 
 
 msgid "CHANGES TO BILLING ADDRESS"
 msgstr "ÄNDERUNGEN AN DER RECHNUNGSADRESSE"
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s changed the billing name for this account from %s to %s."
-msgstr "%s hat den Namen des Termins von %s auf %s geändert."
+msgstr "%s hat den Rechnungsnamen dieses Kontos von %s auf %s geändert."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s removed the billing name for this account (was %s)."
-msgstr "%s hat den individuellen Namen dieser Spalte entfernt."
+msgstr "%s hat den Rechnungsnamen dieses Kontos entfernt (war %s)."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s set the billing name for this account to %s."
-msgstr "%s hat die Zeichencodierung für das Repository auf \"%s\" gesetzt."
+msgstr "%s hat den Rechnungsnamen dieses Kontos auf %s gesetzt."
 
 
 #, php-format
@@ -49228,81 +49143,79 @@ msgstr ""
 msgid "%s rotated the access key for this email address."
 msgstr "%s hat den Zugriffsschlüssel für diese E-Mail-Adresse rotiert."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s changed the status for this address to %s."
-msgstr "%s hat die eigene Auffassung zu diesem Termin nochmal überdacht."
+msgstr "%s hat den Status dieser Adresse auf %s geändert."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s renamed this account from %s to %s."
-msgstr "%s hat dieses Konto von \"%s\" nach \"%s\" umbenannt."
+msgstr "%s hat dieses Konto von %s in %s umbenannt."
 
 
 #, php-format
 msgid "%s created this account."
 msgstr "%s hat dieses Konto erstellt."
 
-#, fuzzy
 msgid "Accounts must have a name."
-msgstr "Produkte müssen Namen haben"
+msgstr "Konten müssen einen Namen haben."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s updated the merchant contact info."
-msgstr "%s hat den Text des Dokumentes geändert."
+msgstr "%s hat die Händler-Kontaktdaten aktualisiert."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s updated the merchant contact info for %s."
-msgstr "%s hat die Beschreibung von %s verändert."
+msgstr "%s hat die Händler-Kontaktdaten für %s aktualisiert."
 
 
 msgid "CHANGES TO MERCHANT CONTACT INFO"
 msgstr "ÄNDERUNGEN AN DEN HÄNDLERKONTAKTINFORMATIONEN"
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s updated the merchant description."
-msgstr "%s hat die Beschreibung dieses Termins geändert."
+msgstr "%s hat die Händlerbeschreibung aktualisiert."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s updated the merchant description for %s."
-msgstr "%s hat die Beschreibung von %s verändert."
+msgstr "%s hat die Händlerbeschreibung für %s aktualisiert."
 
 
-#, fuzzy
 msgid "CHANGES TO MERCHANT DESCRIPTION"
-msgstr "TERMIN BESCHREIBUNG"
+msgstr "ÄNDERUNGEN AN DER HÄNDLERBESCHREIBUNG"
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s updated the invoice email from %s to %s."
-msgstr "%s hat die Teilnehmerliste von %s geändert."
+msgstr "%s hat die Rechnungs-E-Mail von %s auf %s geändert."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s removed the invoice email."
-msgstr "%s hat die Teilnehmerliste geändert."
+msgstr "%s hat die Rechnungs-E-Mail entfernt."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s set the invoice email to %s."
-msgstr "%s hat das Symbol für %s auf %s gesetzt."
+msgstr "%s hat die Rechnungs-E-Mail auf %s gesetzt."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s updated %s invoice email from %s to %s."
-msgstr "%s hat %s von %s nach %s geändert."
+msgstr "%s hat die Rechnungs-E-Mail von %s von %s auf %s geändert."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s removed the invoice email for %s."
-msgstr "%s hat die Rechte zum Zusammenführen von %s verändert."
+msgstr "%s hat die Rechnungs-E-Mail für %s entfernt."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s set the invoice email for %s to %s."
-msgstr "%s hat das Symbol für %s auf %s gesetzt."
+msgstr "%s hat die Rechnungs-E-Mail für %s auf %s gesetzt."
 
 
 #, php-format
@@ -49313,62 +49226,61 @@ msgstr "Rechnungs-E-Mail \\\"%s\\\" muss eine gültige E-Mail sein."
 msgid "The email can be no longer than %s characters."
 msgstr "Die E-Mail darf nicht länger als %s Zeichen sein."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s updated the merchant invoice footer."
-msgstr "%s hat das Bild für %s geändert."
+msgstr "%s hat die Händler-Rechnungsfußzeile aktualisiert."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s updated the merchant invoice footer for %s."
-msgstr "%s hat das Bild für %s geändert."
+msgstr "%s hat die Händler-Rechnungsfußzeile für %s aktualisiert."
 
 
 msgid "CHANGES TO MERCHANT INVOICE FOOTER"
 msgstr "ÄNDERUNGEN AN DER HÄNDLER-RECHNUNGSFUSSZEILE"
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s renamed this merchant from %s to %s."
-msgstr "%s hat das Dokument von \"%s\" nach \"%s\" umbenannt."
+msgstr "%s hat diesen Händler von %s in %s umbenannt."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s renamed %s merchant name from %s to %s."
-msgstr "%s hat %s von \"%s\" nach \"%s\" umbenannt."
+msgstr "%s hat den Händlernamen von %s von %s in %s umbenannt."
 
 
-#, fuzzy
 msgid "Merchants must have a name."
-msgstr "Produkte müssen Namen haben"
+msgstr "Händler müssen einen Namen haben."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s updated the picture."
-msgstr "%s hat ihr Profil geändert"
+msgstr "%s hat das Bild aktualisiert."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s updated the picture for merchant %s."
-msgstr "%s hat das Bild für %s geändert."
+msgstr "%s hat das Bild für Händler %s aktualisiert."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s renamed this payment method from %s to %s."
-msgstr "%s hat dieses Panel von \"%s\" nach \"%s\" umbenannt."
+msgstr "%s hat diese Zahlungsmethode von %s in %s umbenannt."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s set the name of this payment method to %s."
-msgstr "%s hat den Namen des Termins von %s auf %s geändert."
+msgstr "%s hat den Namen dieser Zahlungsmethode auf %s gesetzt."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s removed the name of this payment method (was: %s)."
-msgstr "%s hat den Namen des Termins von %s auf %s geändert."
+msgstr "%s hat den Namen dieser Zahlungsmethode entfernt (war: %s)."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s changed the status of this payment method."
-msgstr "%s hat die eigene Auffassung zu diesem Termin nochmal überdacht."
+msgstr "%s hat den Status dieser Zahlungsmethode geändert."
 
 
 #, php-format
