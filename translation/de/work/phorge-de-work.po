@@ -10288,9 +10288,8 @@ msgstr "`%s` nicht in PATH gefunden."
 msgid "Sprites will not be optimized! Install `%s`!"
 msgstr "Sprites werden nicht optimiert! `%s` installieren!"
 
-#, fuzzy
 msgid "Optimizing..."
-msgstr "Importiere..."
+msgstr "Optimiere …"
 
 
 msgid "Done generating sprites - updating map..."
@@ -10314,14 +10313,12 @@ msgstr "Syntax-Highlighting-CSS neu aufbauen."
 msgid "Rebuilt \"%s\" syntax CSS."
 msgstr "Syntax-CSS \"%s\" neu aufgebaut."
 
-#, fuzzy
 msgid "Dark Mode (Experimental)"
-msgstr "Experimentell"
+msgstr "Dunkelmodus (experimentell)"
 
 
-#, fuzzy
 msgid "Use Standard Colors"
-msgstr "Standard-Farbpalette"
+msgstr "Standardfarben verwenden"
 
 
 msgid "Use High Contrast Colors"
