@@ -54754,13 +54754,13 @@ msgstr "Konferenz"
 
 
 msgid "Process text through remarkup."
-msgstr ""
+msgstr "Text durch Remarkup verarbeiten."
 
 msgid "Contents must be a list of strings."
-msgstr ""
+msgstr "Der Inhalt muss eine Liste von Zeichenketten sein."
 
 msgid "Invalid markup engine."
-msgstr ""
+msgstr "Ungültige Markup-Engine."
 
 #, fuzzy
 msgid "Can Edit and View Identities"
