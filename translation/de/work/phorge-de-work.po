@@ -11113,14 +11113,12 @@ msgid ""
 "auth unlock\"."
 msgstr ""
 
-#, fuzzy
 msgid "Auth Config Unlocked"
-msgstr "Konfiguration gesperrt"
+msgstr "Authentifizierungskonfiguration entsperrt"
 
 
-#, fuzzy
 msgid "Authentication Configuration Unlocked"
-msgstr "Konfiguration gesperrt"
+msgstr "Authentifizierungskonfiguration ist entsperrt"
 
 
 msgid ""
@@ -11368,9 +11366,8 @@ msgstr ""
 msgid "Daemons Not Running"
 msgstr "Dämonen laufen nicht"
 
-#, fuzzy
 msgid "Daemons Are Not Running"
-msgstr "Daemon läuft nicht."
+msgstr "Daemons laufen nicht"
 
 
 msgid "At least one daemon is currently running as the wrong user."
@@ -11406,9 +11403,9 @@ msgid ""
 "version, \"%s\". Update to at least \"%s\"."
 msgstr ""
 
-#, fuzzy, php-format
+#, php-format
 msgid "Update %s"
-msgstr "%s geändert"
+msgstr "%s aktualisieren"
 
 
 #, php-format
@@ -11448,9 +11445,8 @@ msgid ""
 "be replicating. Stop replication on the host or adjust configuration."
 msgstr ""
 
-#, fuzzy
 msgid "Replicating Master"
-msgstr "Anwendungen"
+msgstr "Replizierender Master"
 
 
 #, php-format
@@ -11496,9 +11492,8 @@ msgid ""
 "following command to create a new index."
 msgstr ""
 
-#, fuzzy
 msgid "Elasticsearch Index Not Found"
-msgstr "Hostname für Elastic Search"
+msgstr "Elasticsearch-Index nicht gefunden"
 
 
 msgid "Elasticsearch index exists but needs correction."
@@ -11581,9 +11576,8 @@ msgid ""
 "options."
 msgstr ""
 
-#, fuzzy
 msgid "Deprecated Config Source"
-msgstr "Reparierte Konfiguration"
+msgstr "Veraltete Konfigurationsquelle"
 
 
 #, php-format
@@ -11905,9 +11899,8 @@ msgstr ""
 msgid "Mailers Not Configured"
 msgstr "Mailer nicht konfiguriert"
 
-#, fuzzy
 msgid "Rebuild Search Index"
-msgstr "Erstelle (erneut) die Suchindices."
+msgstr "Suchindex neu aufbauen"
 
 
 msgid ""
@@ -11935,9 +11928,8 @@ msgid ""
 "After rebuilding the index, run this command to clear this setup warning:"
 msgstr ""
 
-#, fuzzy
 msgid "Rebuild Repository Identities"
-msgstr "Alle Repositories"
+msgstr "Repository-Identitäten neu aufbauen"
 
 
 #, php-format
@@ -12210,9 +12202,8 @@ msgid ""
 "empty."
 msgstr ""
 
-#, fuzzy
 msgid "Configuring a Preamble Script"
-msgstr "Phabricator konfigurieren"
+msgstr "Präambel-Skript konfigurieren"
 
 
 #, php-format
@@ -12224,9 +12215,8 @@ msgid ""
 "script is written correctly."
 msgstr ""
 
-#, fuzzy
 msgid "No REMOTE_ADDR available"
-msgstr "Keine Daten verfügbar."
+msgstr "Keine REMOTE_ADDR verfügbar"
 
 
 #, php-format
@@ -12332,9 +12322,9 @@ msgid ""
 "usable because it is not traversable (its '%s' permission bit is not set)."
 msgstr ""
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s Component Unusable"
-msgstr "%s abgeschlossen"
+msgstr "%s Komponente nicht verwendbar"
 
 
 #, php-format
@@ -12550,9 +12540,8 @@ msgid ""
 "configuration."
 msgstr ""
 
-#, fuzzy
 msgid "S3 Partially Configured"
-msgstr "Teilweise Überprüft"
+msgstr "S3 teilweise konfiguriert"
 
 
 msgid "Amazon S3 is Only Partially Configured"
@@ -12586,9 +12575,8 @@ msgstr "Zeitzone"
 msgid "Server Timezone Not Configured"
 msgstr "Server-Zeitzone nicht konfiguriert"
 
-#, fuzzy
 msgid "Disable Pagespeed"
-msgstr "Erneutes Öffnen deaktivieren"
+msgstr "Pagespeed deaktivieren"
 
 
 msgid "Pagespeed is enabled, but should be disabled."
@@ -12744,9 +12732,8 @@ msgid ""
 "compressed requests."
 msgstr ""
 
-#, fuzzy
 msgid "The request body that was sent began:"
-msgstr "Das angeforderte Bild ist nicht mehr aktuell."
+msgstr "Der gesendete Anfragekörper beginnt mit:"
 
 
 msgid "The request body that was received began:"
@@ -12803,9 +12790,9 @@ msgid ""
 "\n"
 msgstr ""
 
-#, fuzzy, php-format
+#, php-format
 msgid "PHP version: %s"
-msgstr "Version %s"
+msgstr "PHP-Version: %s"
 
 
 msgid "Recorded items (sample):"
@@ -12815,17 +12802,15 @@ msgstr "Aufgezeichnete Einträge (Stichprobe):"
 msgid "%s, occurrences: %s"
 msgstr "%s, Vorkommen: %s"
 
-#, fuzzy
 msgid "Deprecated Code"
-msgstr "Erzeugt vor"
+msgstr "Veralteter Code"
 
 
 msgid "There is some deprecated code found in the code-base."
 msgstr "Im Code-Bestand wurde veralteter Code gefunden."
 
-#, fuzzy
 msgid "Core Settings"
-msgstr "Einstellungen"
+msgstr "Grundeinstellungen"
 
 
 msgid "Application Settings"
@@ -12860,9 +12845,8 @@ msgstr ""
 msgid "Extensions/Modules"
 msgstr "Erweiterungen/Module"
 
-#, fuzzy
 msgid "Show installed extensions and modules."
-msgstr "Zeige Aktive und Inaktive Regeln"
+msgstr "Installierte Erweiterungen und Module anzeigen."
 
 
 msgid "Configuration"
@@ -12874,27 +12858,23 @@ msgstr "Bibliothek"
 msgid "Version"
 msgstr "Version"
 
-#, fuzzy
 msgid "Branchpoint"
-msgstr "Branch"
+msgstr "Verzweigungspunkt"
 
 
-#, fuzzy
 msgid "Version Information"
-msgstr "Benutzerinformationen"
+msgstr "Versionsinformationen"
 
 
-#, fuzzy
 msgid "Not Available"
-msgstr "Verfügbar"
+msgstr "Nicht verfügbar"
 
 
 msgid "Path"
 msgstr "Pfad"
 
-#, fuzzy
 msgid "Other Version Information"
-msgstr "Benutzerinformationen"
+msgstr "Weitere Versionsinformationen"
 
 
 #, php-format
@@ -12938,9 +12918,8 @@ msgstr "Keine Probleme"
 msgid "Your install has no current setup issues to resolve."
 msgstr "Deine Installation hat keine aktuellen Setup-Probleme zu lösen."
 
-#, fuzzy
 msgid "Unresolved Setup Issues"
-msgstr "Setup-Probleme lösen"
+msgstr "Ungelöste Einrichtungsprobleme"
 
 
 msgid "You have no unresolved setup issues."
@@ -12983,9 +12962,8 @@ msgstr "Summe"
 msgid "Usage"
 msgstr "Verwendung"
 
-#, fuzzy
 msgid "Cache Storage"
-msgstr "Speicherort"
+msgstr "Cache-Speicher"
 
 
 msgid "Data Cache"
@@ -13007,17 +12985,15 @@ msgstr "%s von %s"
 msgid "Cache Entries"
 msgstr "Cache-Einträge"
 
-#, fuzzy
 msgid "Database Servers"
-msgstr "Datenbank"
+msgstr "Datenbankserver"
 
 
 msgid "Master"
 msgstr "Master"
 
-#, fuzzy
 msgid "Replica"
-msgstr "Antworten"
+msgstr "Replikat"
 
 
 #, php-format
@@ -13036,17 +13012,16 @@ msgstr ""
 msgid "%s / %s"
 msgstr "%s / %s"
 
-#, fuzzy
 msgid "Default Partition"
-msgstr "Vorgabebild"
+msgstr "Standardpartition"
 
 
 msgid "Empty"
 msgstr "Leer"
 
-#, fuzzy, php-format
+#, php-format
 msgid "Partition: %s"
-msgstr "Dauer: %s"
+msgstr "Partition: %s"
 
 
 msgid "This server is not configured in cluster mode."
@@ -13055,22 +13030,19 @@ msgstr "Dieser Server ist nicht im Cluster-Modus konfiguriert."
 msgid "Connection"
 msgstr "Verbindung"
 
-#, fuzzy
 msgid "Replication"
-msgstr "Anwendung"
+msgstr "Replikation"
 
 
 msgid "Health"
 msgstr "Zustand"
 
-#, fuzzy
 msgid "Notification Servers"
-msgstr "Benachrichtigungen"
+msgstr "Benachrichtigungsserver"
 
 
-#, fuzzy
 msgid "Notifications Status"
-msgstr "Benachrichtigungen"
+msgstr "Benachrichtigungsstatus"
 
 
 msgid "Admin Server"
@@ -13101,14 +13073,12 @@ msgstr "%s ein / %s aus"
 msgid "%s Held / %sms"
 msgstr "%s gehalten / %s ms"
 
-#, fuzzy
 msgid "No Messages"
-msgstr "Keine Nachrichten."
+msgstr "Keine Nachrichten"
 
 
-#, fuzzy
 msgid "No notification servers are configured."
-msgstr "Keine Benachrichtigungen."
+msgstr "Es sind keine Benachrichtigungsserver konfiguriert."
 
 
 msgid "Proto"
@@ -13123,19 +13093,16 @@ msgstr "Clients"
 msgid "History"
 msgstr "Historie"
 
-#, fuzzy
 msgid "Repository Services"
-msgstr "Repositories"
+msgstr "Repository-Dienste"
 
 
-#, fuzzy
 msgid "Repository Status"
-msgstr "Repository"
+msgstr "Repository-Status"
 
 
-#, fuzzy
 msgid "Repository Errors"
-msgstr "Repository"
+msgstr "Repository-Fehler"
 
 
 msgid "Open"
@@ -13150,9 +13117,9 @@ msgstr "%s aktiv"
 msgid "Repository %s has an ambiguous leader."
 msgstr "Repository %s hat einen mehrdeutigen Leader."
 
-#, fuzzy, php-format
+#, php-format
 msgid "Repository %s has unreplicated changes (for %s)."
-msgstr "%s plant Änderungen für %s."
+msgstr "Repository %s hat nicht replizierte Änderungen (seit %s)."
 
 
 #, php-format
@@ -13172,22 +13139,20 @@ msgstr "Partiell"
 msgid "Synchronized"
 msgstr "Synchronisiert"
 
-#, fuzzy
 msgid "No Repositories"
-msgstr "Repositories"
+msgstr "Keine Repositories"
 
 
-#, fuzzy, php-format
+#, php-format
 msgid " (%s)"
-msgstr "%s (%s)"
+msgstr " (%s)"
 
 
 msgid "No repository cluster services are configured."
 msgstr "Keine Repository-Cluster-Dienste konfiguriert."
 
-#, fuzzy
 msgid "Repos"
-msgstr "Repository"
+msgstr "Repos"
 
 
 msgid "Sync"
@@ -13199,14 +13164,12 @@ msgstr "Keine aktiven Repositories haben ausstehende Fehler."
 msgid "Repository"
 msgstr "Repository"
 
-#, fuzzy
 msgid "Search Servers"
-msgstr "Sucheinstellungen"
+msgstr "Suchserver"
 
 
-#, fuzzy
 msgid "No search servers are configured."
-msgstr "Keine Zahlungsmethoden konfiguriert"
+msgstr "Es sind keine Suchserver konfiguriert."
 
 
 #, php-format
@@ -13214,9 +13177,8 @@ msgid "%s Stats"
 msgstr "%s-Statistiken"
 
 
-#, fuzzy
 msgid "No databases have any issues."
-msgstr "Keine Nachrichten für Dich bis jetzt."
+msgstr "Alle Datenbanken sind in Ordnung."
 
 
 msgid "Server"
@@ -13242,9 +13204,8 @@ msgstr "%s schwerwiegendes/e Problem(e) mit den Schemata erkannt."
 msgid "Detected %s warning(s) with the schemata."
 msgstr "%s Warnung(en) mit den Schemata erkannt."
 
-#, fuzzy
 msgid "Schemata Issues"
-msgstr "Probleme bei der Installation"
+msgstr "Schemata-Probleme"
 
 
 msgid "Database Status"
@@ -13312,9 +13273,9 @@ msgstr "Erwartetes Nullable"
 msgid "Expected Autoincrement"
 msgstr "Erwartetes Auto-Inkrement"
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s.%s (%s)"
-msgstr "%s (%s)"
+msgstr "%s.%s (%s)"
 
 
 msgid "Expected Unique"
@@ -13329,9 +13290,8 @@ msgstr "Keine Schema-Probleme"
 msgid "Schema Status"
 msgstr "Schema-Status"
 
-#, fuzzy
 msgid "No Caches to Reset"
-msgstr "Keine Berechtigung für Zonen"
+msgstr "Kein Cache zum Zurücksetzen"
 
 
 msgid "None of the caches on this page can be cleared."
@@ -13343,14 +13303,12 @@ msgstr "Opcode"
 msgid "Data"
 msgstr "Daten"
 
-#, fuzzy
 msgid "Really Clear Cache?"
-msgstr "Projekt wirklich verlassen?"
+msgstr "Cache wirklich leeren?"
 
 
-#, fuzzy
 msgid "Really Clear Cache"
-msgstr "Projekt wirklich verlassen?"
+msgstr "Cache wirklich leeren"
 
 
 msgid ""
@@ -13367,14 +13325,12 @@ msgstr "Cache leeren"
 msgid "Databases"
 msgstr "Datenbanken"
 
-#, fuzzy
 msgid "Other Services"
-msgstr "Andere Teilnehmer"
+msgstr "Weitere Dienste"
 
 
-#, fuzzy
 msgid "Repository Servers"
-msgstr "Repositories"
+msgstr "Repository-Server"
 
 
 #, php-format
@@ -13410,9 +13366,9 @@ msgid "Current Configuration"
 msgstr "Aktuelle Konfiguration"
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "Unknown configuration option type \"%s\"."
-msgstr "Unbekannte Bedingung \"%s\"!"
+msgstr "Unbekannter Konfigurationsoptionstyp „%s\"."
 
 
 msgid "Example"
@@ -13421,14 +13377,12 @@ msgstr "Beispiel"
 msgid "(empty)"
 msgstr "(leer)"
 
-#, fuzzy
 msgid "(No Value Configured)"
-msgstr "Lokale Konfiguration"
+msgstr "(Kein Wert konfiguriert)"
 
 
-#, fuzzy
 msgid "Advanced Settings"
-msgstr "Alle Einstellungen"
+msgstr "Erweiterte Einstellungen"
 
 
 msgid "All Settings"
@@ -13448,9 +13402,8 @@ msgstr "Der folgende reguläre Ausdruck ist fehlerhaft und kann nicht verwendet 
 msgid "Logo configuration is not valid: value must be a dictionary."
 msgstr "Logo-Konfiguration ist ungültig: Wert muss ein Wörterbuch sein."
 
-#, fuzzy
 msgid "Logo Image"
-msgstr "Bild beschneiden"
+msgstr "Logo-Bild"
 
 
 msgid "Remove Custom Logo"
@@ -13657,9 +13610,8 @@ msgstr "Konfigurationsschlüssel \\\"%s\\\" in lokalen Speicher geschrieben (in 
 msgid "DONE"
 msgstr "ERLEDIGT"
 
-#, fuzzy
 msgid "Garbage Collectors"
-msgstr "Garbage Collector"
+msgstr "Garbage-Collectoren"
 
 
 msgid "Automatic"
@@ -13668,9 +13620,9 @@ msgstr "Automatisch"
 msgid "Indefinite"
 msgstr "Unbegrenzt"
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s Day(s)"
-msgstr "%s Tage"
+msgstr "%s Tag(e)"
 
 
 #, php-format
@@ -13682,14 +13634,12 @@ msgstr ""
 msgid "Constant"
 msgstr "Konstant"
 
-#, fuzzy
 msgid "Retention Policy"
-msgstr "Unbekannte Rechte"
+msgstr "Aufbewahrungsrichtlinie"
 
 
-#, fuzzy
 msgid "Edge Types"
-msgstr "Typen"
+msgstr "Edge-Typen"
 
 
 msgid "Inverse"
@@ -13698,30 +13648,26 @@ msgstr "Invertiert"
 msgid "HTTP Parameter Types"
 msgstr "HTTP-Parametertypen"
 
-#, fuzzy
 msgid "PHID Types"
-msgstr "Typen"
+msgstr "PHID-Typen"
 
 
-#, fuzzy
 msgid "Exception Handlers"
-msgstr "Fragen und Antworten"
+msgstr "Ausnahmehandler"
 
 
 msgid "Priority"
 msgstr "Priorität"
 
-#, fuzzy
 msgid "Setup Checks"
-msgstr "Probleme bei der Installation"
+msgstr "Einrichtungsprüfungen"
 
 
 msgid "Order"
 msgstr "Reihenfolge"
 
-#, fuzzy
 msgid "Preflight"
-msgstr "Höhe"
+msgstr "Vorflug-Prüfung"
 
 
 msgid "Sites"
@@ -14038,9 +13984,8 @@ msgstr "Cluster-Setup"
 msgid "Configure services to run on a cluster of hosts."
 msgstr "Dienste für den Betrieb auf einem Host-Cluster konfigurieren."
 
-#, fuzzy
 msgid "Cluster: Databases"
-msgstr "Datenbank"
+msgstr "Cluster: Datenbanken"
 
 
 #, php-format
@@ -14057,9 +14002,8 @@ msgid ""
 "EOTEXT"
 msgstr ""
 
-#, fuzzy
 msgid "Clustering Introduction"
-msgstr "Pick Anweisungen"
+msgstr "Einführung in Clustering"
 
 
 msgid "Cluster: Search"
@@ -14362,9 +14306,8 @@ msgstr "%s verwenden, um aktivierte Anwendungen zu verwalten."
 msgid "Array containing list of disabled applications."
 msgstr "Array mit der Liste deaktivierter Anwendungen."
 
-#, fuzzy
 msgid "Customized settings for applications."
-msgstr "Applikationen anpassen..."
+msgstr "Angepasste Einstellungen für Anwendungen."
 
 
 msgid "Cache namespace."
@@ -14388,9 +14331,9 @@ msgid ""
 "the base URI will be used, with a \" %s/1.0\" suffix."
 msgstr ""
 
-#, fuzzy, php-format
+#, php-format
 msgid "Set default user-agent to \"%s\""
-msgstr "%s hat den Vorgabe-Branch auf \"%s\" gesetzt."
+msgstr "Standard-User-Agent auf „%s\" setzen"
 
 
 #, php-format
@@ -14587,9 +14530,8 @@ msgid ""
 "and forces disk reads of static assets on every reload."
 msgstr ""
 
-#, fuzzy
 msgid "Extensions"
-msgstr "Versionen"
+msgstr "Erweiterungen"
 
 
 msgid "Manage extensions."
@@ -14839,9 +14781,8 @@ msgid ""
 "EODOC"
 msgstr ""
 
-#, fuzzy
 msgid "Default address used when generating mail."
-msgstr "Art der Darstellung eines Datums"
+msgstr "Standardadresse für ausgehende E-Mails."
 
 
 msgid "Send Mail To Each Recipient"
@@ -14859,9 +14800,9 @@ msgstr ""
 msgid "Send as User Taking Action"
 msgstr "Als handelnden Benutzer senden"
 
-#, fuzzy, php-format
+#, php-format
 msgid "Send as %s"
-msgstr "Ende %s"
+msgstr "Senden als %s"
 
 
 msgid "Controls whether email is sent \"From\" users."
@@ -14902,14 +14843,12 @@ msgstr ""
 msgid "Allow a single mailbox to be used for all replies."
 msgstr "Ein einzelnes Postfach für alle Antworten verwenden."
 
-#, fuzzy
 msgid "Short"
-msgstr "Zu kurz"
+msgstr "Kurz"
 
 
-#, fuzzy
 msgid "Real"
-msgstr "Voller Name"
+msgstr "Echter Name"
 
 
 msgid "Full"
@@ -14987,9 +14926,8 @@ msgid ""
 "EOTEXT"
 msgstr ""
 
-#, fuzzy
 msgid "Simple Example"
-msgstr "Beispiel"
+msgstr "Einfaches Beispiel"
 
 
 msgid "Daemons"
@@ -15243,9 +15181,8 @@ msgid ""
 "users' browsers have accepted the setting."
 msgstr ""
 
-#, fuzzy
 msgid "Configure master encryption keys."
-msgstr "Projekte konfigurieren."
+msgstr "Master-Verschlüsselungsschlüssel konfigurieren."
 
 
 #, php-format
@@ -15370,9 +15307,8 @@ msgstr "Benutzeroberfläche"
 msgid "Configure the UI, including colors."
 msgstr "Die Benutzeroberfläche einschließlich Farben konfigurieren."
 
-#, fuzzy
 msgid "Blindigo"
-msgstr "Indigo"
+msgstr "Blindigo"
 
 
 msgid "Red"
@@ -15409,9 +15345,8 @@ msgid ""
 "\n"
 msgstr ""
 
-#, fuzzy
 msgid "Customize favicons."
-msgstr "Applikationen anpassen..."
+msgstr "Favicons anpassen."
 
 
 msgid "Allows you to add footer links on most pages."
@@ -15432,9 +15367,8 @@ msgstr ""
 msgid "Basic Example"
 msgstr "Grundlegendes Beispiel"
 
-#, fuzzy
 msgid "Setup Error"
-msgstr "Abfragefehler"
+msgstr "Einrichtungsfehler"
 
 
 msgid ""
@@ -15641,9 +15575,8 @@ msgid ""
 "known, concrete subclass of base class \"%s\". Valid selections are: %s."
 msgstr ""
 
-#, fuzzy
 msgid "Database Value"
-msgstr "Datenbank"
+msgstr "Datenbankwert"
 
 
 #, php-format
@@ -15749,14 +15682,12 @@ msgid ""
 "input could not be decoded. (Did you forget to quote a string?)"
 msgstr ""
 
-#, fuzzy
 msgid "Formats"
-msgstr "Format"
+msgstr "Formate"
 
 
-#, fuzzy
 msgid "A Troublesome Encounter!"
-msgstr "Release-Zähler"
+msgstr "Eine unangenehme Begegnung!"
 
 
 #, php-format
@@ -15827,9 +15758,9 @@ msgid "View \"%s\""
 msgstr "\\\"%s\\\" anzeigen"
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "Edit \"%s\""
-msgstr "Ändere %s %s"
+msgstr "„%s\" bearbeiten"
 
 
 #, php-format
