@@ -46861,9 +46861,8 @@ msgstr "Datei ist nicht anzeigbar."
 msgid "Inline Comment"
 msgstr "Inline-Kommentar"
 
-#, fuzzy
 msgid "Comment cannot be empty."
-msgstr "Der Titel darf nicht leer bleiben."
+msgstr "Kommentar darf nicht leer sein."
 
 
 msgid "Edit Inline Comment"
@@ -46872,34 +46871,28 @@ msgstr "Inline-Kommentar bearbeiten"
 msgid "Save Draft"
 msgstr "Entwurf speichern"
 
-#, fuzzy
 msgid "Open Pholio Mock"
-msgstr "Pholio-Entwürfe ändern"
+msgstr "Pholio-Mock öffnen"
 
 
-#, fuzzy
 msgid "This mock will become open again."
-msgstr "Dieses Projekt würde wieder aktiviert werden."
+msgstr "Dieser Mock wird wieder geöffnet."
 
 
-#, fuzzy
 msgid "Open Mock"
-msgstr "Offene Aufgaben"
+msgstr "Mock öffnen"
 
 
-#, fuzzy
 msgid "Close Pholio Mock"
-msgstr "Pholio-Entwürfe ändern"
+msgstr "Pholio-Mock schließen"
 
 
-#, fuzzy
 msgid "This mock will be closed."
-msgstr "Diese Aufgaben werden verändert:"
+msgstr "Dieser Mock wird geschlossen."
 
 
-#, fuzzy
 msgid "Close Mock"
-msgstr "Aufgabe abgeschlossen"
+msgstr "Mock schließen"
 
 
 #, php-format
@@ -46928,9 +46921,8 @@ msgstr "Dieses Bild wird vom Entwurf entfernt."
 msgid "Edit Mock"
 msgstr "Entwurf ändern"
 
-#, fuzzy
 msgid "Mock Description"
-msgstr "Beschreibung"
+msgstr "Mock-Beschreibung"
 
 
 msgid "History Beckons"
@@ -46955,14 +46947,13 @@ msgstr "%s hat Aufgabe(n) für %s bearbeitet, hinzugefügt %s: %s; entfernt %s: 
 msgid "Pholio Mocks"
 msgstr "Pholio-Mocks"
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s created this mock."
-msgstr "%s hat diese Aufgabe erzeugt."
+msgstr "%s hat diesen Mock erstellt."
 
 
-#, fuzzy
 msgid "View Mock"
-msgstr "Zeige Wiki"
+msgstr "Mock anzeigen"
 
 
 msgid "MOCK DETAIL"
@@ -46978,9 +46969,8 @@ msgid "Image \"%s\":"
 msgstr "Bild \\\"%s\\\":"
 
 
-#, fuzzy
 msgid "[Pholio]"
-msgstr "Pholio"
+msgstr "[Pholio]"
 
 
 msgid "A mock's status changes."
@@ -47072,9 +47062,9 @@ msgstr "%s hat %d Bild(er) entfernt: %s."
 msgid "%s updated images of %s."
 msgstr "%s hat die Bilder von %s geändert."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s renamed an image (%s) from %s to %s."
-msgstr "%s hat ein Bild (%s) von \"%s\" zu \"%s\" umbenannt."
+msgstr "%s hat ein Bild (%s) von %s in %s umbenannt."
 
 
 #, php-format
@@ -47085,9 +47075,8 @@ msgstr "%s hat die Bildnamen von %s geändert."
 msgid "Mock image titles must not be longer than %s character(s)."
 msgstr "Mock-Bildtitel dürfen nicht länger als %s Zeichen sein."
 
-#, fuzzy
 msgid "Mock images must have a title."
-msgstr "Zonen müssen einen Namen haben"
+msgstr "Mock-Bilder müssen einen Titel haben."
 
 
 #, php-format
@@ -47129,7 +47118,7 @@ msgstr "%s hat die Entwurfsbeschreibung geändert."
 msgid "%s updated the description for %s."
 msgstr "%s hat die Beschreibung von %s verändert."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s added inline comment(s)."
 msgstr "%s hat Inline-Kommentare hinzugefügt."
 
@@ -47138,38 +47127,37 @@ msgstr "%s hat Inline-Kommentare hinzugefügt."
 msgid "%s added an inline comment to %s."
 msgstr "%s hat einen Inline-Kommentar zu %s hinzugefügt."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s renamed this mock from %s to %s."
-msgstr "%s hat den Entwurf von \"%s\" zu \"%s\" umbenannt."
+msgstr "%s hat diesen Mock von %s in %s umbenannt."
 
 
-#, fuzzy
 msgid "Mocks must have a name."
-msgstr "Zonen müssen einen Namen haben"
+msgstr "Mocks müssen einen Namen haben."
 
 
 #, php-format
 msgid "Mock names must not be longer than %s character(s)."
 msgstr "Mock-Namen dürfen nicht länger als %s Zeichen sein."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s closed this mock."
-msgstr "%s hat die Abstimmung geschlossen."
+msgstr "%s hat diesen Mock geschlossen."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s opened this mock."
-msgstr "%s hat diese Aufgabe wieder eröffnet."
+msgstr "%s hat diesen Mock geöffnet."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s closed mock %s."
-msgstr "%s hat %s geschlossen."
+msgstr "%s hat Mock %s geschlossen."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s opened mock %s."
-msgstr "%s hat %s wieder geöffnet."
+msgstr "%s hat Mock %s geöffnet."
 
 
 msgid "Creation of default account for users with no accounts."
