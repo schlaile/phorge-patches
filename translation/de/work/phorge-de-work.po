@@ -2374,14 +2374,12 @@ msgid "Audit configuration."
 msgstr "Audit-Konfiguration."
 
 
-#, fuzzy
 msgid "Enable Self-Accept"
-msgstr "Recaptcha aktivieren"
+msgstr "Selbstakzeptanz aktivieren"
 
 
-#, fuzzy
 msgid "Disable Self-Accept"
-msgstr "Selbstfreischalten von Versionen verbieten"
+msgstr "Selbstakzeptanz deaktivieren"
 
 
 msgid ""
@@ -2390,9 +2388,9 @@ msgid ""
 "of the option: long ago, it did something else."
 msgstr ""
 
-#, fuzzy, php-format
+#, php-format
 msgid "Unknown Audit Request Status (\"%s\")"
-msgstr "Unbekannter Status des Dokumentes '%s'!"
+msgstr "Unbekannter Überprüfungsanforderungsstatus („%s\")"
 
 
 msgid "Audit Required"
@@ -2420,14 +2418,12 @@ msgstr "Prüfungen"
 msgid "Failed to load commit during transaction finalization!"
 msgstr "Commit konnte beim Abschluss der Transaktion nicht geladen werden!"
 
-#, fuzzy
 msgid "[Diffusion]"
-msgstr "Diffusion"
+msgstr "[Diffusion]"
 
 
-#, fuzzy
 msgid "View Commit"
-msgstr "Änderungen Zeigen"
+msgstr "Commit anzeigen"
 
 
 msgid "INLINE COMMENTS"
@@ -2476,9 +2472,8 @@ msgstr "Einem Commit werden Auditoren hinzugefügt."
 msgid "A commit's subscribers change."
 msgstr "Die Abonnenten eines Commits ändern sich."
 
-#, fuzzy
 msgid "A commit's associated projects change."
-msgstr "Die einer Aufgabe zugeordenten Projekte wurden verändert."
+msgstr "Die einem Commit zugeordneten Projekte werden geändert."
 
 
 msgid "Someone comments on a commit."
@@ -2493,9 +2488,9 @@ msgid ""
 "additional ones are truncated.)"
 msgstr ""
 
-#, fuzzy, php-format
+#, php-format
 msgid "Failed to reload commit (\"%s\")."
-msgstr "Konnte Kommentar \"%s\" leider nicht laden."
+msgstr "Commit „%s\" konnte nicht neu geladen werden."
 
 
 #, php-format
@@ -2537,10 +2532,8 @@ msgstr "Das angegebene Höchstdatum muss nach dem angegebenen Mindestdatum liege
 msgid "No audits match the query."
 msgstr "Keine Audits entsprechen der Abfrage."
 
-#, fuzzy
 msgid "This is a dry run, so no changes will be made."
-msgstr ""
-"Dies war ein Testlauf, es wurden daher keine Aktion tatsächlich ausgeführt."
+msgstr "Dies ist ein Testlauf, es werden keine Änderungen vorgenommen."
 
 
 #, php-format
@@ -2586,9 +2579,9 @@ msgstr ""
 msgid "Specify either a list of objects to affect or \"--all\", but not both."
 msgstr "Entweder eine Liste betroffener Objekte oder \\\"--all\\\" angeben, aber nicht beides."
 
-#, fuzzy, php-format
+#, php-format
 msgid "Object \"%s\" is not a valid object."
-msgstr "Der neue Chat-Teilnehmer \"%s\" ist kein gültiger Benutzer."
+msgstr "„%s\" ist kein gültiges Objekt."
 
 
 #, php-format
@@ -2615,14 +2608,13 @@ msgstr "Paketbeziehungen für Commits aktualisieren."
 msgid "none"
 msgstr "keine"
 
-#, fuzzy, php-format
+#, php-format
 msgid "Updating \"%s\" (%s)..."
-msgstr "Beende Daemon '%s' (%s)..."
+msgstr "„%s\" (%s) wird aktualisiert …"
 
 
-#, fuzzy
 msgid "Diffusion Raw Commits"
-msgstr "Änderungen Zeigen"
+msgstr "Diffusion-Rohcommits"
 
 
 msgid "Repositories"
@@ -2631,9 +2623,8 @@ msgstr "Repositories"
 msgid "Find commits in particular repositories."
 msgstr "Commits in bestimmten Repositories suchen."
 
-#, fuzzy
 msgid "Diffusion Commits"
-msgstr "Diffusion"
+msgstr "Diffusion-Commits"
 
 
 msgid "Responsible Users"
@@ -2669,22 +2660,19 @@ msgstr "Pakete"
 msgid "Find commits which affect given packages."
 msgstr "Commits suchen, die bestimmte Pakete betreffen."
 
-#, fuzzy
 msgid "Unreachable"
-msgstr "Aufrufbar"
+msgstr "Nicht erreichbar"
 
 
 msgid "(Show All)"
 msgstr "(Zeige Alle)"
 
-#, fuzzy
 msgid "Show Only Unreachable Commits"
-msgstr "Zeige nur aktive Regeln"
+msgstr "Nur nicht erreichbare Commits zeigen"
 
 
-#, fuzzy
 msgid "Hide Unreachable Commits"
-msgstr "Problematische Commits zeigen »"
+msgstr "Nicht erreichbare Commits verbergen"
 
 
 msgid ""
@@ -2692,17 +2680,15 @@ msgid ""
 "tag, or ref."
 msgstr ""
 
-#, fuzzy
 msgid "Permanent"
-msgstr "Permanentes Feld"
+msgstr "Permanent"
 
 
 msgid "Show Only Permanent Commits"
 msgstr "Nur dauerhafte Commits anzeigen"
 
-#, fuzzy
 msgid "Hide Permanent Commits"
-msgstr "Problematische Commits zeigen »"
+msgstr "Permanente Commits verbergen"
 
 
 msgid ""
@@ -2725,9 +2711,8 @@ msgid ""
 "or unqualified identifiers (like \"rXabcd1234\" or \"abcd1234\")."
 msgstr ""
 
-#, fuzzy
 msgid "Active Audits"
-msgstr "Zeige laufende Überprüfungen"
+msgstr "Laufende Überprüfungen"
 
 
 msgid "Authored"
@@ -2739,14 +2724,12 @@ msgstr "Geprüft"
 msgid "All Commits"
 msgstr "Alle Quellcode-Änderungen"
 
-#, fuzzy
 msgid "No commits found."
-msgstr "Keine Dokumente gefunden."
+msgstr "Keine Commits gefunden."
 
 
-#, fuzzy
 msgid "Welcome to Audit"
-msgstr "Willkommen bei Phabricator"
+msgstr "Willkommen bei Audit"
 
 
 msgid ""
@@ -2754,9 +2737,8 @@ msgid ""
 "here."
 msgstr ""
 
-#, fuzzy
 msgid "Welcome to Diffusion"
-msgstr "In Diffusion anschauen"
+msgstr "Willkommen bei Diffusion"
 
 
 msgid "Your authored repository commits will appear here."
