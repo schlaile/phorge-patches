@@ -41716,6 +41716,8 @@ msgid ""
 "(To start the server, run this command.)\n"
 "%s"
 msgstr ""
+"(Um den Server zu starten, führe diesen Befehl aus.)\n"
+"%s"
 
 msgid "Setting Up Client"
 msgstr "Client einrichten"
