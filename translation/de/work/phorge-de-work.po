@@ -60248,13 +60248,13 @@ msgstr "Globale Standardeinstellungen"
 
 
 msgid "Slowvote"
-msgstr ""
+msgstr "Slowvote"
 
 msgid "Conduct Polls"
-msgstr ""
+msgstr "Umfragen durchführen"
 
 msgid "Slowvote User Guide"
-msgstr ""
+msgstr "Slowvote-Benutzerhandbuch"
 
 msgid "Design by committee."
 msgstr "Viele Köche verderben den Brei."
@@ -60263,44 +60263,40 @@ msgid "Default view policy for new polls."
 msgstr "Vorgabe Anzeige-Benutzerrichtlinie für neue Umfragen."
 
 msgid "Retrieve an array of information about a poll."
-msgstr ""
+msgstr "Ein Array mit Informationen zu einer Umfrage abrufen."
 
 msgid "No such poll exists."
 msgstr "Diese Umfrage existiert nicht."
 
 msgid "Read information about polls."
-msgstr ""
+msgstr "Informationen über Umfragen abrufen."
 
-#, fuzzy
 msgid "Always Visible"
-msgstr "Nicht sichtbar"
+msgstr "Immer sichtbar"
 
 
-#, fuzzy
 msgid "Anyone can see the responses"
-msgstr "Nur ich kann das Ergebnis sehen"
+msgstr "Alle können die Antworten sehen"
 
 
 msgid "Voters"
-msgstr ""
+msgstr "Abstimmende"
 
 msgid "Require a vote to see the responses"
 msgstr "Eine Abstimmung zur Voraussetzung machen, das Ergebnis zu sehen"
 
-#, fuzzy
 msgid "Only the poll author can see the responses"
-msgstr "Nur der Autor kann das Abstimmungsergebnis sehen."
+msgstr "Nur der Umfrageautor kann die Antworten sehen"
 
 
 msgid "Plurality"
-msgstr ""
+msgstr "Mehrheitswahl"
 
 msgid "Plurality (Single Choice)"
 msgstr "Abstimmung (Nur eine Auswahl möglich)"
 
-#, fuzzy
 msgid "Approval"
-msgstr "Freigeben"
+msgstr "Zustimmungswahl"
 
 
 msgid "Approval (Multiple Choice)"
@@ -60339,14 +60335,14 @@ msgstr "Neue Abstimmung"
 
 #, php-format
 msgid "Edit Poll: %s"
-msgstr ""
+msgstr "Umfrage bearbeiten: %s"
 
 
 msgid "Responses"
 msgstr "Antworten"
 
 msgid "Shuffle"
-msgstr ""
+msgstr "Zufällige Reihenfolge"
 
 msgid "Show choices in random order."
 msgstr "Zeige Wahlmöglichkeiten in zufälliger Reihenfolge."
@@ -60360,21 +60356,19 @@ msgstr "Umfrage ändern"
 msgid "Enter Deliberations"
 msgstr "Das Problem zu Tode diskutieren"
 
-#, fuzzy
 msgid "You must vote for something."
-msgstr "Du mußt abstimmen, um die Ergebnisse sehen zu können."
+msgstr "Du musst für etwas abstimmen."
 
 
-#, fuzzy
 msgid "You must vote for at least one option."
-msgstr "Du mußt mindestens eine mögliche Antwort angeben."
+msgstr "Du musst für mindestens eine Option abstimmen."
 
 
 msgid "Stand For Something"
-msgstr ""
+msgstr "Steh zu etwas!"
 
 msgid "In this poll, you may only vote for one option."
-msgstr ""
+msgstr "In dieser Umfrage kannst Du nur für eine Option abstimmen."
 
 #, php-format
 msgid ""
@@ -60386,38 +60380,33 @@ msgstr ""
 msgid "%s created this poll."
 msgstr "%s hat diese Abstimmung erstellt."
 
-#, fuzzy
 msgid "Someone changes the poll details."
-msgstr "Jemand hat eine Aufgabe kommentiert."
+msgstr "Jemand ändert die Details der Umfrage."
 
 
-#, fuzzy
 msgid "Someone votes on a poll."
-msgstr "Jemand hat eine Aufgabe kommentiert."
+msgstr "Jemand stimmt in einer Umfrage ab."
 
 
 msgid "Other poll activity not listed above occurs."
-msgstr ""
+msgstr "Andere Umfrageaktivitäten, die oben nicht aufgeführt sind, treten auf."
 
-#, fuzzy
 msgid "SLOWVOTE DESCRIPTION"
-msgstr "TERMIN BESCHREIBUNG"
+msgstr "SLOWVOTE-BESCHREIBUNG"
 
 
-#, fuzzy
 msgid "SLOWVOTE DETAIL"
-msgstr "ANTWORT DETAILS"
+msgstr "SLOWVOTE-DETAILS"
 
 
 msgid "Slowvote Poll"
 msgstr "Slowvote Abstimmung"
 
 msgid "Slowvotes"
-msgstr ""
+msgstr "Slowvotes"
 
-#, fuzzy
 msgid "Voted"
-msgstr "Mit abgestimmt"
+msgstr "Abgestimmt"
 
 
 msgid "Show only polls I've voted in."
@@ -60435,29 +60424,28 @@ msgstr "Mit abgestimmt"
 msgid "No polls found."
 msgstr "Eine Umfragen gefunden."
 
-#, fuzzy
 msgid "Create a Poll"
-msgstr "Neue Umfrage"
+msgstr "Neue Umfrage erstellen"
 
 
 msgid "Poll other users to help facilitate decision making."
-msgstr ""
+msgstr "Andere Benutzer befragen, um Entscheidungen zu erleichtern."
 
 msgid "The author of a poll can always view and edit it."
-msgstr ""
+msgstr "Der Autor einer Umfrage kann sie immer einsehen und bearbeiten."
 
 msgid "The name of the poll."
-msgstr ""
+msgstr "Der Name der Umfrage."
 
 msgid "The author of the poll."
-msgstr ""
+msgstr "Der Autor der Umfrage."
 
 
 msgid "Voting improves cardiovascular endurance."
 msgstr "Wählen verbessert die Ausdauer des Herz-Kreislaufsystems."
 
 msgid "Only you can see the results."
-msgstr ""
+msgstr "Nur Du kannst die Ergebnisse sehen."
 
 msgid "You must vote to see the results."
 msgstr "Du mußt abstimmen, um die Ergebnisse sehen zu können."
@@ -60470,7 +60458,7 @@ msgstr "Mit abstimmen"
 
 #, php-format
 msgid "%s (%d / %d)"
-msgstr ""
+msgstr "%s (%d / %d)"
 
 #, php-format
 msgid "%s Approval (%d / %d)"
@@ -60480,68 +60468,66 @@ msgstr "%s Zustimmung (%d / %d)"
 msgid "%s updated the description for this poll."
 msgstr "%s hat die Beschreibung dieser Abstimmung geändert."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s set the description of %s."
-msgstr "%s hat die Beschreibung von %s geändert."
+msgstr "%s hat die Beschreibung von %s festgelegt."
 
 
 #, php-format
 msgid "%s edited the description of %s."
 msgstr "%s hat die Beschreibung von %s geändert."
 
-#, fuzzy
 msgid "CHANGES TO POLL DESCRIPTION"
-msgstr "AUFGABEN-BESCHREIBUNG"
+msgstr "ÄNDERUNGEN AN DER UMFRAGEBESCHREIBUNG"
 
 
 #, php-format
 msgid "%s changed the poll question from \"%s\" to \"%s\"."
 msgstr "%s hat die Abstimmungsfrage von \"%s\" auf \"%s\" geändert."
 
-#, fuzzy
 msgid "Polls must have a question."
-msgstr "Du mußt eine Frage zur Abstimmung stellen."
+msgstr "Umfragen müssen eine Frage haben."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s changed who can see the responses from %s to %s."
-msgstr "%s hat den Namen des Termins von %s auf %s geändert."
+msgstr "%s hat geändert, wer die Antworten sehen kann: von %s auf %s."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s changed who can see the responses of %s from %s to %s."
-msgstr "%s hat den Namen von %s von %s auf %s geändert."
+msgstr "%s hat geändert, wer die Antworten von %s sehen kann: von %s auf %s."
 
 
 #, php-format
 msgid "%s made poll responses appear in a random order."
-msgstr ""
+msgstr "%s hat die Antworten der Umfrage in zufälliger Reihenfolge angezeigt."
 
 #, php-format
 msgid "%s made poll responses appear in a fixed order."
-msgstr ""
+msgstr "%s hat die Antworten der Umfrage in fester Reihenfolge angezeigt."
 
 #, php-format
 msgid "%s made %s responses appear in a random order."
-msgstr ""
+msgstr "%s hat die Antworten von %s in zufälliger Reihenfolge angezeigt."
 
 #, php-format
 msgid "%s made %s responses appear in a fixed order."
-msgstr ""
+msgstr "%s hat die Antworten von %s in fester Reihenfolge angezeigt."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s changed the status of this poll from %s to %s."
-msgstr "%s hat den Status von %s von \"%s\" nach \"%s\" geändert."
+msgstr "%s hat den Status dieser Umfrage von %s auf %s geändert."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s changed the voting method from %s to %s."
-msgstr "%s hat den Namen von %s von %s auf %s geändert."
+msgstr "%s hat die Abstimmungsmethode von %s auf %s geändert."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s changed the voting method of %s from %s to %s."
-msgstr "%s hat den Namen von %s von %s auf %s geändert."
+msgstr "%s hat die Abstimmungsmethode von %s von %s auf %s geändert."
 
 
 msgid "Test Space"
