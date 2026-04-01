@@ -54331,13 +54331,13 @@ msgid ""
 msgstr ""
 
 msgid "Query repositories."
-msgstr ""
+msgstr "Repositories abfragen."
 
 msgid "Configure repositories."
-msgstr ""
+msgstr "Repositories konfigurieren."
 
 msgid "Default location to store local copies of repositories."
-msgstr ""
+msgstr "Standardspeicherort für lokale Kopien von Repositories."
 
 #, php-format
 msgid ""
@@ -54355,7 +54355,7 @@ msgstr "Ein neues Git-Repository erstellen."
 
 
 msgid "Mercurial"
-msgstr ""
+msgstr "Mercurial"
 
 msgid "Create Mercurial Repository"
 msgstr "Mercurial-Repository erstellen"
@@ -54374,68 +54374,68 @@ msgstr "Ein neues Subversion-Repository erstellen."
 
 
 msgid "Shows branches a commit appears on in email."
-msgstr ""
+msgstr "Zeigt Branches, auf denen ein Commit erscheint, in der E-Mail."
 
 #, php-format
 msgid "<%s: %s>"
-msgstr ""
+msgstr "<%s: %s>"
 
 msgid "BRANCHES"
-msgstr ""
+msgstr "BRANCHES"
 
 msgid "Merged Commits"
-msgstr ""
+msgstr "Zusammengeführte Commits"
 
 msgid "For merge commits, shows merged changes in email."
-msgstr ""
+msgstr "Zeigt bei Merge-Commits die zusammengeführten Änderungen in der E-Mail."
 
 #, php-format
 msgid "This commit merges more than %d changes. Only the first %d are shown.\n"
 msgstr ""
 
 msgid "MERGED COMMITS"
-msgstr ""
+msgstr "ZUSAMMENGEFÜHRTE COMMITS"
 
 msgid "Error generating merged commits: "
-msgstr ""
+msgstr "Fehler beim Generieren der zusammengeführten Commits: "
 
 msgid "Shows repository in email."
-msgstr ""
+msgstr "Zeigt das Repository in der E-Mail."
 
 msgid "Shows commit tags in email."
-msgstr ""
+msgstr "Zeigt Commit-Tags in der E-Mail."
 
 msgid "TAGS"
-msgstr ""
+msgstr "TAGS"
 
 #, php-format
 msgid "Commit \"%s\" is not a reachable ancestor of \"%s\"."
-msgstr ""
+msgstr "Commit „%s\" ist kein erreichbarer Vorfahre von „%s\"."
 
 #, php-format
 msgid "Commit \"%s\" is not a reachable ancestor of any ref."
-msgstr ""
+msgstr "Commit „%s\" ist kein erreichbarer Vorfahre eines Refs."
 
 #, php-format
 msgid "No such %s '%s' in repository!"
-msgstr ""
+msgstr "Kein %s '%s' im Repository!"
 
 msgid "Pull only, without discovering commits."
-msgstr ""
+msgstr "Nur pullen, ohne Commits zu ermitteln."
 
 msgid "Do not pull __repository__."
-msgstr ""
+msgstr "Repository __repository__ nicht pullen."
 
 msgid "Pull specific __repositories__ instead of all."
-msgstr ""
+msgstr "Nur bestimmte __repositories__ statt alle pullen."
 
 #, php-format
 msgid "Got an update message for repository \"%s\"!"
-msgstr ""
+msgstr "Aktualisierungsnachricht für Repository „%s\" erhalten!"
 
 #, php-format
 msgid "Cluster repository (\"%s\") is out of sync on this node (\"%s\")."
-msgstr ""
+msgstr "Cluster-Repository „%s\" ist auf diesem Knoten „%s\" nicht synchron."
 
 #, php-format
 msgid ""
@@ -54445,11 +54445,11 @@ msgstr ""
 
 #, php-format
 msgid "Repository \"%s\" is currently updating."
-msgstr ""
+msgstr "Repository „%s\" wird gerade aktualisiert."
 
 #, php-format
 msgid "Repository \"%s\" is already queued."
-msgstr ""
+msgstr "Repository „%s\" ist bereits in der Warteschlange."
 
 #, php-format
 msgid ""
@@ -54459,19 +54459,19 @@ msgstr ""
 
 #, php-format
 msgid "Repository \"%s\" is not due for an update for %s second(s)."
-msgstr ""
+msgstr "Repository „%s\" ist noch %s Sekunde(n) nicht fällig für eine Aktualisierung."
 
 #, php-format
 msgid "Scheduling repository \"%s\" for an update (%s seconds overdue)."
-msgstr ""
+msgstr "Repository „%s\" wird für eine Aktualisierung eingeplant (%s Sekunden überfällig)."
 
 #, php-format
 msgid "Repository %s is no longer pullable; skipping."
-msgstr ""
+msgstr "Repository %s ist nicht mehr pullbar; wird übersprungen."
 
 #, php-format
 msgid "Starting update for repository \"%s\"."
-msgstr ""
+msgstr "Aktualisierung für Repository „%s\" wird gestartet."
 
 #, php-format
 msgid ""
@@ -54480,22 +54480,22 @@ msgid ""
 msgstr ""
 
 msgid "Waiting for updates to complete..."
-msgstr ""
+msgstr "Warten auf Abschluss der Aktualisierungen..."
 
 msgid "Interrupted by pending updates!"
-msgstr ""
+msgstr "Durch ausstehende Aktualisierungen unterbrochen!"
 
 #, php-format
 msgid "Resolving update for \"%s\"."
-msgstr ""
+msgstr "Aktualisierung für „%s\" wird aufgelöst."
 
 #, php-format
 msgid "Error while updating the \"%s\" repository."
-msgstr ""
+msgstr "Fehler beim Aktualisieren des Repositorys „%s\"."
 
 #, php-format
 msgid "Unexpected output while updating repository \"%s\": %s"
-msgstr ""
+msgstr "Unerwartete Ausgabe beim Aktualisieren von Repository „%s\": %s"
 
 #, php-format
 msgid ""
@@ -54504,17 +54504,17 @@ msgid ""
 msgstr ""
 
 msgid "No repositories need updates right now, sleeping..."
-msgstr ""
+msgstr "Kein Repository benötigt gerade eine Aktualisierung, schlafe..."
 
 #, php-format
 msgid "Sleeping for %s more second(s)..."
 msgstr "Warte weitere %s Sekunden..."
 
 msgid "Awakened from sleep by graceful shutdown!"
-msgstr ""
+msgstr "Durch kontrollierten Shutdown aus dem Schlaf geweckt!"
 
 msgid "Awakened from sleep by pending updates!"
-msgstr ""
+msgstr "Durch ausstehende Aktualisierungen aus dem Schlaf geweckt!"
 
 msgid ""
 "The chosen callsign or repository short name is already in use by another "
@@ -54529,7 +54529,7 @@ msgstr ""
 
 #, php-format
 msgid "Unknown VCS '%s'!"
-msgstr ""
+msgstr "Unbekanntes VCS '%s'!"
 
 #, php-format
 msgid ""
@@ -54544,19 +54544,19 @@ msgstr "Commits in Repository „%s\" werden ermittelt."
 
 #, php-format
 msgid "Examining \"%s\" (%s) at \"%s\"."
-msgstr ""
+msgstr "Prüfe „%s\" (%s) bei „%s\"."
 
 msgid "Skipping, ref is untracked."
-msgstr ""
+msgstr "Überspringe, Ref ist unverfolgt."
 
 msgid "Skipping, HEAD is known."
-msgstr ""
+msgstr "Überspringe, HEAD ist bekannt."
 
 msgid "Skipping, this is not a commit."
-msgstr ""
+msgstr "Überspringe, dies ist kein Commit."
 
 msgid "Looking for new commits."
-msgstr ""
+msgstr "Suche nach neuen Commits."
 
 #, php-format
 msgid ""
@@ -54570,21 +54570,21 @@ msgstr ""
 
 #, php-format
 msgid "Examining branch \"%s\" head \"%s\"."
-msgstr ""
+msgstr "Prüfe Branch „%s\" Head „%s\"."
 
 msgid "Skipping, branch is untracked."
-msgstr ""
+msgstr "Überspringe, Branch ist unverfolgt."
 
 msgid "Skipping, this head is a known commit."
-msgstr ""
+msgstr "Überspringe, dieser Head ist ein bekannter Commit."
 
 #, php-format
 msgid "Unable to identify parent \"%s\"!"
-msgstr ""
+msgstr "Elternelement „%s\" konnte nicht identifiziert werden!"
 
 #, php-format
 msgid "Repaired commit \"%s\"."
-msgstr ""
+msgstr "Commit „%s\" repariert."
 
 #, php-format
 msgid "Unknown repository type \"%s\"!"
@@ -54605,14 +54605,14 @@ msgstr ""
 
 #, php-format
 msgid "Importing %s commit(s) at normal priority (\"PRIORITY_COMMIT\")."
-msgstr ""
+msgstr "%s Commit(s) werden mit normaler Priorität importiert („PRIORITY_COMMIT\")."
 
 msgid "Edit Repository Identity Configurations"
 msgstr "Repository-Identitätskonfigurationen bearbeiten"
 
 
 msgid "This engine is used to edit Repository identities."
-msgstr ""
+msgstr "Diese Engine wird zur Bearbeitung von Repository-Identitäten verwendet."
 
 msgid "Create Identity"
 msgstr "Identität erstellen"
@@ -54620,25 +54620,25 @@ msgstr "Identität erstellen"
 
 #, php-format
 msgid "Edit Identity: %s"
-msgstr ""
+msgstr "Identität bearbeiten: %s"
 
 
 msgid "Identity"
 msgstr "Identität"
 
 msgid "Override this identity's assignment."
-msgstr ""
+msgstr "Zuweisung dieser Identität überschreiben."
 
 msgid "This software is running in silent mode; declining to mirror."
-msgstr ""
+msgstr "Die Software läuft im Silent-Modus; Spiegelung wird abgelehnt."
 
 #, php-format
 msgid "Exceptions occurred while mirroring the \"%s\" repository."
-msgstr ""
+msgstr "Beim Spiegeln des Repositorys „%s\" sind Ausnahmen aufgetreten."
 
 #, php-format
 msgid "Pushing to remote \"%s\"..."
-msgstr ""
+msgstr "Pushe zu Remote „%s\"..."
 
 #, php-format
 msgid "Another process is currently updating repository \"%s\", skipping pull."
@@ -54650,6 +54650,9 @@ msgid ""
 "\n"
 "%s"
 msgstr ""
+"Pull auf Nur-Lese-Repository wird übersprungen.\n"
+"\n"
+"%s"
 
 #, php-format
 msgid ""
@@ -54659,7 +54662,7 @@ msgstr ""
 
 #, php-format
 msgid "Unknown VCS \"%s\"!"
-msgstr ""
+msgstr "Unbekanntes VCS „%s\"!"
 
 #, php-format
 msgid "No local path is configured for repository \"%s\"."
@@ -54678,11 +54681,11 @@ msgstr "Arbeitskopie für Repository „%s\" wird aktualisiert."
 
 #, php-format
 msgid "Pull of '%s' failed: %s"
-msgstr ""
+msgstr "Pull von '%s' fehlgeschlagen: %s"
 
 #, php-format
 msgid "Installing commit hook to \"%s\"..."
-msgstr ""
+msgstr "Commit-Hook in „%s\" wird installiert..."
 
 #, php-format
 msgid ""
@@ -54715,7 +54718,7 @@ msgstr ""
 
 #, php-format
 msgid "Expected to find a git repository at \"%s\", but did not."
-msgstr ""
+msgstr "Erwartet ein Git-Repository bei „%s\", aber keines gefunden."
 
 #, php-format
 msgid ""
@@ -54733,11 +54736,11 @@ msgstr ""
 
 #, php-format
 msgid "Found %s surplus local ref(s) to delete."
-msgstr ""
+msgstr "%s überschüssige lokale Ref(s) zum Löschen gefunden."
 
 #, php-format
 msgid "Deleting surplus local ref \"%s\" (\"%s\")."
-msgstr ""
+msgstr "Lösche überschüssigen lokalen Ref „%s\" („%s\")."
 
 msgid "Skipping fetch because local and remote refs are already identical."
 msgstr ""
@@ -54757,6 +54760,8 @@ msgid ""
 "Updating repository after detecting ref differences:\n"
 "%s"
 msgstr ""
+"Repository wird nach erkannten Ref-Unterschieden aktualisiert:\n"
+"%s"
 
 #, php-format
 msgid ""
@@ -54766,31 +54771,31 @@ msgid ""
 msgstr ""
 
 msgid "<Response body omitted from Mercurial error message.>"
-msgstr ""
+msgstr "<Antwortinhalt aus Mercurial-Fehlermeldung entfernt.>"
 
 #, php-format
 msgid "Installing commit hook config to \"%s\"..."
-msgstr ""
+msgstr "Commit-Hook-Konfiguration in „%s\" wird installiert..."
 
 #, php-format
 msgid "Ref %s \"%s\" still points at %s."
-msgstr ""
+msgstr "Ref %s „%s\" zeigt noch auf %s."
 
 #, php-format
 msgid "Ref %s \"%s\" no longer points at %s."
-msgstr ""
+msgstr "Ref %s „%s\" zeigt nicht mehr auf %s."
 
 #, php-format
 msgid "Ref %s \"%s\" now points at %s."
-msgstr ""
+msgstr "Ref %s „%s\" zeigt jetzt auf %s."
 
 #, php-format
 msgid "Ref %s \"%s\" no longer exists."
-msgstr ""
+msgstr "Ref %s „%s\" existiert nicht mehr."
 
 #, php-format
 msgid "Unsupported VCS \"%s\"!"
-msgstr ""
+msgstr "Nicht unterstütztes VCS „%s\"!"
 
 #, php-format
 msgid ""
@@ -54806,7 +54811,7 @@ msgid ""
 msgstr ""
 
 msgid "Commit Epochs"
-msgstr ""
+msgstr "Commit-Epochen"
 
 #, php-format
 msgid "No test data for callsign '%s'. Expected an archive like '%s' in '%s'."
@@ -54822,71 +54827,71 @@ msgstr "Repository \"%s\" testen"
 
 #, php-format
 msgid "Unexpected infinite loop in %s!"
-msgstr ""
+msgstr "Unerwartete Endlosschleife in %s!"
 
 msgid "Manage the repository graph cache."
-msgstr ""
+msgstr "Repository-Graph-Cache verwalten."
 
 msgid "Specify a commit to look up."
-msgstr ""
+msgstr "Einen Commit zur Suche angeben."
 
 msgid "Specify a path to look up."
-msgstr ""
+msgstr "Einen Pfad zur Suche angeben."
 
 #, php-format
 msgid "Specify a commit to look up with `%s`."
-msgstr ""
+msgstr "Einen Commit zur Suche mit `%s` angeben."
 
 #, php-format
 msgid "Specify a path to look up with `%s`."
-msgstr ""
+msgstr "Einen Pfad zur Suche mit `%s` angeben."
 
 #, php-format
 msgid "Path \"%s\" is not unknown."
-msgstr ""
+msgstr "Pfad „%s\" ist nicht unbekannt."
 
 #, php-format
 msgid "Query took %s ms."
-msgstr ""
+msgstr "Abfrage dauerte %s ms."
 
 msgid "Not found in graph cache."
-msgstr ""
+msgstr "Nicht im Graph-Cache gefunden."
 
 msgid "Path not modified in any ancestor commit."
-msgstr ""
+msgstr "Pfad in keinem Vorfahren-Commit geändert."
 
 msgid "Cache returned bogus result!"
-msgstr ""
+msgstr "Cache hat ein ungültiges Ergebnis zurückgegeben!"
 
 #, php-format
 msgid "Path was last changed at %s."
-msgstr ""
+msgstr "Pfad wurde zuletzt bei %s geändert."
 
 msgid "Convert existing repositories into cluster repositories."
-msgstr ""
+msgstr "Bestehende Repositories in Cluster-Repositories umwandeln."
 
 msgid "Cluster repository service in Almanac to move repositories into."
 msgstr ""
 
 msgid "Take repositories out of a cluster."
-msgstr ""
+msgstr "Repositories aus einem Cluster entfernen."
 
 msgid "Specify one or more repositories to clusterize."
-msgstr ""
+msgstr "Ein oder mehrere Repositories zum Clustern angeben."
 
 msgid "Specify --service or --remove-service, but not both."
-msgstr ""
+msgstr "„--service\" oder „--remove-service\" angeben, aber nicht beides."
 
 msgid "Specify --service or --remove-service."
-msgstr ""
+msgstr "„--service\" oder „--remove-service\" angeben."
 
 #, php-format
 msgid "No repository service \"%s\" exists."
-msgstr ""
+msgstr "Kein Repository-Dienst „%s\" vorhanden."
 
 #, php-format
 msgid "Service \"%s\" is actively bound to more than one device (%s)."
-msgstr ""
+msgstr "Dienst „%s\" ist aktiv an mehr als ein Gerät gebunden (%s)."
 
 msgid ""
 "If you clusterize a repository onto this service it may be unclear which "
@@ -54898,17 +54903,17 @@ msgstr ""
 
 #, php-format
 msgid "Moved repository \"%s\" to cluster service \"%s\"."
-msgstr ""
+msgstr "Repository „%s\" zu Cluster-Dienst „%s\" verschoben."
 
 #, php-format
 msgid "Removed repository \"%s\" from cluster service."
-msgstr ""
+msgstr "Repository „%s\" aus Cluster-Dienst entfernt."
 
 msgid "Discover commits in __repository__."
-msgstr ""
+msgstr "Commits in Repository __repository__ ermitteln."
 
 msgid "Show additional debugging information."
-msgstr ""
+msgstr "Zusätzliche Debugging-Informationen anzeigen."
 
 msgid ""
 "Discover all commits, even if they are ancestors of known commits. This can "
@@ -54916,17 +54921,17 @@ msgid ""
 msgstr ""
 
 msgid "Specify one or more repositories to discover."
-msgstr ""
+msgstr "Ein oder mehrere Repositories zur Ermittlung angeben."
 
 #, php-format
 msgid "Discovering \"%s\"..."
-msgstr ""
+msgstr "„%s\" wird ermittelt..."
 
 msgid "Write hints about unusual (rewritten or unreadable) commits."
-msgstr ""
+msgstr "Hinweise über ungewöhnliche (umgeschriebene oder unlesbare) Commits schreiben."
 
 msgid "Reading list of hints from stdin..."
-msgstr ""
+msgstr "Hinweisliste aus stdin wird gelesen..."
 
 msgid "Failed to read stdin."
 msgstr "Stdin konnte nicht gelesen werden."
@@ -54934,7 +54939,7 @@ msgstr "Stdin konnte nicht gelesen werden."
 
 #, php-format
 msgid "Expected a list of hints in JSON format: %s"
-msgstr ""
+msgstr "Eine Hinweisliste im JSON-Format erwartet: %s"
 
 #, php-format
 msgid ""
@@ -54944,7 +54949,7 @@ msgstr ""
 
 #, php-format
 msgid "Unexpected hint format at index \"%s\": %s"
-msgstr ""
+msgstr "Unerwartetes Hinweisformat bei Index „%s\": %s"
 
 #, php-format
 msgid ""
@@ -54958,31 +54963,31 @@ msgstr "Hinweis für „%s\" aktualisiert."
 
 
 msgid "Show commits in __repository__ which are still importing."
-msgstr ""
+msgstr "Commits in Repository __repository__ anzeigen, die noch importiert werden."
 
 msgid "Show simpler output."
-msgstr ""
+msgstr "Einfachere Ausgabe anzeigen."
 
 msgid "Specify one or more repositories to find importing commits for."
-msgstr ""
+msgstr "Ein oder mehrere Repositories angeben, um importierende Commits zu finden."
 
 msgid "No importing commits found."
-msgstr ""
+msgstr "Keine importierenden Commits gefunden."
 
 msgid "List repository local paths."
-msgstr ""
+msgstr "Lokale Repository-Pfade auflisten."
 
 msgid "There are no repositories."
-msgstr ""
+msgstr "Es gibt keine Repositories."
 
 msgid "Show a list of repositories."
-msgstr ""
+msgstr "Eine Liste der Repositories anzeigen."
 
 msgid "Temporarily lock clustered repositories to perform maintenance."
-msgstr ""
+msgstr "Geclusterte Repositories vorübergehend für Wartung sperren."
 
 msgid "Specify one or more repositories to lock."
-msgstr ""
+msgstr "Ein oder mehrere Repositories zum Sperren angeben."
 
 #, php-format
 msgid ""
@@ -55011,7 +55016,7 @@ msgid ""
 msgstr ""
 
 msgid "Lock repositories and begin maintenance?"
-msgstr ""
+msgstr "Repositories sperren und Wartung beginnen?"
 
 msgid ""
 "Repositories are now locked. You may begin maintenance in another terminal "
@@ -55020,17 +55025,17 @@ msgid ""
 msgstr ""
 
 msgid "Set or clear read-only mode for repository maintenance."
-msgstr ""
+msgstr "Nur-Lese-Modus für Repository-Wartung setzen oder aufheben."
 
 msgid "Put repositories into maintenance mode."
-msgstr ""
+msgstr "Repositories in den Wartungsmodus versetzen."
 
 msgid ""
 "Take repositories out of maintenance mode, returning them to normal service."
 msgstr ""
 
 msgid "Specify one or more repositories to act on."
-msgstr ""
+msgstr "Ein oder mehrere Repositories angeben."
 
 msgid ""
 "Use \"--start <message>\" to put repositories into maintenance mode, or \"--"
@@ -55038,28 +55043,28 @@ msgid ""
 msgstr ""
 
 msgid "Specify either \"--start\" or \"--stop\", but not both."
-msgstr ""
+msgstr "Entweder „--start\" oder „--stop\" angeben, aber nicht beides."
 
 #, php-format
 msgid "Put repository \"%s\" into maintenance mode."
-msgstr ""
+msgstr "Repository „%s\" in den Wartungsmodus versetzen."
 
 #, php-format
 msgid "Took repository \"%s\" out of maintenance mode."
-msgstr ""
+msgstr "Repository „%s\" aus dem Wartungsmodus genommen."
 
 msgid "Mark __repository__ as imported."
-msgstr ""
+msgstr "Repository __repository__ als importiert markieren."
 
 msgid "Instead, mark repositories as NOT imported."
-msgstr ""
+msgstr "Stattdessen Repositories als NICHT importiert markieren."
 
 msgid "Specify one or more repositories to mark imported."
-msgstr ""
+msgstr "Ein oder mehrere Repositories zum Markieren als importiert angeben."
 
 #, php-format
 msgid "Repository \"%s\" is already importing."
-msgstr ""
+msgstr "Repository „%s\" wird bereits importiert."
 
 #, php-format
 msgid "Repository \"%s\" is already imported."
@@ -55068,21 +55073,21 @@ msgstr "Repository „%s\" ist bereits importiert."
 
 #, php-format
 msgid "Marking repository \"%s\" as importing."
-msgstr ""
+msgstr "Repository „%s\" wird als importierend markiert."
 
 #, php-format
 msgid "Marking repository \"%s\" as imported."
-msgstr ""
+msgstr "Repository „%s\" wird als importiert markiert."
 
 msgid "Rebuild \"unreachable\" flags for commits in __repository__."
-msgstr ""
+msgstr "„Unerreichbar\"-Flags für Commits in Repository __repository__ neu aufbauen."
 
 msgid "Specify one or more repositories to correct reachability status for."
 msgstr ""
 
 #, php-format
 msgid "Examined %s commits already in the correct state."
-msgstr ""
+msgstr "%s Commits bereits im korrekten Zustand untersucht."
 
 
 #, php-format
@@ -55092,59 +55097,59 @@ msgid ""
 msgstr ""
 
 msgid "Marking commit unreachable."
-msgstr ""
+msgstr "Commit als unerreichbar markieren."
 
 msgid "Marking commit reachable."
-msgstr ""
+msgstr "Commit als erreichbar markieren."
 
 msgid "Push __repository__ to mirrors."
-msgstr ""
+msgstr "Repository __repository__ zu Spiegeln pushen."
 
 msgid "Specify one or more repositories to push to mirrors."
-msgstr ""
+msgstr "Ein oder mehrere Repositories zum Pushen zu Spiegeln angeben."
 
 #, php-format
 msgid "Pushing \"%s\" to mirrors..."
-msgstr ""
+msgstr "„%s\" wird zu Spiegeln gepusht..."
 
 msgid "Move repository local paths."
-msgstr ""
+msgstr "Lokale Repository-Pfade verschieben."
 
 msgid "Move paths with this prefix."
-msgstr ""
+msgstr "Pfade mit diesem Präfix verschieben."
 
 msgid "Replace matching prefixes with this string."
-msgstr ""
+msgstr "Übereinstimmende Präfixe durch diesen String ersetzen."
 
 msgid "Apply changes without prompting."
-msgstr ""
+msgstr "Änderungen ohne Nachfrage anwenden."
 
 msgid "You must specify a path prefix to move from with --from."
-msgstr ""
+msgstr "Du musst ein Quell-Pfadpräfix mit --from angeben."
 
 msgid "You must specify a path prefix to move to with --to."
-msgstr ""
+msgstr "Du musst ein Ziel-Pfadpräfix mit --to angeben."
 
 msgid "Move"
-msgstr ""
+msgstr "Verschieben"
 
 msgid "Src"
-msgstr ""
+msgstr "Quelle"
 
 msgid "Dst"
-msgstr ""
+msgstr "Ziel"
 
 msgid "No matching repositories."
-msgstr ""
+msgstr "Keine passenden Repositories."
 
 msgid "Apply these changes?"
-msgstr ""
+msgstr "Diese Änderungen anwenden?"
 
 msgid "Declining to apply changes."
-msgstr ""
+msgstr "Änderungen werden nicht angewendet."
 
 msgid "Applied changes."
-msgstr ""
+msgstr "Änderungen angewendet."
 
 msgid ""
 "Build parent caches in repositories that are missing the data, or rebuild "
@@ -55159,19 +55164,19 @@ msgstr ""
 
 #, php-format
 msgid "Rebuilding \"%s\"..."
-msgstr ""
+msgstr "„%s\" wird neu aufgebaut..."
 
 #, php-format
 msgid "Rebuilding branch \"%s\"..."
-msgstr ""
+msgstr "Branch „%s\" wird neu aufgebaut..."
 
 #, php-format
 msgid "Found %s total commit(s); updating..."
-msgstr ""
+msgstr "%s Commit(s) gefunden; aktualisiere..."
 
 #, php-format
 msgid "Unknown commit \"%s\"!"
-msgstr ""
+msgstr "Unbekannter Commit „%s\"!"
 
 msgid "Pull __repository__."
 msgstr "Repository __repository__ pullen."
@@ -55183,40 +55188,40 @@ msgid ""
 msgstr ""
 
 msgid "Specify one or more repositories to pull."
-msgstr ""
+msgstr "Ein oder mehrere Repositories zum Pullen angeben."
 
 #, php-format
 msgid "Pulling \"%s\"..."
-msgstr ""
+msgstr "„%s\" wird gepullt..."
 
 msgid "Rebuild repository identities from commits."
-msgstr ""
+msgstr "Repository-Identitäten aus Commits neu aufbauen."
 
 msgid "Rebuild identities across all repositories."
-msgstr ""
+msgstr "Identitäten für alle Repositories neu aufbauen."
 
 msgid "Rebuild all currently-known identities."
-msgstr ""
+msgstr "Alle bekannten Identitäten neu aufbauen."
 
 msgid "Rebuild identities in a repository."
-msgstr ""
+msgstr "Identitäten in einem Repository neu aufbauen."
 
 
 msgid "Rebuild identities for a commit."
-msgstr ""
+msgstr "Identitäten für einen Commit neu aufbauen."
 
 msgid "Rebuild identities for a user."
-msgstr ""
+msgstr "Identitäten für einen Benutzer neu aufbauen."
 
 msgid "Rebuild identities for an email address."
 msgstr "Identitäten für eine E-Mail-Adresse neu aufbauen."
 
 
 msgid "Rebuild identities for a raw commit string."
-msgstr ""
+msgstr "Identitäten für einen rohen Commit-String neu aufbauen."
 
 msgid "Show changes, but do not make any changes."
-msgstr ""
+msgstr "Änderungen anzeigen, aber keine vornehmen."
 
 msgid "Flags \"--all-repositories\" and \"--repository\" are not compatible."
 msgstr ""
@@ -55235,10 +55240,10 @@ msgid ""
 msgstr ""
 
 msgid "REBUILD"
-msgstr ""
+msgstr "NEUAUFBAU"
 
 msgid "Rebuilding all existing identities."
-msgstr ""
+msgstr "Alle vorhandenen Identitäten werden neu aufgebaut."
 
 msgid ""
 "Nothing specified to rebuild. Use flags to choose which identities to "
@@ -55247,7 +55252,7 @@ msgstr ""
 
 #, php-format
 msgid "Rebuilt identities for \"%s\"."
-msgstr ""
+msgstr "Identitäten für „%s\" neu aufgebaut."
 
 #, php-format
 msgid "No changes for commit \"%s\"."
@@ -55255,7 +55260,7 @@ msgstr "Keine Änderungen für Commit „%s\"."
 
 
 msgid "USER"
-msgstr ""
+msgstr "BENUTZER"
 
 #, php-format
 msgid "Rebuilding identities for user \"%s\"."
@@ -55263,39 +55268,39 @@ msgstr "Identitäten für Benutzer „%s\" werden neu aufgebaut."
 
 
 msgid "NO IDENTITIES"
-msgstr ""
+msgstr "KEINE IDENTITÄTEN"
 
 msgid "Found no identities directly related to user."
-msgstr ""
+msgstr "Keine direkt mit dem Benutzer verbundenen Identitäten gefunden."
 
 msgid "EMAIL"
-msgstr ""
+msgstr "E-MAIL"
 
 #, php-format
 msgid "Rebuilding identities for email address \"%s\"."
-msgstr ""
+msgstr "Identitäten für E-Mail-Adresse „%s\" werden neu aufgebaut."
 
 #, php-format
 msgid "Found no identities for email address \"%s\"."
-msgstr ""
+msgstr "Keine Identitäten für E-Mail-Adresse „%s\" gefunden."
 
 #, php-format
 msgid "Identity \"%s\" has already been rebuilt."
-msgstr ""
+msgstr "Identität „%s\" wurde bereits neu aufgebaut."
 
 msgid "IDENTITY"
-msgstr ""
+msgstr "IDENTITÄT"
 
 #, php-format
 msgid "Rebuilding identity \"%s\"."
-msgstr ""
+msgstr "Identität „%s\" wird neu aufgebaut."
 
 msgid "No changes to identity."
 msgstr "Keine Änderungen an der Identität."
 
 
 msgid "DETECTED PHID"
-msgstr ""
+msgstr "ERKANNTE PHID"
 
 #, php-format
 msgid "(Dry Run) Would update detected user from \"%s\" to \"%s\"."
@@ -55308,7 +55313,7 @@ msgstr "Erkannter Benutzer von „%s\" auf „%s\" aktualisiert."
 
 
 msgid "ASSIGNED PHID"
-msgstr ""
+msgstr "ZUGEWIESENE PHID"
 
 #, php-format
 msgid "(Dry Run) Would update assigned user from \"%s\" to \"%s\"."
@@ -55321,10 +55326,10 @@ msgstr "Zugewiesener Benutzer von „%s\" auf „%s\" aktualisiert."
 
 
 msgid "NULL"
-msgstr ""
+msgstr "NULL"
 
 msgid "Update refs in __repository__."
-msgstr ""
+msgstr "Refs in Repository __repository__ aktualisieren."
 
 msgid ""
 "Publish commits currently reachable from any permanent ref, ignoring the "
@@ -55332,11 +55337,11 @@ msgid ""
 msgstr ""
 
 msgid "Specify one or more repositories to update refs for."
-msgstr ""
+msgstr "Ein oder mehrere Repositories zur Ref-Aktualisierung angeben."
 
 #, php-format
 msgid "Updating refs in \"%s\"..."
-msgstr ""
+msgstr "Refs in „%s\" werden aktualisiert..."
 
 msgid ""
 "**reparse** __what__ __which_parts__ [--trace] [--force]\n"
@@ -55353,7 +55358,7 @@ msgid ""
 msgstr ""
 
 msgid "Reparse all commits in the specified repository."
-msgstr ""
+msgstr "Alle Commits im angegebenen Repository erneut verarbeiten."
 
 #, php-format
 msgid ""
@@ -55368,7 +55373,7 @@ msgid ""
 msgstr ""
 
 msgid "Reparse commit messages."
-msgstr ""
+msgstr "Commit-Nachrichten erneut verarbeiten."
 
 msgid "Reparse source changes."
 msgstr "Quelländerungen neu verarbeiten."
@@ -55379,16 +55384,16 @@ msgid ""
 msgstr ""
 
 msgid "Act noninteractively, without prompting."
-msgstr ""
+msgstr "Nichtinteraktiv handeln, ohne Nachfrage."
 
 msgid "Queue tasks for the daemons instead of running them in the foreground."
 msgstr ""
 
 msgid "Reparse all steps which have not yet completed."
-msgstr ""
+msgstr "Alle noch nicht abgeschlossenen Schritte erneut verarbeiten."
 
 msgid "Specify a commit or repository to reparse."
-msgstr ""
+msgstr "Einen Commit oder ein Repository zum erneuten Verarbeiten angeben."
 
 #, php-format
 msgid ""
@@ -55408,7 +55413,7 @@ msgid ""
 msgstr ""
 
 msgid "You must use \"--all\" if you specify \"--min-date\"."
-msgstr ""
+msgstr "Du musst „--all\" verwenden, wenn Du „--min-date\" angibst."
 
 #, php-format
 msgid ""
@@ -55423,7 +55428,7 @@ msgstr "Unbekanntes Repository „%s\"!"
 
 #, php-format
 msgid "No commits have been discovered in the \"%s\" repository!"
-msgstr ""
+msgstr "Im Repository „%s\" wurden keine Commits gefunden!"
 
 msgid ""
 "Resolve issues with frozen cluster repositories. Very advanced and dangerous."
@@ -55440,21 +55445,21 @@ msgid ""
 msgstr ""
 
 msgid "Run operations without asking for confirmation."
-msgstr ""
+msgstr "Operationen ohne Bestätigung ausführen."
 
 msgid ""
 "Apply the promotion or demotion to all repositories hosted on the device."
 msgstr ""
 
 msgid "You must choose a device to --promote or --demote."
-msgstr ""
+msgstr "Du musst ein Gerät zum Befördern (--promote) oder Degradieren (--demote) wählen."
 
 msgid "Specify either --promote or --demote, but not both."
-msgstr ""
+msgstr "Entweder --promote oder --demote angeben, aber nicht beides."
 
 #, php-format
 msgid "No device or service named \"%s\" exists."
-msgstr ""
+msgstr "Kein Gerät oder Dienst mit dem Namen „%s\" vorhanden."
 
 #, php-format
 msgid ""
@@ -55464,7 +55469,7 @@ msgstr ""
 
 #, php-format
 msgid "Service \"%s\" is not bound to any devices."
-msgstr ""
+msgstr "Dienst „%s\" ist an kein Gerät gebunden."
 
 msgid "Specify a list of repositories or \"--all-repositories\", but not both."
 msgstr ""
@@ -55475,7 +55480,7 @@ msgid ""
 msgstr ""
 
 msgid "Specify one or more repositories to thaw."
-msgstr ""
+msgstr "Ein oder mehrere Repositories zum Auftauen angeben."
 
 msgid "There are no repositories on the selected device or service."
 msgstr "Auf dem ausgewählten Gerät oder Dienst befinden sich keine Repositories."
@@ -55498,14 +55503,14 @@ msgid ""
 msgstr ""
 
 msgid "DATA AT RISK"
-msgstr ""
+msgstr "DATEN IN GEFAHR"
 
 msgid "Accept the possibility of permanent data loss?"
-msgstr ""
+msgstr "Die Möglichkeit eines dauerhaften Datenverlusts akzeptieren?"
 
 #, php-format
 msgid "Waiting to acquire write lock for \"%s\"..."
-msgstr ""
+msgstr "Warte auf Schreibsperre für „%s\"..."
 
 #, php-format
 msgid ""
@@ -55538,7 +55543,7 @@ msgstr "„%s\" wurde zum Leader für „%s\" befördert."
 
 #, php-format
 msgid "Demoted \"%s\" from leadership of repository \"%s\"."
-msgstr ""
+msgstr "„%s\" aus der Führung des Repositorys „%s\" entfernt."
 
 msgid ""
 "Unpublish all feed stories and notifications that a repository has "
@@ -55546,13 +55551,13 @@ msgid ""
 msgstr ""
 
 msgid "Do not prompt for confirmation."
-msgstr ""
+msgstr "Keine Bestätigung anfordern."
 
 msgid "Do not perform any writes."
-msgstr ""
+msgstr "Keine Schreibvorgänge durchführen."
 
 msgid "Specify exactly one repository to unpublish."
-msgstr ""
+msgstr "Genau ein Repository zum Zurückziehen angeben."
 
 msgid ""
 "This script will unpublish all feed stories and notifications which a "
@@ -55561,11 +55566,13 @@ msgstr ""
 
 #, php-format
 msgid "Permanently unpublish \"%s\"?"
-msgstr ""
+msgstr "„%s\" dauerhaft zurückziehen?"
 
 #, php-format
 msgid "Will unpublish %s commits.\n"
 msgstr ""
+"Wird %s Commits zurückziehen.\n"
+""
 
 #, php-format
 msgid "Unpublishing commit \"%s\"."
@@ -55574,37 +55581,37 @@ msgstr "Commit „%s\" wird zurückgezogen."
 
 #, php-format
 msgid "Found %s feed storie(s)."
-msgstr ""
+msgstr "%s Feed-Beitrag/Beiträge gefunden."
 
 
 #, php-format
 msgid "Destroyed %s feed storie(s)."
-msgstr ""
+msgstr "%s Feed-Beitrag/Beiträge gelöscht."
 
 
 #, php-format
 msgid "Commit \"%s\" has edge of type \"%s\" to object \"%s\"."
-msgstr ""
+msgstr "Commit „%s\" hat Kante vom Typ „%s\" zu Objekt „%s\"."
 
 #, php-format
 msgid "Found edge transaction \"%s\" on object \"%s\" for type \"%s\"."
-msgstr ""
+msgstr "Kantentransaktion „%s\" auf Objekt „%s\" für Typ „%s\" gefunden."
 
 #, php-format
 msgid "Destroyed transaction \"%s\" on object \"%s\"."
-msgstr ""
+msgstr "Transaktion „%s\" auf Objekt „%s\" gelöscht."
 
 #, php-format
 msgid "MANUAL Task \"%s\" was likely closed improperly by \"%s\"."
-msgstr ""
+msgstr "MANUELL Aufgabe „%s\" wurde wahrscheinlich unsachgemäß von „%s\" geschlossen."
 
 #, php-format
 msgid "MANUAL Revision \"%s\" was likely closed improperly by \"%s\"."
-msgstr ""
+msgstr "MANUELL Revision „%s\" wurde wahrscheinlich unsachgemäß von „%s\" geschlossen."
 
 #, php-format
 msgid "Destroyed edge of type \"%s\" between \"%s\" and \"%s\"."
-msgstr ""
+msgstr "Kante vom Typ „%s\" zwischen „%s\" und „%s\" gelöscht."
 
 msgid ""
 "Update __repository__. This performs the __pull__, __discover__, __refs__ "
@@ -55612,14 +55619,14 @@ msgid ""
 msgstr ""
 
 msgid "Do not perform discovery."
-msgstr ""
+msgstr "Keine Ermittlung durchführen."
 
 msgid "Specify exactly one repository to update."
-msgstr ""
+msgstr "Genau ein Repository zur Aktualisierung angeben."
 
 #, php-format
 msgid "Error updating working copy: %s"
-msgstr ""
+msgstr "Fehler beim Aktualisieren der Arbeitskopie: %s"
 
 #, php-format
 msgid "Updated repository \"%s\"."
@@ -55628,7 +55635,7 @@ msgstr "Repository „%s\" aktualisiert."
 
 #, php-format
 msgid "Error while pushing \"%s\" repository to mirrors."
-msgstr ""
+msgstr "Fehler beim Pushen des Repositorys „%s\" zu Spiegeln."
 
 #, php-format
 msgid "Repository \"%s\" does not exist!"
@@ -55637,14 +55644,14 @@ msgstr "Repository „%s\" existiert nicht!"
 
 #, php-format
 msgid "Commit \"%s\" does not exist or is ambiguous."
-msgstr ""
+msgstr "Commit „%s\" existiert nicht oder ist mehrdeutig."
 
 msgid "Diffusion Commit"
-msgstr ""
+msgstr "Diffusion-Commit"
 
 #, php-format
 msgid "%s ♻ %s"
-msgstr ""
+msgstr "%s ♻ %s"
 
 msgid "Pull Event"
 msgstr "Pull-Ereignis"
@@ -55656,18 +55663,18 @@ msgstr "Pull-Ereignis %d"
 
 
 msgid "Push Event"
-msgstr ""
+msgstr "Push-Ereignis"
 
 #, php-format
 msgid "Push Event %d"
-msgstr ""
+msgstr "Push-Ereignis %d"
 
 msgid "Push Log"
-msgstr ""
+msgstr "Push-Protokoll"
 
 #, php-format
 msgid "Push Log %d"
-msgstr ""
+msgstr "Push-Protokoll %d"
 
 msgid "Repository Ref"
 msgstr "Repository-Ref"
@@ -55684,7 +55691,7 @@ msgstr "Synchronisierungsereignis %d"
 
 #, php-format
 msgid "URI %d %s"
-msgstr ""
+msgstr "URI %d %s"
 
 #, php-format
 msgid "Unknown Hold (\"%s\")"
@@ -55696,7 +55703,7 @@ msgstr "Dieses Repository wird noch importiert."
 
 
 msgid "All publishing is disabled for this repository."
-msgstr ""
+msgstr "Alle Veröffentlichungen sind für dieses Repository deaktiviert."
 
 
 msgid "Not On Permanent Ref"
@@ -55716,35 +55723,35 @@ msgstr "Dieser Ref ist kein Branch."
 
 
 msgid "Untracked Ref"
-msgstr ""
+msgstr "Nicht verfolgter Ref"
 
 
 msgid "This ref is configured as untracked."
-msgstr ""
+msgstr "Dieser Ref ist als unverfolgt konfiguriert."
 
 msgid "This ref is not configured as a permanent ref."
-msgstr ""
+msgstr "Dieser Ref ist nicht als permanenter Ref konfiguriert."
 
 msgid "Search for push logs for specific repositories."
-msgstr ""
+msgstr "Push-Protokolle für bestimmte Repositories suchen."
 
 msgid "Pushers"
 msgstr "User mit Push-Rechten"
 
 msgid "Search for push logs by specific users."
-msgstr ""
+msgstr "Push-Protokolle bestimmter Benutzer suchen."
 
 msgid "Blocked By"
 msgstr "Ist abhängig von"
 
 msgid "Search for pushes blocked by particular Herald rules."
-msgstr ""
+msgstr "Pushes suchen, die durch bestimmte Herald-Regeln blockiert wurden."
 
 msgid "All Push Logs"
-msgstr ""
+msgstr "Alle Push-Protokolle"
 
 msgid "Push ID"
-msgstr ""
+msgstr "Push-ID"
 
 msgid "Pusher PHID"
 msgstr "Pusher-PHID"
@@ -55759,13 +55766,13 @@ msgstr "Ref-Name"
 
 
 msgid "Ref Old"
-msgstr ""
+msgstr "Ref Alt"
 
 msgid "Ref New"
-msgstr ""
+msgstr "Ref Neu"
 
 msgid "Flag Names"
-msgstr ""
+msgstr "Flag-Namen"
 
 
 msgid "Result Name"
@@ -55777,54 +55784,54 @@ msgstr "Ergebnisdetails"
 
 
 msgid "Host Wait (us)"
-msgstr ""
+msgstr "Host-Wartezeit (µs)"
 
 msgid "Write Wait (us)"
-msgstr ""
+msgstr "Schreib-Wartezeit (µs)"
 
 msgid "Read Wait (us)"
-msgstr ""
+msgstr "Lese-Wartezeit (µs)"
 
 msgid "Hook Wait (us)"
-msgstr ""
+msgstr "Hook-Wartezeit (µs)"
 
 msgid "Most Recent Commit"
 msgstr "Neueste Commits"
 
 #, php-format
 msgid "Unknown hosted failed '%s'!"
-msgstr ""
+msgstr "Unbekannter Hosting-Fehler '%s'!"
 
 msgid "Callsigns"
 msgstr "Rufzeichen"
 
 msgid "Search for repositories with specific callsigns."
-msgstr ""
+msgstr "Repositories mit bestimmten Rufzeichen suchen."
 
 msgid "Short Names"
 msgstr "Kurznamen"
 
 
 msgid "Search for repositories with specific short names."
-msgstr ""
+msgstr "Repositories mit bestimmten Kurznamen suchen."
 
 msgid "Search for repositories with a specific status."
-msgstr ""
+msgstr "Repositories mit einem bestimmten Status suchen."
 
 msgid "Hosted"
-msgstr ""
+msgstr "Gehostet"
 
 msgid "Search for repositories which are hosted or remote."
-msgstr ""
+msgstr "Gehostete oder Remote-Repositories suchen."
 
 msgid "Search for repositories of a specific VCS type."
-msgstr ""
+msgstr "Repositories eines bestimmten VCS-Typs suchen."
 
 msgid "Search for repositories by clone/checkout URI."
-msgstr ""
+msgstr "Repositories nach Klon/Checkout-URI suchen."
 
 msgid "Search for repositories with a specific Almanac Service."
-msgstr ""
+msgstr "Repositories mit einem bestimmten Almanac-Dienst suchen."
 
 msgid "All Repositories"
 msgstr "Alle Repositories"
@@ -55836,32 +55843,32 @@ msgid "Inactive Repositories"
 msgstr "Inaktive Repositories"
 
 msgid "Hosted and Remote Repositories"
-msgstr ""
+msgstr "Gehostete und Remote-Repositories"
 
 msgid "Hosted Repositories"
-msgstr ""
+msgstr "Gehostete Repositories"
 
 msgid "Remote Repositories"
-msgstr ""
+msgstr "Remote-Repositories"
 
 #, php-format
 msgid "%s Commit(s)"
-msgstr ""
+msgstr "%s Commit(s)"
 
 msgid "No Commits"
-msgstr ""
+msgstr "Keine Commits"
 
 msgid "No repositories found for this query."
-msgstr ""
+msgstr "Keine Repositories für diese Abfrage gefunden."
 
 msgid "New Repository"
-msgstr ""
+msgstr "Neues Repository"
 
 msgid "Import, create, or just browse repositories in Diffusion."
-msgstr ""
+msgstr "Repositories in Diffusion importieren, erstellen oder durchsuchen."
 
 msgid "Not a subversion repository!"
-msgstr ""
+msgstr "Kein Subversion-Repository!"
 
 msgid ""
 "The empty string is not a valid repository short name. Repository short "
@@ -55918,7 +55925,7 @@ msgid ""
 msgstr ""
 
 msgid "A repository callsign must be at least one character long."
-msgstr ""
+msgstr "Ein Repository-Rufzeichen muss mindestens ein Zeichen lang sein."
 
 
 #, php-format
@@ -55935,15 +55942,15 @@ msgstr ""
 
 #, php-format
 msgid "Action \"%s\" is not a valid repository URI action."
-msgstr ""
+msgstr "Aktion „%s\" ist keine gültige Repository-URI-Aktion."
 
 #, php-format
 msgid "Diffusion URI action \"%s\" requires commit!"
-msgstr ""
+msgstr "Diffusion-URI-Aktion „%s\" erfordert einen Commit!"
 
 #, php-format
 msgid "Diffusion URI action \"%s\" requires branch!"
-msgstr ""
+msgstr "Diffusion-URI-Aktion „%s\" erfordert einen Branch!"
 
 msgid ""
 "This repository does not support Git LFS, so Git LFS URIs can not be "
@@ -55951,7 +55958,7 @@ msgid ""
 msgstr ""
 
 msgid "The remote URI has leading or trailing whitespace."
-msgstr ""
+msgstr "Die Remote-URI hat führende oder nachfolgende Leerzeichen."
 
 #, php-format
 msgid ""
@@ -56037,7 +56044,7 @@ msgid ""
 msgstr ""
 
 msgid "This repository is currently in read-only maintenance mode."
-msgstr ""
+msgstr "Dieses Repository befindet sich derzeit im Nur-Lese-Wartungsmodus."
 
 msgid ""
 "The Almanac service for this repository is invalid or could not be loaded."
@@ -56049,17 +56056,17 @@ msgid ""
 msgstr ""
 
 msgid "The VCS this repository uses (\"git\", \"hg\" or \"svn\")."
-msgstr ""
+msgstr "Das VCS, das dieses Repository verwendet („git\", „hg\" oder „svn\")."
 
 msgid "The repository callsign, if it has one."
 msgstr "Das Rufzeichen des Repositorys, falls vorhanden."
 
 
 msgid "Unique short name, if the repository has one."
-msgstr ""
+msgstr "Eindeutiger Kurzname, falls das Repository einen hat."
 
 msgid "True if the repository is importing initial commits."
-msgstr ""
+msgstr "Wahr, wenn das Repository erste Commits importiert."
 
 msgid ""
 "The Almanac Service that hosts this repository, if the repository is "
@@ -56067,31 +56074,31 @@ msgid ""
 msgstr ""
 
 msgid "The \"Fetch\" and \"Permanent Ref\" rules for this repository."
-msgstr ""
+msgstr "Die „Fetch\"- und „Permanent-Ref\"-Regeln für dieses Repository."
 
 msgid "This audit is attached to a commit, and inherits its policies."
-msgstr ""
+msgstr "Dieses Audit ist einem Commit zugeordnet und erbt dessen Richtlinien."
 
 msgid "You can not attach audit authority for a user with no PHID."
-msgstr ""
+msgstr "Du kannst keine Audit-Autorität für einen Benutzer ohne PHID vergeben."
 
 #, php-format
 msgid "Unable to retrieve details for commit \"%s\"!"
-msgstr ""
+msgstr "Details für Commit „%s\" konnten nicht abgerufen werden!"
 
 #, php-format
 msgid "Got too many results (%s) for commit \"%s\", expected %s."
-msgstr ""
+msgstr "Zu viele Ergebnisse (%s) für Commit „%s\", erwartet %s."
 
 #, php-format
 msgid "Unable to retrieve CommitRef record for commit \"%s\"."
-msgstr ""
+msgstr "CommitRef-Eintrag für Commit „%s\" konnte nicht abgerufen werden."
 
 msgid "Commits inherit the policies of the repository they belong to."
-msgstr ""
+msgstr "Commits erben die Richtlinien des Repositorys, zu dem sie gehören."
 
 msgid "The commit identifier, if applicable."
-msgstr ""
+msgstr "Die Commit-Kennung, falls vorhanden."
 
 #, php-format
 msgid ""
@@ -56113,26 +56120,26 @@ msgid ""
 msgstr ""
 
 msgid "The commit identifier."
-msgstr ""
+msgstr "Die Commit-Kennung."
 
 msgid "The repository this commit belongs to."
 msgstr "Das Repository, zu dem dieser Commit gehört."
 
 
 msgid "Information about the commit author."
-msgstr ""
+msgstr "Informationen über den Commit-Autor."
 
 msgid "Information about the committer."
-msgstr ""
+msgstr "Informationen über den Committer."
 
 msgid "True if the commit is fully imported."
-msgstr ""
+msgstr "Wahr, wenn der Commit vollständig importiert ist."
 
 msgid "True if the commit is not the ancestor of any tag, branch, or ref."
 msgstr ""
 
 msgid "Information about the current audit status."
-msgstr ""
+msgstr "Informationen über den aktuellen Audit-Status."
 
 msgid "The commit message."
 msgstr "Die Commit-Nachricht."
@@ -56156,10 +56163,10 @@ msgid ""
 msgstr ""
 
 msgid "SSH"
-msgstr ""
+msgstr "SSH"
 
 msgid "HTTP"
-msgstr ""
+msgstr "HTTP"
 
 msgid "HTTPS"
 msgstr "HTTPS"
@@ -56202,10 +56209,10 @@ msgstr "Überdimensioniert"
 
 
 msgid "Touches Too Many Paths"
-msgstr ""
+msgstr "Berührt zu viele Pfade"
 
 msgid "Maintenance"
-msgstr ""
+msgstr "Wartung"
 
 msgid "Rejected: Dangerous"
 msgstr "Abgelehnt: Gefährlich"
@@ -56216,7 +56223,7 @@ msgstr "Abgelehnt: Herald"
 
 
 msgid "Rejected: External Hook"
-msgstr ""
+msgstr "Abgelehnt: Externer Hook"
 
 msgid "Rejected: Broken"
 msgstr "Abgelehnt: Fehlerhaft"
@@ -56227,35 +56234,35 @@ msgstr "Abgelehnt: Riesig"
 
 
 msgid "Rejected: Oversized File"
-msgstr ""
+msgstr "Abgelehnt: Überdimensionierte Datei"
 
 msgid "Rejected: Touches Too Many Paths"
-msgstr ""
+msgstr "Abgelehnt: Berührt zu viele Pfade"
 
 msgid "change creates ref"
-msgstr ""
+msgstr "Änderung erstellt Ref"
 
 msgid "change deletes ref"
-msgstr ""
+msgstr "Änderung löscht Ref"
 
 msgid "change rewrites ref"
-msgstr ""
+msgstr "Änderung schreibt Ref um"
 
 msgid "dangerous change"
-msgstr ""
+msgstr "gefährliche Änderung"
 
 msgid ""
 "A repository's push logs are visible to users who can see the repository."
 msgstr ""
 
 msgid "Repository refs have the same policies as their repository."
-msgstr ""
+msgstr "Repository-Refs haben dieselben Richtlinien wie ihr Repository."
 
 msgid "Error While Initializing Repository"
-msgstr ""
+msgstr "Fehler beim Initialisieren des Repositorys"
 
 msgid "Error While Fetching Changes"
-msgstr ""
+msgstr "Fehler beim Abrufen von Änderungen"
 
 msgid "Repository Needs Update"
 msgstr "Repository benötigt Aktualisierung"
@@ -56274,51 +56281,51 @@ msgstr "Standardverhalten verwenden."
 
 
 msgid "Observe"
-msgstr ""
+msgstr "Beobachten"
 
 msgid "Changes to this URI will be observed and pulled."
-msgstr ""
+msgstr "Änderungen an dieser URI werden beobachtet und gepullt."
 
 msgid "Copy from a remote."
-msgstr ""
+msgstr "Von einem Remote kopieren."
 
 msgid "Mirror"
 msgstr "Spiegel"
 
 
 msgid "A copy of any changes will be pushed to this URI."
-msgstr ""
+msgstr "Eine Kopie aller Änderungen wird zu dieser URI gepusht."
 
 msgid "Push a copy to a remote."
-msgstr ""
+msgstr "Eine Kopie zu einem Remote pushen."
 
 msgid "No I/O"
-msgstr ""
+msgstr "Kein I/O"
 
 msgid "No changes will be pushed or pulled from this URI."
-msgstr ""
+msgstr "Es werden keine Änderungen von dieser URI gepusht oder gepullt."
 
 msgid "Do not perform any I/O."
-msgstr ""
+msgstr "Kein I/O durchführen."
 
 msgid "A read-only copy of the repository will be served from this URI."
-msgstr ""
+msgstr "Eine Nur-Lese-Kopie des Repositorys wird von dieser URI bereitgestellt."
 
 msgid "Serve repository in read-only mode."
 msgstr "Repository im Nur-Lese-Modus bereitstellen."
 
 
 msgid "A read/write copy of the repository will be served from this URI."
-msgstr ""
+msgstr "Eine Lese/Schreib-Kopie des Repositorys wird von dieser URI bereitgestellt."
 
 msgid "Serve repository in read/write mode."
-msgstr ""
+msgstr "Repository im Lese/Schreib-Modus bereitstellen."
 
 msgid "This URI will be shown to users as a clone URI."
-msgstr ""
+msgstr "Diese URI wird Benutzern als Klon-URI angezeigt."
 
 msgid "Show as a clone URI."
-msgstr ""
+msgstr "Als Klon-URI anzeigen."
 
 msgid "This URI will be hidden from users."
 msgstr "Diese URI wird vor Benutzern verborgen."
@@ -56329,26 +56336,26 @@ msgstr "Nicht als Klon-URI anzeigen."
 
 
 msgid "The associated repository PHID."
-msgstr ""
+msgstr "Die zugehörige Repository-PHID."
 
 
 msgid "The raw and effective URI."
-msgstr ""
+msgstr "Die rohe und effektive URI."
 
 msgid "The raw, default, and effective I/O Type settings."
-msgstr ""
+msgstr "Die rohen, Standard- und effektiven I/O-Typ-Einstellungen."
 
 msgid "The raw, default, and effective Display Type settings."
-msgstr ""
+msgstr "Die rohen, Standard- und effektiven Anzeigetyp-Einstellungen."
 
 msgid "The associated credential PHID, if one exists."
-msgstr ""
+msgstr "Die zugehörige Zugangsdaten-PHID, falls vorhanden."
 
 msgid "True if the URI is disabled."
-msgstr ""
+msgstr "Wahr, wenn die URI deaktiviert ist."
 
 msgid "Information about builtin URIs."
-msgstr ""
+msgstr "Informationen über eingebaute URIs."
 
 msgid "Epoch timestamp when the object was created."
 msgstr "Epoch-Zeitstempel, wann das Objekt erstellt wurde."
@@ -56398,20 +56405,20 @@ msgstr "%s hat die Zugangsdaten für diese URI auf %s gesetzt."
 
 #, php-format
 msgid "Protocol for '%s'."
-msgstr ""
+msgstr "Protokoll für '%s'."
 
 msgid "Track all branches by default."
-msgstr ""
+msgstr "Standardmäßig alle Branches verfolgen."
 
 msgid "Track listed branches."
-msgstr ""
+msgstr "Aufgelistete Branches verfolgen."
 
 msgid "Do not track unlisted branches."
-msgstr ""
+msgstr "Nicht aufgelistete Branches nicht verfolgen."
 
 #, php-format
 msgid "Expected \"%s\" to be a valid repository short name."
-msgstr ""
+msgstr "Erwartet, dass „%s\" ein gültiger Repository-Kurzname ist."
 
 #, php-format
 msgid "Expected \"%s\" to be rejected as an invalid repository short name."
@@ -56419,17 +56426,17 @@ msgstr ""
 
 #, php-format
 msgid "Canonical Path (ID, No Callsign): %s"
-msgstr ""
+msgstr "Kanonischer Pfad (ID, kein Rufzeichen): %s"
 
 #, php-format
 msgid "Canonical Path (ID, Callsign): %s"
-msgstr ""
+msgstr "Kanonischer Pfad (ID, Rufzeichen): %s"
 
 msgid "Test Repo"
-msgstr ""
+msgstr "Test-Repository"
 
 msgid "Task data has no \"commitPHID\"."
-msgstr ""
+msgstr "Aufgabendaten haben keine „commitPHID\"."
 
 #, php-format
 msgid ""
@@ -56449,7 +56456,7 @@ msgstr "Commit „%s\" konnte nicht neu geladen werden."
 
 #, php-format
 msgid "Unable to generate patch: %s"
-msgstr ""
+msgstr "Patch konnte nicht generiert werden: %s"
 
 #, php-format
 msgid ""
@@ -56458,77 +56465,77 @@ msgstr ""
 
 #, php-format
 msgid "Patch size exceeds configured byte size limit (\"%s\") of %s."
-msgstr ""
+msgstr "Patch-Größe überschreitet das konfigurierte Byte-Größenlimit (%s Bytes: „%s\")."
 
 #, php-format
 msgid "%s pushed %d commit(s) to %s."
-msgstr ""
+msgstr "%s hat %d Commit(s) zu %s gepusht."
 
 #, php-format
 msgid "%s pushed to %s."
-msgstr ""
+msgstr "%s hat zu %s gepusht."
 
 msgid "DETAILS"
 msgstr "DETAILS"
 
 msgid "COMMITS"
-msgstr ""
+msgstr "COMMITS"
 
 msgid "REFERENCES"
-msgstr ""
+msgstr "REFERENZEN"
 
 #, php-format
 msgid "%s commit(s)"
-msgstr ""
+msgstr "%s Commit(s)"
 
 #, php-format
 msgid "(%s) %s"
-msgstr ""
+msgstr "(%s) %s"
 
 msgid "[Push]"
-msgstr ""
+msgstr "[Push]"
 
 msgid "branch"
-msgstr ""
+msgstr "branch"
 
 msgid "tag"
-msgstr ""
+msgstr "tag"
 
 msgid "tag:"
-msgstr ""
+msgstr "tag:"
 
 msgid "bookmark"
-msgstr ""
+msgstr "bookmark"
 
 msgid "bookmark:"
-msgstr ""
+msgstr "bookmark:"
 
 msgid "ref"
-msgstr ""
+msgstr "ref"
 
 msgid "ref:"
-msgstr ""
+msgstr "ref:"
 
 msgid "Natural SVN root should work properly."
-msgstr ""
+msgstr "Natürliches SVN-Stammverzeichnis sollte korrekt funktionieren."
 
 msgid "Artificial SVN root should fail."
-msgstr ""
+msgstr "Künstliches SVN-Stammverzeichnis sollte fehlschlagen."
 
 #, php-format
 msgid "Expect %s to exist as a foreign stub."
-msgstr ""
+msgstr "Erwartet %s als externen Stub vorhanden."
 
 msgid "No support yet."
-msgstr ""
+msgstr "Noch keine Unterstützung."
 
 #, php-format
 msgid "No test entry for commit \"%s\" in repository \"%s\"!"
-msgstr ""
+msgstr "Kein Testeintrag für Commit „%s\" im Repository „%s\"!"
 
 #, php-format
 msgid "Parsing \"%s\"..."
-msgstr ""
+msgstr "Verarbeite „%s\"..."
 
 msgid "This commit is marked as unreadable, so changes will not be parsed."
 msgstr ""
@@ -56536,10 +56543,10 @@ msgstr ""
 
 #, php-format
 msgid "Failed to parse line '%s'."
-msgstr ""
+msgstr "Zeile '%s' konnte nicht geparst werden."
 
 msgid "Something is wrong; source of a copy must exist."
-msgstr ""
+msgstr "Etwas stimmt nicht; die Quelle einer Kopie muss vorhanden sein."
 
 #, php-format
 msgid ""
@@ -56549,21 +56556,21 @@ msgstr ""
 
 #, php-format
 msgid "Unknown SVN file kind '%s'."
-msgstr ""
+msgstr "Unbekannte SVN-Dateityp '%s'."
 
 msgid "Unable to parse entry!"
-msgstr ""
+msgstr "Eintrag konnte nicht geparst werden!"
 
 #, php-format
 msgid "Expected %s or %s, got %s."
-msgstr ""
+msgstr "Erwartet %s oder %s, erhalten %s."
 
 #, php-format
 msgid "Expected '%s', got %s."
-msgstr ""
+msgstr "Erwartet '%s', erhalten %s."
 
 msgid "Unexpected end of file."
-msgstr ""
+msgstr "Unerwartetes Dateiende."
 
 #, php-format
 msgid "%s activated this repository."
@@ -56645,11 +56652,11 @@ msgstr ""
 
 #, php-format
 msgid "%s disabled protection against dangerous changes."
-msgstr ""
+msgstr "%s hat den Schutz gegen gefährliche Änderungen deaktiviert."
 
 #, php-format
 msgid "%s enabled protection against dangerous changes."
-msgstr ""
+msgstr "%s hat den Schutz gegen gefährliche Änderungen aktiviert."
 
 #, php-format
 msgid "%s removed %s as the default branch."
@@ -56697,11 +56704,11 @@ msgstr "Repository-Kodierung „%s\" ist ungültig: %s"
 
 #, php-format
 msgid "%s disabled protection against enormous changes."
-msgstr ""
+msgstr "%s hat den Schutz gegen riesige Änderungen deaktiviert."
 
 #, php-format
 msgid "%s enabled protection against enormous changes."
-msgstr ""
+msgstr "%s hat den Schutz gegen riesige Änderungen aktiviert."
 
 #, php-format
 msgid "%s set this repository to fetch all refs."
@@ -56720,11 +56727,11 @@ msgstr "%s hat die abgerufenen Refs von %s auf %s geändert."
 
 #, php-format
 msgid "Fetch rules must be a list of strings, got \"%s\"."
-msgstr ""
+msgstr "Fetch-Regeln müssen eine Stringliste sein, erhalten: „%s\"."
 
 #, php-format
 msgid "Fetch rule (at index \"%s\") must be a string, got \"%s\"."
-msgstr ""
+msgstr "Fetch-Regel (bei Index „%s\") muss ein String sein, erhalten: „%s\"."
 
 #, php-format
 msgid "Fetch rule (at index \"%s\") is empty. Fetch rules must contain text."
@@ -56754,7 +56761,7 @@ msgstr "%s hat das Dateigrößenlimit (%s Bytes) für dieses Repository entfernt
 
 #, php-format
 msgid "Unable to parse filesize limit: %s"
-msgstr ""
+msgstr "Dateigrößenlimit konnte nicht geparst werden: %s"
 
 #, php-format
 msgid "%s assigned this identity to %s."
@@ -56807,7 +56814,7 @@ msgstr "%s hat die Veröffentlichung für dieses Repository deaktiviert."
 
 #, php-format
 msgid "%s marked all branches in this repository as permanent."
-msgstr ""
+msgstr "%s hat alle Branches in diesem Repository als permanent markiert."
 
 #, php-format
 msgid "%s set the permanent refs for this repository to: %s."
@@ -56841,15 +56848,15 @@ msgstr "%s hat den „Nur importieren\"-Pfad von %s auf %s geändert."
 
 #, php-format
 msgid "%s moved storage for this repository from %s to local."
-msgstr ""
+msgstr "%s hat den Speicher für dieses Repository von %s auf lokal verschoben."
 
 #, php-format
 msgid "%s set storage for this repository to %s."
-msgstr ""
+msgstr "%s hat den Speicher für dieses Repository auf %s gesetzt."
 
 #, php-format
 msgid "%s moved storage for this repository from %s to %s."
-msgstr ""
+msgstr "%s hat den Speicher für dieses Repository von %s auf %s verschoben."
 
 #, php-format
 msgid "%s removed the short name of this repository."
@@ -56888,11 +56895,11 @@ msgstr "%s hat den Namen des Termins von %s auf %s geändert."
 
 #, php-format
 msgid "%s changed indexed languages from %s to %s."
-msgstr ""
+msgstr "%s hat die indizierten Sprachen von %s auf %s geändert."
 
 #, php-format
 msgid "%s changed symbol sources from %s to %s."
-msgstr ""
+msgstr "%s hat die Symbolquellen von %s auf %s geändert."
 
 #, fuzzy, php-format
 msgid ""
