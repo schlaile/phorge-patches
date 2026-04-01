@@ -2151,17 +2151,15 @@ msgid ""
 "diagnostic information to the console."
 msgstr ""
 
-#, fuzzy
 msgid "Send a notification to a user."
-msgstr "Sende mir Email Benachrichtigungen"
+msgstr "Eine Benachrichtigung an einen Benutzer senden."
 
 
 msgid "User to notify."
 msgstr "Zu benachrichtigender Benutzer."
 
-#, fuzzy
 msgid "Message to send."
-msgstr "Nachrichten"
+msgstr "Zu sendende Nachricht."
 
 
 msgid "Specify a user to notify with \"--user\"."
@@ -2175,22 +2173,19 @@ msgstr "Es gibt keinen Benutzer mit dem Benutzernamen „%s\"."
 msgid "Specify a message to send with \"--message\"."
 msgstr "Eine zu sendende Nachricht mit \\\"--message\\\" angeben."
 
-#, fuzzy
 msgid "Sent notification."
-msgstr "Keine Benachrichtigungen."
+msgstr "Benachrichtigung gesendet."
 
 
-#, fuzzy
 msgid "Stop, then start the notification server."
-msgstr "Du hast keine ungelesenen Benachrichtigungen."
+msgstr "Benachrichtigungsserver stoppen und neu starten."
 
 
 msgid "Start the notifications server."
 msgstr "Benachrichtigungsserver starten."
 
-#, fuzzy
 msgid "Show the status of the notification server."
-msgstr "Keine Benachrichtungen für Dich."
+msgstr "Status des Benachrichtigungsservers anzeigen."
 
 
 msgid "Aphlict is not running."
@@ -2200,9 +2195,8 @@ msgstr "Aphlict läuft nicht."
 msgid "Aphlict (%s) is running."
 msgstr "Aphlict (%s) läuft."
 
-#, fuzzy
 msgid "Stop the notification server."
-msgstr "Keine Benachrichtigungen."
+msgstr "Benachrichtigungsserver stoppen."
 
 
 msgid "Use a specific configuration file instead of the default configuration."
