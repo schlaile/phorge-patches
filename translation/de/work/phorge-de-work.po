@@ -16928,9 +16928,8 @@ msgstr "Warteschlangen-Auslastung (ungefähr)"
 msgid "No tasks have completed in the last 15 minutes."
 msgstr "Es wurden keinerlei Aufgaben in den letzten 15 Minuten abgeschlossen."
 
-#, fuzzy
 msgid "Average Duration"
-msgstr "Dauer"
+msgstr "Durchschnittliche Dauer"
 
 
 msgid "Average Queue Time"
@@ -16991,9 +16990,8 @@ msgstr "Beendet sich"
 msgid "Exited"
 msgstr "Beendet"
 
-#, fuzzy
 msgid "Daemon Details"
-msgstr "Änderungen im Detail"
+msgstr "Daemon-Details"
 
 
 msgid "Daemon Log"
@@ -17151,9 +17149,8 @@ msgstr "Dämonenprozesse"
 msgid "Daemon Logs"
 msgstr "Dämonenprotokolle"
 
-#, fuzzy
 msgid "Archived Tasks"
-msgstr "Archivierte Panele"
+msgstr "Archivierte Aufgaben"
 
 
 msgid ""
@@ -17256,9 +17253,8 @@ msgid ""
 "There are no running daemon processes for the current instance (\"%s\")."
 msgstr ""
 
-#, fuzzy
 msgid "There are no running daemon processes."
-msgstr "Es gibt keine sichtbaren Beiträge."
+msgstr "Es gibt keine laufenden Daemon-Prozesse."
 
 
 msgid "Command"
@@ -17326,9 +17322,8 @@ msgstr ""
 msgid "RUNNING DAEMONS"
 msgstr "LAUFENDE DÄMONEN"
 
-#, fuzzy
 msgid "Daemons are already running:"
-msgstr "Daemon läuft nicht."
+msgstr "Daemons laufen bereits:"
 
 
 msgid ""
@@ -17352,9 +17347,8 @@ msgid ""
 "force\" to stop daemons for all instances."
 msgstr ""
 
-#, fuzzy
 msgid "There are no running daemons."
-msgstr "Es gibt keine sichtbaren Beiträge."
+msgstr "Es gibt keine laufenden Daemons."
 
 
 msgid "STOP"
@@ -17429,9 +17423,8 @@ msgstr ""
 msgid "Enable, disable, or show the lock log."
 msgstr "Sperr-Protokoll aktivieren, deaktivieren oder anzeigen."
 
-#, fuzzy
 msgid "Enable the lock log."
-msgstr "Anmeldung fehlgeschlagen"
+msgstr "Sperrprotokoll aktivieren."
 
 
 msgid "Disable the lock log."
@@ -17448,17 +17441,15 @@ msgid ""
 "\"--name\"."
 msgstr ""
 
-#, fuzzy
 msgid "Lock log is already disabled."
-msgstr "Projektname ist bereits vergeben."
+msgstr "Sperrprotokoll ist bereits deaktiviert."
 
 
 msgid "Disabling the lock log."
 msgstr "Sperr-Protokoll wird deaktiviert."
 
-#, fuzzy
 msgid "Lock log is already enabled."
-msgstr "Projektname ist bereits vergeben."
+msgstr "Sperrprotokoll ist bereits aktiviert."
 
 
 msgid "Enabling the lock log."
@@ -17467,19 +17458,16 @@ msgstr "Sperr-Protokoll wird aktiviert."
 msgid "Restart daemons to apply changes."
 msgstr "Dämonen neu starten, um Änderungen anzuwenden."
 
-#, fuzzy
 msgid "No matching lock logs."
-msgstr "Hier gibt es nichts zu tun."
+msgstr "Keine passenden Sperrprotokolleinträge."
 
 
-#, fuzzy
 msgid "Lock"
-msgstr "Gesperrt"
+msgstr "Sperre"
 
 
-#, fuzzy
 msgid "Acquired"
-msgstr "Pflichtfeld"
+msgstr "Erworben"
 
 
 msgid "Released"
