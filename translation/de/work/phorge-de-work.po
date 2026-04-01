@@ -7919,14 +7919,12 @@ msgid ""
 "\"%s\" setting to enable this extension."
 msgstr ""
 
-#, fuzzy
 msgid "APCu Disabled"
-msgstr "Deaktiviert"
+msgstr "APCu deaktiviert"
 
 
-#, fuzzy
 msgid "APCu Extension Not Enabled"
-msgstr "Beta-Anwendungen sind nicht aktiviert"
+msgstr "APCu-Erweiterung nicht aktiviert"
 
 
 msgid "APCu"
