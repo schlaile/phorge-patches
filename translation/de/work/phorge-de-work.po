@@ -921,7 +921,7 @@ msgstr "Eigenschaft löschen"
 
 #, php-format
 msgid "Delete property \"%s\"?"
-msgstr "Eigenschaft „%s\" löschen?"
+msgstr "Eigenschaft „%s“ löschen?"
 
 
 msgid "Invalid Property"
@@ -2063,7 +2063,7 @@ msgstr ""
 
 
 msgid "You must select a service type when creating a service."
-msgstr "Du musst einen Diensttyp auswählen, wenn Du einen Dienst erstellst."
+msgstr "Du musst einen Diensttyp auswählen, wenn du einen Dienst erstellst."
 
 
 msgid "The type of a service can not be changed once it has been created."
@@ -2431,7 +2431,7 @@ msgstr ""
 
 #, php-format
 msgid "Failed to reload commit (\"%s\")."
-msgstr "Commit „%s\" konnte nicht neu geladen werden."
+msgstr "Commit „%s“ konnte nicht neu geladen werden."
 
 
 #, php-format
@@ -3516,7 +3516,7 @@ msgstr "Registrierung fehlgeschlagen"
 
 #, php-format
 msgid "[%s] New User \"%s\" Awaiting Approval"
-msgstr "[%s] Neuer Benutzer „%s\" wartet auf Genehmigung"
+msgstr "[%s] Neuer Benutzer „%s“ wartet auf Genehmigung"
 
 
 #, php-format
@@ -56451,7 +56451,7 @@ msgstr ""
 
 #, php-format
 msgid "Failed to reload commit \"%s\"."
-msgstr "Commit „%s\" konnte nicht neu geladen werden."
+msgstr "Commit „%s“ konnte nicht neu geladen werden."
 
 
 #, php-format
@@ -63558,7 +63558,7 @@ msgid "Implode Earth"
 msgstr "Erde implodieren"
 
 msgid "Copy \"Quack\" to Clipboard"
-msgstr "„Quack\" in die Zwischenablage kopieren"
+msgstr "„Quack“ in die Zwischenablage kopieren"
 
 msgid "Quack"
 msgstr "Quack"
@@ -63731,7 +63731,7 @@ msgid "Full of sand."
 msgstr "Voller Sand."
 
 msgid "Responsive left-right table"
-msgstr "Responsieve Links-Rechts-Tabelle"
+msgstr "Responsive Links-Rechts-Tabelle"
 
 msgid "Allows easily alignment of left/right UI elements."
 msgstr "Ermöglicht einfache Ausrichtung linker/rechter UI-Elemente."
@@ -63889,7 +63889,7 @@ msgid "Ace of Hearts"
 msgstr "Ass der Herzen"
 
 msgid "This is a powerful card in the game \"Hearts\"."
-msgstr "Dies ist eine mächtige Karte im Spiel „Herz\"."
+msgstr "Dies ist eine mächtige Karte im Spiel „Hearts“."
 
 msgid "Suit: Hearts"
 msgstr "Farbe: Herz"
@@ -64173,7 +64173,7 @@ msgstr "3 / 5 Kommentare"
 
 
 msgid "Environmental!"
-msgstr "Umweltbedingt!"
+msgstr "Umweltfreundlich!"
 
 
 msgid "Bars"
@@ -64402,7 +64402,7 @@ msgstr "Manueller Lauf"
 
 #, php-format
 msgid "Sampled (1/%d)"
-msgstr "Gesamplet (1/%d)"
+msgstr "Stichprobe (1/%d)"
 
 msgid "Drop .xhprof Files to Import"
 msgstr "⇪ .xhprof-Dateien zum Importieren ablegen"
