@@ -16784,9 +16784,8 @@ msgstr "Zeitinformationen über die Startsequenz."
 msgid "-"
 msgstr "-"
 
-#, fuzzy
 msgid "Phase"
-msgstr "Kaufen"
+msgstr "Phase"
 
 
 msgid "Offset"
@@ -63684,10 +63683,10 @@ msgid "Name for a %s can be no longer than %s characters."
 msgstr "Ein Name für %s darf maximal %s Zeichen lang sein."
 
 msgid "Typeahead"
-msgstr ""
+msgstr "Typeahead"
 
 msgid "Typeahead Function Help"
-msgstr ""
+msgstr "Typeahead-Funktionshilfe"
 
 #, php-format
 msgid ""
@@ -63705,10 +63704,10 @@ msgid ""
 msgstr ""
 
 msgid "Function Quick Reference"
-msgstr ""
+msgstr "Funktionsübersicht"
 
 msgid "This control does not support typeahead functions."
-msgstr ""
+msgstr "Dieses Steuerelement unterstützt keine Typeahead-Funktionen."
 
 msgid ""
 "This table briefly describes available functions for this control. For "
@@ -63716,7 +63715,7 @@ msgid ""
 msgstr ""
 
 msgid "Using Typeahead Functions"
-msgstr ""
+msgstr "Typeahead-Funktionen verwenden"
 
 #, php-format
 msgid ""
@@ -63742,10 +63741,10 @@ msgid ""
 msgstr ""
 
 msgid "Function Help"
-msgstr ""
+msgstr "Funktionshilfe"
 
 msgid "Invalid Parameters"
-msgstr ""
+msgstr "Ungültige Parameter"
 
 
 #, php-format
@@ -63764,49 +63763,49 @@ msgid "Select"
 msgstr "Auswählen"
 
 msgid "Reference: Advanced Functions"
-msgstr ""
+msgstr "Referenz: Erweiterte Funktionen"
 
 msgid "Source Class"
-msgstr ""
+msgstr "Quellenklasse"
 
 msgid "Raw Query"
-msgstr ""
+msgstr "Rohabfrage"
 
 msgid "Parameters (JSON)"
-msgstr ""
+msgstr "Parameter (JSON)"
 
 msgid "Token Query"
-msgstr ""
+msgstr "Token-Abfrage"
 
 msgid "Display Name"
-msgstr ""
+msgstr "Anzeigename"
 
 msgid "Image URI"
-msgstr ""
+msgstr "Bild-URI"
 
 msgid "Priority Type"
-msgstr ""
+msgstr "Prioritätstyp"
 
 msgid "Sprite"
-msgstr ""
+msgstr "Sprite"
 
 msgid "Auto"
-msgstr ""
+msgstr "Auto"
 
 #, php-format
 msgid "Token Results (%s)"
-msgstr ""
+msgstr "Token-Ergebnisse (%s)"
 
 msgid "Typeahead Results"
-msgstr ""
+msgstr "Typeahead-Ergebnisse"
 
 #, php-format
 msgid "Invalid Function: %s"
-msgstr ""
+msgstr "Ungültige Funktion: %s"
 
 #, php-format
 msgid "Unable to parse function and arguments for token \"%s\"."
-msgstr ""
+msgstr "Funktion und Argumente für Token „%s\" konnten nicht verarbeitet werden."
 
 #, php-format
 msgid ""
@@ -63816,29 +63815,28 @@ msgstr ""
 
 #, php-format
 msgid "This datasource (\"%s\") can not evaluate the function \"%s(...)\"."
-msgstr ""
+msgstr "Diese Datenquelle („%s\") kann die Funktion „%s(...)\" nicht auswerten."
 
 msgid "Browse Objects"
-msgstr ""
+msgstr "Objekte durchsuchen"
 
 #, php-format
 msgid "Configured datasource class \"%s\" must be a valid subclass of \"%s\"."
 msgstr ""
 
 msgid "This source is not usable directly."
-msgstr ""
+msgstr "Diese Quelle kann nicht direkt verwendet werden."
 
 #, php-format
 msgid "Tokenization of \"%s\""
-msgstr ""
+msgstr "Tokenisierung von „%s\""
 
 #, php-format
 msgid "Constraints for input \"%s\"."
-msgstr ""
+msgstr "Einschränkungen für Eingabe „%s\"."
 
-#, fuzzy
 msgid "Browse Numbers"
-msgstr "Teilnehmer durchsuchen"
+msgstr "Zahlen durchsuchen"
 
 
 #, php-format
