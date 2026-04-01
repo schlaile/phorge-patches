@@ -50465,22 +50465,19 @@ msgstr "Es kann kein Dokument erstellt werden, das kein übergeordnetes Dokument
 msgid "Phurl"
 msgstr "Phurl"
 
-#, fuzzy
 msgid "URL Shortener"
-msgstr "Kurze Notiz"
+msgstr "URL-Kürzer"
 
 
 msgid "Shorten your favorite URL."
 msgstr "Lieblingslink kürzen."
 
-#, fuzzy
 msgid "Can Create Phurl URLs"
-msgstr "Kann Projekte erstellen"
+msgstr "Phurl-URLs erstellen"
 
 
-#, fuzzy
 msgid "You do not have permission to create a Phurl URL."
-msgstr "Du hast keine Berechtigung, um Zonen zu erzeugen."
+msgstr "Du hast keine Berechtigung, eine Phurl-URL zu erstellen."
 
 
 msgid "Apply transactions to create a new Phurl URL or edit an existing one."
@@ -50498,16 +50495,15 @@ msgstr "URI, die Phurl zum Kürzen von URLs verwendet."
 msgid "Set the URI that Phurl will use to share shortened URLs."
 msgstr "URI festlegen, die Phurl zum Teilen gekürzter URLs verwendet."
 
-#, fuzzy
 msgid "Invalid URL"
-msgstr "Ungültig"
+msgstr "Ungültige URL"
 
 
 msgid ""
 "This domain can only be used to open URLs shortened using the Phurl "
 "application. The URL you are trying to access does not have a Phurl URL "
 "associated with it."
-msgstr ""
+msgstr "Diese Domain kann nur zum Öffnen von URLs verwendet werden, die mit der Phurl-Anwendung gekürzt wurden. Der aufgerufenen URL ist keine Phurl-URL zugeordnet."
 
 msgid "This URL is invalid due to a bad protocol."
 msgstr "Diese URL ist wegen eines ungültigen Protokolls ungültig."
@@ -50515,112 +50511,96 @@ msgstr "Diese URL ist wegen eines ungültigen Protokolls ungültig."
 msgid "Visit URL"
 msgstr "URL besuchen"
 
-#, fuzzy
 msgid "Edit Phurl"
-msgstr "Umfrage ändern"
+msgstr "Phurl bearbeiten"
 
 
-#, fuzzy
 msgid "Short URL"
-msgstr "Kurzname"
+msgstr "Kurz-URL"
 
 
-#, fuzzy
 msgid "Original URL"
-msgstr "Ursprünglicher Autor"
+msgstr "Ursprüngliche URL"
 
 
 msgid "Alias"
 msgstr "Alias"
 
-#, fuzzy
 msgid "Configure Phurl Forms"
-msgstr "Pholio konfigurieren"
+msgstr "Phurl-Formulare konfigurieren"
 
 
 msgid "Configure creation and editing forms in Phurl."
 msgstr "Erstellungs- und Bearbeitungsformulare in Phurl konfigurieren."
 
-#, fuzzy
 msgid "Create New URL"
-msgstr "Neuen Benutzer anlegen"
+msgstr "Neue URL erstellen"
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "Edit URL: %s"
-msgstr "Ändere %s %s"
+msgstr "URL bearbeiten: %s"
 
 
-#, fuzzy
 msgid "Create URL"
-msgstr "Neue Regel"
+msgstr "URL erstellen"
 
 
 msgid "URL"
 msgstr "URL"
 
-#, fuzzy
 msgid "URL name."
-msgstr "Name"
+msgstr "Name der URL."
 
 
-#, fuzzy
 msgid "New URL name."
-msgstr "Neuer Benutzername"
+msgstr "Neuer Name der URL."
 
 
 msgid "The URL to shorten."
 msgstr "Die zu kürzende URL."
 
-#, fuzzy
 msgid "New URL."
-msgstr "Neuer Pfad"
+msgstr "Neue URL."
 
 
 msgid "The alias to give the URL."
 msgstr "Der der URL zu gebende Alias."
 
-#, fuzzy
 msgid "New alias."
-msgstr "Neue Aufgabe"
+msgstr "Neuer Kurzname."
 
 
-#, fuzzy
 msgid "URL long description."
-msgstr "Beschreibung der Regel"
+msgstr "Ausführliche Beschreibung der URL."
 
 
-#, fuzzy
 msgid "New URL description."
-msgstr "Beschreibung der Regel"
+msgstr "Neue Beschreibung der URL."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s created this URL."
-msgstr "%s hat diese Aufgabe erzeugt."
+msgstr "%s hat diese URL erstellt."
 
 
-#, fuzzy
 msgid "A URL's details change."
-msgstr "Der Status einer Aufgabe wurde verändert."
+msgstr "Die Details einer URL werden geändert."
 
 
 msgid "[Phurl]"
 msgstr "[Phurl]"
 
-#, fuzzy
 msgid "URL DESCRIPTION"
-msgstr "AUFGABEN-BESCHREIBUNG"
+msgstr "URL-BESCHREIBUNG"
 
 
-#, fuzzy
 msgid "URL DETAIL"
-msgstr "DATEI DETAILS"
+msgstr "URL-DETAILS"
 
 
-#, fuzzy
 msgid "This alias is already in use."
-msgstr "Diese Email-Adresse wurde bereits bestätigt."
+msgstr "Dieser Kurzname ist bereits vergeben."
 
 
 msgid "Phurl URLs"
@@ -50648,22 +50628,19 @@ msgid "All URLs"
 msgstr "Alle URLs"
 
 
-#, fuzzy
 msgid "No URLs found."
-msgstr "Keine Regeln gefunden."
+msgstr "Keine URLs gefunden."
 
 
-#, fuzzy
 msgid "Shorten a URL"
-msgstr "Kurzname"
+msgstr "URL kürzen"
 
 
 msgid "Create reusable, memorable, shorter URLs for easy accessibility."
 msgstr "Erstelle wiederverwendbare, einprägsame, kürzere URLs für einfachen Zugriff."
 
-#, fuzzy
 msgid "The author of a URL can always view and edit it."
-msgstr "Der Autor einer Frage darf sie immer ansehen und verändern."
+msgstr "Der Autor einer URL kann sie immer einsehen und bearbeiten."
 
 
 msgid "The alias for the URL."
@@ -50675,29 +50652,26 @@ msgstr "Die ursprüngliche, ungekürzte URL."
 msgid "A description of the URL."
 msgstr "Eine Beschreibung der URL."
 
-#, fuzzy
 msgid "Browse Phurl URLs"
-msgstr "In Projekten suchen"
+msgstr "Phurl-URLs durchsuchen"
 
 
-#, fuzzy
 msgid "Select a phurl..."
-msgstr "Wähle eine Dokumentenart..."
+msgstr "Phurl auswählen …"
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s changed the alias from %s to %s."
-msgstr "%s hat %s von %s nach %s geändert."
+msgstr "%s hat den Kurznamen von %s auf %s geändert."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s changed the alias of %s from %s to %s."
-msgstr "%s hat den Namen von %s von %s auf %s geändert."
+msgstr "%s hat den Kurznamen von %s von %s auf %s geändert."
 
 
-#, fuzzy
 msgid "Phurls must have an alias."
-msgstr "Regeln müssen einen Namen haben."
+msgstr "Phurl-URLs müssen einen Kurznamen haben."
 
 
 #, php-format
@@ -50706,54 +50680,50 @@ msgstr "Der Alias darf nicht länger als %d Zeichen sein."
 
 #, php-format
 msgid "The alias you provided (%s) must contain at least one letter."
-msgstr "Der angegebene Alias (%s) muss mindestens einen Buchstaben enthalten."
+msgstr "Der angegebene Kurzname (%s) muss mindestens einen Buchstaben enthalten."
 
 #, php-format
 msgid "The alias you provided (%s) may only contain letters and numbers."
-msgstr "Der angegebene Alias (%s) darf nur Buchstaben und Ziffern enthalten."
+msgstr "Der angegebene Kurzname (%s) darf nur Buchstaben und Ziffern enthalten."
 
 #, php-format
 msgid "%s updated the description."
 msgstr "%s hat die Beschreibung aktualisiert."
 
 
-#, fuzzy
 msgid "CHANGES TO PHURL DESCRIPTION"
-msgstr "AUFGABEN-BESCHREIBUNG"
+msgstr "ÄNDERUNGEN AN DER PHURL-BESCHREIBUNG"
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s changed the destination URL from %s to %s."
-msgstr "%s hat den Namen von %s von %s auf %s geändert."
+msgstr "%s hat die Ziel-URL von %s auf %s geändert."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s changed the destination URL %s from %s to %s."
-msgstr "%s hat den Namen von %s von %s auf %s geändert."
+msgstr "%s hat die Ziel-URL %s von %s auf %s geändert."
 
 
-#, fuzzy
 msgid "URL path is required"
-msgstr "Ohne Angabe des vollen Namens geht es nicht."
+msgstr "URL-Pfad ist erforderlich"
 
 
-#, fuzzy
 msgid "The protocol of the URL is invalid."
-msgstr "Die Produktart ist ungültig."
+msgstr "Das Protokoll der URL ist ungültig."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s changed the name of the URL from %s to %s."
-msgstr "%s hat den Namen von %s von %s auf %s geändert."
+msgstr "%s hat den Namen der URL von %s auf %s geändert."
 
 
 #, php-format
 msgid "%s changed the name of %s from %s to %s."
 msgstr "%s hat den Namen von %s von %s auf %s geändert."
 
-#, fuzzy
 msgid "Phurls must have a name."
-msgstr "Regeln müssen einen Namen haben."
+msgstr "Phurl-URLs müssen einen Namen haben."
 
 
 msgid "Public Policy (Enabled in Config)"
