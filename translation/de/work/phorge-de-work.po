@@ -51550,9 +51550,9 @@ msgstr "Ponder"
 msgid "Questions and Answers"
 msgstr "Fragen und Antworten"
 
-#, fuzzy, php-format
+#, php-format
 msgid "Send email to these addresses to create questions. %s"
-msgstr "Schicke eine Email an diese Adressen, um Aufgaben zu erzeugen: %s"
+msgstr "Schicke eine E-Mail an diese Adressen, um Fragen zu erstellen: %s"
 
 
 msgid "Email Commands: Questions"
@@ -51566,37 +51566,32 @@ msgid ""
 "Ponder."
 msgstr ""
 
-#, fuzzy
 msgid "Moderate Policy"
-msgstr "Richtlinie speichern"
+msgstr "Moderationsrichtlinie"
 
 
 msgid "Visible"
 msgstr "Sichtbar"
 
 
-#, fuzzy
 msgid "Closed, Obsolete"
-msgstr "Abgeschlossen, Gelöst"
+msgstr "Geschlossen, Veraltet"
 
 
 msgid "Obsolete"
 msgstr "Veraltet"
 
 
-#, fuzzy
 msgid "This question is open for answers."
-msgstr "Fragen und Antworten"
+msgstr "Diese Frage ist offen für Antworten."
 
 
-#, fuzzy
 msgid "This question has been answered or resolved."
-msgstr "Dieses Installationsproblem wurde gelöst."
+msgstr "Diese Frage wurde beantwortet oder gelöst."
 
 
-#, fuzzy
 msgid "This question is out of date."
-msgstr "Die Bildbeschreibung wurde nicht geändert."
+msgstr "Diese Frage ist veraltet."
 
 
 msgid "This question is invalid."
@@ -51635,40 +51630,37 @@ msgstr "Frage stellen"
 msgid "Question History"
 msgstr "Historie der Frage"
 
-#, fuzzy
 msgid "Change Question Status"
-msgstr "Status ändern"
+msgstr "Fragenstatus ändern"
 
 
-#, fuzzy
 msgid "Answer Summary"
-msgstr "Zusammenfassung"
+msgstr "Antwortzusammenfassung"
 
 
 msgid "Edit Question"
 msgstr "Frage ändern"
 
-#, fuzzy, php-format
+#, php-format
 msgid "Asked by %s on %s."
-msgstr "gefragt von %s"
+msgstr "Gefragt von %s am %s."
 
 
-#, fuzzy
 msgid "No further details for this question."
-msgstr "Keine Ergebnisse mittels dieser Abfrage gefunden."
+msgstr "Keine weiteren Details zu dieser Frage."
 
 
 msgid "Ponder Answers"
 msgstr "Ponder-Antworten"
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s added this answer."
-msgstr "%s hat dieses Panel erzeugt."
+msgstr "%s hat diese Antwort hinzugefügt."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s added %s."
-msgstr "%s hat Leute ins CC gesetzt: %s."
+msgstr "%s hat %s hinzugefügt."
 
 
 msgid "ANSWER DETAIL"
@@ -51677,121 +51669,110 @@ msgstr "ANTWORT DETAILS"
 msgid "Ponder Question"
 msgstr "Ponder-Frage"
 
-#, fuzzy
 msgid "Configure Ponder Question Forms"
-msgstr "Phabricator-Einstellungen ändern"
+msgstr "Ponder-Frageformulare konfigurieren"
 
 
 msgid "Configure creation and editing forms in Ponder Questions."
-msgstr ""
+msgstr "Erstellungs- und Bearbeitungsformulare für Ponder-Fragen konfigurieren."
 
-#, fuzzy
 msgid "Create New Question"
-msgstr "Frage stellen"
+msgstr "Neue Frage erstellen"
 
 
 #, php-format
 msgid "Edit Question: %s"
-msgstr ""
+msgstr "Frage bearbeiten: %s"
 
 
-#, fuzzy
 msgid "New Question"
-msgstr "Neue Frage stellen"
+msgstr "Neue Frage"
 
 
-#, fuzzy
 msgid "Question title."
-msgstr "Historie der Frage"
+msgstr "Titel der Frage."
 
 
-#, fuzzy
 msgid "New question title."
-msgstr "Neue Frage stellen"
+msgstr "Titel der neuen Frage."
 
 
 msgid "Long details of the question."
-msgstr ""
+msgstr "Ausführliche Details zur Frage."
 
 
 msgid "New question details."
-msgstr ""
+msgstr "Details zur neuen Frage."
 
 msgid "Answer summary of the question."
-msgstr ""
+msgstr "Antwortzusammenfassung der Frage."
 
-#, fuzzy
 msgid "New question answer summary."
-msgstr "Fragen und Antworten"
+msgstr "Antwortzusammenfassung der neuen Frage."
 
 
 msgid "Status of the question."
-msgstr ""
+msgstr "Status der Frage."
 
 
-#, fuzzy
 msgid "New question status."
-msgstr "Neue Frage stellen"
+msgstr "Status der neuen Frage."
 
 
 msgid "Ponder Questions"
-msgstr ""
+msgstr "Ponder-Fragen"
 
 #, php-format
 msgid "%s asked this question."
 msgstr "%s hat diese Frage gestellt."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s asked %s."
-msgstr "%s hat %s geschlossen."
+msgstr "%s hat %s gefragt."
 
 
 msgid "Someone changes the questions details."
-msgstr ""
+msgstr "Jemand ändert die Details der Frage."
 
-#, fuzzy
 msgid "Someone adds a new answer."
-msgstr "Füge stattdessen ein neues Panel hinzu."
+msgstr "Jemand fügt eine neue Antwort hinzu."
 
 
-#, fuzzy
 msgid "Someone comments on the question."
-msgstr "Jemand hat eine Aufgabe kommentiert."
+msgstr "Jemand kommentiert die Frage."
 
 
 msgid "Other question activity not listed above occurs."
-msgstr ""
+msgstr "Andere Fragenaktivitäten, die oben nicht aufgeführt sind, treten auf."
 
 msgid "QUESTION DETAIL"
 msgstr "FRAGE DETAILS"
 
 msgid "React to questions being created or updated."
-msgstr ""
+msgstr "Auf Fragen reagieren, die erstellt oder aktualisiert werden."
 
 msgid "Test rules which run when a question is created or updated."
-msgstr ""
+msgstr "Testregeln, die ausgeführt werden, wenn eine Frage erstellt oder aktualisiert wird."
 
 msgid "Ponder Answer"
-msgstr ""
+msgstr "Ponder-Antwort"
 
 #, php-format
 msgid "%s (Answer %s)"
-msgstr ""
+msgstr "%s (Antwort %s)"
 
 msgid "Answered By"
 msgstr "Beantwortet von"
 
-#, fuzzy
 msgid "Recent Questions"
-msgstr "Frage erneut in die Runde werfen"
+msgstr "Aktuelle Fragen"
 
 
 msgid "Open Questions"
 msgstr "Offene Fragen"
 
-#, fuzzy
 msgid "Resolved Questions"
-msgstr "Frage erneut in die Runde werfen"
+msgstr "Gelöste Fragen"
 
 
 msgid "All Questions"
@@ -51806,19 +51787,18 @@ msgstr "gefragt von %s"
 
 #, php-format
 msgid "%s Answer(s)"
-msgstr ""
+msgstr "%s Antwort(en)"
 
 
 msgid "No questions found."
-msgstr ""
+msgstr "Keine Fragen gefunden."
 
-#, fuzzy
 msgid "Ask a Question"
 msgstr "Frage stellen"
 
 
 msgid "A simple questions and answers application for your teams."
-msgstr ""
+msgstr "Eine einfache Fragen-und-Antworten-Anwendung für Ihr Team."
 
 msgid "The author of an answer can always view and edit it."
 msgstr "Der Autor einer Frage darf sie immer ansehen und verändern."
@@ -51828,11 +51808,8 @@ msgstr ""
 "Der Benutzer, der eine Frage gestellt hat, darf sich grundsätzlich die "
 "Antworten ansehen."
 
-#, fuzzy
 msgid "A moderator can always view the answers."
-msgstr ""
-"Der Benutzer, der eine Frage gestellt hat, darf sich grundsätzlich die "
-"Antworten ansehen."
+msgstr "Ein Moderator kann die Antworten immer einsehen."
 
 
 msgid "The user who asked a question can always view and edit it."
@@ -51840,14 +51817,12 @@ msgstr ""
 "Der Benutzer, der eine Frage gestellt hat, darf sie grundsätzlich sehen und "
 "verändern."
 
-#, fuzzy
 msgid "A moderator can always view the question."
-msgstr "Der Besitzer eines Enwurf kann ihn immer anschauen und ändern."
+msgstr "Ein Moderator kann die Frage immer einsehen."
 
 
-#, fuzzy
 msgid "Already Answered"
-msgstr "Schon unterschrieben"
+msgstr "Bereits beantwortet"
 
 
 msgid ""
@@ -51862,21 +51837,21 @@ msgid ""
 "This question has been marked as closed,\n"
 "             but you can still leave a new answer."
 msgstr ""
+"Diese Frage wurde als geschlossen markiert,\n"
+"             aber Du kannst trotzdem noch eine neue Antwort hinterlassen."
 
-#, fuzzy
 msgid "New Answer"
-msgstr "Antwort"
+msgstr "Neue Antwort"
 
 
 msgid "Add Answer"
 msgstr "Neue Antwort"
 
 msgid "Log In to Answer"
-msgstr ""
+msgstr "Anmelden, um zu antworten"
 
-#, fuzzy
 msgid "This answer has been hidden."
-msgstr "Dieser Kommentar wurde gelöscht"
+msgstr "Diese Antwort wurde ausgeblendet."
 
 
 msgid "Answer Comment"
@@ -51885,136 +51860,132 @@ msgstr "Kommentar beantworten"
 msgid "Add a Comment"
 msgstr "Kommentar hinzufügen"
 
-#, fuzzy, php-format
+#, php-format
 msgid "Show %s Comment(s)"
-msgstr "Zeige %s Kommentare"
+msgstr "Zeige %s Kommentar(e)"
 
 
-#, fuzzy
 msgid "Hide Comments"
-msgstr "Inline Kommentare"
+msgstr "Kommentare verbergen"
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s added an answer."
-msgstr "%s hat einen Kommentar hinzugefügt."
+msgstr "%s hat eine Antwort hinzugefügt."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s updated the answer details."
-msgstr "%s hat seine Antwort zu %s verändert"
+msgstr "%s hat die Antwortdetails aktualisiert."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s updated the answer details for %s."
-msgstr "%s hat seine Antwort zu %s verändert"
+msgstr "%s hat die Antwortdetails für %s aktualisiert."
 
 
-#, fuzzy
 msgid "CHANGES TO ANSWER DETAILS"
-msgstr "ANTWORT DETAILS"
+msgstr "ÄNDERUNGEN AN DEN ANTWORTDETAILS"
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s marked this answer as visible."
-msgstr "%s hat diese Spalte als sichtbar gekennzeichnet."
+msgstr "%s hat diese Antwort als sichtbar markiert."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s marked this answer as hidden."
-msgstr "%s hat diese Spalte als unsichtbar gekennzeichnet."
+msgstr "%s hat diese Antwort als ausgeblendet markiert."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s marked %s as visible."
-msgstr "%s hat diese Spalte als sichtbar gekennzeichnet."
+msgstr "%s hat %s als sichtbar markiert."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s marked %s as hidden."
-msgstr "%s hat diese Spalte als unsichtbar gekennzeichnet."
+msgstr "%s hat %s als ausgeblendet markiert."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s added an answer to %s."
-msgstr "%s hat %s kommentiert."
+msgstr "%s hat eine Antwort zu %s hinzugefügt."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s updated the answer wiki."
-msgstr "%s hat seine Antwort zu %s verändert"
+msgstr "%s hat das Antwort-Wiki aktualisiert."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s updated the answer wiki for %s."
-msgstr "%s hat seine Antwort zu %s verändert"
+msgstr "%s hat das Antwort-Wiki für %s aktualisiert."
 
 
 msgid "CHANGES TO ANSWER WIKI"
-msgstr ""
+msgstr "ÄNDERUNGEN AM ANTWORT-WIKI"
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s updated the question details."
-msgstr "%s hat die Beschreibung der Frage geändert."
+msgstr "%s hat die Fragendetails aktualisiert."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s updated the question details for %s."
-msgstr "%s hat die Beschreibung von %s verändert."
+msgstr "%s hat die Fragendetails für %s aktualisiert."
 
 
-#, fuzzy
 msgid "CHANGES TO QUESTION DETAILS"
-msgstr "FRAGE DETAILS"
+msgstr "ÄNDERUNGEN AN DEN FRAGENDETAILS"
 
 
 #, php-format
 msgid "%s reopened this question."
 msgstr "%s hat diese Frage wieder aufgeworfen."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s closed this question as resolved."
-msgstr "%s hat diese Frage abgeschlossen."
+msgstr "%s hat diese Frage als gelöst geschlossen."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s closed this question as obsolete."
-msgstr "%s hat diese Frage abgeschlossen."
+msgstr "%s hat diese Frage als veraltet geschlossen."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s closed this question as invalid."
-msgstr "%s hat diese Frage abgeschlossen."
+msgstr "%s hat diese Frage als ungültig geschlossen."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s closed %s as resolved."
-msgstr "%s hat %s abgeschlossen: \"%s\"."
+msgstr "%s hat %s als gelöst geschlossen."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s closed %s as invalid."
-msgstr "%s hat %s abgeschlossen, da es ein Duplikat ist."
+msgstr "%s hat %s als ungültig geschlossen."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s closed %s as obsolete."
-msgstr "%s hat %s abgeschlossen: \"%s\"."
+msgstr "%s hat %s als veraltet geschlossen."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s updated the question from %s to %s."
-msgstr "%s hat den Titel dieser Frage von \"%s\" nach \"%s\" geändert."
+msgstr "%s hat den Titel der Frage von %s auf %s geändert."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s updated %s from %s to %s."
-msgstr "%s hat %s von %s nach %s geändert."
+msgstr "%s hat %s von %s auf %s geändert."
 
 
-#, fuzzy
 msgid "Questions must have a title."
-msgstr "Regeln müssen einen Namen haben."
+msgstr "Fragen müssen einen Titel haben."
 
 
 #, php-format
