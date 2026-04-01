@@ -16148,14 +16148,12 @@ msgstr "Conpherence"
 msgid "Chat with Others"
 msgstr "Mit anderen Benutzern chatten"
 
-#, fuzzy
 msgid "Can Create Rooms"
-msgstr "Neuer Chat"
+msgstr "Räume erstellen"
 
 
-#, fuzzy
 msgid "You do not have permission to create new rooms."
-msgstr "Du hast keine Berechtigung, um neue Projekt zu erstellen."
+msgstr "Du hast keine Berechtigung, neue Räume zu erstellen."
 
 
 msgid "Create a new conpherence thread."
@@ -16169,9 +16167,8 @@ msgstr "Diese Methode ist seit %s zugunsten von %s veraltet."
 msgid "You must specify participant phids."
 msgstr "Teilnehmer-PHIDs angeben."
 
-#, fuzzy
 msgid "You must specify a title."
-msgstr "Du mußt eine Nachricht angeben."
+msgstr "Du musst einen Titel angeben."
 
 
 msgid "Apply transactions to create a new room or edit an existing one."
@@ -16214,9 +16211,8 @@ msgstr "Nur ein Benutzer selbst kann sich aus einem Raum entfernen."
 msgid "You must specify data that actually updates the Conpherence."
 msgstr "Daten angeben, die Conpherence tatsächlich aktualisieren."
 
-#, fuzzy
 msgid "No Sound"
-msgstr "Seite nicht gefunden"
+msgstr "Kein Ton"
 
 
 msgid "Alert"
@@ -16234,9 +16230,8 @@ msgstr "Tap"
 msgid "Ting"
 msgstr "Ting"
 
-#, fuzzy
 msgid "Light"
-msgstr "Rechts"
+msgstr "Hell"
 
 
 msgid "Peach"
@@ -16257,14 +16252,12 @@ msgstr "Teilnehmer hinzufügen"
 msgid "New Room"
 msgstr "Neuer Chat"
 
-#, fuzzy
 msgid "Search Rooms"
-msgstr "Commits durchsuchen"
+msgstr "Räume suchen"
 
 
-#, fuzzy
 msgid "Join Room"
-msgstr "An einem Chat teilnehmen"
+msgstr "Raum beitreten"
 
 
 #, php-format
@@ -16272,9 +16265,8 @@ msgid "Search %s..."
 msgstr "%s durchsuchen..."
 
 
-#, fuzzy
 msgid "You have joined no rooms."
-msgstr "Du nimmst noch an keinem Chat teil."
+msgstr "Du bist keinem Raum beigetreten."
 
 
 msgid "Rooms"
@@ -16295,19 +16287,15 @@ msgid "Server supports no image formats."
 msgstr "Server unterstützt keine Bildformate."
 
 
-#, fuzzy
 msgid "You must choose a file when uploading a new room picture."
-msgstr ""
-"Du mußt einen Dateinamen auswählen, wenn Du ein neues Projektbild hochladen "
-"möchtest."
+msgstr "Du musst eine Datei auswählen, wenn Du ein neues Raumbild hochladen möchtest."
 
 
 msgid "Not Supported"
 msgstr "Nicht unterstützt."
 
-#, fuzzy
 msgid "Edit Room Picture"
-msgstr "Bild ändern"
+msgstr "Raumbild bearbeiten"
 
 
 msgid "Current Picture"
@@ -16325,9 +16313,8 @@ msgstr "Bild hochladen"
 msgid "Upload New Picture"
 msgstr "Neue Bilder hochladen"
 
-#, fuzzy
 msgid "Room Picture"
-msgstr "Bild"
+msgstr "Raumbild"
 
 
 msgid "Notification settings are available after joining the room."
@@ -16335,11 +16322,10 @@ msgstr "Benachrichtigungseinstellungen sind nach dem Beitreten des Raums verfüg
 
 msgid ""
 "Notification settings are available after logging in and joining the room."
-msgstr ""
+msgstr "Benachrichtigungseinstellungen sind nach dem Anmelden und Beitreten des Raums verfügbar."
 
-#, fuzzy
 msgid "Room Preferences"
-msgstr "Emaileinstellungen"
+msgstr "Raumeinstellungen"
 
 
 msgid "Notify"
@@ -16364,14 +16350,13 @@ msgstr "Chat verlassen"
 msgid "Are you sure you want to leave this room?"
 msgstr "Bist Du sicher, daß Du diesen Chat verlassen möchtest?"
 
-#, fuzzy
 msgid "Remove Participant"
 msgstr "Teilnehmer entfernen"
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "Remove %s from this room?"
-msgstr "Wirklich %s von Projekt %s entfernen?"
+msgstr "%s aus diesem Raum entfernen?"
 
 
 msgid "You will be able to rejoin the room later."
@@ -16381,40 +16366,36 @@ msgid "They will be able to rejoin the room later."
 msgstr "Er/Sie kann dem Raum später wieder beitreten."
 
 msgid "You are the last member, so you will never be able to rejoin the room."
-msgstr "Du bist das letzte Mitglied und kannst dem Raum nie wieder beitreten."
+msgstr "Du bist das letzte Mitglied — nach dem Verlassen kannst Du dem Raum nicht mehr beitreten."
 
 msgid ""
 "You will not be able to rejoin the room on your own, but someone else can "
 "invite you later."
-msgstr ""
+msgstr "Du kannst dem Raum nicht selbst wieder beitreten, aber jemand anderes kann Dich später einladen."
 
 msgid "They will not be able to rejoin the room unless invited again."
-msgstr "Er/Sie kann dem Raum nur durch erneute Einladung wieder beitreten."
+msgstr "Die Person kann dem Raum nur wieder beitreten, wenn sie erneut eingeladen wird."
 
 msgid "Sending a message will also join the room."
 msgstr "Das Senden einer Nachricht tritt dem Raum ebenfalls bei."
 
-#, fuzzy
 msgid "Log in to join this room and participate."
-msgstr "Anmelden um teilzunehmen"
+msgstr "Melde Dich an, um diesem Raum beizutreten und mitzumachen."
 
 
-#, fuzzy
 msgid "Log In to Participate"
-msgstr "Anmelden um teilzunehmen"
+msgstr "Anmelden und mitmachen"
 
 
-#, fuzzy
 msgid "Configure Conpherence Forms"
-msgstr "Conpherence Emails konfigurieren"
+msgstr "Conpherence-Formulare konfigurieren"
 
 
 msgid "Configure creation and editing forms in Conpherence."
 msgstr "Erstellungs- und Bearbeitungsformulare in Conpherence konfigurieren."
 
-#, fuzzy
 msgid "Create New Room"
-msgstr "Einen Chat erzeugen"
+msgstr "Neuen Raum erstellen"
 
 
 #, php-format
@@ -16428,45 +16409,39 @@ msgstr "Chat"
 msgid "Room name."
 msgstr "Raumname."
 
-#, fuzzy
 msgid "New Room name."
-msgstr "Neuer Chat"
+msgstr "Name des neuen Raums."
 
 
 msgid "Topic"
 msgstr "Thema"
 
-#, fuzzy
 msgid "Room topic."
-msgstr "Chat Aktionen"
+msgstr "Raumthema."
 
 
-#, fuzzy
 msgid "New Room topic."
-msgstr "Neuer Chat"
+msgstr "Neues Raumthema."
 
 
-#, fuzzy
 msgid "Room participants."
-msgstr "Chat Teilnehmer"
+msgstr "Raumteilnehmer."
 
 
-#, fuzzy
 msgid "New Room participants."
-msgstr "Chat Teilnehmer"
+msgstr "Neue Raumteilnehmer."
 
 
-#, fuzzy
 msgid "Initial Participants"
-msgstr "Teilnehmer"
+msgstr "Anfangsteilnehmer"
 
 
 msgid "Conpherence Rooms"
 msgstr "Chat-Räume"
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s created this room."
-msgstr "%s hat diese Spalte erzeugt."
+msgstr "%s hat diesen Raum erstellt."
 
 
 #, php-format
@@ -16479,9 +16454,8 @@ msgstr "CONPHERENCE DETAILS"
 msgid "EMAIL PREFERENCES FOR THIS ROOM"
 msgstr "EMAIL EINSTELLUNGEN FÜR DIESEN CHAT"
 
-#, fuzzy
 msgid "[Conpherence]"
-msgstr "Conpherence"
+msgstr "[Conpherence]"
 
 
 msgid "Conpherence Threads"
@@ -16502,14 +16476,12 @@ msgstr "Chat Teilnehmer"
 msgid "Participants"
 msgstr "Teilnehmer"
 
-#, fuzzy
 msgid "Search by room titles."
-msgstr "Commits durchsuchen"
+msgstr "Nach Raumtiteln suchen."
 
 
-#, fuzzy
 msgid "Room Contains Words"
-msgstr "Enthält die Wörter"
+msgstr "Raum enthält Wörter"
 
 
 msgid "All Rooms"
@@ -16529,22 +16501,19 @@ msgstr "Keine Ergebnisse gefunden."
 msgid "Private Room"
 msgstr "Privater Chat"
 
-#, fuzzy
 msgid "No recent messages"
-msgstr "Keine Nachrichten."
+msgstr "Keine aktuellen Nachrichten"
 
 
 msgid "Participants in a room can always view it."
 msgstr "Teilnehmer eines Chats können ihn grundsätzlich sehen."
 
-#, fuzzy
 msgid "Browse Room"
-msgstr "Teilnehmer durchsuchen"
+msgstr "Räume durchsuchen"
 
 
-#, fuzzy
 msgid "Type a room title..."
-msgstr "Einen Dokumententitel eintippen..."
+msgstr "Raumtitel eingeben …"
 
 
 msgid "No topic set"
@@ -16565,33 +16534,29 @@ msgstr "Fenster ausblenden"
 msgid "Loading..."
 msgstr "Lade..."
 
-#, fuzzy
 msgid "You have not joined any rooms yet."
-msgstr "Du nimmst noch an keinem Chat teil."
+msgstr "Du bist noch keinem Raum beigetreten."
 
 
-#, fuzzy
 msgid "Find Rooms"
-msgstr "Verbundene Chats"
+msgstr "Räume finden"
 
 
 msgid "Send a message..."
 msgstr "Eine Nachricht senden..."
 
-#, fuzzy
 msgid "Joinable Rooms"
-msgstr "Verbundene Chats"
+msgstr "Beitrittbare Räume"
 
 
-#, fuzzy
 msgid "Welcome to Conpherence"
-msgstr "Conpherence"
+msgstr "Willkommen bei Conpherence"
 
 
 msgid ""
 "Conpherence lets you create public or private rooms to communicate with "
 "others."
-msgstr ""
+msgstr "Mit Conpherence kannst Du öffentliche oder private Räume erstellen, um mit anderen zu kommunizieren."
 
 #, php-format
 msgid "Participants (%s)"
@@ -16604,23 +16569,22 @@ msgstr "An einem Chat teilnehmen"
 msgid "Create a Room"
 msgstr "Einen Chat erzeugen"
 
-#, fuzzy
 msgid "See All Joined"
-msgstr "Meine"
+msgstr "Alle beigetretenen anzeigen"
 
 
 #, php-format
 msgid "%s edited participant(s), added %d: %s; removed %d: %s."
 msgstr "%s hat Teilnehmer verändert, %d hinzugefügt: %s; %d entfernt: %s."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s joined the room."
-msgstr "%s nimmt nun an dem Projekt teil."
+msgstr "%s hat den Raum betreten."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s left the room."
-msgstr "%s hat das Projekt verlassen."
+msgstr "%s hat den Raum verlassen."
 
 
 #, php-format
@@ -16631,52 +16595,51 @@ msgstr "%s hat %d Teilnehmer hinzugefügt: %s."
 msgid "%s removed %d participant(s): %s."
 msgstr "%s hat %d Teilnehmer entfernt: %s."
 
-#, fuzzy, php-format
+#, php-format
 msgid "Participant PHID \"%s\" is not a valid user PHID."
-msgstr "Der neue Chat-Teilnehmer \"%s\" ist kein gültiger Benutzer."
+msgstr "Die PHID „%s\" gehört zu keinem gültigen Benutzer."
 
 
 #, php-format
 msgid "%s updated the room image."
 msgstr "%s hat das Bild für den Chat geändert."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s updated the room image for %s."
-msgstr "%s hat das Bild für %s geändert."
+msgstr "%s hat das Raumbild für %s geändert."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s renamed this room from %s to %s."
-msgstr "%s hat diesen Chat von \"%s\" in \"%s\" umbenannt."
+msgstr "%s hat diesen Raum von %s in %s umbenannt."
 
 
-#, fuzzy
 msgid "Rooms must have a title."
-msgstr "Regeln müssen einen Namen haben."
+msgstr "Räume müssen einen Titel haben."
 
 
 #, php-format
 msgid "The title can be no longer than %s characters."
 msgstr "Der Titel darf nicht länger als %s Zeichen sein."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s set the room topic to %s."
-msgstr "%s hat das Symbol für %s auf %s gesetzt."
+msgstr "%s hat das Raumthema auf %s gesetzt."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s removed the room topic."
-msgstr "%s hat das Bild für den Chat geändert."
+msgstr "%s hat das Raumthema entfernt."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s set the room topic to %s in %s."
-msgstr "%s hat das Symbol für %s auf %s gesetzt."
+msgstr "%s hat das Raumthema in %s auf %s gesetzt."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s removed the room topic for %s."
-msgstr "%s hat die Rechte zum Zusammenführen von %s verändert."
+msgstr "%s hat das Raumthema für %s entfernt."
 
 
 #, php-format
