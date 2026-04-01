@@ -2876,14 +2876,13 @@ msgstr "Unbekannter gruppierter Transaktionstyp!"
 msgid "Good password should match."
 msgstr "Ein gültiges Passwort sollte übereinstimmen."
 
-#, fuzzy
 msgid "Bad password should not match."
-msgstr "Das neue Passwort und die Passwortbestätigung sind nicht identisch"
+msgstr "Falsches Passwort sollte nicht übereinstimmen."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "Validity of password \"%s\"."
-msgstr "Dashboard \"%s\" ändern"
+msgstr "Gültigkeit des Passworts „%s\"."
 
 
 msgid ""
@@ -2984,10 +2983,12 @@ msgid ""
 "LDAP Exception: %s\n"
 "LDAP Error #%d: %s"
 msgstr ""
+"LDAP-Ausnahme: %s\n"
+"LDAP-Fehler #%d: %s"
 
-#, fuzzy, php-format
+#, php-format
 msgid "LDAP Exception: %s"
-msgstr "Dauer: %s"
+msgstr "LDAP-Ausnahme: %s"
 
 
 #, php-format
@@ -2997,9 +2998,9 @@ msgstr "Anmeldung am LDAP-Server (als Benutzer \\\"%s\\\") fehlgeschlagen."
 msgid "Failed to bind to LDAP server (without username)."
 msgstr "Anmeldung am LDAP-Server (ohne Benutzernamen) fehlgeschlagen."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s is required!"
-msgstr "%s ist ein Pflichtfeld."
+msgstr "%s ist erforderlich!"
 
 
 #, php-format
@@ -3016,9 +3017,9 @@ msgstr "Verifier zum Abschluss des OAuth-Handshakes erwartet!"
 msgid "Expected '%s' in response!"
 msgstr "'%s' in der Antwort erwartet!"
 
-#, fuzzy, php-format
+#, php-format
 msgid "Access token error: %s"
-msgstr "Zugriff verweigert: %s"
+msgstr "Zugriffstoken-Fehler: %s"
 
 
 #, php-format
@@ -3040,9 +3041,8 @@ msgstr "Auth-Provider verwalten"
 msgid "You do not have permission to manage authentication providers."
 msgstr "Du hast keine Berechtigung, Authentifizierungsanbieter zu verwalten."
 
-#, fuzzy
 msgid "Terminate all login sessions."
-msgstr "Alle aktiven Sitzungen beenden"
+msgstr "Alle Anmeldesitzungen beenden."
 
 
 msgid ""
@@ -3126,9 +3126,9 @@ msgid "Welcome to %s!"
 msgstr "Willkommen bei %s!"
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s has invited you to join %s."
-msgstr "%s hat %s zu %s eingeladen."
+msgstr "%s hat Dich eingeladen, %s beizutreten."
 
 
 msgid "Normal Security Restored"
@@ -3358,9 +3358,8 @@ msgstr "Multi-Faktor-Authentifizierung ist falsch konfiguriert"
 msgid "You are already logged in."
 msgstr "Du bist bereits angemeldet"
 
-#, fuzzy
 msgid "Unable to Log In"
-msgstr "Anmeldung fehlgeschlagen"
+msgstr "Anmeldung nicht möglich"
 
 
 msgid "Login Failure"
@@ -3398,9 +3397,9 @@ msgstr ""
 msgid "Account Recovery"
 msgstr "Kontowiederherstellung"
 
-#, fuzzy, php-format
+#, php-format
 msgid "Log in to %s"
-msgstr "Kopiert nach %s"
+msgstr "Bei %s anmelden"
 
 
 #, php-format
@@ -3453,9 +3452,8 @@ msgstr ""
 "Benutzern auf die folgendenen Email-Adressen:"
 
 
-#, fuzzy
 msgid "Email Address Already in Use"
-msgstr "Emailadressen"
+msgstr "E-Mail-Adresse bereits in Verwendung"
 
 
 #, fuzzy
@@ -3493,9 +3491,8 @@ msgstr ""
 msgid "Cancel"
 msgstr "Abbrechen"
 
-#, fuzzy
 msgid "Create New Account"
-msgstr "Neues Zahlungskonto "
+msgstr "Neues Konto erstellen"
 
 
 #, php-format
@@ -3569,9 +3566,8 @@ msgstr "Administrator-Konto anlegen"
 msgid "Register"
 msgstr "Registrierung"
 
-#, fuzzy
 msgid "Create a New Account"
-msgstr "Neues Zahlungskonto "
+msgstr "Neues Konto erstellen"
 
 
 #, fuzzy
@@ -3595,9 +3591,9 @@ msgstr "Es sind zu viele Standard-Registrierungsanbieter konfiguriert."
 msgid "Registration Failed"
 msgstr "Registrierung fehlgeschlagen"
 
-#, fuzzy, php-format
+#, php-format
 msgid "[%s] New User \"%s\" Awaiting Approval"
-msgstr "Neuer Benutzer \"%s\" Wartet Auf Freigabe"
+msgstr "[%s] Neuer Benutzer „%s\" wartet auf Genehmigung"
 
 
 #, php-format
@@ -3712,9 +3708,8 @@ msgstr "Der private Schlüssel wird nicht gespeichert."
 msgid "Unable to Generate Keys"
 msgstr "Konnte Schlüssel nicht erzeugen"
 
-#, fuzzy
 msgid "Revoke SSH Public Key"
-msgstr "SSH Public Keys"
+msgstr "Öffentlichen SSH-Schlüssel widerrufen"
 
 
 #, fuzzy, php-format
@@ -3726,9 +3721,8 @@ msgstr ""
 "der Lage sein, Dich mit dem passenden Private Key anzumelden."
 
 
-#, fuzzy
 msgid "Revoke Public Key"
-msgstr "Public Key löschen"
+msgstr "Öffentlichen Schlüssel widerrufen"
 
 
 #, php-format
@@ -3738,14 +3732,12 @@ msgstr "SSH-Schlüssel %d"
 msgid "Revoked"
 msgstr "Widerrufen"
 
-#, fuzzy
 msgid "View Active Keys"
-msgstr "Zeige Aktive Aufgaben »"
+msgstr "Aktive Schlüssel anzeigen"
 
 
-#, fuzzy
 msgid "Edit SSH Key"
-msgstr "SSH Public Key ändern"
+msgstr "SSH-Schlüssel bearbeiten"
 
 
 msgid "Revoke SSH Key"
@@ -3754,9 +3746,8 @@ msgstr "SSH-Schlüssel widerrufen"
 msgid "Created"
 msgstr "Erzeugt"
 
-#, fuzzy
 msgid "No Linkable External Providers"
-msgstr "Test-Zahlungsdienstleister aktivieren"
+msgstr "Keine verknüpfbaren externen Anbieter"
 
 
 msgid ""
@@ -3788,9 +3779,8 @@ msgid "Set Password"
 msgstr "Passwort festlegen"
 
 
-#, fuzzy
 msgid "Set Account Password"
-msgstr "Bild des Kontos festlegen"
+msgstr "Konto-Passwort festlegen"
 
 
 msgid "New Password"
@@ -3816,9 +3806,8 @@ msgstr ""
 msgid "Login Required"
 msgstr "Anmeldung erforderlich"
 
-#, fuzzy
 msgid "You must log in to take this action."
-msgstr "Um weiterzumachen, muß Du angemeldet sein."
+msgstr "Du musst Dich anmelden, um diese Aktion auszuführen."
 
 
 msgid "Log In"
@@ -3896,9 +3885,8 @@ msgid ""
 "yourself an email login link from the login screen."
 msgstr ""
 
-#, fuzzy
 msgid "Unlink External Account"
-msgstr "Externes Konto"
+msgstr "Externes Konto trennen"
 
 
 #, php-format
@@ -3947,9 +3935,8 @@ msgstr "Konto gesperrt"
 msgid "Your account has been disabled."
 msgstr "Dein Konto wurde gesperrt"
 
-#, fuzzy
 msgid "No Password Auth"
-msgstr "Neues Passwort"
+msgstr "Keine Passwort-Authentifizierung"
 
 
 msgid ""
@@ -4002,9 +3989,8 @@ msgid ""
 "link to set an account password."
 msgstr ""
 
-#, fuzzy
 msgid "Password Reset"
-msgstr "Passwort"
+msgstr "Passwort zurücksetzen"
 
 
 msgid ""
@@ -4012,9 +3998,8 @@ msgid ""
 "link will be sent to you."
 msgstr ""
 
-#, fuzzy
 msgid "Email Login"
-msgstr "Email verschickt"
+msgstr "E-Mail-Login"
 
 
 msgid ""
@@ -4068,9 +4053,8 @@ msgstr "%s verifizieren"
 msgid "Verify Email"
 msgstr "Emailadresse verifizieren"
 
-#, fuzzy
 msgid "Log Out?"
-msgstr "Abmelden"
+msgstr "Abmelden?"
 
 
 msgid "Are you sure you want to log out?"
@@ -4094,9 +4078,8 @@ msgid ""
 "recovery instructions."
 msgstr ""
 
-#, fuzzy
 msgid "Log Out Anyway"
-msgstr "Abmelden"
+msgstr "Trotzdem abmelden"
 
 
 msgid "Log Out"
@@ -4175,9 +4158,8 @@ msgstr "Nächster Schritt"
 msgid "Add Provider"
 msgstr "Anbieter hinzufügen"
 
-#, fuzzy
 msgid "Add Auth Provider"
-msgstr "Neuer Zahlungsdienstleister"
+msgstr "Auth-Anbieter hinzufügen"
 
 
 msgid "Save"
@@ -4289,24 +4271,20 @@ msgstr ""
 msgid "Login and Registration"
 msgstr "Anmeldung und Registrierung"
 
-#, fuzzy
 msgid "Providers"
-msgstr "Alle Anbieter"
+msgstr "Anbieter"
 
 
-#, fuzzy
 msgid "Login and Registration Providers"
-msgstr "Anmeldung und Registrierung"
+msgstr "Anmelde- und Registrierungsanbieter"
 
 
-#, fuzzy
 msgid "Authentication Config Locked"
-msgstr "Anmeldefehler"
+msgstr "Authentifizierungskonfiguration gesperrt"
 
 
-#, fuzzy
 msgid "You already have a provider of this type."
-msgstr "Du hast den Rand des Abgrunds erreicht."
+msgstr "Du hast bereits einen Anbieter dieses Typs."
 
 
 msgid "Authentication"
@@ -4315,19 +4293,17 @@ msgstr "Authentisierung"
 msgid "Multi-Factor"
 msgstr "Multi-Faktor"
 
-#, fuzzy
 msgid "Onboarding"
-msgstr "Lade..."
+msgstr "Einarbeitung"
 
 
-#, fuzzy
 msgid "Customize Messages"
-msgstr "Commit Nachricht"
+msgstr "Nachrichten anpassen"
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "Auth Provider: %s"
-msgstr "Autor: %s"
+msgstr "Auth-Anbieter: %s"
 
 
 msgid "Provider Type"
@@ -4337,22 +4313,19 @@ msgid "Provider Enabled"
 msgstr "Anbieter aktiviert"
 
 
-#, fuzzy
 msgid "Allow Logins"
-msgstr "Alle Benutzer erlauben"
+msgstr "Anmeldungen erlauben"
 
 
 msgid "Allow Registration"
 msgstr "Registrierung erlauben"
 
-#, fuzzy
 msgid "Allow Account Linking"
-msgstr "Es ist kein Konto verknüpft"
+msgstr "Kontoverknüpfung erlauben"
 
 
-#, fuzzy
 msgid "Allow Account Unlinking"
-msgstr "Es ist kein Konto verknüpft"
+msgstr "Kontoverknüpfung aufheben erlauben"
 
 
 msgid "Contact Numbers"
@@ -4361,43 +4334,37 @@ msgstr "Telefonnummern"
 msgid "/settings/panel/contact/"
 msgstr "/settings/panel/contact/"
 
-#, fuzzy
 msgid "Changing Status Failed"
-msgstr "Status ändern"
+msgstr "Statusänderung fehlgeschlagen"
 
 
-#, fuzzy
 msgid "Disable Contact Number"
-msgstr "Abfrage deaktivieren"
+msgstr "Kontaktnummer deaktivieren"
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "Disable the contact number %s?"
-msgstr "Die Zahlungsart \"%s\" deaktivieren?"
+msgstr "Kontaktnummer %s deaktivieren?"
 
 
-#, fuzzy
 msgid "Disable Number"
-msgstr "Abfrage deaktivieren"
+msgstr "Nummer deaktivieren"
 
 
-#, fuzzy
 msgid "Enable Contact Number"
-msgstr "Abfrage aktivieren"
+msgstr "Kontaktnummer aktivieren"
 
 
 #, php-format
 msgid "Enable the contact number %s?"
 msgstr "Kontaktnummer %s aktivieren?"
 
-#, fuzzy
 msgid "Enable Number"
-msgstr "Abfrage aktivieren"
+msgstr "Nummer aktivieren"
 
 
-#, fuzzy
 msgid "Number Disabled"
-msgstr "Deaktiviert"
+msgstr "Nummer deaktiviert"
 
 
 msgid "You can not make a disabled number your primary contact number."
@@ -4409,9 +4376,8 @@ msgstr "Nummer bereits primär"
 msgid "This contact number is already your primary contact number."
 msgstr "Diese Kontaktnummer ist bereits deine primäre Kontaktnummer."
 
-#, fuzzy
 msgid "Unable to Make Primary"
-msgstr "Zur primären Adresse machen"
+msgstr "Primäre Nummer kann nicht festgelegt werden"
 
 
 msgid "Set Primary Contact Number"
@@ -4428,9 +4394,8 @@ msgstr "Zur primären Adresse machen"
 msgid "This is a terse test text message (from \"%s\")."
 msgstr "Dies ist eine kurze Test-SMS (von \\\"%s\\\")."
 
-#, fuzzy
 msgid "Set Test Message"
-msgstr "Eine Nachricht senden"
+msgstr "Testnachricht festlegen"
 
 
 #, php-format
@@ -4438,9 +4403,8 @@ msgid "Send a test message to %s?"
 msgstr "Testnachricht an %s senden?"
 
 
-#, fuzzy
 msgid "Send SMS"
-msgstr "Senden"
+msgstr "SMS senden"
 
 
 msgid "Primary"
@@ -4452,19 +4416,16 @@ msgstr "Eigentümer"
 msgid "Contact Number"
 msgstr "Kontaktnummer"
 
-#, fuzzy
 msgid "Edit Contact Number"
-msgstr "Änderungskonflikt"
+msgstr "Kontaktnummer bearbeiten"
 
 
-#, fuzzy
 msgid "Send Test Message"
-msgstr "Eine Nachricht senden"
+msgstr "Testnachricht senden"
 
 
-#, fuzzy
 msgid "Make Primary Number"
-msgstr "Zur primären Adresse machen"
+msgstr "Als primäre Nummer festlegen"
 
 
 msgid "Messages"
@@ -4476,50 +4437,42 @@ msgstr "Angepasst"
 msgid "Default"
 msgstr "Vorgabe"
 
-#, fuzzy
 msgid "Auth Messages"
-msgstr "Nachrichten"
+msgstr "Auth-Nachrichten"
 
 
 msgid "Description"
 msgstr "Beschreibung"
 
-#, fuzzy
 msgid "Message Preview"
-msgstr "Vorschau der Antwort"
+msgstr "Nachrichtenvorschau"
 
 
-#, fuzzy
 msgid "Default Message"
-msgstr "Doppelte Nachricht"
+msgstr "Standardnachricht"
 
 
-#, fuzzy
 msgid "Edit Message"
-msgstr "Erste Nachricht"
+msgstr "Nachricht bearbeiten"
 
 
-#, fuzzy
 msgid "Customize Message"
-msgstr "Commit Nachricht"
+msgstr "Nachricht anpassen"
 
 
-#, fuzzy
 msgid "Choose Provider Type"
-msgstr "Neuer Dienstleister"
+msgstr "Anbietertyp wählen"
 
 
 msgid "You have not configured any multi-factor providers yet."
 msgstr "Du hast noch keine Multi-Faktor-Anbieter konfiguriert."
 
-#, fuzzy
 msgid "Add MFA Provider"
-msgstr "Neuer Zahlungsdienstleister"
+msgstr "MFA-Anbieter hinzufügen"
 
 
-#, fuzzy
 msgid "MFA Providers"
-msgstr "Alle Anbieter"
+msgstr "MFA-Anbieter"
 
 
 msgid ""
@@ -4532,33 +4485,28 @@ msgid ""
 "by providing a replacement message below:"
 msgstr ""
 
-#, fuzzy
 msgid "Custom Message"
-msgstr "Commit Nachricht"
+msgstr "Benutzerdefinierte Nachricht"
 
 
-#, fuzzy
 msgid "Change Enroll Message"
-msgstr "Du hast keine Nachrichten."
+msgstr "Einschreibenachricht ändern"
 
 
-#, fuzzy
 msgid "Factor Type"
-msgstr "Objekttyp"
+msgstr "Faktortyp"
 
 
-#, fuzzy
 msgid "Custom Enroll Message"
-msgstr "Commit Nachricht"
+msgstr "Benutzerdefinierte Einschreibenachricht"
 
 
 msgid "Edit MFA Provider"
 msgstr "MFA-Anbieter bearbeiten"
 
 
-#, fuzzy
 msgid "Customize Enroll Message"
-msgstr "Commit Nachricht"
+msgstr "Einschreibenachricht anpassen"
 
 
 msgid "Not a Valid Email Address"
@@ -4594,30 +4542,27 @@ msgstr "Einladungsaktion ist keine Sendeaktion!"
 msgid "Invite template does not include invite URI!"
 msgstr "Einladungsvorlage enthält keine Einladungs-URI!"
 
-#, fuzzy
 msgid "Edit Contact Numbers"
-msgstr "Termin ändern"
+msgstr "Kontaktnummern bearbeiten"
 
 
 msgid "This engine is used to edit contact numbers."
 msgstr "Diese Engine wird zum Bearbeiten von Kontaktnummern verwendet."
 
-#, fuzzy
 msgid "Create Contact Number"
-msgstr "Neues Dokument"
+msgstr "Kontaktnummer erstellen"
 
 
 msgid "The contact number."
 msgstr "Die Kontaktnummer."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s created this contact number."
-msgstr "%s hat das Dokument erstellt."
+msgstr "%s hat diese Kontaktnummer erstellt."
 
 
-#, fuzzy
 msgid "This contact number is already in use."
-msgstr "Projektname ist bereits vergeben."
+msgstr "Diese Kontaktnummer wird bereits verwendet."
 
 
 msgid "Edit MFA Providers"
@@ -4627,14 +4572,12 @@ msgstr "MFA-Anbieter bearbeiten"
 msgid "This engine is used to edit MFA providers."
 msgstr "Diese Engine wird zum Bearbeiten von MFA-Anbietern verwendet."
 
-#, fuzzy
 msgid "Create MFA Provider"
-msgstr "Neuer Dienstleister"
+msgstr "MFA-Anbieter erstellen"
 
 
-#, fuzzy
 msgid "MFA Provider"
-msgstr "Alle Anbieter"
+msgstr "MFA-Anbieter"
 
 
 msgid "Type of the MFA provider."
@@ -4647,62 +4590,55 @@ msgstr "Anzeigename für den MFA-Anbieter."
 msgid "Status of the MFA provider."
 msgstr "Status des MFA-Anbieters."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s created this MFA provider."
-msgstr "%s hat diesen Dienstleister erstellt."
+msgstr "%s hat diesen MFA-Anbieter erstellt."
 
 
-#, fuzzy
 msgid "Edit Auth Messages"
-msgstr "Erste Nachricht"
+msgstr "Auth-Nachrichten bearbeiten"
 
 
 msgid "This engine is used to edit authentication messages."
 msgstr "Diese Engine wird zum Bearbeiten von Authentifizierungsnachrichten verwendet."
 
-#, fuzzy
 msgid "Create Auth Message"
-msgstr "Individuelle Seiten erstellen"
+msgstr "Auth-Nachricht erstellen"
 
 
-#, fuzzy
 msgid "Edit Auth Message"
-msgstr "Erste Nachricht"
+msgstr "Auth-Nachricht bearbeiten"
 
 
-#, fuzzy
 msgid "Auth Message"
-msgstr "Nachricht"
+msgstr "Auth-Nachricht"
 
 
-#, fuzzy
 msgid "Message Text"
-msgstr "Nachricht"
+msgstr "Nachrichtentext"
 
 
 msgid "Custom text for the message."
 msgstr "Benutzerdefinierter Text für die Nachricht."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s created this message."
-msgstr "%s hat diese Zone erzeugt."
+msgstr "%s hat diese Nachricht erstellt."
 
 
-#, fuzzy
 msgid "Passwords"
-msgstr "Passwort"
+msgstr "Passwörter"
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s created this password."
-msgstr "%s hat dieses Dashboard erzeugt."
+msgstr "%s hat dieses Passwort erstellt."
 
 
 msgid "Auth Providers"
 msgstr "Auth-Anbieter"
 
-#, fuzzy
 msgid "Config Locked"
 msgstr "Konfiguration gesperrt"
 
@@ -4712,19 +4648,16 @@ msgid ""
 "without being unlocked."
 msgstr ""
 
-#, fuzzy
 msgid "SSH Keys"
-msgstr "SSH Public Keys"
+msgstr "SSH-Schlüssel"
 
 
-#, fuzzy
 msgid "SSH key name is required."
-msgstr "Ohne Angabe des vollen Namens geht es nicht."
+msgstr "SSH-Schlüsselname ist erforderlich."
 
 
-#, fuzzy
 msgid "SSH key material is required."
-msgstr "Email ist zwingend erforderlich."
+msgstr "SSH-Schlüsselmaterial ist erforderlich."
 
 
 msgid "This key has been revoked. Choose or generate a new, unique key."
@@ -4742,9 +4675,9 @@ msgstr ""
 msgid "[SSH Key]"
 msgstr "[SSH-Schlüssel]"
 
-#, fuzzy, php-format
+#, php-format
 msgid "SSH Key %d: %s"
-msgstr "Bild %d: %s"
+msgstr "SSH-Schlüssel %d: %s"
 
 
 msgid "SECURITY WARNING"
@@ -4755,9 +4688,8 @@ msgid ""
 "compromised."
 msgstr ""
 
-#, fuzzy
 msgid "SSH KEY DETAIL"
-msgstr "AUFGABEN-DETAILS"
+msgstr "SSH-SCHLÜSSEL-DETAILS"
 
 
 msgid "Bad Invite Code"
@@ -4844,9 +4776,8 @@ msgstr "Diese E-Mail-Adresse (%s) verifizieren und an dein Konto (%s) anhängen?
 msgid "Email record (\"%s\") has bad associated user PHID (\"%s\")."
 msgstr "E-Mail-Datensatz (\\\"%s\\\") hat eine ungültige zugehörige Benutzer-PHID (\\\"%s\\\")."
 
-#, fuzzy
 msgid "You must choose a password or skip this step."
-msgstr "Du mußt ein Passwort wählen"
+msgstr "Du musst ein Passwort wählen oder diesen Schritt überspringen."
 
 
 msgid "You must choose a password."
@@ -4862,14 +4793,12 @@ msgstr ""
 msgid "Too Short"
 msgstr "Zu kurz"
 
-#, fuzzy
 msgid "You must confirm the selected password."
-msgstr "Du mußt ein Passwort wählen"
+msgstr "Du musst das gewählte Passwort bestätigen."
 
 
-#, fuzzy
 msgid "The password and confirmation do not match."
-msgstr "Das neue Passwort und die Passwortbestätigung sind nicht identisch"
+msgstr "Passwort und Bestätigung stimmen nicht überein."
 
 
 #, fuzzy
@@ -4902,9 +4831,8 @@ msgid ""
 "(like a username or email address). Choose a more distinct password."
 msgstr ""
 
-#, fuzzy
 msgid "Not Distinct"
-msgstr "Nicht sichtbar"
+msgstr "Nicht eindeutig"
 
 
 msgid "Requiring a high-security session from a user with no session!"
@@ -4922,9 +4850,8 @@ msgstr "Legalpad-Dokumente einer Sitzung eines Benutzers ohne Sitzung werden unt
 msgid "Session has already signed required legalpad documents!"
 msgstr "Sitzung hat die erforderlichen Legalpad-Dokumente bereits unterzeichnet!"
 
-#, fuzzy
 msgid "Engine: Session"
-msgstr "Aktive Benutzersitzungen"
+msgstr "Engine: Sitzung"
 
 
 msgid "There are no registered session engine extensions."
@@ -4978,14 +4905,12 @@ msgid ""
 "\"%s\"; got something else (in \"%s\")."
 msgstr ""
 
-#, fuzzy
 msgid "Wait"
-msgstr "Warte..."
+msgstr "Warten"
 
 
-#, fuzzy
 msgid "You responded to this challenge correctly."
-msgstr "Du mußt den Benutzernamen auch korrekt eingeben."
+msgstr "Du hast diese Herausforderung korrekt beantwortet."
 
 
 msgid "Error"
@@ -5007,9 +4932,8 @@ msgstr "MFA-Synchronisierung"
 msgid "MFA Sync Token"
 msgstr "MFA-Synchronisierungstoken"
 
-#, fuzzy
 msgid "Duo Security"
-msgstr "Sicherheit"
+msgstr "Duo Security"
 
 
 msgid "Duo"
@@ -5043,17 +4967,15 @@ msgid "Duo Username: %s"
 msgstr "Duo-Benutzername: %s"
 
 
-#, fuzzy
 msgid "Duo API Hostname"
-msgstr "LDAP Hostname"
+msgstr "Duo-API-Hostname"
 
 
 msgid "Duo API Credential"
 msgstr "Duo-API-Zugangsdaten"
 
-#, fuzzy
 msgid "Duo Username"
-msgstr "Benutzername"
+msgstr "Duo-Benutzername"
 
 
 #, php-format
@@ -5061,24 +4983,20 @@ msgid "Use %s Username"
 msgstr "%s-Benutzernamen verwenden"
 
 
-#, fuzzy
 msgid "Use Primary Email Address"
-msgstr "Die primäre Email-Adresse ändern?"
+msgstr "Primäre E-Mail-Adresse verwenden"
 
 
-#, fuzzy
 msgid "Create Accounts"
-msgstr "Kreative Buchführung"
+msgstr "Konten erstellen"
 
 
-#, fuzzy
 msgid "Require Existing Duo Account"
-msgstr "Bestehendes Dokument ändern?"
+msgstr "Vorhandenes Duo-Konto erforderlich"
 
 
-#, fuzzy
 msgid "Create New Duo Account"
-msgstr "Neues Zahlungskonto "
+msgstr "Neues Duo-Konto erstellen"
 
 
 msgid "Not Complete"
@@ -5182,9 +5100,9 @@ msgid ""
 "confirm the challenge, then continue."
 msgstr ""
 
-#, fuzzy, php-format
+#, php-format
 msgid "Unable to load Duo API credential (\"%s\")."
-msgstr "Konnte Kommentar \"%s\" leider nicht laden."
+msgstr "Duo-API-Zugangsdaten („%s\") konnten nicht geladen werden."
 
 
 #, php-format
@@ -5199,9 +5117,9 @@ msgstr "Duo-Benutzername-Kopplungsmodus (\\\"%s\\\") wird nicht unterstützt."
 msgid "Duo enrollment mode (\"%s\") is not supported."
 msgstr "Duo-Registrierungsmodus (\\\"%s\\\") wird nicht unterstützt."
 
-#, fuzzy, php-format
+#, php-format
 msgid "Duo (%s)"
-msgstr "%s (%s)"
+msgstr "Duo (%s)"
 
 
 #, php-format
@@ -5209,17 +5127,15 @@ msgid ""
 "Duo API hostname (\"%s\") is invalid, hostname must be \"*.duosecurity.com\"."
 msgstr ""
 
-#, fuzzy
 msgid "Text Message (SMS)"
-msgstr "Neue Nachricht"
+msgstr "Textnachricht (SMS)"
 
 
 msgid "SMS"
 msgstr "SMS"
 
-#, fuzzy
 msgid "Allow users to receive a code via SMS."
-msgstr "Jedem Benutzer erlauben, eine abgeschlossen Version wieder zu öffnen."
+msgstr "Benutzern erlauben, einen Code per SMS zu empfangen."
 
 
 msgid ""
@@ -5261,14 +5177,12 @@ msgid ""
 "number."
 msgstr ""
 
-#, fuzzy
 msgid "SMS Code"
-msgstr "Code"
+msgstr "SMS-Code"
 
 
-#, fuzzy
 msgid "Your account has no primary contact number."
-msgstr "Dein Konto wurde gesperrt"
+msgstr "Dein Konto hat keine primäre Kontaktnummer."
 
 
 msgid "No outbound mailer which can deliver SMS messages is configured."
@@ -5399,19 +5313,16 @@ msgstr "Einladungsannahme erwartet (%s)."
 msgid "Expected JSON response from Duo."
 msgstr "JSON-Antwort von Duo erwartet."
 
-#, fuzzy
 msgid "Authentication Challenges"
-msgstr "Anmeldefehler"
+msgstr "Authentifizierungsherausforderungen"
 
 
-#, fuzzy
 msgid "Authentication Sessions"
-msgstr "Authentisierung"
+msgstr "Authentifizierungssitzungen"
 
 
-#, fuzzy
 msgid "Authentication Tokens"
-msgstr "Authentisierung"
+msgstr "Authentifizierungstoken"
 
 
 #, fuzzy, php-format
@@ -5547,9 +5458,8 @@ msgid ""
 "without doing **bin/auth unlock**."
 msgstr ""
 
-#, fuzzy
 msgid "Locked the authentication provider configuration."
-msgstr "Reviews nur nach Authentisierung sichtbar machen"
+msgstr "Authentifizierungsanbieter-Konfiguration gesperrt."
 
 
 msgid "Recover access to an account if you have locked yourself out."
@@ -5814,9 +5724,9 @@ msgstr "Eine OAuth-Client-ID mit \\\"--id\\\" angeben."
 msgid "Failed to find an OAuth client with id %s."
 msgstr "Kein OAuth-Client mit der ID %s gefunden."
 
-#, fuzzy, php-format
+#, php-format
 msgid "OAuth client \"%s\" is already trusted."
-msgstr "Dienst \"%s\" ist bereits gesperrt!"
+msgstr "OAuth-Client „%s\" ist bereits vertrauenswürdig."
 
 
 #, php-format
@@ -5827,14 +5737,12 @@ msgid ""
 "Reset action counters so a user can continue taking rate-limited actions."
 msgstr ""
 
-#, fuzzy
 msgid "Reset action counters for this user."
-msgstr "Keine Ergebnisse mittels dieser Abfrage gefunden."
+msgstr "Aktionszähler für diesen Benutzer zurücksetzen."
 
 
-#, fuzzy
 msgid "Reset all counters."
-msgstr "Release-Zähler"
+msgstr "Alle Zähler zurücksetzen."
 
 
 #, php-format
@@ -5845,9 +5753,9 @@ msgstr "%s verwenden, um einen Benutzer auszuwählen, dessen Aktionen zurückges
 msgid "Specify %s to reset all action counters."
 msgstr "%s angeben, um alle Aktionszähler zurückzusetzen."
 
-#, fuzzy, php-format
+#, php-format
 msgid "Reset %s action(s)."
-msgstr "%s hat %s auf %s geändert."
+msgstr "%s Aktion(en) zurücksetzen."
 
 
 msgid ""
@@ -5872,9 +5780,9 @@ msgstr "Eine OAuth-Client-ID mit %s angeben."
 msgid "Failed to find an OAuth client with ID %s."
 msgstr "Kein OAuth-Client mit der ID %s gefunden."
 
-#, fuzzy, php-format
+#, php-format
 msgid "OAuth client \"%s\" is already untrusted."
-msgstr "Dienst \"%s\" ist bereits gesperrt!"
+msgstr "OAuth-Client „%s\" ist bereits nicht vertrauenswürdig."
 
 
 msgid ""
@@ -5940,9 +5848,8 @@ msgid ""
 "can ignore this message."
 msgstr ""
 
-#, fuzzy
 msgid "Mail Body: Set Password"
-msgstr "Altes Passwort"
+msgstr "E-Mail-Text: Passwort festlegen"
 
 
 msgid ""
@@ -5950,9 +5857,8 @@ msgid ""
 "did not previously have a password."
 msgstr ""
 
-#, fuzzy
 msgid "Unlinked Account Instructions"
-msgstr "Pick Anweisungen"
+msgstr "Hinweise für nicht verknüpfte Konten"
 
 
 msgid ""
@@ -5960,9 +5866,8 @@ msgid ""
 "link an external account."
 msgstr ""
 
-#, fuzzy
 msgid "Login Screen Instructions"
-msgstr "Pick Anweisungen"
+msgstr "Anmeldebildschirm-Hinweise"
 
 
 msgid ""
@@ -5973,9 +5878,8 @@ msgstr ""
 msgid "No message type exists with key \"%s\"."
 msgstr "Kein Nachrichtentyp mit dem Schlüssel \\\"%s\\\" vorhanden."
 
-#, fuzzy
 msgid "Wait For Approval Instructions"
-msgstr "Warte auf Freischaltung"
+msgstr "Hinweise zum Warten auf Genehmigung"
 
 
 msgid ""
@@ -5997,22 +5901,19 @@ msgstr "Authentifizierungsfaktor"
 msgid "Auth Provider"
 msgstr "Authentifizierungsanbieter"
 
-#, fuzzy
 msgid "Auth Challenge"
-msgstr "Änderungen zeigen"
+msgstr "Auth-Herausforderung"
 
 
 msgid "Auth Invite"
 msgstr "Authentifizierungseinladung"
 
-#, fuzzy
 msgid "Auth Password"
-msgstr "Passwort"
+msgstr "Auth-Passwort"
 
 
-#, fuzzy
 msgid "Public SSH Key"
-msgstr "SSH Public Keys"
+msgstr "Öffentlicher SSH-Schlüssel"
 
 
 msgid "Session"
@@ -6083,9 +5984,8 @@ msgstr ""
 msgid "Refresh Account Link"
 msgstr "Kontoverknüpfung aktualisieren"
 
-#, fuzzy
 msgid "Log In or Register"
-msgstr "Anmeldung und Registrierung"
+msgstr "Anmelden oder registrieren"
 
 
 msgid "Missing Client ID Cookie"
@@ -6149,9 +6049,8 @@ msgstr "Nein"
 msgid "Yes"
 msgstr "Ja"
 
-#, fuzzy
 msgid "Yes (Optional)"
-msgstr "Optionen anzeigen"
+msgstr "Ja (optional)"
 
 
 #, php-format
@@ -6340,14 +6239,12 @@ msgstr "Konten verknüpfen"
 msgid "Refresh LDAP Account"
 msgstr "LDAP-Konto aktualisieren"
 
-#, fuzzy
 msgid "Log In or Register with LDAP"
-msgstr "Mittels LDAP anmelden"
+msgstr "Mit LDAP anmelden oder registrieren"
 
 
-#, fuzzy
 msgid "Log In with LDAP"
-msgstr "Mittels LDAP anmelden"
+msgstr "Mit LDAP anmelden"
 
 
 msgid "Username or password are incorrect."
@@ -6696,10 +6593,8 @@ msgid ""
 "over time."
 msgstr ""
 
-#, fuzzy
 msgid "Allow users to log in or register using a username and password."
-msgstr ""
-"Den Benutzern die Anmeldung mittels Benutzername und Kennwort erlauben."
+msgstr "Benutzern erlauben, sich mit Benutzername und Passwort anzumelden oder zu registrieren."
 
 
 msgid "Register an Account"
@@ -6749,44 +6644,39 @@ msgid ""
 "'New Secret' first.)"
 msgstr ""
 
-#, fuzzy
 msgid "Server name is required."
-msgstr "Der Termin braucht einen Namen."
+msgstr "Servername ist erforderlich."
 
 
 msgid "Server name must contain only lowercase letters, digits, and periods."
 msgstr "Der Servername darf nur Kleinbuchstaben, Ziffern und Punkte enthalten."
 
-#, fuzzy
 msgid "Base URI is required."
-msgstr "Ein Name ist zwingend erforderlich."
+msgstr "Basis-URI ist erforderlich."
 
 
 #, php-format
 msgid "Base URI should include protocol (like \"%s\")."
 msgstr "Die Basis-URI sollte das Protokoll enthalten (z.B. \\\"%s\\\")."
 
-#, fuzzy
 msgid "Server Name"
-msgstr "Auftragsname"
+msgstr "Servername"
 
 
 #, php-format
 msgid "Use lowercase letters, digits, and periods. For example: %s"
 msgstr "Kleinbuchstaben, Ziffern und Punkte verwenden. Zum Beispiel: %s"
 
-#, fuzzy
 msgid "Base URI"
-msgstr "Basis"
+msgstr "Basis-URI"
 
 
 #, php-format
 msgid "The URI where the OAuth server is installed. For example: %s"
 msgstr "Die URI, unter der der OAuth-Server installiert ist. Zum Beispiel: %s"
 
-#, fuzzy
 msgid "Slack"
-msgstr "Schwarz"
+msgstr "Slack"
 
 
 #, php-format
@@ -6860,9 +6750,8 @@ msgid ""
 "Secret** into the fields above."
 msgstr ""
 
-#, fuzzy
 msgid "Auth Email Invites"
-msgstr "Email Einladungen"
+msgstr "Auth-E-Mail-Einladungen"
 
 
 msgid "All"
@@ -6960,9 +6849,9 @@ msgid ""
 "passphrase. Check that you supplied the correct key, or omit the passphrase."
 msgstr ""
 
-#, fuzzy, php-format
+#, php-format
 msgid "Pattern \"%s\" is not valid."
-msgstr "PID '%s' ist keine gültige PID."
+msgstr "Muster „%s\" ist ungültig."
 
 
 msgid ""
@@ -7048,19 +6937,17 @@ msgstr ""
 msgid "Contact Number %d"
 msgstr "Kontaktnummer %d"
 
-#, fuzzy
 msgid "Primary Number"
-msgstr "Primäre Adresse"
+msgstr "Primäre Nummer"
 
 
-#, fuzzy
 msgid "Active Phone Number"
-msgstr "Aktive Panele"
+msgstr "Aktive Telefonnummer"
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "MFA Provider %d"
-msgstr "Zahlungsdienstleister %d ändern"
+msgstr "MFA-Anbieter %d"
 
 
 msgid "Verification code can not be regenerated after an invite is created."
@@ -7071,9 +6958,9 @@ msgid ""
 "invite code, and the user who accepts the invite."
 msgstr ""
 
-#, fuzzy, php-format
+#, php-format
 msgid "Auth Message %d"
-msgstr "%d Nachrichten"
+msgstr "Auth-Nachricht %d"
 
 
 msgid ""
@@ -7096,9 +6983,9 @@ msgid ""
 "with a password digest."
 msgstr ""
 
-#, fuzzy, php-format
+#, php-format
 msgid "Auth Provider %d"
-msgstr "Zahlungsdienstleister %d ändern"
+msgstr "Auth-Anbieter %d"
 
 
 #, php-format
@@ -7113,14 +7000,14 @@ msgstr "%s hat diesen Dienstleister aktiviert."
 msgid "%s disabled this provider."
 msgstr "%s hat diesen Dienstleister deaktiviert."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s enabled login."
-msgstr "%s hat die Registrierung aktiviert."
+msgstr "%s hat die Anmeldung aktiviert."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s disabled login."
-msgstr "%s hat diese Regel deaktiviert."
+msgstr "%s hat die Anmeldung deaktiviert."
 
 
 #, php-format
@@ -7173,29 +7060,29 @@ msgstr "Widerrufene SSH-Schlüssel können nicht bearbeitet oder wiederhergestel
 msgid "SSH keys inherit the policies of the user or object they authenticate."
 msgstr "SSH-Schlüssel erben die Richtlinien des Benutzers oder Objekts, das sie authentifizieren."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s created this key."
-msgstr "%s hat diese Aufgabe erzeugt."
+msgstr "%s hat diesen Schlüssel erstellt."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s renamed this key from \"%s\" to \"%s\"."
-msgstr "%s hat den Entwurf von \"%s\" zu \"%s\" umbenannt."
+msgstr "%s hat diesen Schlüssel von „%s\" in „%s\" umbenannt."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s updated the public key material for this SSH key."
-msgstr "%s hat das Bild für %s geändert."
+msgstr "%s hat das Material des öffentlichen SSH-Schlüssels aktualisiert."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s revoked this key."
-msgstr "%s hat diese Aufgabe wieder eröffnet."
+msgstr "%s hat diesen Schlüssel widerrufen."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s reinstated this key."
-msgstr "%s hat %s reaktiviert."
+msgstr "%s hat diesen Schlüssel wiederhergestellt."
 
 
 #, php-format
@@ -7205,9 +7092,8 @@ msgstr "Unbekannter Sitzungstyp \\\"%s\\\"."
 msgid "A session is visible only to its owner."
 msgstr "Eine Sitzung ist nur für deren Besitzer sichtbar."
 
-#, fuzzy
 msgid "One-Time Login"
-msgstr "Login erzwingen"
+msgstr "Einmaliger Login"
 
 
 msgid "One-Time Login Token"
@@ -7216,9 +7102,8 @@ msgstr "Einmaliger Anmeldetoken"
 msgid "Password Reset Token"
 msgstr "Passwort-Zurücksetzungstoken"
 
-#, fuzzy
 msgid "Temporary Token Types"
-msgstr "Temporär"
+msgstr "Temporäre Token-Typen"
 
 
 #, php-format
@@ -7250,9 +7135,8 @@ msgstr "Schlüsselpaar erzeugen"
 msgid "View History"
 msgstr "Historie ansehen"
 
-#, fuzzy
 msgid "SSH Key Actions"
-msgstr "Eigene Aktionen"
+msgstr "SSH-Schlüssel-Aktionen"
 
 
 msgid "Trusted"
@@ -7268,19 +7152,18 @@ msgstr "Hinzugefügt"
 msgid "Invite has invalid author PHID (\"%s\")."
 msgstr "Einladung hat eine ungültige Autor-PHID (\\\"%s\\\")."
 
-#, fuzzy, php-format
+#, php-format
 msgid "[%s] %s has invited you to join %s"
-msgstr "%s hat %s zu %s eingeladen."
+msgstr "[%s] %s hat Dich eingeladen, %s beizutreten"
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s changed this contact number from %s to %s."
-msgstr "%s hat den Namen von %s von %s auf %s geändert."
+msgstr "%s hat diese Kontaktnummer von %s auf %s geändert."
 
 
-#, fuzzy
 msgid "Contact numbers must have a contact number."
-msgstr "Zonen müssen einen Namen haben"
+msgstr "Kontaktnummern müssen eine Kontaktnummer haben."
 
 
 #, php-format
@@ -7292,14 +7175,13 @@ msgid "Contact number is invalid: %s"
 msgstr "Kontaktnummer ist ungültig: %s"
 
 
-#, fuzzy
 msgid "Contact number is already in use."
-msgstr "Projektname ist bereits vergeben."
+msgstr "Diese Kontaktnummer wird bereits verwendet."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s made this the primary contact number."
-msgstr "%s hat diese Zone zur Vorgabezone gemacht."
+msgstr "%s hat dies als primäre Kontaktnummer festgelegt."
 
 
 msgid ""
@@ -7310,14 +7192,14 @@ msgstr ""
 msgid "You can not make a disabled number a primary contact number."
 msgstr "Eine deaktivierte Nummer kann nicht zur primären Kontaktnummer gemacht werden."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s disabled this contact number."
-msgstr "%s hat diese Regel deaktiviert."
+msgstr "%s hat diese Kontaktnummer deaktiviert."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s enabled this contact number."
-msgstr "%s hat diese Regel aktiviert."
+msgstr "%s hat diese Kontaktnummer aktiviert."
 
 
 #, php-format
@@ -7340,9 +7222,9 @@ msgid ""
 "before you can designate a new primary contact number."
 msgstr ""
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s changed the credential for this provider from %s to %s."
-msgstr "%s hat den Namen des Termins von %s auf %s geändert."
+msgstr "%s hat die Zugangsdaten dieses Anbieters von %s auf %s geändert."
 
 
 msgid "Duo providers must have an API credential."
@@ -7352,48 +7234,46 @@ msgstr "Duo-Anbieter müssen API-Zugangsdaten haben."
 msgid "Credential (\"%s\") is not valid."
 msgstr "Zugangsdaten (\\\"%s\\\") sind ungültig."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s changed the enrollment policy for this provider from %s to %s."
-msgstr ""
-"%s hat die Editier-Berechtigung dieses Chats von \"%s\" auf \"%s\" geändert."
+msgstr "%s hat die Einschreiberichtlinie dieses Anbieters von %s auf %s geändert."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s changed the hostname for this provider from %s to %s."
-msgstr "%s hat den Namen des Termins von %s auf %s geändert."
+msgstr "%s hat den Hostnamen dieses Anbieters von %s auf %s geändert."
 
 
-#, fuzzy
 msgid "Duo providers must have an API hostname."
-msgstr "Zonen müssen einen Namen haben"
+msgstr "Duo-Anbieter müssen einen API-Hostnamen haben."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s changed the username policy for this provider from %s to %s."
-msgstr "%s hat den Namen des Termins von %s auf %s geändert."
+msgstr "%s hat die Benutzernamenrichtlinie dieses Anbieters von %s auf %s geändert."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s updated the enroll message."
-msgstr "%s hat das Bild für den Chat geändert."
+msgstr "%s hat die Einschreibenachricht aktualisiert."
 
 
 msgid "CHANGES TO ENROLL MESSAGE"
 msgstr "ÄNDERUNGEN AN DER REGISTRIERUNGSNACHRICHT"
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s named this provider %s."
-msgstr "%s hat diesen Dienstleister aktiviert."
+msgstr "%s hat diesen Anbieter %s benannt."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s removed the name (%s) of this provider."
-msgstr "%s hat den individuellen Namen dieser Spalte entfernt."
+msgstr "%s hat den Namen (%s) dieses Anbieters entfernt."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s renamed this provider from %s to %s."
-msgstr "%s hat das Projekt von \"%s\" zu \"%s\" umbenannt."
+msgstr "%s hat diesen Anbieter von %s in %s umbenannt."
 
 
 #, php-format
@@ -7401,9 +7281,9 @@ msgid "Provider names can not be longer than %s characters."
 msgstr "Anbieternamen dürfen nicht länger als %s Zeichen sein."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s changed the status of this provider from %s to %s."
-msgstr "%s hat den Namen des Termins von %s auf %s geändert."
+msgstr "%s hat den Status dieses Anbieters von %s auf %s geändert."
 
 
 #, php-format
@@ -7417,27 +7297,27 @@ msgid ""
 "MFA requirement in Config, or create or enable another MFA provider first."
 msgstr ""
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s updated the message text."
-msgstr "%s hat den Text des Dokumentes geändert."
+msgstr "%s hat den Nachrichtentext aktualisiert."
 
 
 msgid "CHANGES TO MESSAGE"
 msgstr "ÄNDERUNGEN AN DER NACHRICHT"
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s revoked this password."
-msgstr "%s hat dieses Dashboard erzeugt."
+msgstr "%s hat dieses Passwort widerrufen."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s removed this password from the revocation list."
-msgstr "%s hat dieses Dashboard von \"%s\" nach \"%s\" umbenannt."
+msgstr "%s hat dieses Passwort aus der Widerrufsliste entfernt."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s upgraded the hash algorithm for this password from \"%s\" to \"%s\"."
-msgstr "%s hat die Priorität dieser Aufgabe von \"%s\" auf \"%s\" erhöht."
+msgstr "%s hat den Hash-Algorithmus dieses Passworts von „%s\" auf „%s\" aktualisiert."
 
 
 msgid "Badges"
