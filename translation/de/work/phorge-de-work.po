@@ -63379,9 +63379,8 @@ msgstr ""
 msgid "Shiny happy people holding hands."
 msgstr ""
 
-#, fuzzy
 msgid "Catalogs"
-msgstr "Blogs"
+msgstr "Kataloge"
 
 
 msgid "Emojis"
@@ -63441,9 +63440,8 @@ msgstr ""
 msgid "Celebrate the moments of your life."
 msgstr ""
 
-#, fuzzy
 msgid "Single Use"
-msgstr "In Benutzung"
+msgstr "Einmalige Verwendung"
 
 
 msgid "High Command"
@@ -63521,48 +63519,41 @@ msgstr ""
 msgid "Project Membership"
 msgstr ""
 
-#, fuzzy
 msgid "Achievements"
-msgstr "Zeige aktive Dokumente"
+msgstr "Erfolge"
 
 
 msgid "PHUIBadgeMiniView"
 msgstr ""
 
-#, fuzzy
 msgid "Big Info View"
-msgstr "Diff Ansehen"
+msgstr "Große Info-Ansicht"
 
 
 msgid "Basic New User State information block."
 msgstr ""
 
-#, fuzzy
 msgid "Launch Away"
-msgstr "Aufrufbar"
+msgstr "Loslegen!"
 
 
 msgid "Simply Slim"
 msgstr ""
 
-#, fuzzy
 msgid "A simple description"
-msgstr "Beschreibung der Regel"
+msgstr "Eine einfache Beschreibung"
 
 
-#, fuzzy
 msgid "Basicly Basic"
-msgstr "Grundeinstellungen"
+msgstr "Eigentlich ganz einfach"
 
 
-#, fuzzy
 msgid "A more basic description"
-msgstr "Projekt Kurzbeschreibung."
+msgstr "Eine noch einfachere Beschreibung"
 
 
-#, fuzzy
 msgid "A Modern Example"
-msgstr "Beispiel"
+msgstr "Ein modernes Beispiel"
 
 
 msgid "A modern description with lots of frills."
@@ -63620,9 +63611,8 @@ msgstr ""
 msgid "Button"
 msgstr ""
 
-#, fuzzy
 msgid "Reverse Time"
-msgstr "immer"
+msgstr "Rückwärts in der Zeit"
 
 
 msgid "Implode Earth"
@@ -63688,9 +63678,9 @@ msgstr ""
 msgid "Hovercard"
 msgstr ""
 
-#, fuzzy, php-format
+#, php-format
 msgid "Use %s to render hovercards."
-msgstr "%s hat %s auf jährlich geändert."
+msgstr "Verwende %s zum Rendern von Hovercards."
 
 
 msgid "Introduce cooler Differential Revisions"
@@ -63807,17 +63797,15 @@ msgstr ""
 msgid "Allows easily alignment of left/right UI elements."
 msgstr ""
 
-#, fuzzy
 msgid "This is a sample of some text."
-msgstr "Dies ist ein Untermodul."
+msgstr "Dies ist ein Beispieltext."
 
 
 msgid "Align Middle"
 msgstr ""
 
-#, fuzzy
 msgid "Align Bottom"
-msgstr "Mir die Aufgabe zuweisen"
+msgstr "Unten ausrichten"
 
 
 msgid "Lists"
@@ -64241,14 +64229,12 @@ msgstr ""
 msgid "PHUIX"
 msgstr ""
 
-#, fuzzy
 msgid "3 / 5 Comments"
-msgstr "Kommentare"
+msgstr "3 / 5 Kommentare"
 
 
-#, fuzzy
 msgid "Environmental!"
-msgstr "Experimentell"
+msgstr "Umweltbedingt!"
 
 
 msgid "Bars"
@@ -64347,9 +64333,8 @@ msgid ""
 "an inexact pager."
 msgstr ""
 
-#, fuzzy
 msgid "Project Builtin Images"
-msgstr "Projektstatus"
+msgstr "Eingebaute Projektbilder"
 
 
 msgid "Builtin Project Images."
@@ -64423,9 +64408,8 @@ msgstr ""
 msgid "Caution"
 msgstr ""
 
-#, fuzzy
 msgid "Pomegranate"
-msgstr "Beenden"
+msgstr "Granatapfel"
 
 
 msgid "Lots of seeds. Watch out."
