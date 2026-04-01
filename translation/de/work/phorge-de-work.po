@@ -7751,9 +7751,8 @@ msgstr "Öffentlich + konfiguriert"
 msgid "Application Controller"
 msgstr "Anwendungs-Controller"
 
-#, fuzzy
 msgid "Application Controller, No Login Required"
-msgstr "Öffentlich (Ohne Login zugänglich!)"
+msgstr "Anwendungscontroller, kein Login erforderlich"
 
 
 #, php-format
@@ -16382,24 +16381,20 @@ msgstr "Ereignistyp"
 msgid "Stopped"
 msgstr "Gestoppt"
 
-#, fuzzy
 msgid "Realtime"
-msgstr "Voller Name"
+msgstr "Echtzeit"
 
 
-#, fuzzy
 msgid "Debugging console for real-time notifications."
-msgstr "Du hast keine ungelesenen Benachrichtigungen."
+msgstr "Debugging-Konsole für Echtzeit-Benachrichtigungen."
 
 
-#, fuzzy
 msgid "Reconnect"
-msgstr "Verbunden"
+msgstr "Erneut verbinden"
 
 
-#, fuzzy
 msgid "Replay"
-msgstr "Antworten"
+msgstr "Wiederholen"
 
 
 msgid "Repaint"
@@ -16421,9 +16416,8 @@ msgstr "Controller"
 msgid "Machine"
 msgstr "Rechner"
 
-#, fuzzy
 msgid "Hostname"
-msgstr "LDAP Hostname"
+msgstr "Hostname"
 
 
 msgid "Basics"
@@ -16469,9 +16463,8 @@ msgstr "+%s ms"
 msgid "Analysis"
 msgstr "Analyse"
 
-#, fuzzy
 msgid "Startup"
-msgstr "Anfang"
+msgstr "Start"
 
 
 msgid "Timing information about the startup sequence."
@@ -40029,14 +40022,12 @@ msgstr "Anwendung erstellen"
 msgid "Show All Applications"
 msgstr "Zeige alle Anwendungen"
 
-#, fuzzy
 msgid "Show Enabled Applications"
-msgstr "Zeige installierte Anwendungen"
+msgstr "Aktivierte Anwendungen anzeigen"
 
 
-#, fuzzy
 msgid "Show Disabled Applications"
-msgstr "Zeige nicht installierte Anwendungen"
+msgstr "Deaktivierte Anwendungen anzeigen"
 
 
 msgid "Show Prototype Applications"
@@ -41690,9 +41681,9 @@ msgstr "Ereignis \\\"%s\\\" ist bereits bekannt."
 msgid "This key has %s remaining API request(s), limit resets in %s second(s)."
 msgstr "Dieser Schlüssel hat noch %s verbleibende API-Anfrage(n), das Limit wird in %s Sekunde(n) zurückgesetzt."
 
-#, fuzzy, php-format
+#, php-format
 msgid "ETag for this request was \"%s\"."
-msgstr "%s hat diese Pull Anfrage manuell als %s markiert"
+msgstr "ETag für diese Anfrage war „%s\"."
 
 
 #, php-format
@@ -41743,9 +41734,9 @@ msgstr "Name der Quelle."
 msgid "Default queue."
 msgstr "Standard-Warteschlange."
 
-#, fuzzy, php-format
+#, php-format
 msgid "Unknown Event Type (\"%s\")"
-msgstr "Unbekanntes Objekt (%s)"
+msgstr "Unbekannter Ereignistyp („%s\")"
 
 
 #, php-format
@@ -41874,9 +41865,9 @@ msgstr "Ereignis-Eigenschaften"
 msgid "Unable to sync: no external object PHID."
 msgstr "Synchronisierung nicht möglich: keine externe Objekt-PHID."
 
-#, fuzzy, php-format
+#, php-format
 msgid "Unable to sync: failed to load object \"%s\"."
-msgstr "Konnte Kommentar \"%s\" leider nicht laden."
+msgstr "Synchronisierung fehlgeschlagen: Objekt „%s\" konnte nicht geladen werden."
 
 
 #, php-format
@@ -41927,9 +41918,9 @@ msgstr "Ein Element aktualisieren oder weiterleiten."
 msgid "Choose which item to route."
 msgstr "Weiterzuleitendes Element auswählen."
 
-#, fuzzy, php-format
+#, php-format
 msgid "Specify a source with %s."
-msgstr "%s hat ein Problem mit %s."
+msgstr "Gib eine Quelle mit %s an."
 
 
 #, php-format
@@ -45757,17 +45748,15 @@ msgstr "Header löschen"
 msgid "Upload New Header"
 msgstr "Neuen Header hochladen"
 
-#, fuzzy
 msgid "Blog Header"
-msgstr "Blog verschoben"
+msgstr "Blog-Kopfzeile"
 
 
 msgid "View Live"
 msgstr "Live anzeigen"
 
-#, fuzzy
 msgid "Manage Blog"
-msgstr "Editieren"
+msgstr "Blog verwalten"
 
 
 msgid "Header"
@@ -45776,17 +45765,15 @@ msgstr "Kopfzeile"
 msgid "No external domain"
 msgstr "Keine externe Domain"
 
-#, fuzzy
 msgid "Full Domain"
-msgstr "Eigene Domäne"
+msgstr "Vollständige Domain"
 
 
 msgid "No parent site"
 msgstr "Keine übergeordnete Website"
 
-#, fuzzy
 msgid "Parent Site"
-msgstr "Elternknoten"
+msgstr "Übergeordnete Website"
 
 
 msgid "No parent domain"
@@ -46678,9 +46665,9 @@ msgstr "Wert als JSON eingeben."
 msgid "Update Variable"
 msgstr "Variable aktualisieren"
 
-#, fuzzy, php-format
+#, php-format
 msgid "Edit Variable: %s"
-msgstr "Regel '%s' verändert."
+msgstr "Variable bearbeiten: %s"
 
 
 msgid "Variable List"
@@ -49193,9 +49180,9 @@ msgid "Token %d: %s"
 msgstr "Token %d: %s"
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "Node %d: %s"
-msgstr "Bild %d: %s"
+msgstr "Knoten %d: %s"
 
 
 msgid "PHPAST View"
@@ -54310,9 +54297,8 @@ msgstr "Die Regelwerk-Spezifikation ist ungültig. %s"
 msgid "Value for \"%s\" rule is invalid: %s"
 msgstr "Der Wert für die Regel „%s\" ist ungültig: %s"
 
-#, fuzzy
 msgid "Reference"
-msgstr "Konferenz"
+msgstr "Referenz"
 
 
 msgid "Process text through remarkup."
