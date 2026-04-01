@@ -60801,7 +60801,7 @@ msgid ""
 msgstr ""
 
 msgid "Remove yourself as a subscriber."
-msgstr ""
+msgstr "Dich selbst als Mitleser entfernen."
 
 msgid "Bad Object"
 msgstr "Kaputtes Objekt"
@@ -60815,14 +60815,12 @@ msgstr "Als Mitleser automatisch hinzugefügt"
 msgid "You are automatically subscribed to this object."
 msgstr "Du erfährst automatisch Neuigkeiten zu diesem Objekt."
 
-#, fuzzy
 msgid "This object is temporary and cannot be subscribed to."
-msgstr "An diesem Objekt kann niemand teilnehmen."
+msgstr "Dieses Objekt ist temporär und kann nicht abonniert werden."
 
 
-#, fuzzy
 msgid "Mute Notifications"
-msgstr "Benachrichtigungen"
+msgstr "Benachrichtigungen stummschalten"
 
 
 msgid ""
@@ -60830,18 +60828,17 @@ msgid ""
 msgstr ""
 
 msgid "Mute"
-msgstr ""
+msgstr "Stummschalten"
 
-#, fuzzy
 msgid "Unmute Notifications"
-msgstr "Ungelesene Benachrichtigungen"
+msgstr "Benachrichtigungen wieder aktivieren"
 
 
 msgid "Unmute this object? You will receive notifications and email again."
 msgstr ""
 
 msgid "Unmute"
-msgstr ""
+msgstr "Stummschaltung aufheben"
 
 #, php-format
 msgid "All %d subscribers added by %s"
@@ -60853,78 +60850,67 @@ msgstr "Alle %d Mitleser durch %s entfernt"
 
 #, php-format
 msgid "View All %d Subscriber(s)"
-msgstr ""
+msgstr "Alle %d Mitleser anzeigen"
 
 
-#, fuzzy
 msgid "Change Subscribers"
-msgstr "Veränderte Mitleser"
+msgstr "Mitleser ändern"
 
 
-#, fuzzy
 msgid "Choose subscribers."
-msgstr "Veränderte Mitleser"
+msgstr "Mitleser auswählen."
 
 
-#, fuzzy
 msgid "Add subscribers."
-msgstr "Mitleser hinzufügen"
+msgstr "Mitleser hinzufügen."
 
 
 msgid "Set subscribers, overwriting current value."
-msgstr ""
+msgstr "Mitleser festlegen (bisherige ersetzen)."
 
 msgid "Remove subscribers."
-msgstr ""
+msgstr "Mitleser entfernen."
 
 
-#, fuzzy
 msgid "Set subscribers to"
-msgstr "Mitleser"
+msgstr "Mitleser setzen auf"
 
 
-#, fuzzy
 msgid "Subscriber"
 msgstr "Mitleser"
 
 
 msgid "Get information about subscribers."
-msgstr ""
+msgstr "Informationen über Mitleser abrufen."
 
-#, fuzzy
 msgid "Support for Subscriptions"
-msgstr "Projekt Kurzbeschreibung."
+msgstr "Unterstützung für Abonnements"
 
 
-#, fuzzy
 msgid "Search for objects with certain subscribers."
-msgstr "Benutzer oder Projekte als Mitleser hinzufügen."
+msgstr "Nach Objekten mit bestimmten Mitleser suchen."
 
 
 msgid "Subscribe"
 msgstr "Mitleser werden"
 
 msgid "Add me as a subscriber"
-msgstr ""
+msgstr "Mich als Mitleser hinzufügen"
 
-#, fuzzy
 msgid "Add rule author as subscriber."
-msgstr "Benutzer oder Projekte als Mitleser hinzufügen."
+msgstr "Regelautor als Mitleser hinzufügen."
 
 
-#, fuzzy
 msgid "Previously Unsubscribed"
-msgstr "Nicht mehr mitlesen"
+msgstr "Zuvor abgemeldet"
 
 
-#, fuzzy
 msgid "Added Subscribers"
-msgstr "Mitleser hinzufügen"
+msgstr "Hinzugefügte Mitleser"
 
 
-#, fuzzy
 msgid "Removed Subscribers"
-msgstr "Mitleser hinzufügen"
+msgstr "Entfernte Mitleser"
 
 
 #, php-format
@@ -60935,32 +60921,31 @@ msgstr ""
 
 #, php-format
 msgid "%s automatically subscribed target(s) were not affected: %s."
-msgstr ""
+msgstr "%s automatisch angemeldete(r) Empfänger wurden nicht geändert: %s."
 
 
 #, php-format
 msgid "Added %s subscriber(s): %s."
-msgstr ""
+msgstr "%s Mitleser hinzugefügt: %s."
 
 
 #, php-format
 msgid "Removed %s subscriber(s): %s."
-msgstr ""
+msgstr "%s Mitleser entfernt: %s."
 
 
 msgid "Remove me as a subscriber"
-msgstr ""
+msgstr "Mich als Mitleser entfernen"
 
-#, fuzzy
 msgid "Remove rule author as subscriber."
-msgstr "Benutzer oder Projekte als Mitleser hinzufügen."
+msgstr "Regelautor als Mitleser entfernen."
 
 
 msgid "Subscribers can take this action."
-msgstr ""
+msgstr "Mitleser können diese Aktion ausführen."
 
 msgid "subscribers"
-msgstr ""
+msgstr "Mitleser"
 
 #, php-format
 msgid "%d other(s)"
