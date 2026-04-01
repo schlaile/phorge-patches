@@ -63297,180 +63297,180 @@ msgid ""
 msgstr ""
 
 msgid "Developer UI Examples"
-msgstr ""
+msgstr "Entwickler-UI-Beispiele"
 
 msgid "UIExamples"
-msgstr ""
+msgstr "UIExamples"
 
 msgid "A gallery of modern art."
 msgstr "Eine Gallerie der modernen Kunst."
 
 msgid "Emoji"
-msgstr ""
+msgstr "Emoji"
 
 msgid "Shiny happy people holding hands."
-msgstr ""
+msgstr "Glänzende glückliche Menschen, die Händchen halten."
 
 msgid "Catalogs"
 msgstr "Kataloge"
 
 
 msgid "Emojis"
-msgstr ""
+msgstr "Emojis"
 
 msgid "Action Panel"
 msgstr "Aktions-Panel"
 
 msgid "A panel with strong tendencies for inciting ACTION!"
-msgstr ""
+msgstr "Ein Panel mit starker Tendenz zur Auslösung von AKTIONEN!"
 
 msgid "Read Documentation"
-msgstr ""
+msgstr "Dokumentation lesen"
 
 msgid "Reading is a common way to learn about things."
-msgstr ""
+msgstr "Lesen ist eine verbreitete Methode, Dinge zu lernen."
 
 msgid "Launch Instance"
-msgstr ""
+msgstr "Instanz starten"
 
 msgid "Maybe this is what you're likely here for."
-msgstr ""
+msgstr "Vielleicht ist das der Grund, warum Du hier bist."
 
 msgid "Code with Friends"
-msgstr ""
+msgstr "Mit Freunden programmieren"
 
 msgid "Writing code is much more fun with friends!"
-msgstr ""
+msgstr "Code schreiben macht mit Freunden viel mehr Spaß!"
 
 msgid "Need a backup of all your kitten memes?"
-msgstr ""
+msgstr "Brauchst Du ein Backup all Deiner Katzenbild-Memes?"
 
 msgid "Account Balance"
-msgstr ""
+msgstr "Kontostand"
 
 msgid "You were last billed $2,245.12 on Dec 12, 2014."
-msgstr ""
+msgstr "Zuletzt in Rechnung gestellt: 2.245,12 $ am 12.12.2014."
 
 msgid "Instance Users"
-msgstr ""
+msgstr "Instanz-Benutzer"
 
 msgid "148"
-msgstr ""
+msgstr "148"
 
 msgid "Next Maintenance Window"
-msgstr ""
+msgstr "Nächstes Wartungsfenster"
 
 msgid "March 12"
-msgstr ""
+msgstr "12. März"
 
 msgid "Lines of Code"
-msgstr ""
+msgstr "Codezeilen"
 
 msgid "1,113,377"
-msgstr ""
+msgstr "1.113.377"
 
 msgid "Celebrate the moments of your life."
-msgstr ""
+msgstr "Feiere die Momente Deines Lebens."
 
 msgid "Single Use"
 msgstr "Einmalige Verwendung"
 
 
 msgid "High Command"
-msgstr ""
+msgstr "Oberkommando"
 
 msgid "Dec 31, 1969"
-msgstr ""
+msgstr "31.12.1969"
 
 msgid "Blessed Committers"
-msgstr ""
+msgstr "Gesegnete Committer"
 
 msgid "Blessed Reviewers"
-msgstr ""
+msgstr "Gesegnete Prüfer"
 
 msgid "Wikipedia"
-msgstr ""
+msgstr "Wikipedia"
 
 msgid "Confirmed your account."
-msgstr ""
+msgstr "Konto bestätigt."
 
 msgid "People (automatic)"
-msgstr ""
+msgstr "Personen (automatisch)"
 
 msgid "Code Contributor"
-msgstr ""
+msgstr "Code-Beitragende/r"
 
 msgid "Wrote code that was acceptable"
-msgstr ""
+msgstr "Hat akzeptierbaren Code geschrieben"
 
 msgid "Task Master"
-msgstr ""
+msgstr "Aufgaben-Meister"
 
 msgid "Closed over 100 tasks"
-msgstr ""
+msgstr "Über 100 Aufgaben abgeschlossen"
 
 msgid "Code Weaver"
-msgstr ""
+msgstr "Code-Weber"
 
 msgid "Landed 1,000 Commits"
-msgstr ""
+msgstr "1.000 Commits gelandet"
 
 msgid "Security Team"
-msgstr ""
+msgstr "Sicherheits-Team"
 
 msgid "<script>alert(1);</script>"
-msgstr ""
+msgstr "<script>alert(1);</script>"
 
 msgid "Drew the short stick"
-msgstr ""
+msgstr "Hat das kurze Strohhalm gezogen"
 
 msgid "Lead Developer"
-msgstr ""
+msgstr "Leitende/r Entwickler/in"
 
 msgid "Lead Developer of Software"
-msgstr ""
+msgstr "Leitende/r Software-Entwickler/in"
 
 msgid "Direct Award"
-msgstr ""
+msgstr "Direkte Auszeichnung"
 
 msgid "Documenter"
-msgstr ""
+msgstr "Dokumentierende/r"
 
 msgid "Contributor"
-msgstr ""
+msgstr "Beitragende/r"
 
 msgid "Bugmeister"
-msgstr ""
+msgstr "Bugmeister"
 
 msgid "Funder"
-msgstr ""
+msgstr "Geldgeber/in"
 
 msgid "Designer"
-msgstr ""
+msgstr "Designer"
 
 msgid "Project Membership"
-msgstr ""
+msgstr "Projektmitgliedschaft"
 
 msgid "Achievements"
 msgstr "Erfolge"
 
 
 msgid "PHUIBadgeMiniView"
-msgstr ""
+msgstr "PHUIBadgeMiniView"
 
 msgid "Big Info View"
 msgstr "Große Info-Ansicht"
 
 
 msgid "Basic New User State information block."
-msgstr ""
+msgstr "Grundlegender Informationsblock für neue Benutzerzustände."
 
 msgid "Launch Away"
 msgstr "Loslegen!"
 
 
 msgid "Simply Slim"
-msgstr ""
+msgstr "Schlank und einfach"
 
 msgid "A simple description"
 msgstr "Eine einfache Beschreibung"
@@ -63489,126 +63489,126 @@ msgstr "Ein modernes Beispiel"
 
 
 msgid "A modern description with lots of frills."
-msgstr ""
+msgstr "Eine moderne Beschreibung mit vielen Schnörkeln."
 
 msgid "Box"
-msgstr ""
+msgstr "Box"
 
 msgid "It's a fancy or non-fancy box. Put stuff in it."
-msgstr ""
+msgstr "Eine schicke oder schlichte Box. Füll sie mit Inhalt."
 
 msgid "Such Wow"
-msgstr ""
+msgstr "So Wow"
 
 msgid "Fancy Box"
-msgstr ""
+msgstr "Schicke Box"
 
 msgid "Much Features"
-msgstr ""
+msgstr "Viele Features"
 
 msgid "Such Fancy, Nice Box, Many Corners."
-msgstr ""
+msgstr "So schick, nette Box, viele Ecken."
 
 msgid "Plain Box"
-msgstr ""
+msgstr "Schlichte Box"
 
 msgid "Plain Box with space"
-msgstr ""
+msgstr "Schlichte Box mit Abstand"
 
 msgid "Border Box with space"
-msgstr ""
+msgstr "Box mit Rahmen und Abstand"
 
 msgid "PHUIObjectBoxView"
-msgstr ""
+msgstr "PHUIObjectBoxView"
 
 msgid "Button Bar"
-msgstr ""
+msgstr "Schaltflächenleiste"
 
 msgid "A minimal UI for Buttons"
-msgstr ""
+msgstr "Eine minimale Oberfläche für Schaltflächen."
 
 msgid "Button Bar Example"
-msgstr ""
+msgstr "Schaltflächenleisten-Beispiel"
 
 msgid "Buttons"
-msgstr ""
+msgstr "Schaltflächen"
 
 #, php-format
 msgid "Use %s to render buttons."
-msgstr ""
+msgstr "Verwende %s zum Rendern von Schaltflächen."
 
 msgid "Clicky"
-msgstr ""
+msgstr "Klick mich"
 
 msgid "Button"
-msgstr ""
+msgstr "Schaltfläche"
 
 msgid "Reverse Time"
 msgstr "Rückwärts in der Zeit"
 
 
 msgid "Implode Earth"
-msgstr ""
+msgstr "Erde implodieren"
 
 msgid "Copy \"Quack\" to Clipboard"
-msgstr ""
+msgstr "„Quack\" in die Zwischenablage kopieren"
 
 msgid "Quack"
-msgstr ""
+msgstr "Quack"
 
 msgid "Text copied into clipboard."
-msgstr ""
+msgstr "Text in die Zwischenablage kopiert."
 
 msgid "Failed to copy text into clipboard."
-msgstr ""
+msgstr "Text konnte nicht in die Zwischenablage kopiert werden."
 
 msgid "Icon Buttons"
-msgstr ""
+msgstr "Icon-Schaltflächen"
 
 msgid "Simple Buttons"
-msgstr ""
+msgstr "Einfache Schaltflächen"
 
 msgid "Big Icon Buttons"
-msgstr ""
+msgstr "Große Icon-Schaltflächen"
 
 msgid "A Standard Palette of Colors for use."
-msgstr ""
+msgstr "Eine Standardpalette von Farben zur Verwendung."
 
 msgid "Color Palette"
-msgstr ""
+msgstr "Farbpalette"
 
 msgid "Greys"
-msgstr ""
+msgstr "Grautöne"
 
 msgid "Blues"
-msgstr ""
+msgstr "Blautöne"
 
 msgid "Feed Story"
-msgstr ""
+msgstr "Feed-Eintrag"
 
 msgid "An outlandish exaggeration of intricate tales from around the realm."
-msgstr ""
+msgstr "Eine abstruse Übertreibung verschlungener Geschichten aus dem Reich."
 
 msgid "Basic Story"
-msgstr ""
+msgstr "Einfacher Eintrag"
 
 msgid "Title / Text Story"
-msgstr ""
+msgstr "Titel / Text-Eintrag"
 
 msgid "Token Story"
-msgstr ""
+msgstr "Token-Eintrag"
 
 msgid "Action Story"
-msgstr ""
+msgstr "Aktions-Eintrag"
 
 msgid "Status Story"
-msgstr ""
+msgstr "Status-Eintrag"
 
 msgid "One Line Story"
-msgstr ""
+msgstr "Einzeiler-Eintrag"
 
 msgid "Hovercard"
-msgstr ""
+msgstr "Hovercard"
 
 #, php-format
 msgid "Use %s to render hovercards."
@@ -63616,16 +63616,16 @@ msgstr "Verwende %s zum Rendern von Hovercards."
 
 
 msgid "Introduce cooler Differential Revisions"
-msgstr ""
+msgstr "Coolere Differential-Revisionen einführen"
 
 msgid "Differential Hovercard"
-msgstr ""
+msgstr "Differential-Hovercard"
 
 msgid "Improve Mobile Experience"
-msgstr ""
+msgstr "Mobiles Erlebnis verbessern"
 
 msgid "Maniphest Hovercard"
-msgstr ""
+msgstr "Maniphest-Hovercard"
 
 msgid "Assigned to"
 msgstr "Zugewiesen an"
@@ -63634,7 +63634,7 @@ msgid "Dependent Tasks"
 msgstr "Davon abhängige Aufgaben"
 
 msgid "Whatevery Hovercard"
-msgstr ""
+msgstr "Irgendeine Hovercard"
 
 msgid "Member since"
 msgstr "Mitglied seit"
@@ -63643,147 +63643,147 @@ msgid "Send a Message"
 msgstr "Eine Nachricht senden"
 
 msgid "Icons and Images"
-msgstr ""
+msgstr "Icons und Bilder"
 
 msgid "Easily render icons or images with links and sprites."
-msgstr ""
+msgstr "Icons oder Bilder mit Links und Sprites einfach rendern."
 
 #, php-format
 msgid "fa-tag %s"
-msgstr ""
+msgstr "fa-tag %s"
 
 #, php-format
 msgid "Font Awesome by Dave Gandy - %s"
-msgstr ""
+msgstr "Font Awesome von Dave Gandy - %s"
 
 msgid "Colors and Transforms"
-msgstr ""
+msgstr "Farben und Transformationen"
 
 msgid "People!"
-msgstr ""
+msgstr "Personen!"
 
 msgid "Circles"
-msgstr ""
+msgstr "Kreise"
 
 msgid "Squares"
-msgstr ""
+msgstr "Quadrate"
 
 msgid "Image Masks"
-msgstr ""
+msgstr "Bildmasken"
 
 msgid "Display images with crops."
-msgstr ""
+msgstr "Bilder mit Ausschnitt anzeigen."
 
 msgid "Center is in the middle"
-msgstr ""
+msgstr "Mitte ist in der Mitte"
 
 msgid "Center is on an edge"
-msgstr ""
+msgstr "Mitte liegt am Rand"
 
 msgid "Center Masked"
-msgstr ""
+msgstr "Mitte maskiert"
 
 msgid "Edge Masked"
-msgstr ""
+msgstr "Rand maskiert"
 
 msgid "Wide Masked"
-msgstr ""
+msgstr "Breit maskiert"
 
 msgid "Info View"
-msgstr ""
+msgstr "Info-Ansicht"
 
 #, php-format
 msgid "Use %s to render errors, warnings and notices."
-msgstr ""
+msgstr "Verwende %s zum Rendern von Fehlern, Warnungen und Hinweisen."
 
 msgid "Warning"
-msgstr ""
+msgstr "Warnung"
 
 msgid "No Data"
-msgstr ""
+msgstr "Keine Daten"
 
 msgid "Notice"
-msgstr ""
+msgstr "Hinweis"
 
 msgid "Success"
-msgstr ""
+msgstr "Erfolg"
 
 msgid "Resolve Issue"
-msgstr ""
+msgstr "Problem lösen"
 
 msgid "Several issues were encountered."
-msgstr ""
+msgstr "Es sind mehrere Probleme aufgetreten."
 
 msgid "Overcooked."
-msgstr ""
+msgstr "Übergekocht."
 
 msgid "Too much salt."
-msgstr ""
+msgstr "Zu viel Salz."
 
 msgid "Full of sand."
-msgstr ""
+msgstr "Voller Sand."
 
 msgid "Responsive left-right table"
-msgstr ""
+msgstr "Responsieve Links-Rechts-Tabelle"
 
 msgid "Allows easily alignment of left/right UI elements."
-msgstr ""
+msgstr "Ermöglicht einfache Ausrichtung linker/rechter UI-Elemente."
 
 msgid "This is a sample of some text."
 msgstr "Dies ist ein Beispieltext."
 
 
 msgid "Align Middle"
-msgstr ""
+msgstr "Mittig ausrichten"
 
 msgid "Align Bottom"
 msgstr "Unten ausrichten"
 
 
 msgid "Lists"
-msgstr ""
+msgstr "Listen"
 
 msgid "Create a fanciful list of objects and prismatic donuts."
-msgstr ""
+msgstr "Eine fantasievolle Liste aus Objekten und prismatischen Donuts erstellen."
 
 msgid "Getting Started"
-msgstr ""
+msgstr "Erste Schritte"
 
 msgid "Installation"
-msgstr ""
+msgstr "Installation"
 
 msgid "Webserver Config"
-msgstr ""
+msgstr "Webserver-Konfiguration"
 
 msgid "Adding Users"
-msgstr ""
+msgstr "Benutzer hinzufügen"
 
 msgid "Debugging"
-msgstr ""
+msgstr "Fehlersuche"
 
 msgid "Rain"
-msgstr ""
+msgstr "Regen"
 
 msgid "Spain"
-msgstr ""
+msgstr "Spanien"
 
 msgid "Mainly"
-msgstr ""
+msgstr "Hauptsächlich"
 
 msgid "Plains"
-msgstr ""
+msgstr "Ebenen"
 
 msgid "Lint (OK)"
-msgstr ""
+msgstr "Lint (OK)"
 
 msgid "Unit (5/5)"
-msgstr ""
+msgstr "Unit (5/5)"
 
 msgid "Lint (Warn)"
-msgstr ""
+msgstr "Lint (Warn)"
 
 msgid "Unit (3/5)"
-msgstr ""
+msgstr "Unit (3/5)"
 
 msgid "Unstyled"
 msgstr "Ohne Style"
@@ -63801,23 +63801,23 @@ msgid "Status Tabs"
 msgstr "Status-Tabs"
 
 msgid "Object Item List"
-msgstr ""
+msgstr "Objektliste"
 
 #, php-format
 msgid "Use %s to render lists of objects."
-msgstr ""
+msgstr "Verwende %s zum Rendern von Objektlisten."
 
 msgid "Apple"
-msgstr ""
+msgstr "Apfel"
 
 msgid "Banana"
-msgstr ""
+msgstr "Banane"
 
 msgid "Cherry"
-msgstr ""
+msgstr "Kirsche"
 
 msgid "This list is empty."
-msgstr ""
+msgstr "Diese Liste ist leer."
 
 msgid "Business Card"
 msgstr "Visitenkarte"
@@ -63826,22 +63826,22 @@ msgid "Playing Card"
 msgstr "Spielkarte"
 
 msgid "Royal Flush!"
-msgstr ""
+msgstr "Royal Flush!"
 
 msgid "jackofclubs"
-msgstr ""
+msgstr "jackofclubs"
 
 msgid "House of Cards"
 msgstr "Ein Kartenhaus"
 
 msgid "agoat"
-msgstr ""
+msgstr "agoat"
 
 msgid "Cardigan"
 msgstr "Cardigan"
 
 msgid "Warm!"
-msgstr ""
+msgstr "Warm!"
 
 msgid "Cardamom"
 msgstr "Kardamom"
@@ -63852,76 +63852,76 @@ msgid ""
 msgstr ""
 
 msgid "You have a cardiovascular system!"
-msgstr ""
+msgstr "Du hast ein Herz-Kreislauf-System!"
 
 msgid "Grab ahold!"
-msgstr ""
+msgstr "Halt fest!"
 
 msgid "Hold on tight!"
-msgstr ""
+msgstr "Festhalten!"
 
 msgid "Don't let go!"
-msgstr ""
+msgstr "Nicht loslassen!"
 
 msgid "You Have The Power"
-msgstr ""
+msgstr "Du hast die Macht"
 
 msgid "Moo"
-msgstr ""
+msgstr "Muh"
 
 msgid "Believe In Yourself"
-msgstr ""
+msgstr "Glaub an Dich"
 
 msgid "Oink"
-msgstr ""
+msgstr "Oink"
 
 msgid "Extras"
-msgstr ""
+msgstr "Extras"
 
 msgid "Ace of Hearts"
-msgstr ""
+msgstr "Ass der Herzen"
 
 msgid "This is a powerful card in the game \"Hearts\"."
-msgstr ""
+msgstr "Dies ist eine mächtige Karte im Spiel „Herz\"."
 
 msgid "Suit: Hearts"
-msgstr ""
+msgstr "Farbe: Herz"
 
 msgid "Rank: Ace"
-msgstr ""
+msgstr "Rang: Ass"
 
 msgid "Ace"
-msgstr ""
+msgstr "Ass"
 
 msgid "Hearts"
-msgstr ""
+msgstr "Herz"
 
 msgid "You hold all the cards."
-msgstr ""
+msgstr "Du hältst alle Karten."
 
 msgid "You make all the rules."
-msgstr ""
+msgstr "Du bestimmst die Regeln."
 
 msgid "Just A Handle"
-msgstr ""
+msgstr "Nur ein Griff"
 
 msgid "Handle Here"
-msgstr ""
+msgstr "Griff hier"
 
 msgid "Poor Use of Space"
-msgstr ""
+msgstr "Schlechte Raumnutzung"
 
 msgid "South East"
-msgstr ""
+msgstr "Südost"
 
 msgid "Crowded Eastern Edge"
-msgstr ""
+msgstr "Überfüllter Ostrand"
 
 msgid "Stuff"
-msgstr ""
+msgstr "Zeug"
 
 msgid "More Stuff"
-msgstr ""
+msgstr "Mehr Zeug"
 
 msgid "Highlighted"
 msgstr "Hervorgehoben"
@@ -63933,54 +63933,54 @@ msgid "Black"
 msgstr "Schwarz"
 
 msgid "Default User Profile Image"
-msgstr ""
+msgstr "Standard-Benutzerprofil-Bild"
 
 msgid "Default Project Profile Image"
-msgstr ""
+msgstr "Standard-Projektprofil-Bild"
 
 msgid "This is the default project profile image."
-msgstr ""
+msgstr "Dies ist das Standard-Projektprofil-Bild."
 
 msgid "Property List"
-msgstr ""
+msgstr "Eigenschaftsliste"
 
 #, php-format
 msgid "Use %s to render object properties."
-msgstr ""
+msgstr "Verwende %s zum Rendern von Objekteigenschaften."
 
 msgid "Mouse"
 msgstr "Maus"
 
 msgid "Element"
-msgstr ""
+msgstr "Element"
 
 msgid "Electric"
-msgstr ""
+msgstr "Elektrisch"
 
 msgid "Colors of the Rainbow"
-msgstr ""
+msgstr "Farben des Regenbogens"
 
 msgid "Haiku About Pasta"
-msgstr ""
+msgstr "Haiku über Pasta"
 
 msgid "this is a pasta"
-msgstr ""
+msgstr "das ist eine Pasta"
 
 msgid "haiku. it is very bad."
-msgstr ""
+msgstr "haiku. es ist sehr schlecht."
 
 msgid "what did you expect?"
-msgstr ""
+msgstr "was hast Du erwartet?"
 
 msgid "Rainbow Info"
-msgstr ""
+msgstr "Regenbogen-Info"
 
 msgid "Pasta Haiku"
-msgstr ""
+msgstr "Pasta-Haiku"
 
 #, php-format
 msgid "%s Stackered"
-msgstr ""
+msgstr "%s gestapelt"
 
 msgid ""
 "These layouts test UI edge cases in the element. This block tests wrapping "
@@ -63988,7 +63988,7 @@ msgid ""
 msgstr ""
 
 msgid "A Very Very Very Very Very Very Very Very Very Long Property Label"
-msgstr ""
+msgstr "Ein sehr sehr sehr sehr sehr sehr sehr sehr sehr langer Eigenschaftsname"
 
 msgid ""
 "This property label and property value are quite long. They demonstrate the "
@@ -63997,134 +63997,134 @@ msgid ""
 msgstr ""
 
 msgid "AVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryLongUnbrokenPropertyLabel"
-msgstr ""
+msgstr "AVeryVeryVeryVeryVeryVeryVeryVeryVeryVeryLongUnbrokenPropertyLabel"
 
 msgid "Thispropertylabelandpropertyvaluearequitelongandhavenospacestheydemonstratetheoverflowbehavioroftheelementorlackthereof."
 msgstr ""
 
 msgid "The next section is an empty text block."
-msgstr ""
+msgstr "Der nächste Abschnitt ist ein leerer Textblock."
 
 msgid "This section should have multiple properties with the same name."
-msgstr ""
+msgstr "Dieser Abschnitt soll mehrere Eigenschaften mit demselben Namen haben."
 
 msgid "Joe"
-msgstr ""
+msgstr "Max"
 
 msgid "Smith"
-msgstr ""
+msgstr "Mustermann"
 
 msgid "Some Bad Examples"
-msgstr ""
+msgstr "Einige schlechte Beispiele"
 
 #, php-format
 msgid "Use %s to render various tags."
-msgstr ""
+msgstr "Verwende %s zum Rendern verschiedener Tags."
 
 msgid "Christmas"
-msgstr ""
+msgstr "Weihnachten"
 
 msgid "Halloween"
-msgstr ""
+msgstr "Halloween"
 
 msgid "Easter"
-msgstr ""
+msgstr "Ostern"
 
 msgid "Inline"
-msgstr ""
+msgstr "Inline"
 
 msgid "Holidays"
-msgstr ""
+msgstr "Feiertage"
 
 msgid "Shades"
-msgstr ""
+msgstr "Schattierungen"
 
 msgid "Outlines"
-msgstr ""
+msgstr "Umrisse"
 
 msgid "Timeline View"
-msgstr ""
+msgstr "Zeitstrahl-Ansicht"
 
 #, php-format
 msgid "Use %s to comments and transactions."
-msgstr ""
+msgstr "Verwende %s für Kommentare und Transaktionen."
 
 msgid "A major event."
-msgstr ""
+msgstr "Ein wichtiges Ereignis."
 
 msgid "This is a major timeline event."
-msgstr ""
+msgstr "Dies ist ein wichtiges Zeitstrahl-Ereignis."
 
 msgid "A minor event."
-msgstr ""
+msgstr "Ein kleineres Ereignis."
 
 msgid "A major event with no title."
-msgstr ""
+msgstr "Ein wichtiges Ereignis ohne Titel."
 
 msgid "Another minor event."
-msgstr ""
+msgstr "Ein weiteres kleineres Ereignis."
 
 msgid "Major Red Event"
-msgstr ""
+msgstr "Wichtiges rotes Ereignis"
 
 msgid "This event is red!"
-msgstr ""
+msgstr "Dieses Ereignis ist rot!"
 
 msgid "Minor Red Event"
-msgstr ""
+msgstr "Kleines rotes Ereignis"
 
 msgid "Minor Not-Red Event"
-msgstr ""
+msgstr "Kleines nicht-rotes Ereignis"
 
 msgid "Pinboard Image Event"
-msgstr ""
+msgstr "Pinnwand-Bild-Ereignis"
 
 msgid "Major Green Disagreement Action"
-msgstr ""
+msgstr "Wichtige grüne Widerspruchs-Aktion"
 
 msgid "This event is green!"
-msgstr ""
+msgstr "Dieses Ereignis ist grün!"
 
 msgid "Long Text Title"
-msgstr ""
+msgstr "Langer Texttitel"
 
 msgid "Long Text Body"
-msgstr ""
+msgstr "Langer Textinhalt"
 
 msgid "Colorless"
-msgstr ""
+msgstr "Farblos"
 
 #, php-format
 msgid "Color '%s'"
-msgstr ""
+msgstr "Farbe '%s'"
 
 #, php-format
 msgid "%s went to the store."
-msgstr ""
+msgstr "%s ging in den Laden."
 
 #, php-format
 msgid "%s bought an apple."
-msgstr ""
+msgstr "%s kaufte einen Apfel."
 
 #, php-format
 msgid "%s bought a banana."
-msgstr ""
+msgstr "%s kaufte eine Banane."
 
 #, php-format
 msgid "%s bought a cherry."
-msgstr ""
+msgstr "%s kaufte eine Kirsche."
 
 #, php-format
 msgid "%s paid for his goods."
-msgstr ""
+msgstr "%s bezahlte seine Waren."
 
 #, php-format
 msgid "%s returned home."
-msgstr ""
+msgstr "%s kehrte nach Hause zurück."
 
 #, php-format
 msgid "%s related on his adventures."
-msgstr ""
+msgstr "%s berichtete von seinen Abenteuern."
 
 msgid ""
 "Today, I went to the store. I bought an apple. I bought a banana. I bought a "
@@ -64132,34 +64132,34 @@ msgid ""
 msgstr ""
 
 msgid "Typeaheads"
-msgstr ""
+msgstr "Eingabevorschläge"
 
 msgid "Typeaheads, tokenizers and tokens."
-msgstr ""
+msgstr "Eingabevorschläge, Tokenizer und Token."
 
 msgid "Normal Object"
-msgstr ""
+msgstr "Normales Objekt"
 
 msgid "Disabled Object"
-msgstr ""
+msgstr "Deaktiviertes Objekt"
 
 msgid "Object with Color"
-msgstr ""
+msgstr "Objekt mit Farbe"
 
 msgid "Function Token"
-msgstr ""
+msgstr "Funktions-Token"
 
 msgid "Invalid Token"
-msgstr ""
+msgstr "Ungültiger Token"
 
 msgid "PHUIX Components"
-msgstr ""
+msgstr "PHUIX-Komponenten"
 
 msgid "Copy/paste to make design maintenance twice as difficult."
-msgstr ""
+msgstr "Kopieren/Einfügen, um die Design-Pflege doppelt so schwer zu machen."
 
 msgid "PHUIX"
-msgstr ""
+msgstr "PHUIX"
 
 msgid "3 / 5 Comments"
 msgstr "3 / 5 Kommentare"
@@ -64170,16 +64170,16 @@ msgstr "Umweltbedingt!"
 
 
 msgid "Bars"
-msgstr ""
+msgstr "Balken"
 
 msgid "Like fractions, but more horizontal."
-msgstr ""
+msgstr "Wie Brüche, nur horizontaler."
 
 msgid "Rainbow Bars"
-msgstr ""
+msgstr "Regenbogen-Balken"
 
 msgid "Gestures"
-msgstr ""
+msgstr "Gesten"
 
 #, php-format
 msgid ""
@@ -64189,57 +64189,57 @@ msgid ""
 msgstr ""
 
 msgid "Technical"
-msgstr ""
+msgstr "Technisch"
 
 msgid "Multiple Column Layouts"
-msgstr ""
+msgstr "Mehrspaltiges Layout"
 
 msgid ""
 "A container good for 1-7 equally spaced columns. Fixed and Fluid layouts."
 msgstr ""
 
 msgid "2 Column Fixed"
-msgstr ""
+msgstr "2-Spalten fix"
 
 msgid "2 Column Fluid"
-msgstr ""
+msgstr "2-Spalten fluid"
 
 msgid "4 Column Fixed"
-msgstr ""
+msgstr "4-Spalten fix"
 
 msgid "4 Column Fluid"
-msgstr ""
+msgstr "4-Spalten fluid"
 
 msgid "7 Column Fluid"
-msgstr ""
+msgstr "7-Spalten fluid"
 
 msgid "City/State"
-msgstr ""
+msgstr "Stadt/Bundesland"
 
 msgid "Country"
-msgstr ""
+msgstr "Land"
 
 msgid "Postal Code"
-msgstr ""
+msgstr "Postleitzahl"
 
 msgid "Shipping Address"
-msgstr ""
+msgstr "Lieferadresse"
 
 msgid "Payment Information"
-msgstr ""
+msgstr "Zahlungsinformationen"
 
 msgid "Let's Go Shopping"
-msgstr ""
+msgstr "Auf zum Einkaufen"
 
 #, php-format
 msgid "Use %s to create notifications."
-msgstr ""
+msgstr "Verwende %s zum Erstellen von Benachrichtigungen."
 
 msgid "Show Notification"
-msgstr ""
+msgstr "Benachrichtigung anzeigen"
 
 msgid "Pager"
-msgstr ""
+msgstr "Seitennavigation"
 
 #, php-format
 msgid ""
@@ -64249,14 +64249,14 @@ msgstr ""
 
 #, php-format
 msgid "Item #%d"
-msgstr ""
+msgstr "Element #%d"
 
 #, php-format
 msgid "Use %s to render a pager element."
-msgstr ""
+msgstr "Verwende %s zum Rendern eines Seitennavigations-Elements."
 
 msgid "You can show more or fewer pages of surrounding context."
-msgstr ""
+msgstr "Du kannst mehr oder weniger Seiten des umgebenden Kontexts anzeigen."
 
 #, php-format
 msgid ""
@@ -64270,17 +64270,17 @@ msgstr "Eingebaute Projektbilder"
 
 
 msgid "Builtin Project Images."
-msgstr ""
+msgstr "Eingebaute Projektbilder."
 
 
 msgid "Images"
-msgstr ""
+msgstr "Bilder"
 
 msgid "Remarkup"
-msgstr ""
+msgstr "Remarkup"
 
 msgid "Demonstrates the visual appearance of various Remarkup elements."
-msgstr ""
+msgstr "Zeigt das visuelle Erscheinungsbild verschiedener Remarkup-Elemente."
 
 msgid ""
 "This is some **remarkup text** using ~~exactly one style~~ //various "
@@ -64310,60 +64310,60 @@ msgid ""
 msgstr ""
 
 msgid "Remarkup Example"
-msgstr ""
+msgstr "Remarkup-Beispiel"
 
 msgid "Setup Issue"
-msgstr ""
+msgstr "Einrichtungsproblem"
 
 msgid "Setup errors and warnings."
-msgstr ""
+msgstr "Einrichtungsfehler und -warnungen."
 
 msgid "Status List"
-msgstr ""
+msgstr "Statusliste"
 
 #, php-format
 msgid "Use %s to show relationships with objects."
-msgstr ""
+msgstr "Verwende %s um Beziehungen zu Objekten anzuzeigen."
 
 msgid "Yum"
-msgstr ""
+msgstr "Lecker"
 
 msgid "You can eat them."
-msgstr ""
+msgstr "Man kann sie essen."
 
 msgid "Has Peel"
-msgstr ""
+msgstr "Hat eine Schale"
 
 msgid "Comes in bunches."
-msgstr ""
+msgstr "Wächst in Büscheln."
 
 msgid "Caution"
-msgstr ""
+msgstr "Vorsicht"
 
 msgid "Pomegranate"
 msgstr "Granatapfel"
 
 
 msgid "Lots of seeds. Watch out."
-msgstr ""
+msgstr "Viele Kerne. Vorsicht."
 
 msgid "Bleh!"
-msgstr ""
+msgstr "Bäh!"
 
 msgid "Zucchini"
-msgstr ""
+msgstr "Zucchini"
 
 msgid "Slimy and gross. Yuck!"
-msgstr ""
+msgstr "Schleimig und eklig. Pfui!"
 
 msgid "Fruit and Vegetable Status"
-msgstr ""
+msgstr "Obst- und Gemüsestatus"
 
 msgid "All Icons"
 msgstr "Alle Symbole"
 
 msgid "General"
-msgstr ""
+msgstr "Allgemein"
 
 msgid "PHP Profiling Tool"
 msgstr "PHP-Profiling-Werkzeug"
