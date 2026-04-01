@@ -54310,14 +54310,12 @@ msgstr "Der Inhalt muss eine Liste von Zeichenketten sein."
 msgid "Invalid markup engine."
 msgstr "Ungültige Markup-Engine."
 
-#, fuzzy
 msgid "Can Edit and View Identities"
-msgstr "Darf Aufgabenpolicies verändern"
+msgstr "Kann Identitäten bearbeiten und anzeigen"
 
 
-#, fuzzy
 msgid "You do not have permission to create or edit identities."
-msgstr "Du hast keine Berechtigung, um neue Dokumente zu erstellen."
+msgstr "Du hast keine Berechtigung, Identitäten zu erstellen oder zu bearbeiten."
 
 
 #, php-format
@@ -54348,37 +54346,31 @@ msgid ""
 "choose an existing directory full of data you care about."
 msgstr ""
 
-#, fuzzy
 msgid "Create Git Repository"
-msgstr "Neues Repository"
+msgstr "Git-Repository erstellen"
 
 
-#, fuzzy
 msgid "Create a new Git repository."
-msgstr "Neues Repository"
+msgstr "Ein neues Git-Repository erstellen."
 
 
 msgid "Mercurial"
 msgstr ""
 
-#, fuzzy
 msgid "Create Mercurial Repository"
-msgstr "Neues Repository"
+msgstr "Mercurial-Repository erstellen"
 
 
-#, fuzzy
 msgid "Create a new Mercurial repository."
-msgstr "Neue Version erzeugen..."
+msgstr "Ein neues Mercurial-Repository erstellen."
 
 
-#, fuzzy
 msgid "Create Subversion Repository"
-msgstr "Neues Repository"
+msgstr "Subversion-Repository erstellen"
 
 
-#, fuzzy
 msgid "Create a new Subversion repository."
-msgstr "Neue Version erzeugen..."
+msgstr "Ein neues Subversion-Repository erstellen."
 
 
 msgid "Shows branches a commit appears on in email."
@@ -54545,9 +54537,9 @@ msgid ""
 "as importing."
 msgstr ""
 
-#, fuzzy, php-format
+#, php-format
 msgid "Discovering commits in repository \"%s\"."
-msgstr "%s hat die Zeichencodierung für das Repository auf \"%s\" gesetzt."
+msgstr "Commits in Repository „%s\" werden ermittelt."
 
 
 #, php-format
@@ -54594,9 +54586,9 @@ msgstr ""
 msgid "Repaired commit \"%s\"."
 msgstr ""
 
-#, fuzzy, php-format
+#, php-format
 msgid "Unknown repository type \"%s\"!"
-msgstr "Unbekannte Bedingung \"%s\"!"
+msgstr "Unbekannter Repository-Typ „%s\"!"
 
 
 #, php-format
@@ -54615,17 +54607,15 @@ msgstr ""
 msgid "Importing %s commit(s) at normal priority (\"PRIORITY_COMMIT\")."
 msgstr ""
 
-#, fuzzy
 msgid "Edit Repository Identity Configurations"
-msgstr "Repository-Verfolgung ändern"
+msgstr "Repository-Identitätskonfigurationen bearbeiten"
 
 
 msgid "This engine is used to edit Repository identities."
 msgstr ""
 
-#, fuzzy
 msgid "Create Identity"
-msgstr "Neuer Termin"
+msgstr "Identität erstellen"
 
 
 #, php-format
@@ -54671,19 +54661,19 @@ msgstr ""
 msgid "Unknown VCS \"%s\"!"
 msgstr ""
 
-#, fuzzy, php-format
+#, php-format
 msgid "No local path is configured for repository \"%s\"."
-msgstr "%s hat die \"%s\" Zeichencodierung vom Repository entfernt."
+msgstr "Für Repository „%s\" ist kein lokaler Pfad konfiguriert."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "Creating a new working copy for repository \"%s\"."
-msgstr "%s hat die Zeichencodierung für das Repository auf \"%s\" gesetzt."
+msgstr "Neue Arbeitskopie für Repository „%s\" wird erstellt."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "Updating the working copy for repository \"%s\"."
-msgstr "%s hat die Zeichencodierung für das Repository auf \"%s\" gesetzt."
+msgstr "Arbeitskopie für Repository „%s\" wird aktualisiert."
 
 
 #, php-format
@@ -54757,9 +54747,9 @@ msgid ""
 "Refusing to list potentially dangerous ref (\"%s\") beginning with \"-\"."
 msgstr ""
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s (remote: \"%s\", local: \"%s\")"
-msgstr "%s hat %s als \"%s\" wieder geöffnet."
+msgstr "%s (Remote: „%s\", Lokal: „%s\")"
 
 
 #, php-format
@@ -54938,9 +54928,8 @@ msgstr ""
 msgid "Reading list of hints from stdin..."
 msgstr ""
 
-#, fuzzy
 msgid "Failed to read stdin."
-msgstr "Konnte Datei nicht laden."
+msgstr "Stdin konnte nicht gelesen werden."
 
 
 #, php-format
@@ -54963,9 +54952,9 @@ msgid ""
 "valid repository."
 msgstr ""
 
-#, fuzzy, php-format
+#, php-format
 msgid "Updated hint for \"%s\"."
-msgstr "%s hat das Diff für %s geändert."
+msgstr "Hinweis für „%s\" aktualisiert."
 
 
 msgid "Show commits in __repository__ which are still importing."
@@ -55011,9 +55000,8 @@ msgid ""
 "Unable to lock repository \"%s\": only clustered repositories may be locked."
 msgstr ""
 
-#, fuzzy
 msgid "These repositories will be locked:"
-msgstr "Diese Aufgaben werden verändert:"
+msgstr "Diese Repositories werden gesperrt:"
 
 
 msgid ""
@@ -55073,9 +55061,9 @@ msgstr ""
 msgid "Repository \"%s\" is already importing."
 msgstr ""
 
-#, fuzzy, php-format
+#, php-format
 msgid "Repository \"%s\" is already imported."
-msgstr "Dienst \"%s\" ist bereits gesperrt!"
+msgstr "Repository „%s\" ist bereits importiert."
 
 
 #, php-format
@@ -55185,9 +55173,8 @@ msgstr ""
 msgid "Unknown commit \"%s\"!"
 msgstr ""
 
-#, fuzzy
 msgid "Pull __repository__."
-msgstr "Alle Repositories"
+msgstr "Repository __repository__ pullen."
 
 
 msgid ""
@@ -55221,9 +55208,8 @@ msgstr ""
 msgid "Rebuild identities for a user."
 msgstr ""
 
-#, fuzzy
 msgid "Rebuild identities for an email address."
-msgstr "Du mußt eine Email-Adresse angeben."
+msgstr "Identitäten für eine E-Mail-Adresse neu aufbauen."
 
 
 msgid "Rebuild identities for a raw commit string."
@@ -55238,10 +55224,8 @@ msgstr ""
 msgid "Flags \"--all-identities\" and \"--raw\" are not compatible."
 msgstr ""
 
-#, fuzzy
 msgid "This is a dry run, so no changes will be written."
-msgstr ""
-"Dies war ein Testlauf, es wurden daher keine Aktion tatsächlich ausgeführt."
+msgstr "Dies ist ein Probelauf, es werden keine Änderungen geschrieben."
 
 
 #, php-format
@@ -55265,17 +55249,17 @@ msgstr ""
 msgid "Rebuilt identities for \"%s\"."
 msgstr ""
 
-#, fuzzy, php-format
+#, php-format
 msgid "No changes for commit \"%s\"."
-msgstr "Änderung \"%s\" existiert nicht!"
+msgstr "Keine Änderungen für Commit „%s\"."
 
 
 msgid "USER"
 msgstr ""
 
-#, fuzzy, php-format
+#, php-format
 msgid "Rebuilding identities for user \"%s\"."
-msgstr "Ergebnisse für Abfrage \"%s\" anzeigen."
+msgstr "Identitäten für Benutzer „%s\" werden neu aufgebaut."
 
 
 msgid "NO IDENTITIES"
@@ -55306,35 +55290,34 @@ msgstr ""
 msgid "Rebuilding identity \"%s\"."
 msgstr ""
 
-#, fuzzy
 msgid "No changes to identity."
-msgstr "Ältere Änderungen werden nicht angezeigt."
+msgstr "Keine Änderungen an der Identität."
 
 
 msgid "DETECTED PHID"
 msgstr ""
 
-#, fuzzy, php-format
+#, php-format
 msgid "(Dry Run) Would update detected user from \"%s\" to \"%s\"."
-msgstr "%s hat den Titel von \"%s\" nach \"%s\" geändert."
+msgstr "(Probelauf) Erkannter Benutzer würde von „%s\" auf „%s\" aktualisiert."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "Detected user updated from \"%s\" to \"%s\"."
-msgstr "%s hat dieses Panel von \"%s\" nach \"%s\" umbenannt."
+msgstr "Erkannter Benutzer von „%s\" auf „%s\" aktualisiert."
 
 
 msgid "ASSIGNED PHID"
 msgstr ""
 
-#, fuzzy, php-format
+#, php-format
 msgid "(Dry Run) Would update assigned user from \"%s\" to \"%s\"."
-msgstr "%s hat %s von %s an %s übergeben."
+msgstr "(Probelauf) Zugewiesener Benutzer würde von „%s\" auf „%s\" aktualisiert."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "Assigned user updated from \"%s\" to \"%s\"."
-msgstr "%s hat dieses Panel von \"%s\" nach \"%s\" umbenannt."
+msgstr "Zugewiesener Benutzer von „%s\" auf „%s\" aktualisiert."
 
 
 msgid "NULL"
@@ -55387,9 +55370,8 @@ msgstr ""
 msgid "Reparse commit messages."
 msgstr ""
 
-#, fuzzy
 msgid "Reparse source changes."
-msgstr "Der Besitzer einer Aufgabe wurde verändert."
+msgstr "Quelländerungen neu verarbeiten."
 
 
 msgid ""
@@ -55434,9 +55416,9 @@ msgid ""
 "Supplied value: '%s'\n"
 msgstr ""
 
-#, fuzzy, php-format
+#, php-format
 msgid "Unknown repository \"%s\"!"
-msgstr "Unbekannte Bedingung \"%s\"!"
+msgstr "Unbekanntes Repository „%s\"!"
 
 
 #, php-format
@@ -55495,14 +55477,12 @@ msgstr ""
 msgid "Specify one or more repositories to thaw."
 msgstr ""
 
-#, fuzzy
 msgid "There are no repositories on the selected device or service."
-msgstr "Es gibt nichts zu diesem Projekt zu erzählen."
+msgstr "Auf dem ausgewählten Gerät oder Dienst befinden sich keine Repositories."
 
 
-#, fuzzy
 msgid "These repositories will be thawed:"
-msgstr "Diese Aufgaben werden verändert:"
+msgstr "Diese Repositories werden aufgetaut:"
 
 
 msgid ""
@@ -55551,9 +55531,9 @@ msgid ""
 "has one or more unambiguous leaders: %s."
 msgstr ""
 
-#, fuzzy, php-format
+#, php-format
 msgid "Promoted \"%s\" to become a leader for \"%s\"."
-msgstr "\"%s\" muss zeitlich vor \"%s\" liegen."
+msgstr "„%s\" wurde zum Leader für „%s\" befördert."
 
 
 #, php-format
@@ -55587,9 +55567,9 @@ msgstr ""
 msgid "Will unpublish %s commits.\n"
 msgstr ""
 
-#, fuzzy, php-format
+#, php-format
 msgid "Unpublishing commit \"%s\"."
-msgstr "Änderung \"%s\" existiert nicht!"
+msgstr "Commit „%s\" wird zurückgezogen."
 
 
 #, php-format
@@ -55641,18 +55621,18 @@ msgstr ""
 msgid "Error updating working copy: %s"
 msgstr ""
 
-#, fuzzy, php-format
+#, php-format
 msgid "Updated repository \"%s\"."
-msgstr "%s hat die Repository-UUID auf \"%s\" gesetzt."
+msgstr "Repository „%s\" aktualisiert."
 
 
 #, php-format
 msgid "Error while pushing \"%s\" repository to mirrors."
 msgstr ""
 
-#, fuzzy, php-format
+#, php-format
 msgid "Repository \"%s\" does not exist!"
-msgstr "Änderung \"%s\" existiert nicht."
+msgstr "Repository „%s\" existiert nicht!"
 
 
 #, php-format
@@ -55666,14 +55646,13 @@ msgstr ""
 msgid "%s ♻ %s"
 msgstr ""
 
-#, fuzzy
 msgid "Pull Event"
-msgstr "Alle Termine"
+msgstr "Pull-Ereignis"
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "Pull Event %d"
-msgstr "Termin %d"
+msgstr "Pull-Ereignis %d"
 
 
 msgid "Push Event"
@@ -55690,57 +55669,50 @@ msgstr ""
 msgid "Push Log %d"
 msgstr ""
 
-#, fuzzy
 msgid "Repository Ref"
-msgstr "Repository"
+msgstr "Repository-Ref"
 
 
-#, fuzzy
 msgid "Sync Event"
-msgstr "Meine Termine"
+msgstr "Synchronisierungsereignis"
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "Sync Event %d"
-msgstr "Termin %d"
+msgstr "Synchronisierungsereignis %d"
 
 
 #, php-format
 msgid "URI %d %s"
 msgstr ""
 
-#, fuzzy, php-format
+#, php-format
 msgid "Unknown Hold (\"%s\")"
-msgstr "Unbekannte Aktion \"%s\""
+msgstr "Unbekannte Sperre („%s\")"
 
 
-#, fuzzy
 msgid "This repository is still importing."
-msgstr "Dieses Repository hat keine Branches."
+msgstr "Dieses Repository wird noch importiert."
 
 
 msgid "All publishing is disabled for this repository."
 msgstr ""
 
 
-#, fuzzy
 msgid "Not On Permanent Ref"
-msgstr "Permanentes Feld"
+msgstr "Nicht auf permanentem Ref"
 
 
-#, fuzzy
 msgid "This commit is not an ancestor of any permanent ref."
-msgstr "Diese Spalte enthält bis jetzt noch keine Panele."
+msgstr "Dieser Commit ist kein Vorfahre eines permanenten Refs."
 
 
-#, fuzzy
 msgid "Not a Branch"
-msgstr "Branch schneiden"
+msgstr "Kein Branch"
 
 
-#, fuzzy
 msgid "This ref is not a branch."
-msgstr "Dieses Repository hat keine Branches."
+msgstr "Dieser Ref ist kein Branch."
 
 
 msgid "Untracked Ref"
@@ -55774,19 +55746,16 @@ msgstr ""
 msgid "Push ID"
 msgstr ""
 
-#, fuzzy
 msgid "Pusher PHID"
-msgstr "User mit Push-Rechten"
+msgstr "Pusher-PHID"
 
 
-#, fuzzy
 msgid "Ref Type"
-msgstr "Regel-Typ"
+msgstr "Ref-Typ"
 
 
-#, fuzzy
 msgid "Ref Name"
-msgstr "Name der Regel"
+msgstr "Ref-Name"
 
 
 msgid "Ref Old"
@@ -55799,14 +55768,12 @@ msgid "Flag Names"
 msgstr ""
 
 
-#, fuzzy
 msgid "Result Name"
-msgstr "Name der Regel"
+msgstr "Ergebnisname"
 
 
-#, fuzzy
 msgid "Result Details"
-msgstr "Regel Details"
+msgstr "Ergebnisdetails"
 
 
 msgid "Host Wait (us)"
@@ -55834,9 +55801,8 @@ msgstr "Rufzeichen"
 msgid "Search for repositories with specific callsigns."
 msgstr ""
 
-#, fuzzy
 msgid "Short Names"
-msgstr "Kurzname"
+msgstr "Kurznamen"
 
 
 msgid "Search for repositories with specific short names."
@@ -56012,14 +55978,12 @@ msgid ""
 "support the required protocols (%s)."
 msgstr ""
 
-#, fuzzy
 msgid "(This is a write request.)"
-msgstr "Dies ist ein Verzeichnis."
+msgstr "(Dies ist eine Schreibanfrage.)"
 
 
-#, fuzzy
 msgid "(This is a read request.)"
-msgstr "Dies ist ein Verzeichnis."
+msgstr "(Dies ist eine Leseanfrage.)"
 
 
 #, php-format
@@ -56087,9 +56051,8 @@ msgstr ""
 msgid "The VCS this repository uses (\"git\", \"hg\" or \"svn\")."
 msgstr ""
 
-#, fuzzy
 msgid "The repository callsign, if it has one."
-msgstr "Dieses Repository hat keine Branches."
+msgstr "Das Rufzeichen des Repositorys, falls vorhanden."
 
 
 msgid "Unique short name, if the repository has one."
@@ -56152,9 +56115,8 @@ msgstr ""
 msgid "The commit identifier."
 msgstr ""
 
-#, fuzzy
 msgid "The repository this commit belongs to."
-msgstr "Dieses Repository hat keine Branches."
+msgstr "Das Repository, zu dem dieser Commit gehört."
 
 
 msgid "Information about the commit author."
@@ -56172,9 +56134,8 @@ msgstr ""
 msgid "Information about the current audit status."
 msgstr ""
 
-#, fuzzy
 msgid "The commit message."
-msgstr "Commit Beschreibung"
+msgstr "Die Commit-Nachricht."
 
 
 #, php-format
@@ -56200,14 +56161,12 @@ msgstr ""
 msgid "HTTP"
 msgstr ""
 
-#, fuzzy
 msgid "HTTPS"
-msgstr "HTTPS erzwingen"
+msgstr "HTTPS"
 
 
-#, fuzzy
 msgid "Authentication Required"
-msgstr "Anmeldefehler"
+msgstr "Authentifizierung erforderlich"
 
 
 #, fuzzy
@@ -56222,29 +56181,24 @@ msgid ""
 "A repository's push events are visible to users who can see the repository."
 msgstr ""
 
-#, fuzzy
 msgid "Append"
-msgstr "Erscheint hier"
+msgstr "Anhängen"
 
 
-#, fuzzy
 msgid "Rewrite"
-msgstr "Lesen & Schreiben"
+msgstr "Umschreiben"
 
 
-#, fuzzy
 msgid "Dangerous"
-msgstr "Änderungen"
+msgstr "Gefährlich"
 
 
-#, fuzzy
 msgid "Enormous"
-msgstr "Gigantischer Commit"
+msgstr "Riesig"
 
 
-#, fuzzy
 msgid "Oversized"
-msgstr "Überlange Notiz"
+msgstr "Überdimensioniert"
 
 
 msgid "Touches Too Many Paths"
@@ -56253,27 +56207,23 @@ msgstr ""
 msgid "Maintenance"
 msgstr ""
 
-#, fuzzy
 msgid "Rejected: Dangerous"
-msgstr "Änderungen angefordert"
+msgstr "Abgelehnt: Gefährlich"
 
 
-#, fuzzy
 msgid "Rejected: Herald"
-msgstr "Abgelehnt"
+msgstr "Abgelehnt: Herald"
 
 
 msgid "Rejected: External Hook"
 msgstr ""
 
-#, fuzzy
 msgid "Rejected: Broken"
-msgstr "Abgelehnt"
+msgstr "Abgelehnt: Fehlerhaft"
 
 
-#, fuzzy
 msgid "Rejected: Enormous"
-msgstr "Abgelehnt"
+msgstr "Abgelehnt: Riesig"
 
 
 msgid "Rejected: Oversized File"
@@ -56307,9 +56257,8 @@ msgstr ""
 msgid "Error While Fetching Changes"
 msgstr ""
 
-#, fuzzy
 msgid "Repository Needs Update"
-msgstr "Repositories"
+msgstr "Repository benötigt Aktualisierung"
 
 
 #, fuzzy
@@ -56320,9 +56269,8 @@ msgstr ""
 "Benutzer,die diese Objekte sehen können."
 
 
-#, fuzzy
 msgid "Use default behavior."
-msgstr "Standard-Farbpalette"
+msgstr "Standardverhalten verwenden."
 
 
 msgid "Observe"
@@ -56334,9 +56282,8 @@ msgstr ""
 msgid "Copy from a remote."
 msgstr ""
 
-#, fuzzy
 msgid "Mirror"
-msgstr "Fehler"
+msgstr "Spiegel"
 
 
 msgid "A copy of any changes will be pushed to this URI."
@@ -56357,9 +56304,8 @@ msgstr ""
 msgid "A read-only copy of the repository will be served from this URI."
 msgstr ""
 
-#, fuzzy
 msgid "Serve repository in read-only mode."
-msgstr "Repositorynamen eintippen..."
+msgstr "Repository im Nur-Lese-Modus bereitstellen."
 
 
 msgid "A read/write copy of the repository will be served from this URI."
@@ -56374,14 +56320,12 @@ msgstr ""
 msgid "Show as a clone URI."
 msgstr ""
 
-#, fuzzy
 msgid "This URI will be hidden from users."
-msgstr "Dieses Bild wird vom Entwurf entfernt."
+msgstr "Diese URI wird vor Benutzern verborgen."
 
 
-#, fuzzy
 msgid "Do not show as a clone URI."
-msgstr "Umgebende Zeilen nicht berücksichtigen"
+msgstr "Nicht als Klon-URI anzeigen."
 
 
 msgid "The associated repository PHID."
@@ -56412,44 +56356,44 @@ msgstr "Epoch-Zeitstempel, wann das Objekt erstellt wurde."
 msgid "Epoch timestamp when the object was last updated."
 msgstr "Epoch-Zeitstempel, wann das Objekt zuletzt aktualisiert wurde."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s changed this URI from \"%s\" to \"%s\"."
-msgstr "%s hat den Titel von \"%s\" nach \"%s\" geändert."
+msgstr "%s hat diese URI von „%s\" auf „%s\" geändert."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s changed the I/O type for this URI from \"%s\" to \"%s\"."
-msgstr "%s hat die Sichtbarkeit des Objekts %s von \"%s\" auf \"%s\" geändert."
+msgstr "%s hat den I/O-Typ für diese URI von „%s\" auf „%s\" geändert."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s changed the display type for this URI from \"%s\" to \"%s\"."
-msgstr "%s hat die Sichtbarkeit des Objekts %s von \"%s\" auf \"%s\" geändert."
+msgstr "%s hat den Anzeigetyp für diese URI von „%s\" auf „%s\" geändert."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s disabled this URI."
-msgstr "%s hat diese Regel deaktiviert."
+msgstr "%s hat diese URI deaktiviert."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s enabled this URI."
-msgstr "%s hat diese Regel aktiviert."
+msgstr "%s hat diese URI aktiviert."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s changed the credential for this URI from %s to %s."
-msgstr "%s hat den Namen des Termins von %s auf %s geändert."
+msgstr "%s hat die Zugangsdaten für diese URI von %s auf %s geändert."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s removed %s as the credential for this URI."
-msgstr "%s hat \"%s\" als Vorgabe-Branch entfernt."
+msgstr "%s hat %s als Zugangsdaten für diese URI entfernt."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s set the credential for this URI to %s."
-msgstr "%s hat das Symbol für %s auf %s gesetzt."
+msgstr "%s hat die Zugangsdaten für diese URI auf %s gesetzt."
 
 
 #, php-format
@@ -56498,9 +56442,9 @@ msgid ""
 "Skipping import step; this step was previously completed for this commit."
 msgstr ""
 
-#, fuzzy, php-format
+#, php-format
 msgid "Failed to reload commit \"%s\"."
-msgstr "Konnte Kommentar \"%s\" leider nicht laden."
+msgstr "Commit „%s\" konnte nicht neu geladen werden."
 
 
 #, php-format
@@ -56629,9 +56573,9 @@ msgstr "%s hat dieses Repository aktiviert."
 msgid "%s deactivated this repository."
 msgstr "%s hat dieses Repository deaktiviert."
 
-#, fuzzy, php-format
+#, php-format
 msgid "Repository status \"%s\" is not valid. Valid statuses are: %s."
-msgstr "Der neue Chat-Teilnehmer \"%s\" ist kein gültiger Benutzer."
+msgstr "Repository-Status „%s\" ist ungültig. Gültige Status sind: %s."
 
 
 #, fuzzy, php-format
@@ -56639,14 +56583,14 @@ msgid "%s changed %s automation blueprint(s), added %s: %s; removed %s: %s."
 msgstr "%s hat %s Commit(s) verändert, %s hinzugefügt: %s; %s entfernt: %s."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s added %s automation blueprint(s): %s."
-msgstr "%s hat %s Commit(s) hinzugefügt: %s."
+msgstr "%s hat %s Automatisierungs-Blueprint(s) hinzugefügt: %s."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s removed %s automation blueprint(s): %s."
-msgstr "%s hat %s Commit(s) entfernt: %s."
+msgstr "%s hat %s Automatisierungs-Blueprint(s) entfernt: %s."
 
 
 #, php-format
@@ -56654,19 +56598,19 @@ msgid ""
 "Some of the selected automation blueprints are invalid or restricted: %s."
 msgstr ""
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s set the callsign for this repository to %s."
-msgstr "%s hat die Zeichencodierung für das Repository auf \"%s\" gesetzt."
+msgstr "%s hat das Rufzeichen für dieses Repository auf %s gesetzt."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s removed the callsign (%s) for this repository."
-msgstr "%s hat die \"%s\" Zeichencodierung vom Repository entfernt."
+msgstr "%s hat das Rufzeichen (%s) für dieses Repository entfernt."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s changed the callsign for this repository from %s to %s."
-msgstr "%s hat den Namen des Termins von %s auf %s geändert."
+msgstr "%s hat das Rufzeichen für dieses Repository von %s auf %s geändert."
 
 
 #, php-format
@@ -56684,9 +56628,9 @@ msgstr ""
 "geändert."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s set the copy time limit for this repository to %s seconds."
-msgstr "%s hat die Zeichencodierung für das Repository auf \"%s\" gesetzt."
+msgstr "%s hat das Zeitlimit für das Kopieren dieses Repositorys auf %s Sekunden gesetzt."
 
 
 #, fuzzy, php-format
@@ -56707,50 +56651,48 @@ msgstr ""
 msgid "%s enabled protection against dangerous changes."
 msgstr ""
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s removed %s as the default branch."
-msgstr "%s hat \"%s\" als Vorgabe-Branch entfernt."
+msgstr "%s hat %s als Standardbranch entfernt."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s set the default branch to %s."
-msgstr "%s hat den Vorgabe-Branch auf \"%s\" gesetzt."
+msgstr "%s hat den Standardbranch auf %s gesetzt."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s changed the default branch from %s to %s."
-msgstr "%s hat den Vorgabe-Branch von \"%s\" nach \"%s\" geändert."
+msgstr "%s hat den Standardbranch von %s auf %s geändert."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s updated the description for this repository."
-msgstr "%s hat die Beschreibung für dieses Repository aktualisiert."
+msgstr "%s hat die Beschreibung dieses Repositorys aktualisiert."
 
 
-#, fuzzy
 msgid "CHANGES TO REPOSITORY DESCRIPTION"
-msgstr "TERMIN BESCHREIBUNG"
+msgstr "ÄNDERUNGEN AN DER REPOSITORY-BESCHREIBUNG"
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s removed the %s encoding configured for this repository."
-msgstr "%s hat die \"%s\" Zeichencodierung vom Repository entfernt."
+msgstr "%s hat die für dieses Repository konfigurierte %s-Kodierung entfernt."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s set the encoding for this repository to %s."
-msgstr "%s hat die Zeichencodierung für das Repository auf \"%s\" gesetzt."
+msgstr "%s hat die Kodierung für dieses Repository auf %s gesetzt."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s changed the repository encoding from %s to %s."
-msgstr ""
-"%s hat die Repository Zeichencodierung von \"%s\" nach \"%s\" geändert."
+msgstr "%s hat die Repository-Kodierung von %s auf %s geändert."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "Repository encoding \"%s\" is not valid: %s"
-msgstr "Der neue Chat-Teilnehmer \"%s\" ist kein gültiger Benutzer."
+msgstr "Repository-Kodierung „%s\" ist ungültig: %s"
 
 
 #, php-format
@@ -56761,19 +56703,19 @@ msgstr ""
 msgid "%s enabled protection against enormous changes."
 msgstr ""
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s set this repository to fetch all refs."
-msgstr "%s läßt das Repository alle Branches verfolgen."
+msgstr "%s hat dieses Repository so eingestellt, dass alle Refs abgerufen werden."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s set this repository to fetch refs: %s."
-msgstr "%s läßt das Repository die folgenden Branches verfolgen: %s."
+msgstr "%s hat dieses Repository so eingestellt, dass Refs abgerufen werden: %s."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s changed fetched refs from %s to %s."
-msgstr "%s hat den Namen von %s von %s auf %s geändert."
+msgstr "%s hat die abgerufenen Refs von %s auf %s geändert."
 
 
 #, php-format
@@ -56800,111 +56742,101 @@ msgid ""
 msgstr "%s hat die Sichtbarkeit dieses Chats von \"%s\" auf \"%s\" geändert."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s set the filesize limit for this repository to %s bytes."
-msgstr "%s hat die Zeichencodierung für das Repository auf \"%s\" gesetzt."
+msgstr "%s hat das Dateigrößenlimit für dieses Repository auf %s Bytes gesetzt."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s removed the filesize limit (%s bytes) for this repository."
-msgstr "%s hat die \"%s\" Zeichencodierung vom Repository entfernt."
+msgstr "%s hat das Dateigrößenlimit (%s Bytes) für dieses Repository entfernt."
 
 
 #, php-format
 msgid "Unable to parse filesize limit: %s"
 msgstr ""
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s assigned this identity to %s."
-msgstr "%s hat diese Aufgabe %s zugewiesen."
+msgstr "%s hat diese Identität %s zugewiesen."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s removed %s as the assignee of this identity."
-msgstr "%s hat den individuellen Namen dieser Spalte entfernt."
+msgstr "%s hat %s als Zugewiesenen dieser Identität entfernt."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s changed the assigned user for this identity from %s to %s."
-msgstr "%s hat den Namen des Termins von %s auf %s geändert."
+msgstr "%s hat den zugewiesenen Benutzer für diese Identität von %s auf %s geändert."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s took this repository out of maintenance mode."
-msgstr ""
-"%s hat dieses Repository auf 'autoclose' für die folgenden Branches gesetzt: "
-"%s"
+msgstr "%s hat dieses Repository aus dem Wartungsmodus genommen."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s put this repository into maintenance mode."
-msgstr ""
-"%s hat dieses Repository auf 'autoclose' für die folgenden Branches gesetzt: "
-"%s"
+msgstr "%s hat dieses Repository in den Wartungsmodus versetzt."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s updated the maintenance message for this repository."
-msgstr "%s hat die Beschreibung für dieses Repository aktualisiert."
+msgstr "%s hat die Wartungsmeldung für dieses Repository aktualisiert."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s renamed this repository from %s to %s."
-msgstr "%s hat dieses Repository von \"%s\" nach \"%s\" umbenannt."
+msgstr "%s hat dieses Repository von %s in %s umbenannt."
 
 
-#, fuzzy
 msgid "Repositories must have a name."
-msgstr "Zonen müssen einen Namen haben"
+msgstr "Repositories müssen einen Namen haben."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s enabled publishing for this repository."
-msgstr ""
-"%s hat Benachrichtungen und Veröffentlichungen für dieses Repository "
-"aktiviert."
+msgstr "%s hat die Veröffentlichung für dieses Repository aktiviert."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s disabled publishing for this repository."
-msgstr ""
-"%s hat Benachrichtigungen und Veröffentlichungen für dieses Repository "
-"deaktiviert."
+msgstr "%s hat die Veröffentlichung für dieses Repository deaktiviert."
 
 
 #, php-format
 msgid "%s marked all branches in this repository as permanent."
 msgstr ""
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s set the permanent refs for this repository to: %s."
-msgstr "%s hat die Zeichencodierung für das Repository auf \"%s\" gesetzt."
+msgstr "%s hat die permanenten Refs für dieses Repository auf %s gesetzt."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s changed permanent refs for this repository from %s to %s."
-msgstr "%s hat dieses Repository von \"%s\" nach \"%s\" umbenannt."
+msgstr "%s hat die permanenten Refs für dieses Repository von %s auf %s geändert."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s changed the push policy of this repository from %s to %s."
-msgstr ""
-"%s hat die Editier-Berechtigung dieses Chats von \"%s\" auf \"%s\" geändert."
+msgstr "%s hat die Push-Richtlinie dieses Repositorys von %s auf %s geändert."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s removed %s as the \"Import Only\" path."
-msgstr "%s hat \"%s\" als Vorgabe-Branch entfernt."
+msgstr "%s hat %s als „Nur importieren\"-Pfad entfernt."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s set the repository \"Import Only\" path to %s."
-msgstr "%s hat die Repository-UUID auf \"%s\" gesetzt."
+msgstr "%s hat den „Nur importieren\"-Pfad des Repositorys auf %s gesetzt."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s changed the \"Import Only\" path from %s to %s."
-msgstr "%s hat den Namen des Termins von %s auf %s geändert."
+msgstr "%s hat den „Nur importieren\"-Pfad von %s auf %s geändert."
 
 
 #, php-format
@@ -56919,19 +56851,19 @@ msgstr ""
 msgid "%s moved storage for this repository from %s to %s."
 msgstr ""
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s removed the short name of this repository."
-msgstr "%s hat den individuellen Namen dieser Spalte entfernt."
+msgstr "%s hat den Kurznamen dieses Repositorys entfernt."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s set the short name of this repository to %s."
-msgstr "%s hat die Zeichencodierung für das Repository auf \"%s\" gesetzt."
+msgstr "%s hat den Kurznamen dieses Repositorys auf %s gesetzt."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s changed the short name of this repository from %s to %s."
-msgstr "%s hat den Namen des Termins von %s auf %s geändert."
+msgstr "%s hat den Kurznamen dieses Repositorys von %s auf %s geändert."
 
 
 msgid ""
@@ -56939,14 +56871,14 @@ msgid ""
 "Choose a unique short name."
 msgstr ""
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s set %s as the staging area for this repository."
-msgstr "%s hat die Zeichencodierung für das Repository auf \"%s\" gesetzt."
+msgstr "%s hat %s als Staging-Bereich für dieses Repository festgelegt."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s removed %s as the staging area for this repository."
-msgstr "%s hat die \"%s\" Zeichencodierung vom Repository entfernt."
+msgstr "%s hat %s als Staging-Bereich für dieses Repository entfernt."
 
 
 #, fuzzy, php-format
@@ -56977,14 +56909,14 @@ msgstr ""
 "%s hat die Editier-Berechtigung dieses Chats von \"%s\" auf \"%s\" geändert."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s set the touch limit for this repository to %s paths."
-msgstr "%s hat die Zeichencodierung für das Repository auf \"%s\" gesetzt."
+msgstr "%s hat das Touch-Limit für dieses Repository auf %s Pfade gesetzt."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s removed the touch limit (%s paths) for this repository."
-msgstr "%s hat die \"%s\" Zeichencodierung vom Repository entfernt."
+msgstr "%s hat das Touch-Limit (%s Pfade) für dieses Repository entfernt."
 
 
 msgid "Unable to parse touch limit, specify a positive number of paths."
@@ -56998,9 +56930,9 @@ msgstr "%s läßt das Repository alle Branches verfolgen."
 msgid "%s set this repository to track branches: %s."
 msgstr "%s läßt das Repository die folgenden Branches verfolgen: %s."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s changed tracked branches from %s to %s."
-msgstr "%s hat die Verfolgung von Branches von \"%s\" nach \"%s\" geändert."
+msgstr "%s hat die verfolgten Branches von %s auf %s geändert."
 
 
 #, php-format
