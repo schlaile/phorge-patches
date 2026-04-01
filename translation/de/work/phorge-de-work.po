@@ -632,9 +632,8 @@ msgstr "Almanac"
 msgid "Service Directory"
 msgstr "Diensteverzeichnis"
 
-#, fuzzy
 msgid "Almanac User Guide"
-msgstr "Benutzerhandbuch für Zonen"
+msgstr "Almanac-Benutzerhandbuch"
 
 
 msgid "Learn More"
@@ -650,14 +649,12 @@ msgstr "Geräte anlegen"
 msgid "You do not have permission to create Almanac devices."
 msgstr "Du hast keine Berechtigung, Almanac-Geräte anzulegen."
 
-#, fuzzy
 msgid "Can Create Namespaces"
-msgstr "Darf Zonen erzeugen"
+msgstr "Kann Namensräume erstellen"
 
 
-#, fuzzy
 msgid "You do not have permission to create Almanac namespaces."
-msgstr "Du hast keine Berechtigung, um Zonen zu erzeugen."
+msgstr "Du hast keine Berechtigung, Almanac-Namensräume zu erstellen."
 
 
 msgid "Can Create Networks"
@@ -672,14 +669,12 @@ msgstr "Dienste anlegen"
 msgid "You do not have permission to create Almanac services."
 msgstr "Du hast keine Berechtigung, Almanac-Dienste anzulegen."
 
-#, fuzzy
 msgid "Can Manage Cluster Services"
-msgstr "Darf globale Regeln verändern"
+msgstr "Kann Cluster-Dienste verwalten"
 
 
-#, fuzzy
 msgid "You do not have permission to manage Almanac cluster services."
-msgstr "Du hast keine Berechtigung, um globale Herald-Regeln zu verändern."
+msgstr "Du hast keine Berechtigung, Almanac-Cluster-Dienste zu verwalten."
 
 
 msgid "Apply transactions to create a new binding or edit an existing one."
@@ -728,17 +723,15 @@ msgstr "Aktiv"
 msgid "Disabled"
 msgstr "Deaktiviert"
 
-#, fuzzy
 msgid "Disable Binding"
-msgstr "Deaktiviert"
+msgstr "Bindung deaktivieren"
 
 
 msgid "Disable this binding?"
 msgstr "Diese Bindung deaktivieren?"
 
-#, fuzzy
 msgid "Enable Binding"
-msgstr "Aktiviert"
+msgstr "Bindung aktivieren"
 
 
 msgid "Enable this binding?"
@@ -756,9 +749,8 @@ msgstr "Bindung erstellen"
 msgid "Interface"
 msgstr "Schnittstelle"
 
-#, fuzzy
 msgid "Binding"
-msgstr "Zeichenkodierung ändern"
+msgstr "Bindung"
 
 
 #, php-format
@@ -803,9 +795,8 @@ msgstr "Netzwerke"
 msgid "Manage public and private networks."
 msgstr "Öffentliche und private Netzwerke verwalten."
 
-#, fuzzy
 msgid "Namespaces"
-msgstr "Namensräume für Berechtigungen"
+msgstr "Namensräume"
 
 
 msgid "Control who can create new named services and devices."
@@ -891,9 +882,8 @@ msgid ""
 "more services are bound to it."
 msgstr ""
 
-#, fuzzy
 msgid "Delete Interface"
-msgstr "Benutzer löschen"
+msgstr "Schnittstelle löschen"
 
 
 #, php-format
@@ -905,9 +895,8 @@ msgid "Namespace %s"
 msgstr "Namensraum %s"
 
 
-#, fuzzy
 msgid "Edit Namespace"
-msgstr "Zone ändern"
+msgstr "Namensraum bearbeiten"
 
 
 msgid "Create Network"
@@ -930,14 +919,13 @@ msgstr "Eigenschaft \\\"%s\\\" auf Standardwert zurücksetzen?"
 msgid "Delete Property"
 msgstr "Eigenschaft löschen"
 
-#, fuzzy, php-format
+#, php-format
 msgid "Delete property \"%s\"?"
-msgstr "Regel '%s' gelöscht."
+msgstr "Eigenschaft „%s\" löschen?"
 
 
-#, fuzzy
 msgid "Invalid Property"
-msgstr "Diese Eigenschaft"
+msgstr "Ungültige Eigenschaft"
 
 
 #, php-format
@@ -972,9 +960,8 @@ msgstr "Diensttyp auswählen"
 msgid "Service %s"
 msgstr "Dienst %s"
 
-#, fuzzy
 msgid "This is a cluster service."
-msgstr "Dies ist eine Datei."
+msgstr "Dies ist ein Cluster-Dienst."
 
 
 msgid ""
@@ -1017,9 +1004,8 @@ msgstr ""
 msgid "Service to create a binding for."
 msgstr "Dienst, für den eine Bindung erstellt werden soll."
 
-#, fuzzy
 msgid "Select the service to bind."
-msgstr "Hinzuzufügendes Panel auswählen"
+msgstr "Den zu bindenden Dienst auswählen."
 
 
 msgid "Service PHID."
@@ -1077,9 +1063,8 @@ msgstr "Name des Geräts."
 msgid "Status"
 msgstr "Status"
 
-#, fuzzy
 msgid "Device status."
-msgstr "Termin löschen"
+msgstr "Gerätestatus."
 
 
 msgid "Almanac Device"
@@ -1121,9 +1106,8 @@ msgstr "Beim Erstellen einer Schnittstelle das Gerät festlegen."
 msgid "Set the device."
 msgstr "Gerät festlegen."
 
-#, fuzzy
 msgid "Device PHID."
-msgstr "Objekt PHID"
+msgstr "Gerät-PHID."
 
 
 msgid "Network for the interface."
@@ -1132,9 +1116,8 @@ msgstr "Netzwerk für die Schnittstelle."
 msgid "Address"
 msgstr "Adresse"
 
-#, fuzzy
 msgid "Address of the service."
-msgstr "Grund für die Umbenennung"
+msgstr "Adresse des Dienstes."
 
 
 msgid "Port"
@@ -1146,9 +1129,9 @@ msgstr "Port des Dienstes."
 msgid "Almanac Interface"
 msgstr "Almanac-Schnittstelle"
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s created this interface."
-msgstr "%s hat diese Zone erzeugt."
+msgstr "%s hat diese Schnittstelle erstellt."
 
 
 msgid ""
@@ -1156,9 +1139,8 @@ msgid ""
 "port."
 msgstr ""
 
-#, fuzzy
 msgid "Almanac Namespaces"
-msgstr "Namensräume für Berechtigungen"
+msgstr "Almanac-Namensräume"
 
 
 msgid "Edit Almanac Namespace Configurations"
@@ -1167,9 +1149,8 @@ msgstr "Almanac-Namensraumkonfigurationen bearbeiten"
 msgid "This engine is used to edit Almanac namespaces."
 msgstr "Diese Engine wird zum Bearbeiten von Almanac-Namensräumen verwendet."
 
-#, fuzzy
 msgid "Create Namespace"
-msgstr "Zone erzeugen"
+msgstr "Namensraum erstellen"
 
 
 #, php-format
@@ -1177,22 +1158,20 @@ msgid "Edit Namespace: %s"
 msgstr "Namensraum bearbeiten: %s"
 
 
-#, fuzzy
 msgid "Namespace"
-msgstr "Namensräume für Berechtigungen"
+msgstr "Namensraum"
 
 
 msgid "Name of the namespace."
 msgstr "Name des Namensraums."
 
-#, fuzzy
 msgid "Almanac Namespace"
-msgstr "Namensräume für Berechtigungen"
+msgstr "Almanac-Namensraum"
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s created this namespace."
-msgstr "%s hat diese Zone erzeugt."
+msgstr "%s hat diesen Namensraum erstellt."
 
 
 #, fuzzy
@@ -1207,17 +1186,16 @@ msgstr ""
 msgid "Almanac Networks"
 msgstr "Almanac-Netzwerke"
 
-#, fuzzy
 msgid "Edit Almanac Network Configurations"
-msgstr "Phabricator Konfiguration"
+msgstr "Almanac-Netzwerk-Konfigurationen bearbeiten"
 
 
 msgid "This engine is used to edit Almanac networks."
 msgstr "Diese Engine wird zum Bearbeiten von Almanac-Netzwerken verwendet."
 
-#, fuzzy, php-format
+#, php-format
 msgid "Edit Network: %s"
-msgstr "Prüfer: %s"
+msgstr "Netzwerk bearbeiten: %s"
 
 
 msgid "Name of the network."
@@ -1230,9 +1208,8 @@ msgstr "Almanac-Netzwerk"
 msgid "%s created this network."
 msgstr "%s hat dieses Netzwerk erstellt."
 
-#, fuzzy
 msgid "Almanac Properties"
-msgstr "Eigenschaften"
+msgstr "Almanac-Eigenschaften"
 
 
 msgid "Edit Almanac Property Configurations"
@@ -1241,9 +1218,8 @@ msgstr "Almanac-Eigenschaftskonfigurationen bearbeiten"
 msgid "This engine is used to edit Almanac properties."
 msgstr "Diese Engine wird zum Bearbeiten von Almanac-Eigenschaften verwendet."
 
-#, fuzzy
 msgid "Create Property"
-msgstr "Neues Projekt"
+msgstr "Eigenschaft erstellen"
 
 
 #, php-format
@@ -1257,9 +1233,8 @@ msgstr "Eigenschaft bearbeiten"
 msgid "Almanac Services"
 msgstr "Almanac-Dienste"
 
-#, fuzzy
 msgid "Edit Almanac Service Configurations"
-msgstr "Phabricator Konfiguration"
+msgstr "Almanac-Dienst-Konfigurationen bearbeiten"
 
 
 msgid "This engine is used to edit Almanac services."
@@ -1279,9 +1254,8 @@ msgid "Edit Service: %s"
 msgstr "Dienst bearbeiten: %s"
 
 
-#, fuzzy
 msgid "Name of the service."
-msgstr "Eine Datei auf den Server hochladen."
+msgstr "Name des Dienstes."
 
 
 msgid "Type"
@@ -1307,17 +1281,15 @@ msgid "Restricted"
 msgstr "Eingeschränkt"
 
 
-#, fuzzy
 msgid "You do not have permission to manage cluster services."
-msgstr "Du hast keine Berechtigung, um globale Herald-Regeln zu verändern."
+msgstr "Du hast keine Berechtigung, Cluster-Dienste zu verwalten."
 
 
 msgid "Get Almanac bindings for the service."
 msgstr "Almanac-Bindungen für den Dienst abrufen."
 
-#, fuzzy
 msgid "Almanac Core Objects"
-msgstr "Kann Projekte erstellen"
+msgstr "Almanac-Kernobjekte"
 
 
 msgid ""
@@ -1557,14 +1529,12 @@ msgstr "Bindungen für bestimmte Dienste suchen."
 msgid "Search for bindings on particular devices."
 msgstr "Bindungen für bestimmte Geräte suchen."
 
-#, fuzzy
 msgid "All Bindings"
-msgstr "Alle Blogs"
+msgstr "Alle Bindungen"
 
 
-#, fuzzy
 msgid "Device Name"
-msgstr "Name der Regel"
+msgstr "Gerätename"
 
 
 msgid "Name Contains"
@@ -1597,9 +1567,8 @@ msgstr "Nur Cluster-Geräte"
 msgid "Non-cluster Devices Only"
 msgstr "Nur Nicht-Cluster-Geräte"
 
-#, fuzzy
 msgid "Active Devices"
-msgstr "Aktive Zonen"
+msgstr "Aktive Geräte"
 
 
 msgid "All Devices"
@@ -1611,9 +1580,8 @@ msgstr "Keine Almanac-Geräte gefunden."
 msgid "See Networks"
 msgstr "Netzwerke anzeigen"
 
-#, fuzzy
 msgid "Create a Device"
-msgstr "Zone erzeugen"
+msgstr "Gerät erstellen"
 
 
 #, php-format
@@ -1629,27 +1597,23 @@ msgstr ""
 msgid "Search for interfaces on particular devices."
 msgstr "Schnittstellen auf bestimmten Geräten suchen."
 
-#, fuzzy
 msgid "All Interfaces"
-msgstr "Alle Zonen"
+msgstr "Alle Schnittstellen"
 
 
-#, fuzzy
 msgid "Namespace Name"
-msgstr "Voller Name"
+msgstr "Namensraumname"
 
 
 msgid "Search for namespaces by name substring."
 msgstr "Namensräume anhand eines Namensausschnitts suchen."
 
-#, fuzzy
 msgid "All Namespaces"
-msgstr "Namensräume für Berechtigungen"
+msgstr "Alle Namensräume"
 
 
-#, fuzzy
 msgid "No Almanac namespaces found."
-msgstr "Keine Zonen gefunden."
+msgstr "Keine Almanac-Namensräume gefunden."
 
 
 msgid "Search for networks by name substring."
@@ -1661,9 +1625,8 @@ msgstr "Alle Netzwerke"
 msgid "No Almanac Networks found."
 msgstr "Keine Almanac-Netzwerke gefunden."
 
-#, fuzzy
 msgid "Create a Network"
-msgstr "Neues Projekt erstellen"
+msgstr "Netzwerk erstellen"
 
 
 msgid "Use Almanac networks to catalogue private and public computer networks."
@@ -1678,9 +1641,8 @@ msgstr "Dienste anhand eines Namensausschnitts suchen."
 msgid "Search for services with specific names."
 msgstr "Dienste mit bestimmten Namen suchen."
 
-#, fuzzy
 msgid "Service Types"
-msgstr "Mimetyp"
+msgstr "Diensttypen"
 
 
 msgid "Find services by type."
@@ -1698,9 +1660,8 @@ msgstr "Keine Almanac-Dienste gefunden."
 msgid "See Devices"
 msgstr "Geräte anzeigen"
 
-#, fuzzy
 msgid "Create a Service"
-msgstr "Zone erzeugen"
+msgstr "Dienst erstellen"
 
 
 msgid ""
@@ -1711,9 +1672,8 @@ msgstr ""
 msgid "Cluster Database"
 msgstr "Cluster-Datenbank"
 
-#, fuzzy
 msgid "Cluster: Database"
-msgstr "Datenbank"
+msgstr "Cluster: Datenbank"
 
 
 msgid "Defines a database service for use in a cluster."
@@ -1722,27 +1682,23 @@ msgstr "Definiert einen Datenbankdienst für die Verwendung in einem Cluster."
 msgid "Cluster Repository"
 msgstr "Cluster-Repository"
 
-#, fuzzy
 msgid "Cluster: Repository"
-msgstr "Neues Repository"
+msgstr "Cluster: Repository"
 
 
 msgid "Defines a repository service for use in a cluster."
 msgstr "Definiert einen Repository-Dienst für die Verwendung in einem Cluster."
 
-#, fuzzy
 msgid "Allow New Repositories"
-msgstr "Alle Repositories"
+msgstr "Neue Repositories erlauben"
 
 
-#, fuzzy
 msgid "Prevent New Repositories"
-msgstr "Inaktive Repositories"
+msgstr "Neue Repositories verhindern"
 
 
-#, fuzzy
 msgid "Prevent Writes"
-msgstr "zurückgerollt"
+msgstr "Schreibzugriff verhindern"
 
 
 msgid "Allow Writes"
@@ -1782,19 +1738,16 @@ msgstr "Das Gerät, an das der Dienst gebunden ist."
 msgid "The interface the service is bound to."
 msgstr "Die Schnittstelle, an die der Dienst gebunden ist."
 
-#, fuzzy
 msgid "Interface status."
-msgstr "Neuer Termin"
+msgstr "Schnittstellenstatus."
 
 
-#, fuzzy
 msgid "The name of the device."
-msgstr "Der neue Pfad des Dokuments."
+msgstr "Der Name des Geräts."
 
 
-#, fuzzy
 msgid "Device status information."
-msgstr "Grundeinstellungen"
+msgstr "Gerätestatusinformationen."
 
 
 msgid "True if device is disabled."
@@ -1833,9 +1786,8 @@ msgstr "Eigenschaften erben die Richtlinien ihres Objekts."
 msgid "No Almanac service type \"%s\" exists!"
 msgstr "Kein Almanac-Diensttyp \\\"%s\\\" vorhanden!"
 
-#, fuzzy
 msgid "The name of the service."
-msgstr "Eine Datei auf den Server hochladen."
+msgstr "Der Name des Dienstes."
 
 
 msgid "The service type constant."
@@ -1853,14 +1805,12 @@ msgstr "Dienste durchsuchen"
 msgid "Type a service name..."
 msgstr "Dienstname eingeben..."
 
-#, fuzzy
 msgid "Browse Service Types"
-msgstr "Zonen durchsuchen"
+msgstr "Diensttypen durchsuchen"
 
 
-#, fuzzy
 msgid "Type a service type name..."
-msgstr "Benutzername eintippen..."
+msgstr "Diensttyp-Namen eintippen..."
 
 
 #, php-format
@@ -1909,9 +1859,8 @@ msgid ""
 "and end with a letter or number."
 msgstr ""
 
-#, fuzzy
 msgid "Device Disabled"
-msgstr "Deaktiviert"
+msgstr "Gerät deaktiviert"
 
 
 msgid "ID"
@@ -1920,29 +1869,29 @@ msgstr "ID"
 msgid "Edit"
 msgstr "Ändern"
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s disabled this binding."
-msgstr "%s hat diesen Dienstleister deaktiviert."
+msgstr "%s hat diese Bindung deaktiviert."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s enabled this binding."
-msgstr "%s hat diesen Dienstleister aktiviert."
+msgstr "%s hat diese Bindung aktiviert."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s set the interface for this binding to %s."
-msgstr "%s hat das Symbol für %s auf %s gesetzt."
+msgstr "%s hat die Schnittstelle dieser Bindung auf %s gesetzt."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s removed the interface for this binding."
-msgstr "%s hat den individuellen Namen dieser Spalte entfernt."
+msgstr "%s hat die Schnittstelle dieser Bindung entfernt."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s changed the interface for this binding from %s to %s."
-msgstr "%s hat den Namen des Termins von %s auf %s geändert."
+msgstr "%s hat die Schnittstelle dieser Bindung von %s auf %s geändert."
 
 
 msgid "Bindings must specify an interface."
@@ -1954,9 +1903,8 @@ msgstr "Ein Dienst kann nicht an eine ungültige oder eingeschränkte Schnittste
 msgid "You can not bind a service to the same interface multiple times."
 msgstr "Ein Dienst kann nicht mehrfach an dieselbe Schnittstelle gebunden werden."
 
-#, fuzzy
 msgid "Bindings must have a service."
-msgstr "Zonen müssen einen Namen haben"
+msgstr "Bindungen müssen einen Dienst haben."
 
 
 msgid "The service for a binding can not be changed once it has been created."
@@ -1970,9 +1918,9 @@ msgid "You can not bind a service which you do not have permission to edit."
 msgstr "Du hast leider keine Berechtigung, dieses Objekt zu verändern."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s renamed this device from %s to %s."
-msgstr "%s hat diese Zone von \"%s\" nach \"%s\" umbenannt."
+msgstr "%s hat dieses Gerät von %s in %s umbenannt."
 
 
 msgid "Device name is required."
@@ -1988,9 +1936,9 @@ msgid ""
 msgstr ""
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s changed the status of this device from %s to %s."
-msgstr "%s hat den Namen des Termins von %s auf %s geändert."
+msgstr "%s hat den Status dieses Geräts von %s auf %s geändert."
 
 
 #, php-format
@@ -1998,22 +1946,21 @@ msgid ""
 "Almanac device status \"%s\" is unrecognized. Valid status values are: %s."
 msgstr ""
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s changed the address for this interface from %s to %s."
-msgstr "%s hat den Namen des Termins von %s auf %s geändert."
+msgstr "%s hat die Adresse dieser Schnittstelle von %s auf %s geändert."
 
 
 msgid "Interfaces must have an address."
 msgstr "Schnittstellen müssen eine Adresse haben."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s changed the device for this interface from %s to %s."
-msgstr "%s hat den Namen des Termins von %s auf %s geändert."
+msgstr "%s hat das Gerät dieser Schnittstelle von %s auf %s geändert."
 
 
-#, fuzzy
 msgid "Interfaces must have a device."
-msgstr "Zonen müssen einen Namen haben"
+msgstr "Schnittstellen müssen ein Gerät haben."
 
 
 msgid ""
@@ -2028,40 +1975,38 @@ msgid ""
 "to edit."
 msgstr ""
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s changed the network for this interface from %s to %s."
-msgstr "%s hat den Namen des Termins von %s auf %s geändert."
+msgstr "%s hat das Netzwerk dieser Schnittstelle von %s auf %s geändert."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s set the network for this interface to %s."
-msgstr "%s hat die Zeichencodierung für das Repository auf \"%s\" gesetzt."
+msgstr "%s hat das Netzwerk dieser Schnittstelle auf %s gesetzt."
 
 
-#, fuzzy
 msgid "Interfaces must have a network."
-msgstr "Zonen müssen einen Namen haben"
+msgstr "Schnittstellen müssen ein Netzwerk haben."
 
 
 msgid "You can not put an interface on a nonexistent or restricted network."
 msgstr "Eine Schnittstelle kann nicht in einem nicht vorhandenen oder eingeschränkten Netzwerk platziert werden."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s changed the port for this interface from %s to %s."
-msgstr "%s hat den Namen des Termins von %s auf %s geändert."
+msgstr "%s hat den Port dieser Schnittstelle von %s auf %s geändert."
 
 
-#, fuzzy
 msgid "Interfaces must have a port number."
-msgstr "Zonen müssen einen Namen haben"
+msgstr "Schnittstellen müssen eine Portnummer haben."
 
 
 msgid "Port numbers must be between 1 and 65535, inclusive."
 msgstr "Portnummern müssen zwischen 1 und 65535 (einschließlich) liegen."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s renamed this namespace from %s to %s."
-msgstr "%s hat diese Zone von \"%s\" nach \"%s\" umbenannt."
+msgstr "%s hat diesen Namensraum von %s in %s umbenannt."
 
 
 #, php-format
@@ -2069,9 +2014,8 @@ msgid "%s renamed %s from %s to %s."
 msgstr "%s hat %s von %s in %s umbenannt."
 
 
-#, fuzzy
 msgid "Namespace name is required."
-msgstr "Ohne Angabe des vollen Namens geht es nicht."
+msgstr "Namensraumname ist erforderlich."
 
 
 #, php-format
@@ -2087,27 +2031,25 @@ msgid ""
 msgstr ""
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s renamed this network from %s to %s."
-msgstr "%s hat den Entwurf von \"%s\" zu \"%s\" umbenannt."
+msgstr "%s hat dieses Netzwerk von %s in %s umbenannt."
 
 
 msgid "Network name is required."
 msgstr "Ein Netzwerkname ist erforderlich."
 
-#, fuzzy
 msgid "Almanac networks must have unique names."
-msgstr "Zonen müssen einen Namen haben"
+msgstr "Almanac-Netzwerke müssen eindeutige Namen haben."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s renamed this service from %s to %s."
-msgstr "%s hat diese Zone von \"%s\" nach \"%s\" umbenannt."
+msgstr "%s hat diesen Dienst von %s in %s umbenannt."
 
 
-#, fuzzy
 msgid "Almanac services must have a name."
-msgstr "Zonen müssen einen Namen haben"
+msgstr "Almanac-Dienste müssen einen Namen haben."
 
 
 msgid "Almanac services must have unique names."
@@ -2120,9 +2062,8 @@ msgid ""
 msgstr ""
 
 
-#, fuzzy
 msgid "You must select a service type when creating a service."
-msgstr "Du mußt einen Panel-Typ auswählen."
+msgstr "Du musst einen Diensttyp auswählen, wenn Du einen Dienst erstellst."
 
 
 msgid "The type of a service can not be changed once it has been created."
@@ -2132,9 +2073,9 @@ msgstr "Der Typ eines Dienstes kann nach der Erstellung nicht geändert werden."
 msgid "Service type \"%s\" is not valid. Valid types are: %s."
 msgstr "Diensttyp \\\"%s\\\" ist ungültig. Gültige Typen: %s."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s updated the property %s."
-msgstr "%s hat das Diff für %s geändert."
+msgstr "%s hat die Eigenschaft %s aktualisiert."
 
 
 #, php-format
