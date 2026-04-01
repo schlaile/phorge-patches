@@ -42734,14 +42734,12 @@ msgstr "Owners-Benutzerhandbuch"
 msgid "Adopt today!"
 msgstr "Jetzt adoptieren!"
 
-#, fuzzy
 msgid "Default view policy for newly created packages."
-msgstr "Standard Sichtbarkeits-Richtlinie für neu erzeugte Zonen."
+msgstr "Standard-Anzeigerichtlinie für neu erstellte Pakete."
 
 
-#, fuzzy
 msgid "Default edit policy for newly created packages."
-msgstr "Standard Editier-Richtline für neu erzeugte Zonen."
+msgstr "Standard-Bearbeitungsrichtlinie für neu erstellte Pakete."
 
 
 msgid ""
@@ -43386,9 +43384,9 @@ msgstr "Verlagsschlüssel"
 msgid "Unique key to identify the publisher."
 msgstr "Eindeutiger Schlüssel zur Identifizierung des Verlags."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s created this publisher."
-msgstr "%s hat diesen Dienstleister erstellt."
+msgstr "%s hat diesen Verleger erstellt."
 
 
 #, php-format
@@ -43417,9 +43415,9 @@ msgstr "Paket für diese Version."
 msgid "Name of the version."
 msgstr "Name der Version."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s created this version."
-msgstr "%s hat diesen Termin erzeugt."
+msgstr "%s hat diese Version erstellt."
 
 
 #, php-format
@@ -43444,9 +43442,8 @@ msgstr "Nach Verlagen anhand von Namensteilzeichenketten suchen."
 msgid "All Publishers"
 msgstr "Alle Verlage"
 
-#, fuzzy
 msgid "No publishers found."
-msgstr "Keine Regeln gefunden."
+msgstr "Keine Verleger gefunden."
 
 
 msgid "Search for versions by name substring."
@@ -43455,14 +43452,12 @@ msgstr "Nach Versionen anhand von Namensteilzeichenketten suchen."
 msgid "Search for versions by package."
 msgstr "Nach Versionen nach Paket suchen."
 
-#, fuzzy
 msgid "All Versions"
-msgstr "Versionen"
+msgstr "Alle Versionen"
 
 
-#, fuzzy
 msgid "No versions found."
-msgstr "Keine Termine gefunden."
+msgstr "Keine Versionen gefunden."
 
 
 #, php-format
@@ -43578,7 +43573,7 @@ msgstr "Sobald ein Paket erstellt wurde, kann sein Schlüssel nicht mehr geände
 msgid "%s changed the name of this package from %s to %s."
 msgstr "%s hat den Namen dieses Pakets von %s auf %s geändert."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s updated the name for %s from %s to %s."
 msgstr "%s hat den Namen von %s von %s auf %s geändert."
 
