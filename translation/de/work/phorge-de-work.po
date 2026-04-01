@@ -64932,66 +64932,62 @@ msgid "General"
 msgstr ""
 
 msgid "PHP Profiling Tool"
-msgstr ""
+msgstr "PHP-Profiling-Werkzeug"
 
-#, fuzzy
 msgid "Drag and drop .xhprof files to import them."
-msgstr "Hier ein Bild draufziehen, um es hochzuladen."
+msgstr ".xhprof-Dateien per Drag-and-Drop importieren."
 
 
 msgid "Failed to unserialize XHProf profile!"
-msgstr ""
+msgstr "XHProf-Profil konnte nicht deserialisiert werden!"
 
 #, php-format
 msgid "%s Profile"
-msgstr ""
+msgstr "%s-Profil"
 
 msgid "XHProf Samples"
-msgstr ""
+msgstr "XHProf-Samples"
 
-#, fuzzy
 msgid "All Samples"
-msgstr "Alle Zonen"
+msgstr "Alle Samples"
 
 
 #, php-format
 msgid "%s μs"
-msgstr ""
+msgstr "%s μs"
 
 msgid "Manual Run"
-msgstr ""
+msgstr "Manueller Lauf"
 
 #, php-format
 msgid "Sampled (1/%d)"
-msgstr ""
+msgstr "Gesamplet (1/%d)"
 
-#, fuzzy
 msgid "Drop .xhprof Files to Import"
-msgstr "⇪ Dateien zum Hochladen hier ablegen"
+msgstr "⇪ .xhprof-Dateien zum Importieren ablegen"
 
 
-#, fuzzy
 msgid "Unnamed Sample"
-msgstr "Unbenannte Spalte"
+msgstr "Unbenanntes Sample"
 
 
 msgid "Metrics for this Call"
-msgstr ""
+msgstr "Metriken für diesen Aufruf"
 
 msgid "Parent Calls"
-msgstr ""
+msgstr "Aufrufende Funktionen"
 
 msgid "Child Calls"
-msgstr ""
+msgstr "Aufgerufene Funktionen"
 
 msgid "Symbol"
-msgstr ""
+msgstr "Symbol"
 
 msgid "Wall Time"
-msgstr ""
+msgstr "Wandzeit"
 
 msgid "XHProf Profile"
-msgstr ""
+msgstr "XHProf-Profil"
 
 msgid ""
 "Total wall time spent in this function and all of its children (children are "
@@ -64999,7 +64995,7 @@ msgid ""
 msgstr ""
 
 msgid "Wall Time (Inclusive)"
-msgstr ""
+msgstr "Wandzeit (inkl. Aufrufe)"
 
 msgid ""
 "Wall time spent in this function, excluding time spent in children (children "
@@ -65007,11 +65003,11 @@ msgid ""
 msgstr ""
 
 msgid "Wall Time (Exclusive)"
-msgstr ""
+msgstr "Wandzeit (exkl. Aufrufe)"
 
 #, php-format
 msgid "Download %s Profile"
-msgstr ""
+msgstr "%s-Profil herunterladen"
 
 #, php-format
 msgid ""
