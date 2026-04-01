@@ -10357,9 +10357,8 @@ msgid ""
 "letters and digits."
 msgstr ""
 
-#, fuzzy
 msgid "Conduit API Overview"
-msgstr "Conduit-Zertifikat"
+msgstr "Conduit-API-Übersicht"
 
 
 msgid "Conduit"
@@ -10455,9 +10454,8 @@ msgstr "Zugriffstoken ist ungültig oder abgelaufen."
 msgid "Access token is for invalid user."
 msgstr "Zugriffstoken gehört zu einem ungültigen Benutzer."
 
-#, fuzzy
 msgid "You do not have authorization to call this method."
-msgstr "Du hast leider keine Berechtigung, dieses Objekt anzusehen."
+msgstr "Du bist nicht berechtigt, diese Methode aufzurufen."
 
 
 msgid "Authentication is invalid."
@@ -10527,9 +10525,8 @@ msgstr "Methode aufrufen"
 msgid "API Method: %s"
 msgstr "API-Methode: %s"
 
-#, fuzzy
 msgid "Method Description"
-msgstr "Beschreibung der Regel"
+msgstr "Methodenbeschreibung"
 
 
 msgid "Overview"
@@ -10538,25 +10535,22 @@ msgstr "Übersicht"
 msgid "Examples"
 msgstr "Beispiele"
 
-#, fuzzy
 msgid "Unstable Method"
-msgstr "Zahlungsart deaktivieren"
+msgstr "Instabile Methode"
 
 
 msgid "This method is new and unstable. Its interface is subject to change."
 msgstr "Diese Methode ist neu und instabil. Ihre Schnittstelle kann sich ändern."
 
-#, fuzzy
 msgid "Deprecated Method"
-msgstr "Von mir erzeugt"
+msgstr "Veraltete Methode"
 
 
 msgid "This method is deprecated."
 msgstr "Diese Methode ist veraltet."
 
-#, fuzzy
 msgid "Frozen Method"
-msgstr "Zahlungsmethode"
+msgstr "Eingefrorene Methode"
 
 
 msgid "This method is frozen and will eventually be deprecated."
@@ -10589,9 +10583,8 @@ msgid ""
 "scope."
 msgstr ""
 
-#, fuzzy
 msgid "OAuth Scope"
-msgstr "Autoren"
+msgstr "OAuth-Bereich"
 
 
 msgid "Call Logs"
@@ -10647,19 +10640,17 @@ msgstr "Zertifikat-Token"
 msgid "Certificate Install Token"
 msgstr "Zertifikat-Installationstoken"
 
-#, fuzzy
 msgid "Edit API Token"
-msgstr "Konto editieren"
+msgstr "API-Token bearbeiten"
 
 
-#, fuzzy
 msgid "Tokens must have a name."
-msgstr "Zonen müssen einen Namen haben"
+msgstr "Token müssen einen Namen haben."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "Maximum token name length is %d characters."
-msgstr "Sollte mindestens %d Zeichen lang sein."
+msgstr "Maximale Tokennamenslänge beträgt %d Zeichen."
 
 
 msgid "Generate API Token"
@@ -10729,14 +10720,12 @@ msgstr "Keine API-Tokens zum Beenden vorhanden."
 msgid "Conduit Logs"
 msgstr "Conduit-Protokolle"
 
-#, fuzzy
 msgid "Conduit Tokens"
-msgstr "Bedingungen"
+msgstr "Conduit-Token"
 
 
-#, fuzzy
 msgid "Call a Conduit method.."
-msgstr "Nicht alle Bedingungen wurden erfüllt."
+msgstr "Eine Conduit-Methode aufrufen."
 
 
 msgid "Method to call."
@@ -10772,9 +10761,8 @@ msgstr "Eingabe wird von stdin gelesen..."
 msgid "Unknown Error"
 msgstr "Unbekannter Fehler"
 
-#, fuzzy
 msgid "Stable"
-msgstr "Tabelle"
+msgstr "Stabil"
 
 
 msgid "Unstable"
@@ -10936,22 +10924,19 @@ msgstr "Boolean (true oder false) erwartet, etwas anderes erhalten."
 msgid "Expected numeric points value, got something else."
 msgstr "Numerischen Punktewert erwartet, etwas anderes erhalten."
 
-#, fuzzy
 msgid "Point values must be nonnegative."
-msgstr "Der Titel darf nicht leer sein."
+msgstr "Punktwerte dürfen nicht negativ sein."
 
 
 msgid "A nonnegative number, or null."
 msgstr "Eine nicht-negative Zahl oder null."
 
-#, fuzzy
 msgid "List of project PHIDs."
-msgstr "Teilnehmer des Projektes"
+msgstr "Liste von Projekt-PHIDs."
 
 
-#, fuzzy
 msgid "List of project tags."
-msgstr "Teilnehmer des Projektes"
+msgstr "Liste von Projekt-Tags."
 
 
 msgid "List with a mixture of PHIDs and tags."
@@ -10966,9 +10951,8 @@ msgstr "Eine Zeichenkette."
 msgid "List of user PHIDs."
 msgstr "Liste von Benutzer-PHIDs."
 
-#, fuzzy
 msgid "List of usernames."
-msgstr "Gibt einen Benutzernamen an..."
+msgstr "Liste von Benutzernamen."
 
 
 msgid "List with a mixture of PHIDs and usernames."
@@ -10980,14 +10964,12 @@ msgstr "PHID oder null erwartet, etwas anderes erhalten."
 msgid "User PHID."
 msgstr "Benutzer-PHID."
 
-#, fuzzy
 msgid "Username."
-msgstr "Benutzername"
+msgstr "Benutzername."
 
 
-#, fuzzy
 msgid "Literal null."
-msgstr "Herald Regel ändern"
+msgstr "Literales Null."
 
 
 msgid "Any mixed or complex value. Check the documentation for details."
@@ -11018,19 +11000,16 @@ msgstr "Conduit-API-Methode \\\"%s\\\" existiert nicht."
 msgid "Support for ConduitResultInterface"
 msgstr "Unterstützung für ConduitResultInterface"
 
-#, fuzzy
 msgid "Callers"
-msgstr "Rufzeichen"
+msgstr "Aufrufer"
 
 
-#, fuzzy
 msgid "Find calls by specific users."
-msgstr "Weise eine Aufgabe einem bestimmten Benutzer zu."
+msgstr "Aufrufe bestimmter Benutzer suchen."
 
 
-#, fuzzy
 msgid "Caller Type"
-msgstr "Regel-Typ"
+msgstr "Aufrufertyp"
 
 
 msgid "Show Only Bots"
@@ -11045,40 +11024,34 @@ msgstr "True übergeben, um nur Bots zu finden, false um Bots auszulassen."
 msgid "Methods"
 msgstr "Methoden"
 
-#, fuzzy
 msgid "Find calls to specific methods."
-msgstr "Weise eine Aufgabe einem bestimmten Benutzer zu."
+msgstr "Aufrufe bestimmter Methoden suchen."
 
 
-#, fuzzy
 msgid "Method Status"
-msgstr "Neuer Termin"
+msgstr "Methodenstatus"
 
 
 msgid "Find calls to stable, unstable, or deprecated methods."
 msgstr "Aufrufe stabiler, instabiler oder veralteter Methoden suchen."
 
-#, fuzzy
 msgid "Called After"
-msgstr "Erzeugt nach"
+msgstr "Aufgerufen nach"
 
 
-#, fuzzy
 msgid "Called Before"
-msgstr "Erzeugt vor"
+msgstr "Aufgerufen vor"
 
 
-#, fuzzy
 msgid "My Calls"
-msgstr "Rufzeichen"
+msgstr "Meine Aufrufe"
 
 
 msgid "My Deprecated Calls"
 msgstr "Meine veralteten Aufrufe"
 
-#, fuzzy
 msgid "All Call Logs"
-msgstr "Alle Blogs"
+msgstr "Alle Aufrufprotokolle"
 
 
 msgid "Deprecated Call Logs"
