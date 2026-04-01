@@ -16870,37 +16870,31 @@ msgstr "Countdown zu Ereignissen"
 msgid "Utilize the full capabilities of your ALU."
 msgstr "Nutze die vollen Fähigkeiten deiner ALU."
 
-#, fuzzy
 msgid "Default create policy for countdowns."
-msgstr "Vorgabe Anzeige-Benutzerrichtlinie für neue Umfragen."
+msgstr "Standard-Erstell-Richtlinie für Countdowns."
 
 
 msgid "Default view policy for new countdowns."
 msgstr "Standardanzeigerichtlinie für neue Countdowns."
 
-#, fuzzy
 msgid "Default edit policy for new countdowns."
-msgstr "Vorgabe Editier-Berechtigung für neu erzeugte Termine."
+msgstr "Standard-Bearbeitungs-Richtlinie für neue Countdowns."
 
 
-#, fuzzy
 msgid "Can Create Countdowns"
-msgstr "Neuer Countdown"
+msgstr "Countdowns erstellen"
 
 
-#, fuzzy
 msgid "You do not have permission to create a countdown."
-msgstr "Du hast keine Berechtigung, um Zonen zu erzeugen."
+msgstr "Du hast keine Berechtigung, einen Countdown zu erstellen."
 
 
-#, fuzzy
 msgid "Can Create Dashboards"
-msgstr "Dashboard erzeugen"
+msgstr "Dashboards erstellen"
 
 
-#, fuzzy
 msgid "You do not have permission to create a dashboard."
-msgstr "Du hast keine Berechtigung, um Zonen zu erzeugen."
+msgstr "Du hast keine Berechtigung, ein Dashboard zu erstellen."
 
 
 msgid "Apply transactions to create a new countdown or edit an existing one."
@@ -16944,72 +16938,61 @@ msgstr "Letzte Worte"
 msgid "Contemplate Infinity"
 msgstr "Über die Unendlichkeit sinnieren"
 
-#, fuzzy
 msgid "The countdown name."
-msgstr "Der Countdown braucht einen Namen."
+msgstr "Der Name des Countdowns."
 
 
-#, fuzzy
 msgid "Rename the countdown."
-msgstr "Countdown löschen"
+msgstr "Countdown umbenennen."
 
 
-#, fuzzy
 msgid "New countdown name."
-msgstr "Der Countdown braucht einen Namen."
+msgstr "Neuer Name des Countdowns."
 
 
 msgid "End Date"
 msgstr "Enddatum"
 
-#, fuzzy
 msgid "Date when the countdown ends."
-msgstr "Der Countdown braucht einen Namen."
+msgstr "Datum, an dem der Countdown endet."
 
 
-#, fuzzy
 msgid "Change the end date of the countdown."
-msgstr "Du mußt einen Endzeitpunkt für einen Countdown angeben."
+msgstr "Enddatum des Countdowns ändern."
 
 
 msgid "New countdown end date."
 msgstr "Neues Countdown-Enddatum."
 
-#, fuzzy
 msgid "Description of the countdown."
-msgstr "Der neue Pfad des Dokuments."
+msgstr "Beschreibung des Countdowns."
 
 
 msgid "Change the countdown description."
 msgstr "Countdown-Beschreibung ändern."
 
 
-#, fuzzy
 msgid "New description."
-msgstr "Beschreibung der Regel"
+msgstr "Neue Beschreibung."
 
 
-#, fuzzy
 msgid "Someone changes the countdown details."
-msgstr "Der Countdown braucht einen Namen."
+msgstr "Jemand ändert die Details des Countdowns."
 
 
-#, fuzzy
 msgid "Someone comments on a countdown."
-msgstr "Jemand hat eine Aufgabe kommentiert."
+msgstr "Jemand kommentiert einen Countdown."
 
 
 msgid "Other countdown activity not listed above occurs."
 msgstr "Andere, oben nicht aufgeführte Countdown-Aktivitäten treten auf."
 
-#, fuzzy
 msgid "COUNTDOWN DESCRIPTION"
-msgstr "TERMIN BESCHREIBUNG"
+msgstr "COUNTDOWN-BESCHREIBUNG"
 
 
-#, fuzzy
 msgid "COUNTDOWN DETAIL"
-msgstr "FRAGE DETAILS"
+msgstr "COUNTDOWN-DETAILS"
 
 
 msgid "End Date (Past to Future)"
@@ -17021,9 +17004,8 @@ msgstr "Enddatum (Zukunft bis Vergangenheit)"
 msgid "Search for objects created by specific authors."
 msgstr "Objekte bestimmter Autoren suchen."
 
-#, fuzzy
 msgid "Show only upcoming countdowns."
-msgstr "Nur kommende Termine zeigen."
+msgstr "Nur bevorstehende Countdowns anzeigen."
 
 
 msgid "Upcoming"
@@ -17033,9 +17015,9 @@ msgstr "Nächste Deadlines"
 msgid "Created by %s"
 msgstr "Erstellt von %s"
 
-#, fuzzy, php-format
+#, php-format
 msgid "Launched on %s"
-msgstr "Beendet am %s"
+msgstr "Gestartet am %s"
 
 
 msgid "Days"
@@ -17047,27 +17029,23 @@ msgstr "Stunden"
 msgid "No countdowns found."
 msgstr "Keine Countdowns gefunden."
 
-#, fuzzy
 msgid "Create a Countdown"
 msgstr "Neuer Countdown"
 
 
 msgid "Keep track of upcoming launch dates with embeddable counters."
-msgstr "Anstehende Starttermine mit einbettbaren Zählern im Blick behalten."
+msgstr "Behalte bevorstehende Launch-Termine mit einbettbaren Zählern im Blick."
 
-#, fuzzy
 msgid "The title of the countdown."
-msgstr "Countdown löschen"
+msgstr "Der Titel des Countdowns."
 
 
-#, fuzzy
 msgid "The description of the countdown."
-msgstr "Der neue Pfad des Dokuments."
+msgstr "Die Beschreibung des Countdowns."
 
 
-#, fuzzy
 msgid "The end date of the countdown."
-msgstr "Der neue Pfad des Dokuments."
+msgstr "Das Enddatum des Countdowns."
 
 
 msgid "Minutes"
@@ -17076,44 +17054,41 @@ msgstr "Minuten"
 msgid "Seconds"
 msgstr "Sekunden"
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s updated the countdown description."
-msgstr "%s hat die Beschreibung dieses Termins geändert."
+msgstr "%s hat die Beschreibung des Countdowns geändert."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s updated the countdown description for %s."
-msgstr "%s hat die Beschreibung von %s verändert."
+msgstr "%s hat die Beschreibung von %s geändert."
 
 
-#, fuzzy
 msgid "CHANGES TO COUNTDOWN DESCRIPTION"
-msgstr "TERMIN BESCHREIBUNG"
+msgstr "ÄNDERUNGEN AN DER COUNTDOWN-BESCHREIBUNG"
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s updated the countdown end from %s to %s."
-msgstr "%s hat den Titel dieser Frage von \"%s\" nach \"%s\" geändert."
+msgstr "%s hat das Enddatum des Countdowns von %s auf %s geändert."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s updated the countdown end for %s from %s to %s."
-msgstr "%s hat das Enddatum von %s von %s nach %s geändert."
+msgstr "%s hat das Enddatum von %s von %s auf %s geändert."
 
 
-#, fuzzy
 msgid "You must give the countdown an end date."
-msgstr "Der Countdown braucht einen Namen."
+msgstr "Du musst dem Countdown ein Enddatum geben."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s updated the title for this countdown from %s to %s."
-msgstr "%s hat den Namen des Termins von %s auf %s geändert."
+msgstr "%s hat den Titel des Countdowns von %s auf %s geändert."
 
 
-#, fuzzy
 msgid "Countdowns must have a title."
-msgstr "Produkte müssen Namen haben"
+msgstr "Countdowns müssen einen Titel haben."
 
 
 #, php-format
