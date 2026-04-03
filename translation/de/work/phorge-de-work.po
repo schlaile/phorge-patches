@@ -64746,9 +64746,8 @@ msgid "Browse Any"
 msgstr "Beliebig durchsuchen"
 
 
-#, fuzzy
 msgid "Type \"any()\"..."
-msgstr "Gibt einen Benutzernamen an..."
+msgstr "\"any()\" eingeben..."
 
 
 msgid "Any Value"
@@ -64756,7 +64755,7 @@ msgstr "Beliebiger Wert"
 
 
 msgid "Find results with any value."
-msgstr ""
+msgstr "Ergebnisse mit beliebigem Wert finden."
 
 #, php-format
 msgid ""
@@ -64774,9 +64773,8 @@ msgid "Browse No Value"
 msgstr "Ohne Wert durchsuchen"
 
 
-#, fuzzy
 msgid "Type \"none()\"..."
-msgstr "Einen Benutzernamen oder \"none\" eintippen..."
+msgstr "\"none()\" eingeben..."
 
 
 msgid "No Value"
@@ -64784,7 +64782,7 @@ msgstr "Kein Wert"
 
 
 msgid "Find results with no value."
-msgstr ""
+msgstr "Ergebnisse ohne Wert finden."
 
 #, php-format
 msgid ""
@@ -64798,7 +64796,7 @@ msgid ""
 msgstr ""
 
 msgid "Select results with no value."
-msgstr ""
+msgstr "Ergebnisse ohne Wert auswählen."
 
 msgid "Browse Values"
 msgstr "Werte durchsuchen"
@@ -65522,9 +65520,8 @@ msgstr "%s ist bereits geleast und kann nicht verzögert werden."
 msgid "DELAY"
 msgstr "VERZÖGERN"
 
-#, fuzzy, php-format
 msgid "%s was delayed until \"%s\"."
-msgstr "%s hat die Teilnahme an %s abgesagt."
+msgstr "%s wurde bis \"%s\" verzögert."
 
 
 #, php-format
@@ -65649,9 +65646,8 @@ msgid "%s is already archived, and can not be reprioritized."
 msgstr ""
 
 
-#, fuzzy, php-format
 msgid "%s already has priority \"%s\"."
-msgstr "%s hat diesen Chat \"%s\" genannt."
+msgstr "%s hat bereits die Priorität \"%s\"."
 
 
 msgid "PRIORITY"
@@ -65758,9 +65754,8 @@ msgid ""
 "affect. Use \"--help\" for a list of supported constraint flags."
 msgstr ""
 
-#, fuzzy
 msgid "Specified \"--limit\" must be a positive integer."
-msgstr "Der Release-Zähler sollte eine positive ganze Zahl sein."
+msgstr "Der angegebene Wert für \"--limit\" muss eine positive Ganzzahl sein."
 
 
 #, php-format
