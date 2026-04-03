@@ -2991,6 +2991,8 @@ msgid ""
 "Confirm the link with this %s account. This account will be able to log in "
 "to your %s account."
 msgstr ""
+"Bestätige die Verknüpfung mit diesem %s-Konto. Mit diesem Konto kannst Du "
+"Dich dann bei Deinem %s-Konto anmelden."
 
 msgid "Confirm Link"
 msgstr "Verknüpfung bestätigen"
@@ -3011,31 +3013,41 @@ msgid ""
 "The account you are attempting to register or link is already linked to "
 "another user."
 msgstr ""
+"Das Konto, das Du registrieren oder verknüpfen möchtest, ist bereits mit "
+"einem anderen Benutzer verknüpft."
 
 msgid ""
 "The account you are attempting to link is already linked to your account."
 msgstr ""
+"Das Konto, das Du verknüpfen möchtest, ist bereits mit Deinem Konto "
+"verknüpft."
 
 msgid ""
 "Your browser did not submit a registration key with the request. You must "
 "use the same browser to begin and complete registration. Check that cookies "
 "are enabled and try again."
 msgstr ""
+"Dein Browser hat mit der Anfrage keinen Registrierungsschlüssel übermittelt. "
+"Du musst denselben Browser verwenden, um die Registrierung zu beginnen und "
+"abzuschließen. Prüfe, ob Cookies aktiviert sind, und versuche es erneut."
 
 msgid ""
 "Your browser submitted a different registration key than the one associated "
 "with this account. You may need to clear your cookies."
 msgstr ""
+"Dein Browser hat einen anderen Registrierungsschlüssel übermittelt als den, "
+"der diesem Konto zugeordnet ist. Möglicherweise musst Du Deine Cookies "
+"löschen."
 
-#, fuzzy, php-format
+#, php-format
 msgid ""
 "The account you are attempting to register with uses a disabled "
 "authentication provider (\"%s\"). An administrator may have recently "
 "disabled this provider."
 msgstr ""
-"Das Konto, das Du gerade versuchst zu registrieren, hat eine ungültige Email-"
-"Adresse (%s). Diese Phabricator-Installation beschränkt die Anlage von "
-"Benutzern auf die folgendenen Email-Adressen:"
+"Das Konto, mit dem Du Dich registrieren möchtest, verwendet einen "
+"deaktivierten Authentifizierungsanbieter (\"%s\"). Ein Administrator hat "
+"diesen Anbieter möglicherweise vor Kurzem deaktiviert."
 
 
 #, php-format
@@ -3064,6 +3076,9 @@ msgid ""
 "If you leave high security, you will need to authenticate again the next "
 "time you try to take a high security action."
 msgstr ""
+"Wenn Du die erhöhte Sicherheit verlässt, musst Du Dich beim nächsten "
+"Versuch, eine Aktion mit erhöhter Sicherheit auszuführen, erneut "
+"authentifizieren."
 
 msgid "On the plus side, that purple notification bubble will disappear."
 msgstr "Auf der Plusseite: Diese lila Benachrichtigungsblase verschwindet dann."
@@ -3085,6 +3100,8 @@ msgid ""
 "Welcome, %s. To complete the process of logging in, provide your multi-"
 "factor credentials."
 msgstr ""
+"Willkommen, %s. Um den Anmeldevorgang abzuschließen, gib bitte Deine Multi-"
+"Faktor-Zugangsdaten ein."
 
 msgid "Account Not Linkable"
 msgstr "Konto nicht verknüpfbar"
@@ -3101,12 +3118,12 @@ msgstr "Dieser Anbieter erlaubt keine Aktualisierung."
 msgid "Account Already Linked"
 msgstr "Konto bereits verknüpft"
 
-#, fuzzy
+#, php-format
 msgid ""
 "Your account is already linked to an external account for this provider."
 msgstr ""
-"Dein Phabricator-Konto ist bereits mit einem externen Konto bei diesem "
-"Dienstleister verknüpft."
+"Dein Konto ist bereits mit einem externen Konto für diesen Anbieter "
+"verknüpft."
 
 
 msgid "No Account Linked"
@@ -3116,6 +3133,8 @@ msgid ""
 "You do not have a linked account on this provider, and thus can not refresh "
 "it."
 msgstr ""
+"Du hast bei diesem Anbieter kein verknüpftes Konto und kannst es deshalb "
+"nicht aktualisieren."
 
 msgid "Link Account"
 msgstr "Konto verknüpfen"
@@ -3147,6 +3166,9 @@ msgid ""
 "to allow logins on this server. An administrator may have recently disabled "
 "it."
 msgstr ""
+"Der externe Dienst (\"%s\"), bei dem Du Dich gerade authentifiziert hast, "
+"ist auf diesem Server nicht für Anmeldungen konfiguriert. Ein Administrator "
+"hat ihn möglicherweise vor Kurzem deaktiviert."
 
 #, php-format
 msgid ""
@@ -3154,6 +3176,10 @@ msgid ""
 "with another %s user account. Log in to the other %s account and unlink the "
 "external account before linking it to a new %s account."
 msgstr ""
+"Der externe Dienst (\"%s\"), den Du gerade zum Anmelden verwendet hast, ist "
+"bereits mit einem anderen %s-Benutzerkonto verknüpft. Melde Dich beim "
+"anderen %s-Konto an und hebe die Verknüpfung des externen Kontos auf, bevor "
+"Du es mit einem neuen %s-Konto verknüpfst."
 
 #, php-format
 msgid ""
@@ -3161,6 +3187,9 @@ msgid ""
 "to allow registration on this server. An administrator may have recently "
 "disabled it."
 msgstr ""
+"Der externe Dienst (\"%s\"), bei dem Du Dich gerade authentifiziert hast, "
+"ist auf diesem Server nicht für Registrierungen konfiguriert. Ein "
+"Administrator hat ihn möglicherweise vor Kurzem deaktiviert."
 
 #, php-format
 msgid ""
@@ -3169,6 +3198,10 @@ msgid ""
 "account. Log out of the external service, then log back in with the correct "
 "account before refreshing the account link."
 msgstr ""
+"Dein %s-Konto ist bereits mit einem externen Konto bei diesem Dienst "
+"(\"%s\") verbunden, aber Du bist bei diesem Dienst derzeit mit einem anderen "
+"Konto angemeldet. Melde Dich vom externen Dienst ab und dann mit dem "
+"richtigen Konto wieder an, bevor Du die Kontoverknüpfung aktualisierst."
 
 #, php-format
 msgid ""
@@ -3176,12 +3209,17 @@ msgid ""
 "to allow account linking on this server. An administrator may have recently "
 "disabled it."
 msgstr ""
+"Der externe Dienst (\"%s\"), bei dem Du Dich gerade authentifiziert hast, "
+"ist auf diesem Server nicht für Kontoverknüpfungen konfiguriert. Ein "
+"Administrator hat ihn möglicherweise vor Kurzem deaktiviert."
 
 #, php-format
 msgid ""
 "The external account you just logged in with is not associated with a valid "
 "%s user account."
 msgstr ""
+"Das externe Konto, mit dem Du Dich gerade angemeldet hast, ist keinem "
+"gültigen %s-Benutzerkonto zugeordnet."
 
 
 msgid "Account is already registered or linked."
@@ -3200,13 +3238,13 @@ msgstr "Anmeldung fehlgeschlagen"
 msgid "Login"
 msgstr "Anmeldung"
 
-#, fuzzy, php-format
+#, php-format
 msgid ""
 "Authentication provider (\"%s\") encountered an error while attempting to "
 "log in. %s"
 msgstr ""
-"Der Zugangsdienstleister (\"%s\") ist beim Anmelden auf einen Fehler "
-"gelaufen. %s"
+"Beim Versuch, Dich anzumelden, ist beim Authentifizierungsanbieter (\"%s\") "
+"ein Fehler aufgetreten. %s"
 
 
 msgid ""
@@ -3359,25 +3397,23 @@ msgid ""
 "different, valid address."
 msgstr ""
 
-#, fuzzy, php-format
+#, php-format
 msgid ""
 "The account you are attempting to register with has an invalid email address "
 "(%s). This server only allows registration with specific email addresses:"
 msgstr ""
-"Das Konto, das Du gerade versuchst zu registrieren, hat eine ungültige Email-"
-"Adresse (%s). Diese Phabricator-Installation beschränkt die Anlage von "
-"Benutzern auf die folgendenen Email-Adressen:"
+"Das Konto, mit dem Du Dich registrieren möchtest, hat eine ungültige E-Mail-"
+"Adresse (%s). Auf diesem Server ist die Registrierung nur mit bestimmten E-"
+"Mail-Adressen zulässig:"
 
 
 msgid "Email Address Already in Use"
 msgstr "E-Mail-Adresse bereits in Verwendung"
 
 
-#, fuzzy
+#, php-format
 msgid "You are creating a new account linked to an existing external account."
-msgstr ""
-"Dein Phabricator-Konto ist bereits mit einem externen Konto bei diesem "
-"Dienstleister verknüpft."
+msgstr "Du erstellst ein neues Konto, das mit einem bestehenden externen Konto verknüpft ist."
 
 
 #, php-format
@@ -3387,11 +3423,18 @@ msgid ""
 "email address, so you can not use this email address to register a new "
 "account."
 msgstr ""
+"Die dem externen Konto zugeordnete E-Mail-Adresse (\"%s\") wird bereits von "
+"einem bestehenden %s-Konto verwendet. Mehrere %s-Konten dürfen nicht "
+"dieselbe E-Mail-Adresse haben, daher kannst Du diese E-Mail-Adresse nicht "
+"zur Registrierung eines neuen Kontos verwenden."
 
 msgid ""
 "If you want to register a new account, continue with this registration "
 "workflow and choose a new, unique email address for the new account."
 msgstr ""
+"Wenn Du ein neues Konto registrieren möchtest, fahre mit diesem "
+"Registrierungsablauf fort und wähle eine neue, eindeutige E-Mail-Adresse "
+"für das neue Konto."
 
 #, php-format
 msgid ""
@@ -3399,11 +3442,17 @@ msgid ""
 "continue. Instead: log in to your existing account, then go to \"Settings\" "
 "and link the account in the \"External Accounts\" panel."
 msgstr ""
+"Wenn Du ein bestehendes %s-Konto mit diesem externen Konto verknüpfen "
+"möchtest, fahre nicht fort. Melde Dich stattdessen bei Deinem bestehenden "
+"Konto an, gehe dann zu \"Einstellungen\" und verknüpfe das Konto im Bereich "
+"\"Externe Konten\"."
 
 msgid ""
 "If you continue, you will create a new account. You will not be able to link "
 "this external account to an existing account."
 msgstr ""
+"Wenn Du fortfährst, erstellst Du ein neues Konto. Du wirst dieses externe "
+"Konto dann nicht mit einem bestehenden Konto verknüpfen können."
 
 msgid "Cancel"
 msgstr "Abbrechen"
@@ -3418,6 +3467,9 @@ msgid ""
 "already in use (\"%s\") by an existing %s account. Choose a new, valid email "
 "address to register a new account."
 msgstr ""
+"Das externe Konto, mit dem Du Dich registrierst, hat eine E-Mail-Adresse "
+"(\"%s\"), die bereits von einem bestehenden %s-Konto verwendet wird. Wähle "
+"eine neue, gültige E-Mail-Adresse, um ein neues Konto zu registrieren."
 
 msgid "Again"
 msgstr "Nochmal"
@@ -3487,7 +3539,6 @@ msgid "Create a New Account"
 msgstr "Neues Konto erstellen"
 
 
-#, fuzzy
 msgid ""
 "Installation is complete. Register your administrator account below to log "
 "in. You will be able to configure options and add authentication mechanisms "
@@ -3629,13 +3680,13 @@ msgid "Revoke SSH Public Key"
 msgstr "Öffentlichen SSH-Schlüssel widerrufen"
 
 
-#, fuzzy, php-format
+#, php-format
 msgid ""
 "The key \"%s\" will be permanently revoked, and you will no longer be able "
 "to use the corresponding private key to authenticate."
 msgstr ""
-"Der Public-Key \"%s\" wird permanent gelöscht und Du wirst nicht länger in "
-"der Lage sein, Dich mit dem passenden Private Key anzumelden."
+"Der Schlüssel \"%s\" wird dauerhaft widerrufen, und Du kannst den "
+"zugehörigen privaten Schlüssel nicht mehr zur Authentifizierung verwenden."
 
 
 msgid "Revoke Public Key"
@@ -3703,14 +3754,12 @@ msgstr "Konto-Passwort festlegen"
 msgid "New Password"
 msgstr "Neues Passwort"
 
-#, fuzzy
 msgid ""
 "Your login session is invalid, and clearing the session cookie was "
 "unsuccessful. Try clearing your browser cookies."
 msgstr ""
-"Deine Sitzung ist ungültig geworden. Probiere, die Seite im Browser neu zu "
-"laden und Dich nochmal anzumelden. Wenn das immer noch nicht weiterhilft, "
-"bitte die Browser-Cookies löschen."
+"Deine Anmeldesitzung ist ungültig, und das Löschen des Sitzungs-Cookies war "
+"nicht erfolgreich. Versuche, die Cookies Deines Browsers zu löschen."
 
 
 #, php-format
@@ -3810,17 +3859,17 @@ msgstr "Externes Konto trennen"
 msgid "Unlink \"%s\" Account?"
 msgstr "\\\"%s\\\"-Konto trennen?"
 
-#, fuzzy, php-format
+#, php-format
 msgid "You will no longer be able to use your %s account to log in."
-msgstr ""
-"Der Beitrag \"%s\" wird nicht länger für andere Benutzer sichtbar sein bis "
-"Du ihn wieder freigibst."
+msgstr "Du kannst Dein %s-Konto nicht mehr zum Anmelden verwenden."
 
 
 msgid ""
 "Note: Unlinking an authentication provider will terminate any other active "
 "login sessions."
 msgstr ""
+"Hinweis: Wenn Du die Verknüpfung mit einem Authentifizierungsanbieter "
+"aufhebst, werden alle anderen aktiven Anmeldesitzungen beendet."
 
 msgid "Unlink Account"
 msgstr "Konto trennen"
@@ -3834,17 +3883,25 @@ msgid ""
 "Attempted to set '%s' cookie to '%s', but your browser sent back a cookie "
 "with the value '%s'. Clear your browser's cookies and try again."
 msgstr ""
+"Es wurde versucht, das Cookie '%s' auf '%s' zu setzen, aber Dein Browser hat "
+"ein Cookie mit dem Wert '%s' zurückgesendet. Lösche die Cookies Deines "
+"Browsers und versuche es erneut."
 
 #, php-format
 msgid ""
 "Attempted to set '%s' cookie to '%s', but your browser did not accept the "
 "cookie. Check that cookies are enabled, clear them, and try again."
 msgstr ""
+"Es wurde versucht, das Cookie '%s' auf '%s' zu setzen, aber Dein Browser hat "
+"das Cookie nicht akzeptiert. Prüfe, ob Cookies aktiviert sind, lösche sie "
+"und versuche es erneut."
 
 msgid ""
 "Login cookie was set correctly, but your login session is not valid. Try "
 "clearing cookies and logging in again."
 msgstr ""
+"Das Anmelde-Cookie wurde korrekt gesetzt, aber Deine Anmeldesitzung ist "
+"nicht gültig. Versuche, die Cookies zu löschen und Dich erneut anzumelden."
 
 msgid "Account Disabled"
 msgstr "Konto gesperrt"
@@ -3860,6 +3917,8 @@ msgid ""
 "Password authentication is not enabled and you are already logged in. There "
 "is nothing for you here."
 msgstr ""
+"Die Passwort-Authentifizierung ist nicht aktiviert und Du bist bereits "
+"angemeldet. Hier gibt es nichts für Dich zu tun."
 
 msgid "You must provide an email address."
 msgstr "Du mußt eine Email-Adresse angeben."
@@ -3873,26 +3932,29 @@ msgid ""
 "verified address, you can only send password reset links to one of the "
 "verified addresses. Try a verified address instead."
 msgstr ""
+"Diese E-Mail-Adresse ist nicht verifiziert, aber das Konto, mit dem sie "
+"verbunden ist, hat mindestens eine andere verifizierte Adresse. Wenn ein "
+"Konto mindestens eine verifizierte Adresse hat, kannst Du Links zum "
+"Zurücksetzen des Passworts nur an eine der verifizierten Adressen senden. "
+"Versuche es stattdessen mit einer verifizierten Adresse."
 
 msgid "Unverified"
 msgstr "Nicht verifiziert"
 
-#, fuzzy
 msgid ""
 "An email has been sent containing a link you can use to set a password for "
 "your account."
 msgstr ""
-"Du hast eine Email mit einem Link bekommen, mittels dem Du Dich jetzt "
-"anmelden kannst."
+"Es wurde eine E-Mail mit einem Link verschickt, den Du verwenden kannst, um "
+"ein Passwort für Dein Konto festzulegen."
 
 
-#, fuzzy
 msgid ""
 "An email has been sent containing a link you can use to log in to your "
 "account."
 msgstr ""
-"Du hast eine Email mit einem Link bekommen, mittels dem Du Dich jetzt "
-"anmelden kannst."
+"Es wurde eine E-Mail mit einem Link verschickt, den Du verwenden kannst, um "
+"Dich bei Deinem Konto anzumelden."
 
 
 msgid "Check Your Email"
@@ -3905,6 +3967,8 @@ msgid ""
 "A password reset link will be sent to your primary email address. Follow the "
 "link to set an account password."
 msgstr ""
+"Ein Link zum Zurücksetzen des Passworts wird an Deine primäre E-Mail-Adresse "
+"gesendet. Folge dem Link, um ein Passwort für das Konto festzulegen."
 
 msgid "Password Reset"
 msgstr "Passwort zurücksetzen"
@@ -3914,6 +3978,8 @@ msgid ""
 "To reset your password, provide your email address. An email with a login "
 "link will be sent to you."
 msgstr ""
+"Um Dein Passwort zurückzusetzen, gib Deine E-Mail-Adresse an. Dir wird eine "
+"E-Mail mit einem Anmeldelink zugeschickt."
 
 msgid "Email Login"
 msgstr "E-Mail-Login"
@@ -3923,6 +3989,8 @@ msgid ""
 "To access your account, provide your email address. An email with a login "
 "link will be sent to you."
 msgstr ""
+"Um auf Dein Konto zuzugreifen, gib Deine E-Mail-Adresse an. Dir wird eine E-"
+"Mail mit einem Anmeldelink zugeschickt."
 
 msgid "Email Address"
 msgstr "E-Mail-Adresse"
@@ -4006,14 +4074,14 @@ msgstr "Abmelden"
 msgid "Another verification email was sent to %s."
 msgstr "Eine weitere Bestätigungsmail wurde an %s gesendet."
 
-#, fuzzy, php-format
+#, php-format
 msgid ""
 "You must verify your email address to log in. You should have a new email "
 "message with verification instructions in your inbox (%s)."
 msgstr ""
-"Du mußt Deine Emailadressen bestätigen, um Dich anmelden zu können. Es "
-"sollte sich eine neue Email von Phabricator in Deinem Postfach befinden, die "
-"die nötigen Intruktionen enthält (%s)."
+"Du musst Deine E-Mail-Adresse verifizieren, um Dich anmelden zu können. In "
+"Deinem Posteingang (%s) sollte sich eine neue E-Mail mit den "
+"Verifizierungsanweisungen befinden."
 
 
 msgid ""
@@ -4098,15 +4166,15 @@ msgid ""
 "the configured [[ %s | %s ]] domains: **%s**"
 msgstr ""
 
-#, fuzzy, php-format
+#, php-format
 msgid ""
 "NOTE: Any user who can browse to this install's login page will be able to "
 "register an account. To restrict who can register an account, configure "
 "[[ %s | %s ]]."
 msgstr ""
-"HINWEIS: Jeder Benutzer, der die Login-Seite dieser Installation aufrufen "
-"kann, kann sich auch ein Phabricator-Konto anlegen! Um das einzuschränken, "
-"konfiguriere bitte [[ %s | %s ]]."
+"HINWEIS: Jeder, der die Anmeldeseite dieser Installation aufrufen kann, kann "
+"ein Konto registrieren. Um einzuschränken, wer ein Konto registrieren darf, "
+"konfiguriere [[ %s | %s ]]."
 
 
 msgid "Allow Login:"
@@ -4718,13 +4786,12 @@ msgid "The password and confirmation do not match."
 msgstr "Passwort und Bestätigung stimmen nicht überein."
 
 
-#, fuzzy
 msgid ""
 "The selected password is very weak: it is one of the most common passwords "
 "in use. Choose a stronger password."
 msgstr ""
-"Dein neues Passwort ist sehr schwach: es ist eines der am meisten benutzten "
-"Kennwörter überhaupt. Bitte ein stärkeres Passwort verwenden."
+"Das gewählte Passwort ist sehr schwach: Es ist eines der am häufigsten "
+"verwendeten Passwörter. Wähle ein stärkeres Passwort."
 
 
 msgid "Very Weak"
@@ -4870,13 +4937,12 @@ msgid ""
 "setup, click continue."
 msgstr ""
 
-#, fuzzy
 msgid ""
 "You already have Duo authentication attached to your account for this "
 "provider."
 msgstr ""
-"Dein Phabricator-Konto ist bereits mit einem externen Konto bei diesem "
-"Dienstleister verknüpft."
+"Für diesen Anbieter ist bereits eine Duo-Authentifizierung mit Deinem Konto "
+"verknüpft."
 
 
 #, php-format
@@ -5242,24 +5308,24 @@ msgid "Authentication Tokens"
 msgstr "Authentifizierungstoken"
 
 
-#, fuzzy, php-format
+#, php-format
 msgid ""
 "This server is configured with an email domain whitelist (in %s), so only "
 "users with a verified email address at one of these %s allowed domain(s) "
 "will be able to register an account: %s"
 msgstr ""
-"Nur Benutzer mit einer verifizierten Email-Adresse aus den Domänen %s haben "
-"die Möglichkeit ein Phabricator-Konto anzulegen: %s"
+"Dieser Server ist mit einer E-Mail-Domain-Whitelist (in %s) konfiguriert, "
+"daher können nur Benutzer mit einer verifizierten E-Mail-Adresse bei einer "
+"dieser %s zulässigen Domain(s) ein Konto registrieren: %s"
 
 
-#, fuzzy, php-format
+#, php-format
 msgid ""
 "Anyone who can browse to this server will be able to register an account. To "
 "add email domain restrictions, configure %s."
 msgstr ""
-"Jeder, der die Login-Seite dieser Installation aufrufen kann, kann sich auch "
-"ein Phabricator-Konto anlegen! Um das einzuschränken, konfiguriere bitte "
-"[[ %s | %s ]]."
+"Jeder, der diesen Server aufrufen kann, kann ein Konto registrieren. Um E-"
+"Mail-Domain-Einschränkungen hinzuzufügen, konfiguriere %s."
 
 
 #, php-format
