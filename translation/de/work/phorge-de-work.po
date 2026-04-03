@@ -757,7 +757,7 @@ msgstr "Der Dienst für diese Bindung ist ein Cluster-Dienst."
 msgid ""
 "The service for this binding is a cluster service. You do not have "
 "permission to manage cluster services, so this binding can not be edited."
-msgstr ""
+msgstr "Der Dienst für diese Bindung ist ein Cluster-Dienst. Du hast keine Berechtigung, Cluster-Dienste zu verwalten, daher kann diese Bindung nicht bearbeitet werden."
 
 msgid "Details"
 msgstr "Details"
@@ -845,7 +845,7 @@ msgstr "Dieses Gerät ist an einen Cluster-Dienst gebunden."
 msgid ""
 "This device is bound to a cluster service. You do not have permission to "
 "manage cluster services, so the device can not be edited."
-msgstr ""
+msgstr "Dieses Gerät ist an einen Cluster-Dienst gebunden. Du hast keine Berechtigung, Cluster-Dienste zu verwalten, daher kann das Gerät nicht bearbeitet werden."
 
 msgid "Edit Device"
 msgstr "Gerät bearbeiten"
@@ -874,7 +874,7 @@ msgstr "Schnittstelle in Verwendung"
 msgid ""
 "You can not delete this interface because it is currently in use. One or "
 "more services are bound to it."
-msgstr ""
+msgstr "Du kannst diese Schnittstelle nicht löschen, weil sie derzeit verwendet wird. Ein oder mehrere Dienste sind an sie gebunden."
 
 msgid "Delete Interface"
 msgstr "Schnittstelle löschen"
@@ -961,7 +961,7 @@ msgstr "Dies ist ein Cluster-Dienst."
 msgid ""
 "This service is a cluster service. You do not have permission to edit "
 "cluster services, so you can not edit this service."
-msgstr ""
+msgstr "Dieser Dienst ist ein Cluster-Dienst. Du hast keine Berechtigung, Cluster-Dienste zu bearbeiten, daher kannst du diesen Dienst nicht bearbeiten."
 
 msgid "Edit Service"
 msgstr "Dienst bearbeiten"
@@ -987,13 +987,13 @@ msgstr "Diese Engine wird zum Bearbeiten von Almanac-Bindungen verwendet."
 msgid ""
 "When creating a new Almanac binding via the Conduit API, you must provide a "
 "\"service\" transaction to select a service to bind."
-msgstr ""
+msgstr "Wenn du über die Conduit-API eine neue Almanac-Bindung erstellst, musst du eine \"service\"-Transaktion angeben, um einen zu bindenden Dienst auszuwählen."
 
 #, php-format
 msgid ""
 "Service \"%s\" is unrecognized, restricted, or you do not have permission to "
 "edit it."
-msgstr ""
+msgstr "Dienst \"%s\" ist unbekannt, eingeschränkt oder du hast keine Berechtigung, ihn zu bearbeiten."
 
 msgid "Service to create a binding for."
 msgstr "Dienst, für den eine Bindung erstellt werden soll."
@@ -1080,13 +1080,13 @@ msgstr "Diese Engine wird zum Bearbeiten von Almanac-Schnittstellen verwendet."
 msgid ""
 "When creating a new Almanac interface via the Conduit API, you must provide "
 "a \"device\" transaction to select a device."
-msgstr ""
+msgstr "Wenn du über die Conduit-API eine neue Almanac-Schnittstelle erstellst, musst du eine \"device\"-Transaktion angeben, um ein Gerät auszuwählen."
 
 #, php-format
 msgid ""
 "Device \"%s\" is unrecognized, restricted, or you do not have permission to "
 "edit it."
-msgstr ""
+msgstr "Gerät \"%s\" ist unbekannt, eingeschränkt oder du hast keine Berechtigung, es zu bearbeiten."
 
 msgid "Create Interface"
 msgstr "Schnittstelle erstellen"
@@ -1131,7 +1131,7 @@ msgstr "%s hat diese Schnittstelle erstellt."
 msgid ""
 "Interfaces must have a unique combination of network, device, address, and "
 "port."
-msgstr ""
+msgstr "Schnittstellen müssen eine eindeutige Kombination aus Netzwerk, Gerät, Adresse und Port haben."
 
 msgid "Almanac Namespaces"
 msgstr "Almanac-Namensräume"
@@ -1168,13 +1168,10 @@ msgid "%s created this namespace."
 msgstr "%s hat diesen Namensraum erstellt."
 
 
-#, fuzzy
 msgid ""
 "Another namespace with this name already exists. Each namespace must have a "
 "unique name."
-msgstr ""
-"Ein anderer Beitrag hat bereits diese Aufmacherzeile. Jeder Beitrag muß "
-"einen eindeutigen Aufmacher haben."
+msgstr "Ein anderer Namensraum mit diesem Namen existiert bereits. Jeder Namensraum muss einen eindeutigen Namen haben."
 
 
 msgid "Almanac Networks"
@@ -1237,7 +1234,7 @@ msgstr "Diese Engine wird zum Bearbeiten von Almanac-Diensten verwendet."
 msgid ""
 "When creating a new Almanac service via the Conduit API, you must provide a "
 "\"type\" transaction to select a type."
-msgstr ""
+msgstr "Wenn du über die Conduit-API einen neuen Almanac-Dienst erstellst, musst du eine \"type\"-Transaktion angeben, um einen Typ auszuwählen."
 
 #, php-format
 msgid "Service type \"%s\" is unrecognized. Valid types are: %s."
@@ -1289,13 +1286,13 @@ msgstr "Almanac-Kernobjekte"
 msgid ""
 "Transaction value when deleting Almanac properties must be a list of "
 "property names."
-msgstr ""
+msgstr "Der Transaktionswert beim Löschen von Almanac-Eigenschaften muss eine Liste von Eigenschaftsnamen sein."
 
 #, php-format
 msgid ""
 "When deleting Almanac properties, each property name must be a string. The "
 "value at index \"%s\" is not a string."
-msgstr ""
+msgstr "Beim Löschen von Almanac-Eigenschaften muss jeder Eigenschaftsname eine Zeichenkette sein. Der Wert am Index \"%s\" ist keine Zeichenkette."
 
 msgid "Pass a map of values to set one or more properties."
 msgstr "Eine Wertzuordnung übergeben, um eine oder mehrere Eigenschaften zu setzen."
@@ -1315,7 +1312,7 @@ msgstr "Almanac-Eigenschaften des Objekts abrufen."
 msgid ""
 "Transaction value when setting Almanac properties must be a map with "
 "property names as keys."
-msgstr ""
+msgstr "Der Transaktionswert beim Setzen von Almanac-Eigenschaften muss eine Zuordnung mit Eigenschaftsnamen als Schlüsseln sein."
 
 msgid "Register this host as an Almanac device."
 msgstr "Diesen Host als Almanac-Gerät registrieren."
@@ -1329,7 +1326,7 @@ msgstr "Pfad zu einem privaten Schlüssel für den Host."
 msgid ""
 "Specify an alternate host identity. This is an advanced feature which allows "
 "a pool of devices to share credentials."
-msgstr ""
+msgstr "Eine alternative Host-Identität angeben. Dies ist eine erweiterte Funktion, mit der sich ein Pool von Geräten Zugangsdaten teilen kann."
 
 msgid "Register this host even if keys already exist on disk."
 msgstr "Diesen Host auch dann registrieren, wenn bereits Schlüssel auf der Festplatte vorhanden sind."
@@ -1351,44 +1348,44 @@ msgstr "Kein privater Schlüssel unter Pfad \\\"%s\\\" vorhanden!"
 msgid ""
 "Config option \"phd.user\" is not set. You must set this option so the "
 "private key can be stored with the correct permissions."
-msgstr ""
+msgstr "Die Konfigurationsoption \"phd.user\" ist nicht gesetzt. Du musst diese Option setzen, damit der private Schlüssel mit den korrekten Berechtigungen gespeichert werden kann."
 
 #, php-format
 msgid ""
 "Unable to change ownership of an identity file to daemon user \"%s\". Run "
 "this command as %s or root."
-msgstr ""
+msgstr "Der Besitzer einer Identitätsdatei konnte nicht auf den Daemon-Benutzer \"%s\" geändert werden. Führe diesen Befehl als %s oder root aus."
 
 #, php-format
 msgid ""
 "This host already has a registered public key (\"%s\"). Remove this key "
 "before registering the host, or use --force to overwrite it."
-msgstr ""
+msgstr "Dieser Host hat bereits einen registrierten öffentlichen Schlüssel (\"%s\"). Entferne diesen Schlüssel vor der Registrierung des Hosts oder verwende --force, um ihn zu überschreiben."
 
 #, php-format
 msgid ""
 "This host already has a registered private key (\"%s\"). Remove this key "
 "before registering the host, or use --force to overwrite it."
-msgstr ""
+msgstr "Dieser Host hat bereits einen registrierten privaten Schlüssel (\"%s\"). Entferne diesen Schlüssel vor der Registrierung des Hosts oder verwende --force, um ihn zu überschreiben."
 
 msgid ""
 "The public key corresponding to the given private key is unknown. Associate "
 "the public key with an Almanac device in the web interface before "
 "registering hosts with it."
-msgstr ""
+msgstr "Der öffentliche Schlüssel, der zu dem angegebenen privaten Schlüssel gehört, ist unbekannt. Verknüpfe den öffentlichen Schlüssel in der Weboberfläche mit einem Almanac-Gerät, bevor du Hosts damit registrierst."
 
 #, php-format
 msgid ""
 "The public key corresponding to the given private key is already associated "
 "with an object (\"%s\") other than the specified device (\"%s\"). You can "
 "not use a single private key to identify multiple devices or users."
-msgstr ""
+msgstr "Der öffentliche Schlüssel, der zu dem angegebenen privaten Schlüssel gehört, ist bereits mit einem anderen Objekt (\"%s\") als dem angegebenen Gerät (\"%s\") verknüpft. Du kannst keinen einzelnen privaten Schlüssel verwenden, um mehrere Geräte oder Benutzer zu identifizieren."
 
 msgid ""
 "The public key corresponding to the given private key is properly associated "
 "with the device, but is not yet trusted. Trust this key before registering "
 "devices with it."
-msgstr ""
+msgstr "Der öffentliche Schlüssel, der zu dem angegebenen privaten Schlüssel gehört, ist korrekt mit dem Gerät verknüpft, aber noch nicht als vertrauenswürdig eingestuft. Vertraue diesem Schlüssel, bevor du Geräte damit registrierst."
 
 msgid "Installing public key..."
 msgstr "Öffentlicher Schlüssel wird installiert..."
@@ -1407,7 +1404,7 @@ msgstr "HOST REGISTRIERT"
 msgid ""
 "This host has been registered as \"%s\" and a trusted keypair has been "
 "installed."
-msgstr ""
+msgstr "Dieser Host wurde als \"%s\" registriert und ein vertrauenswürdiges Schlüsselpaar wurde installiert."
 
 msgid "Mark a public key as trusted."
 msgstr "Einen öffentlichen Schlüssel als vertrauenswürdig markieren."
@@ -1440,12 +1437,12 @@ msgid ""
 "Trusting a public key gives anyone holding the corresponding private key "
 "complete, unrestricted access to all data. The private key will be able to "
 "sign requests that bypass policy and security checks."
-msgstr ""
+msgstr "Wenn du einem öffentlichen Schlüssel vertraust, erhält jeder mit dem zugehörigen privaten Schlüssel vollständigen, uneingeschränkten Zugriff auf alle Daten. Mit dem privaten Schlüssel können Anfragen signiert werden, die Richtlinien- und Sicherheitsprüfungen umgehen."
 
 msgid ""
 "This is an advanced feature which should normally be used only when building "
 "a cluster. This feature is very dangerous if misused."
-msgstr ""
+msgstr "Dies ist eine erweiterte Funktion, die normalerweise nur beim Aufbau eines Clusters verwendet werden sollte. Bei falscher Verwendung ist diese Funktion sehr gefährlich."
 
 #, php-format
 msgid "This key is associated with device \"%s\"."
@@ -1586,7 +1583,7 @@ msgstr "Willkommen bei %s"
 msgid ""
 "Use Almanac devices to catalogue your build hosts and their SSH ports your "
 "network, and more."
-msgstr ""
+msgstr "Verwende Almanac-Geräte, um deine Build-Hosts, ihre SSH-Ports, dein Netzwerk und mehr zu katalogisieren."
 
 msgid "Search for interfaces on particular devices."
 msgstr "Schnittstellen auf bestimmten Geräten suchen."
@@ -1661,7 +1658,7 @@ msgstr "Dienst erstellen"
 msgid ""
 "Services describe pools of devices, and they are available to Drydock for CI/"
 "CD, and more."
-msgstr ""
+msgstr "Dienste beschreiben Pools von Geräten und stehen Drydock für CI/CD und weitere Zwecke zur Verfügung."
 
 msgid "Cluster Database"
 msgstr "Cluster-Datenbank"
@@ -1721,7 +1718,7 @@ msgstr "Eine Bindung erbt die Richtlinien ihres Dienstes."
 
 msgid ""
 "To view a binding, you must also be able to view its device and interface."
-msgstr ""
+msgstr "Um eine Bindung anzuzeigen, musst du auch ihr Gerät und ihre Schnittstelle anzeigen dürfen."
 
 msgid "The bound service."
 msgstr "Der gebundene Dienst."
@@ -1753,7 +1750,7 @@ msgstr "Eine Schnittstelle erbt die Richtlinien des Geräts, zu dem sie gehört.
 msgid ""
 "You must be able to view the network an interface resides on to view the "
 "interface."
-msgstr ""
+msgstr "Um eine Schnittstelle anzuzeigen, musst du auch das Netzwerk anzeigen dürfen, in dem sie sich befindet."
 
 msgid "The device the interface is on."
 msgstr "Das Gerät, auf dem sich die Schnittstelle befindet."
@@ -1811,47 +1808,47 @@ msgstr "Diensttyp-Namen eintippen..."
 msgid ""
 "This host has device ID \"%s\", but there is no corresponding device record "
 "in Almanac."
-msgstr ""
+msgstr "Dieser Host hat die Geräte-ID \"%s\", aber in Almanac gibt es keinen entsprechenden Geräteeintrag."
 
 msgid ""
 "Almanac service, device, property, network and namespace names must be at "
 "least 3 characters long."
-msgstr ""
+msgstr "Namen für Almanac-Dienste, -Geräte, -Eigenschaften, -Netzwerke und -Namensräume müssen mindestens 3 Zeichen lang sein."
 
 msgid ""
 "Almanac service, device, property, network and namespace names may not be "
 "more than 100 characters long."
-msgstr ""
+msgstr "Namen für Almanac-Dienste, -Geräte, -Eigenschaften, -Netzwerke und -Namensräume dürfen nicht länger als 100 Zeichen sein."
 
 msgid ""
 "Almanac service, device, property, network and namespace names may only "
 "contain lowercase letters, numbers, hyphens, and periods."
-msgstr ""
+msgstr "Namen für Almanac-Dienste, -Geräte, -Eigenschaften, -Netzwerke und -Namensräume dürfen nur Kleinbuchstaben, Zahlen, Bindestriche und Punkte enthalten."
 
 msgid ""
 "Almanac service, device, network, property and namespace names may not have "
 "any segments containing only digits."
-msgstr ""
+msgstr "Namen für Almanac-Dienste, -Geräte, -Netzwerke, -Eigenschaften und -Namensräume dürfen keine Segmente enthalten, die nur aus Ziffern bestehen."
 
 msgid ""
 "Almanac service, device, property, network and namespace names may not "
 "contain multiple consecutive periods."
-msgstr ""
+msgstr "Namen für Almanac-Dienste, -Geräte, -Eigenschaften, -Netzwerke und -Namensräume dürfen nicht mehrere aufeinanderfolgende Punkte enthalten."
 
 msgid ""
 "Almanac service, device, property, network and namespace names may not "
 "contain hyphens adjacent to periods."
-msgstr ""
+msgstr "Namen für Almanac-Dienste, -Geräte, -Eigenschaften, -Netzwerke und -Namensräume dürfen keine Bindestriche direkt neben Punkten enthalten."
 
 msgid ""
 "Almanac service, device, property, network and namespace names may not "
 "contain multiple consecutive hyphens."
-msgstr ""
+msgstr "Namen für Almanac-Dienste, -Geräte, -Eigenschaften, -Netzwerke und -Namensräume dürfen nicht mehrere aufeinanderfolgende Bindestriche enthalten."
 
 msgid ""
 "Almanac service, device, property, network and namespace names must begin "
 "and end with a letter or number."
-msgstr ""
+msgstr "Namen für Almanac-Dienste, -Geräte, -Eigenschaften, -Netzwerke und -Namensräume müssen mit einem Buchstaben oder einer Zahl beginnen und enden."
 
 msgid "Device Disabled"
 msgstr "Gerät deaktiviert"
@@ -1907,9 +1904,8 @@ msgstr "Der Dienst einer Bindung kann nach der Erstellung nicht geändert werden
 msgid "You can not bind a nonexistent or restricted service."
 msgstr "Ein nicht vorhandener oder eingeschränkter Dienst kann nicht gebunden werden."
 
-#, fuzzy
 msgid "You can not bind a service which you do not have permission to edit."
-msgstr "Du hast leider keine Berechtigung, dieses Objekt zu verändern."
+msgstr "Du kannst keinen Dienst binden, für den du keine Bearbeitungsberechtigung hast."
 
 
 #, php-format
@@ -1927,7 +1923,7 @@ msgstr "Almanac-Geräte müssen eindeutige Namen haben."
 msgid ""
 "You do not have permission to create Almanac devices within the \"%s\" "
 "namespace."
-msgstr ""
+msgstr "Du hast keine Berechtigung, Almanac-Geräte innerhalb des Namensraums \"%s\" zu erstellen."
 
 
 #, php-format
@@ -1938,7 +1934,7 @@ msgstr "%s hat den Status dieses Geräts von %s auf %s geändert."
 #, php-format
 msgid ""
 "Almanac device status \"%s\" is unrecognized. Valid status values are: %s."
-msgstr ""
+msgstr "Almanac-Gerätestatus \"%s\" ist unbekannt. Gültige Statuswerte sind: %s."
 
 #, php-format
 msgid "%s changed the address for this interface from %s to %s."
@@ -1959,7 +1955,7 @@ msgstr "Schnittstellen müssen ein Gerät haben."
 
 msgid ""
 "The device for an interface can not be changed once it has been created."
-msgstr ""
+msgstr "Das Gerät einer Schnittstelle kann nach ihrer Erstellung nicht mehr geändert werden."
 
 msgid "You can not attach an interface to a nonexistent or restricted device."
 msgstr "Eine Schnittstelle kann nicht an ein nicht vorhandenes oder eingeschränktes Gerät angehängt werden."
@@ -1967,7 +1963,7 @@ msgstr "Eine Schnittstelle kann nicht an ein nicht vorhandenes oder eingeschrän
 msgid ""
 "You can not attach an interface to a device which you do not have permission "
 "to edit."
-msgstr ""
+msgstr "Du kannst eine Schnittstelle nicht an ein Gerät anhängen, für das du keine Bearbeitungsberechtigung hast."
 
 #, php-format
 msgid "%s changed the network for this interface from %s to %s."
@@ -2016,13 +2012,13 @@ msgstr "Namensraumname ist erforderlich."
 msgid ""
 "The namespace name \"%s\" is already in use by another namespace. Each "
 "namespace must have a unique name."
-msgstr ""
+msgstr "Der Namensraumname \"%s\" wird bereits von einem anderen Namensraum verwendet. Jeder Namensraum muss einen eindeutigen Namen haben."
 
 #, php-format
 msgid ""
 "You do not have permission to create Almanac namespaces within the \"%s\" "
 "namespace."
-msgstr ""
+msgstr "Du hast keine Berechtigung, Almanac-Namensräume innerhalb des Namensraums \"%s\" zu erstellen."
 
 
 #, php-format
@@ -2053,7 +2049,7 @@ msgstr "Almanac-Dienste müssen eindeutige Namen haben."
 msgid ""
 "You do not have permission to create Almanac services within the \"%s\" "
 "namespace."
-msgstr ""
+msgstr "Du hast keine Berechtigung, Almanac-Dienste innerhalb des Namensraums \"%s\" zu erstellen."
 
 
 msgid "You must select a service type when creating a service."
