@@ -55251,11 +55251,16 @@ msgid ""
 "not remove working copies on disk. If you also want to destroy the "
 "repository working copy, manually remove \"%s\"."
 msgstr ""
+"Die Datenbankeinträge für Repository \"%s\" wurden gelöscht, aber dieses "
+"Skript entfernt keine Arbeitskopien auf dem Datenträger. Wenn Du auch die "
+"Arbeitskopie des Repositorys löschen möchtest, entferne \"%s\" manuell."
 
 msgid ""
 "This method is frozen and will eventually be deprecated. New code should use "
 "\"diffusion.repository.search\" instead."
 msgstr ""
+"Diese Methode ist eingefroren und wird irgendwann veraltet sein. Neuer Code "
+"sollte stattdessen \"diffusion.repository.search\" verwenden."
 
 msgid "Query repositories."
 msgstr "Repositories abfragen."
@@ -55272,6 +55277,9 @@ msgid ""
 "repositories. %s will control and manage data here, so you should **not** "
 "choose an existing directory full of data you care about."
 msgstr ""
+"Der Standardspeicherort, an dem Arbeitskopien und andere Repository-Daten "
+"gespeichert werden. %s verwaltet die Daten hier selbst, daher solltest Du "
+"**kein** bestehendes Verzeichnis wählen, das bereits wichtige Daten enthält."
 
 msgid "Create Git Repository"
 msgstr "Git-Repository erstellen"
@@ -55319,6 +55327,8 @@ msgstr "Zeigt bei Merge-Commits die zusammengeführten Änderungen in der E-Mail
 #, php-format
 msgid "This commit merges more than %d changes. Only the first %d are shown.\n"
 msgstr ""
+"Dieser Commit führt mehr als %d Änderungen zusammen. Es werden nur die "
+"ersten %d angezeigt.\n"
 
 msgid "MERGED COMMITS"
 msgstr "ZUSAMMENGEFÜHRTE COMMITS"
@@ -55369,6 +55379,8 @@ msgid ""
 "Skipping forced out-of-sync update because the last update was too recent "
 "(%s seconds ago)."
 msgstr ""
+"Erzwungene Out-of-Sync-Aktualisierung wird übersprungen, weil die letzte "
+"Aktualisierung zu kürzlich war (vor %s Sekunden)."
 
 #, php-format
 msgid "Repository \"%s\" is currently updating."
@@ -55383,6 +55395,8 @@ msgid ""
 "Scheduling repository \"%s\" with an update window of %s second(s). Last "
 "update was %s second(s) ago."
 msgstr ""
+"Repository \"%s\" wird mit einem Aktualisierungsfenster von %s Sekunde(n) "
+"eingeplant. Die letzte Aktualisierung war vor %s Sekunde(n)."
 
 #, php-format
 msgid "Repository \"%s\" is not due for an update for %s second(s)."
@@ -55405,6 +55419,8 @@ msgid ""
 "Not enough process slots to schedule the other %s repository(s) for updates "
 "yet."
 msgstr ""
+"Noch nicht genug Prozess-Slots verfügbar, um die übrigen %s Repository(s) "
+"für Aktualisierungen einzuplanen."
 
 msgid "Waiting for updates to complete..."
 msgstr "Warten auf Abschluss der Aktualisierungen..."
@@ -55429,6 +55445,8 @@ msgid ""
 "Based on activity in repository \"%s\", considering a wait of %s seconds "
 "before update."
 msgstr ""
+"Basierend auf der Aktivität im Repository \"%s\" wird eine Wartezeit von %s "
+"Sekunden vor der Aktualisierung in Betracht gezogen."
 
 msgid "No repositories need updates right now, sleeping..."
 msgstr "Kein Repository benötigt gerade eine Aktualisierung, schlafe..."
@@ -55447,12 +55465,16 @@ msgid ""
 "The chosen callsign or repository short name is already in use by another "
 "repository."
 msgstr ""
+"Das gewählte Rufzeichen oder der gewählte Kurzname des Repositorys wird "
+"bereits von einem anderen Repository verwendet."
 
 #, php-format
 msgid ""
 "Another process is currently discovering repository \"%s\", skipping "
 "discovery."
 msgstr ""
+"Ein anderer Prozess ermittelt gerade Repository \"%s\"; Ermittlung wird "
+"übersprungen."
 
 #, php-format
 msgid "Unknown VCS '%s'!"
@@ -55463,6 +55485,8 @@ msgid ""
 "Discovered more than %s commits in an empty repository, marking repository "
 "as importing."
 msgstr ""
+"In einem leeren Repository wurden mehr als %s Commits gefunden; Repository "
+"wird als importierend markiert."
 
 #, php-format
 msgid "Discovering commits in repository \"%s\"."
@@ -55494,6 +55518,13 @@ msgid ""
 "you want to import only part of a Subversion repository, use the \"Import "
 "Only\" option."
 msgstr ""
+"Repository \"%s\" hat keine korrekt konfigurierte Remote-URI. Die Remote-"
+"URI für ein Subversion-Repository MUSS auf das Stammverzeichnis des "
+"Repositorys zeigen. Das Stammverzeichnis für dieses Repository ist \"%s\", "
+"aber die konfigurierte URI ist \"%s\". Um diesen Fehler zu beheben, setze "
+"die Remote-URI so, dass sie auf das Stammverzeichnis des Repositorys zeigt. "
+"Wenn Du nur einen Teil eines Subversion-Repositorys importieren möchtest, "
+"verwende die Option \"Import Only\"."
 
 #, php-format
 msgid "Examining branch \"%s\" head \"%s\"."
@@ -55523,12 +55554,16 @@ msgid ""
 "Importing %s commit(s) at low priority (\"PRIORITY_IMPORT\") because this "
 "repository is still importing."
 msgstr ""
+"%s Commit(s) werden mit niedriger Priorität (\"PRIORITY_IMPORT\") "
+"importiert, weil dieses Repository noch importiert wird."
 
 #, php-format
 msgid ""
 "Importing %s commits at low priority (\"PRIORITY_IMPORT\") because many "
 "commits were discovered at once."
 msgstr ""
+"%s Commits werden mit niedriger Priorität (\"PRIORITY_IMPORT\") importiert, "
+"weil viele Commits auf einmal gefunden wurden."
 
 #, php-format
 msgid "Importing %s commit(s) at normal priority (\"PRIORITY_COMMIT\")."
@@ -55570,6 +55605,8 @@ msgstr "Pushe zu Remote „%s\"..."
 #, php-format
 msgid "Another process is currently updating repository \"%s\", skipping pull."
 msgstr ""
+"Ein anderer Prozess aktualisiert gerade Repository \"%s\"; Pull wird "
+"übersprungen."
 
 #, php-format
 msgid ""
@@ -55586,6 +55623,8 @@ msgid ""
 "Repository \"%s\" is a non-hosted Subversion repository, which does not "
 "require a local working copy to be pulled."
 msgstr ""
+"Repository \"%s\" ist ein nicht gehostetes Subversion-Repository und "
+"benötigt keine lokale Arbeitskopie, die gepullt werden müsste."
 
 #, php-format
 msgid "Unknown VCS \"%s\"!"
@@ -55621,6 +55660,11 @@ msgid ""
 "%s will run any executables in this directory after running its own checks, "
 "as though they were normal hook scripts."
 msgstr ""
+"Um benutzerdefinierte Hook-Skripte zu diesem Repository hinzuzufügen, lege "
+"sie in dieses Verzeichnis.\n"
+"\n"
+"%s führt alle ausführbaren Dateien in diesem Verzeichnis aus, nachdem die "
+"eigenen Prüfungen gelaufen sind, so als wären es normale Hook-Skripte."
 
 #, php-format
 msgid ""
@@ -55628,6 +55672,9 @@ msgid ""
 "there. Remove the directory. A daemon will construct the working copy for "
 "you."
 msgstr ""
+"Es wurde erwartet, unter \"%s\" ein Git-Repository zu finden, dort befindet "
+"sich aber ein leeres Verzeichnis. Entferne das Verzeichnis. Ein Daemon "
+"erstellt die Arbeitskopie für Dich."
 
 #, php-format
 msgid ""
@@ -55635,6 +55682,10 @@ msgid ""
 "directory (with other stuff in it) there. Move or remove this directory. A "
 "daemon will construct the working copy for you."
 msgstr ""
+"Es wurde erwartet, unter \"%s\" ein Git-Repository zu finden, dort befindet "
+"sich aber ein Verzeichnis, das kein Repository ist (mit anderem Inhalt). "
+"Verschiebe oder entferne dieses Verzeichnis. Ein Daemon erstellt die "
+"Arbeitskopie für Dich."
 
 #, php-format
 msgid ""
@@ -55642,6 +55693,9 @@ msgid ""
 "instead. Move or remove this file. A daemon will construct the working copy "
 "for you."
 msgstr ""
+"Es wurde erwartet, unter \"%s\" ein Git-Repository zu finden, dort befindet "
+"sich aber stattdessen eine Datei. Verschiebe oder entferne diese Datei. Ein "
+"Daemon erstellt die Arbeitskopie für Dich."
 
 #, php-format
 msgid "Expected to find a git repository at \"%s\", but did not."
@@ -55654,12 +55708,19 @@ msgid ""
 "directory should be writable by the daemons and not inside another Git "
 "repository."
 msgstr ""
+"Es wurde erwartet, unter \"%s\" ein Git-Repository zu finden, aber das "
+"tatsächliche Stammverzeichnis des Git-Repositorys für dieses Verzeichnis ist "
+"\"%s\". Etwas ist falsch konfiguriert. Dieses Verzeichnis sollte für die "
+"Daemons beschreibbar sein und sich nicht innerhalb eines anderen Git-"
+"Repositorys befinden."
 
 #, php-format
 msgid ""
 "Repository working copy at '%s' failed sanity check; destroying and re-"
 "cloning. %s"
 msgstr ""
+"Die Plausibilitätsprüfung der Repository-Arbeitskopie unter '%s' ist "
+"fehlgeschlagen; sie wird zerstört und neu geklont. %s"
 
 #, php-format
 msgid "Found %s surplus local ref(s) to delete."
@@ -55671,11 +55732,14 @@ msgstr "Lösche überschüssigen lokalen Ref „%s\" („%s\")."
 
 msgid "Skipping fetch because local and remote refs are already identical."
 msgstr ""
+"Fetch wird übersprungen, weil lokale und Remote-Refs bereits identisch sind."
 
 #, php-format
 msgid ""
 "Refusing to list potentially dangerous ref (\"%s\") beginning with \"-\"."
 msgstr ""
+"Potenziell gefährlicher Ref (\"%s\"), der mit \"-\" beginnt, wird nicht "
+"aufgelistet."
 
 #, php-format
 msgid "%s (remote: \"%s\", local: \"%s\")"
@@ -55696,6 +55760,10 @@ msgid ""
 "injection security vulnerability. The remote URI for this repository (%s) is "
 "potentially unsafe. Upgrade Mercurial to at least 3.2.4 to clone it."
 msgstr ""
+"Du verwendest eine alte Mercurial-Version (%s), die eine schwerwiegende "
+"Sicherheitslücke zur Command Injection hat. Die Remote-URI dieses "
+"Repositorys (%s) ist potenziell unsicher. Aktualisiere Mercurial auf "
+"mindestens 3.2.4, bevor Du es klonst."
 
 msgid "<Response body omitted from Mercurial error message.>"
 msgstr "<Antwortinhalt aus Mercurial-Fehlermeldung entfernt.>"
@@ -55729,6 +55797,8 @@ msgid ""
 "Commit \"%s\" has not been discovered yet! Run discovery before updating "
 "refs."
 msgstr ""
+"Commit \"%s\" wurde noch nicht ermittelt! Führe zuerst die Ermittlung aus, "
+"bevor Du Refs aktualisierst."
 
 #, php-format
 msgid ""
@@ -55736,6 +55806,10 @@ msgid ""
 "\"%s\") because it collided with an existing cursor, but then failed to load "
 "that cursor."
 msgstr ""
+"Ein neuer Ref-Cursor (für \"%s\", vom Typ \"%s\", im Repository \"%s\") "
+"konnte nicht erstellt werden, weil er mit einem vorhandenen Cursor "
+"kollidierte; anschließend konnte dieser Cursor aber auch nicht geladen "
+"werden."
 
 msgid "Commit Epochs"
 msgstr "Commit-Epochen"
@@ -55743,10 +55817,14 @@ msgstr "Commit-Epochen"
 #, php-format
 msgid "No test data for callsign '%s'. Expected an archive like '%s' in '%s'."
 msgstr ""
+"Keine Testdaten für Rufzeichen '%s'. Erwartet wurde ein Archiv wie '%s' in "
+"'%s'."
 
 #, php-format
 msgid "Expected exactly one archive matching callsign '%s', found too many: %s"
 msgstr ""
+"Es wurde genau ein Archiv erwartet, das zum Rufzeichen '%s' passt, aber es "
+"wurden zu viele gefunden: %s"
 
 #, php-format
 msgid "Test Repo \"%s\""
@@ -55799,6 +55877,8 @@ msgstr "Bestehende Repositories in Cluster-Repositories umwandeln."
 
 msgid "Cluster repository service in Almanac to move repositories into."
 msgstr ""
+"Cluster-Repository-Dienst in Almanac, in den Repositories verschoben werden "
+"sollen."
 
 msgid "Take repositories out of a cluster."
 msgstr "Repositories aus einem Cluster entfernen."
@@ -55827,6 +55907,11 @@ msgid ""
 "device to unfreeze it. See \"Ambiguous Leaders\" in the documentation for "
 "discussion."
 msgstr ""
+"Wenn Du ein Repository in diesen Dienst clusterst, ist möglicherweise "
+"unklar, welche Geräte aktuelle Kopien des Repositorys haben. In diesem Fall "
+"friert die Unklarheit über Leader und Follower das Repository ein. "
+"Möglicherweise musst Du ein Gerät manuell zum Leader befördern, um es "
+"wieder freizugeben. Siehe \"Ambiguous Leaders\" in der Dokumentation."
 
 #, php-format
 msgid "Moved repository \"%s\" to cluster service \"%s\"."
@@ -55846,6 +55931,8 @@ msgid ""
 "Discover all commits, even if they are ancestors of known commits. This can "
 "repair gaps in repository history."
 msgstr ""
+"Alle Commits ermitteln, auch wenn sie Vorfahren bereits bekannter Commits "
+"sind. Dadurch können Lücken in der Repository-Historie repariert werden."
 
 msgid "Specify one or more repositories to discover."
 msgstr "Ein oder mehrere Repositories zur Ermittlung angeben."
@@ -55873,6 +55960,8 @@ msgid ""
 "Each item in the list of hints should be a JSON object, but the item at "
 "index \"%s\" is not."
 msgstr ""
+"Jeder Eintrag in der Hinweisliste sollte ein JSON-Objekt sein, aber der "
+"Eintrag an Index \"%s\" ist keines."
 
 #, php-format
 msgid "Unexpected hint format at index \"%s\": %s"
@@ -55883,6 +55972,8 @@ msgid ""
 "Repository identifier \"%s\" (in hint at index \"%s\") does not identify a "
 "valid repository."
 msgstr ""
+"Der Repository-Bezeichner \"%s\" (im Hinweis an Index \"%s\") kennzeichnet "
+"kein gültiges Repository."
 
 #, php-format
 msgid "Updated hint for \"%s\"."
@@ -55920,17 +56011,23 @@ msgstr "Ein oder mehrere Repositories zum Sperren angeben."
 msgid ""
 "Unable to lock repository \"%s\": only hosted repositories may be locked."
 msgstr ""
+"Repository \"%s\" kann nicht gesperrt werden: Nur gehostete Repositories "
+"dürfen gesperrt werden."
 
 #, php-format
 msgid ""
 "Unable to lock repository \"%s\": only repositories that support clustering "
 "may be locked."
 msgstr ""
+"Repository \"%s\" kann nicht gesperrt werden: Nur Repositories, die "
+"Clustering unterstützen, dürfen gesperrt werden."
 
 #, php-format
 msgid ""
 "Unable to lock repository \"%s\": only clustered repositories may be locked."
 msgstr ""
+"Repository \"%s\" kann nicht gesperrt werden: Nur geclusterte Repositories "
+"dürfen gesperrt werden."
 
 msgid "These repositories will be locked:"
 msgstr "Diese Repositories werden gesperrt:"
@@ -55941,6 +56038,9 @@ msgid ""
 "and you may safely perform working copy maintenance on this node in another "
 "terminal window."
 msgstr ""
+"Solange die Sperre gehalten wird, können Benutzer nicht in dieses "
+"Repository schreiben, und Du kannst in einem anderen Terminalfenster auf "
+"diesem Knoten gefahrlos Wartung an der Arbeitskopie durchführen."
 
 msgid "Lock repositories and begin maintenance?"
 msgstr "Repositories sperren und Wartung beginnen?"
@@ -55950,6 +56050,10 @@ msgid ""
 "window. Keep this process running until you complete the maintenance, then "
 "confirm that you are ready to release the locks."
 msgstr ""
+"Die Repositories sind jetzt gesperrt. Du kannst die Wartung in einem "
+"anderen Terminalfenster beginnen. Lasse diesen Prozess laufen, bis Du die "
+"Wartung abgeschlossen hast, und bestätige dann, dass die Sperren wieder "
+"freigegeben werden können."
 
 msgid "Set or clear read-only mode for repository maintenance."
 msgstr "Nur-Lese-Modus für Repository-Wartung setzen oder aufheben."
@@ -55960,6 +56064,8 @@ msgstr "Repositories in den Wartungsmodus versetzen."
 msgid ""
 "Take repositories out of maintenance mode, returning them to normal service."
 msgstr ""
+"Repositories aus dem Wartungsmodus nehmen und in den normalen Betrieb "
+"zurückführen."
 
 msgid "Specify one or more repositories to act on."
 msgstr "Ein oder mehrere Repositories angeben."
@@ -55968,6 +56074,8 @@ msgid ""
 "Use \"--start <message>\" to put repositories into maintenance mode, or \"--"
 "stop\" to take them out of maintenance mode."
 msgstr ""
+"Verwende \"--start <message>\", um Repositories in den Wartungsmodus zu "
+"versetzen, oder \"--stop\", um sie daraus zu nehmen."
 
 msgid "Specify either \"--start\" or \"--stop\", but not both."
 msgstr "Entweder „--start\" oder „--stop\" angeben, aber nicht beides."
@@ -56011,6 +56119,8 @@ msgstr "„Unerreichbar\"-Flags für Commits in Repository __repository__ neu au
 
 msgid "Specify one or more repositories to correct reachability status for."
 msgstr ""
+"Ein oder mehrere Repositories angeben, für die der Erreichbarkeitsstatus "
+"korrigiert werden soll."
 
 #, php-format
 msgid "Examined %s commits already in the correct state."
@@ -56022,6 +56132,8 @@ msgid ""
 "Only Git and Mercurial repositories are supported, unable to operate on this "
 "repository (\"%s\")."
 msgstr ""
+"Es werden nur Git- und Mercurial-Repositories unterstützt; auf diesem "
+"Repository (\"%s\") kann nicht gearbeitet werden."
 
 msgid "Marking commit unreachable."
 msgstr "Commit als unerreichbar markieren."
@@ -56082,12 +56194,16 @@ msgid ""
 "Build parent caches in repositories that are missing the data, or rebuild "
 "them in a specific __repository__."
 msgstr ""
+"Parent-Caches in Repositories aufbauen, denen diese Daten fehlen, oder sie "
+"in einem bestimmten __repository__ neu aufbauen."
 
 #, php-format
 msgid ""
 "Skipping \"%s\": Subversion repositories do not require this cache to be "
 "built."
 msgstr ""
+"\"%s\" wird übersprungen: Subversion-Repositories benötigen diesen Cache "
+"nicht."
 
 #, php-format
 msgid "Rebuilding \"%s\"..."
@@ -56113,6 +56229,8 @@ msgid ""
 "Pull even if the repository should not be present on this host according to "
 "repository cluster configuration."
 msgstr ""
+"Auch dann pullen, wenn das Repository gemäß der Cluster-Konfiguration auf "
+"diesem Host eigentlich nicht vorhanden sein sollte."
 
 msgid "Specify one or more repositories to pull."
 msgstr "Ein oder mehrere Repositories zum Pullen angeben."
@@ -56152,9 +56270,11 @@ msgstr "Änderungen anzeigen, aber keine vornehmen."
 
 msgid "Flags \"--all-repositories\" and \"--repository\" are not compatible."
 msgstr ""
+"Die Flags \"--all-repositories\" und \"--repository\" sind nicht kompatibel."
 
 msgid "Flags \"--all-identities\" and \"--raw\" are not compatible."
 msgstr ""
+"Die Flags \"--all-identities\" und \"--raw\" sind nicht kompatibel."
 
 msgid "This is a dry run, so no changes will be written."
 msgstr "Dies ist ein Probelauf, es werden keine Änderungen geschrieben."
@@ -56165,6 +56285,8 @@ msgid ""
 "No identity \"%s\" exists. When selecting identities with \"--raw\", the "
 "entire identity must match exactly."
 msgstr ""
+"Es existiert keine Identität \"%s\". Wenn Identitäten mit \"--raw\" "
+"ausgewählt werden, muss die gesamte Identität exakt übereinstimmen."
 
 msgid "REBUILD"
 msgstr "NEUAUFBAU"
@@ -56176,6 +56298,8 @@ msgid ""
 "Nothing specified to rebuild. Use flags to choose which identities to "
 "rebuild, or \"--help\" for help."
 msgstr ""
+"Es wurde nichts zum Neuaufbau angegeben. Verwende Flags, um auszuwählen, "
+"welche Identitäten neu aufgebaut werden sollen, oder \"--help\" für Hilfe."
 
 #, php-format
 msgid "Rebuilt identities for \"%s\"."
@@ -56262,6 +56386,8 @@ msgid ""
 "Publish commits currently reachable from any permanent ref, ignoring the "
 "cached ref state."
 msgstr ""
+"Commits veröffentlichen, die derzeit von einem permanenten Ref erreichbar "
+"sind, und dabei den gecachten Ref-Status ignorieren."
 
 msgid "Specify one or more repositories to update refs for."
 msgstr "Ein oder mehrere Repositories zur Ref-Aktualisierung angeben."
@@ -56283,6 +56409,17 @@ msgid ""
 "e.g. do same but exclude before 03/31/2013 (local time):\n"
 "repository reparse --all TEST --change --min-date \"03/31/2013\""
 msgstr ""
+"**reparse** __what__ __which_parts__ [--trace] [--force]\n"
+"\n"
+"Den Diffusion-Parser für bestimmte Commits und Repositories erneut "
+"ausführen. Meistens nützlich zum Debuggen von Änderungen an Diffusion.\n"
+"\n"
+"z.B. dasselbe, aber alles vor gestern ausschließen (lokale Zeit):\n"
+"repository reparse --all TEST --change --min-date yesterday\n"
+"repository reparse --all TEST --change --min-date \"today -1 day\".\n"
+"\n"
+"z.B. dasselbe, aber alles vor dem 31.03.2013 ausschließen (lokale Zeit):\n"
+"repository reparse --all TEST --change --min-date \"03/31/2013\""
 
 msgid "Reparse all commits in the specified repository."
 msgstr "Alle Commits im angegebenen Repository erneut verarbeiten."
@@ -56298,6 +56435,14 @@ msgid ""
 "  '31 March 2013', '31 Mar', '03/31', '03/31/2013',\n"
 "See __%s__ for more."
 msgstr ""
+"Muss zusammen mit __%s__ verwendet werden; dadurch werden Commits "
+"ausgeschlossen, die älter als __date__ sind.\n"
+"Gültige Beispiele:\n"
+"  'today', 'today 2pm', '-1 hour', '-2 hours', '-24 hours',\n"
+"  'yesterday', 'today -1 day', 'yesterday 2pm', '2pm -1 day',\n"
+"  'last Monday', 'last Monday 14:00', 'last Monday 2pm',\n"
+"  '31 March 2013', '31 Mar', '03/31', '03/31/2013',\n"
+"Siehe __%s__ für weitere Informationen."
 
 msgid "Reparse commit messages."
 msgstr "Commit-Nachrichten erneut verarbeiten."
@@ -56309,12 +56454,16 @@ msgstr "Quelländerungen neu verarbeiten."
 msgid ""
 "Publish changes: send email, publish Feed stories, run Herald rules, etc."
 msgstr ""
+"Änderungen veröffentlichen: E-Mails senden, Feed-Beiträge veröffentlichen, "
+"Herald-Regeln ausführen usw."
 
 msgid "Act noninteractively, without prompting."
 msgstr "Nichtinteraktiv handeln, ohne Nachfrage."
 
 msgid "Queue tasks for the daemons instead of running them in the foreground."
 msgstr ""
+"Aufgaben für die Daemons in die Warteschlange stellen, statt sie im "
+"Vordergrund auszuführen."
 
 msgid "Reparse all steps which have not yet completed."
 msgstr "Alle noch nicht abgeschlossenen Schritte erneut verarbeiten."
@@ -56328,16 +56477,25 @@ msgid ""
 "All from repo: %s\n"
 "Commit(s) to reparse: %s"
 msgstr ""
+"Gib entweder einen Commit oder ein Repository zum erneuten Verarbeiten an, "
+"aber nicht beides:\n"
+"Alles aus Repository: %s\n"
+"Zu reparsende Commit(s): %s"
 
 msgid ""
 "Choosing steps with \"--importing\" conflicts with flags which select "
 "specific steps."
 msgstr ""
+"Die Auswahl von Schritten mit \"--importing\" steht im Konflikt mit Flags, "
+"die bestimmte Schritte auswählen."
 
 msgid ""
 "Specify which steps to reparse with \"--message\", \"--change\", and/or \"--"
 "publish\"; or \"--importing\" to run all missing steps."
 msgstr ""
+"Gib mit \"--message\", \"--change\" und/oder \"--publish\" an, welche "
+"Schritte erneut verarbeitet werden sollen, oder verwende \"--importing\", "
+"um alle fehlenden Schritte auszuführen."
 
 msgid "You must use \"--all\" if you specify \"--min-date\"."
 msgstr "Du musst „--all\" verwenden, wenn Du „--min-date\" angibst."
@@ -56347,6 +56505,9 @@ msgid ""
 "Supplied --min-date is not valid. See help for valid examples.\n"
 "Supplied value: '%s'\n"
 msgstr ""
+"Der angegebene Wert für --min-date ist ungültig. Gültige Beispiele findest "
+"Du in der Hilfe.\n"
+"Angegebener Wert: '%s'\n"
 
 #, php-format
 msgid "Unknown repository \"%s\"!"
@@ -56360,16 +56521,23 @@ msgstr "Im Repository „%s\" wurden keine Commits gefunden!"
 msgid ""
 "Resolve issues with frozen cluster repositories. Very advanced and dangerous."
 msgstr ""
+"Probleme mit eingefrorenen Cluster-Repositories beheben. Sehr "
+"fortgeschritten und gefährlich."
 
 msgid ""
 "Demote a device (or all devices in a service) discarding unsynchronized "
 "changes. Clears stuck write locks and recovers from lost leaders."
 msgstr ""
+"Ein Gerät (oder alle Geräte in einem Dienst) zurückstufen und dabei nicht "
+"synchronisierte Änderungen verwerfen. Beseitigt hängen gebliebene "
+"Schreibsperren und stellt nach verlorenen Leadern den Betrieb wieder her."
 
 msgid ""
 "Promote a device, discarding changes on other devices. Resolves ambiguous "
 "leadership and recovers from demotion mistakes."
 msgstr ""
+"Ein Gerät befördern und Änderungen auf anderen Geräten verwerfen. Löst "
+"unklare Führungsverhältnisse auf und behebt Fehler bei der Zurückstufung."
 
 msgid "Run operations without asking for confirmation."
 msgstr "Operationen ohne Bestätigung ausführen."
@@ -56377,6 +56545,8 @@ msgstr "Operationen ohne Bestätigung ausführen."
 msgid ""
 "Apply the promotion or demotion to all repositories hosted on the device."
 msgstr ""
+"Die Beförderung oder Zurückstufung auf alle Repositories anwenden, die auf "
+"dem Gerät gehostet werden."
 
 msgid "You must choose a device to --promote or --demote."
 msgstr "Du musst ein Gerät zum Befördern (--promote) oder Degradieren (--demote) wählen."
@@ -56393,6 +56563,8 @@ msgid ""
 "You can not \"--promote\" an entire service (\"%s\"). Only a single device "
 "may be promoted."
 msgstr ""
+"Du kannst nicht einen gesamten Dienst (\"%s\") mit \"--promote\" befördern. "
+"Nur ein einzelnes Gerät darf befördert werden."
 
 #, php-format
 msgid "Service \"%s\" is not bound to any devices."
@@ -56400,11 +56572,15 @@ msgstr "Dienst „%s\" ist an kein Gerät gebunden."
 
 msgid "Specify a list of repositories or \"--all-repositories\", but not both."
 msgstr ""
+"Gib entweder eine Liste von Repositories oder \"--all-repositories\" an, "
+"aber nicht beides."
 
 msgid ""
 "Select repositories to affect by providing a list of repositories or using "
 "the \"--all-repositories\" flag."
 msgstr ""
+"Wähle die betroffenen Repositories aus, indem Du eine Liste von "
+"Repositories angibst oder das Flag \"--all-repositories\" verwendest."
 
 msgid "Specify one or more repositories to thaw."
 msgstr "Ein oder mehrere Repositories zum Auftauen angeben."
@@ -56422,12 +56598,18 @@ msgid ""
 "exists on other devices. The version of the repository on the promoted "
 "device will become authoritative."
 msgstr ""
+"Die Beförderung eines Geräts kann zum Verlust von Repository-Daten führen, "
+"die nur auf anderen Geräten existieren. Die Version des Repositorys auf dem "
+"beförderten Gerät wird maßgeblich."
 
 msgid ""
 "Demoting a device can cause the loss of any repository data which only "
 "exists on the demoted device. The version of the repository on some other "
 "device will become authoritative."
 msgstr ""
+"Die Zurückstufung eines Geräts kann zum Verlust von Repository-Daten "
+"führen, die nur auf dem zurückgestuften Gerät existieren. Die Version des "
+"Repositorys auf einem anderen Gerät wird maßgeblich."
 
 msgid "DATA AT RISK"
 msgstr "DATEN IN GEFAHR"
@@ -56444,24 +56626,33 @@ msgid ""
 "Repository \"%s\" is not a cluster repository: it is not bound to an Almanac "
 "service."
 msgstr ""
+"Repository \"%s\" ist kein Cluster-Repository: Es ist an keinen Almanac-"
+"Dienst gebunden."
 
 #, php-format
 msgid ""
 "Repository \"%s\" has no active binding to device \"%s\". Only actively "
 "bound devices can be promoted."
 msgstr ""
+"Repository \"%s\" hat keine aktive Bindung an Gerät \"%s\". Nur aktiv "
+"gebundene Geräte können befördert werden."
 
 #, php-format
 msgid ""
 "Repository \"%s\" has versions on inactive devices. Demote (or reactivate) "
 "these devices before promoting a new leader: %s."
 msgstr ""
+"Repository \"%s\" hat Versionen auf inaktiven Geräten. Stufe diese Geräte "
+"zurück (oder aktiviere sie erneut), bevor Du einen neuen Leader "
+"beförderst: %s."
 
 #, php-format
 msgid ""
 "Unable to promote \"%s\" for repository \"%s\" because this cluster already "
 "has one or more unambiguous leaders: %s."
 msgstr ""
+"\"%s\" kann für Repository \"%s\" nicht befördert werden, weil dieser "
+"Cluster bereits einen oder mehrere eindeutige Leader hat: %s."
 
 #, php-format
 msgid "Promoted \"%s\" to become a leader for \"%s\"."
@@ -56476,6 +56667,9 @@ msgid ""
 "Unpublish all feed stories and notifications that a repository has "
 "generated. Keep expectations low; can not rewind time."
 msgstr ""
+"Alle Feed-Beiträge und Benachrichtigungen zurückziehen, die ein Repository "
+"erzeugt hat. Die Erwartungen sollten gering sein; die Zeit lässt sich nicht "
+"zurückdrehen."
 
 msgid "Do not prompt for confirmation."
 msgstr "Keine Bestätigung anfordern."
@@ -56490,6 +56684,9 @@ msgid ""
 "This script will unpublish all feed stories and notifications which a "
 "repository generated during import. This action can not be undone."
 msgstr ""
+"Dieses Skript zieht alle Feed-Beiträge und Benachrichtigungen zurück, die "
+"ein Repository während des Imports erzeugt hat. Diese Aktion kann nicht "
+"rückgängig gemacht werden."
 
 #, php-format
 msgid "Permanently unpublish \"%s\"?"
@@ -56544,6 +56741,8 @@ msgid ""
 "Update __repository__. This performs the __pull__, __discover__, __refs__ "
 "and __mirror__ operations and is primarily an internal workflow."
 msgstr ""
+"__repository__ aktualisieren. Führt die Operationen __pull__, __discover__, "
+"__refs__ und __mirror__ aus und ist in erster Linie ein interner Ablauf."
 
 msgid "Do not perform discovery."
 msgstr "Keine Ermittlung durchführen."
@@ -56801,48 +57000,66 @@ msgid ""
 "The empty string is not a valid repository short name. Repository short "
 "names must be at least one character long."
 msgstr ""
+"Die leere Zeichenkette ist kein gültiger Repository-Kurzname. Repository-"
+"Kurznamen müssen mindestens ein Zeichen lang sein."
 
 #, php-format
 msgid ""
 "The name \"%s\" is not a valid repository short name. Repository short names "
 "must not be longer than 64 characters."
 msgstr ""
+"Der Name \"%s\" ist kein gültiger Repository-Kurzname. Repository-"
+"Kurznamen dürfen nicht länger als 64 Zeichen sein."
 
 #, php-format
 msgid ""
 "The name \"%s\" is not a valid repository short name. Repository short names "
 "may only contain letters, numbers, periods, hyphens and underscores."
 msgstr ""
+"Der Name \"%s\" ist kein gültiger Repository-Kurzname. Repository-"
+"Kurznamen dürfen nur Buchstaben, Zahlen, Punkte, Bindestriche und "
+"Unterstriche enthalten."
 
 #, php-format
 msgid ""
 "The name \"%s\" is not a valid repository short name. Repository short names "
 "must begin with a letter or number."
 msgstr ""
+"Der Name \"%s\" ist kein gültiger Repository-Kurzname. Repository-"
+"Kurznamen müssen mit einem Buchstaben oder einer Zahl beginnen."
 
 #, php-format
 msgid ""
 "The name \"%s\" is not a valid repository short name. Repository short names "
 "must end with a letter or number."
 msgstr ""
+"Der Name \"%s\" ist kein gültiger Repository-Kurzname. Repository-"
+"Kurznamen müssen mit einem Buchstaben oder einer Zahl enden."
 
 #, php-format
 msgid ""
 "The name \"%s\" is not a valid repository short name. Repository short names "
 "must not contain multiple consecutive underscores, hyphens, or periods."
 msgstr ""
+"Der Name \"%s\" ist kein gültiger Repository-Kurzname. Repository-"
+"Kurznamen dürfen keine mehrfach aufeinanderfolgenden Unterstriche, "
+"Bindestriche oder Punkte enthalten."
 
 #, php-format
 msgid ""
 "The name \"%s\" is not a valid repository short name. Repository short names "
 "may not contain only uppercase letters."
 msgstr ""
+"Der Name \"%s\" ist kein gültiger Repository-Kurzname. Repository-"
+"Kurznamen dürfen nicht nur aus Großbuchstaben bestehen."
 
 #, php-format
 msgid ""
 "The name \"%s\" is not a valid repository short name. Repository short names "
 "may not contain only numbers."
 msgstr ""
+"Der Name \"%s\" ist kein gültiger Repository-Kurzname. Repository-"
+"Kurznamen dürfen nicht nur aus Zahlen bestehen."
 
 #, php-format
 msgid ""
@@ -56850,6 +57067,9 @@ msgid ""
 "must not end in \".git\". This suffix will be added automatically in "
 "appropriate contexts."
 msgstr ""
+"Der Name \"%s\" ist kein gültiger Repository-Kurzname. Repository-"
+"Kurznamen dürfen nicht auf \".git\" enden. Dieses Suffix wird in passenden "
+"Kontexten automatisch hinzugefügt."
 
 msgid "A repository callsign must be at least one character long."
 msgstr "Ein Repository-Rufzeichen muss mindestens ein Zeichen lang sein."
@@ -56860,12 +57080,16 @@ msgid ""
 "The callsign \"%s\" is not a valid repository callsign. Callsigns must be no "
 "more than 32 bytes long."
 msgstr ""
+"Das Rufzeichen \"%s\" ist kein gültiges Repository-Rufzeichen. Rufzeichen "
+"dürfen höchstens 32 Byte lang sein."
 
 #, php-format
 msgid ""
 "The callsign \"%s\" is not a valid repository callsign. Callsigns may only "
 "contain UPPERCASE letters."
 msgstr ""
+"Das Rufzeichen \"%s\" ist kein gültiges Repository-Rufzeichen. Rufzeichen "
+"dürfen nur GROSSBUCHSTABEN enthalten."
 
 #, php-format
 msgid "Action \"%s\" is not a valid repository URI action."
@@ -56883,6 +57107,8 @@ msgid ""
 "This repository does not support Git LFS, so Git LFS URIs can not be "
 "generated for it."
 msgstr ""
+"Dieses Repository unterstützt Git LFS nicht, daher können dafür keine Git-"
+"LFS-URIs erzeugt werden."
 
 msgid "The remote URI has leading or trailing whitespace."
 msgstr "Die Remote-URI hat führende oder nachfolgende Leerzeichen."
@@ -56893,24 +57119,35 @@ msgid ""
 "protocol should be in the form '%s', not '%s'. The '%s' syntax is only valid "
 "in SCP-style URIs."
 msgstr ""
+"Die Remote-URI ist nicht korrekt formatiert. Remote-URIs mit explizitem "
+"Protokoll sollten die Form '%s' haben, nicht '%s'. Die Syntax '%s' ist nur "
+"bei URIs im SCP-Stil gültig."
 
 #, php-format
 msgid ""
 "The URI protocol is unrecognized. It should begin with \"%s\", \"%s\", "
 "\"%s\", \"%s\", \"%s\", \"%s\", or be in the form \"%s\"."
 msgstr ""
+"Das URI-Protokoll wird nicht erkannt. Es sollte mit \"%s\", \"%s\", \"%s\", "
+"\"%s\", \"%s\", \"%s\" beginnen oder die Form \"%s\" haben."
 
 msgid ""
 "Unable to handle proxied service request. This device is not registered, so "
 "it can not identify local services. Register this device before sending "
 "requests here."
 msgstr ""
+"Die weitergeleitete Dienstanfrage kann nicht verarbeitet werden. Dieses "
+"Gerät ist nicht registriert und kann daher lokale Dienste nicht "
+"identifizieren. Registriere dieses Gerät, bevor Du Anfragen hierher "
+"sendest."
 
 #, php-format
 msgid ""
 "The Almanac service for this repository is not bound to any interfaces which "
 "support the required protocols (%s)."
 msgstr ""
+"Der Almanac-Dienst für dieses Repository ist an keine Schnittstellen "
+"gebunden, die die erforderlichen Protokolle (%s) unterstützen."
 
 msgid "(This is a write request.)"
 msgstr "(Dies ist eine Schreibanfrage.)"
@@ -56936,6 +57173,19 @@ msgid ""
 "\n"
 "%s"
 msgstr ""
+"Diese Repository-Anfrage (für Repository \"%s\") wurde fälschlicherweise an "
+"einen Cluster-Host weitergeleitet (mit Gerätenamen \"%s\" und Hostnamen "
+"\"%s\"), der die Anfrage nicht bedienen kann.\n"
+"\n"
+"Die Almanac-Geräteadresse für das korrekte Gerät zeigt möglicherweise "
+"fälschlich auf diesen Host, oder die Konfigurationsdatei \"device.id\" auf "
+"diesem Host ist fehlerhaft.\n"
+"\n"
+"Innerhalb des Clusters weitergeleitete Anfragen müssen immer an einen "
+"Knoten gesendet werden, der die Anfrage bedienen kann. Um Schleifen zu "
+"verhindern, wird diese Anfrage nicht erneut weitergeleitet.\n"
+"\n"
+"%s"
 
 #, php-format
 msgid ""
@@ -56943,6 +57193,9 @@ msgid ""
 "repository does not support cluster synchronization. Declusterize this "
 "repository or move it to a service with only one host."
 msgstr ""
+"Repository \"%s\" ist an mehrere aktive Repository-Hosts gebunden, "
+"unterstützt aber keine Cluster-Synchronisierung. Entferne das Repository "
+"aus dem Cluster oder verschiebe es in einen Dienst mit nur einem Host."
 
 #, php-format
 msgid ""
@@ -56950,11 +57203,16 @@ msgid ""
 "Almanac service for this repository has no writable bindings that support "
 "these protocols."
 msgstr ""
+"Dieses Repository (\"%s\") ist mit den angegebenen Protokollen (%s) nicht "
+"beschreibbar. Der Almanac-Dienst für dieses Repository hat keine "
+"beschreibbaren Bindungen, die diese Protokolle unterstützen."
 
 msgid ""
 "The Almanac service for this repository is not bound to any active "
 "interfaces."
 msgstr ""
+"Der Almanac-Dienst für dieses Repository ist an keine aktiven "
+"Schnittstellen gebunden."
 
 #, php-format
 msgid ""
@@ -56962,6 +57220,10 @@ msgid ""
 "method call within the cluster. Use `%s` to register keys for this device. "
 "Exception: %s"
 msgstr ""
+"Der öffentliche Schlüssel des Geräts konnte beim Versuch, innerhalb des "
+"Clusters einen authentifizierten Methodenaufruf auszuführen, nicht gelesen "
+"werden. Verwende `%s`, um Schlüssel für dieses Gerät zu registrieren. "
+"Ausnahme: %s"
 
 #, php-format
 msgid ""
@@ -56969,6 +57231,10 @@ msgid ""
 "method call within the cluster. Use `%s` to register keys for this device. "
 "Exception: %s"
 msgstr ""
+"Der private Schlüssel des Geräts konnte beim Versuch, innerhalb des "
+"Clusters einen authentifizierten Methodenaufruf auszuführen, nicht gelesen "
+"werden. Verwende `%s`, um Schlüssel für dieses Gerät zu registrieren. "
+"Ausnahme: %s"
 
 msgid "This repository is currently in read-only maintenance mode."
 msgstr "Dieses Repository befindet sich derzeit im Nur-Lese-Wartungsmodus."
@@ -56976,11 +57242,15 @@ msgstr "Dieses Repository befindet sich derzeit im Nur-Lese-Wartungsmodus."
 msgid ""
 "The Almanac service for this repository is invalid or could not be loaded."
 msgstr ""
+"Der Almanac-Dienst für dieses Repository ist ungültig oder konnte nicht "
+"geladen werden."
 
 msgid ""
 "The Almanac service for this repository does not have the correct service "
 "type."
 msgstr ""
+"Der Almanac-Dienst für dieses Repository hat nicht den korrekten "
+"Diensttyp."
 
 msgid "The VCS this repository uses (\"git\", \"hg\" or \"svn\")."
 msgstr "Das VCS, das dieses Repository verwendet („git\", „hg\" oder „svn\")."
@@ -56999,6 +57269,8 @@ msgid ""
 "The Almanac Service that hosts this repository, if the repository is "
 "clustered."
 msgstr ""
+"Der Almanac-Dienst, der dieses Repository hostet, falls das Repository "
+"geclustert ist."
 
 msgid "The \"Fetch\" and \"Permanent Ref\" rules for this repository."
 msgstr "Die „Fetch\"- und „Permanent-Ref\"-Regeln für dieses Repository."
@@ -57032,6 +57304,9 @@ msgid ""
 "This commit (\"%s\") is associated with a hosted repository (\"%s\"). "
 "Repositories must be imported from GitHub to be built with CircleCI."
 msgstr ""
+"Dieser Commit (\"%s\") ist einem gehosteten Repository (\"%s\") zugeordnet. "
+"Repositories müssen von GitHub importiert werden, um mit CircleCI gebaut "
+"werden zu können."
 
 #, php-format
 msgid ""
@@ -57039,12 +57314,17 @@ msgid ""
 "remote URI (\"%s\") that does not appear to be hosted on GitHub. "
 "Repositories must be hosted on GitHub to be built with CircleCI."
 msgstr ""
+"Dieser Commit (\"%s\") ist einem Repository (\"%s\") zugeordnet, dessen "
+"Remote-URI (\"%s\") offenbar nicht auf GitHub gehostet wird. Repositories "
+"müssen auf GitHub gehostet sein, um mit CircleCI gebaut werden zu können."
 
 #, php-format
 msgid ""
 "Commit \"%s\" is not an ancestor of any branch head, so it can not be built "
 "with Buildkite."
 msgstr ""
+"Commit \"%s\" ist kein Vorfahre eines Branch-Head, daher kann er nicht mit "
+"Buildkite gebaut werden."
 
 msgid "The commit identifier."
 msgstr "Die Commit-Kennung."
@@ -57064,6 +57344,7 @@ msgstr "Wahr, wenn der Commit vollständig importiert ist."
 
 msgid "True if the commit is not the ancestor of any tag, branch, or ref."
 msgstr ""
+"Wahr, wenn der Commit kein Vorfahre eines Tags, Branches oder Refs ist."
 
 msgid "Information about the current audit status."
 msgstr "Informationen über den aktuellen Audit-Status."
@@ -57077,17 +57358,23 @@ msgid ""
 "When hinting a commit (\"%s\") as rewritten, you must provide the commit it "
 "was rewritten into."
 msgstr ""
+"Wenn Du für einen Commit (\"%s\") den Hinweis \"rewritten\" angibst, musst "
+"Du den Commit angeben, in den er umgeschrieben wurde."
 
 #, php-format
 msgid ""
 "When hinting a commit (\"%s\") as unreadable, you must not provide a new "
 "commit (\"%s\")."
 msgstr ""
+"Wenn Du für einen Commit (\"%s\") den Hinweis \"unreadable\" angibst, "
+"darfst Du keinen neuen Commit (\"%s\") angeben."
 
 #, php-format
 msgid ""
 "Hint type (\"%s\") for commit (\"%s\") is not valid. Valid hints are: %s."
 msgstr ""
+"Der Hinweis-Typ (\"%s\") für Commit (\"%s\") ist ungültig. Gültige Hinweise "
+"sind: %s."
 
 msgid "SSH"
 msgstr "SSH"
@@ -57103,17 +57390,18 @@ msgid "Authentication Required"
 msgstr "Authentifizierung erforderlich"
 
 
-#, fuzzy
 msgid ""
 "A repository's pull events are visible to users who can see the repository."
 msgstr ""
-"Dateien, die an bestimmte Objekte gebunden sind, sind sichtbar für die "
-"Benutzer,die diese Objekte sehen können."
+"Die Pull-Ereignisse eines Repositorys sind für Benutzer sichtbar, die das "
+"Repository sehen können."
 
 
 msgid ""
 "A repository's push events are visible to users who can see the repository."
 msgstr ""
+"Die Push-Ereignisse eines Repositorys sind für Benutzer sichtbar, die das "
+"Repository sehen können."
 
 msgid "Append"
 msgstr "Anhängen"
@@ -57181,6 +57469,8 @@ msgstr "gefährliche Änderung"
 msgid ""
 "A repository's push logs are visible to users who can see the repository."
 msgstr ""
+"Die Push-Protokolle eines Repositorys sind für Benutzer sichtbar, die das "
+"Repository sehen können."
 
 msgid "Repository refs have the same policies as their repository."
 msgstr "Repository-Refs haben dieselben Richtlinien wie ihr Repository."
@@ -57195,12 +57485,11 @@ msgid "Repository Needs Update"
 msgstr "Repository benötigt Aktualisierung"
 
 
-#, fuzzy
 msgid ""
 "A repository's sync events are visible to users who can see the repository."
 msgstr ""
-"Dateien, die an bestimmte Objekte gebunden sind, sind sichtbar für die "
-"Benutzer,die diese Objekte sehen können."
+"Die Synchronisierungsereignisse eines Repositorys sind für Benutzer "
+"sichtbar, die das Repository sehen können."
 
 
 msgid "Use default behavior."
@@ -57350,6 +57639,7 @@ msgstr "Erwartet, dass „%s\" ein gültiger Repository-Kurzname ist."
 #, php-format
 msgid "Expected \"%s\" to be rejected as an invalid repository short name."
 msgstr ""
+"Erwartet, dass „%s\" als ungültiger Repository-Kurzname abgelehnt wird."
 
 #, php-format
 msgid "Canonical Path (ID, No Callsign): %s"
@@ -57371,10 +57661,16 @@ msgid ""
 "tag, or ref in this repository, so it will not be imported. This usually "
 "means that the branch the commit was on was deleted or overwritten."
 msgstr ""
+"Commit \"%s\" (mit PHID \"%s\") ist von keinem Branch, Tag oder Ref in "
+"diesem Repository mehr erreichbar und wird daher nicht importiert. Das "
+"bedeutet normalerweise, dass der Branch, auf dem sich der Commit befand, "
+"gelöscht oder überschrieben wurde."
 
 msgid ""
 "Skipping import step; this step was previously completed for this commit."
 msgstr ""
+"Importschritt wird übersprungen; dieser Schritt wurde für diesen Commit "
+"bereits zuvor abgeschlossen."
 
 #, php-format
 msgid "Failed to reload commit \"%s\"."
@@ -57389,6 +57685,8 @@ msgstr "Patch konnte nicht generiert werden: %s"
 msgid ""
 "Patch generation took longer than configured limit (\"%s\") of %s second(s)."
 msgstr ""
+"Die Erzeugung des Patches dauerte länger als das konfigurierte Limit "
+"(\"%s\") von %s Sekunde(n)."
 
 #, php-format
 msgid "Patch size exceeds configured byte size limit (\"%s\") of %s."
@@ -57466,6 +57764,8 @@ msgstr "Verarbeite „%s\"..."
 
 msgid "This commit is marked as unreadable, so changes will not be parsed."
 msgstr ""
+"Dieser Commit ist als nicht lesbar markiert, daher werden Änderungen nicht "
+"geparst."
 
 
 #, php-format
@@ -57480,6 +57780,8 @@ msgid ""
 "Missing commits (%s) in a SVN repository which is not configured for "
 "subdirectory-only parsing!"
 msgstr ""
+"Fehlende Commits (%s) in einem SVN-Repository, das nicht für Parsing nur "
+"eines Unterverzeichnisses konfiguriert ist!"
 
 #, php-format
 msgid "Unknown SVN file kind '%s'."
@@ -57512,9 +57814,10 @@ msgid "Repository status \"%s\" is not valid. Valid statuses are: %s."
 msgstr "Repository-Status „%s\" ist ungültig. Gültige Status sind: %s."
 
 
-#, fuzzy, php-format
 msgid "%s changed %s automation blueprint(s), added %s: %s; removed %s: %s."
-msgstr "%s hat %s Commit(s) verändert, %s hinzugefügt: %s; %s entfernt: %s."
+msgstr ""
+"%s hat %s Automatisierungs-Blueprint(s) geändert, %s hinzugefügt: %s; %s "
+"entfernt: %s."
 
 
 #, php-format
@@ -57531,6 +57834,8 @@ msgstr "%s hat %s Automatisierungs-Blueprint(s) entfernt: %s."
 msgid ""
 "Some of the selected automation blueprints are invalid or restricted: %s."
 msgstr ""
+"Einige der ausgewählten Automatisierungs-Blueprints sind ungültig oder "
+"eingeschränkt: %s."
 
 #, php-format
 msgid "%s set the callsign for this repository to %s."
@@ -57552,14 +57857,15 @@ msgid ""
 "The selected callsign (\"%s\") is already in use by another repository. "
 "Choose a unique callsign."
 msgstr ""
+"Das gewählte Rufzeichen (\"%s\") wird bereits von einem anderen Repository "
+"verwendet. Wähle ein eindeutiges Rufzeichen."
 
-#, fuzzy, php-format
 msgid ""
 "%s changed the copy time limit for this repository from %s seconds to %s "
 "seconds."
 msgstr ""
-"%s hat die Teilnahme-Berechtigung dieses Chats von \"%s\" auf \"%s\" "
-"geändert."
+"%s hat das Zeitlimit zum Kopieren für dieses Repository von %s Sekunden auf "
+"%s Sekunden geändert."
 
 
 #, php-format
@@ -57567,15 +57873,18 @@ msgid "%s set the copy time limit for this repository to %s seconds."
 msgstr "%s hat das Zeitlimit für das Kopieren dieses Repositorys auf %s Sekunden gesetzt."
 
 
-#, fuzzy, php-format
 msgid ""
 "%s reset the copy time limit (%s seconds) for this repository to the default "
 "value."
-msgstr "%s hat die Zeichencodierung für das Repository auf \"%s\" gesetzt."
+msgstr ""
+"%s hat das Zeitlimit zum Kopieren (%s Sekunden) für dieses Repository auf "
+"den Standardwert zurückgesetzt."
 
 
 msgid "Unable to parse copy time limit, specify a positive number of seconds."
 msgstr ""
+"Das Zeitlimit zum Kopieren konnte nicht geparst werden; gib eine positive "
+"Anzahl von Sekunden an."
 
 #, php-format
 msgid "%s disabled protection against dangerous changes."
@@ -57663,17 +57972,22 @@ msgstr "Fetch-Regel (bei Index „%s\") muss ein String sein, erhalten: „%s\".
 #, php-format
 msgid "Fetch rule (at index \"%s\") is empty. Fetch rules must contain text."
 msgstr ""
+"Die Fetch-Regel an Index \"%s\" ist leer. Fetch-Regeln müssen Text "
+"enthalten."
 
 #, php-format
 msgid ""
 "Fetch rule (\"%s\", at index \"%s\") is invalid: fetch rules must not "
 "contain colons."
 msgstr ""
+"Die Fetch-Regel (\"%s\", an Index \"%s\") ist ungültig: Fetch-Regeln dürfen "
+"keine Doppelpunkte enthalten."
 
-#, fuzzy, php-format
 msgid ""
 "%s changed the filesize limit for this repository from %s bytes to %s bytes."
-msgstr "%s hat die Sichtbarkeit dieses Chats von \"%s\" auf \"%s\" geändert."
+msgstr ""
+"%s hat das Dateigrößenlimit für dieses Repository von %s Bytes auf %s Bytes "
+"geändert."
 
 
 #, php-format
@@ -57804,6 +58118,8 @@ msgid ""
 "The selected repository short name is already in use by another repository. "
 "Choose a unique short name."
 msgstr ""
+"Der gewählte Kurzname des Repositorys wird bereits von einem anderen "
+"Repository verwendet. Wähle einen eindeutigen Kurznamen."
 
 #, php-format
 msgid "%s set %s as the staging area for this repository."
@@ -57815,9 +58131,9 @@ msgid "%s removed %s as the staging area for this repository."
 msgstr "%s hat %s als Staging-Bereich für dieses Repository entfernt."
 
 
-#, fuzzy, php-format
 msgid "%s changed the staging area for this repository from %s to %s."
-msgstr "%s hat den Namen des Termins von %s auf %s geändert."
+msgstr ""
+"%s hat den Staging-Bereich für dieses Repository von %s auf %s geändert."
 
 
 #, php-format
@@ -57828,19 +58144,18 @@ msgstr "%s hat die indizierten Sprachen von %s auf %s geändert."
 msgid "%s changed symbol sources from %s to %s."
 msgstr "%s hat die Symbolquellen von %s auf %s geändert."
 
-#, fuzzy, php-format
 msgid ""
 "Repository (\"%s\") does not exist, or you do not have permission to see it."
 msgstr ""
-"Einige der JIRA Tickets konnten nicht geladen werden. Möglicherweise "
-"existieren sie nicht, oder Du hast keine Berechtigung, sie Dir anzusehen: %s"
+"Repository (\"%s\") existiert nicht oder Du hast keine Berechtigung, es "
+"anzusehen."
 
 
-#, fuzzy, php-format
 msgid ""
 "%s changed the touch limit for this repository from %s paths to %s paths."
 msgstr ""
-"%s hat die Editier-Berechtigung dieses Chats von \"%s\" auf \"%s\" geändert."
+"%s hat das Touch-Limit für dieses Repository von %s Pfaden auf %s Pfade "
+"geändert."
 
 
 #, php-format
@@ -57855,6 +58170,8 @@ msgstr "%s hat das Touch-Limit (%s Pfade) für dieses Repository entfernt."
 
 msgid "Unable to parse touch limit, specify a positive number of paths."
 msgstr ""
+"Das Touch-Limit konnte nicht geparst werden; gib eine positive Anzahl von "
+"Pfaden an."
 
 #, php-format
 msgid "%s set this repository to track all branches."
@@ -57874,29 +58191,40 @@ msgid ""
 "Expression \"%s\" is not a valid regular expression. Note that you must "
 "include delimiters."
 msgstr ""
+"Der Ausdruck \"%s\" ist kein gültiger regulärer Ausdruck. Beachte, dass Du "
+"Begrenzer angeben musst."
 
 #, php-format
 msgid ""
 "Matching function \"%s(...)\" is not recognized. Valid functions are: "
 "regexp(...)."
 msgstr ""
+"Die Matching-Funktion \"%s(...)\" wird nicht erkannt. Gültige Funktionen "
+"sind: regexp(...)."
 
 msgid ""
 "You can not change the version control system an existing repository uses. "
 "It can only be set when a repository is first created."
 msgstr ""
+"Du kannst das Versionsverwaltungssystem eines bestehenden Repositorys nicht "
+"ändern. Es kann nur beim ersten Erstellen eines Repositorys festgelegt "
+"werden."
 
 #, php-format
 msgid ""
 "Specified version control system must be a VCS recognized by this software. "
 "Valid systems are: %s."
 msgstr ""
+"Das angegebene Versionsverwaltungssystem muss ein von dieser Software "
+"erkanntes VCS sein. Gültige Systeme sind: %s."
 
 #, php-format
 msgid ""
 "When creating a repository, you must specify a valid underlying version "
 "control system. Valid systems are: %s."
 msgstr ""
+"Beim Erstellen eines Repositorys musst Du ein gültiges zugrunde liegendes "
+"Versionsverwaltungssystem angeben. Gültige Systeme sind: %s."
 
 msgid "Search"
 msgstr "Suchen"
