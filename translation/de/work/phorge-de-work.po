@@ -43117,13 +43117,13 @@ msgid "Applications and Extensions"
 msgstr "Anwendungen und Erweiterungen"
 
 msgid "Default edit policy for newly created publishers."
-msgstr "Standard-Bearbeitungsrichtlinie für neu erstellte Verlage."
+msgstr "Standard-Bearbeitungsrichtlinie für neu erstellte Softwareanbieter."
 
 msgid "Can Create Publishers"
-msgstr "Darf Verlage erstellen"
+msgstr "Darf Softwareanbieter erstellen"
 
 msgid "You do not have permission to create publishers."
-msgstr "Du hast keine Berechtigung, Verlage zu erstellen."
+msgstr "Du hast keine Berechtigung, Softwareanbieter zu erstellen."
 
 msgid "Default Package Edit Policy"
 msgstr "Standard-Bearbeitungsrichtlinie für Pakete"
@@ -43132,7 +43132,7 @@ msgid "Default Package View Policy"
 msgstr "Standard-Anzeigerichtlinie für Pakete"
 
 msgid "Default Publisher Edit Policy"
-msgstr "Standard-Bearbeitungsrichtlinie für Verlage"
+msgstr "Standard-Bearbeitungsrichtlinie für Softwareanbieter"
 
 msgid "Apply transactions to create a new package or edit an existing one."
 msgstr "Transaktionen anwenden, um ein neues Paket zu erstellen oder ein vorhandenes zu bearbeiten."
@@ -43141,10 +43141,10 @@ msgid "Read information about packages."
 msgstr "Informationen über Pakete lesen."
 
 msgid "Apply transactions to create a new publisher or edit an existing one."
-msgstr "Transaktionen anwenden, um einen neuen Verlag zu erstellen oder einen vorhandenen zu bearbeiten."
+msgstr "Transaktionen anwenden, um einen neuen Softwareanbieter zu erstellen oder einen vorhandenen zu bearbeiten."
 
 msgid "Read information about publishers."
-msgstr "Informationen über Verlage lesen."
+msgstr "Informationen über Softwareanbieter lesen."
 
 msgid "Apply transactions to create a new version or edit an existing one."
 msgstr "Transaktionen anwenden, um eine neue Version zu erstellen oder eine vorhandene zu bearbeiten."
@@ -43153,10 +43153,10 @@ msgid "Read information about versions."
 msgstr "Informationen über Versionen lesen."
 
 msgid "Publishers"
-msgstr "Verlage"
+msgstr "Softwareanbieter"
 
 msgid "Manage software publishers."
-msgstr "Software-Verlage verwalten."
+msgstr "Softwareanbieter verwalten."
 
 msgid "Create and update software packages."
 msgstr "Software-Pakete erstellen und aktualisieren."
@@ -43168,7 +43168,7 @@ msgid "Packages Console"
 msgstr "Pakete-Konsole"
 
 msgid "Edit Publisher"
-msgstr "Verlag bearbeiten"
+msgstr "Softwareanbieter bearbeiten"
 
 msgid "Edit Version"
 msgstr "Version bearbeiten"
@@ -43183,10 +43183,10 @@ msgid "This engine is used to edit Packages packages."
 msgstr "Diese Engine wird zum Bearbeiten von Paketen verwendet."
 
 msgid "Publisher"
-msgstr "Verlag"
+msgstr "Softwareanbieter"
 
 msgid "Publisher for this package."
-msgstr "Verlag für dieses Paket."
+msgstr "Softwareanbieter für dieses Paket."
 
 msgid "Package Key"
 msgstr "Paketschlüssel"
@@ -43203,41 +43203,41 @@ msgid ""
 "The package key \"%s\" is already in use by another package provided by this "
 "publisher."
 msgstr ""
-"Der Paketschlüssel \"%s\" wird bereits von einem anderen Paket dieses Verlags verwendet."
+"Der Paketschlüssel \"%s\" wird bereits von einem anderen Paket dieses Softwareanbieters verwendet."
 
 msgid "Package Publishers"
-msgstr "Paket-Verlage"
+msgstr "Paket-Softwareanbieter"
 
 msgid "Edit Package Publisher Configurations"
-msgstr "Verlags-Konfigurationen bearbeiten"
+msgstr "Konfigurationen für Paket-Softwareanbieter bearbeiten"
 
 msgid "This engine is used to edit Packages publishers."
-msgstr "Diese Engine wird zum Bearbeiten von Verlagen verwendet."
+msgstr "Diese Engine wird zum Bearbeiten von Softwareanbietern für Pakete verwendet."
 
 msgid "Create Publisher"
-msgstr "Verlag erstellen"
+msgstr "Softwareanbieter erstellen"
 
 #, php-format
 msgid "Edit Publisher: %s"
-msgstr "Verlag bearbeiten: %s"
+msgstr "Softwareanbieter bearbeiten: %s"
 
 msgid "Name of the publisher."
-msgstr "Name des Verlags."
+msgstr "Name des Softwareanbieters."
 
 msgid "Publisher Key"
-msgstr "Verlagsschlüssel"
+msgstr "Softwareanbieter-Schlüssel"
 
 msgid "Unique key to identify the publisher."
-msgstr "Eindeutiger Schlüssel zur Identifizierung des Verlags."
+msgstr "Eindeutiger Schlüssel zur Identifizierung des Softwareanbieters."
 
 #, php-format
 msgid "%s created this publisher."
-msgstr "%s hat diesen Verleger erstellt."
+msgstr "%s hat diesen Softwareanbieter erstellt."
 
 
 #, php-format
 msgid "The publisher key \"%s\" is already in use by another publisher."
-msgstr "Der Verlagsschlüssel \"%s\" wird bereits von einem anderen Verlag verwendet."
+msgstr "Der Softwareanbieter-Schlüssel \"%s\" wird bereits von einem anderen Softwareanbieter verwendet."
 
 msgid "Package Versions"
 msgstr "Paketversionen"
@@ -43274,22 +43274,22 @@ msgstr ""
 
 
 msgid "Package Publisher"
-msgstr "Paket-Verlag"
+msgstr "Paket-Softwareanbieter"
 
 msgid "Search for packages by name substring."
 msgstr "Nach Paketen anhand von Namensteilzeichenketten suchen."
 
 msgid "Search for packages by publisher."
-msgstr "Nach Paketen nach Verlag suchen."
+msgstr "Nach Paketen nach Softwareanbietern suchen."
 
 msgid "Search for publishers by name substring."
-msgstr "Nach Verlagen anhand von Namensteilzeichenketten suchen."
+msgstr "Nach Softwareanbietern anhand von Namensteilzeichenketten suchen."
 
 msgid "All Publishers"
-msgstr "Alle Verlage"
+msgstr "Alle Softwareanbieter"
 
 msgid "No publishers found."
-msgstr "Keine Verleger gefunden."
+msgstr "Keine Softwareanbieter gefunden."
 
 
 msgid "Search for versions by name substring."
@@ -43340,38 +43340,38 @@ msgstr "Der eindeutige Schlüssel des Pakets."
 
 #, php-format
 msgid "Publisher name \"%s\" is not valid: publisher names are required."
-msgstr "Verlagsname \"%s\" ist ungültig: Verlagsnamen sind erforderlich."
+msgstr "Der Name des Softwareanbieters \"%s\" ist ungültig: Namen von Softwareanbietern sind erforderlich."
 
 #, php-format
 msgid ""
 "Publisher name \"%s\" is not valid: publisher names must not be more than %s "
 "characters long."
 msgstr ""
-"Verlagsname \"%s\" ist ungültig: Verlagsnamen dürfen nicht länger als %s Zeichen sein."
+"Der Name des Softwareanbieters \"%s\" ist ungültig: Namen von Softwareanbietern dürfen nicht länger als %s Zeichen sein."
 
 #, php-format
 msgid "Publisher key \"%s\" is not valid: publisher keys are required."
-msgstr "Verlagsschlüssel \"%s\" ist ungültig: Verlagsschlüssel sind erforderlich."
+msgstr "Der Softwareanbieter-Schlüssel \"%s\" ist ungültig: Softwareanbieter-Schlüssel sind erforderlich."
 
 #, php-format
 msgid ""
 "Publisher key \"%s\" is not valid: publisher keys must not be more than %s "
 "characters long."
 msgstr ""
-"Verlagsschlüssel \"%s\" ist ungültig: Verlagsschlüssel dürfen nicht länger als %s Zeichen sein."
+"Der Softwareanbieter-Schlüssel \"%s\" ist ungültig: Softwareanbieter-Schlüssel dürfen nicht länger als %s Zeichen sein."
 
 #, php-format
 msgid ""
 "Publisher key \"%s\" is not valid: publisher keys may only contain lowercase "
 "latin letters."
 msgstr ""
-"Verlagsschlüssel \"%s\" ist ungültig: Verlagsschlüssel dürfen nur Kleinbuchstaben enthalten."
+"Der Softwareanbieter-Schlüssel \"%s\" ist ungültig: Softwareanbieter-Schlüssel dürfen nur Kleinbuchstaben enthalten."
 
 msgid "The name of the publisher."
-msgstr "Der Name des Verlags."
+msgstr "Der Name des Softwareanbieters."
 
 msgid "The unique key of the publisher."
-msgstr "Der eindeutige Schlüssel des Verlags."
+msgstr "Der eindeutige Schlüssel des Softwareanbieters."
 
 #, php-format
 msgid "Version name \"%s\" is not valid: version names are required."
@@ -43404,13 +43404,13 @@ msgid "The name of the version."
 msgstr "Der Name der Version."
 
 msgid "Browse Package Publishers"
-msgstr "Verlage durchsuchen"
+msgstr "Paket-Softwareanbieter durchsuchen"
 
 msgid "Type a publisher name..."
-msgstr "Verlagsname eintippen..."
+msgstr "Namen eines Softwareanbieters eintippen..."
 
 msgid "Each package provided by a publisher must have a unique package key."
-msgstr "Jedes Paket eines Verlags muss einen eindeutigen Paketschlüssel haben."
+msgstr "Jedes Paket eines Softwareanbieters muss einen eindeutigen Paketschlüssel haben."
 
 msgid "Once a package is created, its key can not be changed."
 msgstr "Sobald ein Paket erstellt wurde, kann sein Schlüssel nicht mehr geändert werden."
@@ -43428,31 +43428,31 @@ msgid "Packages must have a name."
 msgstr "Pakete müssen einen Namen haben."
 
 msgid "You must select a publisher when creating a package."
-msgstr "Du musst einen Verlag auswählen, wenn Du ein Paket erstellst."
+msgstr "Du musst einen Softwareanbieter auswählen, wenn Du ein Paket erstellst."
 
 msgid "Once a package is created, its publisher can not be changed."
-msgstr "Sobald ein Paket erstellt wurde, kann sein Verlag nicht mehr geändert werden."
+msgstr "Sobald ein Paket erstellt wurde, kann sein Softwareanbieter nicht mehr geändert werden."
 
 #, php-format
 msgid ""
 "Publisher \"%s\" is invalid: the publisher must exist and you must have "
 "permission to edit it in order to create a new package."
 msgstr ""
-"Verlag \"%s\" ist ungültig: Der Verlag muss existieren und Du musst Bearbeitungsrechte "
+"Softwareanbieter \"%s\" ist ungültig: Der Softwareanbieter muss existieren und Du musst Bearbeitungsrechte "
 "haben, um ein neues Paket erstellen zu können."
 
 msgid "Publishers must have a unique publisher key."
-msgstr "Verlage müssen einen eindeutigen Verlagsschlüssel haben."
+msgstr "Softwareanbieter müssen einen eindeutigen Softwareanbieter-Schlüssel haben."
 
 msgid "Once a publisher is created, its key can not be changed."
-msgstr "Sobald ein Verlag erstellt wurde, kann sein Schlüssel nicht mehr geändert werden."
+msgstr "Sobald ein Softwareanbieter erstellt wurde, kann sein Schlüssel nicht mehr geändert werden."
 
 #, php-format
 msgid "%s changed the name of this publisher from %s to %s."
-msgstr "%s hat den Namen dieses Verlags von %s auf %s geändert."
+msgstr "%s hat den Namen dieses Softwareanbieters von %s auf %s geändert."
 
 msgid "Publishers must have a name."
-msgstr "Verlage müssen einen Namen haben."
+msgstr "Softwareanbieter müssen einen Namen haben."
 
 #, php-format
 msgid "%s changed the name of this version from %s to %s."
