@@ -169,9 +169,8 @@ msgid ""
 "received on (\"%s\") is not whitelisted as a cluster address."
 msgstr ""
 
-#, fuzzy
 msgid "HTTPS Required"
-msgstr "Pflichtfeld"
+msgstr "HTTPS erforderlich"
 
 
 msgid ""
@@ -183,9 +182,8 @@ msgstr ""
 msgid "Aphront site (\"%s\") failed to build a 404 controller."
 msgstr "Aphront-Website (\\\"%s\\\") konnte keinen 404-Controller erstellen."
 
-#, fuzzy
 msgid "Site Not Found"
-msgstr "Seite nicht gefunden"
+msgstr "Website nicht gefunden"
 
 
 #, php-format
@@ -328,14 +326,12 @@ msgid "Header pairs for: %s"
 msgstr "Prüfungen für %s"
 
 
-#, fuzzy
 msgid "A boolean value (true or false)."
-msgstr "Der Wert ist ein Boolean: \"true\" oder \"false\"."
+msgstr "Ein boolescher Wert (true oder false)."
 
 
-#, fuzzy
 msgid "An epoch timestamp, as an integer."
-msgstr "Der Wert muß eine Ganzzahl sein."
+msgstr "Ein Epoch-Zeitstempel als Ganzzahl."
 
 
 msgid "An absolute date, as a string."
@@ -357,9 +353,8 @@ msgstr "Eine ganze Zahl."
 msgid "A JSON-encoded object."
 msgstr "Ein JSON-kodiertes Objekt."
 
-#, fuzzy
 msgid "A single object PHID."
-msgstr "Releeph Projekt PHID"
+msgstr "Ein einzelnes Objekt-PHID."
 
 
 msgid "Comma-separated list of PHIDs."
@@ -433,9 +428,8 @@ msgstr "Unbekannter Absender: %s"
 msgid "Expected \"multipart/form-data\" parse to end in state \"epilogue\"."
 msgstr "Das Parsen von \\\"multipart/form-data\\\" sollte im Zustand \\\"epilogue\\\" enden."
 
-#, fuzzy
 msgid "This part is not a variable!"
-msgstr "Das Konto kann nicht verknüpft werden."
+msgstr "Dieser Teil ist keine Variable!"
 
 
 #, php-format
@@ -64460,28 +64454,24 @@ msgstr ""
 msgid "Trying to %s with a lock!"
 msgstr ""
 
-#, fuzzy
 msgid "Namespace can't contain colons."
-msgstr "Der Name darf keine Leerzeichen oder Kommata enthalten."
+msgstr "Der Namespace darf keine Doppelpunkte enthalten."
 
 
-#, fuzzy
 msgid "Namespace not set."
-msgstr "Text mit fester Breite"
+msgstr "Kein Namespace gesetzt."
 
 
 #, php-format
 msgid "Unable to connect to memcache server (%s:%d)!"
 msgstr ""
 
-#, fuzzy
 msgid "Cache not available."
-msgstr "Kontext nicht verfügbar."
+msgstr "Cache nicht verfügbar."
 
 
-#, fuzzy
 msgid "Invalid Credentials"
-msgstr "Ungültiger Effekt!"
+msgstr "Ungültige Zugangsdaten"
 
 
 msgid "Missing Permission"
@@ -64490,14 +64480,12 @@ msgstr ""
 msgid "Not A Replica"
 msgstr ""
 
-#, fuzzy
 msgid "Slow Replication"
-msgstr "Zeige Anwendungen im Beta-Status"
+msgstr "Langsame Replikation"
 
 
-#, fuzzy
 msgid "Not Replicating"
-msgstr "Benachrichtigungen"
+msgstr "Keine Replikation"
 
 
 msgid ""
@@ -64677,19 +64665,16 @@ msgstr ""
 msgid "Unable to Reach Any Database"
 msgstr ""
 
-#, fuzzy
 msgid "Elasticsearch"
-msgstr "Hostname für Elastic Search"
+msgstr "Elasticsearch"
 
 
-#, fuzzy
 msgid "Index Path"
-msgstr "Index"
+msgstr "Indexpfad"
 
 
-#, fuzzy
 msgid "Elastic Version"
-msgstr "Hostname für Elastic Search"
+msgstr "Elasticsearch-Version"
 
 
 #, php-format
@@ -64713,9 +64698,8 @@ msgstr ""
 msgid "Content source type \"%s\" is unknown."
 msgstr ""
 
-#, fuzzy
 msgid "Content Sources"
-msgstr "Inhalt"
+msgstr "Inhaltsquellen"
 
 
 #, php-format
@@ -64758,9 +64742,8 @@ msgstr ""
 msgid "Permanent Field"
 msgstr "Permanentes Feld"
 
-#, fuzzy
 msgid "Browse Any"
-msgstr "Zonen durchsuchen"
+msgstr "Beliebig durchsuchen"
 
 
 #, fuzzy
@@ -64768,9 +64751,8 @@ msgid "Type \"any()\"..."
 msgstr "Gibt einen Benutzernamen an..."
 
 
-#, fuzzy
 msgid "Any Value"
-msgstr "Wert"
+msgstr "Beliebiger Wert"
 
 
 msgid "Find results with any value."
@@ -64784,14 +64766,12 @@ msgid ""
 "%s"
 msgstr ""
 
-#, fuzzy
 msgid "Select results with any value."
-msgstr "Es existiert kein Objekt mit diesem Namen."
+msgstr "Ergebnisse mit beliebigem Wert auswählen."
 
 
-#, fuzzy
 msgid "Browse No Value"
-msgstr "Zonen durchsuchen"
+msgstr "Ohne Wert durchsuchen"
 
 
 #, fuzzy
@@ -64799,9 +64779,8 @@ msgid "Type \"none()\"..."
 msgstr "Einen Benutzernamen oder \"none\" eintippen..."
 
 
-#, fuzzy
 msgid "No Value"
-msgstr "Neuer Wert"
+msgstr "Kein Wert"
 
 
 msgid "Find results with no value."
@@ -64928,9 +64907,8 @@ msgstr ""
 msgid "Unknown field property view style '%s'; valid styles are '%s' and '%s'."
 msgstr ""
 
-#, fuzzy
 msgid "Set Field Value"
-msgstr "Alter Wert"
+msgstr "Feldwert setzen"
 
 
 #, php-format
@@ -65056,19 +65034,19 @@ msgstr "%s hat %s auf %s geändert."
 msgid "Unable to find 'sudo'!"
 msgstr ""
 
-#, fuzzy, php-format
+#, php-format
 msgid "Memory Usage: %s KB"
-msgstr "Teilnehmer: %s"
+msgstr "Speicherverbrauch: %s KB"
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "Preparing to hibernate for %s second(s)."
-msgstr "Warte weitere %s Sekunden..."
+msgstr "Bereite Schlafzustand für %s Sekunde(n) vor."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "Idle for %s seconds."
-msgstr "Warte weitere %s Sekunden..."
+msgstr "Seit %s Sekunden untätig."
 
 
 #, php-format
@@ -65158,14 +65136,12 @@ msgstr ""
 msgid "You may not instantiate more than one Overseer per process."
 msgstr ""
 
-#, fuzzy
 msgid "You must specify at least one daemon to start!"
-msgstr "Du mußt mindestens eine mögliche Antwort angeben."
+msgstr "Es muss mindestens ein Daemon zum Starten angegeben werden!"
 
 
-#, fuzzy
 msgid "Unable to fork!"
-msgstr "Anmeldung fehlgeschlagen"
+msgstr "Fork nicht möglich!"
 
 
 msgid "Failed to create new process session!"
@@ -65237,9 +65213,8 @@ msgid "Scaling pool \"%s\" up to %s daemon(s)."
 msgstr "Warte weitere %s Sekunden..."
 
 
-#, fuzzy
 msgid "Bulk Update"
-msgstr "Änderung übernehmen"
+msgstr "Massenaktualisierung"
 
 
 msgid "Changes made by bulk update."
@@ -65483,9 +65458,8 @@ msgstr ""
 msgid "Billing Cycle"
 msgstr ""
 
-#, fuzzy
 msgid "Worker Tasks"
-msgstr "Offene Aufgaben"
+msgstr "Worker-Aufgaben"
 
 
 msgid ""
@@ -65496,9 +65470,8 @@ msgstr ""
 msgid "NO TASKS"
 msgstr ""
 
-#, fuzzy
 msgid "No tasks selected to cancel."
-msgstr "Keine Aufgaben ausgewählt."
+msgstr "Keine Aufgaben zum Abbrechen ausgewählt."
 
 
 msgid "ARCHIVED"
@@ -65515,9 +65488,9 @@ msgstr ""
 msgid "%s was cancelled."
 msgstr ""
 
-#, fuzzy, php-format
+#, php-format
 msgid "Cancelled %s task(s)."
-msgstr "%s hat %s Aufgaben hinzugefügt: %s."
+msgstr "%s Aufgabe(n) abgebrochen."
 
 
 msgid "Delay execution of selected tasks until the specified time."
@@ -65529,9 +65502,8 @@ msgstr ""
 msgid "Specify how long to delay tasks for with \"--until\"."
 msgstr ""
 
-#, fuzzy
 msgid "No tasks selected to delay."
-msgstr "Keine Aufgaben ausgewählt."
+msgstr "Keine Aufgaben zum Verzögern ausgewählt."
 
 
 #, php-format
@@ -65555,9 +65527,9 @@ msgid "%s was delayed until \"%s\"."
 msgstr "%s hat die Teilnahme an %s abgesagt."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "Delayed %s task(s)."
-msgstr "%s hat %s Aufgaben hinzugefügt: %s."
+msgstr "%s Aufgabe(n) verzögert."
 
 
 msgid ""
@@ -65572,9 +65544,8 @@ msgstr ""
 msgid "Repeat archived, successful tasks."
 msgstr ""
 
-#, fuzzy
 msgid "No tasks selected to execute."
-msgstr "Keine Aufgaben ausgewählt."
+msgstr "Keine Aufgaben zum Ausführen ausgewählt."
 
 
 #, php-format
@@ -65602,14 +65573,14 @@ msgstr ""
 msgid "EXECUTE"
 msgstr ""
 
-#, fuzzy, php-format
+#, php-format
 msgid "Executing %s..."
-msgstr "Indexiere '%s'..."
+msgstr "Führe %s aus..."
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "Executed %s task(s)."
-msgstr "%s hat %s Aufgaben entfernt: %s."
+msgstr "%s Aufgabe(n) ausgeführt."
 
 
 msgid ""
@@ -65630,9 +65601,8 @@ msgid ""
 "working on the task, this may cause the task to execute twice."
 msgstr ""
 
-#, fuzzy
 msgid "No tasks selected to free leases on."
-msgstr "Keine Aufgaben ausgewählt."
+msgstr "Keine Aufgaben zum Freigeben von Leases ausgewählt."
 
 
 #, php-format
@@ -65666,14 +65636,12 @@ msgstr ""
 msgid "Select a new priority for selected tasks with \"--priority\"."
 msgstr ""
 
-#, fuzzy
 msgid "Priority must be a positive integer."
-msgstr "Der Release-Zähler sollte eine positive ganze Zahl sein."
+msgstr "Die Priorität muss eine positive Ganzzahl sein."
 
 
-#, fuzzy
 msgid "No tasks selected to reprioritize."
-msgstr "Keine Aufgaben ausgewählt."
+msgstr "Keine Aufgaben zur Neuprioritisierung ausgewählt."
 
 
 #, php-format
@@ -65694,9 +65662,9 @@ msgid "%s was reprioritized (from \"%d\" to \"%d\")."
 msgstr ""
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "Reprioritized %s task(s)."
-msgstr "%s hat %s Aufgaben entfernt: %s."
+msgstr "%s Aufgabe(n) neu priorisiert."
 
 
 msgid ""
@@ -65707,9 +65675,8 @@ msgstr ""
 msgid "Repeat tasks which already completed successfully."
 msgstr ""
 
-#, fuzzy
 msgid "No tasks selected to retry."
-msgstr "Keine Aufgaben ausgewählt."
+msgstr "Keine Aufgaben zum erneuten Ausführen ausgewählt."
 
 
 msgid "ACTIVE"
@@ -65729,9 +65696,9 @@ msgstr ""
 msgid "%s was queued for retry."
 msgstr ""
 
-#, fuzzy, php-format
+#, php-format
 msgid "Queued %s task(s) for retry."
-msgstr "%s hat %s Aufgaben von %s entfernt: %s."
+msgstr "%s Aufgabe(n) zum erneuten Ausführen eingereiht."
 
 
 msgid "Select one or more tasks by ID."
@@ -65746,14 +65713,12 @@ msgstr ""
 msgid "Select tasks with a maximum failure count."
 msgstr ""
 
-#, fuzzy
 msgid "Select active tasks."
-msgstr "Ausgewählte Aufgaben"
+msgstr "Aktive Aufgaben auswählen."
 
 
-#, fuzzy
 msgid "Select archived tasks."
-msgstr "Ausgewählte Aufgaben"
+msgstr "Archivierte Aufgaben auswählen."
 
 
 msgid "Select tasks with the given container or containers."
@@ -65762,14 +65727,12 @@ msgstr ""
 msgid "Select tasks affecting the given object or objects."
 msgstr ""
 
-#, fuzzy
 msgid "Select tasks with a minimum priority."
-msgstr "Offene Aufgaben mit Priorität: \"Akuter Notfall!\"."
+msgstr "Aufgaben mit Mindestpriorität auswählen."
 
 
-#, fuzzy
 msgid "Select tasks with a maximum priority."
-msgstr "Offene Aufgaben mit Priorität: \"Akuter Notfall!\"."
+msgstr "Aufgaben mit Höchstpriorität auswählen."
 
 
 msgid "Limit selection to a maximum number of tasks."
@@ -65947,9 +65910,8 @@ msgstr ""
 msgid "Trying to archive a task with no ID."
 msgstr ""
 
-#, fuzzy
 msgid "Only the author of a bulk job can edit it."
-msgstr "Nur der Autor kann das Abstimmungsergebnis sehen."
+msgstr "Nur der Autor eines Massenauftrags kann diesen bearbeiten."
 
 
 #, php-format
@@ -66065,9 +66027,8 @@ msgstr ""
 msgid "Add Paragraph"
 msgstr ""
 
-#, fuzzy
 msgid "Remove Paragraph"
-msgstr "Panel entfernen"
+msgstr "Absatz entfernen"
 
 
 msgid "Amend paragraph, and add paragraph starting with punctuation"
@@ -66100,9 +66061,8 @@ msgstr ""
 msgid "Diff with new trailing content."
 msgstr ""
 
-#, fuzzy
 msgid "Diff with a removed comma."
-msgstr "Diff Inhalt entfernt"
+msgstr "Diff mit entferntem Komma."
 
 
 msgid "Diff with a removed comma and new trailing content."
@@ -66129,48 +66089,41 @@ msgstr ""
 msgid "View on previous revision"
 msgstr ""
 
-#, fuzzy
 msgid "Collapse"
-msgstr "Datei Verstecken"
+msgstr "Einklappen"
 
 
-#, fuzzy
 msgid "Reply to Comment"
 msgstr "Auf Kommentar antworten"
 
 
-#, fuzzy
 msgid "Quote Comment"
-msgstr "Kommentar abgeben"
+msgstr "Kommentar zitieren"
 
 
 msgid "View Raw Remarkup"
 msgstr ""
 
-#, fuzzy
 msgid "Delete Comment"
-msgstr "Dokument löschen"
+msgstr "Kommentar löschen"
 
 
 msgid "Not Done"
 msgstr ""
 
-#, fuzzy
 msgid "Inline Actions"
-msgstr "Eigene Aktionen"
+msgstr "Inline-Aktionen"
 
 
-#, fuzzy
 msgid "Changes discarded."
-msgstr "Änderungen gespeichert."
+msgstr "Änderungen verworfen."
 
 
 msgid "One-up inline row scaffold must have exactly one inline view!"
 msgstr ""
 
-#, fuzzy
 msgid "Expand"
-msgstr "Datei Zeigen"
+msgstr "Ausklappen"
 
 
 #, php-format
@@ -66220,19 +66173,16 @@ msgid ""
 "on the right when showing two comments."
 msgstr ""
 
-#, fuzzy
 msgid "Terminating Tree"
-msgstr "Beenden"
+msgstr "Terminierender Baum"
 
 
-#, fuzzy
 msgid "Reverse Tree"
-msgstr "Zurückgerollt von"
+msgstr "Umgekehrter Baum"
 
 
-#, fuzzy
 msgid "Terminated Tree"
-msgstr "Beenden"
+msgstr "Terminierter Baum"
 
 
 msgid "Three-Way Tree"
@@ -66359,14 +66309,12 @@ msgstr ""
 msgid "Line Number"
 msgstr ""
 
-#, fuzzy
 msgid "Repository Short Name"
-msgstr "Repository"
+msgstr "Repository-Kurzname"
 
 
-#, fuzzy
 msgid "Repository Callsign"
-msgstr "Repository"
+msgstr "Repository-Callsign"
 
 
 msgid "Literal Percent Symbol"
@@ -66572,9 +66520,8 @@ msgstr ""
 msgid "Data Export"
 msgstr ""
 
-#, fuzzy
 msgid "Exporting Data..."
-msgstr "Importiere..."
+msgstr "Exportiere Daten..."
 
 
 msgid "Temporary File Expired"
@@ -66598,22 +66545,19 @@ msgid "Unknown export format (\"%s\")."
 msgstr "Unbekannte Aktion \"%s\""
 
 
-#, fuzzy
 msgid "Export Format"
-msgstr "Datumsformat"
+msgstr "Exportformat"
 
 
 msgid "Tag PHIDs"
 msgstr ""
 
-#, fuzzy
 msgid "Space PHID"
-msgstr "Zonen"
+msgstr "Spaces-PHID"
 
 
-#, fuzzy
 msgid "Subscriber PHIDs"
-msgstr "Mitleser"
+msgstr "Abonnenten-PHIDs"
 
 
 msgid "Comma-Separated Values (.csv)"
@@ -66648,14 +66592,12 @@ msgid ""
 "EOHELP"
 msgstr ""
 
-#, fuzzy
 msgid "Direct Parent"
-msgstr "Elternknoten"
+msgstr "Direkter Elterntask"
 
 
-#, fuzzy
 msgid "Direct Subtask"
-msgstr "Neue Unteraufgabe"
+msgstr "Direkter Untertask"
 
 
 msgid "· · ·"
@@ -66685,9 +66627,9 @@ msgstr ""
 msgid "MODIFIED"
 msgstr ""
 
-#, fuzzy, php-format
+#, php-format
 msgid "Found %s modified file(s) (of %s total)."
-msgstr "%s hat Dateien von %s geändert."
+msgstr "%s geänderte Datei(en) gefunden (von %s insgesamt)."
 
 
 msgid "NOT MODIFIED"
@@ -66773,9 +66715,9 @@ msgid ""
 "missing strngs."
 msgstr ""
 
-#, fuzzy, php-format
+#, php-format
 msgid "Opening %s failed! %s."
-msgstr "%s hat %s an sich gerissen."
+msgstr "Das Öffnen von %s ist fehlgeschlagen! %s."
 
 
 msgid "No viable means to download Peast is available."
@@ -66812,9 +66754,8 @@ msgstr ""
 msgid "Undocumented Install"
 msgstr ""
 
-#, fuzzy
 msgid "Uninstalled Documentation"
-msgstr "Unbenanntes Dokument"
+msgstr "Nicht installierte Dokumentation"
 
 
 #, php-format
@@ -66847,9 +66788,8 @@ msgstr ""
 msgid "This file %s component '%s' but does not use anything it provides."
 msgstr ""
 
-#, fuzzy
 msgid "Modular Transactions Linter"
-msgstr "Transaktionen"
+msgstr "Modularer Transaktions-Linter"
 
 
 msgid "Should not override"
@@ -66943,9 +66883,8 @@ msgid "Failed to markup text in file '%s'."
 msgstr ""
 
 
-#, fuzzy
 msgid "Operator extension not available."
-msgstr "Kontext nicht verfügbar."
+msgstr "Operatorerweiterung nicht verfügbar."
 
 
 #, php-format
@@ -66993,34 +66932,28 @@ msgstr ""
 msgid "Up"
 msgstr ""
 
-#, fuzzy
 msgid "Tab"
-msgstr "Reiter"
+msgstr "Tab"
 
 
-#, fuzzy
 msgid "Down"
-msgstr "Download"
+msgstr "Unten"
 
 
-#, fuzzy
 msgid "Up Right"
-msgstr "Rechts"
+msgstr "Rechts oben"
 
 
-#, fuzzy
 msgid "Down Right"
-msgstr "Rechts"
+msgstr "Rechts unten"
 
 
-#, fuzzy
 msgid "Down Left"
-msgstr "Links"
+msgstr "Links unten"
 
 
-#, fuzzy
 msgid "Up Left"
-msgstr "Links"
+msgstr "Links oben"
 
 
 #, php-format
@@ -67052,9 +66985,8 @@ msgid ""
 "highlighting parse of PHP snippet."
 msgstr ""
 
-#, fuzzy
 msgid "Simple"
-msgstr "Beispiel"
+msgstr "Einfach"
 
 
 msgid "Missing Class"
@@ -67178,9 +67110,8 @@ msgid "%s (Reversed)"
 msgstr ""
 
 
-#, fuzzy
 msgid "Relevance"
-msgstr "Release"
+msgstr "Relevanz"
 
 
 #, php-format
@@ -67412,9 +67343,9 @@ msgstr ""
 msgid "Simulated error."
 msgstr ""
 
-#, fuzzy, php-format
+#, php-format
 msgid "#%d: %s"
-msgstr "E%d: %s"
+msgstr "#%d: %s"
 
 
 msgid ""
@@ -67467,9 +67398,9 @@ msgstr ""
 msgid "There are some results left in the result set."
 msgstr ""
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s Query: %s"
-msgstr "Abfrage: %s"
+msgstr "%s-Abfrage: %s"
 
 
 #, php-format
@@ -67693,9 +67624,8 @@ msgstr ""
 msgid "Run \"ANALYZE TABLE\" on tables to improve performance."
 msgstr ""
 
-#, fuzzy
 msgid "List databases."
-msgstr "Datenbank"
+msgstr "Datenbanken auflisten."
 
 
 msgid "Permanently destroy all storage and data."
@@ -67845,9 +67775,9 @@ msgstr ""
 msgid "Optimizing table \"%s\".\"%s\"..."
 msgstr ""
 
-#, fuzzy, php-format
+#, php-format
 msgid "Compacted table by %s in %sms."
-msgstr "Hochgeladen von %s am %s."
+msgstr "Tabelle in %sms um %s komprimiert."
 
 
 #, php-format
@@ -68348,9 +68278,8 @@ msgid ""
 "unknown."
 msgstr ""
 
-#, fuzzy
 msgid "Invalid database escaper."
-msgstr "Ungültiges Datum."
+msgstr "Ungültige Datenbank-Escape-Funktion."
 
 
 #, php-format
@@ -68497,9 +68426,9 @@ msgstr ""
 msgid "Found no records of processes acquiring or releasing this lock."
 msgstr ""
 
-#, fuzzy, php-format
+#, php-format
 msgid "Set a '%s' in your configuration!"
-msgstr "%s Einstellungen"
+msgstr "Setze '%s' in der Konfiguration!"
 
 
 msgid "Maximum must be larger than minimum."
@@ -68528,9 +68457,8 @@ msgstr ""
 msgid "Metronome offset must be 0 or more."
 msgstr ""
 
-#, fuzzy
 msgid "Metronome frequency must be an integer."
-msgstr "Der Wert muß eine Ganzzahl sein."
+msgstr "Die Metronom-Frequenz muss eine Ganzzahl sein."
 
 
 msgid "Metronome frequency must be 1 or more."
@@ -68546,9 +68474,8 @@ msgstr ""
 msgid "Untitled Document"
 msgstr "Unbenanntes Dokument"
 
-#, fuzzy
 msgid "Clear Connection Pool"
-msgstr "Auswahl aufheben"
+msgstr "Verbindungspool leeren"
 
 
 msgid "Connection Pool With Lock"
@@ -68604,9 +68531,9 @@ msgstr "%s hat die Bilder von %s geändert."
 msgid "Anchor digest of \"%s\"."
 msgstr ""
 
-#, fuzzy, php-format
+#, php-format
 msgid "Offset for: %s"
-msgstr "Betrifft: %s"
+msgstr "Offset für: %s"
 
 
 msgid "Tick at 11:11:13 AM."
@@ -68771,9 +68698,8 @@ msgstr ""
 msgid "February"
 msgstr ""
 
-#, fuzzy
 msgid "March"
-msgstr "Suchen"
+msgstr "März"
 
 
 msgid "April"
@@ -68791,22 +68717,19 @@ msgstr ""
 msgid "August"
 msgstr ""
 
-#, fuzzy
 msgid "September"
-msgstr "Mitglieder"
+msgstr "September"
 
 
 msgid "October"
 msgstr ""
 
-#, fuzzy
 msgid "November"
-msgstr "Mitglieder"
+msgstr "November"
 
 
-#, fuzzy
 msgid "December"
-msgstr "Mitglieder"
+msgstr "Dezember"
 
 
 #, php-format
@@ -68823,37 +68746,33 @@ msgstr ""
 msgid "Capability \"%s\""
 msgstr ""
 
-#, fuzzy
 msgid "Other Named Policy..."
-msgstr "Benutzerdefinierte Rechte..."
+msgstr "Andere benannte Richtlinie..."
 
 
-#, fuzzy
 msgid "Other Project..."
-msgstr "Projekt verlassen..."
+msgstr "Anderes Projekt..."
 
 
 msgid "Custom Policy..."
 msgstr "Benutzerdefinierte Rechte..."
 
-#, fuzzy, php-format
+#, php-format
 msgid "Copy %s"
 msgstr "Kopie von %s"
 
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s copied."
-msgstr "%s hat %s geschlossen."
+msgstr "%s kopiert."
 
 
-#, fuzzy
 msgid "Copy text"
-msgstr "fetter Text"
+msgstr "Text kopieren"
 
 
-#, fuzzy
 msgid "Text copied."
-msgstr "Zeichenkodierung"
+msgstr "Text kopiert."
 
 
 msgid "You must set a datasource to use a TokenizerControl."
@@ -68887,22 +68806,19 @@ msgstr "Name"
 msgid "Pin or unpin the comment form."
 msgstr ""
 
-#, fuzzy
 msgid "Find User:"
-msgstr "Antworten finden"
+msgstr "Benutzer suchen:"
 
 
-#, fuzzy
 msgid "Find Project:"
-msgstr "An Projekt teilnehmen"
+msgstr "Projekt suchen:"
 
 
 msgid "Find Emoji:"
 msgstr ""
 
-#, fuzzy
 msgid "Find Document:"
-msgstr "Dokument ändern"
+msgstr "Dokument suchen:"
 
 
 msgid "Find Phurl:"
@@ -68963,9 +68879,8 @@ msgid ""
 "profile, click to reconcile."
 msgstr ""
 
-#, fuzzy
 msgid "See Documentation"
-msgstr "Dokument speichern"
+msgstr "Dokumentation anzeigen"
 
 
 #, php-format
@@ -68993,17 +68908,15 @@ msgstr ""
 msgid "In %s Only"
 msgstr ""
 
-#, fuzzy
 msgid "Saved Global Queries"
-msgstr "Gespeicherte Abfragen"
+msgstr "Gespeicherte globale Abfragen"
 
 
 msgid "User Guide: Search"
 msgstr "Suche in der Anleitung"
 
-#, fuzzy
 msgid "Configure Global Search"
-msgstr "Projekte konfigurieren."
+msgstr "Globale Suche konfigurieren"
 
 
 msgid "Give keyboard focus to the search box."
@@ -69012,9 +68925,8 @@ msgstr ""
 msgid "Show keyboard shortcut help for the current page."
 msgstr ""
 
-#, fuzzy
 msgid "Page Menu"
-msgstr "Seitenformat"
+msgstr "Seitenmenü"
 
 
 #, php-format
@@ -69024,9 +68936,8 @@ msgstr "%s ungelesene Nachrichten."
 msgid "No messages."
 msgstr "Keine Nachrichten."
 
-#, fuzzy
 msgid "Chat Messages"
-msgstr "Nachrichten"
+msgstr "Chat-Nachrichten"
 
 
 #, php-format
@@ -69036,15 +68947,14 @@ msgstr "%s ungelesene Benachrichtigungen."
 msgid "No notifications."
 msgstr "Keine Benachrichtigungen."
 
-#, fuzzy, php-format
+#, php-format
 msgid "%s unresolved issues."
-msgstr "%s ungelesene Nachrichten."
+msgstr "%s ungelöste Probleme."
 
 
 msgid "No issues."
 msgstr ""
 
-#, fuzzy
 msgid "Read more..."
 msgstr "Weiter..."
 
@@ -69073,9 +68983,8 @@ msgstr "%s geändert"
 msgid "Incorrect Property Passed"
 msgstr ""
 
-#, fuzzy
 msgid "Failure"
-msgstr "Anmeldung fehlgeschlagen"
+msgstr "Fehler"
 
 
 msgid "Pause"
@@ -69084,9 +68993,8 @@ msgstr ""
 msgid "Plus"
 msgstr ""
 
-#, fuzzy
 msgid "Minus"
-msgstr "Minuten"
+msgstr "Minus"
 
 
 #, php-format
@@ -69105,9 +69013,8 @@ msgstr ""
 msgid "Menu contains duplicate items with key '%s'!"
 msgstr ""
 
-#, fuzzy
 msgid "View All Results"
-msgstr "Alle Aufträge zeigen"
+msgstr "Alle Ergebnisse anzeigen"
 
 
 msgid "No data."
@@ -69158,14 +69065,12 @@ msgstr ""
 msgid "PREVIEW"
 msgstr "VORSCHAU"
 
-#, fuzzy
 msgid "MFA Authenticated"
-msgstr "Authentisierung"
+msgstr "MFA-Authentifiziert"
 
 
-#, fuzzy
 msgid "Lock Overridden"
-msgstr "Ersetzte Konfiguration"
+msgstr "Sperre überschrieben"
 
 
 msgid "View Email Body"
@@ -69184,9 +69089,8 @@ msgid "There are a very large number of changes, so older changes are hidden."
 msgstr ""
 
 
-#, fuzzy
 msgid "Show Older Changes"
-msgstr "Ältere Änderungen zeigen."
+msgstr "Ältere Änderungen anzeigen"
 
 
 msgid "Part of the day is out of range"
@@ -69204,14 +69108,12 @@ msgstr "Nächster Tag"
 msgid "All Day"
 msgstr "Ganzer Tag"
 
-#, fuzzy
 msgid "View More..."
-msgstr "Weiter..."
+msgstr "Mehr anzeigen..."
 
 
-#, fuzzy
 msgid "No visible events."
-msgstr "Eine solche Datei existiert nicht."
+msgstr "Keine sichtbaren Ereignisse."
 
 
 msgid "Clear sailing ahead."
