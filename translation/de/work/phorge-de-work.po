@@ -58336,7 +58336,7 @@ msgstr "k. A."
 msgid ""
 "To configure the search engines, edit [[ %s | %s ]] configuration. See "
 "**[[ %s | %s ]]** for documentation."
-msgstr ""
+msgstr "Um die Suchmaschinen zu konfigurieren, bearbeite die Konfiguration [[ %s | %s ]]. Siehe **[[ %s | %s ]]** für die Dokumentation."
 
 msgid "No search engines available."
 msgstr "Keine Such-Engines verfügbar."
@@ -58439,7 +58439,7 @@ msgstr "Abfrage verstecken"
 msgid ""
 "SearchEngines must render a \"%s\" object, but this engine (of class \"%s\") "
 "rendered something else (\"%s\")."
-msgstr ""
+msgstr "SearchEngines müssen ein Objekt vom Typ \"%s\" rendern, aber diese Engine (der Klasse \"%s\") hat etwas anderes gerendert (\"%s\")."
 
 msgid ""
 "This query specifies an invalid parameter. Review the query parameters and "
@@ -58594,7 +58594,7 @@ msgid "Query Name"
 msgstr "Abfragename"
 
 msgid "Save this query as a global query, making it visible to all users."
-msgstr ""
+msgstr "Diese Abfrage als globale Abfrage speichern und damit für alle Benutzer sichtbar machen."
 
 msgid "Edit Saved Query"
 msgstr "Gespeicherte Abfragen ändern"
@@ -58622,24 +58622,24 @@ msgstr "Handle: %s"
 msgid ""
 "You can not create a relationship to object \"%s\" because the object does "
 "not exist or could not be loaded."
-msgstr ""
+msgstr "Du kannst keine Beziehung zu Objekt \"%s\" erstellen, weil das Objekt nicht existiert oder nicht geladen werden konnte."
 
 #, php-format
 msgid ""
 "You can not create a relationship to object \"%s\" because objects can not "
 "be related to themselves."
-msgstr ""
+msgstr "Du kannst keine Beziehung zu Objekt \"%s\" erstellen, weil Objekte nicht mit sich selbst verknüpft werden können."
 
 #, php-format
 msgid ""
 "You can not create a relationship (of type \"%s\") to object \"%s\" because "
 "it is not the right type of object for this relationship."
-msgstr ""
+msgstr "Du kannst keine Beziehung vom Typ \"%s\" zu Objekt \"%s\" erstellen, weil es nicht der richtige Objekttyp für diese Beziehung ist."
 
 msgid ""
 "You can not create that relationship because it would create a circular "
 "dependency:"
-msgstr ""
+msgstr "Du kannst diese Beziehung nicht erstellen, weil dadurch eine zirkuläre Abhängigkeit entstehen würde:"
 
 
 msgid "Circular Dependency"
@@ -58660,7 +58660,7 @@ msgid "This engine is used to modify menu items on profiles."
 msgstr "Diese Engine dient zum Bearbeiten von Menüpunkten in Profilen."
 
 msgid "Profile menu items can not be generated without an object context."
-msgstr ""
+msgstr "Profilmenüeinträge können nicht ohne Objektkontext erzeugt werden."
 
 msgid "Edit Builtin Item"
 msgstr "Systemeintrag bearbeiten"
@@ -58998,7 +58998,7 @@ msgstr "Profilbild"
 msgid ""
 "Provided view is not one of the views in the list: you can only select a "
 "view which appears in the list."
-msgstr ""
+msgstr "Die angegebene Ansicht ist keine der Ansichten in der Liste. Du kannst nur eine Ansicht auswählen, die in der Liste erscheint."
 
 #, php-format
 msgid "No views match identifier \"%s\"!"
@@ -59009,7 +59009,7 @@ msgid ""
 "This is a standard **ApplicationSearch** method which will let you list, "
 "query, or search for objects. For documentation on these endpoints, see "
 "**[[ %s | Conduit API: Using Search Endpoints ]]**."
-msgstr ""
+msgstr "Dies ist eine Standardmethode von **ApplicationSearch**, mit der du Objekte auflisten, abfragen oder suchen kannst. Die Dokumentation zu diesen Endpunkten findest du unter **[[ %s | Conduit API: Using Search Endpoints ]]**."
 
 msgid ""
 "You can choose a builtin or saved query as a starting point for filtering\n"
@@ -59390,7 +59390,7 @@ msgstr "Such-N-Gramm"
 msgid ""
 "Unknown search function \"%s\". Supported functions are: %s. (To search for "
 "a term containing a colon, surround the term in double quotes.)"
-msgstr ""
+msgstr "Unbekannte Suchfunktion \"%s\". Unterstützte Funktionen sind: %s. (Um nach einem Begriff mit Doppelpunkt zu suchen, setze den Begriff in doppelte Anführungszeichen.)"
 
 #, php-format
 msgid "Terms corpus for: %s"
@@ -59404,46 +59404,46 @@ msgstr "Term-N-Gramme für: %s."
 msgid ""
 "Ferret search engine function name (\"%s\") is invalid. Function names must "
 "be nonempty and may only contain latin letters and hyphens."
-msgstr ""
+msgstr "Der Funktionsname (\"%s\") der Ferret-Suchmaschine ist ungültig. Funktionsnamen dürfen nicht leer sein und nur lateinische Buchstaben sowie Bindestriche enthalten."
 
 #, php-format
 msgid ""
 "Ferret search engine field key (\"%s\") is invalid. Field keys must be "
 "exactly four characters long and contain only lowercase latin letters."
-msgstr ""
+msgstr "Der Feldschlüssel (\"%s\") der Ferret-Suchmaschine ist ungültig. Feldschlüssel müssen genau vier Zeichen lang sein und dürfen nur lateinische Kleinbuchstaben enthalten."
 
 #, php-format
 msgid ""
 "Expected fulltext engine extension (\"%s\") to return a list of functions "
 "from \"newFerretSearchFunctions()\", got \"%s\"."
-msgstr ""
+msgstr "Von der Volltext-Engine-Erweiterung (\"%s\") wurde erwartet, dass sie aus \"newFerretSearchFunctions()\" eine Funktionsliste zurückgibt, erhalten wurde jedoch \"%s\"."
 
 #, php-format
 msgid ""
 "Expected fulltext engine extension (\"%s\") to return a list of "
 "\"FerretSearchFunction\" objects from \"newFerretSearchFunctions()\", but "
 "found something else (\"%s\") at index \"%s\"."
-msgstr ""
+msgstr "Von der Volltext-Engine-Erweiterung (\"%s\") wurde erwartet, dass sie aus \"newFerretSearchFunctions()\" eine Liste von Objekten vom Typ \"FerretSearchFunction\" zurückgibt, aber am Index \"%s\" wurde etwas anderes gefunden (\"%s\")."
 
 #, php-format
 msgid ""
 "Ferret function \"%s\" is specified with a denormalized name. Instead, "
 "specify the function using the normalized function name (\"%s\")."
-msgstr ""
+msgstr "Die Ferret-Funktion \"%s\" wurde mit einem denormalisierten Namen angegeben. Gib stattdessen den normalisierten Funktionsnamen (\"%s\") an."
 
 #, php-format
 msgid ""
 "Two different fulltext engine extensions (\"%s\" and \"%s\") both define a "
 "search function with the same name (\"%s\"). Each function must have a "
 "unique name."
-msgstr ""
+msgstr "Zwei verschiedene Volltext-Engine-Erweiterungen (\"%s\" und \"%s\") definieren beide eine Suchfunktion mit demselben Namen (\"%s\"). Jede Funktion muss einen eindeutigen Namen haben."
 
 #, php-format
 msgid ""
 "Two different fulltext engine extensions (\"%s\" and \"%s\") both define a "
 "search function with the same key (\"%s\"). Each function must have a unique "
 "key."
-msgstr ""
+msgstr "Zwei verschiedene Volltext-Engine-Erweiterungen (\"%s\" und \"%s\") definieren beide eine Suchfunktion mit demselben Schlüssel (\"%s\"). Jede Funktion muss einen eindeutigen Schlüssel haben."
 
 #, php-format
 msgid "Deprecated alias for \"%s\"."
@@ -59724,7 +59724,7 @@ msgstr "Du musst eine Anwendung auswählen."
 msgid ""
 "Application \"%s\" is not a valid application which you have permission to "
 "see."
-msgstr ""
+msgstr "Anwendung \"%s\" ist keine gültige Anwendung, die du anzeigen darfst."
 
 msgid "(Restricted/Invalid Conpherence)"
 msgstr "(Eingeschränkte/ungültige Conpherence)"
@@ -59735,7 +59735,7 @@ msgstr "Du musst einen Raum auswählen."
 
 #, php-format
 msgid "Room \"%s\" is not a valid room which you have permission to see."
-msgstr ""
+msgstr "Raum \"%s\" ist kein gültiger Raum, den du anzeigen darfst."
 
 msgid "Invalid Dashboard"
 msgstr "Ungültiges Dashboard"
@@ -59763,7 +59763,7 @@ msgstr "Du musst ein Dashboard auswählen."
 #, php-format
 msgid ""
 "Dashboard \"%s\" is not a valid dashboard which you have permission to see."
-msgstr ""
+msgstr "Dashboard \"%s\" ist kein gültiges Dashboard, das du anzeigen darfst."
 
 msgid "Divider"
 msgstr "Trenner"
@@ -59774,7 +59774,7 @@ msgstr "—"
 msgid ""
 "This is a visual divider which you can use to separate sections in the menu. "
 "It does not have any configurable options."
-msgstr ""
+msgstr "Dies ist ein visueller Trenner, mit dem du Abschnitte im Menü voneinander abgrenzen kannst. Er hat keine konfigurierbaren Optionen."
 
 msgid "(Restricted/Invalid Form)"
 msgstr "(Eingeschränktes/ungültiges Formular)"
@@ -59785,7 +59785,7 @@ msgstr "Du musst ein Formular auswählen."
 
 #, php-format
 msgid "Form \"%s\" is not a valid form which you have permission to see."
-msgstr ""
+msgstr "Formular \"%s\" ist kein gültiges Formular, das du anzeigen darfst."
 
 msgid "You must choose a label name."
 msgstr "Du musst einen Namen für das Label auswählen."
@@ -59806,7 +59806,7 @@ msgstr "Du musst eine URI zum Verlinken auswählen."
 msgid ""
 "URI \"%s\" is not a valid link URI. It should be a full, valid URI beginning "
 "with a protocol like \"%s\"."
-msgstr ""
+msgstr "URI \"%s\" ist keine gültige Link-URI. Sie sollte eine vollständige, gültige URI sein, die mit einem Protokoll wie \"%s\" beginnt."
 
 msgid "Motivator"
 msgstr "Motivator"
@@ -59932,21 +59932,30 @@ msgid ""
 "The word \"catastrophe\" has no etymological relationship to the word "
 "\"cat\"."
 msgstr ""
+"Das Wort \"Katastrophe\" steht etymologisch in keinerlei Beziehung zum Wort "
+"\"Katze\"."
 
 msgid ""
 "Many cats appear black in low light, suffering a -2 modifier to luck rolls."
 msgstr ""
+"Viele Katzen wirken bei schwachem Licht schwarz und erhalten einen Malus "
+"von -2 auf Glückswürfe."
 
 msgid ""
 "The popular trivia game \"World of Warcraft\" features a race of cat people "
 "called the Khajiit."
 msgstr ""
+"Das beliebte Trivia-Spiel \"World of Warcraft\" enthält ein Katzenvolk "
+"namens Khajiit."
 
 #, php-format
 msgid ""
 "Expected \"newMenuItemViewList()\" to return a list (in class \"%s\"), but "
 "it returned something else (\"%s\")."
 msgstr ""
+"Es wurde erwartet, dass \"newMenuItemViewList()\" eine Liste zurückgibt (in "
+"der Klasse \"%s\"), aber stattdessen wurde etwas anderes zurückgegeben "
+"(\"%s\")."
 
 msgid "Choose Item Icon"
 msgstr "Eintragssymbol auswählen"
@@ -59958,7 +59967,7 @@ msgstr "(Eingeschränktes/ungültiges Projekt)"
 
 #, php-format
 msgid "Project \"%s\" is not a valid project which you have permission to see."
-msgstr ""
+msgstr "Projekt \"%s\" ist kein gültiges Projekt, das Du sehen darfst."
 
 msgid "Ignored Short Word"
 msgstr "Ignoriertes kurzes Wort"
