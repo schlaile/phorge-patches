@@ -69384,33 +69384,36 @@ msgid "Task class '%s' does not extend %s."
 msgstr "Aufgabenklasse '%s' erweitert %s nicht."
 
 msgid "ScopeEngine text map must be a 1-based map of lines."
-msgstr ""
+msgstr "Die ScopeEngine-Textzuordnung muss eine 1-basierte Zuordnung von Zeilen sein."
 
 #, php-format
 msgid ""
 "ScopeEngine text map must be a contiguous map of lines, but is not: found "
 "key \"%s\" where key \"%s\" was expected."
 msgstr ""
+"Die ScopeEngine-Textzuordnung muss eine zusammenhängende Zuordnung von "
+"Zeilen sein, ist es aber nicht: Schlüssel \"%s\" gefunden, wo Schlüssel "
+"\"%s\" erwartet wurde."
 
 msgid "Failed to load container object for inline comment."
-msgstr ""
+msgstr "Containerobjekt für Inline-Kommentar konnte nicht geladen werden."
 
 msgid "Really delete comment?"
-msgstr ""
+msgstr "Kommentar wirklich löschen?"
 
 msgid "Delete this inline comment?"
-msgstr ""
+msgstr "Diesen Inline-Kommentar löschen?"
 
 msgid "Reply to Inline Comment"
 msgstr "Auf Inline-Kommentar antworten"
 
 #, php-format
 msgid "Failed to load comment \"%s\"."
-msgstr ""
+msgstr "Kommentar \"%s\" konnte nicht geladen werden."
 
 #, php-format
 msgid "Unable to load inline \"%s\"."
-msgstr ""
+msgstr "Inline \"%s\" konnte nicht geladen werden."
 
 
 msgid "Inline comment \"%s\" is not editable."
@@ -69420,53 +69423,69 @@ msgstr "Inline-Kommentar \"%s\" kann nicht bearbeitet werden."
 msgid ""
 "Attempting to update comment content state, but request has no content state."
 msgstr ""
+"Es wird versucht, den Inhaltsstatus des Kommentars zu aktualisieren, aber "
+"die Anfrage hat keinen Inhaltsstatus."
 
 #, php-format
 msgid "Expect scope for line %s to start on line %s (actual: %s) in \"%s\"."
 msgstr ""
+"Erwarte, dass der Scope für Zeile %s in \"%s\" bei Zeile %s beginnt "
+"(tatsächlich: %s)."
 
 msgid ""
 "This comment was made on a file with the same name as the file this file was "
 "moved from, but in a newer diff."
 msgstr ""
+"Dieser Kommentar wurde zu einer Datei mit demselben Namen wie die Datei "
+"erstellt, von der diese Datei verschoben wurde, aber in einem neueren Diff."
 
 msgid ""
 "This comment was made on a file with the same name, but in a newer diff."
 msgstr ""
+"Dieser Kommentar wurde zu einer Datei mit demselben Namen erstellt, aber in "
+"einem neueren Diff."
 
 msgid ""
 "This comment was made on a file with the same name as the file this file was "
 "moved from, but in an older diff."
 msgstr ""
+"Dieser Kommentar wurde zu einer Datei mit demselben Namen wie die Datei "
+"erstellt, von der diese Datei verschoben wurde, aber in einem älteren Diff."
 
 msgid ""
 "This comment was made on a file with the same name, but in an older diff."
 msgstr ""
+"Dieser Kommentar wurde zu einer Datei mit demselben Namen erstellt, aber in "
+"einem älteren Diff."
 
 msgid ""
 "This comment was made on a file which this file was moved to, but in a newer "
 "diff."
 msgstr ""
+"Dieser Kommentar wurde zu einer Datei erstellt, in die diese Datei "
+"verschoben wurde, aber in einem neueren Diff."
 
 msgid ""
 "This comment was made on a file which this file was moved to, but in an "
 "older diff."
 msgstr ""
+"Dieser Kommentar wurde zu einer Datei erstellt, in die diese Datei "
+"verschoben wurde, aber in einem älteren Diff."
 
 #, php-format
 msgid "Versioned draft is not attached for user with fragment \"%s\"."
-msgstr ""
+msgstr "Versionierter Entwurf ist für Benutzer mit Fragment \"%s\" nicht angehängt."
 
 msgid "Can not merge parts of dissimilar types!"
-msgstr ""
+msgstr "Teile unterschiedlicher Typen können nicht zusammengeführt werden!"
 
 #, php-format
 msgid "Unexpected character (\"%s\") in edit string."
-msgstr ""
+msgstr "Unerwartetes Zeichen (\"%s\") in Editier-Zeichenkette."
 
 #, php-format
 msgid "Trim Apart: %s"
-msgstr ""
+msgstr "Getrennt trimmen: %s"
 
 msgid "Add Paragraph"
 msgstr "Absatz hinzufügen"
@@ -69476,56 +69495,56 @@ msgstr "Absatz entfernen"
 
 
 msgid "Amend paragraph, and add paragraph starting with punctuation"
-msgstr ""
+msgstr "Absatz ändern und Absatz hinzufügen, der mit Satzzeichen beginnt"
 
 msgid "\"Shark/cat\" word edit smoothenss."
-msgstr ""
+msgstr "\"Shark/cat\"-Wortbearbeitungs-Glättung."
 
 msgid "\"Says/remarks\" word edit smoothenss."
-msgstr ""
+msgstr "\"Says/remarks\"-Wortbearbeitungs-Glättung."
 
 msgid "Complete paragraph rewrite."
-msgstr ""
+msgstr "Vollständige Umschreibung des Absatzes."
 
 msgid "Whole word rewrite with common prefix and suffix."
-msgstr ""
+msgstr "Komplette Wortumschreibung mit gemeinsamem Präfix und Suffix."
 
 msgid "Whole word rewrite with whitespace prefix and suffix."
-msgstr ""
+msgstr "Komplette Wortumschreibung mit Leerraum-Präfix und -Suffix."
 
 msgid "Summary diff with middle change."
-msgstr ""
+msgstr "Zusammenfassungs-Diff mit Änderung in der Mitte."
 
 msgid "Summary diff with head change."
-msgstr ""
+msgstr "Zusammenfassungs-Diff mit Änderung am Anfang."
 
 msgid "Summary diff with last change."
-msgstr ""
+msgstr "Zusammenfassungs-Diff mit Änderung am Ende."
 
 msgid "Diff with new trailing content."
-msgstr ""
+msgstr "Diff mit neuem nachgestelltem Inhalt."
 
 msgid "Diff with a removed comma."
 msgstr "Diff mit entferntem Komma."
 
 
 msgid "Diff with a removed comma and new trailing content."
-msgstr ""
+msgstr "Diff mit entferntem Komma und neuem nachgestelltem Inhalt."
 
 msgid "Diff adding a tickmark to a checkbox list."
-msgstr ""
+msgstr "Diff, das einer Checkbox-Liste ein Häkchen hinzufügt."
 
 msgid "Diff changing a remarkup wiki link target."
-msgstr ""
+msgstr "Diff, das das Ziel eines Remarkup-Wiki-Links ändert."
 
 msgid "Adding initial and final lines to a large corpus."
-msgstr ""
+msgstr "Anfangs- und Endzeilen zu einem großen Korpus hinzufügen."
 
 msgid "Querying for comments that are \"not publishable\" is not supported."
-msgstr ""
+msgstr "Abfragen nach Kommentaren, die \"nicht veröffentlichbar\" sind, werden nicht unterstützt."
 
 msgid "Querying for comments that are \"not published\" is not supported."
-msgstr ""
+msgstr "Abfragen nach Kommentaren, die \"nicht veröffentlicht\" sind, werden nicht unterstützt."
 
 msgid "View on forward revision"
 msgstr "In der nächsten Revision anzeigen"
@@ -69564,7 +69583,7 @@ msgstr "Änderungen verworfen."
 
 
 msgid "One-up inline row scaffold must have exactly one inline view!"
-msgstr ""
+msgstr "Ein One-up-Inline-Row-Scaffold muss genau eine Inline-Ansicht haben!"
 
 msgid "Expand"
 msgstr "Ausklappen"
@@ -69576,7 +69595,7 @@ msgstr "%s Zeile(n)"
 
 
 msgid "?"
-msgstr ""
+msgstr "?"
 
 msgid "Deleted after being copied to multiple locations:"
 msgstr "Gelöscht, nachdem es an mehrere Stellen kopiert wurde:"
@@ -69599,22 +69618,24 @@ msgid "Coverage (Touched)"
 msgstr "Übersicht (Verändert)"
 
 msgid "Changeset has no path vectors!"
-msgstr ""
+msgstr "Changeset hat keine Pfadvektoren!"
 
 msgid "Unknown edit string \"%s\"!"
 msgstr "Unbekannte Editier-Zeichenkette \"%s\"!"
 
 
 msgid "Two-up inline row scaffold must have at least one inline view."
-msgstr ""
+msgstr "Ein Two-up-Inline-Row-Scaffold muss mindestens eine Inline-Ansicht haben."
 
 msgid "Two-up inline row scaffold must have at most two inline views."
-msgstr ""
+msgstr "Ein Two-up-Inline-Row-Scaffold darf höchstens zwei Inline-Ansichten haben."
 
 msgid ""
 "Two-up inline row scaffold must have one comment on the left and one comment "
 "on the right when showing two comments."
 msgstr ""
+"Ein Two-up-Inline-Row-Scaffold muss beim Anzeigen von zwei Kommentaren einen "
+"Kommentar links und einen Kommentar rechts haben."
 
 msgid "Terminating Tree"
 msgstr "Terminierender Baum"
@@ -69629,7 +69650,7 @@ msgstr "Terminierter Baum"
 
 
 msgid "Three-Way Tree"
-msgstr ""
+msgstr "Drei-Wege-Baum"
 
 msgid "Read edge relationships between objects."
 msgstr ""
