@@ -5,7 +5,7 @@ declare(strict_types=1);
 
 const USAGE = <<<EOTEXT
 Usage:
-  php scripts/module_status.php --phorge <phorge-dir> --po <work.po> [--app <appname>] [--all] [--all-modules] [--show-missing]
+  php scripts/module_status.php --phorge <phorge-dir> --po <work.po> [--app <appname>] [--module <modulepath>] [--all] [--all-modules] [--show-missing]
 
 Examples:
   # Summary of all applications
@@ -19,6 +19,9 @@ Examples:
 
   # Show untranslated/fuzzy strings for one application
   php scripts/module_status.php --phorge ../phorge --po translation/de/work/phorge-de-work.po --app maniphest --show-missing
+
+  # Status for one source module
+  php scripts/module_status.php --phorge ../phorge --po translation/de/work/phorge-de-work.po --module aphront/configuration
 EOTEXT;
 
 main($argv);
@@ -42,6 +45,18 @@ function main(array $argv): void {
       print_missing($strings, $po, $opts['app']);
     } else {
       print_app_summary($opts['app'], $strings, $po);
+    }
+  } elseif ($opts['module']) {
+    $module_path = $opts['phorge'].'/src/'.$opts['module'];
+    if (!is_dir($module_path) && !is_file($module_path)) {
+      fwrite(STDERR, "Module path not found: {$module_path}\n");
+      exit(1);
+    }
+    $strings = extract_pht_strings($module_path);
+    if ($opts['show_missing']) {
+      print_missing($strings, $po, $opts['module']);
+    } else {
+      print_app_summary($opts['module'], $strings, $po);
     }
   } else {
     fwrite(STDERR, USAGE."\n");
@@ -126,7 +141,7 @@ function parse_po_string(array $lines, int &$i, int $n): ?string {
 }
 
 function unescape_po(string $s): string {
-  return str_replace(['\\n', '\\"', '\\\\'], ["\n", '"', '\\'], $s);
+  return stripcslashes($s);
 }
 
 // --- Source extraction ---
@@ -134,7 +149,11 @@ function unescape_po(string $s): string {
 function extract_pht_strings(string $dir): array {
   $strings = [];
   $files = [];
-  collect_php_files($dir, $files);
+  if (is_file($dir)) {
+    $files[] = $dir;
+  } else {
+    collect_php_files($dir, $files);
+  }
   sort($files);
   foreach ($files as $file) {
     $src = file_get_contents($file);
@@ -441,6 +460,7 @@ function parse_args(array $argv): array {
     'phorge' => null,
     'po' => null,
     'app' => null,
+    'module' => null,
     'all' => false,
     'all_modules' => false,
     'show_missing' => false,
@@ -451,6 +471,7 @@ function parse_args(array $argv): array {
       case '--phorge': $opts['phorge'] = $argv[++$i]; break;
       case '--po':     $opts['po']     = $argv[++$i]; break;
       case '--app':    $opts['app']    = $argv[++$i]; break;
+      case '--module': $opts['module'] = $argv[++$i]; break;
       case '--all':    $opts['all']    = true; break;
       case '--all-modules': $opts['all_modules'] = true; break;
       case '--show-missing': $opts['show_missing'] = true; break;
