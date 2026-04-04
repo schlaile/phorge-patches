@@ -63072,7 +63072,7 @@ msgid "Alternate Space"
 msgstr "Alternativer Bereich"
 
 msgid "Default Space #2"
-msgstr "Standardbereich #2"
+msgstr "Vorgabezone #2"
 
 msgid "Spaces"
 msgstr "Zonen"
@@ -63274,7 +63274,7 @@ msgstr "%s hat diese Zone zur Vorgabezone gemacht."
 
 #, php-format
 msgid "%s made space %s the default space."
-msgstr "%s hat %s als Standardbereich festgelegt."
+msgstr "%s hat %s als Vorgabezone festgelegt."
 
 
 msgid ""
@@ -69925,7 +69925,7 @@ msgid "Tag PHIDs"
 msgstr "Tag-PHIDs"
 
 msgid "Space PHID"
-msgstr "Spaces-PHID"
+msgstr "Zonen-PHID"
 
 
 msgid "Subscriber PHIDs"
@@ -70390,27 +70390,27 @@ msgid "%s - is starting with slash"
 msgstr ""
 
 msgid "Can not build empty SELECT clause!"
-msgstr ""
+msgstr "Leere SELECT-Klausel kann nicht erstellt werden!"
 
 msgid ""
 "An order vector can only be constructed from a list of strings or another "
 "order vector."
-msgstr ""
+msgstr "Ein Sortiervektor kann nur aus einer Liste von Zeichenketten oder einem anderen Sortiervektor erstellt werden."
 
 msgid "An order vector must not be empty."
-msgstr ""
+msgstr "Ein Sortiervektor darf nicht leer sein."
 
 #, php-format
 msgid ""
 "Value with key \"%s\" in order vector is not a string (it has type \"%s\"). "
 "An order vector must contain only strings."
-msgstr ""
+msgstr "Wert mit Schlüssel „%s\" im Sortiervektor ist keine Zeichenkette (Typ: „%s\"). Ein Sortiervektor darf nur Zeichenketten enthalten."
 
 #, php-format
 msgid ""
 "Order vector \"%s\" specifies order \"%s\" twice. Each component of an "
 "ordering must be unique."
-msgstr ""
+msgstr "Sortiervektor „%s\" gibt Sortierung „%s\" zweimal an. Jede Komponente einer Sortierung muss eindeutig sein."
 
 #, php-format
 msgid ""
@@ -70418,41 +70418,41 @@ msgid ""
 "\"newExternalCursorStringForResult()\", actually passed \"%s\". Return "
 "storage objects from \"loadPage()\" or override "
 "\"newExternalCursorStringForResult()\"."
-msgstr ""
+msgstr "In „newExternalCursorStringForResult()\" wurde ein Ergebnisobjekt der Klasse „LiskDAO\" erwartet, erhalten wurde „%s\". Gib Speicherobjekte aus „loadPage()\" zurück oder überschreibe „newExternalCursorStringForResult()\"."
 
 #, php-format
 msgid "Cursor \"%s\" does not identify a valid object in query \"%s\"."
-msgstr ""
+msgstr "Cursor „%s\" identifiziert kein gültiges Objekt in Abfrage „%s\"."
 
 #, php-format
 msgid ""
 "Expected \"newExternalCursorStringForResult()\"  in class \"%s\" to return a "
 "string, but got \"%s\"."
-msgstr ""
+msgstr "„newExternalCursorStringForResult()\" in Klasse „%s\" sollte eine Zeichenkette zurückgeben, aber gab „%s\" zurück."
 
 #, php-format
 msgid ""
 "Expected \"newInternalCursorFromExternalCursor()\" to return an object of "
 "class \"PhabricatorQueryCursor\", but got \"%s\" (in class \"%s\")."
-msgstr ""
+msgstr "„newInternalCursorFromExternalCursor()\" sollte ein Objekt der Klasse „PhabricatorQueryCursor\" zurückgeben, aber gab „%s\" zurück (in Klasse „%s\")."
 
 #, php-format
 msgid ""
 "Expected \"newPagingMapFromCursorObject()\" to return a map of paging "
 "values, but got \"%s\" (in class \"%s\")."
-msgstr ""
+msgstr "„newPagingMapFromCursorObject()\" sollte eine Zuordnung von Paginierungswerten zurückgeben, aber gab „%s\" zurück (in Klasse „%s\")."
 
 #, php-format
 msgid ""
 "Map returned by \"newPagingMapFromCursorObject()\" in class \"%s\" omits "
 "required key \"%s\"."
-msgstr ""
+msgstr "Die von „newPagingMapFromCursorObject()\" in Klasse „%s\" zurückgegebene Zuordnung enthält den erforderlichen Schlüssel „%s\" nicht."
 
 #, php-format
 msgid ""
 "Unable to retrieve Ferret engine metadata, this class (\"%s\") does not "
 "support the Ferret engine."
-msgstr ""
+msgstr "Ferret-Engine-Metadaten können nicht abgerufen werden: Klasse „%s\" unterstützt die Ferret-Engine nicht."
 
 #, php-format
 msgid ""
@@ -70460,21 +70460,21 @@ msgid ""
 "\"newResultObject()\" (expected a subclass of \"PhabricatorLiskDAO\", found "
 "\"%s\"). Return an object of the expected type (this is common), or "
 "implement a custom \"loadPage()\" method (this is unusual in modern code)."
-msgstr ""
+msgstr "Abfrageklasse „%s\" hat in „newResultObject()\" keinen korrekten Objekttyp zurückgegeben (erwartet: Unterklasse von „PhabricatorLiskDAO\", gefunden: „%s\"). Gib ein Objekt des erwarteten Typs zurück (üblich) oder implementiere eine eigene „loadPage()\"-Methode (in modernem Code ungewöhnlich)."
 
 #, php-format
 msgid "Column \"%s\" has null value, but does not specify a null behavior."
-msgstr ""
+msgstr "Spalte „%s\" hat einen Null-Wert, aber kein definiertes Null-Verhalten."
 
 #, php-format
 msgid "Column \"%s\" has unknown column type \"%s\"."
-msgstr ""
+msgstr "Spalte „%s\" hat unbekannten Spaltentyp „%s\"."
 
 #, php-format
 msgid ""
 "Query \"%s\" does not support a builtin order \"%s\". Supported orders are: "
 "%s."
-msgstr ""
+msgstr "Abfrage „%s\" unterstützt keine vordefinierte Sortierung „%s\". Unterstützte Sortierungen sind: %s."
 
 #, php-format
 msgid "%s (Reversed)"
@@ -70490,125 +70490,125 @@ msgid ""
 "Two builtin orders (\"%s\" and \"%s\") define the same key or alias "
 "(\"%s\"). Each order alias and key must be unique and identify a single "
 "order."
-msgstr ""
+msgstr "Zwei vordefinierte Sortierungen („%s\" und „%s\") definieren denselben Schlüssel oder Alias „%s\". Jeder Sortierungsalias und -schlüssel muss eindeutig sein."
 
 #, php-format
 msgid ""
 "This query (\"%s\") does not support sorting by order key \"%s\". Supported "
 "orders are: %s."
-msgstr ""
+msgstr "Diese Abfrage („%s\") unterstützt keine Sortierung nach Schlüssel „%s\". Unterstützte Sortierungen sind: %s."
 
 #, php-format
 msgid ""
 "Order vector \"%s\" is invalid: the last column in an order must be a column "
 "with unique values, but \"%s\" is not unique."
-msgstr ""
+msgstr "Sortiervektor „%s\" ist ungültig: Die letzte Spalte einer Sortierung muss eindeutige Werte haben, aber „%s\" ist nicht eindeutig."
 
 #, php-format
 msgid ""
 "Order vector \"%s\" is invalid: only the last column in an order may be "
 "unique, but \"%s\" is a unique column and not the last column in the order."
-msgstr ""
+msgstr "Sortiervektor „%s\" ist ungültig: Nur die letzte Spalte einer Sortierung darf eindeutig sein, aber „%s\" ist eine eindeutige Spalte und nicht die letzte."
 
 #, php-format
 msgid "NULL value \"%s\" is invalid. Valid values are \"head\" and \"tail\"."
-msgstr ""
+msgstr "NULL-Wert „%s\" ist ungültig. Gültige Werte sind „head\" und „tail\"."
 
 #, php-format
 msgid ""
 "Attempting to apply a range constraint to a field with index type \"%s\", "
 "expected type \"%s\"."
-msgstr ""
+msgstr "Versuch, eine Bereichseinschränkung auf ein Feld mit Indextyp „%s\" anzuwenden, erwartet wurde Typ „%s\"."
 
 #, php-format
 msgid "Unknown index type \"%s\"!"
-msgstr ""
+msgstr "Unbekannter Indextyp „%s\"!"
 
 #, php-format
 msgid "Unknown constraint condition \"%s\"!"
-msgstr ""
+msgstr "Unbekannte Einschränkungsbedingung „%s\"!"
 
 #, php-format
 msgid "No support for applying operator \"%s\" against index of type \"%s\"."
-msgstr ""
+msgstr "Operator „%s\" kann nicht auf Index vom Typ „%s\" angewendet werden."
 
 #, php-format
 msgid "Query (\"%s\") does not support the Ferret fulltext engine."
-msgstr ""
+msgstr "Abfrage „%s\" unterstützt die Ferret-Volltextsuch-Engine nicht."
 
 msgid "Query may not have multiple fulltext constraints."
-msgstr ""
+msgstr "Eine Abfrage darf nicht mehrere Volltext-Einschränkungen haben."
 
 #, php-format
 msgid ""
 "Query class (\"%s\") must define \"newResultObject()\" to use Ferret "
 "constraints."
-msgstr ""
+msgstr "Abfrageklasse „%s\" muss „newResultObject()\" definieren, um Ferret-Einschränkungen zu verwenden."
 
 msgid ""
 "This query uses a fulltext function which this document type does not "
 "support."
-msgstr ""
+msgstr "Diese Abfrage verwendet eine Volltextfunktion, die dieser Dokumenttyp nicht unterstützt."
 
 msgid ""
 "This query matches only unowned documents owned by anyone, which is "
 "impossible."
-msgstr ""
+msgstr "Diese Abfrage sucht nach Dokumenten ohne Eigentümer, die gleichzeitig jemandem gehören – das ist unmöglich."
 
 msgid "This query specifies an empty constraint."
-msgstr ""
+msgstr "Diese Abfrage enthält eine leere Einschränkung."
 
 msgid ""
 "This query is constrained by a project you do not have permission to see."
-msgstr ""
+msgstr "Diese Abfrage ist durch ein Projekt eingeschränkt, auf das Du keine Zugriffsberechtigung hast."
 
 msgid "This query specifies only() more than once."
-msgstr ""
+msgstr "Diese Abfrage verwendet only() mehr als einmal."
 
 msgid ""
 "This query specifies only(), but no other constraints which it can apply to."
-msgstr ""
+msgstr "Diese Abfrage verwendet only(), aber keine weiteren Einschränkungen, auf die es angewendet werden könnte."
 
 #, php-format
 msgid ""
 "This query (of class \"%s\") does not implement newResultObject(), but must "
 "implement this method to enable support for Spaces."
-msgstr ""
+msgstr "Diese Abfrage (Klasse „%s\") implementiert newResultObject() nicht, muss dies aber tun, um Zonen zu unterstützen."
 
 #, php-format
 msgid ""
 "This query (of class \"%s\") returned an object of class \"%s\" from "
 "getNewResultObject(), but it does not implement the required interface "
 "(\"%s\"). Objects must implement this interface to enable Spaces support."
-msgstr ""
+msgstr "Diese Abfrage (Klasse „%s\") hat aus getNewResultObject() ein Objekt der Klasse „%s\" zurückgegeben, das die erforderliche Schnittstelle „%s\" nicht implementiert. Objekte müssen diese Schnittstelle implementieren, um Zonen zu unterstützen."
 
 msgid "You do not have access to any spaces."
-msgstr ""
+msgstr "Du hast keinen Zugriff auf Zonen."
 
 msgid ""
 "You do not have access to any of the spaces this query is constrained to."
-msgstr ""
+msgstr "Du hast keinen Zugriff auf die Zonen, auf die diese Abfrage eingeschränkt ist."
 
 msgid "Expected a single result!"
-msgstr ""
+msgstr "Genau ein Ergebnis erwartet!"
 
 #, php-format
 msgid ""
 "Query (of class \"%s\") overheated: examined more than %s raw rows without "
 "finding %s visible objects."
-msgstr ""
+msgstr "Abfrage (Klasse „%s\") abgebrochen: Mehr als %s Rohzeilen wurden durchsucht, ohne %s sichtbare Objekte zu finden."
 
 #, php-format
 msgid ""
 "Caller is trying to \"getRawRowProperty()\" with key \"%s\", but this cursor "
 "has no raw row."
-msgstr ""
+msgstr "Aufruf von „getRawRowProperty()\" mit Schlüssel „%s\" nicht möglich: Dieser Cursor hat keine Rohzeile."
 
 #, php-format
 msgid ""
 "Caller is trying to access raw row property \"%s\", but the row does not "
 "have this property."
-msgstr ""
+msgstr "Zugriff auf Rohzeileneigenschaft „%s\" nicht möglich: Die Zeile hat diese Eigenschaft nicht."
 
 #, php-format
 msgid "Set a command channel before calling %s!"
@@ -71746,56 +71746,56 @@ msgstr ""
 
 #, php-format
 msgid "Lock parameter key \"%s\" must be alphanumeric."
-msgstr ""
+msgstr "Lock-Parameter-Schlüssel „%s\" darf nur alphanumerische Zeichen enthalten."
 
 #, php-format
 msgid "Lock parameter for key \"%s\" must be a scalar."
-msgstr ""
+msgstr "Lock-Parameter für Schlüssel „%s\" muss ein Skalar sein."
 
 msgid ""
 "Lock is already held, and must be released before the connection may be "
 "changed."
-msgstr ""
+msgstr "Lock wird bereits gehalten und muss freigegeben werden, bevor die Verbindung geändert werden kann."
 
 msgid ""
 "Unable to establish lock on connection: this connection is already holding a "
 "lock. Acquiring a second lock on the same connection would release the first "
 "lock in MySQL versions older than 5.7."
-msgstr ""
+msgstr "Lock kann auf dieser Verbindung nicht erworben werden: Die Verbindung hält bereits einen Lock. Das Erwerben eines zweiten Locks auf derselben Verbindung würde den ersten Lock in MySQL-Versionen älter als 5.7 freigeben."
 
 msgid ""
 "Enable the lock log for more detailed information about which process is "
 "holding this lock."
-msgstr ""
+msgstr "Aktiviere das Lock-Log für detailliertere Informationen darüber, welcher Prozess diesen Lock hält."
 
 #, php-format
 msgid ""
 "During the last %s second(s) spent waiting for the lock, more than %s other "
 "process(es) acquired it, so this is likely a bottleneck. Use \"bin/lock log "
 "--name %s\" to review log activity."
-msgstr ""
+msgstr "In den letzten %s Sekunde(n) Wartezeit auf den Lock haben mehr als %s andere Prozess(e) ihn erworben – das deutet auf einen Engpass hin. Verwende „bin/lock log --name %s\", um die Log-Aktivität zu prüfen."
 
 #, php-format
 msgid ""
 "During the last %s second(s) spent waiting for the lock, %s other "
 "process(es) acquired it, so this is likely a bottleneck. Use \"bin/lock log "
 "--name %s\" to review log activity."
-msgstr ""
+msgstr "In den letzten %s Sekunde(n) Wartezeit auf den Lock haben %s andere Prozess(e) ihn erworben – das deutet auf einen Engpass hin. Verwende „bin/lock log --name %s\", um die Log-Aktivität zu prüfen."
 
 #, php-format
 msgid ""
 "This lock was most recently acquired by a process (%s) %s second(s) ago."
-msgstr ""
+msgstr "Dieser Lock wurde zuletzt von einem Prozess (%s) vor %s Sekunde(n) erworben."
 
 #, php-format
 msgid "This lock was released %s second(s) ago."
-msgstr ""
+msgstr "Dieser Lock wurde vor %s Sekunde(n) freigegeben."
 
 msgid "There is no record of this lock being released."
-msgstr ""
+msgstr "Es gibt keinen Eintrag über die Freigabe dieses Locks."
 
 msgid "Found no records of processes acquiring or releasing this lock."
-msgstr ""
+msgstr "Keine Einträge über Prozesse gefunden, die diesen Lock erworben oder freigegeben haben."
 
 #, php-format
 msgid "Set a '%s' in your configuration!"
@@ -71803,44 +71803,44 @@ msgstr "Setze '%s' in der Konfiguration!"
 
 
 msgid "Maximum must be larger than minimum."
-msgstr ""
+msgstr "Maximum muss größer als Minimum sein."
 
 #, php-format
 msgid "Length parameter in %s must be at least %s, but %s was provided."
-msgstr ""
+msgstr "Längenparameter in %s muss mindestens %s betragen, aber es wurde %s angegeben."
 
 msgid "HMAC-SHA256 can only digest strings."
-msgstr ""
+msgstr "HMAC-SHA256 kann nur Zeichenketten verarbeiten."
 
 msgid "HMAC-SHA256 keys must be strings."
-msgstr ""
+msgstr "HMAC-SHA256-Schlüssel müssen Zeichenketten sein."
 
 msgid "HMAC-SHA256 requires a nonempty key."
-msgstr ""
+msgstr "HMAC-SHA256 erfordert einen nicht leeren Schlüssel."
 
 msgid "Unable to compute HMAC-SHA256 digest of message."
-msgstr ""
+msgstr "HMAC-SHA256-Digest der Nachricht konnte nicht berechnet werden."
 
 msgid "Metronome offset must be an integer."
-msgstr ""
+msgstr "Metronom-Versatz muss eine ganze Zahl sein."
 
 
 msgid "Metronome offset must be 0 or more."
-msgstr ""
+msgstr "Metronom-Versatz muss 0 oder größer sein."
 
 msgid "Metronome frequency must be an integer."
 msgstr "Die Metronom-Frequenz muss eine Ganzzahl sein."
 
 
 msgid "Metronome frequency must be 1 or more."
-msgstr ""
+msgstr "Metronom-Frequenz muss 1 oder größer sein."
 
 msgid "Maximum tick window must not be smaller than minimum tick window."
-msgstr ""
+msgstr "Das maximale Taktfenster darf nicht kleiner als das minimale Taktfenster sein."
 
 #, php-format
 msgid "Can not generate keys: unable to find \"%s\" in PATH!"
-msgstr ""
+msgstr "Schlüssel können nicht generiert werden: „%s\" wurde nicht in PATH gefunden!"
 
 msgid "Untitled Document"
 msgstr "Unbenanntes Dokument"
@@ -71850,57 +71850,57 @@ msgstr "Verbindungspool leeren"
 
 
 msgid "Connection Pool With Lock"
-msgstr ""
+msgstr "Verbindungspool mit Lock"
 
 msgid "Connection Pool With Lock Released"
-msgstr ""
+msgstr "Verbindungspool mit freigegebenem Lock"
 
 msgid "Specific Connection, No Lock"
-msgstr ""
+msgstr "Spezifische Verbindung, kein Lock"
 
 msgid "Connection Pool + Specific, With Lock"
-msgstr ""
+msgstr "Verbindungspool + spezifisch, mit Lock"
 
 msgid "Specific Connection, Holding Lock"
-msgstr ""
+msgstr "Spezifische Verbindung, Lock wird gehalten"
 
 msgid "Connection Pool + Specific, With Lock Released"
-msgstr ""
+msgstr "Verbindungspool + spezifisch, Lock freigegeben"
 
 msgid "Changing connection while locked is forbidden."
-msgstr ""
+msgstr "Verbindungswechsel bei gehaltenem Lock ist nicht erlaubt."
 
 msgid "Expect multiple locks on the same connection to fail."
-msgstr ""
+msgstr "Mehrere Locks auf derselben Verbindung sollten fehlschlagen."
 
 msgid "Establish Raw Lock"
-msgstr ""
+msgstr "Einfachen Lock einrichten"
 
 msgid "Connection Pool with Held Lock"
-msgstr ""
+msgstr "Verbindungspool mit gehaltenem Lock"
 
 msgid "Connection Pool After Lock Failure"
-msgstr ""
+msgstr "Verbindungspool nach Lock-Fehler"
 
 msgid "Connection Pool After External Lock Failure"
-msgstr ""
+msgstr "Verbindungspool nach externem Lock-Fehler"
 
 #, php-format
 msgid "Input: %s"
-msgstr ""
+msgstr "Eingabe: %s"
 
 #, php-format
 msgid "Distinct characters in hash of: %s"
-msgstr ""
+msgstr "Verschiedene Zeichen im Hash von: %s"
 
-#, fuzzy, php-format
+#, php-format
 msgid "Index digest of \"%s\"."
-msgstr "%s hat die Bilder von %s geändert."
+msgstr "Index-Digest von „%s\"."
 
 
 #, php-format
 msgid "Anchor digest of \"%s\"."
-msgstr ""
+msgstr "Anker-Digest von „%s\"."
 
 #, php-format
 msgid "Offset for: %s"
@@ -71908,89 +71908,89 @@ msgstr "Offset für: %s"
 
 
 msgid "Tick at 11:11:13 AM."
-msgstr ""
+msgstr "Tick um 11:11:13 Uhr."
 
 msgid "Tick at 11:12:13 AM."
-msgstr ""
+msgstr "Tick um 11:12:13 Uhr."
 
 #, php-format
 msgid "Address after stripping %d layers from: %s"
-msgstr ""
+msgstr "Adresse nach Entfernen von %d Schicht(en) aus: %s"
 
 #, php-format
 msgid "Normalization of '%s'"
-msgstr ""
+msgstr "Normalisierung von „%s\""
 
 #, php-format
 msgid "Hashtag normalization of \"%s\""
-msgstr ""
+msgstr "Hashtag-Normalisierung von „%s\""
 
 #, php-format
 msgid "Ancestry of '%s'"
-msgstr ""
+msgstr "Vorfahren von „%s\""
 
 #, php-format
 msgid "Depth of '%s'"
-msgstr ""
+msgstr "Tiefe von „%s\""
 
 msgid "bcrypt"
-msgstr ""
+msgstr "bcrypt"
 
 msgid "To use BCrypt, make the password_hash() function available."
-msgstr ""
+msgstr "Um BCrypt zu verwenden, muss die Funktion password_hash() verfügbar sein."
 
 msgid "Good"
 msgstr "Gut"
 
 msgid "Iterated MD5"
-msgstr ""
+msgstr "Iteriertes MD5"
 
 msgid "To use iterated MD5, make the md5() function available."
-msgstr ""
+msgstr "Um iteriertes MD5 zu verwenden, muss die Funktion md5() verfügbar sein."
 
 msgid "Weak, Insecure"
-msgstr ""
+msgstr "Schwach, unsicher"
 
 #, php-format
 msgid ""
 "Password hash '%s' produced a hash of length %s, but a maximum length of %s "
 "was expected."
-msgstr ""
+msgstr "Passwort-Hash „%s\" hat einen Hash der Länge %s erzeugt, aber maximal %s wurde erwartet."
 
 msgid "Malformed password hash, expected \"name:hash\"."
-msgstr ""
+msgstr "Ungültiger Passwort-Hash, erwartet wurde das Format „Name:Hash\"."
 
 #, php-format
 msgid ""
 "Hasher \"%s\" may produce hashes which are too long to fit in storage. %d "
 "characters are available, but its hashes may be up to %d characters in "
 "length."
-msgstr ""
+msgstr "Hasher „%s\" könnte Hashes erzeugen, die zu lang für den Speicher sind. Es stehen %d Zeichen zur Verfügung, aber seine Hashes können bis zu %d Zeichen lang sein."
 
 msgid ""
 "There are no password hashers available which are usable for new passwords."
-msgstr ""
+msgstr "Es sind keine Passwort-Hasher verfügbar, die für neue Passwörter verwendet werden können."
 
 #, php-format
 msgid ""
 "Attempting to compare a password saved with the \"%s\" hash. The hasher "
 "exists, but is not currently usable. %s"
-msgstr ""
+msgstr "Versuch, ein mit dem Hash „%s\" gespeichertes Passwort zu vergleichen. Der Hasher ist vorhanden, aber derzeit nicht verwendbar. %s"
 
 #, php-format
 msgid ""
 "Attempting to compare a password saved with the \"%s\" hash. No such hasher "
 "is known."
-msgstr ""
+msgstr "Versuch, ein mit dem Hash „%s\" gespeichertes Passwort zu vergleichen. Kein solcher Hasher ist bekannt."
 
 msgid "Expected a password hash, received nothing!"
-msgstr ""
+msgstr "Passwort-Hash erwartet, aber nichts erhalten!"
 
 msgid "Exception on unparseable hash format."
-msgstr ""
+msgstr "Exception bei nicht parsbarem Hash-Format."
 
 msgid "Fictional hasher unavailable."
-msgstr ""
+msgstr "Fiktiver Hasher nicht verfügbar."
 
 #, php-format
 msgid "You must call %s when rendering an %s."
