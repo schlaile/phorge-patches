@@ -72711,7 +72711,7 @@ msgstr "%s ungelöste Probleme."
 
 
 msgid "No issues."
-msgstr ""
+msgstr "Keine Probleme."
 
 msgid "Read more..."
 msgstr "Weiter..."
@@ -72721,7 +72721,7 @@ msgid "No time specified."
 msgstr "Keine Zeit angegeben."
 
 msgid "Untitled Story"
-msgstr ""
+msgstr "Unbenannte Story"
 
 msgid "Today"
 msgstr "Heute"
@@ -72739,7 +72739,7 @@ msgid "Updated %s"
 msgstr "%s geändert"
 
 msgid "Incorrect Property Passed"
-msgstr ""
+msgstr "Falsche Eigenschaft übergeben"
 
 msgid "Failure"
 msgstr "Fehler"
@@ -72757,19 +72757,19 @@ msgstr "Minus"
 
 #, php-format
 msgid "No such key '%s' to add menu item after!"
-msgstr ""
+msgstr "Es gibt keinen Schlüssel '%s', nach dem ein Menüpunkt eingefügt werden könnte!"
 
 #, php-format
 msgid "Menu item '%s' is not a label!"
-msgstr ""
+msgstr "Menüpunkt '%s' ist kein Label!"
 
 #, php-format
 msgid "No menu item with key '%s' exists!"
-msgstr ""
+msgstr "Es gibt keinen Menüpunkt mit Schlüssel '%s'!"
 
 #, php-format
 msgid "Menu contains duplicate items with key '%s'!"
-msgstr ""
+msgstr "Menü enthält doppelte Einträge mit Schlüssel '%s'!"
 
 msgid "View All Results"
 msgstr "Alle Ergebnisse anzeigen"
@@ -72779,17 +72779,17 @@ msgid "No data."
 msgstr "Keine Daten."
 
 msgid "Limit 3 actions per item."
-msgstr ""
+msgstr "Maximal 3 Aktionen pro Eintrag."
 
 msgid "Deprecated call to setIcon(), use setImageIcon() instead."
-msgstr ""
+msgstr "Veralteter Aufruf von setIcon(), verwende stattdessen setImageIcon()."
 
 msgid "Invalid effect!"
 msgstr "Ungültiger Effekt!"
 
 #, php-format
 msgid "Unknown part type '%s'!"
-msgstr ""
+msgstr "Unbekannter Teiltyp '%s'!"
 
 msgid "Loading preview..."
 msgstr "Lade Vorschau..."
@@ -72804,6 +72804,9 @@ msgid ""
 "Each tab in a tab group must have a unique key; attempting to add a second "
 "tab with a duplicate key (\"%s\")."
 msgstr ""
+"Jeder Tab in einer Tab-Gruppe muss einen eindeutigen Schlüssel haben; es "
+"wird versucht, einen zweiten Tab mit dem doppelten Schlüssel (\"%s\") "
+"hinzuzufügen."
 
 msgid "Unable to select tab (\"%s\") which does not exist."
 msgstr "Tab (\"%s\"), der nicht existiert, kann nicht ausgewählt werden."
@@ -72811,10 +72814,10 @@ msgstr "Tab (\"%s\"), der nicht existiert, kann nicht ausgewählt werden."
 
 #, php-format
 msgid "Attempting to change the key of a tab with a locked key (\"%s\")."
-msgstr ""
+msgstr "Es wird versucht, den Schlüssel eines Tabs mit gesperrtem Schlüssel (\"%s\") zu ändern."
 
 msgid "Deprecated call to setShade(), use setColor() instead."
-msgstr ""
+msgstr "Veralteter Aufruf von setShade(), verwende stattdessen setColor()."
 
 msgid "Comment Actions"
 msgstr "Kommentar-Aktionen"
@@ -72840,10 +72843,10 @@ msgid "Event Timeline"
 msgstr "Ereigniszeitlinie"
 
 msgid "Changes from before your most recent comment are hidden."
-msgstr ""
+msgstr "Änderungen vor deinem neuesten Kommentar sind ausgeblendet."
 
 msgid "There are a very large number of changes, so older changes are hidden."
-msgstr ""
+msgstr "Es gibt sehr viele Änderungen, daher sind ältere Änderungen ausgeblendet."
 
 
 msgid "Show Older Changes"
@@ -72851,7 +72854,7 @@ msgstr "Ältere Änderungen anzeigen"
 
 
 msgid "Part of the day is out of range"
-msgstr ""
+msgstr "Ein Teil des Tages liegt außerhalb des zulässigen Bereichs"
 
 msgid "Day is out of query range"
 msgstr "Der Tag liegt außerhalb des Abfragebereichs."
@@ -72904,10 +72907,10 @@ msgid "Next Month"
 msgstr "Nächster Monat"
 
 msgid "Part of the month is out of range"
-msgstr ""
+msgstr "Ein Teil des Monats liegt außerhalb des zulässigen Bereichs"
 
 msgid "Month is out of query range"
-msgstr ""
+msgstr "Der Monat liegt außerhalb des Abfragebereichs"
 
 msgid "Tomorrow"
 msgstr "Morgen"
