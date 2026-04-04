@@ -312,18 +312,16 @@ msgstr "Header enthält ein nicht abgeschlossenes doppeltes Anführungszeichen f
 msgid "Header name for: %s"
 msgstr "Headername für: %s"
 
-#, fuzzy, php-format
 msgid "Header content for: %s"
-msgstr "%s hat den Inhalt von %s geändert."
+msgstr "Header-Inhalt für: %s"
 
 
 #, php-format
 msgid "Expect exception for header pairs of: %s"
 msgstr "Erwartete Ausnahme für Header-Paare von: %s"
 
-#, fuzzy, php-format
 msgid "Header pairs for: %s"
-msgstr "Prüfungen für %s"
+msgstr "Header-Paare für: %s"
 
 
 msgid "A boolean value (true or false)."
@@ -420,9 +418,8 @@ msgstr "\\\"multipart/form-data\\\"-Anfrage ohne \\\"boundary\\\" empfangen."
 msgid "Expected \"\\r\\n\" or \"--\" after multipart data boundary."
 msgstr "Nach der Multipart-Datengrenze wurde \\\"\\\\r\\\\n\\\" oder \\\"--\\\" erwartet."
 
-#, fuzzy, php-format
 msgid "Unknown parser state \"%s\".\\n"
-msgstr "Unbekannter Absender: %s"
+msgstr "Unbekannter Parserzustand \"%s\".\\n"
 
 
 msgid "Expected \"multipart/form-data\" parse to end in state \"epilogue\"."
@@ -543,9 +540,8 @@ msgstr "Antwort mit unsicherem HTTP-Header wird nicht gesendet: %s"
 msgid "%s should prevent content-sniffing attacks."
 msgstr "%s sollte Content-Sniffing-Angriffe verhindern."
 
-#, fuzzy, php-format
 msgid "Routing fragment \"%s\" is not a valid regular expression."
-msgstr "Der neue Chat-Teilnehmer \"%s\" ist kein gültiger Benutzer."
+msgstr "Routing-Fragment \"%s\" ist kein gültiger regulärer Ausdruck."
 
 
 msgid "Serves the core platform and applications."
@@ -569,18 +565,16 @@ msgstr "Alle Sprites in einem '%s'-Sheet müssen die gleiche Breite haben."
 msgid "All sprites in a '%s' sheet must have the same height."
 msgstr "Alle Sprites in einem '%s'-Sheet müssen die gleiche Höhe haben."
 
-#, fuzzy, php-format
 msgid "Unknown sprite sheet type '%s'!"
-msgstr "Unbekannter Status des Dokumentes '%s'!"
+msgstr "Unbekannter Sprite-Sheet-Typ '%s'!"
 
 
 #, php-format
 msgid "Writing sprite '%s'..."
 msgstr "Schreibe Sprite '%s'..."
 
-#, fuzzy, php-format
 msgid "Writing CSS '%s'..."
-msgstr "Indexiere '%s'..."
+msgstr "Schreibe CSS '%s'..."
 
 
 #, php-format
@@ -68360,9 +68354,8 @@ msgstr "%s nach"
 msgid "%s Before"
 msgstr "%s vor"
 
-#, fuzzy, php-format
 msgid "%s removed %s which was set to %s."
-msgstr "%s hat %s als %s entfernt."
+msgstr "%s hat %s entfernt, das auf %s gesetzt war."
 
 
 #, php-format
@@ -70379,9 +70372,8 @@ msgid "Pygmentize Parser: %s"
 msgstr ""
 
 
-#, fuzzy, php-format
 msgid "test %s value '%s' (from '%s' type %s)"
-msgstr "%s hat %s von %s nach %s geändert."
+msgstr "teste %s-Wert '%s' (von '%s', Typ %s)"
 
 
 #, php-format
