@@ -68401,13 +68401,12 @@ msgstr ""
 msgid "%s edited %s on %s."
 msgstr ""
 
-#, fuzzy, php-format
 msgid "Set \"%s\" to: %s."
-msgstr "%s hat %s auf %s geändert."
+msgstr "\"%s\" setzen auf: %s."
 
 
 msgid "Unable to find 'sudo'!"
-msgstr ""
+msgstr "'sudo' konnte nicht gefunden werden!"
 
 #, php-format
 msgid "Memory Usage: %s KB"
@@ -68426,90 +68425,93 @@ msgstr "Seit %s Sekunden untätig."
 
 #, php-format
 msgid "Daemon was idle for more than %s second(s), scaling pool down."
-msgstr ""
+msgstr "Daemon war länger als %s Sekunde(n) untätig, Pool wird herunterskaliert."
 
 msgid "Process is being awakened from hibernation."
-msgstr ""
+msgstr "Prozess wird aus dem Ruhezustand aufgeweckt."
 
 #, php-format
 msgid "Process failed with exception: %s"
-msgstr ""
+msgstr "Prozess ist mit Ausnahme fehlgeschlagen: %s"
 
 #, php-format
 msgid "Process exited with error %s."
-msgstr ""
+msgstr "Prozess wurde mit Fehler %s beendet."
 
 msgid "Process exited normally."
-msgstr ""
+msgstr "Prozess wurde normal beendet."
 
 
 msgid "Hang detected. Restarting process."
-msgstr ""
+msgstr "Hänger erkannt. Prozess wird neu gestartet."
 
 #, php-format
 msgid "Waiting %s second(s) to restart process."
-msgstr ""
+msgstr "Warte %s Sekunde(n), um den Prozess neu zu starten."
 
 
 msgid "Starting process."
-msgstr ""
+msgstr "Starte Prozess."
 
 #, php-format
 msgid "Process is preparing to hibernate for %s second(s)."
-msgstr ""
+msgstr "Prozess bereitet sich darauf vor, für %s Sekunde(n) in den Ruhezustand zu wechseln."
 
 #, php-format
 msgid "<Malformed> %s"
-msgstr ""
+msgstr "<Fehlerhaft> %s"
 
 #, php-format
 msgid "Reloading in response to signal %d (%s)."
-msgstr ""
+msgstr "Wird als Reaktion auf Signal %d (%s) neu geladen."
 
 #, php-format
 msgid "Reloading in response to signal %d."
-msgstr ""
+msgstr "Wird als Reaktion auf Signal %d neu geladen."
 
 #, php-format
 msgid "Graceful shutdown in response to signal %d (%s)."
-msgstr ""
+msgstr "Graceful Shutdown als Reaktion auf Signal %d (%s)."
 
 #, php-format
 msgid "Graceful shutdown in response to signal %d."
-msgstr ""
+msgstr "Graceful Shutdown als Reaktion auf Signal %d."
 
 #, php-format
 msgid "Shutting down in response to signal %s (%s)."
-msgstr ""
+msgstr "Wird als Reaktion auf Signal %s (%s) heruntergefahren."
 
 #, php-format
 msgid "Shutting down in response to signal %s."
-msgstr ""
+msgstr "Wird als Reaktion auf Signal %s heruntergefahren."
 
 msgid "daemon overseer"
-msgstr ""
+msgstr "Daemon-Überwacher"
 
 msgid ""
 "**launch_daemon.php** [__options__] __daemon__\n"
 "    Launch and oversee an instance of __daemon__.\n"
 "EOHELP"
 msgstr ""
+"**launch_daemon.php** [__Optionen__] __daemon__\n"
+"    Starte und überwache eine Instanz von __daemon__.\n"
+"EOHELP"
 
 msgid "Enable debug memory tracing."
-msgstr ""
+msgstr "Debug-Speicherverfolgung aktivieren."
 
 msgid "Enable verbose activity logging."
-msgstr ""
+msgstr "Ausführliche Aktivitätsprotokollierung aktivieren."
 
 #, php-format
 msgid "Optional process label. Makes \"%s\" nicer, no behavioral effects."
-msgstr ""
+msgstr "Optionales Prozesslabel. Macht \"%s\" schöner, ohne Auswirkungen auf das Verhalten."
 
 msgid "Reading daemon configuration from stdin..."
-msgstr ""
+msgstr "Lese Daemon-Konfiguration von stdin..."
 
 msgid "You may not instantiate more than one Overseer per process."
-msgstr ""
+msgstr "Pro Prozess darf nicht mehr als ein Überwacher instanziiert werden."
 
 msgid "You must specify at least one daemon to start!"
 msgstr "Es muss mindestens ein Daemon zum Starten angegeben werden!"
@@ -68520,72 +68522,75 @@ msgstr "Fork nicht möglich!"
 
 
 msgid "Failed to create new process session!"
-msgstr ""
+msgstr "Neue Prozesssitzung konnte nicht erstellt werden!"
 
 #, php-format
 msgid "Started new daemon overseer (with PID \"%s\")."
-msgstr ""
+msgstr "Neuer Daemon-Überwacher wurde gestartet (mit PID \"%s\")."
 
 #, php-format
 msgid "Overseer Memory Usage: %s KB"
-msgstr ""
+msgstr "Speichernutzung des Überwachers: %s KB"
 
 #, php-format
 msgid "Overseer (\"%d\") received signal %d (\"%s\")."
-msgstr ""
+msgstr "Überwacher (\"%d\") hat Signal %d (\"%s\") empfangen."
 
 #, php-format
 msgid "Signal handler called with unknown signal type (\"%d\")!"
-msgstr ""
+msgstr "Signal-Handler wurde mit unbekanntem Signaltyp (\"%d\") aufgerufen!"
 
 #, php-format
 msgid "Reloading daemons (triggered by overseer module \"%s\")."
-msgstr ""
+msgstr "Daemons werden neu geladen (ausgelöst durch Überwacher-Modul \"%s\")."
 
 #, php-format
 msgid "Waking pool \"%s\" (triggered by overseer module \"%s\")."
-msgstr ""
+msgstr "Pool \"%s\" wird aufgeweckt (ausgelöst durch Überwacher-Modul \"%s\")."
 
 #, php-format
 msgid "Unknown signal \"%s\" (\"%d\")."
-msgstr ""
+msgstr "Unbekanntes Signal \"%s\" (\"%d\")."
 
 
 #, php-format
 msgid "Pool \"%s\" is exiting, with %s daemon(s) remaining."
-msgstr ""
+msgstr "Pool \"%s\" wird beendet, %s Daemon(s) verbleiben."
 
 #, php-format
 msgid "Autoscale pool \"%s\" scaled down to %s daemon(s)."
-msgstr ""
+msgstr "Autoscale-Pool \"%s\" wurde auf %s Daemon(s) herunterskaliert."
 
 #, php-format
 msgid "Autoscale pool \"%s\" is being awakened from hibernation."
-msgstr ""
+msgstr "Autoscale-Pool \"%s\" wird aus dem Ruhezustand aufgeweckt."
 
 #, php-format
 msgid "Autoscale pool \"%s\" already at maximum size (%s of %s)."
-msgstr ""
+msgstr "Autoscale-Pool \"%s\" ist bereits auf maximaler Größe (%s von %s)."
 
 #, php-format
 msgid "Autoscale pool \"%s\" has an idle daemon, declining to scale."
-msgstr ""
+msgstr "Autoscale-Pool \"%s\" hat einen untätigen Daemon und skaliert deshalb nicht hoch."
 
 #, php-format
 msgid ""
 "Autoscale pool \"%s\" has not been busy long enough to scale up (busy for %s "
 "of %s seconds)."
 msgstr ""
+"Autoscale-Pool \"%s\" war noch nicht lange genug ausgelastet, um "
+"hochzuskalieren (ausgelastet für %s von %s Sekunden)."
 
 #, php-format
 msgid ""
 "Autoscale pool \"%s\" does not have enough free memory to scale up (%s free "
 "of %s reserved)."
 msgstr ""
+"Autoscale-Pool \"%s\" hat nicht genug freien Speicher, um hochzuskalieren "
+"(%s frei von %s reserviert)."
 
-#, fuzzy, php-format
 msgid "Scaling pool \"%s\" up to %s daemon(s)."
-msgstr "Warte weitere %s Sekunden..."
+msgstr "Pool \"%s\" auf %s Dämon(en) hochskalieren."
 
 
 msgid "Bulk Update"
@@ -68593,75 +68598,77 @@ msgstr "Massenaktualisierung"
 
 
 msgid "Changes made by bulk update."
-msgstr ""
+msgstr "Änderungen durch Massenaktualisierung."
 
 msgid "Updates from background processing in daemons."
 msgstr "Aktualisierungen durch Hintergrundverarbeitung in Daemons."
 
 msgid "Can not get retention policy of collector with automatic policy."
-msgstr ""
+msgstr "Die Aufbewahrungsrichtlinie eines Collectors mit automatischer Richtlinie kann nicht ermittelt werden."
 
 msgid ""
 "Can not get garbage epoch for a collector with an automatic collection "
 "policy."
 msgstr ""
+"Die Garbage-Epoche eines Collectors mit automatischer Aufbewahrungsrichtlinie "
+"kann nicht ermittelt werden."
 
 msgid ""
 "Can not get garbage epoch for a collector with an indefinite retention "
 "policy."
 msgstr ""
+"Die Garbage-Epoche eines Collectors mit unbefristeter Aufbewahrungsrichtlinie "
+"kann nicht ermittelt werden."
 
 msgid "Run a garbage collector in the foreground."
-msgstr ""
+msgstr "Einen Garbage Collector im Vordergrund ausführen."
 
 msgid "Constant identifying the garbage collector to run."
-msgstr ""
+msgstr "Konstante, die den auszuführenden Garbage Collector identifiziert."
 
 #, php-format
 msgid "Collecting \"%s\" garbage..."
-msgstr ""
+msgstr "Sammle Garbage für \"%s\"..."
 
 msgid "Finished collecting all the garbage."
-msgstr ""
+msgstr "Das Sammeln der gesamten Garbage ist abgeschlossen."
 
 msgid "Could not find any garbage to collect."
-msgstr ""
+msgstr "Es konnte keine Garbage zum Einsammeln gefunden werden."
 
 msgid "Rebuild old edge transactions storage to use a more compact format."
-msgstr ""
+msgstr "Alten Speicher für Edge-Transaktionen neu aufbauen, um ein kompakteres Format zu verwenden."
 
 #, php-format
 msgid "Rebuilding transactions for \"%s\"..."
-msgstr ""
+msgstr "Baue Transaktionen für \"%s\" neu auf..."
 
 #, php-format
 msgid "Transaction %s (of type %s) has unexpected data, skipping."
-msgstr ""
+msgstr "Transaktion %s (vom Typ %s) hat unerwartete Daten und wird übersprungen."
 
 #, php-format
 msgid "Done, compacted %s edge transactions."
-msgstr ""
+msgstr "Fertig, %s Edge-Transaktionen wurden komprimiert."
 
 msgid "Change retention policies for a garbage collector."
-msgstr ""
+msgstr "Aufbewahrungsrichtlinien für einen Garbage Collector ändern."
 
 msgid "Constant identifying the garbage collector."
-msgstr ""
+msgstr "Konstante, die den Garbage Collector identifiziert."
 
 msgid "Set an indefinite retention policy."
-msgstr ""
+msgstr "Eine unbefristete Aufbewahrungsrichtlinie festlegen."
 
 msgid "Use the default retention policy."
-msgstr ""
+msgstr "Die Standard-Aufbewahrungsrichtlinie verwenden."
 
 
 msgid "Retain data for the specified number of days."
-msgstr ""
+msgstr "Daten für die angegebene Anzahl an Tagen aufbewahren."
 
-#, fuzzy, php-format
 msgid "Choose a policy with \"%s\", \"%s\" or \"%s\"."
-msgstr ""
-"%s hat die Editier-Rechte des Objekts %s von \"%s\" auf \"%s\" geändert."
+msgstr "Wähle eine Richtlinie mit \"%s\", \"%s\" oder \"%s\"."
 
 
 #, php-format
@@ -68669,65 +68676,70 @@ msgid ""
 "Options \"%s\", \"%s\" and \"%s\" represent mutually exclusive ways to "
 "choose a policy. Specify only one."
 msgstr ""
+"Die Optionen \"%s\", \"%s\" und \"%s\" sind sich gegenseitig ausschließende "
+"Möglichkeiten, eine Richtlinie auszuwählen. Gib nur eine an."
 
 msgid "Specify a positive number of days to retain data for."
-msgstr ""
+msgstr "Gib eine positive Anzahl an Tagen an, für die Daten aufbewahrt werden sollen."
 
 #, php-format
 msgid "Setting retention policy for \"%s\" to %s day(s)."
-msgstr ""
+msgstr "Setze die Aufbewahrungsrichtlinie für \"%s\" auf %s Tag(e)."
 
 #, php-format
 msgid "Setting \"%s\" to be retained indefinitely."
-msgstr ""
+msgstr "\"%s\" wird auf unbefristete Aufbewahrung gesetzt."
 
 #, php-format
 msgid "Restoring \"%s\" to the default retention policy."
-msgstr ""
+msgstr "\"%s\" wird auf die Standard-Aufbewahrungsrichtlinie zurückgesetzt."
 
 msgid "Wrote new policy to local configuration."
-msgstr ""
+msgstr "Neue Richtlinie in die lokale Konfiguration geschrieben."
 
 msgid "This change will take effect the next time the daemons are restarted."
-msgstr ""
+msgstr "Diese Änderung wird wirksam, wenn die Daemons das nächste Mal neu gestartet werden."
 
 #, php-format
 msgid "Specify a collector with \"%s\". Valid collectors are: %s."
-msgstr ""
+msgstr "Gib mit \"%s\" einen Collector an. Gültige Collectors sind: %s."
 
 #, php-format
 msgid "No such collector \"%s\". Choose a valid collector: %s."
-msgstr ""
+msgstr "Es gibt keinen Collector \"%s\". Wähle einen gültigen Collector: %s."
 
 #, php-format
 msgid "Working on task %d (%s)..."
-msgstr ""
+msgstr "Arbeite an Aufgabe %d (%s)..."
 
 #, php-format
 msgid "Task \"%s\" encountered a permanent failure and was cancelled."
-msgstr ""
+msgstr "Bei Aufgabe \"%s\" ist ein permanenter Fehler aufgetreten, sie wurde abgebrochen."
 
 #, php-format
 msgid "Task %s yielded."
-msgstr ""
+msgstr "Aufgabe %s hat die Ausführung abgegeben."
 
 #, php-format
 msgid "Task %d failed!"
-msgstr ""
+msgstr "Aufgabe %d ist fehlgeschlagen!"
 
 #, php-format
 msgid "Error while executing Task ID %d."
-msgstr ""
+msgstr "Fehler beim Ausführen von Aufgaben-ID %d."
 
 #, php-format
 msgid "Task %s complete! Moved to archive."
-msgstr ""
+msgstr "Aufgabe %s abgeschlossen. Ins Archiv verschoben."
 
 msgid ""
 "Another process is holding the trigger lock. Usually, this means another "
 "copy of the trigger daemon is running elsewhere. Multiple processes are not "
 "permitted to update triggers simultaneously."
 msgstr ""
+"Ein anderer Prozess hält die Trigger-Sperre. Normalerweise bedeutet das, "
+"dass an anderer Stelle eine weitere Kopie des Trigger-Daemons läuft. "
+"Mehrere Prozesse dürfen Trigger nicht gleichzeitig aktualisieren."
 
 #, php-format
 msgid ""
@@ -68736,99 +68748,106 @@ msgid ""
 "must strictly move event triggers forward through time to avoid executing a "
 "trigger an infinite number of times instantaneously."
 msgstr ""
+"Der Trigger versucht eine routinemäßige Neuplanung, bei der das nächste "
+"Ereignis (um %s) nicht nach dem vorherigen Ereignis (um %s) eintritt. "
+"Routinemäßige Neuplanungen müssen Event-Trigger strikt vorwärts durch die "
+"Zeit verschieben, damit ein Trigger nicht unendlich oft sofort ausgeführt "
+"wird."
 
 msgid "Expected task data to be a dictionary."
-msgstr ""
+msgstr "Es wurde erwartet, dass die Aufgabendaten ein Dictionary sind."
 
 #, php-format
 msgid "In-process task (\"%s\") failed permanently."
-msgstr ""
+msgstr "In-Process-Aufgabe (\"%s\") ist permanent fehlgeschlagen."
 
 #, php-format
 msgid "In-process task \"%s\" yielded for %s seconds, sleeping..."
-msgstr ""
+msgstr "In-Process-Aufgabe \"%s\" hat für %s Sekunden abgegeben, schlafe..."
 
 msgid "Temporary failure!"
-msgstr ""
+msgstr "Vorübergehender Fehler!"
 
 msgid "Permanent failure!"
-msgstr ""
+msgstr "Permanenter Fehler!"
 
 msgid "Leasing should work."
-msgstr ""
+msgstr "Leasing sollte funktionieren."
 
 msgid "We should not be able to lease a task multiple times."
-msgstr ""
+msgstr "Es sollte nicht möglich sein, eine Aufgabe mehrfach zu leasen."
 
 msgid "Older tasks should lease first, all else being equal."
-msgstr ""
+msgstr "Ältere Aufgaben sollten zuerst geleast werden, wenn sonst alles gleich ist."
 
 msgid ""
 "Tasks not previously leased should lease before previously leased tasks."
 msgstr ""
+"Aufgaben, die zuvor nicht geleast waren, sollten vor zuvor geleasten "
+"Aufgaben geleast werden."
 
 msgid "Tasks which expired earlier should lease first, all else being equal."
-msgstr ""
+msgstr "Aufgaben, deren Lease früher abgelaufen ist, sollten zuerst geleast werden, wenn sonst alles gleich ist."
 
 msgid "Tasks with a lower priority should be scheduled first."
-msgstr ""
+msgstr "Aufgaben mit niedrigerer Priorität sollten zuerst eingeplant werden."
 
 msgid "Tasks with the same priority should be FIFO."
-msgstr ""
+msgstr "Aufgaben mit derselben Priorität sollten FIFO sein."
 
 #, php-format
 msgid "(%s -> %s @ %s) %s"
-msgstr ""
+msgstr "(%s -> %s @ %s) %s"
 
 #, php-format
 msgid "Found unexpected job status (\"%s\")."
-msgstr ""
+msgstr "Unerwarteter Auftragsstatus gefunden (\"%s\")."
 
 #, php-format
 msgid "Found unexpected task status (\"%s\")."
-msgstr ""
+msgstr "Unerwarteter Aufgabenstatus gefunden (\"%s\")."
 
 msgid "Worker has no job ID."
-msgstr ""
+msgstr "Worker hat keine Auftrags-ID."
 
 msgid "Worker has no task ID."
-msgstr ""
+msgstr "Worker hat keine Aufgaben-ID."
 
 #, php-format
 msgid "Worker has invalid job ID (\"%s\")."
-msgstr ""
+msgstr "Worker hat eine ungültige Auftrags-ID (\"%s\")."
 
 #, php-format
 msgid "Worker has invalid task ID (\"%s\")."
-msgstr ""
+msgstr "Worker hat eine ungültige Aufgaben-ID (\"%s\")."
 
 #, php-format
 msgid "Worker has invalid actor PHID (\"%s\")."
-msgstr ""
+msgstr "Worker hat eine ungültige Actor-PHID (\"%s\")."
 
 msgid "Job actor does not have permission to edit job."
-msgstr ""
+msgstr "Der Actor des Auftrags hat keine Berechtigung, den Auftrag zu bearbeiten."
 
 msgid "Should trigger at specified epoch."
-msgstr ""
+msgstr "Soll zur angegebenen Epoche auslösen."
 
 msgid "Should trigger only once."
-msgstr ""
+msgstr "Soll nur einmal auslösen."
 
 msgid "Should never trigger."
-msgstr ""
+msgstr "Soll nie auslösen."
 
 msgid "Daily Routine (PST)"
-msgstr ""
+msgstr "Tägliche Routine (PST)"
 
 msgid "Daily Routine (Leap)"
-msgstr ""
+msgstr "Tägliche Routine (Schaltsekunde)"
 
 msgid "Daily Routine (Pre-Adjust)"
-msgstr ""
+msgstr "Tägliche Routine (vor Anpassung)"
 
 msgid "Daily Routine (Post-Adjust)"
-msgstr ""
+msgstr "Tägliche Routine (nach Anpassung)"
 
 msgid "Billing Cycle"
 msgstr "Abrechnungszeitraum"
@@ -68841,6 +68860,8 @@ msgid ""
 "Cancel selected tasks. The work these tasks represent will never be "
 "performed."
 msgstr ""
+"Ausgewählte Aufgaben abbrechen. Die Arbeit, für die diese Aufgaben stehen, "
+"wird niemals ausgeführt."
 
 msgid "NO TASKS"
 msgstr "KEINE AUFGABEN"
@@ -68869,13 +68890,13 @@ msgstr "%s Aufgabe(n) abgebrochen."
 
 
 msgid "Delay execution of selected tasks until the specified time."
-msgstr ""
+msgstr "Ausführung ausgewählter Aufgaben bis zum angegebenen Zeitpunkt verzögern."
 
 msgid "Select the date or time to delay the selected tasks until."
-msgstr ""
+msgstr "Datum oder Uhrzeit auswählen, bis zu dem die ausgewählten Aufgaben verzögert werden sollen."
 
 msgid "Specify how long to delay tasks for with \"--until\"."
-msgstr ""
+msgstr "Gib mit \"--until\" an, wie lange Aufgaben verzögert werden sollen."
 
 msgid "No tasks selected to delay."
 msgstr "Keine Aufgaben zum Verzögern ausgewählt."
@@ -68910,13 +68931,15 @@ msgid ""
 "Execute a task explicitly. This command ignores leases, is dangerous, and "
 "may cause work to be performed twice."
 msgstr ""
+"Eine Aufgabe ausdrücklich ausführen. Dieser Befehl ignoriert Leases, ist "
+"gefährlich und kann dazu führen, dass Arbeit doppelt ausgeführt wird."
 
 msgid "Retry archived tasks."
-msgstr ""
+msgstr "Archivierte Aufgaben erneut versuchen."
 
 
 msgid "Repeat archived, successful tasks."
-msgstr ""
+msgstr "Archivierte, erfolgreiche Aufgaben wiederholen."
 
 msgid "No tasks selected to execute."
 msgstr "Keine Aufgaben zum Ausführen ausgewählt."
@@ -68927,6 +68950,8 @@ msgid ""
 "%s is already archived, and will not be executed. Use \"--retry\" to execute "
 "archived tasks."
 msgstr ""
+"%s ist bereits archiviert und wird nicht ausgeführt. Verwende \"--retry\", "
+"um archivierte Aufgaben auszuführen."
 
 msgid "SUCCEEDED"
 msgstr "ERFOLGREICH"
@@ -68936,13 +68961,15 @@ msgid ""
 "%s has already succeeded, and will not be retried. Use \"--repeat\" to "
 "repeat successful tasks."
 msgstr ""
+"%s war bereits erfolgreich und wird nicht erneut versucht. Verwende "
+"\"--repeat\", um erfolgreiche Aufgaben zu wiederholen."
 
 msgid "UNARCHIVING"
 msgstr "DEARCHIVIERUNG"
 
 #, php-format
 msgid "Unarchiving %s."
-msgstr ""
+msgstr "%s wird dearchiviert."
 
 msgid "EXECUTE"
 msgstr "AUSFÜHREN"
@@ -68961,19 +68988,27 @@ msgid ""
 "Flood the queue with test tasks. This command is intended for use during "
 "development and debugging."
 msgstr ""
+"Die Warteschlange mit Testaufgaben fluten. Dieser Befehl ist für die "
+"Verwendung während Entwicklung und Debugging gedacht."
 
 msgid ""
 "Queue tasks which require a specific amount of wall time to complete. By "
 "default, tasks complete as quickly as possible."
 msgstr ""
+"Aufgaben einreihen, die eine bestimmte reale Laufzeit zum Abschluss "
+"benötigen. Standardmäßig werden Aufgaben so schnell wie möglich "
+"abgeschlossen."
 
 msgid "Adding many test tasks to worker queue. Use ^C to exit."
-msgstr ""
+msgstr "Füge der Worker-Warteschlange viele Testaufgaben hinzu. Mit ^C beenden."
 
 msgid ""
 "Free leases on selected tasks. If the daemon holding the lease is still "
 "working on the task, this may cause the task to execute twice."
 msgstr ""
+"Leases ausgewählter Aufgaben freigeben. Wenn der Daemon, der den Lease hält, "
+"noch an der Aufgabe arbeitet, kann das dazu führen, dass die Aufgabe "
+"zweimal ausgeführt wird."
 
 msgid "No tasks selected to free leases on."
 msgstr "Keine Aufgaben zum Freigeben von Leases ausgewählt."
@@ -69001,14 +69036,18 @@ msgid ""
 "Change the priority of selected tasks, causing them to execute before or "
 "after other tasks."
 msgstr ""
+"Priorität ausgewählter Aufgaben ändern, sodass sie vor oder nach anderen "
+"Aufgaben ausgeführt werden."
 
 msgid ""
 "Set tasks to this priority. Tasks with a smaller priority value execute "
 "before tasks with a larger priority value."
 msgstr ""
+"Aufgaben auf diese Priorität setzen. Aufgaben mit kleinerem Prioritätswert "
+"werden vor Aufgaben mit größerem Prioritätswert ausgeführt."
 
 msgid "Select a new priority for selected tasks with \"--priority\"."
-msgstr ""
+msgstr "Mit \"--priority\" eine neue Priorität für ausgewählte Aufgaben festlegen."
 
 msgid "Priority must be a positive integer."
 msgstr "Die Priorität muss eine positive Ganzzahl sein."
@@ -69020,7 +69059,7 @@ msgstr "Keine Aufgaben zur Neuprioritisierung ausgewählt."
 
 #, php-format
 msgid "%s is already archived, and can not be reprioritized."
-msgstr ""
+msgstr "%s ist bereits archiviert und kann nicht neu priorisiert werden."
 
 
 msgid "%s already has priority \"%s\"."
@@ -69032,7 +69071,7 @@ msgstr "PRIORITÄT"
 
 #, php-format
 msgid "%s was reprioritized (from \"%d\" to \"%d\")."
-msgstr ""
+msgstr "%s wurde neu priorisiert (von \"%d\" auf \"%d\")."
 
 
 #, php-format
@@ -69044,9 +69083,12 @@ msgid ""
 "Retry selected tasks which previously failed permanently or were cancelled. "
 "Only archived tasks can be retried."
 msgstr ""
+"Ausgewählte Aufgaben erneut versuchen, die zuvor permanent fehlgeschlagen "
+"oder abgebrochen wurden. Nur archivierte Aufgaben können erneut versucht "
+"werden."
 
 msgid "Repeat tasks which already completed successfully."
-msgstr ""
+msgstr "Aufgaben wiederholen, die bereits erfolgreich abgeschlossen wurden."
 
 msgid "No tasks selected to retry."
 msgstr "Keine Aufgaben zum erneuten Ausführen ausgewählt."
@@ -69064,6 +69106,8 @@ msgid ""
 "%s has already succeeded, and will not be repeated. Use \"--repeat\" to "
 "repeat successful tasks."
 msgstr ""
+"%s war bereits erfolgreich und wird nicht wiederholt. Verwende \"--repeat\", "
+"um erfolgreiche Aufgaben zu wiederholen."
 
 #, php-format
 msgid "%s was queued for retry."
@@ -69075,16 +69119,16 @@ msgstr "%s Aufgabe(n) zum erneuten Ausführen eingereiht."
 
 
 msgid "Select one or more tasks by ID."
-msgstr ""
+msgstr "Eine oder mehrere Aufgaben per ID auswählen."
 
 msgid "Select tasks of a given class."
-msgstr ""
+msgstr "Aufgaben einer angegebenen Klasse auswählen."
 
 msgid "Select tasks with a minimum failure count."
-msgstr ""
+msgstr "Aufgaben mit einer Mindestanzahl an Fehlern auswählen."
 
 msgid "Select tasks with a maximum failure count."
-msgstr ""
+msgstr "Aufgaben mit einer Höchstanzahl an Fehlern auswählen."
 
 msgid "Select active tasks."
 msgstr "Aktive Aufgaben auswählen."
@@ -69095,10 +69139,10 @@ msgstr "Archivierte Aufgaben auswählen."
 
 
 msgid "Select tasks with the given container or containers."
-msgstr ""
+msgstr "Aufgaben mit dem angegebenen Container oder den angegebenen Containern auswählen."
 
 msgid "Select tasks affecting the given object or objects."
-msgstr ""
+msgstr "Aufgaben auswählen, die das angegebene Objekt oder die angegebenen Objekte betreffen."
 
 msgid "Select tasks with a minimum priority."
 msgstr "Aufgaben mit Mindestpriorität auswählen."
@@ -69109,27 +69153,36 @@ msgstr "Aufgaben mit Höchstpriorität auswählen."
 
 
 msgid "Limit selection to a maximum number of tasks."
-msgstr ""
+msgstr "Auswahl auf eine maximale Anzahl an Aufgaben begrenzen."
 
 msgid ""
 "You can not specify both \"--active\" and \"--archived\" tasks: no tasks can "
 "match both constraints."
 msgstr ""
+"Du kannst nicht sowohl \"--active\"- als auch \"--archived\"-Aufgaben "
+"angeben: Keine Aufgabe kann beide Einschränkungen erfüllen."
 
 msgid ""
 "Specified \"--min-failures\" must not be larger than specified \"--max-"
 "failures\"."
 msgstr ""
+"Der angegebene Wert für \"--min-failures\" darf nicht größer sein als der "
+"angegebene Wert für \"--max-failures\"."
 
 msgid ""
 "Specified \"--min-priority\" may not be larger than specified \"--max-"
 "priority\"."
 msgstr ""
+"Der angegebene Wert für \"--min-priority\" darf nicht größer sein als der "
+"angegebene Wert für \"--max-priority\"."
 
 msgid ""
 "Use constraint flags (like \"--id\" or \"--class\") to select which tasks to "
 "affect. Use \"--help\" for a list of supported constraint flags."
 msgstr ""
+"Verwende Constraint-Flags (wie \"--id\" oder \"--class\"), um auszuwählen, "
+"welche Aufgaben betroffen sein sollen. Eine Liste der unterstützten "
+"Constraint-Flags findest du mit \"--help\"."
 
 msgid "Specified \"--limit\" must be a positive integer."
 msgstr "Der angegebene Wert für \"--limit\" muss eine positive Ganzzahl sein."
@@ -69137,84 +69190,98 @@ msgstr "Der angegebene Wert für \"--limit\" muss eine positive Ganzzahl sein."
 
 #, php-format
 msgid "No task with ID \"%s\" matches the constraints!"
-msgstr ""
+msgstr "Keine Aufgabe mit ID \"%s\" entspricht den Einschränkungen!"
 
 #, php-format
 msgid "Task %d (%s)"
-msgstr ""
+msgstr "Aufgabe %d (%s)"
 
 #, php-format
 msgid "Object \"%s\" is specified more than once. Specify only unique objects."
-msgstr ""
+msgstr "Objekt \"%s\" wurde mehr als einmal angegeben. Gib nur eindeutige Objekte an."
 
 #, php-format
 msgid "No object with name \"%s\" could be loaded."
-msgstr ""
+msgstr "Es konnte kein Objekt mit dem Namen \"%s\" geladen werden."
 
 #, php-format
 msgid ""
 "Names \"%s\" and \"%s\" identify the same object. Specify only unique "
 "objects."
 msgstr ""
+"Die Namen \"%s\" und \"%s\" bezeichnen dasselbe Objekt. Gib nur eindeutige "
+"Objekte an."
 
 msgid "Activates selected triggers, firing them immediately."
-msgstr ""
+msgstr "Aktiviert ausgewählte Trigger und löst sie sofort aus."
 
 msgid ""
 "Fire the trigger as though the current time is a given time. This allows you "
 "to test how a trigger would behave if activated in the past or future. "
 "Defaults to the actual current time."
 msgstr ""
+"Den Trigger so auslösen, als wäre die aktuelle Zeit ein angegebener "
+"Zeitpunkt. Damit kannst du testen, wie sich ein Trigger verhalten würde, "
+"wenn er in der Vergangenheit oder Zukunft aktiviert würde. Standard ist die "
+"tatsächliche aktuelle Zeit."
 
 msgid ""
 "Fire the trigger as though the last event occurred at a given time. Defaults "
 "to the actual last event time."
 msgstr ""
+"Den Trigger so auslösen, als wäre das letzte Ereignis zu einem angegebenen "
+"Zeitpunkt eingetreten. Standard ist der tatsächliche Zeitpunkt des letzten "
+"Ereignisses."
 
 msgid ""
 "Fire the trigger as though the next event was scheduled at a given time. "
 "Defaults to the actual time when the event is next scheduled to fire."
 msgstr ""
+"Den Trigger so auslösen, als wäre das nächste Ereignis für einen angegebenen "
+"Zeitpunkt geplant. Standard ist der tatsächliche Zeitpunkt, zu dem das "
+"Ereignis als Nächstes ausgelöst würde."
 
 #, php-format
 msgid "Executing trigger %s."
-msgstr ""
+msgstr "Führe Trigger %s aus."
 
 msgid ""
 "Trigger is not scheduled to execute. Use --next to simulate a scheduled "
 "event."
 msgstr ""
+"Der Trigger ist nicht zur Ausführung eingeplant. Verwende --next, um ein "
+"eingeplantes Ereignis zu simulieren."
 
 #, php-format
 msgid "Executing event as though it was scheduled to execute at %s."
-msgstr ""
+msgstr "Führe das Ereignis so aus, als wäre es für %s eingeplant."
 
 msgid "Executing event as though it never previously executed."
-msgstr ""
+msgstr "Führe das Ereignis so aus, als wäre es zuvor nie ausgeführt worden."
 
 #, php-format
 msgid "Executing event as though it previously executed at %s."
-msgstr ""
+msgstr "Führe das Ereignis so aus, als wäre es zuvor um %s ausgeführt worden."
 
 msgid ""
 "After executing under these conditions, this event would never execute again."
-msgstr ""
+msgstr "Nach der Ausführung unter diesen Bedingungen würde dieses Ereignis nie wieder ausgeführt."
 
 #, php-format
 msgid ""
 "After executing under these conditions, this event would next execute at %s."
-msgstr ""
+msgstr "Nach der Ausführung unter diesen Bedingungen würde dieses Ereignis als Nächstes um %s ausgeführt."
 
 msgid "Select one or more triggers by ID."
-msgstr ""
+msgstr "Einen oder mehrere Trigger per ID auswählen."
 
 #, php-format
 msgid "Use %s to select triggers by ID."
-msgstr ""
+msgstr "Verwende %s, um Trigger per ID auszuwählen."
 
 #, php-format
 msgid "No trigger exists with id \"%s\"!"
-msgstr ""
+msgstr "Es gibt keinen Trigger mit der ID \"%s\"!"
 
 msgid "Bulk Job"
 msgstr "Massenauftrag"
@@ -69223,7 +69290,7 @@ msgid "Daemon Bulk Jobs"
 msgstr "Daemon-Massenaufträge"
 
 msgid "Confirming"
-msgstr ""
+msgstr "Bestätige"
 
 msgid "Authored Jobs"
 msgstr "Eigene Aufträge"
@@ -69237,50 +69304,56 @@ msgstr "%s Massenaufgabe(n)"
 
 #, php-format
 msgid "You must %s when leasing tasks."
-msgstr ""
+msgstr "Du musst %s, wenn du Aufgaben least."
 
 #, php-format
 msgid ""
 "If you potentially select leased tasks using %s, you MUST disable lease "
 "acquisition by calling %s."
 msgstr ""
+"Wenn du mit %s möglicherweise geleaste Aufgaben auswählst, MUSST du den "
+"Lease-Erwerb durch Aufruf von %s deaktivieren."
 
 #, php-format
 msgid "Unknown phase '%s'!"
-msgstr ""
+msgstr "Unbekannte Phase '%s'!"
 
 msgid ""
 "Trying to lease tasks selected in the leased phase! This is intended to be "
 "impossible."
 msgstr ""
+"Es wird versucht, Aufgaben zu leasen, die in der geleasten Phase ausgewählt "
+"wurden. Das sollte unmöglich sein."
 
 #, php-format
 msgid "Unknown phase \"%s\"!"
-msgstr ""
+msgstr "Unbekannte Phase \"%s\"!"
 
 #, php-format
 msgid "Unsupported order \"%s\"."
-msgstr ""
+msgstr "Nicht unterstützte Reihenfolge \"%s\"."
 
 #, php-format
 msgid "Trying to update Task %d (%s) after lease expiration!"
-msgstr ""
+msgstr "Es wird versucht, Aufgabe %d (%s) nach Ablauf des Lease zu aktualisieren!"
 
 #, php-format
 msgid ""
 "Active tasks can not be deleted directly. Use %s to move tasks to the "
 "archive."
 msgstr ""
+"Aktive Aufgaben können nicht direkt gelöscht werden. Verwende %s, um "
+"Aufgaben ins Archiv zu verschieben."
 
 msgid "Attempting to archive a task which hasn't been saved!"
-msgstr ""
+msgstr "Es wird versucht, eine Aufgabe zu archivieren, die noch nicht gespeichert wurde!"
 
 #, php-format
 msgid "Task %d has exceeded the maximum number of failures (%d)."
-msgstr ""
+msgstr "Aufgabe %d hat die maximale Anzahl an Fehlschlägen (%d) überschritten."
 
 msgid "Trying to archive a task with no ID."
-msgstr ""
+msgstr "Es wird versucht, eine Aufgabe ohne ID zu archivieren."
 
 msgid "Only the author of a bulk job can edit it."
 msgstr "Nur der Autor eines Massenauftrags kann diesen bearbeiten."
@@ -69304,11 +69377,11 @@ msgstr "%s hat diesen Auftrag als abgeschlossen markiert."
 
 #, php-format
 msgid "Task class '%s' does not exist!"
-msgstr ""
+msgstr "Aufgabenklasse '%s' existiert nicht!"
 
 #, php-format
 msgid "Task class '%s' does not extend %s."
-msgstr ""
+msgstr "Aufgabenklasse '%s' erweitert %s nicht."
 
 msgid "ScopeEngine text map must be a 1-based map of lines."
 msgstr ""
@@ -69340,9 +69413,8 @@ msgid "Unable to load inline \"%s\"."
 msgstr ""
 
 
-#, fuzzy, php-format
 msgid "Inline comment \"%s\" is not editable."
-msgstr "Änderung \"%s\" existiert nicht."
+msgstr "Inline-Kommentar \"%s\" kann nicht bearbeitet werden."
 
 
 msgid ""
@@ -69529,9 +69601,8 @@ msgstr "Übersicht (Verändert)"
 msgid "Changeset has no path vectors!"
 msgstr ""
 
-#, fuzzy, php-format
 msgid "Unknown edit string \"%s\"!"
-msgstr "Unbekannte Bedingung \"%s\"!"
+msgstr "Unbekannte Editier-Zeichenkette \"%s\"!"
 
 
 msgid "Two-up inline row scaffold must have at least one inline view."
@@ -69563,13 +69634,12 @@ msgstr ""
 msgid "Read edge relationships between objects."
 msgstr ""
 
-#, fuzzy, php-format
 msgid ""
 "Source PHID \"%s\" does not identify a valid object, or you do not have "
 "permission to view it."
 msgstr ""
-"Einige der JIRA Tickets konnten nicht geladen werden. Möglicherweise "
-"existieren sie nicht, oder Du hast keine Berechtigung, sie Dir anzusehen: %s"
+"Quell-PHID \"%s\" identifiziert kein gültiges Objekt, oder Du hast keine "
+"Berechtigung, es anzuzeigen."
 
 
 msgid "Edge search must specify a nonempty list of edge types."
@@ -69902,19 +69972,16 @@ msgstr ""
 msgid "Download Data Export"
 msgstr "Datenexport herunterladen"
 
-#, fuzzy, php-format
 msgid "Unknown search engine class \"%s\"."
-msgstr "Unbekannte Aktion \"%s\""
+msgstr "Unbekannte Suchmaschinenklasse \"%s\"."
 
 
-#, fuzzy, php-format
 msgid "Failed to load saved query (\"%s\")."
-msgstr "Konnte Kommentar \"%s\" leider nicht laden."
+msgstr "Gespeicherte Abfrage (\"%s\") konnte nicht geladen werden."
 
 
-#, fuzzy, php-format
 msgid "Unknown export format (\"%s\")."
-msgstr "Unbekannte Aktion \"%s\""
+msgstr "Unbekanntes Exportformat (\"%s\")."
 
 
 msgid "Export Format"
@@ -70634,85 +70701,103 @@ msgid "Multiple status definitions share the same key (\"%s\")."
 msgstr ""
 
 msgid "ID1 exists."
-msgstr ""
+msgstr "ID1 existiert."
 
 msgid "ID2 exists."
-msgstr ""
+msgstr "ID2 existiert."
 
 #, php-format
 msgid "IDs '%s' and '%s' are distinct."
-msgstr ""
+msgstr "IDs '%s' und '%s' sind unterschiedlich."
 
 msgid "Expect fake row to exist only in isolation."
-msgstr ""
+msgstr "Erwarte, dass die Fake-Zeile nur isoliert existiert."
 
 #, php-format
 msgid "%s should raise exception for invalid %%d conversion."
-msgstr ""
+msgstr "%s sollte bei ungültiger %%d-Konvertierung eine Ausnahme auslösen."
 
 msgid "Async queries are not supported."
-msgstr ""
+msgstr "Asynchrone Abfragen werden nicht unterstützt."
 
 #, php-format
 msgid ""
 "Trying to remember lock \"%s\", but this lock has already been remembered."
 msgstr ""
+"Es wird versucht, sich Lock \"%s\" zu merken, aber dieser Lock wurde bereits "
+"gemerkt."
 
 #, php-format
 msgid ""
 "Trying to forget lock \"%s\", but this connection does not remember that "
 "lock."
 msgstr ""
+"Es wird versucht, Lock \"%s\" zu vergessen, aber diese Verbindung merkt sich "
+"diesen Lock nicht."
 
 #, php-format
 msgid "Too many calls to %s or %s!"
-msgstr ""
+msgstr "Zu viele Aufrufe von %s oder %s!"
 
 #, php-format
 msgid "Too many calls to %s!"
-msgstr ""
+msgstr "Zu viele Aufrufe von %s!"
 
 #, php-format
 msgid ""
 "Process exited with an open transaction! The transaction will be implicitly "
 "rolled back. Calls to %s must always be paired with a call to %s or %s."
 msgstr ""
+"Der Prozess wurde mit einer offenen Transaktion beendet. Die Transaktion "
+"wird implizit zurückgerollt. Aufrufe von %s müssen immer mit einem Aufruf "
+"von %s oder %s gepaart werden."
 
 #, php-format
 msgid ""
 "Process exited with an open read lock! Call to %s must always be paired with "
 "a call to %s."
 msgstr ""
+"Der Prozess wurde mit einem offenen Read-Lock beendet. Aufrufe von %s "
+"müssen immer mit einem Aufruf von %s gepaart werden."
 
 #, php-format
 msgid ""
 "Process exited with an open write lock! Call to %s must always be paired "
 "with a call to %s."
 msgstr ""
+"Der Prozess wurde mit einem offenen Write-Lock beendet. Aufrufe von %s "
+"müssen immer mit einem Aufruf von %s gepaart werden."
 
 #, php-format
 msgid ""
 "Database isolation currently only supports some queries. You are trying to "
 "issue a query which does not begin with an allowed keyword (%s): '%s'."
 msgstr ""
+"Datenbankisolation unterstützt derzeit nur einige Abfragen. Du versuchst, "
+"eine Abfrage auszuführen, die nicht mit einem erlaubten Schlüsselwort (%s) "
+"beginnt: '%s'."
 
 #, php-format
 msgid ""
 "Retrying database connection to \"%s\" after connection failure (attempt %d; "
 "\"%s\"; error #%d): %s"
 msgstr ""
+"Datenbankverbindung zu \"%s\" wird nach Verbindungsfehler erneut versucht "
+"(Versuch %d; \"%s\"; Fehler #%d): %s"
 
 msgid "No query result to fetch from!"
-msgstr ""
+msgstr "Kein Abfrageergebnis vorhanden, aus dem gelesen werden könnte!"
 
 #, php-format
 msgid ""
 "Attempting to issue a write query on a read-only connection (to database "
 "\"%s\")!"
 msgstr ""
+"Es wird versucht, auf einer schreibgeschützten Verbindung (zur Datenbank "
+"\"%s\") eine Schreibabfrage auszuführen!"
 
 msgid "Simulated error."
-msgstr ""
+msgstr "Simulierter Fehler."
 
 #, php-format
 msgid "#%d: %s"
@@ -70725,49 +70810,63 @@ msgid ""
 "something used the MySQL \"KILL <process>\" command to kill the connection "
 "running the query."
 msgstr ""
+"Dieser Fehler kann auftreten, wenn die konfigurierten MySQL-Werte "
+"\"wait_timeout\" oder \"max_allowed_packet\" zu klein sind. Er kann auch "
+"darauf hinweisen, dass etwas den MySQL-Befehl \"KILL <process>\" verwendet "
+"hat, um die Verbindung zu beenden, auf der die Abfrage lief."
 
 msgid ""
 "This error usually indicates that you need to \"GRANT\" the MySQL user "
 "additional permissions. See \"GRANT\" in the MySQL manual for help."
 msgstr ""
+"Dieser Fehler weist normalerweise darauf hin, dass du dem MySQL-Benutzer "
+"zusätzliche Berechtigungen per \"GRANT\" geben musst. Hilfe dazu findest du "
+"unter \"GRANT\" im MySQL-Handbuch."
 
 #, php-format
 msgid "Attempt to connect to %s@%s failed with error #%d: %s."
-msgstr ""
+msgstr "Verbindungsversuch zu %s@%s ist mit Fehler #%d fehlgeschlagen: %s."
 
 #, php-format
 msgid ""
 "Attempting to construct a query using a non-utf8 string when utf8 is "
 "expected. Use the `%%B` conversion to escape binary strings data."
 msgstr ""
+"Es wird versucht, eine Abfrage mit einer Nicht-UTF-8-Zeichenkette zu "
+"konstruieren, obwohl UTF-8 erwartet wird. Verwende die Konvertierung `%%B`, "
+"um binäre Stringdaten zu escapen."
 
 #, php-format
 msgid "About to call new %s, but the PHP MySQLi extension is not available!"
-msgstr ""
+msgstr "Es soll new %s aufgerufen werden, aber die PHP-MySQLi-Erweiterung ist nicht verfügbar!"
 
 #, php-format
 msgid "mysqli->real_connect() failed: %s"
-msgstr ""
+msgstr "mysqli->real_connect() ist fehlgeschlagen: %s"
 
 msgid ""
 "mysqli->real_connect() failed, but did not set an error code or emit a "
 "message."
 msgstr ""
+"mysqli->real_connect() ist fehlgeschlagen, hat aber keinen Fehlercode "
+"gesetzt und keine Meldung ausgegeben."
 
 msgid "Failed to poll mysqli connection!"
-msgstr ""
+msgstr "Abfrage des mysqli-Verbindungsstatus ist fehlgeschlagen!"
 
 #, php-format
 msgid "Query timed out after %s second(s)!"
-msgstr ""
+msgstr "Abfrage nach %s Sekunde(n) abgelaufen!"
 
 msgid ""
 "Call to \"mysqli->query()\" failed, but did not set an error code or emit an "
 "error message."
 msgstr ""
+"Aufruf von \"mysqli->query()\" ist fehlgeschlagen, hat aber keinen "
+"Fehlercode gesetzt und keine Fehlermeldung ausgegeben."
 
 msgid "There are some results left in the result set."
-msgstr ""
+msgstr "Im Ergebnissatz sind noch Ergebnisse übrig."
 
 #, php-format
 msgid "%s Query: %s"
@@ -70776,10 +70875,10 @@ msgstr "%s-Abfrage: %s"
 
 #, php-format
 msgid "More than one result from %s!"
-msgstr ""
+msgstr "Mehr als ein Ergebnis von %s!"
 
 msgid "Unable to reload object that hasn't been loaded!"
-msgstr ""
+msgstr "Ein Objekt, das nicht geladen wurde, kann nicht neu geladen werden!"
 
 #, php-format
 msgid ""
@@ -70787,68 +70886,75 @@ msgid ""
 "same ID (\"%s\"). Rows must have unique IDs. An underlying query may be "
 "missing a GROUP BY."
 msgstr ""
+"An \"loadAllFromArray(...)\" übergebene Zeilen enthalten zwei oder mehr "
+"Zeilen mit derselben ID (\"%s\"). Zeilen müssen eindeutige IDs haben. "
+"Möglicherweise fehlt in der zugrunde liegenden Abfrage ein GROUP BY."
 
 #, php-format
 msgid "Unknown mode '%s', should be 'r' or 'w'."
-msgstr ""
+msgstr "Unbekannter Modus '%s', sollte 'r' oder 'w' sein."
 
 #, php-format
 msgid "Unknown %s mechanism!"
-msgstr ""
+msgstr "Unbekannter %s-Mechanismus!"
 
 #, php-format
 msgid ""
 "Unable to insert or update object of class %s, field '%s' has a non-scalar "
 "value."
 msgstr ""
+"Objekt der Klasse %s kann nicht eingefügt oder aktualisiert werden, Feld "
+"'%s' hat einen nichtskalaren Wert."
 
 #, php-format
 msgid "Insert mode verb \"%s\" is not recognized, use INSERT or REPLACE."
-msgstr ""
+msgstr "Insert-Mode-Verb \"%s\" wird nicht erkannt, verwende INSERT oder REPLACE."
 
 #, php-format
 msgid ""
 "You are using manual IDs. You must override the %s method to properly detect "
 "when to insert a new record."
 msgstr ""
+"Du verwendest manuelle IDs. Du musst die Methode %s überschreiben, damit "
+"korrekt erkannt wird, wann ein neuer Datensatz eingefügt werden muss."
 
 msgid "Lisk process isolation level was reduced below 0."
-msgstr ""
+msgstr "Das Lisk-Prozessisolationsniveau wurde unter 0 gesenkt."
 
 msgid "Lisk transaction isolation level was reduced below 0."
-msgstr ""
+msgstr "Das Lisk-Transaktionsisolationsniveau wurde unter 0 gesenkt."
 
 #, php-format
 msgid "No database connection with connection key \"%s\" exists!"
-msgstr ""
+msgstr "Es existiert keine Datenbankverbindung mit dem Verbindungsschlüssel \"%s\"!"
 
 #, php-format
 msgid "Unknown serialization format '%s'."
-msgstr ""
+msgstr "Unbekanntes Serialisierungsformat '%s'."
 
 #, php-format
 msgid "Unable to resolve method '%s'!"
-msgstr ""
+msgstr "Methode '%s' kann nicht aufgelöst werden!"
 
 #, php-format
 msgid "Bad getter call: %s"
-msgstr ""
+msgstr "Ungültiger Getter-Aufruf: %s"
 
 #, php-format
 msgid "Bad setter call: %s"
-msgstr ""
+msgstr "Ungültiger Setter-Aufruf: %s"
 
 #, php-format
 msgid "Unable to resolve method '%s'."
-msgstr ""
+msgstr "Methode '%s' kann nicht aufgelöst werden."
 
 #, php-format
 msgid "Wrote to undeclared property %s."
-msgstr ""
+msgstr "In nicht deklarierte Eigenschaft %s geschrieben."
 
 #, php-format
 msgid "Object (of class \"%s\") does not have a column \"%s\"."
-msgstr ""
+msgstr "Objekt (der Klasse \"%s\") hat keine Spalte \"%s\"."
 
 #, php-format
 msgid "(via %s)"
@@ -70864,15 +70970,24 @@ msgid ""
 "Query class when the object is loaded. You can also call the corresponding "
 "%s method explicitly."
 msgstr ""
+"Es wird versucht, auf angehängte Daten von %s zuzugreifen, aber die Daten "
+"sind tatsächlich nicht angehängt. Bevor du auf anhängbare Daten eines "
+"Objekts zugreifst, musst du sie laden und anhängen.\n"
+"\n"
+"Daten werden normalerweise angehängt, indem beim Laden des Objekts die "
+"entsprechende Methode %s auf der Query-Klasse aufgerufen wird. Du kannst "
+"auch die entsprechende Methode %s explizit aufrufen."
 
 msgid "No storage namespace configured!"
-msgstr ""
+msgstr "Kein Storage-Namespace konfiguriert!"
 
 #, php-format
 msgid ""
 "Failed to connect to master database (\"%s\"), failing over into read-only "
 "mode."
 msgstr ""
+"Verbindung zur Master-Datenbank (\"%s\") fehlgeschlagen, wechsle in den "
+"schreibgeschützten Modus."
 
 #, php-format
 msgid ""
@@ -70880,74 +70995,88 @@ msgid ""
 "because this server is in read-only mode. Whatever you are trying to do does "
 "not function correctly in read-only mode."
 msgstr ""
+"Eine Write-Mode-Verbindung (zur Anwendungsdatenbank \"%s\") kann nicht "
+"hergestellt werden, weil sich dieser Server im Read-only-Modus befindet. "
+"Was immer du gerade versuchst, funktioniert im Read-only-Modus nicht "
+"korrekt."
 
 #, php-format
 msgid ""
 "Unable to connect to master database (\"%s\"). This is a severe failure; "
 "your request did not complete."
 msgstr ""
+"Verbindung zur Master-Datenbank (\"%s\") konnte nicht hergestellt werden. "
+"Das ist ein schwerwiegender Fehler, deine Anfrage wurde nicht abgeschlossen."
 
 #, php-format
 msgid ""
 "Unable to establish a connection to any database host (while trying \"%s\"). "
 "No masters or replicas are configured."
 msgstr ""
+"Es konnte keine Verbindung zu einem Datenbankhost hergestellt werden "
+"(während \"%s\" versucht wurde). Es sind keine Master oder Replicas "
+"konfiguriert."
 
 #, php-format
 msgid ""
 "Unable to establish a connection to any database host (while trying \"%s\"). "
 "All masters and replicas are completely unreachable."
 msgstr ""
+"Es konnte keine Verbindung zu einem Datenbankhost hergestellt werden "
+"(während \"%s\" versucht wurde). Alle Master und Replicas sind vollständig "
+"unerreichbar."
 
 msgid "Reads inside transactions should have transaction visibility."
-msgstr ""
+msgstr "Lesezugriffe innerhalb von Transaktionen sollten Transaktionssichtbarkeit haben."
 
 msgid "Expect no ID."
-msgstr ""
+msgstr "Erwarte keine ID."
 
 msgid "Expect no PHID."
-msgstr ""
+msgstr "Erwarte keine PHID."
 
 msgid "Expect ID generated."
-msgstr ""
+msgstr "Erwarte, dass eine ID generiert wird."
 
 msgid "Expect PHID generated."
-msgstr ""
+msgstr "Erwarte, dass eine PHID generiert wird."
 
 msgid "Expect ID unchanged."
-msgstr ""
+msgstr "Erwarte unveränderte ID."
 
 msgid "Expect PHID unchanged."
-msgstr ""
+msgstr "Erwarte unveränderte PHID."
 
 #, php-format
 msgid ""
 "%s did not throw an exception when instructed to explicitly connect to an "
 "external database."
 msgstr ""
+"%s hat keine Ausnahme ausgelöst, als es angewiesen wurde, sich explizit mit "
+"einer externen Datenbank zu verbinden."
 
 #, php-format
 msgid "%s on empty object"
-msgstr ""
+msgstr "%s auf leerem Objekt"
 
 #, php-format
 msgid "%s returns %s"
-msgstr ""
+msgstr "%s liefert %s zurück"
 
 #, php-format
 msgid "%s has an effect"
-msgstr ""
+msgstr "%s hat eine Wirkung"
 
 #, php-format
 msgid "Typoing \"%s\" should throw."
-msgstr ""
+msgstr "Ein Tippfehler bei \"%s\" sollte eine Ausnahme auslösen."
 
 msgid "Made up method should throw."
-msgstr ""
+msgstr "Eine ausgedachte Methode sollte eine Ausnahme auslösen."
 
 msgid ""
 "Isolation failure! DAO is attempting to connect to an external resource!"
-msgstr ""
+msgstr "Isolationsfehler! DAO versucht, sich mit einer externen Ressource zu verbinden!"
 
 #, php-format
 msgid ""
@@ -70955,10 +71084,14 @@ msgid ""
 "the current user (\"%s\") does not have permission to access it. GRANT the "
 "current user more permissions, or use a different user."
 msgstr ""
+"Fehler beim Lesen des Schemastatus: Die Datenbank \"%s\" existiert, aber der "
+"aktuelle Benutzer (\"%s\") hat keine Berechtigung, darauf zuzugreifen. Gib "
+"dem aktuellen Benutzer per GRANT mehr Berechtigungen oder verwende einen "
+"anderen Benutzer."
 
 #, php-format
 msgid "Unable to apply patch of type '%s'."
-msgstr ""
+msgstr "Patch vom Typ '%s' kann nicht angewendet werden."
 
 #, php-format
 msgid ""
@@ -70967,23 +71100,34 @@ msgid ""
 "permissions granted in MySQL. You can use `bin/storage databases` to get a "
 "list of all databases permission is required on."
 msgstr ""
+"Auf eine erforderliche Datenbank oder Tabelle kann nicht zugegriffen "
+"werden. Das bedeutet fast immer, dass der Benutzer, mit dem du dich "
+"verbindest (\"%s\"), in MySQL nicht über ausreichende Berechtigungen "
+"verfügt. Mit `bin/storage databases` kannst du eine Liste aller Datenbanken "
+"anzeigen, für die Berechtigungen erforderlich sind."
 
 msgid ""
 "Make schemata adjustments to correct issues with characters sets, "
 "collations, and keys."
-msgstr ""
+msgstr "Schemata-Anpassungen vornehmen, um Probleme mit Zeichensätzen, Kollationen und Schlüsseln zu korrigieren."
 
 msgid ""
 "Permit adjustments which truncate data. This option may destroy some data, "
 "but the lost data is usually not important (most commonly, the ends of very "
 "long object titles)."
 msgstr ""
+"Anpassungen erlauben, die Daten abschneiden. Diese Option kann einige Daten "
+"zerstören, aber die verlorenen Daten sind normalerweise nicht wichtig "
+"(meistens die Enden sehr langer Objekttitel)."
 
 #, php-format
 msgid ""
 "You have not initialized the database yet. You must initialize the database "
 "before you can adjust schemata. Run `%s` to initialize the database."
 msgstr ""
+"Du hast die Datenbank noch nicht initialisiert. Du musst die Datenbank "
+"initialisieren, bevor du Schemata anpassen kannst. Führe `%s` aus, um die "
+"Datenbank zu initialisieren."
 
 #, php-format
 msgid ""
@@ -70991,33 +71135,40 @@ msgid ""
 "available patches before you can adjust schemata. Run `%s` to show patch "
 "status, and `%s` to apply missing patches."
 msgstr ""
+"Du hast noch nicht alle verfügbaren Storage-Patches angewendet. Du musst "
+"alle verfügbaren Patches anwenden, bevor du Schemata anpassen kannst. Führe "
+"`%s` aus, um den Patch-Status anzuzeigen, und `%s`, um fehlende Patches "
+"anzuwenden."
 
 msgid "Run \"ANALYZE TABLE\" on tables to improve performance."
-msgstr ""
+msgstr "\"ANALYZE TABLE\" auf Tabellen ausführen, um die Performance zu verbessern."
 
 msgid "List databases."
 msgstr "Datenbanken auflisten."
 
 
 msgid "Permanently destroy all storage and data."
-msgstr ""
+msgstr "Sämtlichen Storage und alle Daten dauerhaft zerstören."
 
 #, php-format
 msgid ""
 "Restrict **destroy** operations to databases created by %s test fixtures."
-msgstr ""
+msgstr "**destroy**-Operationen auf Datenbanken beschränken, die von %s-Test-Fixtures erstellt wurden."
 
 #, php-format
 msgid ""
 "Are you completely sure you really want to destroy all unit test fixure data "
 "on host \"%s\"? This operation can not be undone."
 msgstr ""
+"Bist du absolut sicher, dass du wirklich alle Unit-Test-Fixture-Daten auf "
+"Host \"%s\" zerstören willst? Dieser Vorgang kann nicht rückgängig gemacht "
+"werden."
 
 msgid "Destroy all unit test data?"
-msgstr ""
+msgstr "Alle Unit-Test-Daten zerstören?"
 
 msgid "User cancelled operation."
-msgstr ""
+msgstr "Benutzer hat den Vorgang abgebrochen."
 
 
 #, php-format
@@ -71026,83 +71177,105 @@ msgid ""
 "for %s data on host \"%s\"? This operation can not be undone and your data "
 "will not be recoverable if you proceed."
 msgstr ""
+"Bist du absolut sicher, dass du wirklich den gesamten Storage für %s-Daten "
+"auf Host \"%s\" dauerhaft zerstören willst? Dieser Vorgang kann nicht "
+"rückgängig gemacht werden, und deine Daten sind nicht wiederherstellbar, "
+"wenn du fortfährst."
 
 msgid "Permanently destroy all data?"
-msgstr ""
+msgstr "Alle Daten dauerhaft zerstören?"
 
 msgid "Really destroy all data forever?"
-msgstr ""
+msgstr "Wirklich alle Daten für immer zerstören?"
 
 #, php-format
 msgid "Would drop database \"%s\" on host \"%s\"."
-msgstr ""
+msgstr "Würde Datenbank \"%s\" auf Host \"%s\" löschen."
 
 msgid "DESTROY"
 msgstr "LÖSCHEN"
 
-#, fuzzy, php-format
 msgid "Dropping database \"%s\" on host \"%s\"..."
-msgstr "Beende Daemon '%s' (%s)..."
+msgstr "Lösche Datenbank \"%s\" auf Host \"%s\"..."
 
 
 #, php-format
 msgid "Storage on \"%s\" was destroyed."
-msgstr ""
+msgstr "Storage auf \"%s\" wurde zerstört."
 
 msgid "Dump all data in storage to stdout."
-msgstr ""
+msgstr "Alle Daten aus dem Storage nach stdout ausgeben."
 
 msgid ""
 "Add __--master-data__ to the __mysqldump__ command, generating a CHANGE "
 "MASTER statement in the output. This option also dumps all data, including "
 "caches."
 msgstr ""
+"__--master-data__ zum Befehl __mysqldump__ hinzufügen, sodass in der "
+"Ausgabe ein CHANGE-MASTER-Statement erzeugt wird. Diese Option dumpt auch "
+"alle Daten einschließlich Caches."
 
 msgid ""
 "Write output directly to disk. This handles errors better than using pipes. "
 "Use with __--compress__ to gzip the output."
 msgstr ""
+"Ausgabe direkt auf die Platte schreiben. Damit lassen sich Fehler besser "
+"behandeln als bei der Verwendung von Pipes. Mit __--compress__ wird die "
+"Ausgabe gzip-komprimiert."
 
 msgid ""
 "With __--output__, write a compressed file to disk instead of a plaintext "
 "file."
-msgstr ""
+msgstr "Mit __--output__ statt einer Klartextdatei eine komprimierte Datei auf die Platte schreiben."
 
 msgid ""
 "Do not dump data in rebuildable index tables. This means backups are smaller "
 "and faster, but you will need to manually rebuild indexes after performing a "
 "restore."
 msgstr ""
+"Keine Daten aus neu aufbaubaren Indextabellen dumpen. Dadurch sind Backups "
+"kleiner und schneller, aber du musst Indizes nach einem Restore manuell neu "
+"aufbauen."
 
 msgid "With __--output__, overwrite the output file if it already exists."
-msgstr ""
+msgstr "Mit __--output__ die Ausgabedatei überschreiben, wenn sie bereits existiert."
 
 msgid ""
 "Dump only tables in the named database (or databases, if the flag is "
 "repeated). Specify database names without the namespace prefix (that is: use "
 "\"differential\", not \"phabricator_differential\")."
 msgstr ""
+"Nur Tabellen in der angegebenen Datenbank dumpen (oder in mehreren "
+"Datenbanken, wenn das Flag mehrfach verwendet wird). Datenbanknamen ohne "
+"Namespace-Präfix angeben, also z.B. \"differential\" statt "
+"\"phabricator_differential\"."
 
 msgid "The \"--compress\" flag can only be used alongside \"--output\"."
-msgstr ""
+msgstr "Das Flag \"--compress\" kann nur zusammen mit \"--output\" verwendet werden."
 
 msgid ""
 "The \"--compress\" flag requires the PHP \"zlib\" extension, but that "
 "extension is not available. Install the extension or omit the \"--compress\" "
 "option."
 msgstr ""
+"Das Flag \"--compress\" erfordert die PHP-Erweiterung \"zlib\", aber diese "
+"Erweiterung ist nicht verfügbar. Installiere die Erweiterung oder lasse die "
+"Option \"--compress\" weg."
 
 msgid "The \"--overwrite\" flag can only be used alongside \"--output\"."
-msgstr ""
+msgstr "Das Flag \"--overwrite\" kann nur zusammen mit \"--output\" verwendet werden."
 
 msgid ""
 "The \"--for-replica\" flag can not be used with the \"--no-indexes\" flag. "
 "Replication dumps must contain a complete representation of database state."
 msgstr ""
+"Das Flag \"--for-replica\" kann nicht zusammen mit dem Flag \"--no-indexes\" "
+"verwendet werden. Replikations-Dumps müssen eine vollständige Darstellung "
+"des Datenbankzustands enthalten."
 
 #, php-format
 msgid "Output file \"%s\" already exists. Use \"--overwrite\" to overwrite."
-msgstr ""
+msgstr "Ausgabedatei \"%s\" existiert bereits. Verwende \"--overwrite\", um sie zu überschreiben."
 
 #, php-format
 msgid ""
@@ -71110,41 +71283,48 @@ msgid ""
 "(\"%s\"). Use \"bin/storage upgrade\" to initialize storage or use \"--"
 "namespace\" to choose a different namespace."
 msgstr ""
+"Im aktuellen Storage-Namespace (\"%s\") ist kein Datenbank-Storage "
+"initialisiert. Verwende \"bin/storage upgrade\", um den Storage zu "
+"initialisieren, oder \"--namespace\", um einen anderen Namespace "
+"auszuwählen."
 
 #, php-format
 msgid ""
 "Database \"%s\" is unknown. This script can only dump databases known to the "
 "current version of this software. Valid databases are: %s."
 msgstr ""
+"Datenbank \"%s\" ist unbekannt. Dieses Skript kann nur Datenbanken dumpen, "
+"die der aktuellen Version dieser Software bekannt sind. Gültige Datenbanken "
+"sind: %s."
 
 #, php-format
 msgid ""
 "Database \"%s\" is specified more than once. Specify each database at most "
 "once."
-msgstr ""
+msgstr "Datenbank \"%s\" wurde mehr als einmal angegeben. Gib jede Datenbank höchstens einmal an."
 
 #, php-format
 msgid "Failed to open file \"%s\" for writing."
-msgstr ""
+msgstr "Datei \"%s\" konnte nicht zum Schreiben geöffnet werden."
 
 #, php-format
 msgid "Failed to close file \"%s\"."
-msgstr ""
+msgstr "Datei \"%s\" konnte nicht geschlossen werden."
 
 
 #, php-format
 msgid "Failed to write %s byte(s) to file \"%s\"."
-msgstr ""
+msgstr "%s Byte konnten nicht in Datei \"%s\" geschrieben werden."
 
 msgid "Run \"OPTIMIZE TABLE\" on tables to reclaim space."
-msgstr ""
+msgstr "\"OPTIMIZE TABLE\" auf Tabellen ausführen, um Speicherplatz zurückzugewinnen."
 
 msgid "OPTIMIZE"
 msgstr "OPTIMIEREN"
 
 #, php-format
 msgid "Optimizing table \"%s\".\"%s\"..."
-msgstr ""
+msgstr "Optimiere Tabelle \"%s\".\"%s\"..."
 
 #, php-format
 msgid "Compacted table by %s in %sms."
@@ -71153,36 +71333,36 @@ msgstr "Tabelle in %sms um %s komprimiert."
 
 #, php-format
 msgid "Optimized table (in %sms) but it had little effect."
-msgstr ""
+msgstr "Tabelle wurde optimiert (in %sms), hatte aber kaum Wirkung."
 
 msgid "OPTIMIZED"
 msgstr "OPTIMIERT"
 
 #, php-format
 msgid "Completed optimizations, reclaimed %s of disk space."
-msgstr ""
+msgstr "Optimierungen abgeschlossen, %s Festplattenspeicher zurückgewonnen."
 
 msgid "Commit partition configuration to databases."
-msgstr ""
+msgstr "Partitionskonfiguration in Datenbanken übernehmen."
 
 msgid "Committing configured partition map to databases..."
-msgstr ""
+msgstr "Konfigurierte Partitionszuordnung wird in Datenbanken übernommen..."
 
 #, php-format
 msgid "Wrote configuration on database host \"%s\"."
-msgstr ""
+msgstr "Konfiguration auf Datenbankhost \"%s\" geschrieben."
 
 msgid "Show approximate table sizes."
-msgstr ""
+msgstr "Ungefähre Tabellengrößen anzeigen."
 
 msgid "Analyzing table sizes (this may take a moment)..."
 msgstr "Analysiere Tabellengrößen (könnte etwas dauern)..."
 
 msgid "Database / Table"
-msgstr ""
+msgstr "Datenbank / Tabelle"
 
 msgid "Percentage"
-msgstr ""
+msgstr "Prozent"
 
 msgid "TOTAL"
 msgstr "SUMME"
@@ -71194,14 +71374,14 @@ msgstr "%s MB"
 msgid ""
 "Generate a new quickstart database dump. This command is mostly useful for "
 "internal development."
-msgstr ""
+msgstr "Einen neuen Quickstart-Datenbank-Dump erzeugen. Dieser Befehl ist hauptsächlich für die interne Entwicklung nützlich."
 
 msgid "Specify output file to write."
-msgstr ""
+msgstr "Zu schreibende Ausgabedatei angeben."
 
 #, php-format
 msgid "Specify a file to write with `%s`."
-msgstr ""
+msgstr "Mit `%s` eine zu schreibende Datei angeben."
 
 #, php-format
 msgid ""
@@ -71209,84 +71389,87 @@ msgid ""
 "character set (available in MySQL 5.5 and newer). The configured server does "
 "not support %s."
 msgstr ""
+"Du kannst nur dann eine neue Quickstart-Datei erzeugen, wenn MySQL den "
+"Zeichensatz %s unterstützt (verfügbar in MySQL 5.5 und neuer). Der "
+"konfigurierte Server unterstützt %s nicht."
 
 #, php-format
 msgid "Failed to apply hack to adjust %s search column!"
-msgstr ""
+msgstr "Hack zum Anpassen der Suchspalte %s konnte nicht angewendet werden!"
 
 msgid "Failed to adjust SORT columns!"
-msgstr ""
+msgstr "SORT-Spalten konnten nicht angepasst werden!"
 
 msgid "SUCCESS"
 msgstr "ERFOLG"
 
 msgid "Wrote fresh quickstart SQL."
-msgstr ""
+msgstr "Frisches Quickstart-SQL geschrieben."
 
 msgid "Change the database namespace of a .sql dump file."
-msgstr ""
+msgstr "Den Datenbank-Namespace einer .sql-Dumpdatei ändern."
 
 msgid "SQL dumpfile to process."
-msgstr ""
+msgstr "Zu verarbeitende SQL-Dumpdatei."
 
 msgid "Generate a live dump instead of processing a file on disk."
-msgstr ""
+msgstr "Statt einer Datei auf der Platte einen Live-Dump erzeugen."
 
 msgid "Current database namespace used by dumpfile."
-msgstr ""
+msgstr "Aktueller Datenbank-Namespace, den die Dumpdatei verwendet."
 
 msgid "Desired database namespace for output."
-msgstr ""
+msgstr "Gewünschter Datenbank-Namespace für die Ausgabe."
 
 msgid "Write output directly to a file on disk."
-msgstr ""
+msgstr "Ausgabe direkt in eine Datei auf der Platte schreiben."
 
 msgid "Emit gzipped output instead of plain text."
-msgstr ""
+msgstr "Statt Klartext gzip-komprimierte Ausgabe erzeugen."
 
 msgid "With __--output__, write to disk even if the file already exists."
-msgstr ""
+msgstr "Mit __--output__ auch dann auf die Platte schreiben, wenn die Datei bereits existiert."
 
 msgid ""
 "Specify the dumpfile to read with \"--input\", or use \"--live\" to generate "
 "one automatically."
-msgstr ""
+msgstr "Gib mit \"--input\" die zu lesende Dumpdatei an oder verwende \"--live\", um automatisch eine zu erzeugen."
 
 #, php-format
 msgid "Specify namespace to rename from with %s."
-msgstr ""
+msgstr "Mit %s den Namespace angeben, von dem umbenannt werden soll."
 
 #, php-format
 msgid "Specify namespace to rename to with %s."
-msgstr ""
+msgstr "Mit %s den Namespace angeben, in den umbenannt werden soll."
 
 msgid "stdout"
-msgstr ""
+msgstr "stdout"
 
 #, php-format
 msgid "Failed to open output file \"%s\" for writing."
-msgstr ""
+msgstr "Ausgabedatei \"%s\" konnte nicht zum Schreiben geöffnet werden."
 
 #, php-format
 msgid "Failed to write %s byte(s) to \"%s\"."
-msgstr ""
+msgstr "%s Byte konnten nicht nach \"%s\" geschrieben werden."
 
 #, php-format
 msgid "Adjusted **%s** create statements and **%s** use statements."
-msgstr ""
+msgstr "**%s** CREATE-Statements und **%s** USE-Statements angepasst."
 
 msgid "Launch an interactive shell."
-msgstr ""
+msgstr "Eine interaktive Shell starten."
 
 msgid "Show patch application status."
-msgstr ""
+msgstr "Status der Patch-Anwendung anzeigen."
 
 msgid "Database Not Initialized"
 msgstr "Datenbank nicht initialisiert"
 
 #, php-format
 msgid "Run **%s** to initialize."
-msgstr ""
+msgstr "**%s** zum Initialisieren ausführen."
 
 msgid "Applied"
 msgstr "Angewendet"
@@ -71295,70 +71478,85 @@ msgid "Not Applied"
 msgstr "Nicht angewendet"
 
 msgid "Upgrade database schemata."
-msgstr ""
+msgstr "Datenbankschemata aktualisieren."
 
 msgid ""
 "Apply __patch__ explicitly. This is an advanced feature for development and "
 "debugging; you should not normally use this flag. This skips adjustment."
 msgstr ""
+"__patch__ explizit anwenden. Das ist eine fortgeschrittene Funktion für "
+"Entwicklung und Debugging; normalerweise solltest du dieses Flag nicht "
+"verwenden. Anpassungen werden damit übersprungen."
 
 msgid ""
 "Build storage patch-by-patch from scratch, even if it could be loaded from "
 "the quickstart template."
 msgstr ""
+"Storage Patch für Patch von Grund auf aufbauen, auch wenn es aus der "
+"Quickstart-Vorlage geladen werden könnte."
 
 msgid "Initialize storage only; do not apply patches or adjustments."
-msgstr ""
+msgstr "Nur Storage initialisieren; keine Patches oder Anpassungen anwenden."
 
 msgid "Do not apply storage adjustments after storage upgrades."
-msgstr ""
+msgstr "Nach Storage-Upgrades keine Storage-Anpassungen anwenden."
 
 #, php-format
 msgid ""
 "Before running storage upgrades, you should take down the web interface and "
 "stop any running daemons (you can disable this warning with %s)."
 msgstr ""
+"Bevor du Storage-Upgrades ausführst, solltest du die Weboberfläche "
+"deaktivieren und alle laufenden Daemons stoppen (du kannst diese Warnung "
+"mit %s deaktivieren)."
 
 msgid "Are you ready to continue?"
-msgstr ""
+msgstr "Bist du bereit, fortzufahren?"
 
 msgid "Cancelled."
 msgstr "Abgebrochen."
 
 #, php-format
 msgid "%s argument '%s' is not a valid patch. Use '%s' to show patch status."
-msgstr ""
+msgstr "%s-Argument '%s' ist kein gültiger Patch. Verwende '%s', um den Patch-Status anzuzeigen."
 
 msgid "Declining to synchronize static tables."
-msgstr ""
+msgstr "Synchronisierung statischer Tabellen wird abgelehnt."
 
 msgid "Synchronizing static tables..."
-msgstr ""
+msgstr "Statische Tabellen werden synchronisiert..."
 
 msgid "Declining to apply storage adjustments."
-msgstr ""
+msgstr "Anwenden von Storage-Anpassungen wird abgelehnt."
 
 msgid ""
 "This command only operates on database masters, but the selected database "
 "hosts do not include any masters."
 msgstr ""
+"Dieser Befehl arbeitet nur auf Datenbank-Mastern, aber die ausgewählten "
+"Datenbankhosts enthalten keine Master."
 
 msgid ""
 "This server is configured in cluster mode, with multiple database hosts. Use "
 "\"--host\" to specify which host you want to operate on."
 msgstr ""
+"Dieser Server ist im Cluster-Modus mit mehreren Datenbankhosts "
+"konfiguriert. Verwende \"--host\", um anzugeben, auf welchem Host du "
+"arbeiten möchtest."
 
 msgid ""
 "This server is currently in read-only mode. Use --force to override this "
 "mode."
 msgstr ""
+"Dieser Server befindet sich derzeit im Read-only-Modus. Verwende --force, "
+"um diesen Modus zu übergehen."
 
 #, php-format
 msgid "Verifying database schemata on \"%s\"..."
-msgstr ""
+msgstr "Überprüfe Datenbankschemata auf \"%s\"..."
 
 msgid "Found no adjustments for schemata."
-msgstr ""
+msgstr "Keine Anpassungen für Schemata gefunden."
 
 msgid ""
 "You have an old version of MySQL (older than 5.5) which does not support the "
@@ -71380,15 +71578,37 @@ msgid ""
 "For more information, see \"Managing Storage Adjustments\" in the "
 "documentation."
 msgstr ""
+"Du verwendest eine alte Version von MySQL (älter als 5.5), die den "
+"Zeichensatz utf8mb4 nicht unterstützt. Wir empfehlen dringend ein Upgrade "
+"auf 5.5 oder neuer.\n"
+"\n"
+"Wenn du Anpassungen jetzt anwendest und MySQL später auf 5.5 oder neuer "
+"aktualisierst, musst du die Anpassungen erneut anwenden (und das wird lange "
+"dauern).\n"
+"\n"
+"Du kannst diesen Workflow jetzt beenden, MySQL aktualisieren und den "
+"Workflow danach erneut ausführen. Das ist empfohlen, kann aber im Moment zu "
+"viel Downtime führen.\n"
+"\n"
+"Du kannst diesen Workflow auch beenden, diese Software zunächst ohne "
+"Anpassungen weiterverwenden, MySQL später aktualisieren und den Workflow "
+"dann erneut ausführen. Auch das ist ein guter Ansatz und erlaubt dir, die "
+"Downtime auf später zu verschieben.\n"
+"\n"
+"Du kannst mit diesem Workflow jetzt fortfahren und MySQL später optional "
+"aktualisieren. Danach musst du die Anpassungen erneut anwenden.\n"
+"\n"
+"Weitere Informationen findest du unter \"Managing Storage Adjustments\" in "
+"der Dokumentation."
 
 msgid "OLD MySQL VERSION"
 msgstr "ALTE MySQL-VERSION"
 
 msgid "Continue with old MySQL version?"
-msgstr ""
+msgstr "Mit alter MySQL-Version fortfahren?"
 
 msgid "DRYRUN: Would apply adjustments."
-msgstr ""
+msgstr "DRYRUN: Würde Anpassungen anwenden."
 
 #, php-format
 msgid ""
@@ -71401,40 +71621,48 @@ msgid ""
 "MySQL needs to copy table data to make some adjustments, so these migrations "
 "may take some time."
 msgstr ""
+"%s Anpassung(en) zum Anwenden gefunden, Details siehe oben.\n"
+"\n"
+"Du kannst die Anpassungen in der Weboberfläche genauer prüfen, unter Config "
+"> Database Status. Um den Anpassungs-Workflow besser zu verstehen, siehe "
+"\"Managing Storage Adjustments\" in der Dokumentation.\n"
+"\n"
+"MySQL muss für einige Anpassungen Tabellendaten kopieren, daher können "
+"diese Migrationen einige Zeit dauern."
 
 msgid "Apply these schema adjustments?"
-msgstr ""
+msgstr "Diese Schema-Anpassungen anwenden?"
 
 msgid "Applying schema adjustments..."
-msgstr ""
+msgstr "Schema-Anpassungen werden angewendet..."
 
-#, fuzzy, php-format
 msgid "Unsupported character set \"%s\"."
-msgstr "Unterstützte Formate: %s"
+msgstr "Nicht unterstützter Zeichensatz \"%s\"."
 
 
-#, fuzzy, php-format
 msgid "Unsupported collation set \"%s\"."
-msgstr "Unterstützte Formate: %s"
+msgstr "Nicht unterstützte Kollation \"%s\"."
 
 
 #, php-format
 msgid "Unknown schema adjustment kind \"%s\"!"
-msgstr ""
+msgstr "Unbekannte Art von Schema-Anpassung \"%s\"!"
 
 msgid "Completed applying all schema adjustments."
-msgstr ""
+msgstr "Alle Schema-Anpassungen wurden angewendet."
 
 msgid "Target"
 msgstr "Ziel"
 
 msgid "Failed to make some schema adjustments, detailed above."
-msgstr ""
+msgstr "Einige Schema-Anpassungen konnten nicht vorgenommen werden, Details siehe oben."
 
 msgid ""
 "For help troubleshooting adjustments, see \"Managing Storage Adjustments\" "
 "in the documentation."
 msgstr ""
+"Hilfe bei der Fehlersuche zu Anpassungen findest du unter \"Managing "
+"Storage Adjustments\" in der Dokumentation."
 
 msgid ""
 "You have surplus schemata (extra tables or columns which this software does "
@@ -71442,17 +71670,27 @@ msgid ""
 "Schemata\" section in the \"Managing Storage Adjustments\" article in the "
 "documentation."
 msgstr ""
+"Du hast überschüssige Schemata (zusätzliche Tabellen oder Spalten, die diese "
+"Software nicht erwartet). Informationen zur Behebung dieser Probleme "
+"findest du im Abschnitt \"Surplus Schemata\" des Artikels \"Managing "
+"Storage Adjustments\" in der Dokumentation."
 
 msgid ""
 "The user you are connecting to MySQL with does not have the correct "
 "permissions, and can not access some databases or tables that it needs to be "
 "able to access. GRANT the user additional permissions."
 msgstr ""
+"Der Benutzer, mit dem du dich zu MySQL verbindest, hat nicht die richtigen "
+"Berechtigungen und kann auf einige Datenbanken oder Tabellen nicht "
+"zugreifen, auf die er zugreifen können muss. Gib dem Benutzer zusätzliche "
+"Berechtigungen per GRANT."
 
 msgid ""
 "The schemata have errors (detailed above) which the adjustment workflow can "
 "not fix."
 msgstr ""
+"Die Schemata enthalten Fehler (Details siehe oben), die der Anpassungs-"
+"Workflow nicht beheben kann."
 
 msgid ""
 "Some of these errors are caused by access control problems. The user you are "
@@ -71460,6 +71698,11 @@ msgid ""
 "tables that this software uses. You need to GRANT the user more permission, "
 "or use a different user."
 msgstr ""
+"Einige dieser Fehler werden durch Probleme mit der Zugriffskontrolle "
+"verursacht. Der Benutzer, mit dem du dich verbindest, hat keine "
+"Berechtigung, alle Datenbanken oder Tabellen zu sehen, die diese Software "
+"verwendet. Du musst dem Benutzer per GRANT mehr Berechtigungen geben oder "
+"einen anderen Benutzer verwenden."
 
 msgid ""
 "Some of these errors are caused by surplus schemata (extra tables or columns "
@@ -71467,16 +71710,24 @@ msgid ""
 "on resolving these issues, see the \"Surplus Schemata\" section in the "
 "\"Managing Storage Adjustments\" article in the documentation."
 msgstr ""
+"Einige dieser Fehler werden durch überschüssige Schemata verursacht "
+"(zusätzliche Tabellen oder Spalten, die diese Software nicht erwartet). "
+"Diese Probleme sind nicht schwerwiegend. Informationen zur Behebung findest "
+"du im Abschnitt \"Surplus Schemata\" des Artikels \"Managing Storage "
+"Adjustments\" in der Dokumentation."
 
 #, php-format
 msgid "If you are not developing %s itself, report this issue to the upstream."
-msgstr ""
+msgstr "Wenn du nicht %s selbst entwickelst, melde dieses Problem dem Upstream."
 
 #, php-format
 msgid ""
 "If you are developing %s, these errors usually indicate that your schema "
 "specifications do not agree with the schemata your code actually builds."
 msgstr ""
+"Wenn du %s entwickelst, weisen diese Fehler normalerweise darauf hin, dass "
+"deine Schemaspezifikationen nicht mit den Schemata übereinstimmen, die dein "
+"Code tatsächlich erzeugt."
 
 msgid "SURPLUS SCHEMATA"
 msgstr "ÜBERSCHÜSSIGE SCHEMATA"
@@ -71490,24 +71741,26 @@ msgstr "SCHEMA-FEHLER"
 #, php-format
 msgid ""
 "DRYRUN: Storage on host \"%s\" does not exist yet, so it would be created."
-msgstr ""
+msgstr "DRYRUN: Storage auf Host \"%s\" existiert noch nicht und würde erstellt werden."
 
 #, php-format
 msgid ""
 "Storage on host \"%s\" has not been initialized yet. You must initialize "
 "storage before selectively applying patches."
 msgstr ""
+"Storage auf Host \"%s\" wurde noch nicht initialisiert. Du musst den "
+"Storage initialisieren, bevor du selektiv Patches anwenden kannst."
 
 #, php-format
 msgid "Loading quickstart template onto \"%s\"..."
-msgstr ""
+msgstr "Lade Quickstart-Vorlage nach \"%s\"..."
 
 msgid "Storage initialized."
-msgstr ""
+msgstr "Storage initialisiert."
 
 #, php-format
 msgid "Database initialization on host \"%s\" applied no patches!"
-msgstr ""
+msgstr "Die Datenbankinitialisierung auf Host \"%s\" hat keine Patches angewendet!"
 
 #, php-format
 msgid ""
@@ -71515,44 +71768,49 @@ msgid ""
 "to apply it again? This may put your storage in a state that the upgrade "
 "scripts can not automatically manage."
 msgstr ""
+"Patch \"%s\" wurde auf Host \"%s\" bereits angewendet. Bist du sicher, dass "
+"du ihn erneut anwenden willst? Das kann deinen Storage in einen Zustand "
+"versetzen, den die Upgrade-Skripte nicht mehr automatisch verwalten können."
 
 msgid "Apply patch again?"
-msgstr ""
+msgstr "Patch erneut anwenden?"
 
 #, php-format
 msgid ""
 "Unable to apply patch \"%s\" because it depends on patch \"%s\", which has "
 "not been applied on some hosts: %s."
 msgstr ""
+"Patch \"%s\" kann nicht angewendet werden, weil er von Patch \"%s\" abhängt, "
+"der auf einigen Hosts nicht angewendet wurde: %s."
 
 #, php-format
 msgid "DRYRUN: Would apply patch \"%s\" to host \"%s\"."
-msgstr ""
+msgstr "DRYRUN: Würde Patch \"%s\" auf Host \"%s\" anwenden."
 
 #, php-format
 msgid "Applying patch \"%s\" to host \"%s\"..."
-msgstr ""
+msgstr "Wende Patch \"%s\" auf Host \"%s\" an..."
 
 #, php-format
 msgid "Some patches could not be applied: %s"
-msgstr ""
+msgstr "Einige Patches konnten nicht angewendet werden: %s"
 
 #, php-format
 msgid "Storage is up to date. Use \"%s\" for details."
-msgstr ""
+msgstr "Storage ist aktuell. Verwende \"%s\" für Details."
 
 msgid "ANALYZE"
 msgstr "ANALYSIEREN"
 
 msgid "Analyzing tables..."
-msgstr ""
+msgstr "Tabellen werden analysiert..."
 
 msgid "ANALYZED"
 msgstr "ANALYSIERT"
 
 #, php-format
 msgid "Analyzed %d table(s)."
-msgstr ""
+msgstr "%d Tabelle(n) analysiert."
 
 
 #, php-format
@@ -71560,41 +71818,47 @@ msgid ""
 "Unknown patch \"%s\" in \"%s\", expected \".php\" or \".sql\" or \".db\" "
 "suffix."
 msgstr ""
+"Unbekannter Patch \"%s\" in \"%s\", erwartet wurde die Endung \".php\", "
+"\".sql\" oder \".db\"."
 
 #, php-format
 msgid "%s '%s' has a patch '%s' which is not an array."
-msgstr ""
+msgstr "%s '%s' hat einen Patch '%s', der kein Array ist."
 
 #, php-format
 msgid ""
 "%s '%s' has a patch, '%s', with an unknown property, '%s'.Patches must have "
 "only valid keys: %s."
 msgstr ""
+"%s '%s' hat einen Patch '%s' mit einer unbekannten Eigenschaft '%s'. Patches "
+"dürfen nur gültige Schlüssel haben: %s."
 
 #, php-format
 msgid ""
 "%s '%s' has a patch with a numeric key, '%s'. Patches must use string keys."
-msgstr ""
+msgstr "%s '%s' hat einen Patch mit numerischem Schlüssel '%s'. Patches müssen String-Schlüssel verwenden."
 
 #, php-format
 msgid ""
 "%s '%s' has a patch with a colon in the key name, '%s'. Patch keys may not "
 "contain colons."
-msgstr ""
+msgstr "%s '%s' hat einen Patch mit einem Doppelpunkt im Schlüsselnamen '%s'. Patch-Schlüssel dürfen keine Doppelpunkte enthalten."
 
 #, php-format
 msgid "%s '%s' has a patch '%s' which duplicates an existing patch key."
-msgstr ""
+msgstr "%s '%s' hat einen Patch '%s', der einen vorhandenen Patch-Schlüssel dupliziert."
 
 #, php-format
 msgid "Only patches in the '%s' namespace may contain '%s' keys."
-msgstr ""
+msgstr "Nur Patches im Namespace '%s' dürfen Schlüssel '%s' enthalten."
 
 #, php-format
 msgid ""
 "Storage patch \"%s\" specifies it should apply in phase \"%s\", but this "
 "phase is unrecognized. Valid phases are: %s."
 msgstr ""
+"Storage-Patch \"%s\" gibt an, in Phase \"%s\" angewendet zu werden, aber "
+"diese Phase wird nicht erkannt. Gültige Phasen sind: %s."
 
 #, php-format
 msgid ""
@@ -71603,20 +71867,26 @@ msgid ""
 "patch in a patch list must list the patch or patches it depends on "
 "explicitly."
 msgstr ""
+"Bei Patch '%s' fehlt der Schlüssel 'after', und er ist der erste Patch in "
+"der Patch-Liste '%s', daher kann seine Anwendungsreihenfolge nicht implizit "
+"bestimmt werden. Der erste Patch in einer Patch-Liste muss den Patch oder "
+"die Patches, von denen er abhängt, explizit auflisten."
 
 #, php-format
 msgid "Patch '%s' is missing key '%s'. Every patch must have a type."
-msgstr ""
+msgstr "Bei Patch '%s' fehlt der Schlüssel '%s'. Jeder Patch muss einen Typ haben."
 
 #, php-format
 msgid "Patch '%s' has unknown patch type '%s'."
-msgstr ""
+msgstr "Patch '%s' hat den unbekannten Patch-Typ '%s'."
 
 #, php-format
 msgid ""
 "Patch '%s' references nonexistent dependency, '%s'. Patches may only depend "
 "on patches which actually exist."
 msgstr ""
+"Patch '%s' verweist auf die nicht existierende Abhängigkeit '%s'. Patches "
+"dürfen nur von Patches abhängen, die tatsächlich existieren."
 
 #, php-format
 msgid ""
@@ -71624,30 +71894,42 @@ msgid ""
 "which is in a different phase (\"%s\"). Patches may not have dependencies "
 "across phases."
 msgstr ""
+"Storage-Patch \"%s\" wird in Phase \"%s\" ausgeführt, hängt aber von Patch "
+"\"%s\" ab, der sich in einer anderen Phase (\"%s\") befindet. Patches "
+"dürfen keine phasenübergreifenden Abhängigkeiten haben."
 
 #, php-format
 msgid ""
 "Storage patch \"%s\" specifies a \"@phase\" attribute with no phase value. "
 "Phase attributes must specify a value, like \"@phase default\"."
 msgstr ""
+"Storage-Patch \"%s\" gibt ein Attribut \"@phase\" ohne Phasenwert an. "
+"Phasenattribute müssen einen Wert angeben, zum Beispiel \"@phase default\"."
 
 #, php-format
 msgid ""
 "Storage patch \"%s\" specifies a \"@phase\" value (\"%s\"), but this is not "
 "a recognized phase. Valid phases are: %s."
 msgstr ""
+"Storage-Patch \"%s\" gibt einen \"@phase\"-Wert (\"%s\") an, aber das ist "
+"keine erkannte Phase. Gültige Phasen sind: %s."
 
 #, php-format
 msgid ""
 "Storage patch \"%s\" specifies a \"@phase\" value (\"%s\"), but it already "
 "has a specified phase (\"%s\"). Patches may not specify multiple phases."
 msgstr ""
+"Storage-Patch \"%s\" gibt einen \"@phase\"-Wert (\"%s\") an, hat aber "
+"bereits eine angegebene Phase (\"%s\"). Patches dürfen nicht mehrere "
+"Phasen angeben."
 
 #, php-format
 msgid ""
 "Storage patch \"%s\" specifies attribute \"%s\", but this attribute is "
 "unknown."
 msgstr ""
+"Storage-Patch \"%s\" gibt das Attribut \"%s\" an, aber dieses Attribut ist "
+"unbekannt."
 
 msgid "Invalid database escaper."
 msgstr "Ungültige Datenbank-Escape-Funktion."
@@ -71655,15 +71937,15 @@ msgstr "Ungültige Datenbank-Escape-Funktion."
 
 #, php-format
 msgid "Unknown conversion, try %s, %s, or %s."
-msgstr ""
+msgstr "Unbekannte Konvertierung, versuche %s, %s oder %s."
 
 #, php-format
 msgid "Expected array argument for %%%s conversion."
-msgstr ""
+msgstr "Array-Argument für %%%s-Konvertierung erwartet."
 
 #, php-format
 msgid "Array for %%%s conversion is empty."
-msgstr ""
+msgstr "Array für %%%s-Konvertierung ist leer."
 
 #, php-format
 msgid ""
@@ -71671,51 +71953,61 @@ msgid ""
 "conversion. Subclause conversions should be passed a list of "
 "PhutilQueryString objects."
 msgstr ""
+"UNSAFE: Roh-String (\"%s\") wurde an die Unterklausel der Abfrage (\"%s\") "
+"für die Konvertierung \"%%%s\" übergeben. Unterklausel-Konvertierungen "
+"sollten eine Liste von PhutilQueryString-Objekten erhalten."
 
 #, php-format
 msgid "Expected a list of PhutilQueryString objects for %%%s conversion."
-msgstr ""
+msgstr "Für die %%%s-Konvertierung wurde eine Liste von PhutilQueryString-Objekten erwartet."
 
 #, php-format
 msgid ""
 "UNSAFE: Raw string (\"%s\") passed to query (\"%s\") for \"%%Q\" conversion. "
 "%%Q should be passed a query string."
 msgstr ""
+"UNSAFE: Roh-String (\"%s\") wurde für die Konvertierung \"%%Q\" an die "
+"Abfrage (\"%s\") übergeben. An %%Q sollte ein Query-String übergeben "
+"werden."
 
 #, php-format
 msgid "Expected a PhutilQueryString for %%%s conversion."
-msgstr ""
+msgstr "Für die %%%s-Konvertierung wurde ein PhutilQueryString erwartet."
 
 #, php-format
 msgid "Value for \"%%Z\" conversion should be a raw string."
-msgstr ""
+msgstr "Wert für die Konvertierung \"%%Z\" sollte ein Roh-String sein."
 
 #, php-format
 msgid "Expected a string for %%%s conversion."
-msgstr ""
+msgstr "Für die %%%s-Konvertierung wurde ein String erwartet."
 
 #, php-format
 msgid "Expected a numeric scalar or null for %%%s conversion."
-msgstr ""
+msgstr "Für die %%%s-Konvertierung wurde ein numerischer Skalarwert oder null erwartet."
 
 #, php-format
 msgid "Expected a scalar or null for %%%s conversion."
-msgstr ""
+msgstr "Für die %%%s-Konvertierung wurde ein Skalarwert oder null erwartet."
 
 #, php-format
 msgid ""
 "Parameter to \"%s\" conversion in \"qsprintf(...)\" is not an instance of "
 "AphrontDatabaseTableRefInterface."
 msgstr ""
+"Parameter für die Konvertierung \"%s\" in \"qsprintf(...)\" ist keine "
+"Instanz von AphrontDatabaseTableRefInterface."
 
 #, php-format
 msgid ""
 "Parameter to \"%s\" conversion in \"qsprintf(...)\" is not an instance of "
 "PhutilOpaqueEnvelope."
 msgstr ""
+"Parameter für die Konvertierung \"%s\" in \"qsprintf(...)\" ist keine "
+"Instanz von PhutilOpaqueEnvelope."
 
 msgid "Query returned more than one row."
-msgstr ""
+msgstr "Abfrage hat mehr als eine Zeile zurückgegeben."
 
 #, php-format
 msgid ""
@@ -72418,9 +72710,8 @@ msgid ""
 "tab with a duplicate key (\"%s\")."
 msgstr ""
 
-#, fuzzy, php-format
 msgid "Unable to select tab (\"%s\") which does not exist."
-msgstr "Änderung \"%s\" existiert nicht."
+msgstr "Tab (\"%s\"), der nicht existiert, kann nicht ausgewählt werden."
 
 
 #, php-format
