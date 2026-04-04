@@ -68142,6 +68142,10 @@ msgid ""
 "\n"
 "%s"
 msgstr ""
+"Diese Funktion umfasst Ergebnisse, die irgendeinen Wert haben. Verwende eine "
+"Abfrage wie diese, um Ergebnisse mit irgendeinem Wert zu finden:\n"
+"\n"
+"%s"
 
 msgid "Select results with any value."
 msgstr "Ergebnisse mit beliebigem Wert auswählen."
@@ -68172,6 +68176,13 @@ msgid ""
 "If you combine this function with other constraints, results which have no "
 "value or the specified values will be returned."
 msgstr ""
+"Diese Funktion umfasst Ergebnisse, die keinen Wert haben. Verwende eine "
+"Abfrage wie diese, um Ergebnisse ohne Wert zu finden:\n"
+"\n"
+"%s\n"
+"\n"
+"Wenn du diese Funktion mit anderen Einschränkungen kombinierst, werden "
+"Ergebnisse ohne Wert oder mit den angegebenen Werten zurückgegeben."
 
 msgid "Select results with no value."
 msgstr "Ergebnisse ohne Wert auswählen."
@@ -68183,40 +68194,44 @@ msgid "Type a field value..."
 msgstr "Feldwert eintippen..."
 
 msgid "You must set a custom field class!"
-msgstr ""
+msgstr "Du musst eine Klasse für benutzerdefinierte Felder festlegen!"
 
 
 #, php-format
 msgid "Custom field class \"%s\" does not exist."
-msgstr ""
+msgstr "Klasse für benutzerdefinierte Felder \"%s\" existiert nicht."
 
 #, php-format
 msgid "Custom field class \"%s\" does not implement interface \"%s\"."
-msgstr ""
+msgstr "Klasse für benutzerdefinierte Felder \"%s\" implementiert Interface \"%s\" nicht."
 
 msgid "No custom field role specified."
-msgstr ""
+msgstr "Keine Rolle für benutzerdefinierte Felder angegeben."
 
 msgid "No custom field key specified."
-msgstr ""
+msgstr "Kein Schlüssel für benutzerdefinierte Felder angegeben."
 
 #, php-format
 msgid ""
 "No field with field key \"%s\" exists for objects of class \"%s\" with "
 "custom field role \"%s\"."
 msgstr ""
+"Es existiert kein Feld mit dem Feldschlüssel \"%s\" für Objekte der Klasse "
+"\"%s\" mit der Rolle für benutzerdefinierte Felder \"%s\"."
 
 #, php-format
 msgid ""
 "Field \"%s\" is not a standard select field, nor a proxy of a standard "
 "select field."
 msgstr ""
+"Feld \"%s\" ist weder ein Standard-Auswahlfeld noch ein Proxy eines "
+"Standard-Auswahlfelds."
 
 msgid "Custom Fields"
 msgstr "Benutzerdefinierte Felder"
 
 msgid "Support for Custom Fields"
-msgstr ""
+msgstr "Unterstützung für benutzerdefinierte Felder"
 
 
 #, php-format
@@ -68224,6 +68239,8 @@ msgid ""
 "Custom field '%s' (with key '%s', of class '%s') is attempting to access "
 "data which is not available in this context."
 msgstr ""
+"Benutzerdefiniertes Feld '%s' (mit Schlüssel '%s', der Klasse '%s') "
+"versucht, auf Daten zuzugreifen, die in diesem Kontext nicht verfügbar sind."
 
 msgid "<incomplete key>"
 msgstr "<ungültige Taste>"
@@ -68237,26 +68254,33 @@ msgid ""
 "implemented: it claims to support a feature, but does not implement all of "
 "the required methods for that feature."
 msgstr ""
+"Benutzerdefiniertes Feld '%s' (mit Schlüssel '%s', der Klasse '%s') ist "
+"unvollständig implementiert: Es beansprucht, ein Feature zu unterstützen, "
+"implementiert aber nicht alle dafür erforderlichen Methoden."
 
 #, php-format
 msgid ""
 "Custom field '%s' (with key '%s', of class '%s') can not have a proxy set "
 "with %s, because it returned %s from %s."
 msgstr ""
+"Für das benutzerdefinierte Feld '%s' (mit Schlüssel '%s', der Klasse '%s') "
+"kann mit %s kein Proxy gesetzt werden, weil es von %s %s zurückgegeben hat."
 
 #, php-format
 msgid "Expected an array from %s for object of class '%s'."
-msgstr ""
+msgstr "Es wurde ein Array von %s für ein Objekt der Klasse '%s' erwartet."
 
 #, php-format
 msgid ""
 "Both '%s' and '%s' define a custom field with field key '%s'. Field keys "
 "must be unique."
 msgstr ""
+"Sowohl '%s' als auch '%s' definieren ein benutzerdefiniertes Feld mit dem "
+"Feldschlüssel '%s'. Feldschlüssel müssen eindeutig sein."
 
 #, php-format
 msgid "Unknown field role '%s'!"
-msgstr ""
+msgstr "Unbekannte Feldrolle '%s'!"
 
 #, php-format
 msgid "%s updated this object."
@@ -68268,20 +68292,22 @@ msgstr "%s hat %s geändert."
 
 #, php-format
 msgid "Change %s"
-msgstr ""
+msgstr "%s ändern"
 
 
 #, php-format
 msgid "Set \"%s\" to"
-msgstr ""
+msgstr "\"%s\" setzen auf"
 
 #, php-format
 msgid "Role list '%s' is not available!"
-msgstr ""
+msgstr "Rollenliste '%s' ist nicht verfügbar!"
 
 #, php-format
 msgid "Unknown field property view style '%s'; valid styles are '%s' and '%s'."
 msgstr ""
+"Unbekannter Ansichts-Stil '%s' für Feldeigenschaften; gültige Stile sind "
+"'%s' und '%s'."
 
 msgid "Set Field Value"
 msgstr "Feldwert setzen"
@@ -68289,12 +68315,14 @@ msgstr "Feldwert setzen"
 
 #, php-format
 msgid "Regular expression \"%s\" is invalid!"
-msgstr ""
+msgstr "Regulärer Ausdruck \"%s\" ist ungültig!"
 
 #, php-format
 msgid ""
 "Unknown field list-item view style '%s'; valid styles are '%s', '%s'and '%s'."
 msgstr ""
+"Unbekannter Ansichts-Stil '%s' für Feld-Listeneinträge; gültige Stile sind "
+"'%s', '%s' und '%s'."
 
 #, php-format
 msgid "%s is required."
@@ -68321,7 +68349,7 @@ msgid "%s changed %s from %s to %s on %s."
 msgstr "%s hat %s von %s nach %s innerhalb von %s geändert."
 
 msgid "No authorized blueprints."
-msgstr ""
+msgstr "Keine autorisierten Blueprints."
 
 msgid "(Any)"
 msgstr "(Irgendwas)"
@@ -68341,6 +68369,8 @@ msgid ""
 "The selected credential does not exist, or you do not have permission to use "
 "it."
 msgstr ""
+"Die ausgewählte Zugangsinformation existiert nicht oder du hast keine "
+"Berechtigung, sie zu verwenden."
 
 #, php-format
 msgid "%s removed %s as %s."
@@ -68389,17 +68419,19 @@ msgstr "%s hat %s für %s aktualisiert, %s entfernt: %s."
 
 #, php-format
 msgid "%s updated %s for %s, added %s: %s; removed %s: %s."
-msgstr ""
+msgstr "%s hat %s für %s aktualisiert, %s hinzugefügt: %s; %s entfernt: %s."
 
 
 #, php-format
 msgid ""
 "Some of the selected PHIDs in field \"%s\" are invalid or restricted: %s."
 msgstr ""
+"Einige der ausgewählten PHIDs im Feld \"%s\" sind ungültig oder "
+"eingeschränkt: %s."
 
 #, php-format
 msgid "%s edited %s on %s."
-msgstr ""
+msgstr "%s hat %s auf %s bearbeitet."
 
 msgid "Set \"%s\" to: %s."
 msgstr "\"%s\" setzen auf: %s."
