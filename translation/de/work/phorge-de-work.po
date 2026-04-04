@@ -69685,7 +69685,7 @@ msgid "Three-Way Tree"
 msgstr "Drei-Wege-Baum"
 
 msgid "Read edge relationships between objects."
-msgstr ""
+msgstr "Edge-Beziehungen zwischen Objekten lesen."
 
 msgid ""
 "Source PHID \"%s\" does not identify a valid object, or you do not have "
@@ -69696,54 +69696,57 @@ msgstr ""
 
 
 msgid "Edge search must specify a nonempty list of edge types."
-msgstr ""
+msgstr "Die Edge-Suche muss eine nichtleere Liste von Edge-Typen angeben."
 
 #, php-format
 msgid "Edge type \"%s\" is not a recognized edge type."
-msgstr ""
+msgstr "Edge-Typ \"%s\" ist kein erkannter Edge-Typ."
 
 #, php-format
 msgid "Edges are not available for objects of type '%s'!"
-msgstr ""
+msgstr "Edges sind für Objekte des Typs '%s' nicht verfügbar!"
 
 msgid "Edges"
 msgstr "Verknüpfungen"
 
 #, php-format
 msgid "Graph cycle detected (type=%s, cycle=%s)."
-msgstr ""
+msgstr "Zyklische Abhängigkeit im Graphen erkannt (Typ=%s, Zyklus=%s)."
 
 msgid ""
 "Edge object query must be executed with a nonempty list of source PHIDs."
-msgstr ""
+msgstr "Eine Edge-Objektabfrage muss mit einer nichtleeren Liste von Quell-PHIDs ausgeführt werden."
 
 #, php-format
 msgid "Source PHID \"%s\" in edge object query has unknown PHID type."
-msgstr ""
+msgstr "Quell-PHID \"%s\" in der Edge-Objektabfrage hat einen unbekannten PHID-Typ."
 
 #, php-format
 msgid ""
 "Two source PHIDs (\"%s\" and \"%s\") have different PHID types (\"%s\" and "
 "\"%s\"). All PHIDs must be of the same type to execute an edge object query."
 msgstr ""
+"Zwei Quell-PHIDs (\"%s\" und \"%s\") haben unterschiedliche PHID-Typen "
+"(\"%s\" und \"%s\"). Alle PHIDs müssen vom selben Typ sein, um eine "
+"Edge-Objektabfrage auszuführen."
 
 #, php-format
 msgid "Expected edge cursor in the form \"0123_6789\", got \"%s\"."
-msgstr ""
+msgstr "Edge-Cursor im Format \"0123_6789\" erwartet, erhalten wurde \"%s\"."
 
 msgid ""
 "Edge list passed to \"withSourcePHIDs(...)\" is empty, but it must be "
 "nonempty."
-msgstr ""
+msgstr "Die an \"withSourcePHIDs(...)\" übergebene Edge-Liste ist leer, muss aber nichtleer sein."
 
 msgid "You must use \"withSourcePHIDs()\" to query edges."
-msgstr ""
+msgstr "Du musst \"withSourcePHIDs()\" verwenden, um Edges abzufragen."
 
 #, php-format
 msgid ""
 "%s class \"%s\" has an invalid %s property. Edge constants must be positive "
 "integers."
-msgstr ""
+msgstr "%s-Klasse \"%s\" hat eine ungültige Eigenschaft %s. Edge-Konstanten müssen positive Ganzzahlen sein."
 
 #, php-format
 msgid "%s edited edge metadata."
@@ -69759,7 +69762,7 @@ msgstr "%s hat %s Verknüpfung(en) entfernt: %s."
 
 #, php-format
 msgid "%s edited %s edge(s), added %s: %s; removed %s: %s."
-msgstr ""
+msgstr "%s hat %s Edge(s) bearbeitet, %s hinzugefügt: %s; %s entfernt: %s."
 
 #, php-format
 msgid "%s added %s edge(s) to %s: %s."
@@ -69771,29 +69774,31 @@ msgstr "%s hat %s Verknüpfung(en) von %s entfernt: %s."
 
 #, php-format
 msgid "%s edited %s edge(s) for %s, added %s: %s; removed %s: %s."
-msgstr ""
+msgstr "%s hat %s Edge(s) für %s bearbeitet, %s hinzugefügt: %s; %s entfernt: %s."
 
 #, php-format
 msgid ""
 "Edge type \"%s\" (\"%d\") defines an inverse type (\"%d\") which does not "
 "exist."
-msgstr ""
+msgstr "Edge-Typ \"%s\" (\"%d\") definiert einen inversen Typ (\"%d\"), der nicht existiert."
 
 #, php-format
 msgid ""
 "Edge type \"%s\" (\"%d\") defines an inverse type (\"%d\"), but that inverse "
 "type defines a different type (\"%d\") as its inverse."
 msgstr ""
+"Edge-Typ \"%s\" (\"%d\") definiert einen inversen Typ (\"%d\"), aber dieser "
+"inverse Typ definiert einen anderen Typ (\"%d\") als Inversen."
 
 #, php-format
 msgid "Unknown edge constant \"%s\"!"
-msgstr ""
+msgstr "Unbekannte Edge-Konstante \"%s\"!"
 
 msgid "Edge change record is not configured with any change data."
-msgstr ""
+msgstr "Edge-Änderungsdatensatz ist mit keinen Änderungsdaten konfiguriert."
 
 msgid "Set edge type before loading graph!"
-msgstr ""
+msgstr "Edge-Typ vor dem Laden des Graphen festlegen!"
 
 msgid "File Name"
 msgstr ""
@@ -70096,25 +70101,25 @@ msgid "· · ·"
 msgstr ""
 
 msgid "Extract translatable strings."
-msgstr ""
+msgstr "Übersetzbare Strings extrahieren."
 
 msgid "Drop caches before extracting strings. Slow!"
-msgstr ""
+msgstr "Caches vor dem Extrahieren der Strings leeren. Sonst geht das ewig!"
 
 #, php-format
 msgid "Path \"%s\" does not exist, or is not a directory."
-msgstr ""
+msgstr "Pfad \"%s\" existiert nicht oder ist kein Verzeichnis."
 
 #, php-format
 msgid "Path \"%s\" contains no libraries."
-msgstr ""
+msgstr "Pfad \"%s\" enthält keine Bibliotheken."
 
 msgid "EXTRACT"
 msgstr "EXTRAHIEREN"
 
 #, php-format
 msgid "Extracting \"%s\"..."
-msgstr ""
+msgstr "Extrahiere \"%s\"..."
 
 msgid "MODIFIED"
 msgstr "GEÄNDERT"
@@ -70128,36 +70133,42 @@ msgid "NOT MODIFIED"
 msgstr "NICHT GEÄNDERT"
 
 msgid "Strings for this library are already up to date."
-msgstr ""
+msgstr "Strings für diese Bibliothek sind bereits aktuell."
 
 #, php-format
 msgid "Failed to parse file \"%s\": %s"
-msgstr ""
+msgstr "Datei \"%s\" konnte nicht geparst werden: %s"
 
 
 msgid "Validate that all locales and translations are properly constructed."
-msgstr ""
+msgstr "Prüfen, dass alle Locales und Übersetzungen korrekt aufgebaut sind."
 
 msgid ""
 "Do an implicit string extraction before validating. If this is not set, it "
 "will validate based on the last extracted strings."
 msgstr ""
+"Vor der Validierung implizit eine String-Extraktion durchführen. Wenn dies "
+"nicht gesetzt ist, wird auf Basis der zuletzt extrahierten Strings "
+"validiert."
 
 msgid "No validation errors found!"
-msgstr ""
+msgstr "Keine Validierungsfehler gefunden!"
 
 msgid "The following validation errors were found:"
-msgstr ""
+msgstr "Die folgenden Validierungsfehler wurden gefunden:"
 
 #, php-format
 msgid ""
 "The locale `%s` defines a translation for the key `%s`, which has at least "
 "%s level(s) of arrays, however the source message has only %s parameter(s)."
 msgstr ""
+"Das Locale `%s` definiert eine Übersetzung für den Schlüssel `%s`, die "
+"mindestens %s Array-Ebene(n) hat, während die Quellnachricht nur %s "
+"Parameter hat."
 
 #, php-format
 msgid "Bogus type \"%s\" for \"%s\""
-msgstr ""
+msgstr "Ungültiger Typ \"%s\" für \"%s\""
 
 #, php-format
 msgid ""
@@ -70165,12 +70176,18 @@ msgid ""
 "represent a PhutilNumber. This loses data if the  number ends up being "
 "formatted with thousands specifiers. See T16454"
 msgstr ""
+"Das Locale `%s` definiert eine Übersetzung für den Schlüssel `%s`, die %%d "
+"verwendet, um eine PhutilNumber darzustellen. Dabei gehen Daten verloren, "
+"wenn die Zahl mit Tausendertrennzeichen formatiert wird. Siehe T16454"
 
 #, php-format
 msgid ""
 "The locale `%s` defines a translation for the key `%s` which failed to "
 "interpolate properly. Probably it defines too many parameters."
 msgstr ""
+"Das Locale `%s` definiert eine Übersetzung für den Schlüssel `%s`, deren "
+"Interpolation fehlgeschlagen ist. Vermutlich definiert sie zu viele "
+"Parameter."
 
 #, php-format
 msgid ""
@@ -70178,16 +70195,21 @@ msgid ""
 "plurality or gender of parameter %d, however that parameter is not a number "
 "or person."
 msgstr ""
+"Das Locale `%s` definiert eine Übersetzung für den Schlüssel `%s`, die von "
+"Pluralform oder Geschlecht des Parameters %d abhängt, aber dieser Parameter "
+"ist keine Zahl und keine Person."
 
 #, php-format
 msgid "Translations are defined for the locale `%s`, which is not recognized."
-msgstr ""
+msgstr "Für das Locale `%s` sind Übersetzungen definiert, aber es wird nicht erkannt."
 
 #, php-format
 msgid ""
 "The locale `%s` defines a translation for the string \"%s\", however that "
 "string does not appear to be referenced by the codebase."
 msgstr ""
+"Das Locale `%s` definiert eine Übersetzung für den String \"%s\", aber "
+"dieser String scheint im Codebestand nicht referenziert zu werden."
 
 #, php-format
 msgid ""
@@ -70195,10 +70217,13 @@ msgid ""
 "on which to vary the (s) by, however the builtin US English translation does "
 "not do so."
 msgstr ""
+"Der String \"%s\" enthält den Platzhalter \"(s)\" und einen numerischen "
+"Parameter, anhand dessen das (s) variiert werden soll, aber die eingebaute "
+"US-englische Übersetzung tut das nicht."
 
 #, php-format
 msgid "Failed to run i18n extractor: %s"
-msgstr ""
+msgstr "i18n-Extractor konnte nicht ausgeführt werden: %s"
 
 #, php-format
 msgid ""
@@ -70206,6 +70231,9 @@ msgid ""
 "library first to extract them or re-run with `%s` to automatically extract "
 "missing strngs."
 msgstr ""
+"Für Bibliothek %s wurden noch keine Strings extrahiert. Führe zuerst `%s` "
+"für diese Bibliothek aus, um sie zu extrahieren, oder starte mit `%s` "
+"erneut, um fehlende Strings automatisch zu extrahieren."
 
 #, php-format
 msgid "Opening %s failed! %s."
@@ -70334,45 +70362,50 @@ msgstr ""
 
 #, php-format
 msgid "Call %s before using results (key = '%s')."
-msgstr ""
+msgstr "%s aufrufen, bevor Ergebnisse verwendet werden (Schlüssel = '%s')."
 
 #, php-format
 msgid "Unknown engine ruleset: %s!"
-msgstr ""
+msgstr "Unbekanntes Engine-Regelset: %s!"
 
 #, php-format
 msgid ""
 "Matched token key \"%s\" while processing remarkup block, but this token "
 "does not exist in the token map."
 msgstr ""
+"Beim Verarbeiten eines Remarkup-Blocks wurde der Token-Schlüssel \"%s\" "
+"gefunden, aber dieses Token existiert nicht in der Token-Zuordnung."
 
 #, php-format
 msgid ""
 "Matched token key \"%s\" while processing remarkup block, but this token "
 "appears later in the list than the key being processed (\"%s\")."
 msgstr ""
+"Beim Verarbeiten eines Remarkup-Blocks wurde der Token-Schlüssel \"%s\" "
+"gefunden, aber dieses Token erscheint später in der Liste als der gerade "
+"verarbeitete Schlüssel (\"%s\")."
 
 #, php-format
 msgid "Anchor for \"%s\"."
-msgstr ""
+msgstr "Anker für \"%s\"."
 
 #, php-format
 msgid "Summary of: %s"
-msgstr ""
+msgstr "Zusammenfassung von: %s"
 
 
 #, php-format
 msgid "Unexpected result for \"%s\". <uri = %s, expect exception = %s>"
-msgstr ""
+msgstr "Unerwartetes Ergebnis für \"%s\". <uri = %s, erwartete Ausnahme = %s>"
 
 #, php-format
 msgid "Failed to markup HTML in file '%s'."
-msgstr ""
+msgstr "HTML in Datei '%s' konnte nicht mit Markup verarbeitet werden."
 
 
 #, php-format
 msgid "Failed to markup text in file '%s'."
-msgstr ""
+msgstr "Text in Datei '%s' konnte nicht mit Markup verarbeitet werden."
 
 
 msgid "Operator extension not available."
@@ -70381,20 +70414,22 @@ msgstr "Operatorerweiterung nicht verfügbar."
 
 #, php-format
 msgid "No interpreter found: %s"
-msgstr ""
+msgstr "Kein Interpreter gefunden: %s"
 
 
 msgid ""
 "Remarkup rule precedence is dangerous: rendering text with tokens as flat "
 "text!"
 msgstr ""
+"Die Priorität der Remarkup-Regeln ist gefährlich: Text mit Tokens wird als "
+"Flachtext gerendert!"
 
 #, php-format
 msgid "State '%s' pushed more than popped!"
-msgstr ""
+msgstr "Zustand '%s' wurde öfter gepusht als gepoppt!"
 
 msgid "Block in text did not match any block rule."
-msgstr ""
+msgstr "Ein Block im Text passte zu keiner Blockregel."
 
 #, php-format
 msgid ""
@@ -70402,12 +70437,17 @@ msgid ""
 "This is either a serious security concern or a serious architecture concern. "
 "Seek urgent remedy."
 msgstr ""
+"Es wird versucht, ein Tag mit einem Attribut '%s' zu rendern, das mit '%s' "
+"beginnt. Das ist entweder ein ernstes Sicherheitsproblem oder ein ernstes "
+"Architekturproblem. Dringende Abhilfe ist erforderlich."
 
 #, php-format
 msgid ""
 "Object (of class '%s') implements %s but did not return anything renderable "
 "from %s."
 msgstr ""
+"Objekt (der Klasse '%s') implementiert %s, hat aber aus %s nichts "
+"Renderbares zurückgegeben."
 
 msgid "Shift"
 msgstr "Shift"
@@ -70450,32 +70490,34 @@ msgstr "Links oben"
 
 #, php-format
 msgid "Language detect for %s"
-msgstr ""
+msgstr "Spracherkennung für %s"
 
 msgid "Builtin classnames should not be marked as linkable symbols."
-msgstr ""
+msgstr "Eingebaute Klassennamen sollten nicht als verlinkbare Symbole markiert werden."
 
 msgid "Trailing comments should not be dropped."
-msgstr ""
+msgstr "Nachgestellte Kommentare sollten nicht verworfen werden."
 
 msgid "Multi-line tokens should be split across lines."
-msgstr ""
+msgstr "Mehrzeilige Tokens sollten über Zeilen hinweg aufgeteilt werden."
 
 msgid "Snippets with leading whitespace should be preserved."
-msgstr ""
+msgstr "Snippets mit führendem Leerraum sollten erhalten bleiben."
 
 msgid "Snippets with no leading whitespace should be preserved."
-msgstr ""
+msgstr "Snippets ohne führenden Leerraum sollten erhalten bleiben."
 
 msgid ""
 "Expected T_OPEN_TAG, T_WHITESPACE tokens at head of results for highlighting "
 "parse of PHP snippet."
 msgstr ""
+"Für das Highlighting-Parsing eines PHP-Snippets wurden am Anfang der "
+"Ergebnisse die Tokens T_OPEN_TAG und T_WHITESPACE erwartet."
 
 msgid ""
 "Expected \"\\n\" at beginning of T_WHITESPACE token at head of tokens for "
 "highlighting parse of PHP snippet."
-msgstr ""
+msgstr "Am Anfang des T_WHITESPACE-Tokens am Kopf der Tokens für das Highlighting-Parsing eines PHP-Snippets wurde \"\\n\" erwartet."
 
 msgid "Simple"
 msgstr "Einfach"
