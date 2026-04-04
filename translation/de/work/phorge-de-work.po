@@ -2317,7 +2317,7 @@ msgid ""
 "No `%s` or `%s` binary was found in %s. You must install Node.js to start "
 "the Aphlict server."
 msgstr ""
-"In %s wurde weder eine `%s`- noch eine `%s`-Binärdatei gefunden. Du musst "
+"In %s wurde weder ein `%s`- noch ein `%s`-Programm gefunden. Du musst "
 "Node.js installieren, um den Aphlict-Server zu starten."
 
 #, php-format
@@ -12333,7 +12333,7 @@ msgid ""
 "exit without an error code when passed identical files, but exited with code "
 "%d."
 msgstr ""
-"Die Binärdatei '%s' auf diesem System verhält sich unerwartet: Beim "
+"Das Programm '%s' auf diesem System verhält sich unerwartet: Beim "
 "Vergleich identischer Dateien hätte sie ohne Fehlercode beendet werden "
 "sollen, wurde aber mit dem Code %d beendet."
 
@@ -12345,7 +12345,7 @@ msgid ""
 "The '%s' binary on this system has unexpected behavior: it was expected to "
 "exit with a nonzero error code when passed differing files, but did not."
 msgstr ""
-"Die Binärdatei '%s' auf diesem System verhält sich unerwartet: Beim "
+"Das Programm '%s' auf diesem System verhält sich unerwartet: Beim "
 "Vergleich unterschiedlicher Dateien hätte sie mit einem Fehlercode ungleich "
 "null beendet werden sollen, tat dies aber nicht."
 
@@ -12354,7 +12354,7 @@ msgid ""
 "system. It will not work without the VCS binary."
 msgstr ""
 "Du hast mindestens ein Repository konfiguriert, das dieses "
-"Versionsverwaltungssystem verwendet. Ohne die VCS-Binärdatei wird es nicht "
+"Versionsverwaltungssystem verwendet. Ohne das VCS-Programm wird es nicht "
 "funktionieren."
 
 #, php-format
@@ -12402,7 +12402,7 @@ msgid ""
 "variable to include the directory where it resides, or add that directory to "
 "'%s' in configuration."
 msgstr ""
-"Die Binärdatei '%s' konnte nicht gefunden werden. Setze die "
+"Das Programm '%s' konnte nicht gefunden werden. Setze die "
 "Umgebungsvariable %s des Webservers so, dass sie das Verzeichnis enthält, "
 "in dem die Datei liegt, oder füge dieses Verzeichnis in der Konfiguration "
 "zu '%s' hinzu."
@@ -12413,7 +12413,7 @@ msgid ""
 "webserver's %s environmental variable to include the directory where it "
 "resides, or add that directory to '%s' in configuration."
 msgstr ""
-"Die Binärdatei '%s' konnte nicht gefunden werden. Verlinke sie per Symlink "
+"Das Programm '%s' konnte nicht gefunden werden. Verlinke es per Symlink "
 "nach '%s', setze die Umgebungsvariable %s des Webservers so, dass sie das "
 "Verzeichnis enthält, in dem die Datei liegt, oder füge dieses Verzeichnis "
 "in der Konfiguration zu '%s' hinzu."
@@ -12424,11 +12424,11 @@ msgstr "'%s' fehlt"
 
 #, php-format
 msgid "Missing '%s' Binary"
-msgstr "Binärdatei '%s' fehlt"
+msgstr "Programm '%s' fehlt"
 
 #, php-format
 msgid "The '%s' binary could not be located or executed."
-msgstr "Die Binärdatei '%s' konnte nicht gefunden oder ausgeführt werden."
+msgstr "Das Programm '%s' konnte nicht gefunden oder ausgeführt werden."
 
 #, php-format
 msgid "Unable to determine the version number of \"%s\"."
@@ -13184,12 +13184,12 @@ msgid ""
 "webserver."
 msgstr ""
 "Du hast Imagemagick in Deiner Konfiguration aktiviert, aber die "
-"Binärdatei '%s' oder '%s' befindet sich nicht im %s des Webservers. "
+"Programme '%s' oder '%s' befinden sich nicht im %s des Webservers. "
 "Deaktiviere Imagemagick oder mache es dem Webserver verfügbar."
 
 #, php-format
 msgid "'%s' or '%s' binary not found or Imagemagick is not installed."
-msgstr "Binärdatei '%s' oder '%s' nicht gefunden oder Imagemagick ist nicht installiert."
+msgstr "Programm '%s' oder '%s' nicht gefunden oder Imagemagick ist nicht installiert."
 
 #, php-format
 msgid "Config '%s' Invalid"
@@ -27588,17 +27588,17 @@ msgstr "Dieses Repository aktivieren, um den Import zu starten oder fortzusetzen
 
 #, php-format
 msgid "Missing Binary %s"
-msgstr "Binärdatei %s fehlt"
+msgstr "Programm %s fehlt"
 
 #, php-format
 msgid ""
 "Unable to find this binary in the webserver's PATH. You may need to "
 "configure %s."
-msgstr "Diese Binärdatei wurde im PATH des Webservers nicht gefunden. Möglicherweise muss %s konfiguriert werden."
+msgstr "Dieses Programm wurde im PATH des Webservers nicht gefunden. Möglicherweise muss %s konfiguriert werden."
 
 #, php-format
 msgid "Found Binary %s"
-msgstr "Binärdatei %s gefunden"
+msgstr "Programm %s gefunden"
 
 #, php-format
 msgid "Commit Hooks: %s"
@@ -27609,7 +27609,7 @@ msgid ""
 "The directory containing the \"svnlook\" binary is not listed in "
 "\"environment.append-paths\", so commit hooks (which execute with an empty "
 "\"PATH\") will not be able to find \"svnlook\". Add `%s` to %s."
-msgstr "Das Verzeichnis mit der \"svnlook\"-Binärdatei ist nicht in \"environment.append-paths\" aufgeführt, daher können Commit-Hooks (die mit leerem \"PATH\" ausgeführt werden) \"svnlook\" nicht finden. `%s` zu %s hinzufügen."
+msgstr "Das Verzeichnis mit dem Programm \"svnlook\" ist nicht in \"environment.append-paths\" aufgeführt, daher können Commit-Hooks (die mit leerem \"PATH\" ausgeführt werden) \"svnlook\" nicht finden. `%s` zu %s hinzufügen."
 
 #, php-format
 msgid "Use %s to start daemons. See %s."
@@ -67826,11 +67826,11 @@ msgstr "%s-Profil herunterladen"
 msgid ""
 "Invalid key '%s': directory caches may only contain letters, numbers, "
 "hyphen, colon and slash."
-msgstr ""
+msgstr "Ungültiger Schlüssel '%s': Verzeichnis-Caches dürfen nur Buchstaben, Zahlen, Bindestrich, Doppelpunkt und Slash enthalten."
 
 #, php-format
 msgid "Trying to %s with a lock!"
-msgstr ""
+msgstr "Es wird versucht, %s mit einem Lock auszuführen!"
 
 msgid "Namespace can't contain colons."
 msgstr "Der Namespace darf keine Doppelpunkte enthalten."
@@ -69801,10 +69801,10 @@ msgid "Set edge type before loading graph!"
 msgstr "Edge-Typ vor dem Laden des Graphen festlegen!"
 
 msgid "File Name"
-msgstr ""
+msgstr "Dateiname"
 
 msgid "path/to/source.c"
-msgstr ""
+msgstr "pfad/zur/quelle.c"
 
 msgid "Line Number"
 msgstr "Zeilennummer"
@@ -69818,13 +69818,16 @@ msgstr "Repository-Callsign"
 
 
 msgid "Literal Percent Symbol"
-msgstr ""
+msgstr "Literales Prozentzeichen"
 
 #, php-format
 msgid ""
 "Editor pattern \"%s\" is invalid: the pattern contains an unrecognized "
 "variable (\"%s\"). Use \"%%%%\" to encode a literal percent symbol."
 msgstr ""
+"Editor-Muster \"%s\" ist ungültig: Das Muster enthält eine nicht erkannte "
+"Variable (\"%s\"). Verwende \"%%%%\", um ein literales Prozentzeichen zu "
+"kodieren."
 
 #, php-format
 msgid ""
@@ -69832,24 +69835,35 @@ msgid ""
 "protocol, but begins with a variable. This is very sneaky and also very "
 "forbidden."
 msgstr ""
+"Editor-Muster \"%s\" ist ungültig: Das Muster muss mit einem gültigen "
+"Editor-Protokoll beginnen, beginnt aber mit einer Variablen. Das ist sehr "
+"hinterlistig und außerdem streng verboten."
 
 #, php-format
 msgid ""
 "Editor pattern \"%s\" is invalid: the pattern must begin with a valid editor "
 "protocol, but does not begin with a recognized protocol string."
 msgstr ""
+"Editor-Muster \"%s\" ist ungültig: Das Muster muss mit einem gültigen "
+"Editor-Protokoll beginnen, beginnt aber nicht mit einer erkannten "
+"Protokollzeichenkette."
 
 #, php-format
 msgid ""
 "Editor pattern \"%s\" is invalid: the pattern must begin with a valid editor "
 "protocol, but the protocol \"%s://\" is not allowed."
 msgstr ""
+"Editor-Muster \"%s\" ist ungültig: Das Muster muss mit einem gültigen "
+"Editor-Protokoll beginnen, aber das Protokoll \"%s://\" ist nicht erlaubt."
 
 #, php-format
 msgid ""
 "Editor pattern token list can not be converted into a string: it still "
 "contains a non-literal token (\"%s\", of type \"%s\")."
 msgstr ""
+"Die Tokenliste des Editor-Musters kann nicht in eine Zeichenkette "
+"umgewandelt werden: Sie enthält noch ein nichtliterales Token (\"%s\" vom "
+"Typ \"%s\")."
 
 #, php-format
 msgid ""
@@ -69857,10 +69871,13 @@ msgid ""
 "be an unencoded percent symbol (\"%%\"). Use \"%%%%\" to encode a literal "
 "percent symbol."
 msgstr ""
+"Editor-Muster \"%s\" ist ungültig: Das letzte Zeichen eines Musters darf "
+"kein unkodiertes Prozentzeichen (\"%%\") sein. Verwende \"%%%%\", um ein "
+"literales Prozentzeichen zu kodieren."
 
 #, php-format
 msgid "Allowed editor \"xyz://\" template: %s."
-msgstr ""
+msgstr "Erlaubte Vorlage für den Editor \"xyz://\": %s."
 
 #, php-format
 msgid "Configuration file \"%s\" exists, but could not be read."
@@ -70241,35 +70258,35 @@ msgstr "Das Öffnen von %s ist fehlgeschlagen! %s."
 
 
 msgid "No viable means to download Peast is available."
-msgstr ""
+msgstr "Es ist keine brauchbare Möglichkeit verfügbar, Peast herunterzuladen."
 
 #, php-format
 msgid ""
 "Your version of '%s' is unbuilt or out of date. Run this script to build it."
-msgstr ""
+msgstr "Deine Version von '%s' ist nicht gebaut oder veraltet. Führe dieses Skript aus, um sie zu bauen."
 
 #, php-format
 msgid "Unexpected object type provided as `action` - %s"
-msgstr ""
+msgstr "Unerwarteter Objekttyp für `action` übergeben - %s"
 
 msgid "Javelin Linter"
-msgstr ""
+msgstr "Javelin-Linter"
 
 msgid ""
 "This linter is intended for use with the Javelin JS library and extensions."
-msgstr ""
+msgstr "Dieser Linter ist für die Verwendung mit der Javelin-JS-Bibliothek und Erweiterungen gedacht."
 
 msgid "Private Method/Member Access"
-msgstr ""
+msgstr "Zugriff auf private Methoden/Mitglieder"
 
 msgid "Missing Javelin Dependency"
-msgstr ""
+msgstr "Fehlende Javelin-Abhängigkeit"
 
 msgid "Unnecessary Javelin Dependency"
-msgstr ""
+msgstr "Unnötige Javelin-Abhängigkeit"
 
 msgid "Unknown Javelin Dependency"
-msgstr ""
+msgstr "Unbekannte Javelin-Abhängigkeit"
 
 msgid "Undocumented Install"
 msgstr "Nicht dokumentierte Installation"
@@ -70283,37 +70300,40 @@ msgid ""
 "This file accesses private symbol '%s' across file boundaries. You may only "
 "access private members and methods from the file where they are defined."
 msgstr ""
+"Diese Datei greift dateiübergreifend auf das private Symbol '%s' zu. Auf "
+"private Mitglieder und Methoden darfst du nur aus der Datei zugreifen, in "
+"der sie definiert sind."
 
 #, php-format
 msgid "This file installs component '%s', but does not document it."
-msgstr ""
+msgstr "Diese Datei installiert Komponente '%s', dokumentiert sie aber nicht."
 
 #, php-format
 msgid "This file %s component '%s', but does not actually install it."
-msgstr ""
+msgstr "Diese Datei %s Komponente '%s', installiert sie aber tatsächlich nicht."
 
 #, php-format
 msgid ""
 "This file %s component '%s', but it does not exist. You may need to rebuild "
 "the Celerity map."
-msgstr ""
+msgstr "Diese Datei %s Komponente '%s', aber sie existiert nicht. Möglicherweise musst du die Celerity-Map neu aufbauen."
 
 #, php-format
 msgid ""
 "This file uses '%s' but does not @requires the component which installs it. "
 "You may need to rebuild the Celerity map."
-msgstr ""
+msgstr "Diese Datei verwendet '%s', hat aber kein @requires auf die Komponente, die es installiert. Möglicherweise musst du die Celerity-Map neu aufbauen."
 
 #, php-format
 msgid "This file %s component '%s' but does not use anything it provides."
-msgstr ""
+msgstr "Diese Datei %s Komponente '%s', verwendet aber nichts, was sie bereitstellt."
 
 msgid "Modular Transactions Linter"
 msgstr "Modularer Transaktions-Linter"
 
 
 msgid "Should not override"
-msgstr ""
+msgstr "Sollte nicht überschrieben werden"
 
 #, php-format
 msgid ""
@@ -70321,16 +70341,19 @@ msgid ""
 "eventually become final. Use individual implementations of %s to provide "
 "each transaction type's behavior."
 msgstr ""
+"Implementierungen von %s sollten die Methode %s nicht überschreiben. Diese "
+"Methode wird später final. Verwende individuelle Implementierungen von %s, "
+"um das Verhalten jedes Transaktionstyps bereitzustellen."
 
 msgid "Token replacement count exceeded limit!"
-msgstr ""
+msgstr "Anzahl der Token-Ersetzungen hat das Limit überschritten!"
 
 #, php-format
 msgid "Invalid token '%s' in grammar."
-msgstr ""
+msgstr "Ungültiges Token '%s' in der Grammatik."
 
 msgid "<End of Session>"
-msgstr ""
+msgstr "<Ende der Sitzung>"
 
 #, php-format
 msgid "%s Write [%s bytes]"
@@ -70342,23 +70365,27 @@ msgstr "%s Lesen [%s Byte]"
 
 #, php-format
 msgid "Unable to parse time \"%s\"."
-msgstr ""
+msgstr "Zeit \"%s\" konnte nicht geparst werden."
 
 #, php-format
 msgid ""
 "Multiple user identifiers (%s) correspond to the same user. Identify each "
 "user exactly once."
 msgstr ""
+"Mehrere Benutzerkennungen (%s) entsprechen demselben Benutzer. Identifiziere "
+"jeden Benutzer genau einmal."
 
 #, php-format
 msgid "No user \"%s\" exists. Specify users by username, ID, or PHID."
-msgstr ""
+msgstr "Benutzer \"%s\" existiert nicht. Gib Benutzer per Benutzername, ID oder PHID an."
 
 #, php-format
 msgid ""
 "Identifier \"%s\" matches multiple users. Specify each user unambiguously "
 "with \"@username\" or by using user PHIDs."
 msgstr ""
+"Bezeichner \"%s\" passt zu mehreren Benutzern. Gib jeden Benutzer eindeutig "
+"mit \"@benutzername\" oder über Benutzer-PHIDs an."
 
 #, php-format
 msgid "Call %s before using results (key = '%s')."
@@ -70524,14 +70551,14 @@ msgstr "Einfach"
 
 
 msgid "Missing Class"
-msgstr ""
+msgstr "Fehlende Klasse"
 
 msgid "Extra Attribute"
 msgstr "Zusätzliches Attribut"
 
 #, php-format
 msgid "Pygmentize Parser: %s"
-msgstr ""
+msgstr "Pygmentize-Parser: %s"
 
 
 msgid "test %s value '%s' (from '%s' type %s)"
@@ -70540,16 +70567,16 @@ msgstr "teste %s-Wert '%s' (von '%s', Typ %s)"
 
 #, php-format
 msgid "%s - points to myself"
-msgstr ""
+msgstr "%s - verweist auf mich selbst"
 
 
 #, php-format
 msgid "%s - is just an anchor"
-msgstr ""
+msgstr "%s - ist nur ein Anker"
 
 #, php-format
 msgid "%s - is starting with slash"
-msgstr ""
+msgstr "%s - beginnt mit Slash"
 
 msgid "Can not build empty SELECT clause!"
 msgstr "Leere SELECT-Klausel kann nicht erstellt werden!"
@@ -70774,26 +70801,26 @@ msgstr "Zugriff auf Rohzeileneigenschaft „%s\" nicht möglich: Die Zeile hat d
 
 #, php-format
 msgid "Set a command channel before calling %s!"
-msgstr ""
+msgstr "Setze vor dem Aufruf von %s einen Befehlskanal!"
 
 #, php-format
 msgid "Set an IO channel before calling %s!"
-msgstr ""
+msgstr "Setze vor dem Aufruf von %s einen IO-Kanal!"
 
 #, php-format
 msgid "Set an error channel before calling %s!"
-msgstr ""
+msgstr "Setze vor dem Aufruf von %s einen Fehlerkanal!"
 
 #, php-format
 msgid "Attempting to access unknown status property (\"%s\")."
-msgstr ""
+msgstr "Es wird versucht, auf die unbekannte Status-Eigenschaft (\"%s\") zuzugreifen."
 
 msgid "Status specification has no \"key\"."
-msgstr ""
+msgstr "Statusspezifikation hat keinen \"key\"."
 
 #, php-format
 msgid "Multiple status definitions share the same key (\"%s\")."
-msgstr ""
+msgstr "Mehrere Statusdefinitionen verwenden denselben Schlüssel (\"%s\")."
 
 msgid "ID1 exists."
 msgstr "ID1 existiert."
@@ -72108,20 +72135,20 @@ msgstr "Abfrage hat mehr als eine Zeile zurückgegeben."
 msgid ""
 "Some test called %s, but is still holding a reference to the scoped "
 "environment!"
-msgstr ""
+msgstr "Ein Test hat %s aufgerufen, hält aber noch immer eine Referenz auf die Scoped Environment!"
 
 #, php-format
 msgid "Test User %s"
-msgstr ""
+msgstr "Testbenutzer %s"
 
 msgid ""
 "Executing test code outside of test execution! This code path can only be "
 "run during unit tests."
-msgstr ""
+msgstr "Testcode wird außerhalb einer Testausführung ausgeführt! Dieser Codepfad darf nur während Unit-Tests laufen."
 
 #, php-format
 msgid "No binary \"%s\" found on this system, skipping test."
-msgstr ""
+msgstr "Programm \"%s\" auf diesem System nicht gefunden, Test wird übersprungen."
 
 #, php-format
 msgid "Invalid timezone '%s'!"
