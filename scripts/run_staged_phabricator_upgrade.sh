@@ -2,41 +2,36 @@
 
 set -euo pipefail
 
-PHABRICATOR_DIR="/home/peter/phabricator-alt/phabricator"
-ARCANIST_DIR="/home/peter/phabricator-alt/arcanist"
-PHORGE_DIR="/home/peter/phorge-neu/phorge"
-PHORGE_ARCANIST_DIR="/home/peter/phorge-neu/arcanist"
+SERVER_DIR="/home/peter/phorge-neu/phorge"
+ARCANIST_DIR="/home/peter/phorge-neu/arcanist"
 START_AT=""
 USE_FORCE=0
 
 STAGES=(
-  "2015-12-31|phacility|fe6224f5059e269db130dcb2f22ded402f795e08|3dbc1418ff07de30cbd22193efad0efd5fc2d7f2"
-  "2016-12-31|phacility|69194fdaf51085249bcf3509469a25ec1e254ae9|e8b580d2e5e740071b25d087a0aca33f0b0dd691"
-  "2017-12-31|phacility|65fa04754a94a0f93673ed391c1808dd888d2012|08674ca997b62b695f773c32f0c20e51128bc053"
-  "2018-12-31|phacility|a3acd3450d7f93629f4cd0b6b4bf9b79e4213e95|97ddb9d5a1be282d6002a875a759266bb97b653f"
-  "2019-12-31|phacility|c4b4a53cad7722f031b725f8b41511e9d341d033|bac2028421a4be6e34e08764bbbda49e68b3a604"
-  "2021-02-15|phacility|9feb7343e662c12e794960905cf3f734cb59c251|faca82a3d55c83d0bb87c61d654f7a2f1f9682a6"
-  "2022-06-30|phacility|f2a7db1b1a1c3867f4a7b780a830608565caf3a2|b6babd9a07f428c68863cb38f2fa87114e9ca2eb"
-  "2022-08-31|phorge|377ac059d6dac4c6f443d95d7c375b2e443cbfe6|0c0b9644a6a86e338ff3e3ea9cfc3021c2d96785"
-  "2023-12-31|phorge|428f9686c4171912ee186ebd919640a7427da768|6142fcd5264ff605321657e75aae2701e3dd2108"
-  "2024-12-31|phorge|ed6644f31757fa88ba0fa524fbcfb991535eb42f|abda70208340f4869a9b725658bf38e64ccd4e0a"
-  "local-target|phorge-local|1ef1331f422841bee60a8b6c8b31ee0b4475a89a|29e20620fcc18c65fd1b280e92dbeaf8431c661d"
+  "2015-12-31|fe6224f5059e269db130dcb2f22ded402f795e08|3dbc1418ff07de30cbd22193efad0efd5fc2d7f2"
+  "2016-12-31|69194fdaf51085249bcf3509469a25ec1e254ae9|e8b580d2e5e740071b25d087a0aca33f0b0dd691"
+  "2017-12-31|65fa04754a94a0f93673ed391c1808dd888d2012|08674ca997b62b695f773c32f0c20e51128bc053"
+  "2018-12-31|a3acd3450d7f93629f4cd0b6b4bf9b79e4213e95|97ddb9d5a1be282d6002a875a759266bb97b653f"
+  "2019-12-31|c4b4a53cad7722f031b725f8b41511e9d341d033|bac2028421a4be6e34e08764bbbda49e68b3a604"
+  "2021-02-15|9feb7343e662c12e794960905cf3f734cb59c251|faca82a3d55c83d0bb87c61d654f7a2f1f9682a6"
+  "2022-06-30|f2a7db1b1a1c3867f4a7b780a830608565caf3a2|b6babd9a07f428c68863cb38f2fa87114e9ca2eb"
+  "2022-08-31|377ac059d6dac4c6f443d95d7c375b2e443cbfe6|0c0b9644a6a86e338ff3e3ea9cfc3021c2d96785"
+  "2023-12-31|428f9686c4171912ee186ebd919640a7427da768|6142fcd5264ff605321657e75aae2701e3dd2108"
+  "2024-12-31|ed6644f31757fa88ba0fa524fbcfb991535eb42f|abda70208340f4869a9b725658bf38e64ccd4e0a"
+  "local-target|1ef1331f422841bee60a8b6c8b31ee0b4475a89a|29e20620fcc18c65fd1b280e92dbeaf8431c661d"
 )
 
 usage() {
   cat <<EOF
 Usage: $(basename "$0") [options]
 
-Checks out curated Phacility stable-stage commits in arcanist/ and
-phabricator/, then runs "bin/storage upgrade" at each stage.
+Checks out curated staged commits in one server working copy and one
+Arcanist working copy, then runs "bin/storage upgrade" at each stage.
 The script aborts immediately on the first failed checkout or upgrade.
 
 Options:
-  --phabricator-dir PATH   Path to the Phabricator working copy.
+  --server-dir PATH        Path to the server working copy.
   --arcanist-dir PATH      Path to the Arcanist working copy.
-  --phorge-dir PATH        Path to the Phorge working copy.
-  --phorge-arcanist-dir PATH
-                           Path to the Phorge Arcanist working copy.
   --start-at LABEL         Start at a stage label like "2018-12-31".
   --force                  Pass --force to bin/storage upgrade.
   --list                   Print configured stages and exit.
@@ -45,11 +40,10 @@ EOF
 }
 
 list_stages() {
-  local stage label family server client
+  local stage label server client
   for stage in "${STAGES[@]}"; do
-    IFS="|" read -r label family server client <<<"$stage"
+    IFS="|" read -r label server client <<<"$stage"
     printf '%s\n' "$label"
-    printf '  family     %s\n' "$family"
     printf '  server     %s\n' "$server"
     printf '  arcanist   %s\n' "$client"
   done
@@ -57,20 +51,12 @@ list_stages() {
 
 while [[ $# -gt 0 ]]; do
   case "$1" in
-    --phabricator-dir)
-      PHABRICATOR_DIR="$2"
+    --server-dir)
+      SERVER_DIR="$2"
       shift 2
       ;;
     --arcanist-dir)
       ARCANIST_DIR="$2"
-      shift 2
-      ;;
-    --phorge-dir)
-      PHORGE_DIR="$2"
-      shift 2
-      ;;
-    --phorge-arcanist-dir)
-      PHORGE_ARCANIST_DIR="$2"
       shift 2
       ;;
     --start-at)
@@ -111,17 +97,13 @@ require_clean_repo() {
   fi
 }
 
-require_clean_repo "$PHABRICATOR_DIR"
+require_clean_repo "$SERVER_DIR"
 require_clean_repo "$ARCANIST_DIR"
-require_clean_repo "$PHORGE_DIR"
-require_clean_repo "$PHORGE_ARCANIST_DIR"
 
-git -C "$PHABRICATOR_DIR" fetch origin
+git -C "$SERVER_DIR" fetch origin
+git -C "$SERVER_DIR" fetch upstream
 git -C "$ARCANIST_DIR" fetch origin
-git -C "$PHORGE_DIR" fetch origin
-git -C "$PHORGE_DIR" fetch upstream
-git -C "$PHORGE_ARCANIST_DIR" fetch origin
-git -C "$PHORGE_ARCANIST_DIR" fetch upstream
+git -C "$ARCANIST_DIR" fetch upstream
 
 upgrade_args=()
 if [[ $USE_FORCE -eq 1 ]]; then
@@ -134,7 +116,7 @@ if [[ -z "$START_AT" ]]; then
 fi
 
 for stage in "${STAGES[@]}"; do
-  IFS="|" read -r label family server_commit client_commit <<<"$stage"
+  IFS="|" read -r label server_commit client_commit <<<"$stage"
 
   if [[ $seen_start -eq 0 ]]; then
     if [[ "$label" != "$START_AT" ]]; then
@@ -143,34 +125,16 @@ for stage in "${STAGES[@]}"; do
     seen_start=1
   fi
 
-  case "$family" in
-    phacility)
-      server_dir="$PHABRICATOR_DIR"
-      client_dir="$ARCANIST_DIR"
-      server_name="phabricator"
-      ;;
-    phorge|phorge-local)
-      server_dir="$PHORGE_DIR"
-      client_dir="$PHORGE_ARCANIST_DIR"
-      server_name="phorge"
-      ;;
-    *)
-      printf 'Unknown stage family: %s\n' "$family" >&2
-      exit 1
-      ;;
-  esac
-
   printf '\n== Stage %s ==\n' "$label"
-  printf 'Using %s working copies\n' "$family"
   printf 'Checking out arcanist %s\n' "$client_commit"
-  git -C "$client_dir" checkout "$client_commit"
+  git -C "$ARCANIST_DIR" checkout "$client_commit"
 
-  printf 'Checking out %s %s\n' "$server_name" "$server_commit"
-  git -C "$server_dir" checkout "$server_commit"
+  printf 'Checking out server %s\n' "$server_commit"
+  git -C "$SERVER_DIR" checkout "$server_commit"
 
   printf 'Running storage upgrade at %s\n' "$label"
   (
-    cd "$server_dir"
+    cd "$SERVER_DIR"
     ./bin/storage upgrade "${upgrade_args[@]}"
   )
 
