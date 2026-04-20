@@ -346,17 +346,17 @@ Verification:
 
 ### `018-fix-storage-upgrade-dependency-for-maniphest-duplicate-migration.patch`
 
-This patch fixes a long-jump storage upgrade failure in the historical
-Maniphest duplicate-migration patch.
+This patch fixes a long-jump storage upgrade failure around the historical
+Maniphest duplicate-migration patch and later worker rebuild patches.
 
-The affected patch is:
+The first observed failure was in:
 
 - `resources/sql/autopatches/20170528.maniphestdupes.php`
 
 That historical PHP patch uses current application query code while upgrading
 old data. On modern Phorge, this code path can schedule worker tasks. Current
-worker tasks write the nullable `containerPHID` column, which only arrives
-later in the schema history via:
+worker tasks write the nullable `containerPHID` column, but this column only
+arrives later in the schema history via:
 
 - `resources/sql/autopatches/20210122.queuecontainer.01.sql`
 
@@ -364,26 +364,36 @@ On an upgrade from an older Phabricator schema, the result is a crash like:
 
 - `Unknown column 'containerPHID' in 'field list'`
 
-The corrective change is intentionally minimal:
+An earlier attempt to solve this with a direct dependency from the 2017 patch
+to the 2021 schema patch turned out to be wrong. Because `20170528` already
+has later default-phase successors, that dependency creates an implicit cycle
+in the default patch chain and allows the upgrade loop to jump ahead to
+worker-phase rebuild patches instead.
 
-- keep the historical migration logic unchanged
-- add an explicit storage-patch dependency so the later queue schema patch is
-  applied before the older PHP migration runs
+The corrective change therefore takes a different shape:
+
+- `20170528.maniphestdupes.php` now creates `containerPHID` on the worker task
+  tables if the column is still missing
+- the `20210122.queuecontainer.01.sql` patch key is kept, but it is routed to a
+  PHP patch implementation which performs the same column additions idempotently
+  instead of crashing when the columns already exist
 
 Why this shape was chosen:
 
-- it is much smaller and easier to explain upstream than rewriting the
-  historical migration to avoid all modern side effects
-- `20210122.queuecontainer.01.sql` is an additive schema patch which only adds
-  nullable columns to worker queue tables
-- the dependency models the real requirement of the code path as it exists
-  today
+- it keeps the historical patch ordering intact
+- it fixes the first failing 2017 migration and the later 2019 worker rebuild
+  patches with the same early schema guard
+- it avoids relying on database-specific `ADD COLUMN IF NOT EXISTS` syntax in
+  historical storage patches
 
 Verification:
 
-- syntax check of `src/infrastructure/storage/patch/PhabricatorBuiltinPatchList.php`
-- reproduction analysis against the failing upgrade path from
-  `20170528.maniphestdupes.php` into `PhabricatorWorker::scheduleTask()`
-- inspection of `20210122.queuecontainer.01.sql` confirms that it only adds
-  nullable `containerPHID` columns to `worker_activetask` and
-  `worker_archivetask`
+- syntax check of:
+  `resources/sql/autopatches/20170528.maniphestdupes.php`,
+  `resources/sql/patches/20210122.queuecontainer.php`,
+  `src/infrastructure/storage/patch/PhabricatorBuiltinPatchList.php`
+- patch graph inspection confirms:
+  `20170528.maniphestdupes.php` is back on its original dependency chain
+- patch graph inspection confirms:
+  `20210122.queuecontainer.01.sql` still keeps its original key and default
+  phase, but now executes through the idempotent PHP wrapper

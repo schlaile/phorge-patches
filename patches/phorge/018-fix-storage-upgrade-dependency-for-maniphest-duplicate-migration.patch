@@ -1,51 +1,84 @@
-From d2de81af920ac1c68d51854d771c994279dda6d4 Mon Sep 17 00:00:00 2001
-From: Alicia Codex <alicia@schlaile.de>
-Date: Mon, 20 Apr 2026 21:23:08 +0200
-Subject: [PATCH] Fix storage upgrade dependency for maniphest duplicate
- migration
-
-The historical storage patch `20170528.maniphestdupes.php` uses current
-application query code to inspect transactions and comments while upgrading
-old databases.
-
-On modern Phorge, that code path can schedule worker tasks. Current worker
-tasks include the nullable `containerPHID` column, which was added much later
-by `20210122.queuecontainer.01.sql`.
-
-During a long-jump upgrade from an older Phabricator schema, this means the
-2017 patch can run before the 2021 queue schema patch, then fail while trying
-to insert into `worker_activetask` with:
-
-  Unknown column 'containerPHID' in 'field list'
-
-The minimal corrective change is to make the historical PHP patch depend on
-the later queue-container schema patch explicitly. This keeps the migration
-logic unchanged, avoids a larger rewrite of the historical patch, and makes
-the upgrade ordering match the assumptions of the code it executes today.
-
----
- .../storage/patch/PhabricatorBuiltinPatchList.php         | 8 +++++++-
- 1 file changed, 7 insertions(+), 1 deletion(-)
-
+diff --git a/resources/sql/autopatches/20170528.maniphestdupes.php b/resources/sql/autopatches/20170528.maniphestdupes.php
+index aea8ae93d2..abbf2857fc 100644
+--- a/resources/sql/autopatches/20170528.maniphestdupes.php
++++ b/resources/sql/autopatches/20170528.maniphestdupes.php
+@@ -1,5 +1,30 @@
+ <?php
+ 
++$tables = array(
++  new PhabricatorWorkerActiveTask(),
++  new PhabricatorWorkerArchiveTask(),
++);
++
++foreach ($tables as $table) {
++  $conn = $table->establishConnection('w');
++  $table_name = $table->getTableName();
++
++  $has_column = queryfx_one(
++    $conn,
++    'SHOW COLUMNS FROM %T LIKE %>',
++    $table_name,
++    'containerPHID');
++
++  if ($has_column) {
++    continue;
++  }
++
++  queryfx(
++    $conn,
++    'ALTER TABLE %T ADD containerPHID VARBINARY(64)',
++    $table_name);
++}
++
+ $table = new ManiphestTransaction();
+ $add_edges = array();
+ 
 diff --git a/src/infrastructure/storage/patch/PhabricatorBuiltinPatchList.php b/src/infrastructure/storage/patch/PhabricatorBuiltinPatchList.php
-index f408dc7400..5cc7da76c3 100644
+index 5cc7da76c3..04e08db9ca 100644
 --- a/src/infrastructure/storage/patch/PhabricatorBuiltinPatchList.php
 +++ b/src/infrastructure/storage/patch/PhabricatorBuiltinPatchList.php
-@@ -39,7 +39,13 @@ final class PhabricatorBuiltinPatchList extends PhabricatorSQLPatchList {
- 
-     $root = dirname(phutil_get_library_root('phabricator'));
+@@ -41,9 +41,9 @@ final class PhabricatorBuiltinPatchList extends PhabricatorSQLPatchList {
      $auto_root = $root.'/resources/sql/autopatches/';
--    $patches += $this->buildPatchesFromDirectory($auto_root);
-+    $autopatches = $this->buildPatchesFromDirectory($auto_root);
-+
-+    $autopatches['20170528.maniphestdupes.php']['after'] = array(
-+      '20210122.queuecontainer.01.sql',
-+    );
-+
-+    $patches += $autopatches;
+     $autopatches = $this->buildPatchesFromDirectory($auto_root);
  
-     return $patches;
-   }
--- 
-2.47.3
-
+-    $autopatches['20170528.maniphestdupes.php']['after'] = array(
+-      '20210122.queuecontainer.01.sql',
+-    );
++    $autopatches['20210122.queuecontainer.01.sql']['type'] = 'php';
++    $autopatches['20210122.queuecontainer.01.sql']['name'] =
++      $this->getPatchPath('20210122.queuecontainer.php');
+ 
+     $patches += $autopatches;
+ 
+diff --git a/resources/sql/patches/20210122.queuecontainer.php b/resources/sql/patches/20210122.queuecontainer.php
+new file mode 100644
+index 0000000..89e1e5b
+--- /dev/null
++++ b/resources/sql/patches/20210122.queuecontainer.php
+@@ -0,0 +1,26 @@
++<?php
++
++$tables = array(
++  new PhabricatorWorkerActiveTask(),
++  new PhabricatorWorkerArchiveTask(),
++);
++
++foreach ($tables as $table) {
++  $conn = $table->establishConnection('w');
++  $table_name = $table->getTableName();
++
++  $has_column = queryfx_one(
++    $conn,
++    'SHOW COLUMNS FROM %T LIKE %>',
++    $table_name,
++    'containerPHID');
++
++  if ($has_column) {
++    continue;
++  }
++
++  queryfx(
++    $conn,
++    'ALTER TABLE %T ADD containerPHID VARBINARY(64)',
++    $table_name);
++}
