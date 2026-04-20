@@ -343,3 +343,47 @@ Verification:
 - targeted `rector` dry-run on the same files after the patch
 - result: only a separate unused-catch cleanup remains; no further strict
   string-argument fixes are suggested on these files
+
+### `018-fix-storage-upgrade-dependency-for-maniphest-duplicate-migration.patch`
+
+This patch fixes a long-jump storage upgrade failure in the historical
+Maniphest duplicate-migration patch.
+
+The affected patch is:
+
+- `resources/sql/autopatches/20170528.maniphestdupes.php`
+
+That historical PHP patch uses current application query code while upgrading
+old data. On modern Phorge, this code path can schedule worker tasks. Current
+worker tasks write the nullable `containerPHID` column, which only arrives
+later in the schema history via:
+
+- `resources/sql/autopatches/20210122.queuecontainer.01.sql`
+
+On an upgrade from an older Phabricator schema, the result is a crash like:
+
+- `Unknown column 'containerPHID' in 'field list'`
+
+The corrective change is intentionally minimal:
+
+- keep the historical migration logic unchanged
+- add an explicit storage-patch dependency so the later queue schema patch is
+  applied before the older PHP migration runs
+
+Why this shape was chosen:
+
+- it is much smaller and easier to explain upstream than rewriting the
+  historical migration to avoid all modern side effects
+- `20210122.queuecontainer.01.sql` is an additive schema patch which only adds
+  nullable columns to worker queue tables
+- the dependency models the real requirement of the code path as it exists
+  today
+
+Verification:
+
+- syntax check of `src/infrastructure/storage/patch/PhabricatorBuiltinPatchList.php`
+- reproduction analysis against the failing upgrade path from
+  `20170528.maniphestdupes.php` into `PhabricatorWorker::scheduleTask()`
+- inspection of `20210122.queuecontainer.01.sql` confirms that it only adds
+  nullable `containerPHID` columns to `worker_activetask` and
+  `worker_archivetask`
