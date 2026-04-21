@@ -6,7 +6,6 @@ SERVER_DIR="/home/peter/phorge-neu/phorge"
 ARCANIST_DIR="/home/peter/phorge-neu/arcanist"
 START_AT=""
 USE_FORCE=0
-FETCH_UPSTREAM=0
 
 STAGES=(
   "2015-12-31|fe6224f5059e269db130dcb2f22ded402f795e08|3dbc1418ff07de30cbd22193efad0efd5fc2d7f2"
@@ -15,7 +14,7 @@ STAGES=(
   "2018-12-31|a3acd3450d7f93629f4cd0b6b4bf9b79e4213e95|97ddb9d5a1be282d6002a875a759266bb97b653f"
   "2019-12-31|c4b4a53cad7722f031b725f8b41511e9d341d033|bac2028421a4be6e34e08764bbbda49e68b3a604"
   "2021-02-15|9feb7343e662c12e794960905cf3f734cb59c251|faca82a3d55c83d0bb87c61d654f7a2f1f9682a6"
-  "2022-06-30|f2a7db1b1a1c3867f4a7b780a830608565caf3a2|b6babd9a07f428c68863cb38f2fa87114e9ca2eb"
+  "2022-06-30|9426765a2c6a149f5b0ed2d9132cd1e4e7ee152d|85c953ebe4a6fef332158fd757d97c5a58682d3a"
   "2022-08-31|377ac059d6dac4c6f443d95d7c375b2e443cbfe6|0c0b9644a6a86e338ff3e3ea9cfc3021c2d96785"
   "2023-12-31|428f9686c4171912ee186ebd919640a7427da768|6142fcd5264ff605321657e75aae2701e3dd2108"
   "2024-12-31|ed6644f31757fa88ba0fa524fbcfb991535eb42f|abda70208340f4869a9b725658bf38e64ccd4e0a"
@@ -35,7 +34,6 @@ Options:
   --arcanist-dir PATH      Path to the Arcanist working copy.
   --start-at LABEL         Start at a stage label like "2018-12-31".
   --force                  Pass --force to bin/storage upgrade.
-  --fetch-upstream         Also fetch the "upstream" remote if it exists.
   --list                   Print configured stages and exit.
   -h, --help               Show this help.
 EOF
@@ -67,10 +65,6 @@ while [[ $# -gt 0 ]]; do
       ;;
     --force)
       USE_FORCE=1
-      shift
-      ;;
-    --fetch-upstream)
-      FETCH_UPSTREAM=1
       shift
       ;;
     --list)
@@ -106,13 +100,32 @@ require_clean_repo() {
 require_clean_repo "$SERVER_DIR"
 require_clean_repo "$ARCANIST_DIR"
 
-git -C "$SERVER_DIR" fetch origin
-git -C "$ARCANIST_DIR" fetch origin
+fetch_origin_history() {
+  local repo="$1"
 
-if [[ $FETCH_UPSTREAM -eq 1 ]]; then
-  git -C "$SERVER_DIR" fetch upstream
-  git -C "$ARCANIST_DIR" fetch upstream
-fi
+  if git -C "$repo" ls-remote --exit-code --heads origin stable >/dev/null 2>&1; then
+    git -C "$repo" fetch origin master stable
+  else
+    git -C "$repo" fetch origin master
+  fi
+}
+
+fetch_origin_history "$SERVER_DIR"
+fetch_origin_history "$ARCANIST_DIR"
+
+require_commit() {
+  local repo="$1"
+  local commit="$2"
+  local label="$3"
+
+  if ! git -C "$repo" cat-file -e "${commit}^{commit}" 2>/dev/null; then
+    printf 'Required commit for stage %s is not available in %s: %s\n' \
+      "$label" "$repo" "$commit" >&2
+    printf 'The clone likely does not have the needed origin history.\n' >&2
+    printf 'Make sure the fork exposes the required branch history and rerun the script.\n' >&2
+    exit 1
+  fi
+}
 
 upgrade_args=()
 if [[ $USE_FORCE -eq 1 ]]; then
@@ -135,6 +148,9 @@ for stage in "${STAGES[@]}"; do
   fi
 
   printf '\n== Stage %s ==\n' "$label"
+  require_commit "$ARCANIST_DIR" "$client_commit" "$label"
+  require_commit "$SERVER_DIR" "$server_commit" "$label"
+
   printf 'Checking out arcanist %s\n' "$client_commit"
   git -C "$ARCANIST_DIR" checkout "$client_commit"
 
