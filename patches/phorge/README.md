@@ -397,3 +397,34 @@ Verification:
 - patch graph inspection confirms:
   `20210122.queuecontainer.01.sql` still keeps its original key and default
   phase, but now executes through the idempotent PHP wrapper
+
+### `019-make-phriction-document-actions-layout-configurable.patch`
+
+This patch makes the Phriction document action layout configurable instead of
+hard-coding one side in the older dropdown-versus-curtain design tradeoff.
+
+Background:
+
+- Phriction originally used a compact dropdown for document actions
+- later, it was changed to a permanently visible curtain so actions were not
+  hidden in a menu
+- both approaches have real tradeoffs: the curtain keeps actions visible, but
+  it can waste a large amount of space on index-like or nearly empty wiki
+  pages where the document hierarchy is more important than the page body
+
+The patch adds a small application config option:
+
+- `phriction.document-actions = curtain|dropdown`
+
+with the current behavior (`curtain`) kept as the default.
+
+This keeps existing installs unchanged while allowing administrators to switch
+Phriction back to a compact header dropdown if that better fits their wiki
+content and navigation patterns.
+
+Verification:
+
+- `arc liberate --` to regenerate `src/__phutil_library_map__.php`
+- `bin/config list` confirms that `phriction.document-actions` is registered
+- syntax check of `src/applications/phriction/config/PhabricatorPhrictionConfigOptions.php`
+- syntax check of `src/applications/phriction/controller/PhrictionDocumentController.php`

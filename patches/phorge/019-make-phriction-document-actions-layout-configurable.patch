@@ -1,0 +1,106 @@
+diff --git a/src/__phutil_library_map__.php b/src/__phutil_library_map__.php
+index 5fcd8a25d1..13b3d61b4d 100644
+--- a/src/__phutil_library_map__.php
++++ b/src/__phutil_library_map__.php
+@@ -4263,6 +4263,7 @@ phutil_register_library_map(array(
+     'PhabricatorPhortuneTestCase' => 'applications/phortune/__tests__/PhabricatorPhortuneTestCase.php',
+     'PhabricatorPhrequentApplication' => 'applications/phrequent/application/PhabricatorPhrequentApplication.php',
+     'PhabricatorPhrictionApplication' => 'applications/phriction/application/PhabricatorPhrictionApplication.php',
++    'PhabricatorPhrictionConfigOptions' => 'applications/phriction/config/PhabricatorPhrictionConfigOptions.php',
+     'PhabricatorPhurlApplication' => 'applications/phurl/application/PhabricatorPhurlApplication.php',
+     'PhabricatorPhurlConfigOptions' => 'applications/phurl/config/PhabricatorPhurlConfigOptions.php',
+     'PhabricatorPhurlController' => 'applications/phurl/controller/PhabricatorPhurlController.php',
+@@ -10920,6 +10921,7 @@ phutil_register_library_map(array(
+     'PhabricatorPhortuneTestCase' => 'PhabricatorTestCase',
+     'PhabricatorPhrequentApplication' => 'PhabricatorApplication',
+     'PhabricatorPhrictionApplication' => 'PhabricatorApplication',
++    'PhabricatorPhrictionConfigOptions' => 'PhabricatorApplicationConfigOptions',
+     'PhabricatorPhurlApplication' => 'PhabricatorApplication',
+     'PhabricatorPhurlConfigOptions' => 'PhabricatorApplicationConfigOptions',
+     'PhabricatorPhurlController' => 'PhabricatorController',
+diff --git a/src/applications/phriction/config/PhabricatorPhrictionConfigOptions.php b/src/applications/phriction/config/PhabricatorPhrictionConfigOptions.php
+new file mode 100644
+index 0000000000..d7c0b20d9a
+--- /dev/null
++++ b/src/applications/phriction/config/PhabricatorPhrictionConfigOptions.php
+@@ -0,0 +1,47 @@
++<?php
++
++final class PhabricatorPhrictionConfigOptions
++  extends PhabricatorApplicationConfigOptions {
++
++  public function getName() {
++    return pht('Phriction');
++  }
++
++  public function getDescription() {
++    return pht('Configure Phriction.');
++  }
++
++  public function getIcon() {
++    return 'fa-book';
++  }
++
++  public function getGroup() {
++    return 'apps';
++  }
++
++  public function getApplicationClassName() {
++    return PhabricatorPhrictionApplication::class;
++  }
++
++  public function getOptions() {
++    return array(
++      $this->newOption('phriction.document-actions', 'enum', 'curtain')
++        ->setEnumOptions(
++          array(
++            'curtain' => pht('Visible Side Menu'),
++            'dropdown' => pht('Header Dropdown'),
++          ))
++        ->setSummary(
++          pht('Choose how Phriction document actions are displayed.'))
++        ->setDescription(
++          pht(
++            'Choose how actions like edit, history, move, and delete are '.
++            'presented on Phriction document pages. Use the visible side menu '.
++            'to keep actions always on the page, or use the header dropdown '.
++            'to keep the document layout more compact.'))
++        ->addExample('curtain', pht('Show actions in a visible side menu.'))
++        ->addExample('dropdown', pht('Show actions in a header dropdown.')),
++    );
++  }
++
++}
+diff --git a/src/applications/phriction/controller/PhrictionDocumentController.php b/src/applications/phriction/controller/PhrictionDocumentController.php
+index 11b0b63174..b44caf0be7 100644
+--- a/src/applications/phriction/controller/PhrictionDocumentController.php
++++ b/src/applications/phriction/controller/PhrictionDocumentController.php
+@@ -297,9 +297,17 @@ final class PhrictionDocumentController
+ 
+     $children = $this->renderDocumentChildren($slug);
+ 
++    $action_list = null;
+     $curtain = null;
+     if ($document->getID()) {
+       $curtain = $this->buildCurtain($document, $content);
++
++      $action_mode = PhabricatorEnv::getEnvConfig(
++        'phriction.document-actions');
++      if ($action_mode == 'dropdown') {
++        $action_list = $curtain->getActionList();
++        $curtain = null;
++      }
+     }
+ 
+     $crumbs = $this->buildApplicationCrumbs();
+@@ -314,6 +322,10 @@ final class PhrictionDocumentController
+       ->setPolicyObject($document)
+       ->setHeader($page_title);
+ 
++    if ($action_list) {
++      $header->setActionList($action_list);
++    }
++
+     if ($is_draft) {
+       $draft_tag = id(new PHUITagView())
+         ->setName(pht('Draft'))
