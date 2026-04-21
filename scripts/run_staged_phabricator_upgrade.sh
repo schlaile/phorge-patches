@@ -6,6 +6,7 @@ SERVER_DIR="/home/peter/phorge-neu/phorge"
 ARCANIST_DIR="/home/peter/phorge-neu/arcanist"
 LIBPHUTIL_DIR="/home/peter/phorge-neu/libphutil"
 START_AT=""
+STOP_AFTER=""
 USE_FORCE=0
 
 STAGES=(
@@ -37,6 +38,7 @@ Options:
   --libphutil-dir PATH     Path to the libphutil working copy used in the
                            Phacility phase.
   --start-at LABEL         Start at a stage label like "2018-12-31".
+  --stop-after LABEL       Stop after a stage label like "2018-12-31".
   --force                  Pass --force to bin/storage upgrade.
   --list                   Print configured stages and exit.
   -h, --help               Show this help.
@@ -72,6 +74,10 @@ while [[ $# -gt 0 ]]; do
       ;;
     --start-at)
       START_AT="$2"
+      shift 2
+      ;;
+    --stop-after)
+      STOP_AFTER="$2"
       shift 2
       ;;
     --force)
@@ -150,6 +156,8 @@ if [[ -z "$START_AT" ]]; then
   seen_start=1
 fi
 
+seen_stop=0
+
 for stage in "${STAGES[@]}"; do
   IFS="|" read -r label server_commit client_commit libphutil_commit <<<"$stage"
 
@@ -179,16 +187,35 @@ for stage in "${STAGES[@]}"; do
   git -C "$SERVER_DIR" checkout "$server_commit"
 
   printf 'Running storage upgrade at %s\n' "$label"
+  set +e
   (
     cd "$SERVER_DIR"
     ./bin/storage upgrade "${upgrade_args[@]}"
   )
+  status=$?
+  set -e
+  if [[ $status -ne 0 ]]; then
+    printf '\nStage %s failed: bin/storage upgrade exited with status %s.\n' \
+      "$label" "$status" >&2
+    exit "$status"
+  fi
 
   printf 'Stage %s completed successfully.\n' "$label"
+
+  if [[ -n "$STOP_AFTER" && "$label" == "$STOP_AFTER" ]]; then
+    seen_stop=1
+    printf '\nStopping after requested stage %s.\n' "$label"
+    exit 0
+  fi
 done
 
 if [[ $seen_start -eq 0 ]]; then
   printf 'Unknown --start-at label: %s\n' "$START_AT" >&2
+  exit 1
+fi
+
+if [[ -n "$STOP_AFTER" && $seen_stop -eq 0 ]]; then
+  printf 'Unknown --stop-after label: %s\n' "$STOP_AFTER" >&2
   exit 1
 fi
 
