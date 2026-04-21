@@ -428,3 +428,33 @@ Verification:
 - `bin/config list` confirms that `phriction.document-actions` is registered
 - syntax check of `src/applications/phriction/config/PhabricatorPhrictionConfigOptions.php`
 - syntax check of `src/applications/phriction/controller/PhrictionDocumentController.php`
+
+### `020-make-logged-out-home-behavior-configurable.patch`
+
+This patch makes the behavior of the home URI for logged-out visitors
+configurable.
+
+Background:
+
+- the modern Home controller explicitly supports logged-out viewers
+- this is useful for public installs where anonymous users should land on a
+  public dashboard
+- private installs often want the older behavior instead, where visiting `/`
+  while logged out takes the user directly to the login screen
+
+The patch adds:
+
+- `home.logged-out-mode = home|login`
+
+with the current behavior (`home`) kept as the default.
+
+When set to `login`, the Home controller redirects logged-out visitors to
+`/auth/start/` and preserves the original target as `next`, so they return to
+the requested home URI after login.
+
+Verification:
+
+- `arc liberate --` to regenerate `src/__phutil_library_map__.php`
+- `bin/config list` confirms that `home.logged-out-mode` is registered
+- syntax check of `src/applications/home/config/PhabricatorHomeConfigOptions.php`
+- syntax check of `src/applications/home/controller/PhabricatorHomeMenuItemController.php`
