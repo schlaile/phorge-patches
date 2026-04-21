@@ -23,6 +23,14 @@ EOTEXT;
 
 main($argv);
 
+function po_str_starts_with(string $haystack, string $needle): bool {
+  return strncmp($haystack, $needle, strlen($needle)) === 0;
+}
+
+function po_str_contains(string $haystack, string $needle): bool {
+  return strpos($haystack, $needle) !== false;
+}
+
 function main(array $argv): void {
   try {
     $options = parse_cli_arguments($argv);
@@ -106,7 +114,7 @@ function parse_cli_arguments(array $argv): array {
         $options[$key] = $argv[$ii];
         break;
       default:
-        if (str_starts_with($arg, '--') && str_contains($arg, '=')) {
+        if (po_str_starts_with($arg, '--') && po_str_contains($arg, '=')) {
           [$flag, $value] = explode('=', $arg, 2);
           $key = ltrim($flag, '-');
           if (!array_key_exists($key, $options)) {
@@ -160,7 +168,7 @@ function parse_po_entries(string $path): array {
       continue;
     }
 
-    if (str_starts_with($line, '#,')) {
+    if (po_str_starts_with($line, '#,')) {
       $flag_line = trim(substr($line, 2));
       foreach (explode(',', $flag_line) as $flag) {
         $flag = trim($flag);
@@ -172,7 +180,7 @@ function parse_po_entries(string $path): array {
       continue;
     }
 
-    if (str_starts_with($line, '#')) {
+    if (po_str_starts_with($line, '#')) {
       $entry['comments'][] = $line;
       $active = null;
       continue;
@@ -345,7 +353,7 @@ function build_translation_map(array $entries, bool $include_fuzzy, string $path
   );
 }
 
-function build_simple_translation_value(array $entry, string $path, int $index): array|string|null {
+function build_simple_translation_value(array $entry, string $path, int $index) {
   $translation = $entry['msgstr'];
   if ($translation === '') {
     return null;
@@ -390,9 +398,9 @@ function decode_special_translation_value(
   string $translation,
   string $msgid,
   string $path,
-  int $index): array|string {
+  int $index) {
 
-  if (!str_starts_with($translation, "I18N-ARRAY\n")) {
+  if (!po_str_starts_with($translation, "I18N-ARRAY\n")) {
     return $translation;
   }
 
@@ -568,7 +576,7 @@ final class I18NArrayParser {
     return $result;
   }
 
-  private function parseValue(): array|string {
+  private function parseValue() {
     $char = $this->peek();
     if ($char === '[') {
       return $this->parseArray();
@@ -651,7 +659,7 @@ final class I18NArrayParser {
     return $this->input[$this->offset];
   }
 
-  private function fail(string $message): never {
+  private function fail(string $message) {
     throw new RuntimeException(
       sprintf(
         '%s: invalid I18N-ARRAY for msgid "%s" (entry %d, offset %d): %s',
