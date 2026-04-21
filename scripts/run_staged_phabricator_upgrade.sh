@@ -6,6 +6,7 @@ SERVER_DIR="/home/peter/phorge-neu/phorge"
 ARCANIST_DIR="/home/peter/phorge-neu/arcanist"
 START_AT=""
 USE_FORCE=0
+FETCH_UPSTREAM=0
 
 STAGES=(
   "2015-12-31|fe6224f5059e269db130dcb2f22ded402f795e08|3dbc1418ff07de30cbd22193efad0efd5fc2d7f2"
@@ -34,6 +35,7 @@ Options:
   --arcanist-dir PATH      Path to the Arcanist working copy.
   --start-at LABEL         Start at a stage label like "2018-12-31".
   --force                  Pass --force to bin/storage upgrade.
+  --fetch-upstream         Also fetch the "upstream" remote if it exists.
   --list                   Print configured stages and exit.
   -h, --help               Show this help.
 EOF
@@ -65,6 +67,10 @@ while [[ $# -gt 0 ]]; do
       ;;
     --force)
       USE_FORCE=1
+      shift
+      ;;
+    --fetch-upstream)
+      FETCH_UPSTREAM=1
       shift
       ;;
     --list)
@@ -101,9 +107,12 @@ require_clean_repo "$SERVER_DIR"
 require_clean_repo "$ARCANIST_DIR"
 
 git -C "$SERVER_DIR" fetch origin
-git -C "$SERVER_DIR" fetch upstream
 git -C "$ARCANIST_DIR" fetch origin
-git -C "$ARCANIST_DIR" fetch upstream
+
+if [[ $FETCH_UPSTREAM -eq 1 ]]; then
+  git -C "$SERVER_DIR" fetch upstream
+  git -C "$ARCANIST_DIR" fetch upstream
+fi
 
 upgrade_args=()
 if [[ $USE_FORCE -eq 1 ]]; then
