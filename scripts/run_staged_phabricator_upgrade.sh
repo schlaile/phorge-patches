@@ -4,16 +4,18 @@ set -euo pipefail
 
 SERVER_DIR="/home/peter/phorge-neu/phorge"
 ARCANIST_DIR="/home/peter/phorge-neu/arcanist"
+LIBPHUTIL_DIR="/home/peter/phorge-neu/libphutil"
 START_AT=""
 USE_FORCE=0
 
 STAGES=(
-  "2015-12-31|fe6224f5059e269db130dcb2f22ded402f795e08|3dbc1418ff07de30cbd22193efad0efd5fc2d7f2"
-  "2016-12-31|69194fdaf51085249bcf3509469a25ec1e254ae9|e8b580d2e5e740071b25d087a0aca33f0b0dd691"
-  "2017-12-31|65fa04754a94a0f93673ed391c1808dd888d2012|08674ca997b62b695f773c32f0c20e51128bc053"
-  "2018-12-31|a3acd3450d7f93629f4cd0b6b4bf9b79e4213e95|97ddb9d5a1be282d6002a875a759266bb97b653f"
-  "2019-12-31|c4b4a53cad7722f031b725f8b41511e9d341d033|bac2028421a4be6e34e08764bbbda49e68b3a604"
-  "2021-02-15|9feb7343e662c12e794960905cf3f734cb59c251|faca82a3d55c83d0bb87c61d654f7a2f1f9682a6"
+  "2015-12-31|fe6224f5059e269db130dcb2f22ded402f795e08|3dbc1418ff07de30cbd22193efad0efd5fc2d7f2|5afd762dc09c2169b2c8e9e9dcef23bc703d4956"
+  "2016-12-31|69194fdaf51085249bcf3509469a25ec1e254ae9|e8b580d2e5e740071b25d087a0aca33f0b0dd691|0ae0cc00acb1413c22bfe3384fd6086ade4cc206"
+  "2017-12-31|65fa04754a94a0f93673ed391c1808dd888d2012|08674ca997b62b695f773c32f0c20e51128bc053|f3386051a959f218ce96ffbec5fe4010decb83f9"
+  "2018-12-31|a3acd3450d7f93629f4cd0b6b4bf9b79e4213e95|97ddb9d5a1be282d6002a875a759266bb97b653f|a537ba03c994eca87698cc4b95d4db4570edc665"
+  "2019-12-31|c4b4a53cad7722f031b725f8b41511e9d341d033|bac2028421a4be6e34e08764bbbda49e68b3a604|1750586fdc50a6cd98adba4aa2f5a7649bd91dbe"
+  "2020-12-31|b2ab18f8f3d0cbab55b92da7a5fcbc0e148a4c99|ac54d61d7af20f5d65ba889974f23a86bfb6cd57|5e0d50227091658bef3d5ddc9cfd2e9b97dd600d"
+  "2021-02-15|9feb7343e662c12e794960905cf3f734cb59c251|faca82a3d55c83d0bb87c61d654f7a2f1f9682a6|none"
   "2022-06-30|9426765a2c6a149f5b0ed2d9132cd1e4e7ee152d|85c953ebe4a6fef332158fd757d97c5a58682d3a"
   "2022-08-31|377ac059d6dac4c6f443d95d7c375b2e443cbfe6|0c0b9644a6a86e338ff3e3ea9cfc3021c2d96785"
   "2023-12-31|428f9686c4171912ee186ebd919640a7427da768|6142fcd5264ff605321657e75aae2701e3dd2108"
@@ -32,6 +34,8 @@ The script aborts immediately on the first failed checkout or upgrade.
 Options:
   --server-dir PATH        Path to the server working copy.
   --arcanist-dir PATH      Path to the Arcanist working copy.
+  --libphutil-dir PATH     Path to the libphutil working copy used in the
+                           Phacility phase.
   --start-at LABEL         Start at a stage label like "2018-12-31".
   --force                  Pass --force to bin/storage upgrade.
   --list                   Print configured stages and exit.
@@ -40,12 +44,15 @@ EOF
 }
 
 list_stages() {
-  local stage label server client
+  local stage label server client lib
   for stage in "${STAGES[@]}"; do
-    IFS="|" read -r label server client <<<"$stage"
+    IFS="|" read -r label server client lib <<<"$stage"
     printf '%s\n' "$label"
     printf '  server     %s\n' "$server"
     printf '  arcanist   %s\n' "$client"
+    if [[ -n "$lib" ]]; then
+      printf '  libphutil  %s\n' "$lib"
+    fi
   done
 }
 
@@ -57,6 +64,10 @@ while [[ $# -gt 0 ]]; do
       ;;
     --arcanist-dir)
       ARCANIST_DIR="$2"
+      shift 2
+      ;;
+    --libphutil-dir)
+      LIBPHUTIL_DIR="$2"
       shift 2
       ;;
     --start-at)
@@ -99,6 +110,7 @@ require_clean_repo() {
 
 require_clean_repo "$SERVER_DIR"
 require_clean_repo "$ARCANIST_DIR"
+require_clean_repo "$LIBPHUTIL_DIR"
 
 fetch_origin_history() {
   local repo="$1"
@@ -112,6 +124,7 @@ fetch_origin_history() {
 
 fetch_origin_history "$SERVER_DIR"
 fetch_origin_history "$ARCANIST_DIR"
+fetch_origin_history "$LIBPHUTIL_DIR"
 
 require_commit() {
   local repo="$1"
@@ -138,7 +151,7 @@ if [[ -z "$START_AT" ]]; then
 fi
 
 for stage in "${STAGES[@]}"; do
-  IFS="|" read -r label server_commit client_commit <<<"$stage"
+  IFS="|" read -r label server_commit client_commit libphutil_commit <<<"$stage"
 
   if [[ $seen_start -eq 0 ]]; then
     if [[ "$label" != "$START_AT" ]]; then
@@ -150,9 +163,17 @@ for stage in "${STAGES[@]}"; do
   printf '\n== Stage %s ==\n' "$label"
   require_commit "$ARCANIST_DIR" "$client_commit" "$label"
   require_commit "$SERVER_DIR" "$server_commit" "$label"
+  if [[ -n "${libphutil_commit:-}" && "$libphutil_commit" != "none" ]]; then
+    require_commit "$LIBPHUTIL_DIR" "$libphutil_commit" "$label"
+  fi
 
   printf 'Checking out arcanist %s\n' "$client_commit"
   git -C "$ARCANIST_DIR" checkout "$client_commit"
+
+  if [[ -n "${libphutil_commit:-}" && "$libphutil_commit" != "none" ]]; then
+    printf 'Checking out libphutil %s\n' "$libphutil_commit"
+    git -C "$LIBPHUTIL_DIR" checkout "$libphutil_commit"
+  fi
 
   printf 'Checking out server %s\n' "$server_commit"
   git -C "$SERVER_DIR" checkout "$server_commit"
