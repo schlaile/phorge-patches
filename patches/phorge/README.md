@@ -259,6 +259,28 @@ viewer PHID:
 - Countdown
 - Macro
 
+### `023-hide-undeliverable-recipients-from-mail-hints.patch`
+
+This patch makes the visible `To:` and `Cc:` recipient hints in mail bodies
+match the recipients who can actually receive the message.
+
+Before this change, the hint block was rendered from the raw recipient PHID
+lists, before mail delivery filtering had removed disabled, invalid, or other
+undeliverable recipients. As a result, installs could show disabled former
+users in the visible `Cc:` summary even though the mail engine would not send
+them the message.
+
+The patch keeps the existing raw PHID headers intact for reply handling and
+diagnostics, but renders the human-facing recipient hints from the final
+filtered `To` and `Cc` maps instead.
+
+Verification:
+
+- syntax check of `src/applications/metamta/replyhandler/PhabricatorMailTarget.php`
+- code inspection of the mail target path to confirm that `getToMap()` and
+  `getCCMap()` are populated after recipient expansion, user loading, and
+  recipient filtering in `PhabricatorMailReplyHandler::getMailTargets()`
+
 Verification:
 
 - syntax check of both touched search engine classes
