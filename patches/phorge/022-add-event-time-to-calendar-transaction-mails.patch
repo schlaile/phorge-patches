@@ -1,0 +1,16 @@
+diff --git a/src/applications/calendar/editor/PhabricatorCalendarEventEditor.php b/src/applications/calendar/editor/PhabricatorCalendarEventEditor.php
+index e5f5689025..bd0c0987dc 100644
+--- a/src/applications/calendar/editor/PhabricatorCalendarEventEditor.php
++++ b/src/applications/calendar/editor/PhabricatorCalendarEventEditor.php
+@@ -321,6 +321,11 @@ final class PhabricatorCalendarEventEditor
+     array $xactions) {
+ 
+     $body = parent::buildMailBody($object, $xactions);
++    $actor = $this->getActor();
++
++    $body->addTextSection(
++      pht('WHEN'),
++      $object->renderEventDate($actor, true));
+ 
+     $description = $object->getDescription();
+     if ($this->getIsNewObject()) {

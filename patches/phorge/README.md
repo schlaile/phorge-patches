@@ -482,3 +482,27 @@ Verification:
 - syntax check of `webroot/rsrc/js/application/calendar/behavior-day-view.js`
 - code inspection of the overlap-cluster width calculation in the day-view
   renderer
+
+### `022-add-event-time-to-calendar-transaction-mails.patch`
+
+This patch adds an explicit `WHEN` section to normal calendar transaction
+mails.
+
+Background:
+
+- reminder mails already include the event start time explicitly
+- normal event transaction mails include transaction content, a detail link,
+  and an ICS attachment
+- but they do not currently include the event date and time in the mail body
+  itself
+
+This can make invite, update, and confirmation mails unnecessarily confusing,
+especially for recipients who only skim the message body.
+
+The patch adds a small `WHEN` section using the existing event date rendering
+logic before the detail link and ICS attachment.
+
+Verification:
+
+- syntax check of `src/applications/calendar/editor/PhabricatorCalendarEventEditor.php`
+- code inspection of the calendar transaction mail body builder
