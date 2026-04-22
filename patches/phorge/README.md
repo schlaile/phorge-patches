@@ -458,3 +458,27 @@ Verification:
 - `bin/config list` confirms that `home.logged-out-mode` is registered
 - syntax check of `src/applications/home/config/PhabricatorHomeConfigOptions.php`
 - syntax check of `src/applications/home/controller/PhabricatorHomeMenuItemController.php`
+
+### `021-leave-click-space-for-overlapping-calendar-events.patch`
+
+This patch addresses a small but user-visible limitation in the calendar day
+view.
+
+Today, overlapping events are rendered as adjacent columns. However, the last
+column in a cluster expands all the way to the right edge of the day grid. This
+means users can no longer click the underlying time slot to create another
+event which overlaps the existing one.
+
+The patch leaves a small amount of click-through space to the right of the last
+event in each overlap cluster:
+
+- existing overlapping events still render side by side
+- no new visible button or interaction mode is introduced
+- users regain the ability to create another event directly from the day view
+  even when a time range is already occupied
+
+Verification:
+
+- syntax check of `webroot/rsrc/js/application/calendar/behavior-day-view.js`
+- code inspection of the overlap-cluster width calculation in the day-view
+  renderer
