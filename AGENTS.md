@@ -65,3 +65,26 @@ Repository-specific working rules for coding agents.
 
 - deployment and operational knowledge belongs in `phorge-intern`, not here
 - do not assume files in this repository map 1:1 to upstream submission units
+
+## No PHP Patch Files
+
+- do not create PHP translation helper files anywhere in this repository,
+  neither in `translation/de/patches/` nor elsewhere
+- the PO file is the sole source of truth; the PHP translation classes are
+  generated from it at the end (`scripts/po_to_translation.php`), so
+  intermediate PHP arrays are clutter and get confused with the real build
+  output
+- edit the PO directly (set `msgstr`, drop the `fuzzy` flag); if a helper
+  like `patch_po.php` is used, feed it a temporary file outside the
+  repository and never commit it
+
+## Where Curation State Lives
+
+- overall curation state and inventory: `notes/` (start with
+  `notes/inventory.md` and `notes/upstream-candidates.md`)
+- German translation: `notes/curation-i18n-content.md`,
+  `notes/curation-i18n-infra.md` and the conventions in
+  `translation/de/style-guide.md`
+- legacy patch series in `patches/phabricator-legacy/` and
+  `patches/libphutil-legacy/` are source material; curated results go to
+  `patches/phorge/`
