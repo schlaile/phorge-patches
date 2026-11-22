@@ -1,0 +1,146 @@
+From b2c3e596b20cd98835601bc4b7fcb5e63ae378bc Mon Sep 17 00:00:00 2001
+From: Jean Claude <jean@schlaile.de>
+Date: Sun, 22 Nov 2026 20:49:19 +0100
+Subject: [PATCH] Mail: strip German reply headers from incoming mail
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+Mail clients in German introduce quoted text with "Am <date> schrieb
+<user>:" (Evolution, Thunderbird, Apple Mail, GMail) or with
+"-----Ursprüngliche Nachricht-----" (Outlook). Strip these like the
+English "On <date>, <user> wrote:" header.
+
+To avoid eating prose like "Am Montag schrieb ich dir ...", the header
+must end with a colon on the "schrieb" line or on the line after it,
+and "schrieb" must follow "Am" within one line break.
+
+Test Plan: arc unit PhabricatorMetaMTAEmailBodyParserTestCase; the new
+cases fail without the parser change.
+
+Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>
+---
+ .../PhabricatorMetaMTAEmailBodyParser.php     | 30 +++++++++++
+ ...bricatorMetaMTAEmailBodyParserTestCase.php | 52 +++++++++++++++++++
+ 2 files changed, 82 insertions(+)
+
+diff --git a/src/applications/metamta/parser/PhabricatorMetaMTAEmailBodyParser.php b/src/applications/metamta/parser/PhabricatorMetaMTAEmailBodyParser.php
+index 322e22ca3a..90b2479df4 100644
+--- a/src/applications/metamta/parser/PhabricatorMetaMTAEmailBodyParser.php
++++ b/src/applications/metamta/parser/PhabricatorMetaMTAEmailBodyParser.php
+@@ -106,12 +106,42 @@ final class PhabricatorMetaMTAEmailBodyParser extends Phobject {
+       }
+     }
+ 
++    // German: "Am <date> schrieb <user>:". Like the English form above, this
++    // may be split across two lines, and we only strip it if the line with
++    // "schrieb" (or the line after it) ends with a colon and "schrieb" follows
++    // "Am" within one line break, so prose like "Am Montag schrieb ich dir
++    // ..." is not mistaken for a quote header.
++    $start = null;
++    $lines = phutil_split_lines($body);
++    $lines = array_values($lines);
++    foreach ($lines as $key => $line) {
++      if (preg_match('/^\s*>?\s*Am\b/u', $line)) {
++        $start = $key;
++      }
++      if ($start !== null && ($key - $start) <= 1 &&
++          preg_match('/\bschrieb\b/u', $line)) {
++        $next = idx($lines, $key + 1, '');
++        if (preg_match('/:\s*$/', $line) ||
++            (!preg_match('/^\s*$/', $next) && preg_match('/:\s*$/', $next))) {
++          $lines = array_slice($lines, 0, $start);
++          $body = implode('', $lines);
++          break;
++        }
++      }
++    }
++
+     // Outlook english
+     $body = preg_replace(
+       '/^\s*(> )?-----Original Message-----.*?/imsU',
+       '',
+       $body);
+ 
++    // Outlook german
++    $body = preg_replace(
++      '/^\s*(> )?-----Urspr\x{00FC}ngliche Nachricht-----.*?/imsUu',
++      '',
++      $body);
++
+     // Outlook danish
+     $body = preg_replace(
+       '/^\s*(> )?-----Oprindelig Meddelelse-----.*?/imsU',
+diff --git a/src/applications/metamta/parser/__tests__/PhabricatorMetaMTAEmailBodyParserTestCase.php b/src/applications/metamta/parser/__tests__/PhabricatorMetaMTAEmailBodyParserTestCase.php
+index d8ad49956d..50f07dc0f6 100644
+--- a/src/applications/metamta/parser/__tests__/PhabricatorMetaMTAEmailBodyParserTestCase.php
++++ b/src/applications/metamta/parser/__tests__/PhabricatorMetaMTAEmailBodyParserTestCase.php
+@@ -85,6 +85,21 @@ EOEMAIL;
+     $this->assertEqual('On which horse shall you ride?', $stripped);
+   }
+ 
++  public function testFalsePositiveForAmSchrieb() {
++    $body = <<<EOEMAIL
++Am Montag schrieb ich dir schon, dass es klappt.
++
++Am 22.11.2026 um 20:21 schrieb Jean Claude:
++> Wann passt es dir?
++EOEMAIL;
++
++    $parser = new PhabricatorMetaMTAEmailBodyParser();
++    $stripped = $parser->stripTextBody($body);
++    $this->assertEqual(
++      'Am Montag schrieb ich dir schon, dass es klappt.',
++      $stripped);
++  }
++
+   private function getEmailBodiesWithFullCommands() {
+     $bodies = $this->getEmailBodies();
+     $with_commands = array();
+@@ -238,6 +253,43 @@ EOMAIL
+ <<<EOMAIL
+ OKAY
+ 
++Am Sonntag, dem 22.11.2026 um 20:21 +0100 schrieb Jean (Jean Claude):
++> Aufgabe zeigen
++EOMAIL
++,
++<<<EOMAIL
++OKAY
++
++Am Sonntag, dem 22.11.2026 um 20:21 +0100 schrieb Jean (Jean
++Claude):
++> Aufgabe zeigen
++EOMAIL
++,
++<<<EOMAIL
++OKAY
++
++Am 22.11.2026 um 20:21 schrieb Peter Schlaile:
++> ...
++EOMAIL
++,
++<<<EOMAIL
++OKAY
++
++> Am 22.11.2026 um 20:21 schrieb "Peter" <peter@example.com>:
++> ...
++EOMAIL
++,
++<<<EOMAIL
++OKAY
++
++-----Urspr\u{00FC}ngliche Nachricht-----
++Von: Peter Schlaile
++Gesendet: Sonntag, 22. November 2026 20:21
++EOMAIL
++,
++<<<EOMAIL
++OKAY
++
+ > -----Original Message-----
+ >
+ > ...
+-- 
+2.47.3
+

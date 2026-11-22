@@ -528,3 +528,27 @@ Verification:
 
 - syntax check of `src/applications/calendar/editor/PhabricatorCalendarEventEditor.php`
 - code inspection of the calendar transaction mail body builder
+
+### `024-strip-german-reply-headers-from-incoming-mail.patch`
+
+This patch strips German reply headers when mail replies are turned into
+comments.
+
+Background:
+
+- `PhabricatorMetaMTAEmailBodyParser` only recognizes the English
+  "On <date>, <user> wrote:" header (plus Outlook English/Danish and a French
+  GMail form)
+- German mail clients write "Am <date> schrieb <user>:" (Evolution,
+  Thunderbird, Apple Mail, GMail) or "-----Ursprüngliche Nachricht-----"
+  (Outlook), so the whole quoted mail ended up in the comment
+
+The patch adds both forms. To avoid stripping prose such as "Am Montag
+schrieb ich dir ...", the header must end with a colon on the "schrieb" line or
+the line after it, and "schrieb" must follow "Am" within one line break.
+
+Verification:
+
+- `arc unit src/applications/metamta/parser/__tests__/PhabricatorMetaMTAEmailBodyParserTestCase.php`
+- new cases (single-line and wrapped Evolution header, Thunderbird/Apple Mail,
+  quoted header, Outlook, false positive) fail without the parser change
