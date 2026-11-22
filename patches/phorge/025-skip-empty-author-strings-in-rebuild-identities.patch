@@ -1,0 +1,63 @@
+From 307bb7deb8837d143f2fd2469c23a372650b40eb Mon Sep 17 00:00:00 2001
+From: Jean Claude <jean@schlaile.de>
+Date: Sun, 22 Nov 2026 21:39:28 +0100
+Subject: [PATCH] Repository: skip empty author strings in "rebuild-identities"
+
+Commits which were never fully imported can have no author string. The
+workflow already skipped empty committer strings, but tried to create an
+identity with an empty name for the author, which fails on servers with
+STRICT_ALL_TABLES ("Column 'identityNameRaw' cannot be null") and aborts
+the whole run.
+
+Handle a missing author like a missing committer, and use
+phutil_nonempty_string() for both checks to avoid strlen(null)
+deprecation warnings on PHP 8.1+.
+
+Test Plan: ran `bin/repository rebuild-identities --all-repositories`
+on an install with such a commit; it now completes.
+
+Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>
+---
+ ...toryManagementRebuildIdentitiesWorkflow.php | 18 ++++++++++++------
+ 1 file changed, 12 insertions(+), 6 deletions(-)
+
+diff --git a/src/applications/repository/management/PhabricatorRepositoryManagementRebuildIdentitiesWorkflow.php b/src/applications/repository/management/PhabricatorRepositoryManagementRebuildIdentitiesWorkflow.php
+index 9df88ad055..5dbddd8d74 100644
+--- a/src/applications/repository/management/PhabricatorRepositoryManagementRebuildIdentitiesWorkflow.php
++++ b/src/applications/repository/management/PhabricatorRepositoryManagementRebuildIdentitiesWorkflow.php
+@@ -204,12 +204,18 @@ final class PhabricatorRepositoryManagementRebuildIdentitiesWorkflow
+       $data = $commit->getCommitData();
+       $author = $data->getAuthorString();
+ 
+-      $author_identity = $this->getIdentityForCommit(
+-        $commit,
+-        $author);
+-
++      // Commits which were never fully imported may have no author string.
++      // Treat them like commits without a committer instead of trying to
++      // create an identity with an empty name.
+       $author_phid = $commit->getAuthorIdentityPHID();
+-      $identity_phid = $author_identity->getPHID();
++      if (phutil_nonempty_string($author)) {
++        $author_identity = $this->getIdentityForCommit(
++          $commit,
++          $author);
++        $identity_phid = $author_identity->getPHID();
++      } else {
++        $identity_phid = null;
++      }
+ 
+       $aidentity_phid = $identity_phid;
+       if ($author_phid !== $identity_phid) {
+@@ -220,7 +226,7 @@ final class PhabricatorRepositoryManagementRebuildIdentitiesWorkflow
+ 
+       $committer_name = $data->getCommitterString();
+       $committer_phid = $commit->getCommitterIdentityPHID();
+-      if (strlen($committer_name)) {
++      if (phutil_nonempty_string($committer_name)) {
+         $committer_identity = $this->getIdentityForCommit(
+           $commit,
+           $committer_name);
+-- 
+2.47.3
+

@@ -552,3 +552,18 @@ Verification:
 - `arc unit src/applications/metamta/parser/__tests__/PhabricatorMetaMTAEmailBodyParserTestCase.php`
 - new cases (single-line and wrapped Evolution header, Thunderbird/Apple Mail,
   quoted header, Outlook, false positive) fail without the parser change
+
+### `025-skip-empty-author-strings-in-rebuild-identities.patch`
+
+`bin/repository rebuild-identities` aborted on commits without an author
+string (never fully imported commits from old installs): it tried to create an
+identity with an empty name, which MySQL/MariaDB with `STRICT_ALL_TABLES`
+rejects (`Column 'identityNameRaw' cannot be null`). The committer path already
+skipped empty strings; the patch handles the author the same way and uses
+`phutil_nonempty_string()` for both checks (no `strlen(null)` deprecation on
+PHP 8.1+).
+
+Verification:
+
+- `bin/repository rebuild-identities --all-repositories` on our migrated
+  install (57,000 commits) completes instead of aborting in `rLIBPH`
