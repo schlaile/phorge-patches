@@ -29,17 +29,20 @@ Planned contents:
 ## Current Working Basis
 
 - `../import/current/phorge-current.pot`
-  - current string inventory extracted from the local `phorge` checkout
-  - current `msgid` count: about 17,261
+  - current string inventory, built from `bin/i18n extract` of the
+    `phorge` fork (`scripts/extract_to_pot.py`)
+  - current `msgid` count: 16,608 (fork master after upstream sync
+    2026-11, tag `patches/2026-11`)
 
 - `work/phorge-de-work.po`
   - first merged working PO derived from the historic local corpus and the
     current `phorge` POT snapshot
   - source of truth for ongoing German translation work in this repository
-  - current `msgfmt --statistics` result:
-    - translated: 11,233
-    - fuzzy: 2,129
-    - untranslated: 3,898
+  - current `msgfmt --statistics` result (2026-11-25):
+    - translated: 16,608 (every current string)
+    - fuzzy: 0
+    - untranslated: 0
+  - strings no longer used by Phorge are kept as obsolete `#~` entries
 
 ## Important Caveat
 

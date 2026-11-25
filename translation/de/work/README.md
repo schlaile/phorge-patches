@@ -42,6 +42,22 @@ Before editing `phorge-de-work.po`, read:
 3. discard bad matches
 4. continue translating current Phorge strings in the established German voice
 
+## After an Upstream Sync
+
+1. in a `phorge` checkout of the new state (with `arcanist/` next to it):
+   `./bin/i18n extract .`
+2. `scripts/extract_to_pot.py <phorge>/src/.cache/i18n_strings.json
+   translation/import/current/phorge-current.pot`
+3. `scripts/po_sync.py --po translation/de/work/phorge-de-work.po
+   --pot translation/import/current/phorge-current.pot --todo /tmp/todo.json`
+   (work list outside the repository)
+4. translate the work list in module context into a JSON object
+   msgid -> msgstr, check placeholders, then run `po_sync.py` again with
+   `--translations`; it fills the empty entries added in step 3
+5. regenerate `PhabricatorGermanTranslation.php` with `po_to_translation.php`
+   and run `PhorgeI18nTestCase` in the `phorge` checkout; it fails on unused
+   and on malformed translations
+
 ## Format Reminder
 
 - normal entries should stay normal PO entries
